@@ -20,7 +20,12 @@ CSS = """
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=IBM+Plex+Sans:wght@400;500;600&display=swap');
 html, body, [class*="css"], .stMarkdown, .stText, button, input, label { font-family: 'IBM Plex Sans', system-ui, sans-serif; }
 h1, h2, h3 { font-family: 'Fraunces', Georgia, serif !important; font-weight: 600 !important; letter-spacing: 0 !important; }
-[data-testid="stMainBlockContainer"] { padding-top: 0.6rem; padding-bottom: 2rem; max-width: 1280px; }
+/* Espace entre la barre latérale et le contenu, et largeur du contenu : même configuration que le défi 1
+   (theme.py, .block-container). Une largeur maximale fixe (1280px) laissait un vide symétrique des deux côtés
+   sur un écran large, puisque le bloc restait centré dans l'espace libre à côté de la barre latérale : la
+   largeur doit rester fluide (100 %), comme au défi 1, avec seulement un espacement latéral fixe. */
+[data-testid="stMainBlockContainer"] { padding-top: 0.6rem; padding-bottom: 2rem; padding-left: 1.5rem !important;
+  padding-right: 1.5rem !important; max-width: 100% !important; }
 [data-testid="stSidebar"] [data-testid="stSidebarNavLink"] span { font-size: 0.93rem; }
 [data-testid="stSidebarHeader"] img { height: 2.6rem !important; max-width: 100% !important; }
 [data-testid="stSidebar"] [data-testid="stNavSectionHeader"] { text-transform: uppercase; letter-spacing: 0.08em; font-size: 0.72rem; color: #9fb2c6; }
@@ -86,14 +91,26 @@ h1, h2, h3 { font-family: 'Fraunces', Georgia, serif !important; font-weight: 60
 .topbar-centre { text-align: center; }
 .topbar-titre { font-family: 'Fraunces', Georgia, serif; font-size: 1.2rem; font-weight: 600; color: #0d366b; }
 .topbar-sous-titre { font-size: 0.76rem; color: #55534e; font-style: italic; margin-top: 1px; }
-.ai-lab-logo-carte { display: inline-flex; align-items: center; justify-content: center; height: 40px; }
-.ai-lab-logo-carte img { height: 34px; width: auto; max-width: 140px; object-fit: contain; }
-.ai-lab-logo-repli { font-size: 0.55rem; font-weight: 700; color: #0d366b; line-height: 1.2; text-align: center; }
-.pied-identite { margin-top: 8px; padding-top: 10px; border-top: 1px solid #e2dfd6; }
-.pied-identite-titre { font-size: 0.86rem; font-weight: 700; color: #0d366b; }
-.pied-identite-sous-titre { font-size: 0.78rem; color: #55534e; margin-top: 2px; line-height: 1.4; }
+/* Carte du logo Togo AI Lab : même configuration que le défi 1 (bordure or, fond blanc, ombre légère) —
+   repris de EconomyNumeric-Challenge-1/dashboard/theme.py (.ai-lab-logo-card). */
+.ai-lab-logo-carte { display: inline-flex; align-items: center; justify-content: center; background: #ffffff;
+  border: 2px solid #ffce00; border-radius: 12px; padding: 7px 12px; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08); height: 56px; }
+.ai-lab-logo-carte img { height: 40px; width: auto; max-width: 140px; object-fit: contain; }
+.ai-lab-logo-repli { font-size: 0.55rem; font-weight: 700; color: #dc2626; line-height: 1.2; text-align: center; }
+/* Pied de page : même configuration que le défi 1 (carte centrée, ombre légère) — repris de
+   EconomyNumeric-Challenge-1/dashboard/theme.py, avec notre propre palette (section 3.3). */
+.pied-identite { background: #ffffff; border: 1px solid #e2dfd6; border-radius: 12px; padding: 16px 24px;
+  margin-top: 20px; text-align: center; box-shadow: 0 1px 4px rgba(13, 54, 107, 0.06); }
+.pied-identite-titre { font-size: 0.92rem; font-weight: 800; color: #0d366b; line-height: 1.4; }
+.pied-identite-sous-titre { font-size: 0.78rem; color: #55534e; margin-top: 4px; line-height: 1.5; }
+/* Fond blanc pour distinguer la barre du haut du fond crème de la page, comme le défi 1 (.st-key-bande_officielle,
+   fond blanc, ombre légère au lieu d'un simple filet). Hauteur minimale généreuse et alignement vertical centré
+   des trois colonnes (pas un ajustement au pixel près) : le sous-titre et la carte du logo Togo AI Lab (56px) ne
+   doivent jamais toucher le bord de la barre, même si une police de repli change légèrement la hauteur du texte. */
 [data-testid="stVerticalBlockBorderWrapper"]:has(div.st-key-topbar) { margin-bottom: 0.8rem; }
-div.st-key-topbar { padding: 6px 0 12px; border-bottom: 1px solid #e2dfd6; margin-bottom: 0.6rem; }
+div.st-key-topbar { background: #ffffff; min-height: 92px; padding: 16px 0; box-shadow: 0 1px 8px rgba(13, 54, 107, 0.08);
+  margin-bottom: 0.6rem; box-sizing: border-box; }
+div.st-key-topbar [data-testid="stHorizontalBlock"] { align-items: center; }
 div.st-key-topbar_droite { display: flex; align-items: center; justify-content: flex-end; gap: 8px; }
 div.st-key-topbar_droite button { padding: 0.15rem 0.55rem !important; min-height: 1.6rem !important; }
 </style>
