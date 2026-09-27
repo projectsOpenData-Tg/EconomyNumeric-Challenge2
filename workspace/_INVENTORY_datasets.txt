@@ -1,0 +1,2819 @@
+=====================================================================
+  INVENTAIRE DES JEUX DE DONNÉES — Défi 2 Économie numérique (Togo)
+=====================================================================
+
+  Base         : liens de la rubrique « RESOURCES ET données » de _PROJECT.txt
+  Compléments  : 2b à 2e, 3b à 3i, 4c à 4j, 5c et 6b, trouvés le
+                 25/09/2026 en parcourant tout le catalogue
+                 d'opendata.gouv.tg et geodata.gouv.tg (absents de
+                 _PROJECT.txt)
+  Téléchargés  : 25/09/2026, par script (curl), sans modification
+                 (sauf 2e : lu en flux, non enregistré, voir sa fiche)
+  Emplacement  : data/raw/
+  Traçabilité  : data/raw/_headers/  (en-têtes HTTP de chaque téléchargement)
+                 data/raw/_metadata/ (métadonnées des pages sources)
+
+  Compléments hors portail (validés le 26/09/2026, décisions D-1 à
+  D-18, P1 à P8, Q1 à Q12, R1 à R6, S1 à S10 de
+  _RECHERCHE_donnees_manquantes.md) :
+  ARCEP, INSEED (annuaires, livrets du RGPH-5), BCEAO, UIT, OCHA (HDX),
+  micro-données EHCVM et Findex (Banque mondiale), MICS6, Afrobaromètre,
+  grilles tarifaires des opérateurs, geodata.gouv.tg (lieux candidats,
+  agences de la Poste), API Banque mondiale (repères UEMOA et Afrique
+  subsaharienne). Deuxième récapitulatif et fiches BM1 à C5b,
+  ci-dessous.
+    Téléchargés  : 26/09/2026
+    Emplacement  : data/raw/_extradatas/obj1 à obj5
+    Traçabilité  : data/raw/_extradatas/_MANIFEST.csv (URL, date, taille,
+                   SHA-256, objectifs servis, fichier source ou dérivé) ;
+                   data/raw/_extradatas/README.md
+    Micro-données (W2, W3) : compte gratuit de l'utilisateur sur
+                   microdata.worldbank.org, sous conditions d'utilisation
+                   (usage statistique agrégé, pas de redistribution, pas
+                   d'identification des répondants). Dossiers ignorés
+                   par git ; aucune variable individuelle n'est
+                   reproduite dans ce fichier.
+
+  Conventions
+    - Nombre de lignes = lignes de données, en-tête exclu.
+    - Source = organisation qui publie le jeu sur opendata.gouv.tg,
+      d'après ses métadonnées, pour les fiches 1 à 7. Pour les fiches
+      BM1 à C5b (compléments hors portail), source = organisation citée
+      dans le manifeste ci-dessus.
+    - Famille = familles de données de l'énoncé, reprises de
+      02_decision_matrix.
+    - Statut : Disponible / Partiel / À confirmer / Absent.
+    - md5 / taille (fiches 1 à 7) : empreinte MD5, calculée au moment du
+      premier téléchargement (25/09/2026). sha256 / taille (fiches BM1 à
+      C5b) : empreinte SHA-256, reprise de `_extradatas/_MANIFEST.csv`.
+      Les deux fonctions ne sont pas comparables entre elles.
+
+
+---------------------------------------------------------------------
+  RÉCAPITULATIF
+---------------------------------------------------------------------
+
+  #  Fichier                                        Famille                     Lignes  Col.  Statut
+  -- ---------------------------------------------  --------------------------  ------  ----  -----------
+  1  D1_individus-utilisant-internet.csv            [Usage d'Internet]              64     8  Disponible
+  1b D1_worldbank-api.json                          [Usage d'Internet]              66     -  Disponible
+  2  D2_abonnes-internet-type-acces.csv             [Usage d'Internet]             160     4  Partiel
+  2b D2_communications-electroniques.csv            [Usage d'Internet]             160     6  Partiel
+  2c D2_haut-debit-fixe.csv                         [Usage d'Internet]              64     8  Disponible
+  2d D2_worldbank-api-haut-debit-fixe.json          [Usage d'Internet]              66     -  Disponible
+  2e MESPTN train-full.csv (non téléchargé)         [Usage d'Internet]           30558  4043  Partiel
+  2e MESPTN test.csv (non téléchargé)               [Usage d'Internet]           13097  4042  Partiel
+  3  D3_recap-telephonie-gsm.csv                    [Marché des télécoms]           70     4  Partiel
+  3b D3_abonnements-cellulaires-mobiles.csv         [Marché des télécoms]           64     8  Disponible
+  3c D3_telephonie-mobile-pour-100.csv              [Marché des télécoms]           64     8  Disponible
+  3d D3_telephonie-fixe.csv                         [Marché des télécoms]           64     8  Disponible
+  3e D3_telephonie-fixe-pour-100.csv                [Marché des télécoms]           64     8  Disponible
+  3f D3_worldbank-api-*.json (4 fichiers)           [Marché des télécoms]       4 x 66     -  Disponible
+  3g D3_hdx-infrastructures.csv                     [Marché des télécoms]         1165     6  Disponible
+  3h D3_metadonnees-tours-telecoms.csv              (schéma ; données privées)      56     5  Absent
+  3i D3_geodata-*.json (6 indicateurs)              [Marché des télécoms]          558     -  Disponible
+  4  D4_etablissements-financiers.csv               [Établissements financiers]    738    13  Partiel
+  4b D4_metadonnees-etablissements-financiers.csv   (dictionnaire de D4)           107     5  Disponible
+  4c D4_distributeurs-de-billets.csv                [Établissements financiers]    184    10  Partiel
+  4d D4_metadonnees-distributeurs-de-billets.csv    (dictionnaire de 4c)            26     5  Disponible
+  4e D4_*-adultes.csv (4 fichiers)                  [Établissements financiers] 4 x 64     8  Disponible
+  4f D4_worldbank-api-*-adultes.json (4 fichiers)   [Établissements financiers] 4 x 66     -  Disponible
+  4g D4_hdx-secteur-financier.csv                   [Établissements financiers]   3348     6  Disponible
+  4h D4_worldbank-api-findex-*.json (3 fichiers)    [Établissements financiers] 3 x 66     -  Disponible
+  4i D4_services-epargne.csv                        [Établissements financiers]     26     4  Partiel
+  4i D4_cheques-postaux.csv                         [Établissements financiers]     14     4  Partiel
+  4i D4_mandats-express-internationaux.csv          [Établissements financiers]     39     4  Partiel
+  4j D4_geodata-*.json (10 indicateurs)             [Établissements financiers]    558     -  Disponible
+  5  D5_agents-mobile-money.csv                     [Agents mobile money]        19788     7  Partiel
+  5b D5_metadonnees-agents-mobile-money.csv         (dictionnaire de D5)            46     5  Disponible
+  5c D5_geodata-habitants-par-point-mm_*.json       [Agents mobile money]          558     -  Disponible
+  5c D5_geodata-pct-habitants-1km-point-mm_*.json   [Agents mobile money]          558     -  Disponible
+  6  D6_rgph.csv                                    [Population]                   759     6  Partiel
+  6b D6_geodata-limites-regions.geojson             (référentiel territorial)        5     -  Disponible
+  6b D6_geodata-limites-prefectures.geojson         (référentiel territorial)       39     -  Disponible
+  6b D6_geodata-limites-communes.geojson            (référentiel territorial)      117     -  Disponible
+  6b D6_geodata-limites-cantons.geojson             (référentiel territorial)      396     -  Disponible
+  -  Page geodata.gouv.tg (identique à D5)          [Agents mobile money]            -     -  Disponible
+
+  Liens « Format original » (opendata.gouv.tg/fr/datasets/r/...) : ils
+  redirigent tous vers le même fichier que le lien « URL data »
+  (empreintes md5 identiques). Aucun fichier supplémentaire.
+  Pour 2b, 2c, 2e et 3b à 3e, les liens de même forme redirigent aussi
+  vers le fichier publié (vérifié le 25/09/2026).
+
+
+---------------------------------------------------------------------
+  1. D1_individus-utilisant-internet.csv
+---------------------------------------------------------------------
+
+  Nom du fichier       individus-utilisant-internet-de-la-population-.csv
+                       (enregistré sous D1_individus-utilisant-internet.csv)
+  Source               Banque mondiale (organisation déclarée sur
+                       opendata.gouv.tg) ; indicateur IT.NET.USER.ZS
+  Famille              [Usage d'Internet]
+  Description          Part des individus ayant utilisé Internet au cours des
+                       3 derniers mois (% de la population), série annuelle.
+  Format               CSV (virgule, UTF-8)
+  Colonnes             indicator, country, countryiso3code, date, value,
+                       unit, obs_status, decimal
+  Période couverte     1960-2023 ; valeurs renseignées 1960-2022 (51 sur 64).
+                       2023 présent mais vide. 1961-1964, 1966-1969 et
+                       1971-1974 vides.
+  Niveau géographique  National
+  Nombre de lignes     64
+  Nombre de colonnes   8
+  Langue               EN (libellés)
+  Millésime            Publication opendata : 18/03/2025
+  Licence              CC-BY-4.0
+  Statut               Disponible
+  Remarques            Valeurs à 0 de 1960 à 1995 : zéros déclarés, pas des
+                       cases vides.
+  URL                  https://opendata.gouv.tg/s/resources/donnees-ouvertes-sur-individus-utilisant-internet-de-la-population/20250318-102230/individus-utilisant-internet-de-la-population-.csv
+  md5 / taille         a8e9d4cb58b31bf08a5e023a212d4456 / 4 630 octets
+
+
+---------------------------------------------------------------------
+  1b. D1_worldbank-api.json
+---------------------------------------------------------------------
+
+  Nom du fichier       Réponse de l'API au lien « Lien vers la source » du
+                       dataset 1 (paramètres ajoutés : format=json,
+                       per_page=200 ; le XML par défaut n'en renvoyait que
+                       la page 1)
+  Source               Banque mondiale, World Development Indicators ;
+                       donnée d'origine UIT (d'après les métadonnées de
+                       l'API)
+  Famille              [Usage d'Internet]
+  Description          Même indicateur que D1, dans sa version la plus
+                       récente.
+  Format               JSON
+  Période couverte     1960-2025 ; valeurs renseignées jusqu'en 2024
+  Niveau géographique  National
+  Nombre de lignes     66 observations
+  Nombre de colonnes   Sans objet (JSON) : date, value, unit, obs_status...
+  Langue               EN
+  Millésime            lastupdated = 13/07/2026
+  Statut               Disponible
+  Remarques            Diffère de D1 sur les années récentes : 2021 = 30,34
+                       (D1 : 32,51) et 2022 = 35,61 (D1 : 37,62). Il s'agit
+                       d'une révision de la série. Il ajoute aussi 2023
+                       (37,57) et 2024 (39,48).
+  URL                  https://api.worldbank.org/v2/country/TGO/indicators/IT.NET.USER.ZS?format=json&per_page=200
+  md5 / taille         c7f7b2167da412de9afe0f0f6f32f93c / 14 881 octets
+
+
+---------------------------------------------------------------------
+  2. D2_abonnes-internet-type-acces.csv
+---------------------------------------------------------------------
+
+  Nom du fichier       observationdata-cxnvmoc.csv
+                       (enregistré sous D2_abonnes-internet-type-acces.csv)
+  Source               INSEED (organisation déclarée sur opendata.gouv.tg)
+  Famille              [Usage d'Internet] ; recoupe [Marché des télécoms]
+                       (abonnés par opérateur)
+  Description          Abonnés Internet par type d'accès, par technologie et
+                       par opérateur, et taux de pénétration, format long
+                       (un indicateur par ligne et par année).
+  Format               CSV (virgule, guillemets, UTF-8)
+  Colonnes             indicateur, Unit, Date, Value
+  Période couverte     2013-2019, annuel
+  Niveau géographique  National
+  Nombre de lignes     160 (25 indicateurs x 7 ans, 15 couples absents)
+  Nombre de colonnes   4
+  Langue               FR
+  Millésime            Publication : 27/12/2024
+  Licence              « other-open »
+  Statut               Partiel
+  Remarques            La description annonce des accès 5G et Wi-Fi et une
+                       ventilation urbain / rural : ils sont absents du
+                       fichier. Pas de 4G Atlantique Telecom en 2018-2019.
+                       Page revérifiée le 25/09/2026 : toujours une seule
+                       ressource, métadonnées inchangées depuis le
+                       27/12/2024 (couverture 2013-2019). Aucune ressource
+                       communautaire, aucune réutilisation.
+                       Au-delà de 2019 : 2b prolonge les abonnés par
+                       opérateur jusqu'en 2022, sans le détail par
+                       technologie ; 2c et 2d donnent le haut débit fixe
+                       pour 100 personnes jusqu'en 2023 et 2024 ; 2e est
+                       un jeu ménage de 2024.
+  URL                  https://opendata.gouv.tg/s/resources/donnees-ouvertes-sur-les-abonnes-internet-par-type-dacces-au-togo/20241227-112840/observationdata-cxnvmoc.csv
+  md5 / taille         b2ca676e36b6606a8bc8c546de9a42b9 / 8 835 octets
+
+
+---------------------------------------------------------------------
+  2b. D2_communications-electroniques.csv
+---------------------------------------------------------------------
+
+  Nom du fichier       observationdata-pekcwzc.csv
+                       (enregistré sous D2_communications-electroniques.csv)
+  Source               INSEED (organisation déclarée sur opendata.gouv.tg)
+  Page                 https://opendata.gouv.tg/fr/datasets/donnees-ouvertes-sur-communications-electroniques-au-togo/
+  Famille              [Usage d'Internet] ; recoupe [Marché des télécoms]
+                       (télédensité, chiffre d'affaires) et [Agents mobile
+                       money] (abonnés actifs, valeur des transactions)
+  Description          Communications électroniques : abonnements Internet
+                       mobile et fixe par opérateur, télédensité fixe et
+                       mobile, large bande fixe pour 100 habitants,
+                       abonnés actifs et transactions mobile money,
+                       chiffre d'affaires du secteur. Format long.
+  Format               CSV (virgule, guillemets, UTF-8)
+  Colonnes             indicateur, type-operateur, operateur, Unit, Date,
+                       Value
+  Période couverte     2010-2022, annuel ; mobile money 2013-2022 ;
+                       TEOLIS et GVA 2018-2022
+  Niveau géographique  National (opérateur pour les abonnements Internet)
+  Nombre de lignes     160 (14 séries x 13 ans, 22 couples absents)
+  Nombre de colonnes   6
+  Langue               FR
+  Millésime            Publication : 27/12/2024
+  Licence              « other-open »
+  Statut               Partiel
+  Remarques            Absent de _PROJECT.txt : trouvé en parcourant le
+                       catalogue.
+                       Prolonge D2 jusqu'en 2022 et le fait remonter à
+                       2010. Sur 2013-2019, les abonnements Internet sont
+                       identiques à D2 opérateur par opérateur (Moov
+                       Africa Togo = « Atlantique Telecom » dans D2) ;
+                       total fixe = total D2 - mobile D2. Les opérateurs
+                       somment exactement aux totaux sur 2010-2022.
+                       Pas de ventilation par technologie (2G, 3G, 4G,
+                       ADSL, FTTH) ni de taux de pénétration Internet :
+                       pour ce détail, D2 reste la seule source, jusqu'en
+                       2019. TEOLIS et GVA : aucune ligne avant 2018
+                       (D2 : 0).
+                       La description annonce la télévision numérique,
+                       une ventilation urbain / rural et les
+                       infrastructures (fibre, 4G, 5G) : absentes.
+                       Écarts avec D3 : télédensité mobile identique en
+                       2013-2014 puis plus basse (2019 : 72,72 contre
+                       81,91) ; télédensité fixe à 5,48 en 2013 contre
+                       0,97 (identique en 2018-2019) ; chiffre d'affaires
+                       proche sans être égal (2019 : 186,9 contre
+                       184,9 Md FCFA). Large bande fixe pour 100 hab. :
+                       diffère de 2c (2022 : 1,16 contre 1,04).
+                       Les taux « pour 100 habitants » ont Unit =
+                       « Nombre ». Aucun doublon, aucune valeur vide.
+                       Mobile money : abonnés actifs de 83 452 (2013) à
+                       3 005 048 (2022) ; transactions de 0,75 à
+                       2 865,7 Md FCFA.
+  URL                  https://opendata.gouv.tg/s/resources/donnees-ouvertes-sur-communications-electroniques-au-togo/20241227-110701/observationdata-pekcwzc.csv
+  md5 / taille         ea3ed959a62f5dc5ac29dcc760cad206 / 14 346 octets
+
+
+---------------------------------------------------------------------
+  2c. D2_haut-debit-fixe.csv
+---------------------------------------------------------------------
+
+  Nom du fichier       abonnements-au-haut-debit-fixe-pour-100-personnes-.csv
+                       (enregistré sous D2_haut-debit-fixe.csv)
+  Source               Banque mondiale (organisation déclarée sur
+                       opendata.gouv.tg) ; indicateur IT.NET.BBND.P2
+  Page                 https://opendata.gouv.tg/fr/datasets/donnees-ouvertes-sur-abonnements-au-haut-debit-fixe-au-togo/
+  Famille              [Usage d'Internet]
+  Description          Abonnements au haut débit fixe pour 100 personnes,
+                       série annuelle.
+  Format               CSV (virgule, UTF-8)
+  Colonnes             indicator, country, countryiso3code, date, value,
+                       unit, obs_status, decimal
+  Période couverte     1960-2023 ; valeurs renseignées 2007-2023 (17 sur
+                       64). 1960-2006 vides.
+  Niveau géographique  National
+  Nombre de lignes     64
+  Nombre de colonnes   8
+  Langue               EN (libellés)
+  Millésime            Publication opendata : 06/01/2025
+  Licence              CC-BY-4.0
+  Statut               Disponible
+  Remarques            Absent de _PROJECT.txt : trouvé en parcourant le
+                       catalogue.
+                       Taux seulement, pas de nombre d'abonnements.
+                       Creux en 2013-2014 (0,09 et 0,17, entre 0,58 en
+                       2012 et 0,86 en 2015) : rupture de série ou erreur
+                       probable. Diffère de la série INSEED de 2b (2013 :
+                       0,09 contre 1,03 ; 2022 : 1,04 contre 1,16).
+  URL                  https://opendata.gouv.tg/s/resources/donnees-ouvertes-sur-abonnements-au-haut-debit-fixe-au-togo/20250106-163746/abonnements-au-haut-debit-fixe-pour-100-personnes-.csv
+  md5 / taille         24ed532e149d84aa2a0e5a3f22c25bca / 4 430 octets
+
+
+---------------------------------------------------------------------
+  2d. D2_worldbank-api-haut-debit-fixe.json
+---------------------------------------------------------------------
+
+  Nom du fichier       Réponse de l'API au lien « Lien vers la source » du
+                       jeu 2c (paramètres ajoutés : format=json,
+                       per_page=200, comme pour 1b)
+  Source               Banque mondiale, World Development Indicators ;
+                       donnée d'origine UIT (d'après les métadonnées de
+                       l'API)
+  Famille              [Usage d'Internet]
+  Description          Même indicateur que 2c, dans sa version la plus
+                       récente.
+  Format               JSON
+  Période couverte     1960-2025 ; valeurs renseignées 2007-2024 (18 sur
+                       66)
+  Niveau géographique  National
+  Nombre de lignes     66 observations
+  Nombre de colonnes   Sans objet (JSON) : date, value, unit, obs_status...
+  Langue               EN
+  Millésime            lastupdated = 13/07/2026
+  Statut               Disponible
+  Remarques            Identique à 2c sur 2007-2023. Ajoute 2024 (1,42).
+  URL                  https://api.worldbank.org/v2/country/TGO/indicators/IT.NET.BBND.P2?format=json&per_page=200
+  md5 / taille         e1cebe4d902805b6eda24d04156e0046 / 14 913 octets
+
+
+---------------------------------------------------------------------
+  2e. Pénétration Internet (MESPTN) : train-full.csv et test.csv
+---------------------------------------------------------------------
+
+  Nom du fichier       train-full.csv (« Donnée d'entrainement ») et
+                       test.csv (« Données de test ») ; NON enregistrés
+                       dans data/raw (3,26 Go au total)
+  Source               Ministère de l'Efficacité du Service Public et de la
+                       Transformation Numérique (organisation déclarée sur
+                       opendata.gouv.tg)
+  Page                 https://opendata.gouv.tg/fr/datasets/donnees-ouvertes-sur-la-penetration-internet-au-togo/
+  Famille              [Usage d'Internet] ; seule source au niveau du
+                       ménage (demande) trouvée sur ce thème
+  Description          Jeu préparé pour l'apprentissage automatique
+                       (entraînement / test) : prédire l'adoption de la
+                       fibre (FTTH) à domicile. Une ligne par ménage :
+                       type de logement, éclairage et énergie de cuisson
+                       (d'après les modalités), taille du ménage,
+                       33 variables Oui / Non (codes H17 à H21),
+                       opérateur (« Connexion »), 4 000 variables
+                       numériques sans nom. La cible « Accès internet »
+                       (0 / 1) n'est que dans train-full.csv.
+  Format               CSV (virgule, UTF-8)
+  Colonnes             ID, TypeLogmt_1 à _3, H08_Impute, H09_Impute,
+                       TAILLE_MENAGE, H17A à H17J et H17Y, H18A à H18J
+                       et H18Y, H20A à H20E et H20Y, H21A à H21D et H21Y,
+                       Connexion, BoxLabel, 4 000 colonnes sans nom
+                       (« » puis « .1 » à « .3999 »), Accès internet
+                       (train seulement)
+  Période couverte     Aucune date dans les fichiers. Métadonnées : 2024,
+                       fréquence « irrégulière ».
+  Niveau géographique  Ménage, sans localisation : aucune colonne région,
+                       préfecture, commune ou coordonnées
+  Nombre de lignes     train : 30 558 ; test : 13 097
+  Nombre de colonnes   train : 4 043 ; test : 4 042
+  Langue               FR
+  Millésime            Publication : 26/12/2024
+  Licence              « other-open »
+  Statut               Partiel ; non téléchargé
+  Remarques            Absent de _PROJECT.txt : trouvé en parcourant le
+                       catalogue. Lu en flux le 25/09/2026, sans
+                       enregistrement (le serveur coupe chaque connexion
+                       vers 1,08 Go : reprise par plages d'octets).
+                       SHA-1 conformes au portail ; aucun ID en double ;
+                       toutes les lignes ont le bon nombre de champs ;
+                       aucune valeur numérique vide.
+                       Cible équilibrée (train : 48,8 % de 1) :
+                       échantillon construit pour l'apprentissage, il ne
+                       mesure pas un taux de pénétration.
+                       Connexion : vide, GVA ou Togocom, environ un tiers
+                       chacun. Connexion vide => cible 0 sur les 10 508
+                       lignes concernées du train ; GVA ou Togocom =>
+                       cible 1 dans 74 % des cas.
+                       BoxLabel = « Box0 » sur toutes les lignes.
+                       Codes H17 à H21 et 4 000 variables numériques :
+                       aucun dictionnaire sur la page. Le nombre de
+                       variables est celui des variables satellitaires
+                       MOSAIKS publiées par CEGA sur le portail : même
+                       nature probable, non confirmée.
+                       Accents perdus à l'export, remplacés selon les
+                       lignes par « � » ou par « ? » : deux graphies par
+                       modalité (H08_Impute : 17 graphies pour 10
+                       modalités dans train).
+                       Sans date ni lieu, il ne se croise ni avec les
+                       séries annuelles ni avec le découpage
+                       administratif.
+  URL                  train : https://opendata.gouv.tg/s/resources/donnees-ouvertes-sur-la-penetration-internet-au-togo/20241226-115615/train-full.csv
+                       test  : https://opendata.gouv.tg/s/resources/donnees-ouvertes-sur-la-penetration-internet-au-togo/20241226-113355/test.csv
+  md5 / taille         train : 52ddc64ba90a40b8b2f9e2ad1c6b0501 / 2 282 558 762 octets
+                       test  : 6ac7f917daf2282eb58e3cbfd97bd531 / 978 256 906 octets
+
+
+---------------------------------------------------------------------
+  3. D3_recap-telephonie-gsm.csv
+---------------------------------------------------------------------
+
+  Nom du fichier       observationdata-mesqyx.csv
+                       (enregistré sous D3_recap-telephonie-gsm.csv)
+  Source               INSEED (organisation déclarée sur opendata.gouv.tg)
+  Famille              [Marché des télécoms]
+  Description          Récapitulatif du segment téléphonie : abonnés fixe et
+                       mobile, parts de marché des 2 opérateurs mobiles,
+                       chiffre d'affaires, investissement, ARPU, télédensité.
+  Format               CSV (virgule, guillemets, UTF-8)
+  Colonnes             indicateur, Unit, Date, Value
+  Période couverte     2013-2019, annuel
+  Niveau géographique  National (opérateur pour les parts de marché)
+  Nombre de lignes     70 (10 indicateurs x 7 ans)
+  Nombre de colonnes   4
+  Langue               FR
+  Millésime            Publication : 27/12/2024
+  Licence              « other-open »
+  Statut               Partiel
+  Remarques            La description annonce des tarifs et la qualité de
+                       service (couverture, débit) : ils sont absents. Le
+                       chiffre d'affaires n'est pas ventilé par opérateur.
+                       L'ARPU (~3·10^13 FCFA) a une erreur d'échelle
+                       probable.
+                       Page revérifiée le 25/09/2026 : toujours une seule
+                       ressource, métadonnées inchangées depuis le
+                       27/12/2024 (couverture 2013-2019). Aucune ressource
+                       communautaire, aucune réutilisation.
+                       Éléments de la description cherchés dans tout le
+                       catalogue :
+                       - abonnés fixe et mobile : jusqu'en 2023 dans 3b à
+                         3e (Banque mondiale), 2024 dans 3f ;
+                       - chiffre d'affaires : 2010-2022 dans 2b (total du
+                         secteur), 1965-2010 dans 3g ;
+                       - investissement : 1981-2010 dans 3g, rien après
+                         2019. La série Banque mondiale « PPP dans les
+                         TIC » (IE.PPN.ICTI.CD) est vide sur le portail ;
+                         son API n'a qu'une valeur : 2024 = 60,2 M USD ;
+                       - parts de marché : rien après 2019 pour la
+                         téléphonie (2b donne l'Internet par opérateur) ;
+                       - ARPU : aucune autre source ;
+                       - tarifs (appels, SMS, Internet mobile) : aucun
+                         jeu sur le portail ;
+                       - qualité de service : aucune mesure de débit ni
+                         de couverture par technologie. Les tours
+                         télécoms sont privées, sur demande (schéma en
+                         3h) ; geodata.gouv.tg en publie une couverture
+                         agrégée, habitants à moins de 20 km d'une tour
+                         (3i). Seul débit publié : la bande passante
+                         Internet internationale 1998-2011 (3g).
+  URL                  https://opendata.gouv.tg/s/resources/donnees-ouvertes-sur-les-recapitulation-segment-telephonie-et-gsm-au-togo/20241227-092855/observationdata-mesqyx.csv
+  md5 / taille         287e387ae47add38e10b88c3a551ddc8 / 4 327 octets
+
+
+---------------------------------------------------------------------
+  3b. D3_abonnements-cellulaires-mobiles.csv
+---------------------------------------------------------------------
+
+  Nom du fichier       abonnements-cellulaires-mobiles.csv
+                       (enregistré sous D3_abonnements-cellulaires-mobiles.csv)
+  Source               Banque mondiale (organisation déclarée sur
+                       opendata.gouv.tg) ; indicateur IT.CEL.SETS,
+                       donnée d'origine UIT
+  Page                 https://opendata.gouv.tg/fr/datasets/donnees-ouvertes-sur-abonnements-cellulaires-mobiles-au-togo/
+  Famille              [Marché des télécoms]
+  Description          Nombre d'abonnements à la téléphonie mobile
+                       cellulaire, série annuelle.
+  Format               CSV (virgule, UTF-8)
+  Colonnes             indicator, country, countryiso3code, date, value,
+                       unit, obs_status, decimal
+  Période couverte     1960-2023 ; valeurs renseignées 52 sur 64
+                       (1961-1964, 1966-1969 et 1971-1974 vides). Zéros
+                       jusqu'en 1996 ; 2 995 abonnements en 1997.
+  Niveau géographique  National
+  Nombre de lignes     64
+  Nombre de colonnes   8
+  Langue               EN (libellés)
+  Millésime            Publication opendata : 06/01/2025
+  Licence              CC-BY-4.0
+  Statut               Disponible
+  Remarques            Absent de _PROJECT.txt : trouvé en parcourant le
+                       catalogue.
+                       Valeurs arrondies à la dizaine de milliers de 2007
+                       à 2023 (2023 : 7 050 000 ; 7 051 820 dans 3f).
+                       Égal au nombre d'abonnés mobiles de D3 en
+                       2017-2019 (valeurs exactes de 3f) ; plus élevé en
+                       2013-2016 (2013 : 4 262 993 contre 3 713 908).
+  URL                  https://opendata.gouv.tg/s/resources/donnees-ouvertes-sur-abonnements-cellulaires-mobiles-au-togo/20250106-164504/abonnements-cellulaires-mobiles.csv
+  md5 / taille         614d82195e59df713f506a2bcb4b5906 / 3 506 octets
+
+
+---------------------------------------------------------------------
+  3c. D3_telephonie-mobile-pour-100.csv
+---------------------------------------------------------------------
+
+  Nom du fichier       abonnements-de-telephonie-mobile-pour-100-personnes-.csv
+                       (enregistré sous D3_telephonie-mobile-pour-100.csv)
+  Source               Banque mondiale (organisation déclarée sur
+                       opendata.gouv.tg) ; indicateur IT.CEL.SETS.P2,
+                       donnée d'origine UIT
+  Page                 https://opendata.gouv.tg/fr/datasets/donnees-ouvertes-sur-abonnements-de-telephonie-mobile-pour-100-personnes-au-togo/
+  Famille              [Marché des télécoms]
+  Description          Abonnements à la téléphonie mobile cellulaire pour
+                       100 personnes, série annuelle.
+  Format               CSV (virgule, UTF-8)
+  Colonnes             indicator, country, countryiso3code, date, value,
+                       unit, obs_status, decimal
+  Période couverte     1960-2023 ; valeurs renseignées 1960-2022 (51 sur
+                       64) ; 2023 vide.
+  Niveau géographique  National
+  Nombre de lignes     64
+  Nombre de colonnes   8
+  Langue               EN (libellés)
+  Millésime            Publication opendata : 06/01/2025
+  Licence              CC-BY-4.0
+  Statut               Disponible
+  Remarques            Absent de _PROJECT.txt : trouvé en parcourant le
+                       catalogue.
+                       Révisé dans 3f depuis 2000 alors que les abonnés
+                       sont quasi inchangés : la population de référence
+                       a changé (2019 : 73,72 dans 3f contre 75,69 ici).
+                       3f ajoute 2023 et 2024.
+                       Trois télédensités mobiles pour 2019 : 81,91 (D3),
+                       72,72 (2b), 73,72 (3f).
+  URL                  https://opendata.gouv.tg/s/resources/donnees-ouvertes-sur-abonnements-de-telephonie-mobile-pour-100-personnes-au-togo/20250106-182405/abonnements-de-telephonie-mobile-pour-100-personnes-.csv
+  md5 / taille         cc1a27b18f1067c0ff979882862d3813 / 4 652 octets
+
+
+---------------------------------------------------------------------
+  3d. D3_telephonie-fixe.csv
+---------------------------------------------------------------------
+
+  Nom du fichier       abonnements-de-telephonie-fixe.csv
+                       (enregistré sous D3_telephonie-fixe.csv)
+  Source               Banque mondiale (organisation déclarée sur
+                       opendata.gouv.tg) ; indicateur IT.MLT.MAIN,
+                       donnée d'origine UIT
+  Page                 https://opendata.gouv.tg/fr/datasets/donnees-ouvertes-sur-abonnements-de-telephonie-fixe-au-togo-1/
+  Famille              [Marché des télécoms]
+  Description          Nombre d'abonnements à la téléphonie fixe, série
+                       annuelle.
+  Format               CSV (virgule, UTF-8)
+  Colonnes             indicator, country, countryiso3code, date, value,
+                       unit, obs_status, decimal
+  Période couverte     1960-2023 ; valeurs renseignées 62 sur 64 (1965 et
+                       1975 vides)
+  Niveau géographique  National
+  Nombre de lignes     64
+  Nombre de colonnes   8
+  Langue               EN (libellés)
+  Millésime            Publication opendata : 06/01/2025
+  Licence              CC-BY-4.0
+  Statut               Disponible
+  Remarques            Absent de _PROJECT.txt : trouvé en parcourant le
+                       catalogue.
+                       Deux jeux du portail portent le même titre
+                       « Abonnements de Téléphonie Fixe au Togo » :
+                       celui-ci (adresse finissant par « -1 ») donne le
+                       nombre, 3e le taux pour 100 personnes.
+                       Égal au nombre d'abonnés fixe de D3 en 2014 et
+                       2017-2019, à 8 unités près en 2015-2016 ; 2013 :
+                       62 537 contre 64 493. 3f révise 2023 (69 808
+                       contre 66 516) et ajoute 2024.
+  URL                  https://opendata.gouv.tg/s/resources/donnees-ouvertes-sur-abonnements-de-telephonie-fixe-au-togo-1/20250106-182054/abonnements-de-telephonie-fixe.csv
+  md5 / taille         4ccf66b08d97a39d51d53a1a5145f4c0 / 3 613 octets
+
+
+---------------------------------------------------------------------
+  3e. D3_telephonie-fixe-pour-100.csv
+---------------------------------------------------------------------
+
+  Nom du fichier       abonnements-de-telephonie-fixe-pour-100-personnes-.csv
+                       (enregistré sous D3_telephonie-fixe-pour-100.csv)
+  Source               Banque mondiale (organisation déclarée sur
+                       opendata.gouv.tg) ; indicateur IT.MLT.MAIN.P2,
+                       donnée d'origine UIT
+  Page                 https://opendata.gouv.tg/fr/datasets/donnees-ouvertes-sur-abonnements-de-telephonie-fixe-au-togo/
+  Famille              [Marché des télécoms]
+  Description          Abonnements à la téléphonie fixe pour 100
+                       personnes, série annuelle.
+  Format               CSV (virgule, UTF-8)
+  Colonnes             indicator, country, countryiso3code, date, value,
+                       unit, obs_status, decimal
+  Période couverte     1960-2023 ; valeurs renseignées 62 sur 64 (1965 et
+                       1975 vides)
+  Niveau géographique  National
+  Nombre de lignes     64
+  Nombre de colonnes   8
+  Langue               EN (libellés)
+  Millésime            Publication opendata : 06/01/2025
+  Licence              CC-BY-4.0
+  Statut               Disponible
+  Remarques            Absent de _PROJECT.txt : trouvé en parcourant le
+                       catalogue.
+                       Valeurs arrondies à 3 chiffres significatifs.
+                       Plus bas que la télédensité fixe de D3 (2019 :
+                       0,515 contre 0,57) ; très loin de 2b en 2010-2017
+                       (2013 : 0,858 contre 5,48). 3f révise 2023 (0,750
+                       contre 0,715) et ajoute 2024.
+  URL                  https://opendata.gouv.tg/s/resources/donnees-ouvertes-sur-abonnements-de-telephonie-fixe-au-togo/20250106-165436/abonnements-de-telephonie-fixe-pour-100-personnes-.csv
+  md5 / taille         714f3b2820a785460a04d4e0e9fe9446 / 4 724 octets
+
+
+---------------------------------------------------------------------
+  3f. D3_worldbank-api-*.json (4 fichiers)
+---------------------------------------------------------------------
+
+  Nom du fichier       Réponses de l'API aux liens « Lien vers la source »
+                       des jeux 3b à 3e (paramètres ajoutés : format=json,
+                       per_page=200, comme pour 1b) :
+                         D3_worldbank-api-abonnements-cellulaires-mobiles.json (IT.CEL.SETS)
+                         D3_worldbank-api-telephonie-mobile-pour-100.json      (IT.CEL.SETS.P2)
+                         D3_worldbank-api-telephonie-fixe.json                 (IT.MLT.MAIN)
+                         D3_worldbank-api-telephonie-fixe-pour-100.json        (IT.MLT.MAIN.P2)
+  Source               Banque mondiale, World Development Indicators ;
+                       donnée d'origine UIT (d'après les métadonnées de
+                       l'API)
+  Famille              [Marché des télécoms]
+  Description          Mêmes indicateurs que 3b à 3e, dans leur version la
+                       plus récente.
+  Format               JSON
+  Période couverte     1960-2025 ; valeurs renseignées jusqu'en 2024 pour
+                       les quatre
+  Niveau géographique  National
+  Nombre de lignes     66 observations par fichier
+  Nombre de colonnes   Sans objet (JSON) : date, value, unit, obs_status...
+  Langue               EN
+  Millésime            lastupdated = 13/07/2026
+  Statut               Disponible
+  Remarques            2024 : 7 688 649 abonnements mobiles (80,80 pour
+                       100) ; 78 576 abonnements fixes (0,826 pour 100).
+                       Valeurs exactes, là où les CSV du portail sont
+                       arrondis. Révisions : voir 3c à 3e.
+  URL                  https://api.worldbank.org/v2/country/TGO/indicators/<indicateur>?format=json&per_page=200
+  md5 / taille         cellulaires-mobiles  cc83792cd1ecf6d212995ba9f38c033f / 13 350 octets
+                       mobile-pour-100      050acdd4014a28d752aadb3864bed760 / 14 922 octets
+                       fixe                 5dd114720bdb2c653f79001bd22c6e7e / 13 395 octets
+                       fixe-pour-100        36f2611ac4f136f25f8f70f6bf76ae81 / 15 162 octets
+
+
+---------------------------------------------------------------------
+  3g. D3_hdx-infrastructures.csv
+---------------------------------------------------------------------
+
+  Nom du fichier       infrastructure-tgo.csv
+                       (enregistré sous D3_hdx-infrastructures.csv)
+  Source               Humanitarian Data Exchange (HDX) (organisation
+                       déclarée sur opendata.gouv.tg) ; indicateurs de la
+                       Banque mondiale, sources citées : UIT, AIE, OACI,
+                       Fédération routière internationale...
+  Page                 https://opendata.gouv.tg/fr/datasets/donnees-ouvertes-sur-les-infrastructures-au-togo/
+  Famille              [Marché des télécoms] et [Usage d'Internet] pour
+                       25 indicateurs TIC sur 47 (21 de la famille IT.*,
+                       4 de commerce TIC) ; le reste [Hors énoncé] (eau,
+                       routes, air, ports, énergie)
+  Description          Indicateurs d'infrastructure du Togo, format long :
+                       un indicateur par ligne et par année.
+  Format               CSV (virgule, guillemets, UTF-8) ; 2e ligne =
+                       balises HXL (#country+name...), à écarter
+  Colonnes             Country Name, Country ISO3, Year, Indicator Name,
+                       Indicator Code, Value
+  Période couverte     1960-2023 selon l'indicateur. Séries télécoms
+                       absentes ailleurs : revenus des services télécoms
+                       1965-2010 (IT.TEL.REVN.CN), investissement télécom
+                       1981-2010 (IT.TEL.INVS.CN), bande passante Internet
+                       internationale 1998-2011 (IT.NET.BNDW), abonnés
+                       fixe + mobile 1960-2011 (IT.TEL.TOTL), serveurs
+                       Internet sécurisés 2010-2023 (IT.NET.SECR)
+  Niveau géographique  National
+  Nombre de lignes     1 165 (ligne HXL exclue), 47 indicateurs
+  Nombre de colonnes   6
+  Langue               EN
+  Millésime            Publication opendata : 03/12/2024 ; mise à jour
+                       16/12/2024
+  Licence              CC-BY-4.0
+  Statut               Disponible
+  Remarques            Absent de _PROJECT.txt : trouvé en parcourant le
+                       catalogue.
+                       Les revenus et l'investissement s'arrêtent en
+                       2010 : ils prolongent D3 vers le passé, pas
+                       au-delà de 2019. Revenus 2010 : 149,0 Md FCFA
+                       (2b : 155,0 Md).
+                       Les 4 séries de 3b à 3e y figurent, identiques aux
+                       CSV du portail. Contient aussi le nombre
+                       d'abonnements haut débit fixe (IT.NET.BBND,
+                       2007-2023), absent de 2c : 94 300 en 2022, proche
+                       du total fixe de 2b (94 282).
+  URL                  https://opendata.gouv.tg/s/resources/donnees-ouvertes-sur-les-infrastructures-au-togo/20241203-174307/infrastructure-tgo.csv
+  md5 / taille         39adce006fee5e2ced193929fde7aee9 / 106 702 octets
+
+
+---------------------------------------------------------------------
+  3h. D3_metadonnees-tours-telecoms.csv
+---------------------------------------------------------------------
+
+  Nom du fichier       tours-telecoms.csv
+                       (« Métadonnées_tours-telecoms.csv » sur le site)
+  Source               Ministère de l'Efficacité du Service Public et de la
+                       Transformation Numérique (organisation déclarée sur
+                       opendata.gouv.tg)
+  Page                 https://opendata.gouv.tg/fr/datasets/donnees-ouvertes-sur-les-tours-telecoms-au-togo/
+  Famille              [Marché des télécoms] (qualité de service,
+                       couverture) ; schéma seulement
+  Description          Schéma des données sur les tours télécoms, en
+                       56 champs : localisation (région à canton,
+                       localité, point GPS), opérateur, propriétaire,
+                       hauteur, date de construction, équipements (GSM et
+                       son type, fibre, VSAT, faisceau radio), énergie,
+                       dates de collecte et de mise à jour.
+  Format               CSV
+  Période couverte     Sans objet
+  Niveau géographique  Sans objet (données décrites : point GPS et
+                       région à canton)
+  Nombre de lignes     56
+  Nombre de colonnes   5 (No., Nom du champ, Question, Description, Type
+                       du champ)
+  Langue               FR
+  Millésime            Mise à jour : 08/01/2025
+  Licence              « other-open »
+  Statut               Absent : données privées, seul le schéma est
+                       publié
+  Remarques            Absent de _PROJECT.txt : trouvé en parcourant le
+                       catalogue.
+                       La page indique « Donnée privée, accessible
+                       uniquement sur demande » : les données complètes
+                       sont à demander au producteur (MESPTN). C'est la
+                       seule trace de la couverture réseau sur le portail ;
+                       geodata.gouv.tg en publie des agrégats (3i).
+                       Les descriptions annoncent les technologies (2G,
+                       3G, 4G) : champ tour_gsm_type probable, non
+                       confirmé sans les données.
+                       Schéma identique (même md5) pour les jeux « Tours
+                       Télécoms - Moov » et « - Togocom ». Même situation
+                       (schéma seul, données sur demande) pour les
+                       bâtiments des tours (3 jeux) et le réseau
+                       téléphonique enterré et aérien (10 jeux) : non
+                       téléchargés.
+  URL                  https://opendata.gouv.tg/s/resources/donnees-ouvertes-sur-les-tours-telecoms-au-togo/20241217-190504/tours-telecoms.csv
+  md5 / taille         e82dea304cf5eeae4973625875877bfa / 2 457 octets
+
+
+---------------------------------------------------------------------
+  3i. D3_geodata-*.json (6 indicateurs, 30 fichiers)
+---------------------------------------------------------------------
+
+  Nom du fichier       Réponses de l'API publique de geodata.gouv.tg
+                       (app/1/get_indicators_values), une par indicateur
+                       et par niveau (PAYS, REGION, PREFECTURE, COMMUNE,
+                       CANTON), enregistrées sous
+                       D3_geodata-<indicateur>_<NIVEAU>.json :
+                         pct-habitants-couverts-reseau-mobile-20km
+                         longueur-fibre-enterree
+                         longueur-fibre-aerienne
+                         longueur-adsl-cuivre-enterre
+                         nombre-agences-togocom
+                         pct-habitants-5km-agence-togocom
+  Source               geodata.gouv.tg (plateforme source de D5, voir 7).
+                       Indicateurs calculés par la plateforme, dont 4 à
+                       partir de couches privées du MESPTN (tours
+                       télécoms, réseau téléphonique)
+  Famille              [Marché des télécoms] (qualité de service :
+                       couverture ; infrastructures)
+  Description          Part des habitants couverts par le réseau mobile
+                       (à moins de 20 km d'une tour) ; longueurs de fibre
+                       enterrée, de fibre aérienne et de réseau ADSL et
+                       cuivre enterré (en mètres) ; nombre d'agences ou
+                       franchises Togocom et part des habitants à moins
+                       de 5 km de l'une d'elles. Par unité
+                       administrative.
+  Format               JSON : liste d'objets (id, <niveau>_id,
+                       <niveau>_nom, indicateur_id, valeur)
+  Période couverte     Non indiquée (couches collectées en 2021/2022,
+                       campagne PRISE)
+  Niveau géographique  Pays ; 5 régions (Grand Lomé inclus dans
+                       Maritime) ; 39 préfectures ; 117 communes ;
+                       396 cantons
+  Nombre de lignes     558 par indicateur (1 + 5 + 39 + 117 + 396)
+  Nombre de colonnes   5 (3 au niveau PAYS)
+  Langue               FR
+  Millésime            Téléchargés le 25/09/2026 ; date de calcul non
+                       indiquée
+  Licence              Non indiquée
+  Statut               Disponible
+  Remarques            Absent de _PROJECT.txt : trouvé sur geodata.gouv.tg.
+                       Seule mesure de couverture réseau accessible : les
+                       tours sont privées (3h), mais la plateforme en
+                       publie des agrégats. Niveau de preuve C : méthode
+                       non documentée.
+                       Couverture mobile à 20 km : 88,37 % au niveau
+                       national ; de 57,68 % (Centrale) à 98,97 %
+                       (Maritime) par région. 0 % à Mô et à Kpendjal,
+                       0,05 % à Tchamba : invraisemblable pour une
+                       couverture réelle, la couche des tours est
+                       probablement incomplète. Rayon fixe de 20 km, sans
+                       distinction 2G / 3G / 4G.
+                       Réseau : fibre enterrée 2 162 km, répartie entre
+                       les 5 régions (374 à 481 km) ; fibre aérienne
+                       3 071 km, dont 2 622 km en Maritime ; ADSL et
+                       cuivre enterré 433 km, dont 285 km en Maritime.
+                       Agences Togocom : 62, dont 34 en Maritime ;
+                       49,46 % des habitants à moins de 5 km (19,84 %
+                       dans les Savanes). Aucun indicateur équivalent
+                       pour Moov.
+                       Comptages et longueurs cohérents d'un niveau à
+                       l'autre : la somme des régions donne la valeur
+                       nationale, à quelques mètres près pour les
+                       longueurs.
+  URL                  https://api.geodata.gouv.tg/app/1/get_indicators_values?indicateur_id=<id>&niveau_hierarchic=<NIVEAU>
+                       (identifiants dans le manifeste ci-dessous)
+  md5 / taille         30 fichiers, 430 184 octets au total ; détail par
+                       fichier dans _metadata/geodata_indicateurs_manifest.csv
+
+
+---------------------------------------------------------------------
+  4. D4_etablissements-financiers.csv
+---------------------------------------------------------------------
+
+  Nom du fichier       file-finance-etablissements-08-01-2025-17-49-30.csv
+                       (enregistré sous D4_etablissements-financiers.csv)
+  Source               Ministère de l'Économie et des Finances
+                       (organisation déclarée sur opendata.gouv.tg)
+  Famille              [Établissements financiers]
+  Description          Un point géolocalisé par établissement (banque,
+                       microfinance, mutuelle, assurance), avec son
+                       rattachement administratif, son statut d'activité et
+                       sa catégorie.
+  Format               CSV (virgule, UTF-8) ; géométrie en WKT POINT (lon lat)
+  Colonnes             FID, region_nom_bdd, prefecture_nom_bdd,
+                       commune_nom_bdd, canton_nom_bdd, nom_localite,
+                       etab_nom, etab_adresse, etab_jour, activite_statut,
+                       activite_categorie, toilette_type, geometry
+  Période couverte     Stock. Date de collecte NON publiée (le champ existe
+                       dans le dictionnaire mais pas dans le fichier). Export
+                       du 06/01/2025 (horodatage des identifiants).
+                       Couverture déclarée dans les métadonnées :
+                       2022-2030 (valeur générique).
+                       Collecte : « Campagne de collecte PRISE -
+                       2021/2022 » d'après geodata.gouv.tg (voir 7).
+  Niveau géographique  Point GPS ; région, préfecture, commune, canton,
+                       localité
+  Nombre de lignes     738
+  Nombre de colonnes   13 (sur 107 décrites dans le dictionnaire 4b)
+  Langue               FR
+  Millésime            Publication : 08/01/2025
+  Licence              « other-open »
+  Statut               Partiel
+  Remarques            Aucun ATM (le champ gab_nbr n'est pas publié).
+                       Préfecture Kpendjal absente (0 point).
+                       Coordonnées cohérentes avec les unités déclarées :
+                       100 % des points dans le polygone de leur région,
+                       préfecture, commune et canton (6b).
+                       Page revérifiée le 25/09/2026 : mêmes deux
+                       ressources (ce fichier et son dictionnaire 4b),
+                       métadonnées inchangées depuis le 08/01/2025. Aucune
+                       ressource communautaire, aucune réutilisation.
+                       Éléments de la description cherchés dans tout le
+                       catalogue :
+                       - banques, microfinances, assurances, mutuelles :
+                         le MEF publie aussi un jeu par catégorie (247,
+                         412, 69 et 9 lignes) et un jeu « Établissements
+                         de Finance » (738 lignes). Ce sont des copies
+                         exactes de lignes de D4 ; seul le FID change, ce
+                         n'est donc pas un identifiant stable d'un export
+                         à l'autre. Non téléchargés ;
+                       - agences de transfert d'argent : aucun jeu
+                         localisé. Seuls des volumes nationaux : mandats
+                         postaux (4i), envois de fonds reçus et leur coût
+                         (4g) ;
+                       - types de services proposés : absents, et aucun
+                         champ ne les prévoit dans le dictionnaire 4b ;
+                       - couverture des infrastructures financières :
+                         DAB localisés (4c) ; agences et DAB pour
+                         100 000 adultes au niveau national (4e, et 4f
+                         jusqu'en 2024) ; comptages, habitants par agence
+                         et distances par découpage administratif (4j).
+                       Côté demande : détention d'un compte (Findex),
+                       2011-2024 (4g, 4h).
+                       Écartés : le jeu MINARM « Banques au Togo »
+                       (données privées, schéma identique à 4b) ; les
+                       groupements d'entraide du MEF (750 associations,
+                       pas des établissements financiers) ; les
+                       statistiques comptables de l'INSEED (bilans et
+                       comptes de résultat des banques 2010-2021, marché
+                       de l'assurance 2014-2022) et de Kaggle (ratios de
+                       12 banques, 2013-2019), sans localisation.
+  URL                  https://opendata.gouv.tg/s/resources/donnees-ouvertes-sur-les-etablissements-financiers-au-togo/20250108-175032/file-finance-etablissements-08-01-2025-17-49-30.csv
+  md5 / taille         7b5cdaa0f4804e5ea804750d76977e06 / 194 015 octets
+
+
+---------------------------------------------------------------------
+  4b. D4_metadonnees-etablissements-financiers.csv
+---------------------------------------------------------------------
+
+  Nom du fichier       finance-etablissements.csv
+                       (« Métadonnées-finance-etablissements.csv » sur le site)
+  Source               Ministère de l'Économie et des Finances
+  Famille              Documentation de D4 (dictionnaire des variables)
+  Description          Liste des 107 champs du questionnaire de collecte,
+                       avec leur libellé et leur type.
+  Format               CSV
+  Période couverte     Sans objet
+  Niveau géographique  Sans objet
+  Nombre de lignes     107
+  Nombre de colonnes   5 (No., Nom du champ, Question, Description, Type)
+  Langue               FR
+  Millésime            Mise à jour : 08/01/2025
+  Statut               Disponible
+  Remarques            Absent de _PROJECT.txt : trouvé sur la page « Source »
+                       du dataset 4, qui figure dans _PROJECT.txt.
+                       Même fichier (même md5) publié comme dictionnaire
+                       des jeux MEF par catégorie et du jeu MINARM.
+                       Prévoit guichet_nbr, gab_nbr, gab_fct_nbr,
+                       personnel_nbr, etab_heure et date_collecte, non
+                       publiés dans D4. Aucun champ sur les services
+                       proposés.
+  URL                  https://opendata.gouv.tg/s/resources/donnees-ouvertes-sur-les-etablissements-financiers-au-togo/20241217-203049/finance-etablissements.csv
+  md5 / taille         76c7da718056556f1bfaffaada43f865 / 7 487 octets
+
+
+---------------------------------------------------------------------
+  4c. D4_distributeurs-de-billets.csv
+---------------------------------------------------------------------
+
+  Nom du fichier       file-banques-distributeurs-de-billets-02-01-2025-15-03-08.csv
+                       (enregistré sous D4_distributeurs-de-billets.csv)
+  Source               Ministère de l'Économie et des Finances
+                       (organisation déclarée sur opendata.gouv.tg)
+  Page                 https://opendata.gouv.tg/fr/datasets/donnees-ouvertes-sur-les-banques-distributeurs-de-billets-au-togo/
+  Famille              [Établissements financiers]
+  Description          Un point géolocalisé par site de distributeur
+                       automatique de billets (DAB), avec son type
+                       d'implantation, la banque concernée et son
+                       rattachement administratif.
+  Format               CSV (virgule, UTF-8) ; géométrie en WKT POINT (lon lat)
+  Colonnes             FID, region_nom_bdd, prefecture_nom_bdd,
+                       commune_nom_bdd, canton_nom_bdd, nom_localite,
+                       dab_type, etab_nom, banque, geometry
+  Période couverte     Stock. Date de collecte NON publiée. Export du
+                       02/01/2025 (nom du fichier). Couverture déclarée :
+                       2022-2030 (valeur générique).
+                       Collecte : « Campagne de collecte PRISE -
+                       2021/2022 » d'après geodata.gouv.tg (voir 7).
+  Niveau géographique  Point GPS ; région, préfecture, commune, canton,
+                       localité
+  Nombre de lignes     184
+  Nombre de colonnes   10 (sur 26 décrites dans le dictionnaire 4d)
+  Langue               FR
+  Millésime            Publication : 02/01/2025
+  Licence              « other-open »
+  Statut               Partiel
+  Remarques            Absent de _PROJECT.txt : trouvé en parcourant le
+                       catalogue. Comble l'absence d'ATM dans D4.
+                       Une ligne = un site, pas un appareil : le nombre
+                       de DAB par site (dab_nbr), de GAB (gab_nbr) et
+                       d'appareils en service (dab_fct_nbr) n'est pas
+                       publié.
+                       dab_type : dans une banque 126, indépendant 53,
+                       dans un autre établissement 5. Champ banque :
+                       ECOBANK 41, ORABANK 34, UTB 30, Banque Atlantique
+                       14, BTCI 11... ; « AUTRE » 5 ; SPT (la Poste) 4.
+                       Maritime 119 sites, dont 107 dans les préfectures
+                       de Golfe et d'Agoè-Nyivé (Grand Lomé) ;
+                       22 préfectures ont au moins un site ; Kpendjal : 0.
+                       etab_nom vide ou « Nsp » pour 46 sites.
+                       Aucun site à la même position qu'une banque de D4 :
+                       le rapprochement demandera une jointure par
+                       distance. Coordonnées toutes dans les limites du
+                       Togo ; aucun doublon de position. 100 % des sites
+                       dans le polygone de leur unité déclarée (6b).
+  URL                  https://opendata.gouv.tg/s/resources/donnees-ouvertes-sur-les-banques-distributeurs-de-billets-au-togo/20250102-150325/file-banques-distributeurs-de-billets-02-01-2025-15-03-08.csv
+  md5 / taille         57d820ffdbe52b614368998f237d482f / 33 915 octets
+
+
+---------------------------------------------------------------------
+  4d. D4_metadonnees-distributeurs-de-billets.csv
+---------------------------------------------------------------------
+
+  Nom du fichier       banques-distributeurs-de-billets.csv
+                       (« metadonnee-banques-distributeurs-de-billets.csv »
+                       sur le site)
+  Source               Ministère de l'Économie et des Finances
+  Famille              Documentation de 4c (dictionnaire des variables)
+  Description          Liste des 26 champs de la collecte des DAB, avec
+                       leur libellé et leur type.
+  Format               CSV
+  Période couverte     Sans objet
+  Niveau géographique  Sans objet
+  Nombre de lignes     26
+  Nombre de colonnes   5 (No., Nom du champ, Question, Description, Type)
+  Langue               FR
+  Millésime            Mise à jour : 08/01/2025
+  Statut               Disponible
+  Remarques            Absent de _PROJECT.txt : sur la page du jeu 4c.
+                       Champs prévus mais non publiés dans 4c :
+                       dab_nbr, gab_nbr, dab_fct_nbr, dab_clos_nbr,
+                       garde, caméra, énergie, date_collecte...
+  URL                  https://opendata.gouv.tg/s/resources/donnees-ouvertes-sur-les-banques-distributeurs-de-billets-au-togo/20241217-202255/banques-distributeurs-de-billets.csv
+  md5 / taille         58acb8e1b319d0891e9a993471ed8b3b / 1 487 octets
+
+
+---------------------------------------------------------------------
+  4e. D4_*-adultes.csv (4 fichiers)
+---------------------------------------------------------------------
+
+  Nom du fichier       Un CSV du portail par indicateur, enregistrés sous :
+                         D4_agences-bancaires-pour-100000-adultes.csv (FB.CBK.BRCH.P5)
+                         D4_dab-pour-100000-adultes.csv               (FB.ATM.TOTL.P5)
+                         D4_deposants-pour-1000-adultes.csv           (FB.CBK.DPTR.P3)
+                         D4_emprunteurs-pour-1000-adultes.csv         (FB.CBK.BRWR.P3)
+  Source               Banque mondiale (organisation déclarée sur
+                       opendata.gouv.tg) ; donnée d'origine FMI, enquête
+                       sur l'accès aux services financiers (FAS)
+  Page                 https://opendata.gouv.tg/fr/datasets/<jeu>/ :
+                         donnees-ouvertes-sur-agences-bancaires-commerciales-pour-100-000-adultes-au-togo
+                         donnees-ouvertes-sur-les-distributeurs-automatiques-de-billets-dab-au-togo
+                         donnees-ouvertes-sur-les-deposants-aupres-des-banques-commerciales-au-togo-pour-1-000-adultes
+                         donnees-ouvertes-sur-les-emprunteurs-aupres-des-banques-commerciales-pour-1-000-adultes-au-togo
+  Famille              [Établissements financiers] (densité nationale)
+  Description          Agences de banques commerciales et DAB pour
+                       100 000 adultes ; déposants et emprunteurs des
+                       banques commerciales pour 1 000 adultes. Séries
+                       annuelles.
+  Format               CSV (virgule, UTF-8)
+  Colonnes             indicator, country, countryiso3code, date, value,
+                       unit, obs_status, decimal
+  Période couverte     1960-2023 ; valeurs renseignées : agences
+                       2004-2022, DAB 2014-2021, déposants 2004-2022,
+                       emprunteurs 2019-2022
+  Niveau géographique  National
+  Nombre de lignes     64 par fichier
+  Nombre de colonnes   8
+  Langue               EN (libellés)
+  Millésime            Publication opendata : 07/01/2025 (agences),
+                       21/01/2025 (DAB, déposants), 28/01/2025
+                       (emprunteurs)
+  Licence              CC-BY-4.0
+  Statut               Disponible
+  Remarques            Absents de _PROJECT.txt : trouvés en parcourant le
+                       catalogue.
+                       Dernières valeurs : 4,93 agences (2022) et 6,94 DAB
+                       (2021) pour 100 000 adultes ; 184,4 déposants et
+                       30,4 emprunteurs (2022) pour 1 000 adultes.
+                       Seul repère national pour les agences de D4 et les
+                       DAB de 4c. Identiques aux mêmes séries dans 4g ;
+                       4f les révise et les prolonge.
+  URL                  https://opendata.gouv.tg/s/resources/donnees-ouvertes-sur-agences-bancaires-commerciales-pour-100-000-adultes-au-togo/20250107-100745/agences-bancaires-commerciales-pour-100-000-adultes-.csv
+                       https://opendata.gouv.tg/s/resources/donnees-ouvertes-sur-les-distributeurs-automatiques-de-billets-dab-au-togo/20250121-153936/distributeurs-automatiques-de-billets-dab-pour-100-000-adultes-.csv
+                       https://opendata.gouv.tg/s/resources/donnees-ouvertes-sur-les-deposants-aupres-des-banques-commerciales-au-togo-pour-1-000-adultes/20250121-150223/deposants-aupres-des-banques-commerciales-pour-1-000-adultes-.csv
+                       https://opendata.gouv.tg/s/resources/donnees-ouvertes-sur-les-emprunteurs-aupres-des-banques-commerciales-pour-1-000-adultes-au-togo/20250128-105010/emprunteurs-aupres-des-banques-commerciales-pour-1-000-adultes-.csv
+  md5 / taille         agences      c830c7402419f30d9a9a5ffbd0ce9644 / 4 661 octets
+                       dab          372b1a5b5f05c09f97cc0a3d9b05fde2 / 4 900 octets
+                       deposants    9bc26019665c2091a3af9b89c7c95abc / 5 043 octets
+                       emprunteurs  019cb8bb32983e2e35146427ec58a418 / 4 741 octets
+
+
+---------------------------------------------------------------------
+  4f. D4_worldbank-api-*-adultes.json (4 fichiers)
+---------------------------------------------------------------------
+
+  Nom du fichier       Réponses de l'API aux liens « Lien vers la source »
+                       des jeux 4e (paramètres ajoutés : format=json,
+                       per_page=200, comme pour 1b) :
+                         D4_worldbank-api-agences-bancaires-pour-100000-adultes.json
+                         D4_worldbank-api-dab-pour-100000-adultes.json
+                         D4_worldbank-api-deposants-pour-1000-adultes.json
+                         D4_worldbank-api-emprunteurs-pour-1000-adultes.json
+  Source               Banque mondiale, World Development Indicators ;
+                       donnée d'origine FMI (FAS)
+  Famille              [Établissements financiers] (densité nationale)
+  Description          Mêmes indicateurs que 4e, dans leur version la
+                       plus récente.
+  Format               JSON
+  Période couverte     1960-2025 ; valeurs renseignées jusqu'en 2024 pour
+                       les quatre
+  Niveau géographique  National
+  Nombre de lignes     66 observations par fichier
+  Nombre de colonnes   Sans objet (JSON) : date, value, unit, obs_status...
+  Langue               EN
+  Millésime            lastupdated = 13/07/2026
+  Statut               Disponible
+  Remarques            Toutes les années sont révisées à la baisse par
+                       rapport à 4e : de 2 à 3 % pour les agences, les
+                       déposants et les emprunteurs ; de 4 à 9 % pour les
+                       DAB (2021 : 6,29 contre 6,94).
+                       2024 : 4,38 agences et 6,93 DAB pour 100 000
+                       adultes ; 197,2 déposants et 37,2 emprunteurs pour
+                       1 000 adultes. Agences en recul depuis 2020
+                       (5,29).
+  URL                  https://api.worldbank.org/v2/country/TGO/indicators/<indicateur>?format=json&per_page=200
+  md5 / taille         agences      e490f282e868c1962f909aa0cfa07216 / 14 863 octets
+                       dab          2f278414a3508245930576dbdac3007b / 15 271 octets
+                       deposants    ae9fa5075de1b3b4269e8bdfef92503c / 15 256 octets
+                       emprunteurs  c0567e457a4fa895a51827f33f633f08 / 15 013 octets
+
+
+---------------------------------------------------------------------
+  4g. D4_hdx-secteur-financier.csv
+---------------------------------------------------------------------
+
+  Nom du fichier       financial-sector-tgo.csv
+                       (enregistré sous D4_hdx-secteur-financier.csv)
+  Source               Humanitarian Data Exchange (HDX) (organisation
+                       déclarée sur opendata.gouv.tg) ; indicateurs de la
+                       Banque mondiale (WDI, Global Findex, base GFDD),
+                       d'origine FMI, Findex, enquêtes auprès des
+                       entreprises...
+  Page                 https://opendata.gouv.tg/fr/datasets/donnees-ouvertes-sur-le-secteur-financier-au-togo/
+  Famille              [Établissements financiers] ; côté demande :
+                       détention et usage d'un compte (Findex)
+  Description          135 indicateurs du secteur financier, format long
+                       (un indicateur par ligne et par année) : accès
+                       (agences, DAB, comptes), usage par les ménages
+                       (Findex), crédit, monnaie, taux, banques,
+                       assurance, envois de fonds des migrants.
+  Format               CSV (virgule, guillemets, UTF-8) ; 2e ligne =
+                       balises HXL (#country+name...), à écarter
+  Colonnes             Country Name, Country ISO3, Year, Indicator Name,
+                       Indicator Code, Value
+  Période couverte     1960-2023 selon l'indicateur ; Findex : 2011, 2014,
+                       2017 et 2021
+  Niveau géographique  National
+  Nombre de lignes     3 348 (ligne HXL exclue), 135 indicateurs
+  Nombre de colonnes   6
+  Langue               EN
+  Millésime            Publication opendata : 03/12/2024 ; mise à jour
+                       16/12/2024
+  Licence              CC-BY-4.0
+  Statut               Disponible
+  Remarques            Absent de _PROJECT.txt : trouvé en parcourant le
+                       catalogue.
+                       Source de DEMANDE pour l'inclusion financière, la
+                       seule trouvée sur le portail : 9 séries Findex de
+                       détention d'un compte (ensemble, sexe, revenu,
+                       âge, éducation) et 35 séries GFDD d'accès et
+                       d'usage. En 2021 : 49,6 % des 15 ans et plus ont
+                       un compte, mobile money compris ; 24,9 % un compte
+                       dans une institution financière ; 17,9 % ont
+                       envoyé de l'argent par téléphone.
+                       Les 4 séries de 4e y figurent, identiques.
+                       DAB pour 100 000 adultes selon la GFDD
+                       (GFDD.AI.25) différent de FB.ATM.TOTL.P5 (2017 :
+                       3,98 contre 5,45).
+                       Envois de fonds reçus (BX.TRF.PWKR.CD.DT) : même
+                       valeur de 2020 à 2023 (650 385 610 USD), valeur
+                       reconduite probable.
+                       Vague Findex 2024 absente : voir 4h.
+  URL                  https://opendata.gouv.tg/s/resources/donnees-ouvertes-sur-le-secteur-financier-au-togo/20241203-165109/financial-sector-tgo.csv
+  md5 / taille         3de21bcef80bdc760218d263e18ebd99 / 298 387 octets
+
+
+---------------------------------------------------------------------
+  4h. D4_worldbank-api-findex-*.json (3 fichiers)
+---------------------------------------------------------------------
+
+  Nom du fichier       Réponses de l'API Banque mondiale pour 3 codes
+                       Findex présents dans 4g (paramètres : format=json,
+                       per_page=200). La page de 4g n'a pas de lien vers
+                       l'API : les codes viennent du fichier.
+                         D4_worldbank-api-findex-compte.json                           (FX.OWN.TOTL.ZS)
+                         D4_worldbank-api-findex-compte-femmes.json                    (FX.OWN.TOTL.FE.ZS)
+                         D4_worldbank-api-findex-compte-40-pourcent-plus-pauvres.json  (FX.OWN.TOTL.40.ZS)
+  Source               Banque mondiale, World Development Indicators ;
+                       donnée d'origine Global Findex
+  Famille              [Établissements financiers] ; côté demande
+  Description          Part des 15 ans et plus ayant un compte dans une
+                       institution financière ou auprès d'un service de
+                       mobile money : ensemble, femmes, 40 % les plus
+                       pauvres.
+  Format               JSON
+  Période couverte     Vagues 2011, 2014, 2017, 2021 et 2024
+  Niveau géographique  National
+  Nombre de lignes     66 observations par fichier (5 renseignées)
+  Nombre de colonnes   Sans objet (JSON) : date, value, unit, obs_status...
+  Langue               EN
+  Millésime            lastupdated = 13/07/2026
+  Statut               Disponible
+  Remarques            Ajoute la vague 2024, absente de 4g : 57,4 % des
+                       adultes ont un compte (49,6 % en 2021) ; femmes
+                       45,3 % (44,3 %) ; 40 % les plus pauvres 43,7 %
+                       (39,0 %). Valeurs 2011-2021 égales à celles de 4g,
+                       qui les arrondit à 2 décimales.
+  URL                  https://api.worldbank.org/v2/country/TGO/indicators/<indicateur>?format=json&per_page=200
+  md5 / taille         compte        cf7b0f4f718e92a1b409a5aa430a035a / 19 028 octets
+                       femmes        da14be35d355947713947e239e59ce08 / 19 754 octets
+                       40 % pauvres  2b377e4cdc243b4c6be202e59a79b1e7 / 20 083 octets
+
+
+---------------------------------------------------------------------
+  4i. Services financiers postaux (INSEED, 3 fichiers)
+---------------------------------------------------------------------
+
+  Nom du fichier       observationdata-qevzqlb.csv -> D4_services-epargne.csv
+                       observationdata-ftdpydb.csv -> D4_cheques-postaux.csv
+                       observationdata-mysunig.csv -> D4_mandats-express-internationaux.csv
+  Source               INSEED (organisation déclarée sur opendata.gouv.tg)
+  Page                 https://opendata.gouv.tg/fr/datasets/<jeu>/ :
+                         donnees-ouvertes-sur-services-de-lepargne-au-togo
+                         donnees-ouvertes-sur-les-services-de-cheques-postaux-au-togo
+                         donnees-ouvertes-sur-les-mandats-express-internationaux-au-togo
+  Famille              [Établissements financiers] (« autres structures »
+                       et transfert d'argent, dans la description de D4)
+  Description          Nombre d'opérations par an : versements et
+                       paiements (épargne ; chèques postaux) ; émissions,
+                       paiements et opérations de transfert (mandats
+                       express internationaux).
+  Format               CSV (virgule, guillemets, UTF-8), format long
+  Colonnes             indicateur, Unit, Date, Value
+  Période couverte     Épargne 2010-2022 ; chèques postaux 2013-2019 ;
+                       mandats 2010-2022
+  Niveau géographique  National
+  Nombre de lignes     26 (épargne) ; 14 (chèques postaux) ; 39 (mandats)
+  Nombre de colonnes   4
+  Langue               FR
+  Millésime            Publication : 27/12/2024 (épargne, chèques
+                       postaux) ; 26/12/2024 (mandats)
+  Licence              « other-open »
+  Statut               Partiel
+  Remarques            Absents de _PROJECT.txt : trouvés en parcourant le
+                       catalogue.
+                       Seules données du portail sur des opérations de
+                       transfert d'argent, sans localisation ni
+                       prestataire.
+                       Les descriptions annoncent montants, taux, comptes
+                       actifs, destinations et frais : absents, seuls
+                       les nombres d'opérations sont publiés.
+                       Mandats : émissions de 1 837 (2016) à 0 (2022) ;
+                       paiements 85 991 en 2010 puis 11 754 en 2011,
+                       saut à vérifier.
+  URL                  https://opendata.gouv.tg/s/resources/donnees-ouvertes-sur-services-de-lepargne-au-togo/20241227-084441/observationdata-qevzqlb.csv
+                       https://opendata.gouv.tg/s/resources/donnees-ouvertes-sur-les-services-de-cheques-postaux-au-togo/20241227-085323/observationdata-ftdpydb.csv
+                       https://opendata.gouv.tg/s/resources/donnees-ouvertes-sur-les-mandats-express-internationaux-au-togo/20241226-175149/observationdata-mysunig.csv
+  md5 / taille         épargne          9678f7475d7c3b0db39df10adfb4d1f8 / 1 396 octets
+                       chèques postaux  7be7452b0d1143c4aef626b79a85430f / 770 octets
+                       mandats          206c68625d31cf98a0132bcf2e0a8ad6 / 1 645 octets
+
+
+---------------------------------------------------------------------
+  4j. D4_geodata-*.json (10 indicateurs, 50 fichiers)
+---------------------------------------------------------------------
+
+  Nom du fichier       Réponses de l'API publique de geodata.gouv.tg
+                       (app/1/get_indicators_values), une par indicateur
+                       et par niveau (PAYS, REGION, PREFECTURE, COMMUNE,
+                       CANTON), enregistrées sous
+                       D4_geodata-<indicateur>_<NIVEAU>.json :
+                         nombre-agences-bancaires
+                         nombre-agences-microfinance
+                         nombre-agences-assurance
+                         nombre-dab
+                         habitants-par-agence-microfinance
+                         habitants-par-agence-assurance
+                         habitants-a-plus-10km-etablissement-financier
+                         pct-habitants-a-plus-10km-banque-microfinance
+                         nombre-agences-poste
+                         pct-habitants-5km-agence-poste
+  Source               geodata.gouv.tg (plateforme source des couches de
+                       D4 et 4c, voir 7). Indicateurs calculés par la
+                       plateforme
+  Famille              [Établissements financiers] ; recoupe [Population]
+  Description          Nombre d'agences bancaires, de microfinance et
+                       d'assurance, de DAB et d'agences ou franchises de
+                       la Poste ; habitants par agence de microfinance et
+                       par agence d'assurance ; habitants à plus de 10 km
+                       d'un établissement financier (en nombre et en %) ;
+                       part des habitants à moins de 5 km d'une agence de
+                       la Poste. Par unité administrative.
+  Format               JSON : liste d'objets (id, <niveau>_id,
+                       <niveau>_nom, indicateur_id, valeur)
+  Période couverte     Non indiquée (couches collectées en 2021/2022,
+                       campagne PRISE)
+  Niveau géographique  Pays ; 5 régions (Grand Lomé inclus dans
+                       Maritime) ; 39 préfectures ; 117 communes ;
+                       396 cantons
+  Nombre de lignes     558 par indicateur (1 + 5 + 39 + 117 + 396)
+  Nombre de colonnes   5 (3 au niveau PAYS)
+  Langue               FR
+  Millésime            Téléchargés le 25/09/2026 ; date de calcul non
+                       indiquée
+  Licence              Non indiquée
+  Statut               Disponible
+  Remarques            Absent de _PROJECT.txt : trouvé sur geodata.gouv.tg.
+                       Comptages égaux à nos fichiers : 247 agences
+                       bancaires et 69 d'assurance (D4), 412 de
+                       microfinance (D4 en compte 413, avec la ligne
+                       « Micro-Finace »), 184 DAB (4c), qui sont des sites
+                       et non des appareils. Indicateurs par habitant et
+                       par distance : niveau de preuve C (méthode non
+                       documentée).
+                       Base de population : habitants par agence ×
+                       nombre d'agences = 8,14 M, comme en 5c, proche du
+                       RGPH 2022 (8,10 M).
+                       Valeurs nationales : 19 766 habitants par agence
+                       de microfinance ; 118 024 par agence d'assurance ;
+                       1 478 365 habitants à plus de 10 km d'une banque,
+                       d'une microfinance ou d'une assurance ; 18,16 % à
+                       plus de 10 km d'une banque ou d'une microfinance
+                       (de 2,0 % en Maritime à 39,92 % en Kara) ; 95
+                       agences et franchises de la Poste, 57,44 % des
+                       habitants à moins de 5 km de l'une d'elles.
+                       Par préfecture : 17 sans DAB, 7 sans agence
+                       bancaire ; Kpendjal à 100 % au-delà de 10 km
+                       (aucun établissement recensé dans D4).
+                       « Habitants par agence » vide exactement là où il
+                       n'y a aucune agence. Pas d'indicateur « habitants
+                       par agence bancaire » ni « par DAB » : à calculer.
+  URL                  https://api.geodata.gouv.tg/app/1/get_indicators_values?indicateur_id=<id>&niveau_hierarchic=<NIVEAU>
+                       (identifiants dans le manifeste ci-dessous)
+  md5 / taille         50 fichiers, 718 436 octets au total ; détail par
+                       fichier dans _metadata/geodata_indicateurs_manifest.csv
+
+
+---------------------------------------------------------------------
+  5. D5_agents-mobile-money.csv
+---------------------------------------------------------------------
+
+  Nom du fichier       file-agents-mobile-money-19-12-2024-16-55-32.csv
+                       (enregistré sous D5_agents-mobile-money.csv)
+  Source               Ministère de l'Efficacité du Service Public et de la
+                       Transformation Numérique (organisation déclarée sur
+                       opendata.gouv.tg)
+  Famille              [Agents mobile money]
+  Description          Un point géolocalisé par point de service mobile
+                       money, avec son rattachement administratif et
+                       l'opérateur ou les opérateurs servis.
+  Format               CSV (virgule, UTF-8) ; géométrie en WKT POINT (lon lat)
+  Colonnes             FID, region_nom_bdd, prefecture_nom_bdd,
+                       commune_nom_bdd, canton_nom_bdd, operateur, geometry
+  Période couverte     Stock. Date de collecte NON publiée. Export du
+                       19/12/2024 (horodatage des identifiants). Couverture
+                       déclarée : 2022-2030 (valeur générique).
+                       Collecte : « Campagne de collecte PRISE -
+                       2021/2022 » d'après geodata.gouv.tg (voir 7).
+  Niveau géographique  Point GPS ; région, préfecture, commune, canton
+                       (pas de localité)
+  Nombre de lignes     19 788
+  Nombre de colonnes   7 (sur 46 décrites dans le dictionnaire 5b)
+  Langue               FR
+  Millésime            Publication : 19/12/2024
+  Licence              « other-open »
+  Statut               Partiel
+  Remarques            Selon les métadonnées, la liste couvre aussi des
+                       « points de recharge de crédit » : le champ
+                       « service », qui permettrait de filtrer, n'est pas
+                       publié.
+                       Champ operateur : « Moov, Togocom » 12 649 ;
+                       Togocom 4 773 ; Moov 1 018 ; Nsp 1 348.
+                       Contrôle par les polygones de 6b : de 99,63 à
+                       99,75 % des points dans leur unité déclarée selon
+                       le niveau ; 49 points hors du territoire (36 à
+                       Cinkassé), à 1,35 km au plus de la frontière.
+                       Page revérifiée le 25/09/2026 : mêmes deux
+                       ressources (ce fichier et son dictionnaire 5b),
+                       métadonnées inchangées depuis le 08/01/2025. Aucune
+                       ressource communautaire, aucune réutilisation.
+                       Éléments de la description cherchés dans tout le
+                       catalogue et sur geodata.gouv.tg :
+                       - localisation et opérateur : ce fichier. Les jeux
+                         « Agents Mobile Money MOOV » et « TOGOCOM » du
+                         MESPTN sont privés (schéma seul, identique à 5b) ;
+                       - zone de couverture : aucun champ. geodata.gouv.tg
+                         calcule des indicateurs d'accès par découpage
+                         administratif (5c) ;
+                       - zones urbaines et rurales : aucun champ, et aucun
+                         classement urbain / rural par commune ou canton
+                         sur le portail ;
+                       - transactions électroniques : séries nationales
+                         seulement. Abonnés actifs et valeur des
+                         transactions 2013-2022 (2b) ; paiements et envois
+                         par téléphone, Findex 2014-2021 (4g, aucune
+                         vague plus récente dans l'API) ; comptes, mobile
+                         money compris, 2011-2024 (4h).
+                       Les 46 champs du dictionnaire existent sur
+                       geodata.gouv.tg (service, Flooz, T-Money, transfert
+                       international, nombre d'agents, date de collecte),
+                       mais leurs valeurs y sont masquées (« N/A ») : les
+                       seuls attributs publics sont ceux de ce fichier.
+  URL                  https://opendata.gouv.tg/s/resources/donnees-ouvertes-sur-les-agents-mobile-money-au-togo/20241219-165539/file-agents-mobile-money-19-12-2024-16-55-32.csv
+  md5 / taille         65b18f1b2cb3bd16b15e59f8e6a5ca3f / 3 031 900 octets
+
+
+---------------------------------------------------------------------
+  5b. D5_metadonnees-agents-mobile-money.csv
+---------------------------------------------------------------------
+
+  Nom du fichier       agents-mobile-money.csv
+                       (« Métadonnées_agents-mobile-money.csv » sur le site)
+  Source               Ministère de l'Efficacité du Service Public et de la
+                       Transformation Numérique
+  Famille              Documentation de D5 (dictionnaire des variables)
+  Description          Liste des 46 champs de la collecte. La plupart n'ont
+                       pas de libellé.
+  Format               CSV
+  Période couverte     Sans objet
+  Niveau géographique  Sans objet
+  Nombre de lignes     46
+  Nombre de colonnes   5
+  Langue               FR
+  Millésime            Mise à jour : 08/01/2025
+  Statut               Disponible
+  Remarques            _PROJECT.txt le présente comme la 2e « URL Data » du
+                       dataset 5 : ce n'est pas un fichier de données, c'est
+                       le dictionnaire.
+                       Même fichier (même SHA-1) publié comme schéma des
+                       jeux privés « Agents Mobile Money MOOV » et
+                       « TOGOCOM » du MESPTN.
+  URL                  https://opendata.gouv.tg/s/resources/donnees-ouvertes-sur-les-agents-mobile-money-au-togo/20241217-162510/agents-mobile-money.csv
+  md5 / taille         2760465921b5f972fb4f74c8921a27f8 / 1 718 octets
+
+
+---------------------------------------------------------------------
+  5c. D5_geodata-*.json (10 fichiers)
+---------------------------------------------------------------------
+
+  Nom du fichier       Réponses de l'API publique de geodata.gouv.tg
+                       (app/1/get_indicators_values), une par indicateur
+                       et par niveau (PAYS, REGION, PREFECTURE, COMMUNE,
+                       CANTON) :
+                         D5_geodata-habitants-par-point-mm_<NIVEAU>.json
+                         D5_geodata-pct-habitants-1km-point-mm_<NIVEAU>.json
+  Source               geodata.gouv.tg, plateforme source de D5 (« Lien
+                       vers la source » dans _PROJECT.txt). Indicateurs
+                       calculés par la plateforme sur la couche « Agents
+                       mobile money »
+  Famille              [Agents mobile money] ; recoupe [Population]
+  Description          « Nombre d'habitants par point mobile money »
+                       (fonction popRatio) et « Proportion d'habitants à
+                       moins de 1km d'un point mobile money » (en %,
+                       fonction percentagePopulationTargetBuffer), par
+                       unité administrative.
+  Format               JSON : liste d'objets (id, <niveau>_id,
+                       <niveau>_nom, indicateur_id, valeur)
+  Période couverte     Non indiquée (couche collectée en 2021/2022)
+  Niveau géographique  Pays ; 5 régions (Grand Lomé inclus dans
+                       Maritime) ; 39 préfectures ; 117 communes ;
+                       396 cantons
+  Nombre de lignes     1 + 5 + 39 + 117 + 396 = 558 par indicateur
+  Nombre de colonnes   5 (3 au niveau PAYS)
+  Langue               FR
+  Millésime            Téléchargés le 25/09/2026 ; date de calcul non
+                       indiquée
+  Licence              Non indiquée
+  Statut               Disponible
+  Remarques            Absent de _PROJECT.txt : trouvé sur geodata.gouv.tg,
+                       dont l'adresse y figure.
+                       Niveau de preuve C : méthode et base de population
+                       non documentées. Recoupement : habitants par point
+                       × points de D5 = 8,14 M d'habitants au total,
+                       proche du RGPH 2022 (8,10 M) ; écart par région de
+                       -9 % (Kara) à +3 % (Plateaux).
+                       Valeurs nationales : 412 habitants par point ;
+                       70,48 % des habitants à moins de 1 km d'un point.
+                       Par préfecture : de 154 (Kozah) à 3 018 (Blitta)
+                       habitants par point ; de 36,48 % (Kpendjal) à
+                       92,92 % (Golfe) à moins de 1 km.
+                       23 cantons sans valeur d'habitants par point
+                       (probablement aucun point dans le canton) ; 0 à 5 %
+                       de leurs habitants sont à moins de 1 km d'un point.
+                       Indicateurs de la même plateforme pour les
+                       sections 3 et 4 : 3i et 4j. md5 et tailles de tous
+                       ces fichiers : _metadata/geodata_indicateurs_manifest.csv.
+  URL                  https://api.geodata.gouv.tg/app/1/get_indicators_values?indicateur_id=<id>&niveau_hierarchic=<NIVEAU>
+                       habitants par point : 23956a46-c877-465a-a99d-3407d4a68534
+                       % à moins de 1 km   : 97c18765-9718-4442-bd6f-afd6fc55b8d9
+  md5 / taille         habitants-par-point-mm_PAYS         db10f2fabe34c165dd34f4b0cd896b09 / 84 octets
+                       habitants-par-point-mm_REGION       356cc04fb6752f6bf877ff6351a941c1 / 611 octets
+                       habitants-par-point-mm_PREFECTURE   4a372b428552083d3a03e30f9858518d / 5 165 octets
+                       habitants-par-point-mm_COMMUNE      8932cf2496521d6ee07202bd564a697c / 15 485 octets
+                       habitants-par-point-mm_CANTON       8d7f32f139f51eb54bca63b57cb1766b / 51 383 octets
+                       pct-habitants-1km-point-mm_PAYS     08cda117a1f352a692f7fea8fa12e2fc / 84 octets
+                       pct-habitants-1km-point-mm_REGION   10aa86d95abc0e515f42f2c6804c90bd / 611 octets
+                       pct-habitants-1km-point-mm_PREFECTURE 501e19af3081899fa8991896618ddf2e / 5 156 octets
+                       pct-habitants-1km-point-mm_COMMUNE  a4cbcb0363e731ca3611550baa0b8f1f / 15 449 octets
+                       pct-habitants-1km-point-mm_CANTON   61580f474180b8053e369ba04665e5cb / 50 825 octets
+
+
+---------------------------------------------------------------------
+  6. D6_rgph.csv
+---------------------------------------------------------------------
+
+  Nom du fichier       observationdata-kwwolwb.csv
+                       (enregistré sous D6_rgph.csv)
+  Source               INSEED (organisation déclarée sur opendata.gouv.tg)
+  Famille              [Population]
+  Description          Population résidente du RGPH 2022 par unité
+                       administrative, du pays au canton (quartier dans le
+                       Grand Lomé), tous niveaux dans une seule colonne.
+  Format               CSV (virgule, guillemets, UTF-8)
+  Colonnes             indicateur, découpage-administratif, sexe, Unit,
+                       Date, Value
+  Période couverte     2022 (recensement)
+  Niveau géographique  Pays ; 5 régions + District autonome du Grand Lomé
+                       (« DAGL ») ; 39 préfectures ; 117 communes (116
+                       lignes) ; 597 unités infra-communales
+  Nombre de lignes     759
+  Nombre de colonnes   6
+  Langue               FR (majuscules, sans accents)
+  Millésime            Publication : 27/12/2024
+  Licence              « other-open »
+  Statut               Partiel
+  Remarques            Population totale uniquement : colonne sexe = « Total »
+                       partout malgré le libellé « par sexe », aucune
+                       tranche d'âge. Pas de colonne indiquant le niveau
+                       administratif. Libellés irréguliers : « TOTOAL AVE »,
+                       « DAGL », « BINAH2 », « DANYI 1+DANYI 2 »,
+                       « AMOU 2 » et « EST-MONO 1 » en double.
+                       Ni superficie ni contour des unités : fournis par
+                       6b (limites administratives de geodata.gouv.tg).
+                       Une fois les libellés corrigés, les communes
+                       correspondent une à une à celles de 6b, sauf
+                       Danyi 1 et 2, fusionnées ici.
+  URL                  https://opendata.gouv.tg/s/resources/donnee-ouverte-de-recensement-general-de-la-population-et-de-lhabitat-rgph/20241227-082722/observationdata-kwwolwb.csv
+  md5 / taille         c7a8865fe42092253e0d87840b4e4b0a / 82 917 octets
+
+
+---------------------------------------------------------------------
+  6b. D6_geodata-limites-*.geojson (4 fichiers)
+---------------------------------------------------------------------
+
+  Nom du fichier       Exports de l'API publique de geodata.gouv.tg
+                       (app/1/get_couche_file, sortie JSON ; fichier
+                       « file.json »), enregistrés sous :
+                         D6_geodata-limites-regions.geojson
+                         D6_geodata-limites-prefectures.geojson
+                         D6_geodata-limites-communes.geojson
+                         D6_geodata-limites-cantons.geojson
+  Source               geodata.gouv.tg, couches ouvertes « Limites
+                       administratives - Régions », « - Préféctures »,
+                       « - Communes » et « - Cantons ». Source de collecte
+                       déclarée : « Campagne de collecte PRISE -
+                       2021/2022 »
+  Page                 https://geodata.gouv.tg/donnees/<identifiant de la
+                       couche> (identifiants à la rubrique URL)
+  Famille              (référentiel territorial) : contours et codes des
+                       unités administratives. Prérequis des objectifs 3
+                       à 5 dans le 02 ; superficie de O4-02
+  Description          Contour de chaque région, préfecture, commune et
+                       canton, identifié par le code hiérarchique des
+                       indicateurs geodata (3i, 4j, 5c) : « regions.A »,
+                       « prefectures.A01 », « communes.A01001 »,
+                       « cantons.A01001001 ».
+  Format               GeoJSON (FeatureCollection), EPSG:4326 ;
+                       géométries MultiPolygon
+  Colonnes             id et geometry seulement. Les attributs décrits par
+                       les métadonnées (nom_region, nom_prefecture,
+                       nom_commune, canton_nom, region_id, prefecture_id,
+                       commune_id ; population pour les cantons) sont
+                       masqués : absents des exports JSON, CSV et
+                       Shapefile, « N/A » dans l'aperçu public
+  Période couverte     Stock ; collecte PRISE 2021/2022 ; date de mise à
+                       jour des couches non indiquée
+  Niveau géographique  5 régions (Grand Lomé inclus dans Maritime) ;
+                       39 préfectures ; 117 communes ; 396 cantons
+  Nombre de lignes     5 / 39 / 117 / 396 objets
+  Nombre de colonnes   Sans objet (GeoJSON) : id, geometry
+  Langue               Sans objet : les noms se trouvent, par le code,
+                       dans les fichiers d'indicateurs geodata
+  Millésime            Téléchargés le 25/09/2026
+  Licence              Non indiquée
+  Statut               Disponible (contours et codes) ; attributs masqués
+  Remarques            Absent de _PROJECT.txt : couches ouvertes repérées
+                       dans la configuration de geodata.gouv.tg (voir 7).
+                       Téléchargement validé le 25/09/2026.
+                       Codes identiques à ceux des 90 fichiers
+                       d'indicateurs geodata : chaque objet y retrouve
+                       son nom.
+                       Géométries toutes valides. Superficie totale
+                       identique aux 4 niveaux : 56 654,6 km² (calcul
+                       géodésique). Chevauchements et vides inférieurs à
+                       0,2 km² par niveau.
+                       Superficies : Maritime 6 372 km², Plateaux 16 965,
+                       Centrale 13 391, Kara 11 390, Savanes 8 536.
+                       Préfectures de 193 km² (Agoè-Nyivé) à 3 284 km²
+                       (Bassar) ; communes de 5,8 km² (Agoè-Nyivé 3) à
+                       1 597 km² (Blitta 3) ; cantons de 2,9 km²
+                       (Agou-Nyogbo-Dzidjole) à 1 197 km² (Bassar).
+                       Emboîtement : les préfectures sont exactement dans
+                       leurs régions et les cantons dans leurs communes.
+                       Mais 3 communes débordent de leur préfecture, sur
+                       150 km² : Haho 1 sur Kpélé (99,8 km²), Oti 2 sur
+                       Tandjoaré (48,5 km²), Lacs 3 sur Golfe (1,2 km²).
+                       8 cantons ont un code qui ne correspond pas à la
+                       commune contenant leur polygone : Kati, Djemegni et
+                       Takpamba (commune du code inexistante), Kpaha,
+                       Anima, Agome-Glozou, Yokélé et Akpakpakpé.
+                       Rattachement des points, unité déclarée contre
+                       polygone : D4 et 4c 100 % à tous les niveaux ; D5
+                       de 99,63 % (commune) à 99,75 % (région, canton).
+                       Écarts de D5 : 49 points hors du territoire
+                       (Cinkassé 36, Binah 8, Tône 3, Kpendjal 2), à
+                       565 m de la frontière en médiane et 1,35 km au
+                       plus ; 22 points dans les zones où les communes
+                       débordent de leur préfecture ; 25 points dans
+                       Agome-Glozou, Akpakpakpé et Yokélé, déclarés dans
+                       la commune du code et non dans celle du polygone.
+                       Pour Kati, Djemegni, Takpamba et Kpaha, les
+                       communes déclarées par D4 et D5 sont celles des
+                       polygones.
+                       Le champ population des cantons, masqué, pourrait
+                       être la base des indicateurs geodata (≈ 8,14 M).
+  URL                  POST https://api.geodata.gouv.tg/app/1/get_couche_file
+                       {"couche": "<identifiant>", "niveau_hierarchic":
+                       "PAYS", "niveau_hierarchic_id": "A",
+                       "sortie": "JSON"}
+                       régions      f8d02e38-1d4b-42d2-99cb-c1918316a153
+                       préfectures  1fd2b7a3-329c-40f3-813f-7d3397d30ded
+                       communes     0d32e7d7-9ae2-4451-9df5-20e4bf9fa771
+                       cantons      fd32bf4a-86e8-43ef-8201-fdcc41f2140e
+                       Métadonnées des couches :
+                       _metadata/geodata_couche_*_limites-*_metadata.json
+  md5 / taille         regions      67cde1f0025bf2a1bb0e3b3644c896bb / 740 670 octets
+                       prefectures  98f9dd2ea2e63ec2ab1de2f9e9c82037 / 951 598 octets
+                       communes     a43c6ee82596e87c1126dc28d835736c / 1 080 807 octets
+                       cantons      e0c86fb9212c7b3dcb9dfdd2562894c9 / 1 290 070 octets
+
+
+---------------------------------------------------------------------
+  7. Page geodata.gouv.tg — agents mobile money
+---------------------------------------------------------------------
+
+  Lien                 https://geodata.gouv.tg/donnees/725f5fc0-4a66-49ff-9ef4-a04d004471b9
+  Statut               Disponible : même contenu que D5 (vérifié le
+                       25/09/2026)
+  Remarques            Application JavaScript, alimentée par une API
+                       publique (https://api.geodata.gouv.tg/app/...),
+                       interrogée le 25/09/2026 :
+                       - export CSV de la couche : 19 788 lignes et les
+                         7 colonnes de D5, contenu identique ligne à
+                         ligne ; seul le FID change (md5
+                         1f9934aa09a7990ac691653f6d9d1552, 3 032 272
+                         octets, non conservé) ;
+                       - aperçu public : les 46 champs du dictionnaire 5b
+                         existent, mais toutes les valeurs sont masquées
+                         (« N/A ») sauf id et canton_id_bdd ;
+                       - source de collecte déclarée : « Campagne de
+                         collecte PRISE - 2021/2022 », comme pour les
+                         couches de D4, de 4c et des tours télécoms ;
+                       - couches Moov et Togocom classées « non open
+                         data » ;
+                       - limites administratives (4 couches ouvertes) :
+                         contours et codes téléchargés, attributs
+                         masqués, voir 6b ;
+                       - indicateurs calculés par la plateforme : voir 5c.
+                       Configuration complète (177 couches ouvertes,
+                       239 indicateurs) :
+                       _metadata/geodata_open_data_config.json.
+
+
+=====================================================================
+  RÉCAPITULATIF — Compléments hors portail (data/raw/_extradatas/)
+=====================================================================
+
+  Validés le 26/09/2026 (voir l'en-tête). Fiches ci-dessous, dans
+  l'ordre : contexte de l'objectif 1 (Banque mondiale, INSEED, MESPTN),
+  ARCEP, chronologie, annuaires et recensement (INSEED, OCHA), enquêtes
+  auprès des ménages, prix et tarifs, finance (BCEAO), lieux candidats
+  (geodata), benchmarks UEMOA et Afrique subsaharienne (Banque
+  mondiale). Traçabilité complète,
+  fichier par fichier : `data/raw/_extradatas/_MANIFEST.csv`.
+
+  Réf.          Fichier(s)                                      Famille                      Lignes    Col.  Statut
+  ------------  ----------------------------------------------  ---------------------------  --------  ----  -----------
+  BM1-BM3, BM7  4 CSV (électricité, PIB/habitant)                [Usage d'Internet] (contexte) 4 x 64      8  Disponible
+  IN1           IN1_projections-demographiques...csv             [Population] (dénominateur)      1134    6  Disponible
+  IN2           IN2_ihpc-poste-2010-2017.csv                     [Usage d'Internet] (tarifs)     21924    4  Disponible
+  IN3           IN3a_...csv + IN3b_...csv (2 fichiers)           [Usage d'Internet] (tarifs)  1872/1612  5/4  Disponible
+  IN4           IN4_acces-electricite-par-prefecture...csv       (contexte obj. 4 et 5)            282    6  Disponible
+  MS1           MS1_mesptn_datacenters-etablissements.csv        (chronologie)                       3    5  Disponible
+  AR1           34 PDF (observatoires trimestriels ARCEP)        [Usage d'Internet] [Marché      —     —  Disponible
+                                                                  des télécoms] [Agents mobile
+                                                                  money]
+  AR2           2 PDF (rapports d'activité 2017 et 2025)         (chronologie ; sites radio)        —    —  Disponible
+  AR3           1 xlsx (registre ARCEP, 26/06/2026)               (chronologie)                     —    —  Disponible
+  AR4           3 PDF (décisions tarifaires)                      (chronologie)                     —    —  Disponible
+  AR5           1 HTML (relevé des tarifs, 09/2023)                [Marché des télécoms]             —    —  Disponible
+  AR6           9 PDF obtenus, 1 échec (études ARCEP)              [Marché des télécoms]             —    —  Partiel
+  CH1           CH1_chronologie-evenements.csv (dérivé)           (chronologie)                     40    9  Disponible
+  AS1           1 PDF (annuaire statistique national 2024)        [Usage d'Internet] (contexte) 776 p.   —  Disponible
+  AS2           4 PDF (annuaires régionaux 2024 : Maritime,        (contexte obj. 4)                 —    —  Partiel
+                 Centrale, Kara, Savanes ; Plateaux absent)
+  RG1           1 PDF (RGPH-5, livret 01, population par sexe)     [Population]                  102 p.   —  Disponible
+  RG2           1 PDF + 2 CSV dérivés (livret 02, préfectures)     [Population]                  8883*   10  Disponible
+  RG3           1 PDF + 1 CSV dérivé (livret 03, communes)         [Population]                  22113   11  Disponible
+  CO1           1 xlsx (OCHA, population 2021 par préfecture)      [Population] (contrôle)           37    —  Disponible
+  W1            1 PDF + 1 CSV dérivé (MICS6 2017)                  [Usage d'Internet] (enquête)     660    8  Disponible
+  W2            11 fichiers (EHCVM 2018/19 et 2021/22, dont         [Usage d'Internet] [Établ.        —    —  Disponible
+                 micro-données Stata sous conditions)               financiers]                             (sur compte)
+  W3            4 fichiers (Findex 2025, dont micro-données         [Usage d'Internet] [Établ.        —    —  Disponible
+                 Togo sous conditions)                              financiers]                             (sur compte)
+  W4            7 fichiers SPSS (Afrobaromètre, vagues 5 à 10)      [Usage d'Internet] [Établ.        —    —  Disponible
+                                                                    financiers]
+  IT1           1 xlsx (paniers de prix TIC, UIT)                  [Marché des télécoms] (tarifs)    —    —  Disponible
+  BC1           1 PDF (BCEAO, services financiers numériques)      [Agents mobile money]             —    —  Disponible
+  BC2           2 PDF (BCEAO, inclusion financière, dont            (benchmark UEMOA)                 —    —  Disponible
+                 tableau de bord par WeTransfer)
+  TF1           5 HTML (grilles tarifaires mobile money)           [Agents mobile money] (tarifs)     —    —  Partiel
+  GD1           1 GeoJSON (agences de la Poste)                    [Établissements financiers]       95   12  Disponible
+  GD2           24 GeoJSON (marchés, écoles, santé, administration) (lieux candidats)              20379  8-13 Disponible
+  C5            1 CSV dérivé (FAS, API Banque mondiale, UEMOA)      (benchmark O4-02)                215    6  Disponible
+  C5b           1 CSV dérivé (usage d'Internet, API Banque          (benchmark O1-01)                221    7  Disponible
+                 mondiale : Afrique subsaharienne et UEMOA)
+
+  * RG2 : 8 883 lignes pour la transcription (voir sa fiche) ; le PDF
+    source n'est pas tabulaire.
+  Statut « Partiel » : au moins un fichier annoncé n'a pas été obtenu
+  (AS2 : Plateaux ; AR6 : campagne QoS du 2e semestre 2023 ; TF1 :
+  grille officielle de retrait de Mixx by Yas).
+
+
+---------------------------------------------------------------------
+  BM1-BM3, BM7. Contexte Banque mondiale (4 fichiers)
+---------------------------------------------------------------------
+
+  Nom du fichier       BM1_acces-electricite-population-totale.csv
+                       BM2_acces-electricite-urbain.csv
+                       BM3_acces-electricite-rural.csv
+                       BM7_croissance-pib-par-habitant.csv
+  Source               Banque mondiale (organisation déclarée sur
+                       opendata.gouv.tg) ; indicateurs EG.ELC.ACCS.ZS
+                       (total, urbain, rural) et NY.GDP.PCAP.KD.ZG
+  Famille              [Usage d'Internet] (contexte, hors 02) : frein
+                       matériel à l'usage (électricité) et lecture des
+                       ruptures (croissance du PIB par habitant)
+  Description          Accès à l'électricité (% de la population,
+                       totale / urbaine / rurale) et croissance du PIB
+                       par habitant (% annuel), séries longues.
+  Format               CSV (identique à D1 : indicator, country,
+                       countryiso3code, date, value, unit, obs_status,
+                       decimal)
+  Période couverte     1998-2022 (électricité) ; 1961-2023 (PIB)
+  Niveau géographique  National
+  Nombre de lignes     64 par fichier
+  Nombre de colonnes   8
+  Langue               EN
+  Statut               Disponible
+  Remarques            Écartés à la validation (voir
+                       _RECHERCHE_donnees_manquantes.md, section 1) :
+                       BM4 à BM6 (inscriptions scolaires, compétences en
+                       lecture — proxys de scolarisation, pas de
+                       compétence numérique adulte).
+                       2022 : accès à l'électricité 57,2 % (total),
+                       96,5 % (urbain), 25,0 % (rural). PIB par
+                       habitant : -0,4 % en 2020, +4,0 % en 2023.
+  URL                  Voir data/raw/_extradatas/_MANIFEST.csv (réf. BM1
+                       à BM7)
+  sha256 / taille      BM1  e1dd7d4a385f68af... / 3 957 octets
+                       BM2  91a6275e9ef96af4... / 4 917 octets
+                       BM3  69adcbde23f32a16... / 4 921 octets
+                       BM7  0ccda3b231239b60... / 4 432 octets
+
+
+---------------------------------------------------------------------
+  IN1. IN1_projections-demographiques-2011-2031.csv
+---------------------------------------------------------------------
+
+  Nom du fichier       observationdata-umvldld.csv ->
+                       IN1_projections-demographiques-2011-2031.csv
+  Source               INSEED (organisation déclarée sur
+                       opendata.gouv.tg)
+  Page                 https://opendata.gouv.tg/fr/datasets/donnees-ouvertes-sur-les-projections-demographiques-du-togo-de-2011-a-2031/
+  Famille              [Population] : dénominateur annuel de O1-03 et
+                       des séries nationales que le projet calcule
+  Description          Projection démographique par tranche d'âge
+                       (18 tranches) et sexe, 2011-2031, national.
+  Format               CSV (virgule, guillemets, UTF-8), format long
+  Colonnes             indicateur, tranche-d-âges, sexe, Unit, Date,
+                       Value
+  Période couverte     2011-2031
+  Niveau géographique  National
+  Nombre de lignes     1 134 (18 tranches x 3 sexes x 21 ans)
+  Nombre de colonnes   6
+  Langue               FR
+  Millésime            Publication opendata : 26/12/2024
+  Statut               Disponible
+  Remarques            2022 : 8 068 000 habitants (-0,3 % du RGPH-5,
+                       8 095 498) ; 5 032 000 de 15 ans et plus, soit
+                       +6,6 % au-dessus du RGPH-5 sur les adultes (voir
+                       03, section 9, encadré « Dénominateurs »). Les
+                       18 tranches somment au total à 2 000 près selon
+                       l'année (écart de -2 000 à +2 000, vérifié sur
+                       les 21 années).
+                       Base démographique de l'ARCEP (AR1) : 8 811 993
+                       habitants au T2 2026, cohérente avec IN1.
+                       Décision R2 (26/09/2026) : IN1 sert seulement aux
+                       séries nationales annuelles là où le RGPH-5
+                       n'existe pas (jamais dans le même tableau que le
+                       RGPH-5) ; pour tout ratio par adulte en 2022 et
+                       tout ratio territorial, la source retenue est
+                       RG2 / RG3 (ci-dessous).
+  URL                  https://opendata.gouv.tg/s/resources/donnees-ouvertes-sur-les-projections-demographiques-du-togo-de-2011-a-2031/20241226-181058/observationdata-umvldld.csv
+  sha256 / taille      88078771fe6eb8a4... / 99 268 octets
+
+
+---------------------------------------------------------------------
+  IN2. IN2_ihpc-poste-2010-2017.csv
+---------------------------------------------------------------------
+
+  Nom du fichier       observationdata-xaivzmg.csv ->
+                       IN2_ihpc-poste-2010-2017.csv
+  Source               INSEED (organisation déclarée sur
+                       opendata.gouv.tg)
+  Page                 https://opendata.gouv.tg/fr/datasets/donnees-ouvertes-ihpc-poste-au-togo/
+  Famille              [Usage d'Internet] (contexte) : chronologie des
+                       baisses de tarifs (B6 du 03)
+  Description          Indice harmonisé des prix à la consommation par
+                       poste (126 postes), mensuel, dont « Frais de
+                       connexion Internet et assimilés », « Communication
+                       téléphonique », « Matériel de téléphonie ».
+  Format               CSV (virgule, guillemets, UTF-8), format long
+  Colonnes             indicateur, Unit, Date, Value
+  Période couverte     2010-01 à 2017-04
+  Niveau géographique  National
+  Nombre de lignes     21 924 (126 postes ; 86 des 88 mois en double,
+                       sous deux formats de date, valeurs identiques)
+  Nombre de colonnes   4
+  Langue               FR
+  Statut               Disponible
+  Remarques            Indice « Frais de connexion Internet » : 100 en
+                       janvier 2010, 63,6 en avril 2017 (-36 %) ; baisses
+                       datées en 2010-07, 2010-12, 2013-01, 2014-02,
+                       2014-10, 2017-01 (chronologie CH1).
+  URL                  https://opendata.gouv.tg/s/resources/donnees-ouvertes-ihpc-poste/20241227-100037/observationdata-xaivzmg.csv
+  sha256 / taille      4d23777d28489ab0... / 1 403 054 octets
+
+
+---------------------------------------------------------------------
+  IN3. IN3a_inhpc-fonctions-consommation-2010-2022.csv +
+       IN3b_indices-des-prix-fonctions-2014-2024.csv
+---------------------------------------------------------------------
+
+  Nom du fichier       observationdata-yfhien.csv -> IN3a_...csv
+                       observationdata-xxhryc.csv -> IN3b_...csv
+  Source               INSEED (organisation déclarée sur
+                       opendata.gouv.tg)
+  Page                 https://opendata.gouv.tg/fr/datasets/donnee-ouvertes-sur-levolution-de-lindice-des-fonctions-de-consommation-de-linhpc-au-togo/
+                       https://opendata.gouv.tg/fr/datasets/donnees-ouvertes-sur-l-indices-des-prix-au-togo/
+  Famille              [Usage d'Internet] (contexte) : prolonge IN2
+  Description          Indice par fonction de consommation (dont
+                       « Communication » : téléphone, Internet, matériel,
+                       poste), mensuel. IN3a et IN3b sont identiques sur
+                       les 108 mois communs.
+  Format               CSV (virgule, guillemets, UTF-8), format long
+  Colonnes             indicateur, Unit, Date, Value (IN3b : + 1 colonne)
+  Période couverte     IN3a : 2010-01 à 2022-12 ; IN3b : 2014-01 à
+                       2024-04
+  Niveau géographique  National
+  Nombre de lignes     IN3a 1 872 ; IN3b 1 612
+  Nombre de colonnes   IN3a 5 ; IN3b 4
+  Langue               FR
+  Statut               Disponible
+  Remarques            « Communication », décembre : 96,9 (2016), 92,7
+                       (2017), 88,4 (2019), 101,8 (2020). **+15 % entre
+                       décembre 2019 et décembre 2020** : hausse réelle
+                       ou changement de méthode, non vérifié. Décision
+                       S7 : pas lu comme une hausse des prix avant
+                       vérification (étape 05).
+  URL                  https://opendata.gouv.tg/s/resources/donnee-ouvertes-sur-levolution-de-lindice-des-fonctions-de-consommation-de-linhpc-au-togo/20250106-150445/observationdata-yfhien.csv
+                       https://opendata.gouv.tg/s/resources/donnees-ouvertes-sur-l-indices-des-prix/20241227-093854/observationdata-xxhryc.csv
+  sha256 / taille      IN3a  63bfb79199683019... / 221 850 octets
+                       IN3b  8262c83c68e0e0d9... / 104 147 octets
+
+
+---------------------------------------------------------------------
+  IN4. IN4_acces-electricite-par-prefecture-2018-2021.csv
+---------------------------------------------------------------------
+
+  Nom du fichier       observationdata-puncgpd.csv ->
+                       IN4_acces-electricite-par-prefecture-2018-2021.csv
+  Source               INSEED (organisation déclarée sur
+                       opendata.gouv.tg)
+  Page                 https://opendata.gouv.tg/fr/datasets/donnees-ouvertes-sur-le-taux-dacces-a-lelectricite-par-prefecture-au-togo/
+  Famille              (contexte des objectifs 4 et 5)
+  Description          Taux d'accès à l'électricité et abonnés basse
+                       tension, par préfecture (ancien découpage,
+                       préfectures regroupées).
+  Format               CSV (virgule, guillemets, UTF-8), format long
+  Colonnes             indicateur, unité_territoriale, Unit, Date, ...
+  Période couverte     2018-2021
+  Niveau géographique  Préfecture (ancien découpage), 40 unités
+  Nombre de lignes     282
+  Nombre de colonnes   6
+  Langue               FR
+  Statut               Disponible
+  Remarques            2021 : Kpendjal 1,9 %, Lomé 98,6 %, national
+                       57,8 %. Seule série territoriale trouvée sur ce
+                       thème ; regroupements (« Ogou + Anié »,
+                       « Kpendjal + Kpendjal Ouest »…) à déplier avant
+                       jointure au référentiel de la section 7 du 03.
+  URL                  https://opendata.gouv.tg/s/resources/donnees-ouvertes-sur-le-taux-dacces-a-lelectricite-par-prefecture/20241226-145522/observationdata-puncgpd.csv
+  sha256 / taille      4ec7709ccfc8cd03... / 30 099 octets
+
+
+---------------------------------------------------------------------
+  MS1. MS1_mesptn_datacenters-etablissements.csv
+---------------------------------------------------------------------
+
+  Nom du fichier       file-datacenter-etablissements-19-12-2024-16-58-28.csv
+                       -> MS1_mesptn_datacenters-etablissements.csv
+  Source               Ministère de l'Efficacité du Service Public et de
+                       la Transformation Numérique (MESPTN)
+  Page                 https://opendata.gouv.tg/fr/datasets/donnees-ouvertes-sur-les-datacenters-etablissements-au-togo/
+  Famille              (chronologie de l'objectif 1)
+  Description          3 datacenters avec leur année de création.
+  Format               CSV
+  Période couverte     Stock ; années de création 2016-2022
+  Niveau géographique  Établissement (3 sites)
+  Nombre de lignes     3
+  Nombre de colonnes   5
+  Langue               FR
+  Statut               Disponible
+  Remarques            E-Gouv NOC (2016), Cloud & Racks (2021), Lomé
+                       Data Center (2022) : intégrés à la chronologie
+                       (CH1).
+  URL                  https://opendata.gouv.tg/s/resources/donnees-ouvertes-sur-les-datacenters-etablissements-au-togo/20241219-165833/file-datacenter-etablissements-19-12-2024-16-58-28.csv
+  sha256 / taille      409c79f1c201c8de... / 1 202 octets
+
+
+---------------------------------------------------------------------
+  AR1. Observatoire trimestriel des marchés (ARCEP, 34 PDF)
+---------------------------------------------------------------------
+
+  Nom du fichier       obj1/AR1_arcep_observatoire/AR1_<année>T<n>_<type>.pdf
+                       (34 fichiers ; détail dans _extradatas/_MANIFEST.csv)
+  Source               ARCEP (site institutionnel, hors opendata.gouv.tg
+                       — décision D-6 d'élargir le périmètre des sources)
+  Page                 https://arcep.tg/observatoire-2/activites/evolutions-du-marche-des-communications-electroniques/
+  Famille              [Usage d'Internet] (O1-04) ; [Marché des
+                       télécoms] (O2-01, O2-02, O2-04, O2-07) ; [Agents
+                       mobile money] (O3-03, O3-04)
+  Description          Abonnés à la téléphonie mobile et fixe, abonnés
+                       data 2G/3G/4G/5G, Internet fixe et FTTH, trafic
+                       data, CA et investissement, mobile money (comptes,
+                       points de vente, transactions) — tout **par
+                       opérateur**, trimestriel.
+  Format               PDF (exports Word ou PowerPoint) ; 3 mises en page
+                       successives (« Évolution du secteur » 2018,
+                       « Tableau de bord » 2019-2021, « Obs-marchés »
+                       depuis 2022). Tableaux non extraits (voir 03,
+                       point P5 : extraction prévue à l'étape de
+                       préparation).
+  Période couverte     T1 2018 à T2 2026, aucun trimestre manquant ;
+                       chaque numéro couvre les 5 derniers trimestres
+                       (permet de détecter les révisions)
+  Niveau géographique  National, par opérateur et par technologie
+  Nombre de lignes     Sans objet (PDF, non extrait)
+  Nombre de colonnes   Sans objet
+  Langue               FR
+  Statut               Disponible
+  Remarques            Décision P4 : les abonnements Internet et par
+                       technologie sont pris dans D2 / 2b jusqu'en 2017,
+                       dans AR1 à partir de 2018 (raccord vérifié : écart
+                       nul en 2018, 0,03 % en 2017). Stocks (abonnés,
+                       comptes, points de vente) : valeur du T4, par
+                       convention, testée contre la moyenne des 4
+                       trimestres (décision R6, voir 03 section 9) ;
+                       flux (CA, investissement, trafic) : somme des 4
+                       trimestres.
+                       Révisions d'un numéro à l'autre : toute l'année
+                       2021 révisée de -13 % à -21 % dans les numéros de
+                       2022. 3G et 4G de Moov réunies jusqu'au T3 2019 ;
+                       rupture de la 3G de Togocel entre le T4 2019 et le
+                       T1 2020 (-58 %, reclassement probable, non
+                       documenté).
+                       Points de vente mobile money : 33 924 (T4 2021),
+                       64 540 (T2 2026). Premiers abonnés 5G : T2 2026
+                       (3 951, YAS).
+  URL                  https://arcep.tg/observatoire-2/activites/evolutions-du-marche-des-communications-electroniques/
+                       (34 liens directs dans _extradatas/_MANIFEST.csv)
+  sha256 / taille      34 fichiers, 34 434 105 octets au total ; détail
+                       par fichier dans _extradatas/_MANIFEST.csv
+
+
+---------------------------------------------------------------------
+  AR2. Rapports d'activité ARCEP 2017 et 2025 (2 PDF)
+---------------------------------------------------------------------
+
+  Nom du fichier       AR2_arcep_rapport-activite-2017.pdf
+                       AR2_arcep_rapport-activite-2025.pdf
+  Source               ARCEP
+  Page                 https://arcep.tg/observatoire-2/activites/rapports-dactivite/
+  Famille              (chronologie de l'objectif 1) ; O2-08 (sites
+                       radio, rapport 2025 seulement)
+  Description          2017 : 3G de Moov commercialisée depuis août 2016 ;
+                       licences 4G attendues en 2018. 2025 : nombre de
+                       sites BTS et de cellules 2G/3G/4G par opérateur,
+                       2021-2025 (tableau 12) ; étude des fréquences IMT
+                       dans 142 localités ; 6 808 localités éligibles au
+                       plan de couverture, dont 88 zones blanches (2021).
+  Format               PDF
+  Période couverte     Exercices 2017 et 2025 (sites : 2021-2025)
+  Niveau géographique  National, par opérateur
+  Nombre de lignes     Sans objet (PDF)
+  Nombre de colonnes   Sans objet
+  Langue               FR
+  Statut               Disponible
+  Remarques            En 2025, Moov compte 718 sites et YAS 1 122 :
+                       seule donnée de sites radio du projet, mais
+                       nationale seulement (les tours détaillées, 3h,
+                       restent privées ; demande au MESPTN, point C6 du
+                       03).
+  URL                  https://arcep.tg/wp-content/uploads/2020/11/Rapport_d_activites_2017_ARTP_evolution_des_marches_regules_10_decembre_2018.pdf
+                       https://arcep.tg/wp-content/uploads/2026/09/RAPPORT-ACTIVITES_2025_27082026_13h.pdf
+  sha256 / taille      2017  2 191 683 octets ; 2025  37 131 829 octets
+                       (détail dans _extradatas/_MANIFEST.csv)
+
+
+---------------------------------------------------------------------
+  AR3. AR3_arcep_registre-communications-electroniques_2026-06-26.xlsx
+---------------------------------------------------------------------
+
+  Nom du fichier       Registre-des-Communications-electroniques_ARCEP_26-06-2026.xlsx
+                       -> AR3_arcep_registre-communications-electroniques_2026-06-26.xlsx
+  Source               ARCEP
+  Page                 https://arcep.tg/professionnels/registre-des-communications-electroniques-et-des-postes/
+  Famille              (chronologie de l'objectif 1)
+  Description          Registre des opérateurs et fournisseurs autorisés ;
+                       feuille « Licences » : date de l'arrêté de chaque
+                       opérateur.
+  Format               xlsx, plusieurs feuilles
+  Période couverte     Stock ; version du 26/06/2026 (6 versions
+                       publiées depuis le 30/07/2024)
+  Niveau géographique  National
+  Nombre de lignes     Sans objet (plusieurs feuilles, non toutes
+                       tabulaires)
+  Nombre de colonnes   Sans objet
+  Langue               FR
+  Statut               Disponible
+  Remarques            Dates utilisées dans la chronologie (CH1) : CAFE
+                       Informatique (12/10/2001), Togo Telecom
+                       (02/05/2009), GVA et TEOLIS (07/06/2017), Togocel
+                       et Moov (12/06/2018, licences 4G), IDS Technologie
+                       (12/02/2024).
+  URL                  https://arcep.tg/wp-content/uploads/2026/07/Registre-des-Communications-electroniques_ARCEP_26-06-2026.xlsx
+  sha256 / taille      4354b68b7b4dadd9... / 396 814 octets
+
+
+---------------------------------------------------------------------
+  AR4. Décisions tarifaires ARCEP citées dans la chronologie (3 PDF)
+---------------------------------------------------------------------
+
+  Nom du fichier       AR4_decision-038-plafonds-tarifs-ussd_2020-11-23.pdf
+                       AR4_decision-011-principes-tarifaires_2021.pdf
+                       AR4_decision-003-plafonds-tarifaires-gros_2025.pdf
+  Source               ARCEP
+  Page                 https://arcep.tg/regulation/reglementation/communication-electronique/
+  Famille              (chronologie des réformes tarifaires, objectif 1)
+  Description          3 décisions parmi les 82 publiées, retenues pour
+                       leur date (décision D-9 : ne pas tout télécharger,
+                       relever les dates dans CH1).
+  Format               PDF
+  Période couverte     2020-11-23 ; 2021 (signée le 19/01/2021, p. 4) ;
+                       2025 (16/01/2025 d'après le rapport d'activité)
+  Niveau géographique  National
+  Nombre de lignes     Sans objet (PDF)
+  Nombre de colonnes   Sans objet
+  Langue               FR
+  Statut               Disponible
+  Remarques            Décision 011 : ses visas ajoutent la loi
+                       n° 2012-018 du 17/12/2012 sur les communications
+                       électroniques (intégrée à CH1).
+  URL                  https://arcep.tg/wp-content/uploads/2022/05/038-Decision-23-nov-2020-ARCEP-fixant-les-plafonds-des-tarifs-USSD.pdf
+                       https://arcep.tg/wp-content/uploads/2021/01/Decision-011-Portant-definition-de-principes-tarifaires-applicables-aux-services-des-communications-electroniques.pdf
+                       https://arcep.tg/wp-content/uploads/2025/01/Decision-003-ARCEP-DG-25-Fixant-des-plafonds-tarifaires-pour-les-offres-de-gros-2025.pdf
+  sha256 / taille      3 fichiers, 24 556 346 octets au total (détail
+                       dans _extradatas/_MANIFEST.csv)
+
+
+---------------------------------------------------------------------
+  AR5. AR5_arcep_releve-tarifs_2023-09.html
+---------------------------------------------------------------------
+
+  Nom du fichier       AR5_arcep_releve-tarifs_2023-09.html
+  Source               ARCEP
+  Page                 https://arcep.tg/observatoire-2/tarifs-2/
+  Famille              [Marché des télécoms] : coût de 1 Go (O2-05), à
+                       une date
+  Description          Offres mobiles (mixtes, data, voix) et Internet
+                       fixe des opérateurs, page HTML.
+  Format               HTML (instantané, page dynamique)
+  Période couverte     Septembre 2023 (date affichée sur la page)
+  Niveau géographique  National
+  Nombre de lignes     Sans objet (HTML)
+  Nombre de colonnes   Sans objet
+  Langue               FR
+  Statut               Disponible
+  Remarques            Hors objectif 1 : contexte de O2-05, avec IT1 et
+                       AR6.
+  URL                  https://arcep.tg/observatoire-2/tarifs-2/
+  sha256 / taille      db731664f4c71dfa... / 164 434 octets
+
+
+---------------------------------------------------------------------
+  AR6. Études et enquêtes ARCEP (10 PDF, 1 échec)
+---------------------------------------------------------------------
+
+  Nom du fichier       AR6_arcep_etudes/AR6_<AAAA-MM>_<titre>.pdf
+                       (9 fichiers obtenus ; détail dans le manifeste)
+  Source               ARCEP
+  Page                 https://arcep.tg/observatoire-2/activites/etudes-enquetes/
+  Famille              [Marché des télécoms] : O2-05 (tarifs), O2-09
+                       (qualité de service)
+  Description          Campagnes QoS (2024), QoE data et FTTH (2025,
+                       2026), analyse des tarifs (avril 2023, forfaits
+                       data de Moov : -71,4 % entre le T1 2021 et avril
+                       2023), analyse comparative UEMOA (avril 2024),
+                       satisfaction client (2023, 2024).
+  Format               PDF
+  Période couverte     2023-2026
+  Niveau géographique  National ; campagne QoS 2024 : 94 localités
+                       (Savanes exclue), résultats pour le Grand Lomé
+                       et le reste du pays, sans valeur par localité
+  Nombre de lignes     Sans objet (PDF)
+  Nombre de colonnes   Sans objet
+  Langue               FR
+  Statut               Partiel : 9 obtenus sur 10
+  Remarques            **Absent** : campagne QoS du 2e semestre 2023
+                       (lien mort sur arcep.tg, erreur 404, statut
+                       « échec » dans le manifeste).
+  URL                  https://arcep.tg/observatoire-2/activites/etudes-enquetes/
+                       (liens directs dans _extradatas/_MANIFEST.csv)
+  sha256 / taille      9 fichiers, 43 123 061 octets au total
+
+
+---------------------------------------------------------------------
+  CH1. CH1_chronologie-evenements.csv (dérivé)
+---------------------------------------------------------------------
+
+  Nom du fichier       CH1_chronologie-evenements.csv
+  Source               Compilation par nous (décision D-16), à partir
+                       de D2, IN2, AR1 à AR4, MS1 et de la presse (voir
+                       colonne type_source)
+  Famille              (chronologie de l'objectif 1, O1-02)
+  Description          40 événements datés (licences, lancements
+                       technologiques, réformes tarifaires, crise
+                       sanitaire, rebranding des opérateurs), avec type,
+                       opérateur, source et niveau de preuve.
+  Format               CSV
+  Colonnes             date, precision, evenement, type, operateur,
+                       type_source, ref_recherche, source,
+                       niveau_preuve
+  Période couverte     2001-2026
+  Niveau géographique  National
+  Nombre de lignes     40
+  Nombre de colonnes   9
+  Langue               FR
+  Statut               Disponible
+  Remarques            Niveau de preuve A pour les sources officielles et
+                       les données (32 événements), C pour la presse (8
+                       événements, dont la crise sanitaire, absente de
+                       toute donnée officielle) : la presse sert à
+                       annoter une rupture, jamais à en établir la
+                       cause. Le saut de l'indice des prix de 2020
+                       (IN3) est classé « statistique », pas « tarif »
+                       (décision S7, 26/09/2026).
+  URL                  Sans objet (fichier dérivé)
+  sha256 / taille      44231aaadc4da896... / 8 188 octets
+
+
+---------------------------------------------------------------------
+  AS1. AS1_inseed_annuaire-statistique-national-2024.pdf
+---------------------------------------------------------------------
+
+  Nom du fichier       AS1_inseed_annuaire-statistique-national-2024.pdf
+  Source               INSEED
+  Page                 https://inseed.tg/wp-json/wp/v2/dlm_download/7668
+  Famille              [Usage d'Internet] (contexte) ; [Marché des
+                       télécoms] ; [Agents mobile money]
+  Description          Annuaire statistique national 2024 (776 p.).
+                       Chapitre 24 : séries télécom de l'INSEED
+                       prolongées jusqu'en 2024. Tableau 4.17 : ménages
+                       équipés en 2020 (enquête EIPT).
+  Format               PDF
+  Période couverte     Jusqu'en 2024 ; point 2020 pour l'enquête EIPT
+  Niveau géographique  National, par milieu (EIPT)
+  Nombre de lignes     776 pages (non extrait en table)
+  Nombre de colonnes   Sans objet
+  Langue               FR
+  Statut               Disponible
+  Remarques            EIPT 2020 : ménages avec connexion Internet
+                       43,7 % (urbain 65,9 %, rural 25,2 %), portable
+                       88 %, ordinateur 10 %. Micro-données de l'EIPT non
+                       disponibles.
+  URL                  https://inseed.tg/download/7668/
+  sha256 / taille      198d9891c0ef203c... / 18 227 562 octets
+
+
+---------------------------------------------------------------------
+  AS2. Annuaires statistiques régionaux 2024 (4 PDF, Plateaux absent)
+---------------------------------------------------------------------
+
+  Nom du fichier       AS2_annuaire-statistique-2024_maritime.pdf
+                       AS2_annuaire-statistique-2024_centrale.pdf
+                       AS2_annuaire-statistique-2024_kara.pdf
+                       AS2_annuaire-statistique-2024_savanes.pdf
+  Source               INSEED
+  Page                 https://inseed.tg/wp-json/wp/v2/dlm_download/<id>
+  Famille              (contexte de l'objectif 4)
+  Description          Population estimée au 1er janvier de chaque
+                       année, par préfecture. Rien sur les télécoms ou
+                       la finance par préfecture.
+  Format               PDF
+  Période couverte     Jusqu'en 2024
+  Niveau géographique  Préfecture
+  Nombre de lignes     Sans objet (PDF, non extrait)
+  Nombre de colonnes   Sans objet
+  Langue               FR
+  Statut               Partiel
+  Remarques            **Absent** : l'annuaire 2024 de la région des
+                       Plateaux n'est pas publié (le dernier disponible
+                       date de 2020).
+  URL                  https://inseed.tg/download/7601/ (Maritime)
+                       https://inseed.tg/download/7362/ (Centrale)
+                       https://inseed.tg/download/7679/ (Kara)
+                       https://inseed.tg/download/7811/ (Savanes)
+  sha256 / taille      4 fichiers, 40 298 679 octets au total
+
+
+---------------------------------------------------------------------
+  RG1. RGPH-5, livret 01 : population par sexe (PDF)
+---------------------------------------------------------------------
+
+  Nom du fichier       RG1_rgph5_livret-01_population-par-sexe_communes-cantons.pdf
+  Source               INSEED, RGPH-5 (novembre 2022)
+  Page                 https://inseed.tg/wp-json/wp/v2/dlm_download/6616
+  Famille              [Population] (B1, complément territorial le plus
+                       fin de la population par sexe)
+  Description          Population résidente 2022 par sexe, jusqu'au
+                       canton.
+  Format               PDF (102 p.)
+  Période couverte     2022 (même recensement que D6)
+  Niveau géographique  National, régional, préfectoral, communal,
+                       cantonal
+  Nombre de lignes     102 pages (non transcrit, décision S10)
+  Nombre de colonnes   Sans objet
+  Langue               FR
+  Statut               Disponible (non transcrit)
+  Remarques            Téléchargé et validé (Q2), non transcrit
+                       (décision S10) : le 02 s'arrête à la commune, et
+                       RG2 et RG3, transcrits, couvrent déjà les
+                       préfectures et les communes par âge et milieu. À
+                       transcrire à l'étape 11 seulement si le ciblage
+                       descend au canton.
+  URL                  https://inseed.tg/download/6616/
+  sha256 / taille      1 994 825 octets (voir _extradatas/_MANIFEST.csv)
+
+
+---------------------------------------------------------------------
+  RG2. RGPH-5, livret 02 : population par âge, national à préfecture
+---------------------------------------------------------------------
+
+  Nom du fichier       RG2_rgph5_livret-02_population-par-age_regions-prefectures.pdf
+                       + RG2_rgph5_population-age-milieu-sexe_national-regions-prefectures.csv (dérivé)
+                       + RG_rgph5_ecarts-internes-livrets.csv (dérivé, commun à RG2 et RG3)
+  Source               INSEED, RGPH-5 (novembre 2022) ; transcription et
+                       contrôles par nous
+  Page                 https://inseed.tg/wp-json/wp/v2/dlm_download/6619
+  Famille              [Population] : B1 (15 ans et plus) et B3 (milieu
+                       urbain / rural) par préfecture
+  Description          47 tableaux (national ; Maritime avec et sans
+                       Grand Lomé ; Grand Lomé à part ; 4 autres régions ;
+                       39 préfectures) x 21 lignes d'âge (dont l'âge non
+                       déclaré) x 3 milieux x 3 sexes.
+  Format               PDF (87 p.) ; transcription CSV, format long
+  Colonnes (dérivé)    livret, tableau, page_pdf, type_unite, unite,
+                       region, groupe_age, milieu, sexe, effectif
+  Période couverte     2022 (même recensement que D6)
+  Niveau géographique  National, régional, préfectoral
+  Nombre de lignes     8 883 (transcription) ; écarts internes : 24
+                       lignes dans le fichier commun (voir Remarques)
+  Nombre de colonnes   10
+  Langue               FR
+  Statut               Disponible
+  Remarques            Contrôles : hommes + femmes = ensemble, urbain +
+                       rural = total, somme des âges = total, préfectures
+                       = régions = national (8 095 498), tous exacts sauf
+                       24 cellules (écart de 1 ou 2 personnes, toutes
+                       issues d'une même erreur de saisie sur les hommes
+                       ruraux de Doufelgou 3, propagée à la préfecture, à
+                       la Kara et au national — transcrites telles que
+                       publiées, non corrigées, listées dans
+                       RG_rgph5_ecarts-internes-livrets.csv, 24 lignes,
+                       8 colonnes).
+                       Totaux égaux à D6 pour les 39 préfectures. 15 ans
+                       et plus : 4 707 386 hors âge non déclaré ; part
+                       urbaine : 42,9 %.
+                       Décision R4 (26/09/2026) : RG2 (avec RG3) devient
+                       la source de population des objectifs 3 et 4 ; D6
+                       garde un rôle de contrôle.
+  URL                  https://inseed.tg/download/6619/ (source)
+  sha256 / taille      Source 3 710 604 octets ; transcription 561 102
+                       octets ; écarts internes 1 969 octets (détail
+                       dans _extradatas/_MANIFEST.csv)
+
+
+---------------------------------------------------------------------
+  RG3. RGPH-5, livret 03 : population par âge, 117 communes
+---------------------------------------------------------------------
+
+  Nom du fichier       RG3_rgph5_livret-03_population-par-age_communes.pdf
+                       + RG3_rgph5_population-age-milieu-sexe_communes.csv (dérivé)
+  Source               INSEED, RGPH-5 (novembre 2022) ; transcription et
+                       contrôles par nous
+  Page                 https://inseed.tg/wp-json/wp/v2/dlm_download/6622
+  Famille              [Population] : B1 et B3 par commune
+  Description          117 tableaux (un par commune) x 21 lignes d'âge x
+                       3 milieux x 3 sexes, avec la préfecture et la
+                       région de rattachement.
+  Format               PDF (236 p.) ; transcription CSV, format long
+  Colonnes (dérivé)    livret, tableau, page_pdf, type_unite, unite,
+                       region, prefecture, groupe_age, milieu, sexe,
+                       effectif
+  Période couverte     2022 (même recensement que D6)
+  Niveau géographique  Commune (117)
+  Nombre de lignes     22 113
+  Nombre de colonnes   11
+  Langue               FR
+  Statut               Disponible
+  Remarques            Communes = préfectures (RG2), exact. Danyi 1
+                       (25 820) et Danyi 2 (14 420) séparées, alors que
+                       D6 les fusionne (40 240) : confirme la décision
+                       R4. Le tableau 100, intitulé « Binah 2 » mais dont
+                       l'en-tête de page et le total (44 039) sont ceux
+                       de Binah 1 (D6), est transcrit sous le nom de
+                       Binah 1. Les 117 communes se joignent aux noms de
+                       geodata (D4, 4c, D5) sans aucune correction.
+  URL                  https://inseed.tg/download/6622/ (source)
+  sha256 / taille      Source 7 233 548 octets ; transcription 1 554 465
+                       octets
+
+
+---------------------------------------------------------------------
+  CO1. CO1_hdx-ocha_population-prefectures-2021.xlsx
+---------------------------------------------------------------------
+
+  Nom du fichier       tgo_adm2_pop_2021.xlsx ->
+                       CO1_hdx-ocha_population-prefectures-2021.xlsx
+  Source               OCHA (Humanitarian Data Exchange), COD-PS ;
+                       projection de l'INSEED sur la base du recensement
+                       de 2010
+  Page                 https://data.humdata.org/dataset/cod-ps-tgo
+  Famille              [Population] : contrôle de RG2 (décision R4)
+  Description          Population 2021 par préfecture (37, ancien
+                       découpage) x sexe x tranches de 5 ans.
+  Format               xlsx
+  Période couverte     2021 (projection, base 2010)
+  Niveau géographique  37 préfectures (ancien découpage)
+  Nombre de lignes     37 préfectures (détail par âge et sexe dans le
+                       fichier)
+  Nombre de colonnes   Non extrait précisément (feuille xlsx)
+  Langue               EN/FR
+  Statut               Disponible
+  Remarques            15 ans et plus : 61,1 % (contre 58,3 % au RGPH-5
+                       hors âge non déclaré, et 62,4 % pour IN1) :
+                       utilisé seulement en contrôle, jamais comme
+                       source principale (RG2 lui est préféré, plus
+                       récent et sur le découpage actuel).
+  URL                  https://data.humdata.org/dataset/922af9f0-237d-4c6c-aa7e-187cb3195b5c/resource/e6ab2e05-e7cf-459f-b085-8b7b0e8c31e8/download/tgo_adm2_pop_2021.xlsx
+  sha256 / taille      48a8112666c2895a... / 148 358 octets
+
+
+---------------------------------------------------------------------
+  W1. MICS6 Togo 2017 (rapport + transcription)
+---------------------------------------------------------------------
+
+  Nom du fichier       W1_mics6-togo-2017_rapport.pdf
+                       + W1_mics6-togo-2017_tic-alphabetisation_par-region.csv (dérivé)
+  Source               INSEED, UNICEF (Multiple Indicator Cluster Survey,
+                       6e édition)
+  Page                 https://washdata.org/report/togo-2017-mics-report-v2
+  Famille              [Usage d'Internet] (enquête, demande) : O1-05,
+                       O1-06
+  Description          Rapport final (608 p.) ; transcription des
+                       tableaux SR.9.2 (TIC et Internet des ménages),
+                       SR.9.3 (usage ordinateur/portable/Internet),
+                       SR.9.4 (compétences TIC, ODD 4.4.1), SR.6.1
+                       (alphabétisation), par domaine (Total, 2 milieux,
+                       7 régions), femmes et hommes 15-49 ans.
+  Format               PDF ; transcription CSV, format long
+  Colonnes (dérivé)    tableau, population, type_domaine, domaine,
+                       indicateur, valeur, unite, page_pdf
+  Période couverte     2017 (point unique)
+  Niveau géographique  7 domaines régionaux, 2 milieux
+  Nombre de lignes     660 (transcription)
+  Nombre de colonnes   8
+  Langue               FR
+  Statut               Disponible (micro-données abandonnées, décision
+                       S9 : les tableaux transcrits suffisent)
+  Remarques            Contrôlé : pour chaque tableau, le total est égal,
+                       à 0,25 point près, à la moyenne pondérée des 7
+                       régions et des 2 milieux ; les effectifs somment
+                       au total. Internet (3 derniers mois, 15-49 ans) :
+                       femmes 14,1 % (Lomé commune 36,0 % ; Savanes
+                       1,4 %), hommes 27,6 %.
+  URL                  https://washdata.org/report/togo-2017-mics-report-v2
+  sha256 / taille      Rapport 10 939 940 octets ; transcription
+                       50 067 octets (détail dans le manifeste)
+
+
+---------------------------------------------------------------------
+  W2. EHCVM 2018/19 et 2021/22 (11 fichiers, micro-données sur compte)
+---------------------------------------------------------------------
+
+  Nom du fichier       obj1/W2_ehcvm/2018-19/ : TGO_2018_EHCVM_v02_M_Stata.zip
+                       (+ donnees/, 52 fichiers .dta), document
+                       d'information de base, questionnaires,
+                       nomenclature, documentation du catalogue
+                       obj1/W2_ehcvm/2021-22/ : TGO_2021_EHCVM-2_v01_M_STATA14.zip
+                       (+ donnees/, 57 fichiers .dta), document
+                       d'information de base, questionnaires (vagues 1
+                       et 2), documentation du catalogue
+  Source               INSEED, UEMOA, Banque mondiale ; catalogues
+                       microdata.worldbank.org 4298 (2018/19) et 6279
+                       (2021/22)
+  Page                 https://microdata.worldbank.org/index.php/catalog/4298
+                       https://microdata.worldbank.org/index.php/catalog/6279
+  Famille              [Usage d'Internet] (O1-05, O1-06) ; [Établissements
+                       financiers] (comptes, tontines, section 6) ;
+                       (couverture captée par localité, module
+                       communautaire)
+  Description          Enquête harmonisée sur les conditions de vie des
+                       ménages, panel de 540 grappes, 12 ménages par
+                       grappe. Variables harmonisées : internet, telpor,
+                       alfa, ordin ; module communautaire : réception du
+                       réseau mobile par les 3 opérateurs.
+  Format               Stata (.dta)
+  Période couverte     2018/19 et 2021/22 (mêmes 540 grappes aux deux
+                       vagues)
+  Niveau géographique  Région x milieu (strates) ; 540 localités
+                       (module communautaire)
+  Nombre de lignes     Individus : 27 482 (2018/19), 28 815 (2021/22).
+                       Ménages, grappes et module communautaire : voir
+                       03, section 12
+  Nombre de colonnes   Sans objet (nombreuses variables par fichier ;
+                       dictionnaire dans la documentation du catalogue)
+  Langue               FR
+  Statut               Disponible (obtenu le 26/09/2026, sur le compte de
+                       l'utilisateur)
+  Remarques            **Conditions d'utilisation de la Banque mondiale** :
+                       usage statistique et résultats agrégés seulement,
+                       aucune redistribution, aucune tentative
+                       d'identifier les répondants, citation de la
+                       source. Dossiers `obj1/W2_ehcvm/` ignorés par git.
+                       Vérifié (pondéré, 15 ans et plus) : accès à
+                       Internet 23,7 % puis 35,4 % ; portable 60,3 %
+                       puis 64,9 % ; alphabétisation 70,8 % en 2021/22.
+                       Décision R5 : les deux vagues se comparent sur les
+                       6 domaines, Grand Lomé compris (« Lomé commune »
+                       en 2018/19 et « Grand Lomé » en 2021/22 désignent
+                       les 98 mêmes grappes).
+  URL                  https://microdata.worldbank.org/catalog/4298/download/... ;
+                       https://microdata.worldbank.org/catalog/6279/download/...
+                       (11 liens, accès sur compte, dans le manifeste)
+  sha256 / taille      11 fichiers, 31 160 323 octets au total
+
+
+---------------------------------------------------------------------
+  W3. Global Findex 2025 (4 fichiers, micro-données Togo sur compte)
+---------------------------------------------------------------------
+
+  Nom du fichier       W3_GlobalFindexDatabase2025.csv
+                       W3_GlobalFindex2025-glossary.xlsx
+                       obj1/W3_findex2025/microdonnees/ :
+                       TGO_2024_FINDEX_v02_M_STATA14.zip (+ donnees/,
+                       1 fichier .dta), TGO_2024_FINDEX_documentation.pdf
+  Source               Banque mondiale ; catalogue
+                       microdata.worldbank.org 7986 (Togo)
+  Page                 https://www.worldbank.org/en/publication/globalfindex/download-data
+                       https://microdata.worldbank.org/index.php/catalog/7986
+  Famille              [Usage d'Internet] (O1-01, O1-06, benchmark) ;
+                       [Établissements financiers] (O3-04)
+  Description          Base par pays (tous pays, tous indicateurs) et
+                       micro-données Togo : portable, smartphone, usage
+                       d'Internet, comptes, 15 ans et plus.
+  Format               CSV (base tous pays) ; Stata (micro-données Togo)
+  Période couverte     Données 2024 (vague 2025)
+  Niveau géographique  Base : tous pays. Togo : national, urbain / rural
+                       (pas de région)
+  Nombre de lignes     Togo, micro-données : 1 000 répondants
+  Nombre de colonnes   Sans objet
+  Langue               EN
+  Statut               Disponible (micro-données obtenues le 26/09/2026,
+                       conditions acceptées, pas de demande d'accès
+                       requise)
+  Remarques            **Mêmes conditions d'utilisation que W2.** Dossier
+                       `obj1/W3_findex2025/microdonnees/` ignoré par git.
+                       Togo, 15 ans et plus, 2024, vérifié : portable
+                       82,5 % ; smartphone 45,1 % ; Internet (3 derniers
+                       mois) 43,7 % ; sans smartphone à cause du coût
+                       32,1 %.
+  URL                  https://thedocs.worldbank.org/.../GlobalFindexDatabase2025.csv
+                       https://microdata.worldbank.org/catalog/7986/download/... (accès sur compte)
+  sha256 / taille      4 fichiers, 18 198 994 octets au total
+
+
+---------------------------------------------------------------------
+  W4. Afrobaromètre Togo, vagues 5 à 10 (7 fichiers SPSS)
+---------------------------------------------------------------------
+
+  Nom du fichier       W4_afrobarometre_tog_r5.sav ... _r10.sav
+                       + W4_afrobarometre_tog_r10_codebook.pdf
+  Source               Afrobaromètre
+  Page                 https://www.afrobarometer.org/survey-resource/
+                       (une page par vague)
+  Famille              [Usage d'Internet] (O1-01, points mesurés) ;
+                       [Établissements financiers] (O3-05, mobile money
+                       par région)
+  Description          Enquêtes d'opinion, environ 1 200 adultes par
+                       vague (chiffre du catalogue, non recompté dans le
+                       fichier). Fréquence d'usage d'Internet (6 vagues) ;
+                       téléphone avec accès à Internet (depuis la vague
+                       7) ; compte mobile money (vagues 9 et 10) ;
+                       variable région dans toutes les vagues.
+  Format               SPSS (.sav)
+  Période couverte     Terrain : 12/2012 (r5), 10/2014 (r6), 11/2017
+                       (r7), 12/2020-01/2021 (r8), 03/2022 (r9), 11/2024
+                       (r10)
+  Niveau géographique  Région (échantillon national, petits effectifs
+                       par région)
+  Nombre de lignes     Non recompté par nous (d'après le catalogue :
+                       environ 1 200 par vague)
+  Nombre de colonnes   Sans objet
+  Langue               FR (codebook)
+  Statut               Disponible
+  Remarques            O3-05 : coefficient de variation à contrôler avant
+                       affichage par région (règle du 02). Vagues 5 à 7
+                       ajoutées en plus des vagues 8 à 10 initialement
+                       ciblées (décision P8).
+  URL                  https://www.afrobarometer.org/wp-content/uploads/... (7 liens
+                       dans le manifeste)
+  sha256 / taille      7 fichiers, 9 808 926 octets au total
+
+
+---------------------------------------------------------------------
+  IT1. IT1_uit_paniers-prix-tic_2008-2025.xlsx
+---------------------------------------------------------------------
+
+  Nom du fichier       ITU_ICTPriceBaskets_2008-2025.xlsx ->
+                       IT1_uit_paniers-prix-tic_2008-2025.xlsx
+  Source               UIT (Union internationale des télécommunications)
+  Page                 https://www.itu.int/en/ITU-D/Statistics/Pages/ICTprices/default.aspx
+  Famille              [Marché des télécoms] (O2-05) ; benchmark tous
+                       pays
+  Description          Paniers de prix TIC (data mobile 1 Go, 2 Go, etc.)
+                       en % du RNB mensuel par habitant, tous pays.
+  Format               xlsx
+  Période couverte     2008-2025
+  Niveau géographique  Tous pays
+  Nombre de lignes     Non extrait précisément (plusieurs feuilles)
+  Nombre de colonnes   Sans objet
+  Langue               EN
+  Statut               Disponible
+  Remarques            Togo, 1 Go : 5,85 % (2023), 5,45 % (2024), 5,30 %
+                       (2025), au-dessus du seuil de 2 % du 02. RNB
+                       mensuel par habitant : 52 829 FCFA (2024).
+  URL                  https://www.itu.int/en/ITU-D/Statistics/Documents/ICT_Prices/ITU_ICTPriceBaskets_2008-2025.xlsx
+  sha256 / taille      bc09d24b171c5d5c... / 1 322 224 octets
+
+
+---------------------------------------------------------------------
+  BC1. BCEAO, services financiers numériques dans l'UEMOA 2024
+---------------------------------------------------------------------
+
+  Nom du fichier       BC1_bceao_rapport-services-financiers-numeriques-uemoa-2024.pdf
+  Source               BCEAO
+  Page                 https://www.bceao.int/fr/publications/rapport-annuel-sur-les-services-financiers-numeriques-dans-luemoa-2024
+  Famille              [Agents mobile money] (O3-03, O3-04)
+  Description          Comptes, transactions et points de service de
+                       monnaie électronique, par pays de l'UEMOA, 2024.
+  Format               PDF
+  Période couverte     2024 (séries annuelles en annexe, 2014-2024)
+  Niveau géographique  Pays de l'UEMOA (8)
+  Nombre de lignes     Sans objet (PDF)
+  Nombre de colonnes   Sans objet
+  Langue               FR
+  Statut               Disponible
+  Remarques            Togo, 2024, vérifié : 12 553 441 comptes de
+                       monnaie électronique ouverts ; 6 069 075 actifs à
+                       90 jours (48,35 %) ; 81 137 points de service,
+                       dont 65 043 actifs.
+  URL                  https://www.bceao.int/sites/default/files/2026-03/Rapport%20annuel%20sur%20les%20services%20financiers%20num%C3%A9riques%20dans%20l%27UEMOA%20-%202024.pdf
+  sha256 / taille      4336f53373896ccb... / 5 964 812 octets
+
+
+---------------------------------------------------------------------
+  BC2. BCEAO, inclusion financière dans l'UEMOA 2024 (2 fichiers)
+---------------------------------------------------------------------
+
+  Nom du fichier       BC2_bceao_rapport-inclusion-financiere-uemoa-2024.pdf
+                       BC2_bceao_tableau-de-bord-inclusion-financiere-uemoa-2024.pdf
+  Source               BCEAO
+  Page                 https://www.bceao.int/fr/publications/rapport-annuel-sur-la-situation-de-linclusion-financiere-dans-luemoa-2024
+                       https://www.bceao.int/fr/publications/tableau-de-bord-de-linclusion-financiere-dans-luemoa-au-titre-de-lannee-2024
+  Famille              (benchmark UEMOA)
+  Description          7 indicateurs de suivi de l'inclusion financière
+                       par pays, dont le taux global de pénétration
+                       démographique des services financiers (TGPSFd) et
+                       géographique (TGPSFg), 2014-2024.
+  Format               PDF (le tableau de bord est distribué par la
+                       BCEAO via un lien WeTransfer)
+  Période couverte     2014-2024
+  Niveau géographique  Pays de l'UEMOA (8)
+  Nombre de lignes     Sans objet (PDF)
+  Nombre de colonnes   Sans objet
+  Langue               FR
+  Statut               Disponible
+  Remarques            TGPSFd = points de services financiers / adultes
+                       x 10 000, guichets bancaires, de microfinance, de
+                       la Poste, du Trésor, des caisses d'épargne, plus
+                       les points de monnaie électronique **actifs**
+                       (99 % du total dans l'UEMOA). Togo, 2024 : TGPSFd
+                       116 (UEMOA 193) ; TGPSFg 1 094 points pour
+                       1 000 km² (+131 en un an, plus forte hausse de
+                       l'UEMOA — pénétration géographique, pas
+                       démographique).
+                       **Décision R1** : le TGPSFd n'est pas le repère de
+                       O4-02 (il compte le mobile money) ; O4-02 utilise
+                       le FAS (C5).
+  URL                  https://www.bceao.int/sites/default/files/2026-06/Rapport_Annuel_Inclusion_Financiere_2024.pdf
+                       https://we.tl/t-mM0vvy2yOx (lien WeTransfer publié
+                       par la BCEAO)
+  sha256 / taille      2 fichiers, 7 809 099 octets au total
+
+
+---------------------------------------------------------------------
+  TF1. Grilles tarifaires du mobile money (5 instantanés HTML)
+---------------------------------------------------------------------
+
+  Nom du fichier       TF1_moov_retrait-flooz.html
+                       TF1_moov_transfert-flooz.html
+                       TF1_yas_mixx-by-yas.html
+                       TF1_momocalc_frais-tmoney_controle.html
+                       TF1_momocalc_frais-flooz_controle.html
+  Source               Moov Africa Togo ; YAS Togo ; momocalc.com (en
+                       contrôle seulement)
+  Page                 https://moov-africa.tg/moov-money/retrait-flooz/
+                       https://moov-africa.tg/moov-money/transfert-flooz/
+                       https://yas.tg/mixx-by-yas/
+                       https://momocalc.com/fr/togo/frais-tmoney
+                       https://momocalc.com/fr/togo/frais-flooz
+  Famille              [Agents mobile money] (O3-06)
+  Description          Grille officielle de retrait Flooz (14 tranches,
+                       de 50 F jusqu'à 500 F à 1 000 F de 50 001 à
+                       100 000 F) ; conditions de transfert Flooz
+                       (gratuit jusqu'au 3e transfert national) et Mixx
+                       (6 premiers transferts du jour gratuits, puis
+                       1 %) ; grilles de momocalc, en contrôle.
+  Format               HTML (instantané daté)
+  Période couverte     Instantané du 26/09/2026
+  Niveau géographique  National (grille tarifaire unique)
+  Nombre de lignes     Sans objet (HTML)
+  Nombre de colonnes   Sans objet
+  Langue               FR
+  Statut               Partiel
+  Remarques            **Absent** : grille officielle de retrait de
+                       Mixx by Yas, non publiée sur yas.tg. **Décision
+                       R3** : O3-06 est calculé sur la grille Flooz ;
+                       Mixx reste marqué « partiel » ; momocalc n'est
+                       jamais un substitut.
+  URL                  Voir « Page » ci-dessus
+  sha256 / taille      5 fichiers, 1 422 681 octets au total
+
+
+---------------------------------------------------------------------
+  GD1. GD1_geodata_agences-la-poste.geojson
+---------------------------------------------------------------------
+
+  Nom du fichier       GD1_geodata_agences-la-poste.geojson
+  Source               geodata.gouv.tg, couche ouverte « Agences - La
+                       Poste » (collecte PRISE 2021/2022)
+  Page                 https://geodata.gouv.tg/donnees/7ed2a138-f01a-48c4-98a8-70722afc1c28
+  Famille              [Établissements financiers] : point financier
+                       formel compté à part (décision Q5)
+  Description          Agences de la Poste géolocalisées, avec les mêmes
+                       champs de rattachement que D4 (région à canton).
+  Format               GeoJSON (FeatureCollection), points
+  Colonnes             region_nom_bdd, prefecture_nom_bdd,
+                       commune_nom_bdd, canton_nom_bdd, nom_localite,
+                       etab_nom, etab_adresse, etab_jour,
+                       etab_creation_date, activite_statut,
+                       activite_categorie, toilette_type
+  Période couverte     Stock ; collecte PRISE 2021/2022
+  Niveau géographique  Point GPS ; région à canton
+  Nombre de lignes     95 (features)
+  Nombre de colonnes   12
+  Langue               FR
+  Statut               Disponible
+  Remarques            84 agences « Utilisé » sur 95, dans 38
+                       préfectures ; effectif égal à l'indicateur geodata
+                       de 4j (« Agences et franchises de la Poste »,
+                       95). La Poste propose l'épargne et les mandats,
+                       mais n'est ni banque ni IMF (test de sensibilité).
+  URL                  POST https://api.geodata.gouv.tg/app/1/get_couche_file
+                       {"couche": "7ed2a138-f01a-48c4-98a8-70722afc1c28",
+                       "niveau_hierarchic": "PAYS",
+                       "niveau_hierarchic_id": "A", "sortie": "JSON"}
+  sha256 / taille      2e9569ae4d9f29b0... / 59 405 octets
+
+
+---------------------------------------------------------------------
+  GD2. Lieux candidats (24 GeoJSON, geodata.gouv.tg)
+---------------------------------------------------------------------
+
+  Nom du fichier       obj5/GD2_geodata_marches.geojson
+                       obj5/GD2_geodata_etablissements-scolaires.geojson
+                       obj5/GD2_geodata_formations-sanitaires.geojson
+                       obj5/GD2_geodata_administration/GD2_administration-etablissements_<sigle>.geojson
+                       (21 fichiers, un par ministère)
+  Source               geodata.gouv.tg, couches ouvertes « Marchés »,
+                       « Établissements scolaires », « Formations
+                       sanitaires », « Administration - Établissements »
+                       (collecte PRISE 2021/2022)
+  Page                 https://geodata.gouv.tg/donnees/<identifiant de
+                       la couche> (24 identifiants, dans le manifeste)
+  Famille              (lieux candidats, couche exigée à l'étape 03 de la
+                       procédure ; sert l'étape 11)
+  Description          Marchés (**polygones**, centroïde à calculer) ;
+                       établissements scolaires (catégorie : école
+                       primaire, jardin d'enfants, collège, lycée) ;
+                       formations sanitaires (type, secteur, services) ;
+                       établissements administratifs de 21 ministères
+                       (dont le MATDDT : centres d'état civil).
+  Format               GeoJSON (FeatureCollection) ; points, sauf marchés
+                       (MultiPolygon)
+  Période couverte     Stock ; collecte PRISE 2021/2022
+  Niveau géographique  Point ou polygone ; région à canton
+  Nombre de lignes     1 078 (marchés) ; 15 454 (écoles) ; 2 271 (santé) ;
+                       1 576 (administration, 21 fichiers) ; 20 379 au
+                       total
+  Nombre de colonnes   8 (marchés) à 13 (écoles, santé) ; 9
+                       (administration)
+  Langue               FR
+  Statut               Disponible
+  Remarques            Toutes les couches ont les noms de la région au
+                       canton (campagne PRISE) : rattachement au
+                       référentiel territorial comme D4 et D5, à
+                       contrôler par les coordonnées (étape 05).
+                       MATDDT : 903 objets, le plus fourni des
+                       21 fichiers administratifs.
+  URL                  Voir « Page » ci-dessus (24 identifiants dans le
+                       manifeste)
+  sha256 / taille      24 fichiers, 13 323 149 octets au total
+
+
+---------------------------------------------------------------------
+  C5. C5_worldbank-fas-uemoa_agences-dab-100000-adultes.csv (dérivé)
+---------------------------------------------------------------------
+
+  Nom du fichier       C5_worldbank-fas-uemoa_agences-dab-100000-adultes.csv
+  Source               API Banque mondiale (indicateurs FAS du FMI,
+                       FB.CBK.BRCH.P5 et FB.ATM.TOTL.P5), assemblée par
+                       nous
+  Page                 https://data.worldbank.org/indicator/FB.CBK.BRCH.P5
+  Famille              (benchmark UEMOA de O4-02, décision R1)
+  Description          Agences bancaires commerciales et distributeurs
+                       automatiques de billets (DAB), pour 100 000
+                       adultes, 8 pays de l'UEMOA.
+  Format               CSV (assemblé depuis l'API JSON)
+  Colonnes             indicateur, code, pays, iso3, annee, valeur
+  Période couverte     2010-2024 ; dernière année disponible pour chaque
+                       pays (2024 pour les 8)
+  Niveau géographique  Pays (Bénin, Burkina Faso, Côte d'Ivoire,
+                       Guinée-Bissau, Mali, Niger, Sénégal, Togo)
+  Nombre de lignes     215
+  Nombre de colonnes   6
+  Langue               FR (en-têtes) / EN (noms de pays de l'API)
+  Statut               Disponible
+  Remarques            **Échelle FAS** : pour 100 000 adultes ; divisé
+                       par 10 à l'affichage, comme le « pour 10 000
+                       adultes » du 02 (décision S4). Repère = moyenne
+                       des 8 pays (S2). DAB comptés en appareils :
+                       comparaison UEMOA au niveau national seulement,
+                       jamais avec les sites de DAB de 4c ; IMF,
+                       assurances et Poste sans repère UEMOA (S3). Togo 2024 : 4,38 agences et
+                       6,93 DAB pour 100 000 adultes ; moyenne des 8 pays
+                       (repère du 02) : 3,52 et 5,15 ; médiane : 3,82 et
+                       5,26 ; le Togo est au-dessus des deux (2e sur 8
+                       pour les agences, 3e pour les DAB).
+                       Dénominateur « adultes » de la Banque mondiale non
+                       documenté, comme pour 4e / 4f.
+  URL                  https://api.worldbank.org/v2/country/BEN;BFA;CIV;GNB;MLI;NER;SEN;TGO/indicator/FB.CBK.BRCH.P5?format=json&per_page=2000&date=2010:2024
+                       (même requête avec FB.ATM.TOTL.P5)
+  sha256 / taille      Voir _extradatas/_MANIFEST.csv
+
+---------------------------------------------------------------------
+  C5b. C5b_worldbank-uit-internet-afrique-subsaharienne-uemoa.csv (dérivé)
+---------------------------------------------------------------------
+
+  Nom du fichier       C5b_worldbank-uit-internet-afrique-subsaharienne-uemoa.csv
+  Source               API Banque mondiale (IT.NET.USER.ZS, base de
+                       l'UIT ; base WDI mise à jour le 13/07/2026),
+                       assemblée par nous
+  Page                 https://data.worldbank.org/indicator/IT.NET.USER.ZS
+  Famille              [Usage d'Internet] (benchmark Afrique
+                       subsaharienne de O1-01, décision S1)
+  Description          Individus utilisant Internet (% de la
+                       population) : agrégat Afrique subsaharienne (SSF,
+                       moyenne pondérée par la population) et 8 pays de
+                       l'UEMOA, avec la note de source de l'API pour
+                       chaque valeur.
+  Format               CSV (assemblé depuis l'API JSON)
+  Colonnes             indicateur, code, pays, iso3, annee, valeur,
+                       note_source
+  Période couverte     Afrique subsaharienne 2005-2025 ; pays 2000-2024
+  Niveau géographique  Agrégat régional ; pays (Bénin, Burkina Faso,
+                       Côte d'Ivoire, Guinée-Bissau, Mali, Niger,
+                       Sénégal, Togo)
+  Nombre de lignes     221
+  Nombre de colonnes   7
+  Langue               FR (en-têtes) / EN (noms de pays et notes de
+                       l'API)
+  Statut               Disponible
+  Remarques            Série du Togo identique à 1b (version API).
+                       Togo sous la moyenne subsaharienne jusqu'en 2019
+                       (-3,7 points), au-dessus à partir de 2020 (29,0 %
+                       contre 26,7 %) ; 2024 : 39,5 % contre 33,6 %.
+                       UEMOA : Togo 3e sur 8 en 2024. Niveau C : les
+                       deux côtés sont des estimations de l'UIT (aucune
+                       note pour l'agrégat). Ne jamais mélanger avec le
+                       repère régional du Findex (W3 : 15 ans et plus,
+                       2024).
+  URL                  https://api.worldbank.org/v2/country/SSF;BEN;BFA;CIV;GNB;MLI;NER;SEN;TGO/indicator/IT.NET.USER.ZS?format=json&per_page=2000&date=2000:2025&footnote=y
+  sha256 / taille      65b243b61d9a3dbd... / 25 649 octets

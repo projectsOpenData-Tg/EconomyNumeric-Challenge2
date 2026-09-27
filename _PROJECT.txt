@@ -1,0 +1,83 @@
+
+## Le PROJET
+Le mobile s'est imposé au Togo, mais moins de 4 personnes sur 10 utilisent Internet et les banques restent concentrées dans les villes. 
+Le mobile money est devenu, pour beaucoup de ménages, la principale porte d'entrée vers les services financiers.
+
+
+
+À partir des données ouvertes sur l'usage d'Internet, le marché des télécoms, les établissements financiers, les agents mobile money et la population, construisez un tableau de bord qui mesure l'adoption du numérique et le rôle du mobile money dans l'inclusion financière. 
+Proposez des recommandations pour accélérer l'usage d'Internet et étendre l'accès aux services financiers numériques.
+
+## Objectifs
+
+1. Retracer l'évolution de l'usage d'Internet au Togo et repérer les périodes d'accélération ou de stagnation.
+
+2. Analyser le marché des télécommunications : parts de marché des opérateurs, chiffre d'affaires, investissements et passage aux nouvelles technologies (3G, 4G, fibre).
+
+3. Cartographier les établissements financiers (banques, microfinance, assurances) et les agents mobile money par région, préfecture et commune.
+
+4. Rapporter ces points d'accès à la population : nombre d'habitants par point de service, nombre d'agents mobile money par guichet financier, territoires desservis uniquement par le mobile money.
+
+5. Proposer des recommandations ciblées pour accélérer l'usage d'Internet et renforcer l'inclusion financière numérique dans les territoires les moins bien servis.
+
+## Livrables attendus
+- Un tableau de bord interactif (.zip) : Réalisé avec Power BI (.pbix) ou Python.
+
+
+
+##  RESOURCES ET données
+
+
+- Dataset 1: Données Ouvertes Sur Individus Utilisant Internet (% De La Population) 
+    - Description: 
+    Les internautes sont des personnes qui ont utilisé Internet (depuis n'importe quel endroit) au cours des 3 derniers mois. Internet peut être utilisé via un ordinateur, un téléphone portable, un assistant numérique personnel, une console de jeux, la télévision numérique, etc. 
+    Lien vers la source : Cliquez ici -> https://api.worldbank.org/v2/country/TGO/indicators/IT.NET.USER.ZS
+    Format original: https://opendata.gouv.tg/fr/datasets/r/782e2c3f-db17-4458-8bfd-c29f488d2f0d
+    URL data: https://opendata.gouv.tg/s/resources/donnees-ouvertes-sur-individus-utilisant-internet-de-la-population/20250318-102230/individus-utilisant-internet-de-la-population-.csv
+
+
+- Dataset 2:  Données Ouvertes sur les Abonnés Internet par type d'Accès au Togo DAIA-TG
+
+    Description: 
+        Les données sur les abonnés internet par type d’accès au Togo fournissent des informations sur la répartition des utilisateurs selon les modes de connexion disponibles. Ces types d'accès incluent les connexions mobiles (3G, 4G, et 5G), la fibre optique, l'ADSL, et les réseaux sans fil (Wi-Fi). Les données couvrent le nombre total d’abonnés pour chaque type, les zones géographiques (urbaines et rurales), ainsi que la progression annuelle de l’adoption. Elles permettent d’évaluer la pénétration de l'internet, les préférences des utilisateurs, et l'efficacité des opérateurs dans le déploiement des infrastructures numériques.
+    Source : https://opendata.gouv.tg/fr/datasets/donnees-ouvertes-sur-les-abonnes-internet-par-type-dacces-au-togo/
+    Format original: https://opendata.gouv.tg/fr/datasets/r/9b1cd63a-d5b5-4134-aa2d-65134fb1d366
+    URL Data: https://opendata.gouv.tg/s/resources/donnees-ouvertes-sur-les-abonnes-internet-par-type-dacces-au-togo/20241227-112840/observationdata-cxnvmoc.csv
+
+- Dataset 3: Données Ouvertes sur les Récapitulation Segment Téléphonie et GSM au Togo DRSTG-TG
+    Description: 
+        Les données sur la récapitulation du segment téléphonie et GSM au Togo fournissent un aperçu des performances et des tendances du secteur des télécommunications mobiles. Ces données incluent le nombre d'abonnés, la répartition des parts de marché entre les opérateurs (comme Moov Africa et Togocom), les revenus générés, les tarifs des services (appels, SMS, internet mobile), ainsi que la qualité de service (couverture réseau, débit internet, etc.). Elles permettent de suivre l'évolution de la pénétration mobile, de la concurrence entre opérateurs et de l'impact de la téléphonie mobile sur l'économie numérique du pays.
+
+    Source: https://opendata.gouv.tg/fr/datasets/donnees-ouvertes-sur-les-recapitulation-segment-telephonie-et-gsm-au-togo/
+    Format Original: https://opendata.gouv.tg/fr/datasets/r/b924d020-492a-4fe0-8a5a-0396be6d8255
+    URL Data: https://opendata.gouv.tg/s/resources/donnees-ouvertes-sur-les-recapitulation-segment-telephonie-et-gsm-au-togo/20241227-092855/observationdata-mesqyx.csv
+
+
+- Dataset 4: Données Ouvertes sur les Établissements Financiers au Togo DEF-TG
+    Description:
+        Les données ouvertes sur les établissements financiers au Togo fournissent des informations sur les institutions opérant dans le secteur financier. Cela inclut les banques, microfinances, agences de transfert d'argent, assurances et autres structures liées aux services financiers. Ces données détaillent la localisation géographique, les types de services proposés et la couverture des infrastructures financières à travers le pays. Elles permettent de comprendre l'accessibilité des services financiers pour les populations, de suivre le développement du secteur financier et de soutenir la prise de décision pour améliorer l'inclusion financière au Togo.
+
+    Format Original: https://opendata.gouv.tg/fr/datasets/r/1ec1f61f-6e48-4787-8e9f-1024da0d7abc
+    URL Data: https://opendata.gouv.tg/s/resources/donnees-ouvertes-sur-les-etablissements-financiers-au-togo/20250108-175032/file-finance-etablissements-08-01-2025-17-49-30.csv
+    Source: https://opendata.gouv.tg/fr/datasets/donnees-ouvertes-sur-les-etablissements-financiers-au-togo/
+
+- Dataset 5: Données Ouvertes sur les Agents Mobile Money au Togo DAMM-TG
+    Description: 
+        Ces données répertorient les agents Mobile Money au Togo, en indiquant leur localisation, opérateur de téléphonie mobile associé, et leur zone de couverture. Elles permettent d'analyser la disponibilité des services financiers numériques, d'évaluer l'accès aux transactions électroniques, et de soutenir l'inclusion financière dans les zones urbaines et rurales.
+        Lien vers la source : Cliquez ici -> https://geodata.gouv.tg/donnees/725f5fc0-4a66-49ff-9ef4-a04d004471b9
+        2 Format Original data : 
+            https://opendata.gouv.tg/fr/datasets/r/2201f35e-42bf-435b-af5e-d682208e5549 ,
+            https://opendata.gouv.tg/fr/datasets/r/c41a34e6-3fed-424e-a502-f5755c5894fe
+        2 URL Data: 
+            https://opendata.gouv.tg/s/resources/donnees-ouvertes-sur-les-agents-mobile-money-au-togo/20241219-165539/file-agents-mobile-money-19-12-2024-16-55-32.csv
+            https://opendata.gouv.tg/s/resources/donnees-ouvertes-sur-les-agents-mobile-money-au-togo/20241217-162510/agents-mobile-money.csv
+
+        Source : https://opendata.gouv.tg/fr/datasets/donnees-ouvertes-sur-les-agents-mobile-money-au-togo/
+
+- Dataset 6: Donnée Ouverte de Recensement Général de la Population et de l'Habitat (RGPH) DRGPH-TG
+    Description: 
+        Le Recensement Général de la Population et de l'Habitat (RGPH) est une opération statistique majeure réalisée périodiquement pour collecter des données essentielles sur la population et les caractéristiques des ménages d’un pays. Au Togo, le RGPH constitue une source cruciale d'informations pour mieux comprendre la dynamique démographique, les conditions de vie, ainsi que les besoins en termes d'infrastructures et de services.
+    URL data: https://opendata.gouv.tg/s/resources/donnee-ouverte-de-recensement-general-de-la-population-et-de-lhabitat-rgph/20241227-082722/observationdata-kwwolwb.csv
+    Source : https://opendata.gouv.tg/fr/datasets/donnee-ouverte-de-recensement-general-de-la-population-et-de-lhabitat-rgph/
+    Format Original: https://opendata.gouv.tg/fr/datasets/r/318f3a4d-c09f-490e-afea-44e045ebf20e
+    
