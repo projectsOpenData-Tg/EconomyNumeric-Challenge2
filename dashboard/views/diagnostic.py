@@ -8,7 +8,7 @@ import streamlit as st
 
 from composants import ariane, carte_kpi, carte_valeur, constat, entete, export_csv, limite, pied, rangee_kpi
 from donnees import contours, lire, nombre
-from i18n import bi, region, t
+from i18n import bi, frein, region, t
 from theme import PRIORITE
 
 fiches = lire("09_diagnostic", "fiches_prefectures")
@@ -78,6 +78,7 @@ with droite:
             "region": bi("région", "region"), "acces_internet_2021_22_pct": bi("accès (%)", "access (%)"),
             "alphabetisation_2021_22_pct": bi("alphabétisation (%)", "literacy (%)"), "lecture_O1_06": bi("frein présumé", "presumed barrier")})
         ir[bi("région", "region")] = ir[bi("région", "region")].map(region)
+        ir[bi("frein présumé", "presumed barrier")] = ir[bi("frein présumé", "presumed barrier")].map(frein)
         st.dataframe(ir, hide_index=True, use_container_width=True)
         export_csv(internet_reg, "internet_regions.csv", "export_internet_regions")
 

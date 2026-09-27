@@ -285,6 +285,18 @@ Titre retenu le 27/09/2026 : l'ancien titre (« Où en est le Togo ? ») ne disa
 - **Constat** : « L'usage ralentit depuis 2021 ; les Savanes cumulent l'accès le plus faible et l'alphabétisation la plus faible. »
 - **Limite** : série d'usage estimée ; accès déclaré n'est pas usage ; événements = coïncidences, pas causes ; marché national seulement ; un site compte une fois, quelle que soit sa technologie.
 - **Lien** : « Scénarios à 2030 » vers la page Estimations et projections (section 9).
+- **Organisation en sous-onglets** (décidée le 27/09/2026 ; relevé des analyses de l'objectif 1 absentes du tableau de bord, `workspace/conding-progress.md`) :
+
+  | Onglet | Contenu | Source |
+  | ------ | ------- | ------ |
+  | Vue synthèse | 4 chiffres clés (usage, écart d'accès entre le Grand Lomé et les Savanes, rang dans l'UEMOA, prix de 1 Go) ; courbe de l'usage **depuis 1996**, avec le repère Afrique subsaharienne et les années d'accélération et de ralentissement ; « accélération ou stagnation ? » ; synthèse chiffrée qui renvoie à chaque onglet | 05, figure 4 ; 07, O1-02 |
+  | Évolution de l'usage | croissance annuelle classée et 5 événements ; usage selon les enquêtes auprès des ménages ; croissance des abonnements data ; abonnements par utilisateur | 05, figure 4 ; 07, figure 2 et O1-03 |
+  | Accès et freins par région | cartes de l'accès déclaré (2018/19, 2021/22) ; carte de l'alphabétisation ; tableau des freins | 06, cartes 9 et 12 ; 07, O1-06 |
+  | Le Togo dans l'UEMOA | courbes des 8 pays, un pays de comparaison au choix ; rang du Togo ; classement | 05, figure 11 |
+  | Technologies | mix 2G, 3G, 4G des abonnements data | 05, figure 5 ; 07, O1-04 |
+  | Marché des télécoms | parts et concentration, investissement, sites radio, fibre (objectif 2) | 07 |
+
+  La Vue synthèse résume sans dupliquer : un visuel détaillé dans un autre onglet n'y est qu'annoncé. La courbe de l'usage commençait en 2010 dans la première version : un choix de construction, pour la caler sur la période de référence des classes de croissance, jamais écrit dans ce plan ; elle part désormais des premiers utilisateurs (1996), comme la figure 4 du 05.
 
 ### Page 3 — Offre financière : « Où sont les établissements financiers ? »
 
@@ -297,6 +309,7 @@ Titre retenu le 27/09/2026 : l'ancien titre (« Où en est le Togo ? ») ne disa
   - une seule carte avec son sélecteur, plutôt qu'une carte des DAB séparée.
 - **Constat** : « L'écart oppose les villes aux campagnes, bien plus que Lomé aux autres villes. »
 - **Limite** : recensement 2021/2022 ; des lieux, pas des agents ; opérateur non renseigné jusqu'à 23 % des points dans la région de Kara.
+- **Ajout du 27/09/2026** : « Offre et usage du mobile money, par région » : carte de l'usage du mobile banking (06, carte 12, moitié droite) et tableau offre face à usage (05, figure 9).
 
 ### Page 4 — Population et offre : « Combien d'habitants par point, et où le mobile money est-il seul ? »
 
@@ -695,12 +708,12 @@ Bandeau « Limite de cette page » :
 **État au 27/09/2026** : les 10 pages sont construites, bilingues (français, anglais) et testées (chiffres clés comparés aux tables ; filtres par région, maille, priorité et milieu ; interactions propres à chaque page). Barre du haut et pied de page en place (section 3.3) ; sélecteur de langue fonctionnel. Lancement : `streamlit run dashboard/app.py`.
 
 - **Page 1 (Synthèse nationale)** : nouveau titre, cartes lues comme des phrases (étiquette sur la ligne du titre, cartes d'une rangée à hauteur égale), bandeau discret « Ce que cette page ne montre pas ».
-- **Page 2 (Internet)** : courbe d'usage avec 5 événements annotés, croissance annuelle colorée par classe, accès déclaré par région, sites radio (ajouté le 27/09/2026), fibre.
-- **Page 3 (Offre financière)** : carte par type de point avec sélecteur (DAB marqué « type à part »), carte mobile money, carte de la catégorie dominante d'opérateur par commune, tableau par préfecture.
+- **Page 2 (Internet)** : 6 sous-onglets depuis le 27/09/2026 (fiche de la page 2, section 7) ; seul l'onglet ouvert s'exécute ; l'onglet choisi est gardé au changement de langue.
+- **Page 3 (Offre financière)** : carte par type de point avec sélecteur (DAB marqué « type à part »), carte mobile money, carte de la catégorie dominante d'opérateur par commune, offre et usage du mobile money par région (ajouté le 27/09/2026), tableau par préfecture.
 - **Page 4 (Population et offre)** : seuil d'habitants par point formel déplaçable (bascule d'affichage, pas un recalcul de la table de référence), bascule de la variante P9, matrice statut × couverture, communes divergentes.
 - **Page 5 (Carte)** : explorateur à un indicateur et une maille, avec la bonne table source par indicateur (score, o4, ou couverture).
 - **Page 6 (Priorités)** : poids du score déplaçables (seule exception au « pas de recalcul », même formule que le 08), tests de robustesse, comparateur de deux préfectures.
-- **Page 7 (Diagnostic)** : fiche des 10 préfectures prioritaires, carte des 25 communes signalées, usage d'Internet par région.
+- **Page 7 (Diagnostic)** : fiche des 10 préfectures prioritaires, carte des 25 communes signalées, usage d'Internet par région. Corrigé le 27/09/2026 : le frein présumé s'affichait tel qu'écrit dans la table (en français dans les deux langues, avec « la règle du 02 ») ; il passe par un libellé en clair, le même que sur la page 2.
 - **Page 8 (Recommandations)** : 12 cartes filtrables par thème, nature et horizon ; vue d'ensemble sans addition de populations qui se recoupent ; ordre d'action, acteurs, ce qui n'est pas recommandé.
 - **Page 9 (Estimations et projections)** : scénarios d'usage, trajectoires de référence, cibles à 1/3/5 ans ; correction apportée en le construisant : la population à faire entrer dans la couverture (R4b) ne compte que les 6 préfectures déjà prioritaires, pas Sotouboua (hors R4b, décision P24 du 10).
 - **Page 10 (Méthodologie)** : les 27 indicateurs lus directement dans le tableau du 07 (jamais retapés), sources et millésimes, conventions, glossaire, crédits.
@@ -708,14 +721,14 @@ Bandeau « Limite de cette page » :
 - **Outil** : Streamlit (installé : 1.61), graphiques Plotly, cartes Plotly ou Folium sur les contours du projet.
 - **Organisation** : `dashboard/app.py` (point d'entrée, thème, menu `st.navigation` en groupes) ; les pages dans `dashboard/views/`, **jamais `pages/`** : ce dossier fait basculer Streamlit sur sa navigation héritée (piège vérifié au défi 1) ; `dashboard/donnees.py` lit les tables de `data/analysis/` avec cache, sans les recalculer.
 - **Seule exception au « pas de recalcul »** : le score de priorité sous des poids choisis par le lecteur, avec la fonction du document de priorisation, et la bascule des seuils de classe (application d'un seuil à une valeur déjà calculée).
-- **Composants partagés** : carte de chiffre clé, bandeau « Constat », bandeau « Synthèse chiffrée », bandeau « Limite », carte de recommandation, bouton d'export CSV.
+- **Composants partagés** : carte de chiffre clé, bandeau « Constat », bandeau « Synthèse chiffrée », bandeau « Limite », carte de recommandation, bouton d'export CSV ; depuis le 27/09/2026, barre de sous-onglets (`onglets()`, réutilisable sur les autres pages) et carte des 6 régions en classes fixes (`carte_regions()`).
 - **Deux langues** (section 3.3), sur le modèle du défi 1 :
   - un module de dictionnaire (`dashboard/i18n.py`) : une clé par texte, deux valeurs (français, anglais) ;
   - une table de correspondance pour les libellés venus des tables (classes, statuts, régions) ;
   - une fonction de format des nombres selon la langue ;
   - la langue est gardée dans l'état de session, comme les filtres.
 - **Étape ajoutée avant la page 8** (P38) : barre du haut, pied de page et dictionnaire. La page 1, écrite en français seulement, passe au dictionnaire à cette étape ; les pages suivantes sont écrites directement avec lui. Coût : chaque texte est écrit deux fois, et chaque test de page est lancé dans les deux langues.
-- **Pièges Streamlit connus** (référentiel du défi 1) : `showSidebarNavigation = false` masque aussi le menu ; un tableau Streamlit n'affiche pas de HTML dans ses cellules ; les tests automatiques (`AppTest`) ne rejouent pas le point d'entrée lors d'un changement de page.
+- **Pièges Streamlit connus** (référentiel du défi 1) : `showSidebarNavigation = false` masque aussi le menu ; un tableau Streamlit n'affiche pas de HTML dans ses cellules ; les tests automatiques (`AppTest`) ne rejouent pas le point d'entrée lors d'un changement de page. Vus le 27/09/2026 : en 1.61, les onglets ne sont plus construits avec BaseWeb mais avec React Aria (le style vise `[role="tablist"]` et `[data-testid="stTab"]`) ; `AppTest` échoue sur une liste déroulante dont les libellés passent par `format_func` quand la page est rejouée (libellés directs à la place).
 - **Contrôle** : un test automatique par page (la page s'ouvre, les chiffres clés égalent ceux des tables) ; vérification visuelle à chaque page terminée ; l'étape 13 de la procédure (validation) recoupe l'interface, les tables et les documents.
 
 ---

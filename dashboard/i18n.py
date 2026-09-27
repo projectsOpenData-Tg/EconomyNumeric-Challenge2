@@ -104,6 +104,16 @@ _T: dict[str, dict[str, str]] = {
 
     # ------------------------------------------------------------------------- Filtres actifs (page 1 et autres)
     "filtres.actifs": {"fr": "Filtres actifs", "en": "Active filters"},
+
+    # ------------------------------------------------------------------------- Sous-onglets d’une page
+    "onglets.aide": {"fr": "{n} vues — cliquez sur un onglet", "en": "{n} views — click a tab"},
+    "onglets.repere": {"fr": "{vue} · vue {i} sur {n}", "en": "{vue} · view {i} of {n}"},
+
+    # ------------------------------------------------------------------------- Frein présumé à l’usage d’Internet (pages Internet, Diagnostic)
+    "frein.capacite_cout": {"fr": "capacité et coût (présumés)", "en": "skills and cost (presumed)"},
+    "frein.cout": {"fr": "coût (présumé)", "en": "cost (presumed)"},
+    "frein.non_etabli": {"fr": "non établi (couverture ≤ 85 %)", "en": "not established (coverage ≤ 85%)"},
+    "frein.non_recherche": {"fr": "non recherché (usage élevé)", "en": "not examined (high use)"},
 }
 
 
@@ -125,6 +135,16 @@ def t(cle: str, **kwargs) -> str:
 def bi(fr_txt: str, en_txt: str) -> str:
     """Choix bilingue ponctuel, pour un texte propre à une page (pas dans le dictionnaire central)."""
     return fr_txt if langue() == "fr" else en_txt
+
+
+def frein(lecture: str) -> str:
+    """Frein présumé à l’usage d’Internet, en clair : les tables écrivent « la règle du 02 », un renvoi à un document
+    qui n’a pas sa place sur une page (plan visuel, section 3.1)."""
+    for debut, cle in (("frein de capacité", "frein.capacite_cout"), ("frein de coût", "frein.cout"),
+                       ("aucun frein affirmé", "frein.non_etabli"), ("aucun frein recherché", "frein.non_recherche")):
+        if str(lecture).startswith(debut):
+            return t(cle)
+    return lecture
 
 
 def region(nom: str) -> str:

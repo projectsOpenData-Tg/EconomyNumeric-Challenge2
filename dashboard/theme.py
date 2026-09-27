@@ -125,6 +125,23 @@ div.st-key-topbar_droite button { padding: 0.15rem 0.55rem !important; min-heigh
 
 /* Graphiques et cartes sur fond blanc, pour les distinguer du fond de la page */
 [data-testid="stPlotlyChart"] { background: #ffffff; border-radius: 10px; }
+/* Sous-onglets d'une page, en pastilles sur une barre blanche (demande du 27/09/2026, sur le modèle de l'image jointe ;
+   même principe que les onglets du défi 1, theme.py). Streamlit 1.61 construit ses onglets avec React Aria, plus avec
+   BaseWeb : la barre est [role="tablist"], chaque onglet [data-testid="stTab"], le soulignement de l'onglet actif
+   .react-aria-SelectionIndicator (masqué). Les pastilles passent à la ligne sur un écran étroit plutôt que de défiler. */
+.stTabs [role="tablist"] { gap: 4px; background: #ffffff; padding: 6px; border-radius: 12px; border: 1px solid #e2dfd6;
+  box-shadow: 0 1px 4px rgba(13,54,107,0.06); flex-wrap: wrap; }
+.stTabs [data-testid="stTab"] { border-radius: 8px; padding: 7px 15px; height: auto; margin: 0; }
+.stTabs [data-testid="stTab"] p { font-size: 0.9rem; font-weight: 600; color: #55534e; }
+.stTabs [data-testid="stTab"]:hover { background: #e8f0fb; }
+.stTabs [data-testid="stTab"]:hover p { color: #0d366b; }
+.stTabs [data-testid="stTab"][aria-selected="true"] { background: #0d366b !important; }
+.stTabs [data-testid="stTab"][aria-selected="true"] p { color: #ffffff !important; }
+.stTabs .react-aria-SelectionIndicator { display: none; }
+.onglets-aide { font-size: 0.84rem; font-weight: 600; color: #3a3935; margin: 0.8rem 0 0.3rem; }
+.onglets-repere { font-size: 0.82rem; font-style: italic; color: #55534e; margin: 0.1rem 0 0.4rem; }
+.periodes { display: flex; flex-direction: column; gap: 10px; font-size: 0.92rem; line-height: 1.45; }
+.periodes b { color: #141413; }
 </style>
 """
 

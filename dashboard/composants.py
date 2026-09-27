@@ -10,10 +10,12 @@ from pathlib import Path
 
 import pandas as pd
 import plotly.express as px
+import plotly.graph_objects as go
 import streamlit as st
 
+from donnees import centres, contours
 from i18n import bi, definir_langue, langue, t
-from theme import HORS_SELECTION, OCRE, PRIORITE
+from theme import BLEUS, ENCRE, HORS_SELECTION, OCRE, PRIORITE
 
 STATIQUE = Path(__file__).resolve().parent / "static"
 EMBLEME = STATIQUE / "armoiries-togo-ecu.svg"
@@ -186,4 +188,77 @@ def carte_valeur(geo: dict, territoires: pd.DataFrame, cle: str, colonne: str, t
                       font=dict(family="IBM Plex Sans, system-ui, sans-serif", color="#141413"),
                       hoverlabel=dict(bgcolor="#ffffff", font_size=12),
                       coloraxis_colorbar=dict(title=""), legend=dict(title=""))
+    st.plotly_chart(fig, key=cle, config={"displayModeBar": False, "scrollZoom": False})
+
+
+def onglets(cle: str, libelles: list[str]) -> list:
+    """Sous-onglets d’une page, en pastilles (demande du 27/09/2026). Seul l’onglet ouvert s’exécute : chaque onglet
+    se lit avec `if onglet.open is not False:`. L’onglet actif est gardé par son rang, pas par son libellé, pour qu’il
+    survive au changement de langue (les libellés changent, le rang non) et au passage par une autre page. Le repère
+    « vue 2 sur 6 » est écrit en tête de l’onglet ouvert, avant son contenu."""
+    cle_rang, cle_widget = f"{cle}_rang", f"{cle}_{langue()}"
+    rang = min(st.session_state.get(cle_rang, 0), len(libelles) - 1)
+
+    def _retenir():
+        st.session_state[cle_rang] = libelles.index(st.session_state[cle_widget])
+
+    st.markdown(f'<div class="onglets-aide">{html.escape(t("onglets.aide", n=len(libelles)))}</div>', unsafe_allow_html=True)
+    liste = st.tabs(libelles, default=libelles[rang], key=cle_widget, on_change=_retenir)
+    with liste[rang]:
+        st.markdown(f'<div class="onglets-repere">{html.escape(t("onglets.repere", vue=libelles[rang], i=rang + 1, n=len(libelles)))}</div>',
+                    unsafe_allow_html=True)
+    return liste
+
+
+def carte_regions(df: pd.DataFrame, cle: str, colonne: str, bornes: list[float], classes: list[str],
+                  selection: list[str] | None = None, hauteur: int = 520):
+    """Carte des 6 unités régionales en classes fixées à l’avance (celles des cartes régionales du 06), la valeur
+    écrite sur chaque région. `df` porte `code`, `nom`, la colonne à classer, `etiquette` (texte écrit sur la carte) et
+    `survol`. Le Grand Lomé, trop petit pour porter son texte, l’a sous la côte, relié par un trait. Les régions du filtre
+    sont cerclées de noir : leur couleur garde sa valeur. La légende montre toujours les 5 classes, même vides, pour que
+    deux cartes côte à côte se comparent."""
+    geo = contours("unites_regionales")
+    pts = centres("unites_regionales")
+    rang_classe = pd.cut(df[colonne], [-float("inf")] + list(bornes) + [float("inf")], right=False, labels=False)
+    fig = go.Figure()
+    for i, lib in enumerate(classes):
+        sub = df[rang_classe == i]
+        fig.add_choropleth(geojson=geo, featureidkey="properties.code", locations=list(sub.code), z=[i] * len(sub),
+                           colorscale=[[0, BLEUS[i]], [1, BLEUS[i]]], showscale=False, showlegend=False,
+                           marker_line_color="#ffffff", marker_line_width=1, hovertext=list(sub.survol), hoverinfo="text")
+        # Légende : un carré par classe, même quand aucune région n’y tombe (un tracé de carte vide n’y apparaîtrait pas)
+        fig.add_scattergeo(lon=[None], lat=[None], mode="markers", name=lib, hoverinfo="skip",
+                           marker=dict(symbol="square", size=13, color=BLEUS[i], line=dict(color="#b9b6ad", width=0.5)))
+    if selection:
+        sel = df[df.nom.isin(selection)]
+        fig.add_choropleth(geojson=geo, featureidkey="properties.code", locations=list(sel.code), z=[0] * len(sel),
+                           colorscale=[[0, "rgba(0,0,0,0)"], [1, "rgba(0,0,0,0)"]], showscale=False, showlegend=False,
+                           marker_line_color=ENCRE, marker_line_width=2.5, hoverinfo="skip")
+    # Étiquettes : au centre de chaque région, en blanc sur les deux classes les plus foncées ; le Grand Lomé sous la
+    # côte, avec un trait de rappel, pour ne pas chevaucher l’étiquette du Maritime
+    lon_gl, lat_gl = pts["GL"]
+    ancre_gl = (lon_gl + 0.2, lat_gl - 0.3)
+    autres = df[df.code != "GL"]
+    couleur_texte = ["#ffffff" if c >= 3 else ENCRE for c in rang_classe[df.code != "GL"]]
+    decalage = {"A_HGL": 0.12}  # le Maritime, voisin du Grand Lomé : son étiquette remonte un peu, loin de la côte
+    fig.add_scattergeo(lon=[pts[c][0] for c in autres.code], lat=[pts[c][1] + decalage.get(c, 0) for c in autres.code], text=list(autres.etiquette),
+                       mode="text", textfont=dict(size=11, color=couleur_texte), hoverinfo="skip", showlegend=False)
+    gl = df[df.code == "GL"]
+    if len(gl):
+        fig.add_scattergeo(lon=[lon_gl, ancre_gl[0]], lat=[lat_gl, ancre_gl[1]], mode="lines", line=dict(color="#8a8780", width=1),
+                           hoverinfo="skip", showlegend=False)
+        fig.add_scattergeo(lon=[ancre_gl[0]], lat=[ancre_gl[1]], text=list(gl.etiquette), mode="text", textposition="bottom right",
+                           textfont=dict(size=11, color=ENCRE), hoverinfo="skip", showlegend=False)
+    xs, ys = [], []
+    for ft in geo["features"]:
+        x0, y0, x1, y1 = ft["bbox"]
+        xs += [x0, x1]
+        ys += [y0, y1]
+    fig.update_geos(visible=False, bgcolor="#ffffff", projection_type="mercator",
+                    lonaxis_range=[min(xs) - 0.05, max(xs) + 0.75], lataxis_range=[min(ys) - 0.7, max(ys) + 0.05])
+    fig.update_layout(height=hauteur, margin=dict(l=0, r=0, t=0, b=0), paper_bgcolor="#ffffff",
+                      font=dict(family="IBM Plex Sans, system-ui, sans-serif", color=ENCRE),
+                      hoverlabel=dict(bgcolor="#ffffff", font_size=12),
+                      legend=dict(orientation="h", x=0.5, xanchor="center", y=-0.01, yanchor="top", font=dict(size=11),
+                                  itemclick=False, itemdoubleclick=False))
     st.plotly_chart(fig, key=cle, config={"displayModeBar": False, "scrollZoom": False})

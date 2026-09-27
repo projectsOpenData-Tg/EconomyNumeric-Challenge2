@@ -37,6 +37,13 @@ def contours(niveau: str) -> dict:
 
 
 @st.cache_data(show_spinner=False)
+def centres(niveau: str) -> dict:
+    """Point intérieur de chaque territoire (longitude, latitude), pour y écrire sa valeur sur une carte."""
+    g = gpd.read_file(GEO / f"{niveau}.geojson")
+    return {c: (p.x, p.y) for c, p in zip(g.code, g.geometry.representative_point())}
+
+
+@st.cache_data(show_spinner=False)
 def operateurs_communes() -> pd.DataFrame:
     """Part des points mobile money de chaque commune servis par les deux opérateurs, par Togocom seul, par Moov seul,
     et sans opérateur renseigné (06_spatial, carte 10 ; O3)."""
@@ -123,3 +130,13 @@ def nombre(x, d=0) -> str:
     """Nombre selon la langue courante (section 3.3, « Deux langues ») : espace/virgule en français, virgule/point en anglais."""
     from i18n import langue
     return f"{x:,.{d}f}" if langue() == "en" else fr(x, d)
+
+
+def rang(n: int) -> str:
+    """Rang selon la langue courante : 1er, 3e en français ; 1st, 3rd en anglais."""
+    from i18n import langue
+    n = int(n)
+    if langue() == "fr":
+        return "1er" if n == 1 else f"{n}e"
+    suffixe = "th" if 10 <= n % 100 <= 20 else {1: "st", 2: "nd", 3: "rd"}.get(n % 10, "th")
+    return f"{n}{suffixe}"
