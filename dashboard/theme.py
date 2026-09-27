@@ -97,15 +97,17 @@ div.st-key-topbar { padding: 6px 0 12px; border-bottom: 1px solid #e2dfd6; margi
 div.st-key-topbar_droite { display: flex; align-items: center; justify-content: flex-end; gap: 8px; }
 div.st-key-topbar_droite button { padding: 0.15rem 0.55rem !important; min-height: 1.6rem !important; }
 
-/* Bouton d'ouverture/fermeture de la barre latérale : jaune clair et toujours visible (pas seulement au survol) */
+/* Bouton d'ouverture/fermeture de la barre latérale : toujours visible (pas seulement au survol), bordure jaune clair */
 [data-testid="stSidebarCollapseButton"], [data-testid="stExpandSidebarButton"] { display: flex !important; visibility: visible !important; opacity: 1 !important; }
-[data-testid="stSidebarCollapseButton"] button, [data-testid="stExpandSidebarButton"] { background: #fce588 !important; color: #141413 !important; border-radius: 8px !important; }
-[data-testid="stSidebarCollapseButton"] button:hover, [data-testid="stExpandSidebarButton"]:hover { background: #f9d85a !important; }
-[data-testid="stSidebarCollapseButton"] svg, [data-testid="stExpandSidebarButton"] svg { color: #141413 !important; fill: currentColor; }
+[data-testid="stSidebarCollapseButton"] button, [data-testid="stExpandSidebarButton"] { background: transparent !important; border: 1.5px solid #fce588 !important; border-radius: 8px !important; }
+[data-testid="stSidebarCollapseButton"] button:hover, [data-testid="stExpandSidebarButton"]:hover { background: rgba(252, 229, 136, 0.15) !important; }
 
-/* Bordures des tableaux en jaune clair (le quadrillage interne de st.dataframe est réglé par dataframeBorderColor) */
-[data-testid="stDataFrame"], [data-testid="stTable"] { border: 1px solid #fce588 !important; border-radius: 8px; }
-.stMarkdown table, .stMarkdown th, .stMarkdown td, [data-testid="stTable"] th, [data-testid="stTable"] td { border: 1px solid #fce588 !important; }
+/* Onglet actif de la barre latérale (page ouverte) : bordure arrondie jaune clair */
+[data-testid="stSidebarNavLink"] { border: 1.5px solid transparent; border-radius: 8px; }
+[data-testid="stSidebarNavLink"][aria-current="page"] { border-color: #fce588 !important; }
+
+/* Graphiques et cartes sur fond blanc, pour les distinguer du fond de la page */
+[data-testid="stPlotlyChart"] { background: #ffffff; border-radius: 10px; }
 </style>
 """
 

@@ -102,7 +102,7 @@ with gauche:
             fig.add_vline(x=an, line=dict(color="#cde2fb", width=1))
             fig.add_annotation(x=an, y=pen10.pct_population.max() + 6, text=lib, showarrow=False, textangle=-90,
                               font=dict(size=9, color="#55534e"), xanchor="left", yanchor="top")
-        fig.update_layout(height=380, margin=dict(l=10, r=10, t=10, b=10), paper_bgcolor="rgba(0,0,0,0)", plot_bgcolor="rgba(0,0,0,0)",
+        fig.update_layout(height=380, margin=dict(l=10, r=10, t=10, b=10), paper_bgcolor="#ffffff", plot_bgcolor="#ffffff",
                           font=dict(family="IBM Plex Sans, system-ui, sans-serif", color=ENCRE),
                           legend=dict(orientation="h", y=1.12, x=0), yaxis=dict(ticksuffix=" %", gridcolor="#efece4"),
                           xaxis=dict(gridcolor="#efece4"))
@@ -117,7 +117,7 @@ with gauche:
         for cl, coul in couleur_classe.items():
             sub = u10[u10.classe == cl]
             fig2.add_bar(x=sub.index, y=sub.variation_points, name=lib_classe[cl], marker_color=coul)
-        fig2.update_layout(height=220, margin=dict(l=10, r=10, t=10, b=10), paper_bgcolor="rgba(0,0,0,0)", plot_bgcolor="rgba(0,0,0,0)",
+        fig2.update_layout(height=220, margin=dict(l=10, r=10, t=10, b=10), paper_bgcolor="#ffffff", plot_bgcolor="#ffffff",
                           font=dict(family="IBM Plex Sans, system-ui, sans-serif", color=ENCRE, size=11),
                           legend=dict(orientation="h", y=1.15, x=0), yaxis=dict(ticksuffix=" pts", gridcolor="#efece4"),
                           xaxis=dict(gridcolor="#efece4"), bargap=0.3)
@@ -137,7 +137,7 @@ with droite:
         fig3.add_bar(x=acces_2.estimation_pct, y=[region(r) for r in acces_2.unite_regionale], orientation="h",
                     marker_color=[PRIORITE["haute"] if s else "#cde2fb" for s in acces_2.surlignee],
                     text=[f"{nombre(v,1)} %" for v in acces_2.estimation_pct], textposition="outside")
-        fig3.update_layout(height=210, margin=dict(l=10, r=30, t=10, b=10), paper_bgcolor="rgba(0,0,0,0)", plot_bgcolor="rgba(0,0,0,0)",
+        fig3.update_layout(height=210, margin=dict(l=10, r=30, t=10, b=10), paper_bgcolor="#ffffff", plot_bgcolor="#ffffff",
                           font=dict(family="IBM Plex Sans, system-ui, sans-serif", color=ENCRE, size=11),
                           xaxis=dict(ticksuffix=" %", gridcolor="#efece4", range=[0, 80]), showlegend=False)
         st.plotly_chart(fig3, key="acces_regions", config={"displayModeBar": False})
@@ -159,8 +159,8 @@ with droite:
         fig4.add_bar(x=s4.annee, y=s4.ajouts_nets_yas, name="YAS", marker_color=CATEGORIELLE[1])
         fig4.add_hline(y=50, line=dict(color="#8a1c1b", width=1, dash="dash"),
                       annotation_text=bi("Seuil de veille : 50", "Watch threshold: 50"), annotation_position="top left")
-        fig4.update_layout(barmode="stack", height=220, margin=dict(l=10, r=10, t=10, b=10), paper_bgcolor="rgba(0,0,0,0)",
-                          plot_bgcolor="rgba(0,0,0,0)", font=dict(family="IBM Plex Sans, system-ui, sans-serif", color=ENCRE, size=11),
+        fig4.update_layout(barmode="stack", height=220, margin=dict(l=10, r=10, t=10, b=10), paper_bgcolor="#ffffff",
+                          plot_bgcolor="#ffffff", font=dict(family="IBM Plex Sans, system-ui, sans-serif", color=ENCRE, size=11),
                           legend=dict(orientation="h", y=1.18, x=0), yaxis=dict(gridcolor="#efece4"), xaxis=dict(gridcolor="#efece4", dtick=1))
         st.plotly_chart(fig4, key="sites_radio", config={"displayModeBar": False})
         st.caption(bi(f"Les ajouts nets tombent de {int(sites.loc[sites.annee==2022,'ajouts_nets_total'].iloc[0])} à "

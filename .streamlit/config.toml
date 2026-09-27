@@ -15,7 +15,6 @@ backgroundColor = "#f4f2ec"
 secondaryBackgroundColor = "#ffffff"
 textColor = "#141413"
 borderColor = "#e2dfd6"
-dataframeBorderColor = "#fce588"  # jaune clair : quadrillage des tableaux (st.dataframe)
 
 [theme.sidebar]
 backgroundColor = "#0f2438"

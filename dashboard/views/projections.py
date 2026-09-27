@@ -91,7 +91,7 @@ with gauche:
             fig.add_scatter(x=su.annee, y=su.pct_population, mode="lines", name=sc, line=dict(color=CATEGORIELLE[i % len(CATEGORIELLE)], width=2, dash="dot"))
         fig.add_hline(y=40, line=dict(color="#8a1c1b", width=1, dash="dash"), annotation_text=bi("40 %", "40%"))
         fig.add_hline(y=60, line=dict(color="#0d366b", width=1, dash="dash"), annotation_text=bi("60 %", "60%"))
-        fig.update_layout(height=360, margin=dict(l=10, r=10, t=10, b=10), paper_bgcolor="rgba(0,0,0,0)", plot_bgcolor="rgba(0,0,0,0)",
+        fig.update_layout(height=360, margin=dict(l=10, r=10, t=10, b=10), paper_bgcolor="#ffffff", plot_bgcolor="#ffffff",
                           font=dict(family="IBM Plex Sans, system-ui, sans-serif", color=ENCRE),
                           legend=dict(orientation="h", y=1.15, x=0), yaxis=dict(ticksuffix=" %", gridcolor="#efece4"), xaxis=dict(gridcolor="#efece4"))
         st.plotly_chart(fig, key="scenarios_usage", config={"displayModeBar": False})
@@ -116,8 +116,8 @@ with droite:
                         showlegend=(i == 0), width=0.35, offsetgroup="a")
             fig2.add_bar(x=[row.territoire], y=[row.valeur_2030], name="2030", marker_color=CATEGORIELLE[1],
                         showlegend=(i == 0), width=0.35, offsetgroup="b")
-        fig2.update_layout(barmode="group", height=260, margin=dict(l=10, r=10, t=10, b=10), paper_bgcolor="rgba(0,0,0,0)",
-                          plot_bgcolor="rgba(0,0,0,0)", font=dict(family="IBM Plex Sans, system-ui, sans-serif", color=ENCRE, size=11),
+        fig2.update_layout(barmode="group", height=260, margin=dict(l=10, r=10, t=10, b=10), paper_bgcolor="#ffffff",
+                          plot_bgcolor="#ffffff", font=dict(family="IBM Plex Sans, system-ui, sans-serif", color=ENCRE, size=11),
                           legend=dict(orientation="h", y=1.15, x=0), yaxis=dict(ticksuffix=" %", gridcolor="#efece4"))
         st.plotly_chart(fig2, key="trajectoires", config={"displayModeBar": False})
         export_csv(r8t, "trajectoires_reference.csv", "export_trajectoires")
