@@ -154,9 +154,9 @@ def carte_priorites(geo: dict, territoires: pd.DataFrame, cle: str, selection: s
         x0, y0, x1, y1 = ft["bbox"]
         xs += [x0, x1]
         ys += [y0, y1]
-    fig.update_geos(visible=False, bgcolor="rgba(0,0,0,0)", projection_type="mercator",
+    fig.update_geos(visible=False, bgcolor="#ffffff", projection_type="mercator",
                     lonaxis_range=[min(xs) - 0.05, max(xs) + 0.05], lataxis_range=[min(ys) - 0.05, max(ys) + 0.05])
-    fig.update_layout(height=hauteur, margin=dict(l=0, r=0, t=0, b=0), paper_bgcolor="rgba(0,0,0,0)",
+    fig.update_layout(height=hauteur, margin=dict(l=0, r=0, t=0, b=0), paper_bgcolor="#ffffff",
                       legend=dict(title="", orientation="v", x=1.0, xanchor="left", y=0.98, font=dict(size=12)),
                       font=dict(family="IBM Plex Sans, system-ui, sans-serif", color="#141413"),
                       hoverlabel=dict(bgcolor="#ffffff", font_size=12))
@@ -180,9 +180,9 @@ def carte_valeur(geo: dict, territoires: pd.DataFrame, cle: str, colonne: str, t
         x0, y0, x1, y1 = ft["bbox"]
         xs += [x0, x1]
         ys += [y0, y1]
-    fig.update_geos(visible=False, bgcolor="rgba(0,0,0,0)", projection_type="mercator",
+    fig.update_geos(visible=False, bgcolor="#ffffff", projection_type="mercator",
                     lonaxis_range=[min(xs) - 0.05, max(xs) + 0.05], lataxis_range=[min(ys) - 0.05, max(ys) + 0.05])
-    fig.update_layout(height=hauteur, margin=dict(l=0, r=0, t=0, b=0), paper_bgcolor="rgba(0,0,0,0)",
+    fig.update_layout(height=hauteur, margin=dict(l=0, r=0, t=0, b=0), paper_bgcolor="#ffffff",
                       font=dict(family="IBM Plex Sans, system-ui, sans-serif", color="#141413"),
                       hoverlabel=dict(bgcolor="#ffffff", font_size=12),
                       coloraxis_colorbar=dict(title=""), legend=dict(title=""))
