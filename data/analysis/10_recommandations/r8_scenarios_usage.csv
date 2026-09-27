@@ -1,0 +1,19 @@
+scenario,points_par_an,annee,pct_population
+tendanciel (moyenne 2023-2024),1.94,2025,41.42
+tendanciel (moyenne 2023-2024),1.94,2026,43.35
+tendanciel (moyenne 2023-2024),1.94,2027,45.28
+tendanciel (moyenne 2023-2024),1.94,2028,47.22
+tendanciel (moyenne 2023-2024),1.94,2029,49.16
+tendanciel (moyenne 2023-2024),1.94,2030,51.09
+accéléré (moyenne 2019-2024),4.0,2025,43.48
+accéléré (moyenne 2019-2024),4.0,2026,47.47
+accéléré (moyenne 2019-2024),4.0,2027,51.47
+accéléré (moyenne 2019-2024),4.0,2028,55.47
+accéléré (moyenne 2019-2024),4.0,2029,59.46
+accéléré (moyenne 2019-2024),4.0,2030,63.46
+ambitieux (années d'accélération 2016 et 2020),6.25,2025,45.72
+ambitieux (années d'accélération 2016 et 2020),6.25,2026,51.97
+ambitieux (années d'accélération 2016 et 2020),6.25,2027,58.22
+ambitieux (années d'accélération 2016 et 2020),6.25,2028,64.46
+ambitieux (années d'accélération 2016 et 2020),6.25,2029,70.7
+ambitieux (années d'accélération 2016 et 2020),6.25,2030,76.95

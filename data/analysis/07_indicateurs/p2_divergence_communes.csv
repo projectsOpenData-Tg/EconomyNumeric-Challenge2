@@ -1,0 +1,118 @@
+code,nom,prefecture,prefecture_code,strate_50,pop_totale,classe_O4_01_commune,classe_O4_01_prefecture,diverge_O4_01,classe_O4_03_commune,classe_O4_03_prefecture,diverge_O4_03,classe_O4_04_commune,classe_O4_04_prefecture,diverge_O4_04,diverge_au_moins_une,avertissement_P2
+A01001,Agoè-Nyivé 1,Agoè-Nyivé,A01,grand_lome,317255,bien desservi,tendu,True,mobile money prépondérant,suppléance quasi totale,True,maillage dense,maillage dense,False,True,True
+A01002,Agoè-Nyivé 2,Agoè-Nyivé,A01,grand_lome,128164,tendu,tendu,False,mobile money prépondérant,suppléance quasi totale,True,acceptable,maillage dense,True,True,True
+A01003,Agoè-Nyivé 3,Agoè-Nyivé,A01,grand_lome,47554,bien desservi,tendu,True,suppléance quasi totale,suppléance quasi totale,False,maillage dense,maillage dense,False,True,True
+A01004,Agoè-Nyivé 4,Agoè-Nyivé,A01,grand_lome,154431,sous-desservi,tendu,True,suppléance quasi totale,suppléance quasi totale,False,maillage dense,maillage dense,False,True,True
+A01005,Agoè-Nyivé 5,Agoè-Nyivé,A01,grand_lome,125097,tendu,tendu,False,mobile money prépondérant,suppléance quasi totale,True,acceptable,maillage dense,True,True,True
+A01006,Agoè-Nyivé 6,Agoè-Nyivé,A01,grand_lome,110194,tendu,tendu,False,suppléance quasi totale,suppléance quasi totale,False,maillage dense,maillage dense,False,False,True
+A06022,Vo 1,Vo,A06,rural,88865,tendu,tendu,False,suppléance quasi totale,suppléance quasi totale,False,maillage dense,maillage dense,False,False,False
+A06023,Vo 2,Vo,A06,rural,24396,tendu,tendu,False,suppléance quasi totale,suppléance quasi totale,False,maillage dense,maillage dense,False,False,False
+A02007,Avé 1,Avé,A02,rural,75044,bien desservi,bien desservi,False,mobile money prépondérant,mobile money prépondérant,False,maillage dense,maillage dense,False,False,False
+A06024,Vo 3,Vo,A06,rural,64651,sous-desservi,tendu,True,suppléance quasi totale,suppléance quasi totale,False,maillage dense,maillage dense,False,True,False
+A02008,Avé 2,Avé,A02,rural,36170,tendu,bien desservi,True,mobile money prépondérant,mobile money prépondérant,False,maillage dense,maillage dense,False,True,False
+A03009,Bas-Mono 1,Bas-Mono,A03,rural,55382,tendu,tendu,False,suppléance quasi totale,suppléance quasi totale,False,maillage dense,maillage dense,False,False,False
+A03010,Bas-Mono 2,Bas-Mono,A03,rural,39478,sous-desservi,tendu,True,suppléance quasi totale,suppléance quasi totale,False,acceptable,maillage dense,True,True,False
+A06025,Vo 4,Vo,A06,rural,46499,bien desservi,tendu,True,mobile money prépondérant,suppléance quasi totale,True,maillage dense,maillage dense,False,True,False
+A04014,Golfe 4,Golfe,A04,grand_lome,155842,bien desservi,bien desservi,False,suppléance quasi totale,suppléance quasi totale,False,maillage dense,maillage dense,False,False,True
+A04015,Golfe 5,Golfe,A04,grand_lome,169993,bien desservi,bien desservi,False,mobile money prépondérant,suppléance quasi totale,True,maillage dense,maillage dense,False,True,True
+A04016,Golfe 6,Golfe,A04,grand_lome,181561,bien desservi,bien desservi,False,suppléance quasi totale,suppléance quasi totale,False,maillage dense,maillage dense,False,False,True
+A04017,Golfe 7,Golfe,A04,grand_lome,257813,tendu,bien desservi,True,suppléance quasi totale,suppléance quasi totale,False,maillage dense,maillage dense,False,True,True
+A07026,Yoto 1,Yoto,A07,rural,77353,bien desservi,bien desservi,False,mobile money prépondérant,mobile money prépondérant,False,maillage dense,acceptable,True,True,False
+A05018,Lacs 1,Lacs,A05,autres_villes,52994,bien desservi,tendu,True,suppléance quasi totale,suppléance quasi totale,False,maillage dense,maillage dense,False,True,True
+A05019,Lacs 2,Lacs,A05,rural,42855,tendu,tendu,False,mobile money prépondérant,suppléance quasi totale,True,acceptable,maillage dense,True,True,False
+A05021,Lacs 4,Lacs,A05,rural,37222,tendu,tendu,False,suppléance quasi totale,suppléance quasi totale,False,maillage dense,maillage dense,False,False,False
+A07027,Yoto 2,Yoto,A07,rural,43412,bien desservi,bien desservi,False,mobile money prépondérant,mobile money prépondérant,False,maillage dense,acceptable,True,True,False
+A07028,Yoto 3,Yoto,A07,rural,54086,tendu,bien desservi,True,mobile money prépondérant,mobile money prépondérant,False,acceptable,acceptable,False,True,False
+A08029,Zio 1,Zio,A08,rural,307292,tendu,tendu,False,suppléance quasi totale,suppléance quasi totale,False,maillage dense,maillage dense,False,False,False
+A08030,Zio 2,Zio,A08,rural,96193,sous-desservi,tendu,True,suppléance quasi totale,suppléance quasi totale,False,acceptable,maillage dense,True,True,False
+A08031,Zio 3,Zio,A08,rural,67843,tendu,tendu,False,suppléance quasi totale,suppléance quasi totale,False,maillage dense,maillage dense,False,False,False
+A08032,Zio 4,Zio,A08,rural,28704,bien desservi,tendu,True,mobile money prépondérant,suppléance quasi totale,True,maillage dense,maillage dense,False,True,False
+B01033,Agou 1,Agou,B01,rural,58328,bien desservi,tendu,True,suppléance quasi totale,suppléance quasi totale,False,maillage dense,maillage dense,False,True,False
+B01034,Agou 2,Agou,B01,rural,27465,non défini et critique (0 point),tendu,True,mobile money uniquement (0 point formel),suppléance quasi totale,True,maillage dense,maillage dense,False,True,False
+B02035,Akébou 1,Akébou,B02,rural,44196,sous-desservi,sous-desservi,False,suppléance quasi totale,suppléance quasi totale,False,maillage dense,maillage dense,False,False,False
+B02036,Akébou 2,Akébou,B02,rural,29634,non défini et critique (0 point),sous-desservi,True,mobile money uniquement (0 point formel),suppléance quasi totale,True,acceptable,maillage dense,True,True,False
+B07048,Haho 2,Haho,B07,rural,82507,sous-desservi,tendu,True,suppléance quasi totale,suppléance quasi totale,False,acceptable,maillage dense,True,True,False
+B03037,Amou 1,Amou,B03,rural,19746,tendu,tendu,False,suppléance quasi totale,suppléance quasi totale,False,maillage dense,maillage dense,False,False,False
+B03038,Amou 2,Amou,B03,rural,40016,tendu,tendu,False,mobile money prépondérant,suppléance quasi totale,True,acceptable,maillage dense,True,True,False
+B09054,Kpélé 1,Kpélé,B09,rural,53275,tendu,tendu,False,suppléance quasi totale,suppléance quasi totale,False,maillage dense,maillage dense,False,False,False
+B10057,Moyen-Mono 2,Moyen-Mono,B10,rural,43708,tendu,tendu,False,suppléance quasi totale,mobile money prépondérant,True,acceptable,acceptable,False,True,False
+B03039,Amou 3,Amou,B03,rural,54410,sous-desservi,tendu,True,suppléance quasi totale,suppléance quasi totale,False,maillage dense,maillage dense,False,True,False
+B04040,Anié 1,Anié,B04,autres_villes,100745,tendu,tendu,False,suppléance quasi totale,suppléance quasi totale,False,maillage dense,maillage dense,False,False,True
+B04041,Anié 2,Anié,B04,rural,79413,sous-desservi,tendu,True,suppléance quasi totale,suppléance quasi totale,False,acceptable,maillage dense,True,True,False
+B05042,Danyi 1,Danyi,B05,rural,25820,tendu,tendu,False,suppléance quasi totale,suppléance quasi totale,False,maillage dense,maillage dense,False,False,False
+B09055,Kpélé 2,Kpélé,B09,rural,27664,bien desservi,tendu,True,suppléance quasi totale,suppléance quasi totale,False,maillage dense,maillage dense,False,True,False
+C05079,Tchaoudjo 4,Tchaoudjo,C05,rural,20279,non défini et critique (0 point),tendu,True,mobile money uniquement (0 point formel),suppléance quasi totale,True,maillage dense,maillage dense,False,True,False
+B05043,Danyi 2,Danyi,B05,rural,14420,tendu,tendu,False,suppléance quasi totale,suppléance quasi totale,False,maillage dense,maillage dense,False,False,False
+B06044,Est-Mono 1,Est-Mono,B06,rural,34652,sous-desservi,sous-desservi,False,suppléance quasi totale,suppléance quasi totale,False,maillage dense,maillage dense,False,False,False
+D02086,Bassar 4,Bassar,D02,rural,16657,non défini et critique (0 point),tendu,True,mobile money uniquement (0 point formel),suppléance quasi totale,True,maillage dense,maillage dense,False,True,False
+B06045,Est-Mono 2,Est-Mono,B06,rural,101866,sous-desservi,sous-desservi,False,suppléance quasi totale,suppléance quasi totale,False,acceptable,maillage dense,True,True,False
+B06046,Est-Mono 3,Est-Mono,B06,rural,27942,tendu,sous-desservi,True,suppléance quasi totale,suppléance quasi totale,False,maillage dense,maillage dense,False,True,False
+B07047,Haho 1,Haho,B07,rural,119929,bien desservi,tendu,True,mobile money prépondérant,suppléance quasi totale,True,maillage dense,maillage dense,False,True,False
+B07050,Haho 4,Haho,B07,rural,43965,tendu,tendu,False,suppléance quasi totale,suppléance quasi totale,False,maillage dense,maillage dense,False,False,False
+B08051,Kloto 1,Kloto,B08,autres_villes,118387,tendu,tendu,False,suppléance quasi totale,suppléance quasi totale,False,maillage dense,maillage dense,False,False,True
+B10056,Moyen-Mono 1,Moyen-Mono,B10,rural,46797,tendu,tendu,False,mobile money prépondérant,mobile money prépondérant,False,acceptable,acceptable,False,False,False
+B08052,Kloto 2,Kloto,B08,rural,16166,tendu,tendu,False,suppléance quasi totale,suppléance quasi totale,False,maillage dense,maillage dense,False,False,False
+B08053,Kloto 3,Kloto,B08,rural,11433,bien desservi,tendu,True,mobile money prépondérant,suppléance quasi totale,True,maillage dense,maillage dense,False,True,False
+B11058,Ogou 1,Ogou,B11,autres_villes,116301,bien desservi,tendu,True,mobile money prépondérant,suppléance quasi totale,True,maillage dense,maillage dense,False,True,True
+B11059,Ogou 2,Ogou,B11,rural,56282,tendu,tendu,False,suppléance quasi totale,suppléance quasi totale,False,acceptable,maillage dense,True,True,False
+B12064,Wawa 3,Wawa,B12,rural,29699,non défini et critique (0 point),tendu,True,mobile money uniquement (0 point formel),suppléance quasi totale,True,maillage dense,maillage dense,False,True,False
+B11060,Ogou 3,Ogou,B11,rural,51836,tendu,tendu,False,suppléance quasi totale,suppléance quasi totale,False,maillage dense,maillage dense,False,False,False
+B11061,Ogou 4,Ogou,B11,rural,29048,tendu,tendu,False,mobile money prépondérant,suppléance quasi totale,True,acceptable,maillage dense,True,True,False
+B12062,Wawa 1,Wawa,B12,rural,51187,tendu,tendu,False,suppléance quasi totale,suppléance quasi totale,False,maillage dense,maillage dense,False,False,False
+B12063,Wawa 2,Wawa,B12,rural,20414,non défini et critique (0 point),tendu,True,mobile money uniquement (0 point formel),suppléance quasi totale,True,acceptable,maillage dense,True,True,False
+C01065,Blitta 1,Blitta,C01,rural,71539,bien desservi,tendu,True,mobile money prépondérant,mobile money prépondérant,False,maillage dense,acceptable,True,True,False
+C01066,Blitta 2,Blitta,C01,rural,46515,tendu,tendu,False,réseaux comparables,mobile money prépondérant,True,maillage insuffisant,acceptable,True,True,False
+C01067,Blitta 3,Blitta,C01,rural,45218,non défini et critique (0 point),tendu,True,mobile money uniquement (0 point formel),mobile money prépondérant,True,maillage insuffisant,acceptable,True,True,False
+C02068,Mô 1,Mô,C02,rural,30522,sous-desservi,tendu,True,suppléance quasi totale,mobile money prépondérant,True,acceptable,acceptable,False,True,False
+C02069,Mô 2,Mô,C02,rural,21926,tendu,tendu,False,mobile money prépondérant,mobile money prépondérant,False,acceptable,acceptable,False,False,False
+C03070,Sotouboua 1,Sotouboua,C03,autres_villes,46907,bien desservi,bien desservi,False,mobile money prépondérant,mobile money prépondérant,False,maillage dense,maillage dense,False,False,True
+C03071,Sotouboua 2,Sotouboua,C03,rural,64187,tendu,bien desservi,True,suppléance quasi totale,mobile money prépondérant,True,maillage dense,maillage dense,False,True,False
+C03072,Sotouboua 3,Sotouboua,C03,rural,27770,bien desservi,bien desservi,False,suppléance quasi totale,mobile money prépondérant,True,maillage dense,maillage dense,False,True,False
+C04073,Tchamba 1,Tchamba,C04,rural,82451,tendu,tendu,False,mobile money prépondérant,mobile money prépondérant,False,acceptable,maillage dense,True,True,False
+C05077,Tchaoudjo 2,Tchaoudjo,C05,rural,24891,non défini et critique (0 point),tendu,True,mobile money uniquement (0 point formel),suppléance quasi totale,True,maillage dense,maillage dense,False,True,False
+C04074,Tchamba 2,Tchamba,C04,rural,64930,sous-desservi,tendu,True,suppléance quasi totale,mobile money prépondérant,True,maillage dense,maillage dense,False,True,False
+C05076,Tchaoudjo 1,Tchaoudjo,C05,autres_villes,177706,bien desservi,tendu,True,suppléance quasi totale,suppléance quasi totale,False,maillage dense,maillage dense,False,True,True
+C04075,Tchamba 3,Tchamba,C04,rural,53204,tendu,tendu,False,mobile money prépondérant,mobile money prépondérant,False,maillage dense,maillage dense,False,False,False
+C05078,Tchaoudjo 3,Tchaoudjo,C05,rural,17484,non défini et critique (0 point),tendu,True,mobile money uniquement (0 point formel),suppléance quasi totale,True,maillage dense,maillage dense,False,True,False
+D01080,Assoli 1,Assoli,D01,autres_villes,40417,bien desservi,bien desservi,False,suppléance quasi totale,suppléance quasi totale,False,maillage dense,maillage dense,False,False,True
+D01081,Assoli 2,Assoli,D01,rural,9933,non défini et critique (0 point),bien desservi,True,mobile money uniquement (0 point formel),suppléance quasi totale,True,maillage dense,maillage dense,False,True,False
+D01082,Assoli 3,Assoli,D01,rural,16044,non défini et critique (0 point),bien desservi,True,mobile money uniquement (0 point formel),suppléance quasi totale,True,maillage dense,maillage dense,False,True,False
+D03087,Binah 1,Binah,D03,rural,44039,tendu,bien desservi,True,suppléance quasi totale,suppléance quasi totale,False,maillage dense,maillage dense,False,True,False
+D02083,Bassar 1,Bassar,D02,autres_villes,65059,bien desservi,tendu,True,suppléance quasi totale,suppléance quasi totale,False,maillage dense,maillage dense,False,True,True
+D02084,Bassar 2,Bassar,D02,rural,36476,tendu,tendu,False,suppléance quasi totale,suppléance quasi totale,False,maillage dense,maillage dense,False,False,False
+D02085,Bassar 3,Bassar,D02,rural,33873,tendu,tendu,False,suppléance quasi totale,suppléance quasi totale,False,maillage dense,maillage dense,False,False,False
+D03088,Binah 2,Binah,D03,rural,40160,bien desservi,bien desservi,False,mobile money prépondérant,suppléance quasi totale,True,maillage dense,maillage dense,False,True,False
+D04090,Dankpen 2,Dankpen,D04,rural,32716,non défini et critique (0 point),sous-desservi,True,mobile money uniquement (0 point formel),suppléance quasi totale,True,acceptable,maillage dense,True,True,False
+D04091,Dankpen 3,Dankpen,D04,rural,76652,non défini et critique (0 point),sous-desservi,True,mobile money uniquement (0 point formel),suppléance quasi totale,True,acceptable,maillage dense,True,True,False
+D04089,Dankpen 1,Dankpen,D04,rural,76294,tendu,sous-desservi,True,suppléance quasi totale,suppléance quasi totale,False,maillage dense,maillage dense,False,True,False
+D05092,Doufelgou 1,Doufelgou,D05,autres_villes,44783,bien desservi,bien desservi,False,mobile money prépondérant,mobile money prépondérant,False,maillage dense,maillage dense,False,False,True
+D05093,Doufelgou 3,Doufelgou,D05,rural,28262,bien desservi,bien desservi,False,mobile money prépondérant,mobile money prépondérant,False,maillage dense,maillage dense,False,False,False
+D05094,Doufelgou 2,Doufelgou,D05,rural,11722,tendu,bien desservi,True,suppléance quasi totale,mobile money prépondérant,True,maillage dense,maillage dense,False,True,False
+D06094,Kéran 1,Kéran,D06,rural,44399,bien desservi,tendu,True,mobile money prépondérant,mobile money prépondérant,False,maillage dense,maillage dense,False,True,False
+E01102,Cinkassé 2,Cinkassé,E01,rural,52967,tendu,bien desservi,True,suppléance quasi totale,suppléance quasi totale,False,maillage dense,maillage dense,False,True,False
+D06095,Kéran 2,Kéran,D06,rural,53305,non défini et critique (0 point),tendu,True,mobile money uniquement (0 point formel),mobile money prépondérant,True,acceptable,maillage dense,True,True,False
+D06096,Kéran 3,Kéran,D06,rural,30983,non défini et critique (0 point),tendu,True,mobile money uniquement (0 point formel),mobile money prépondérant,True,acceptable,maillage dense,True,True,False
+D07097,Kozah 1,Kozah,D07,autres_villes,193625,bien desservi,tendu,True,suppléance quasi totale,suppléance quasi totale,False,maillage dense,maillage dense,False,True,True
+D07098,Kozah 2,Kozah,D07,rural,45704,tendu,tendu,False,suppléance quasi totale,suppléance quasi totale,False,maillage dense,maillage dense,False,False,False
+E02103,Kpendjal 1,Kpendjal,E02,rural,47903,non défini et critique (0 point),non défini et critique (0 point),False,mobile money uniquement (0 point formel),mobile money uniquement (0 point formel),False,acceptable,acceptable,False,False,False
+E02104,Kpendjal 2,Kpendjal,E02,rural,40462,non défini et critique (0 point),non défini et critique (0 point),False,mobile money uniquement (0 point formel),mobile money uniquement (0 point formel),False,maillage insuffisant,acceptable,True,True,False
+E03105,Kpendjal-Ouest 1,Kpendjal-Ouest,E03,rural,56459,sous-desservi,sous-desservi,False,suppléance quasi totale,suppléance quasi totale,False,maillage dense,maillage dense,False,False,False
+D07099,Kozah 3,Kozah,D07,rural,23755,non défini et critique (0 point),tendu,True,mobile money uniquement (0 point formel),suppléance quasi totale,True,maillage dense,maillage dense,False,True,False
+D07100,Kozah 4,Kozah,D07,rural,20654,non défini et critique (0 point),tendu,True,mobile money uniquement (0 point formel),suppléance quasi totale,True,maillage dense,maillage dense,False,True,False
+E01101,Cinkassé 1,Cinkassé,E01,autres_villes,75992,bien desservi,bien desservi,False,suppléance quasi totale,suppléance quasi totale,False,maillage dense,maillage dense,False,False,True
+E03106,Kpendjal-Ouest 2,Kpendjal-Ouest,E03,rural,66871,sous-desservi,sous-desservi,False,suppléance quasi totale,suppléance quasi totale,False,acceptable,maillage dense,True,True,False
+E04109,Oti 1,Oti,E04,autres_villes,54479,bien desservi,tendu,True,suppléance quasi totale,suppléance quasi totale,False,maillage dense,maillage dense,False,True,True
+E04110,Oti 2,Oti,E04,rural,70369,tendu,tendu,False,suppléance quasi totale,suppléance quasi totale,False,maillage dense,maillage dense,False,False,False
+E07116,Tône 4,Tône,E07,rural,66577,non défini et critique (0 point),tendu,True,mobile money uniquement (0 point formel),suppléance quasi totale,True,maillage dense,maillage dense,False,True,False
+A05020,Lacs 3,Lacs,A05,rural,108176,tendu,tendu,False,suppléance quasi totale,suppléance quasi totale,False,maillage dense,maillage dense,False,False,False
+E05107,Oti-Sud 1,Oti-Sud,E05,rural,106052,tendu,sous-desservi,True,suppléance quasi totale,suppléance quasi totale,False,maillage dense,maillage dense,False,True,False
+B07049,Haho 3,Haho,B07,rural,58695,non défini et critique (0 point),tendu,True,mobile money uniquement (0 point formel),suppléance quasi totale,True,maillage dense,maillage dense,False,True,False
+A04013,Golfe 3,Golfe,A04,grand_lome,52769,bien desservi,bien desservi,False,mobile money prépondérant,suppléance quasi totale,True,maillage dense,maillage dense,False,True,True
+A04012,Golfe 2,Golfe,A04,grand_lome,136153,tendu,bien desservi,True,suppléance quasi totale,suppléance quasi totale,False,maillage dense,maillage dense,False,True,True
+E05108,Oti-Sud 2,Oti-Sud,E05,rural,44324,sous-desservi,sous-desservi,False,suppléance quasi totale,suppléance quasi totale,False,acceptable,maillage dense,True,True,False
+E06111,Tandjoaré 1,Tandjoaré,E06,rural,74692,sous-desservi,tendu,True,suppléance quasi totale,suppléance quasi totale,False,acceptable,maillage dense,True,True,False
+E06112,Tandjoaré 2,Tandjoaré,E06,rural,64175,tendu,tendu,False,suppléance quasi totale,suppléance quasi totale,False,maillage dense,maillage dense,False,False,False
+E07113,Tône 1,Tône,E07,autres_villes,211743,tendu,tendu,False,suppléance quasi totale,suppléance quasi totale,False,maillage dense,maillage dense,False,False,True
+E07114,Tône 2,Tône,E07,rural,50179,non défini et critique (0 point),tendu,True,mobile money uniquement (0 point formel),suppléance quasi totale,True,maillage dense,maillage dense,False,True,False
+E07115,Tône 3,Tône,E07,rural,60276,sous-desservi,tendu,True,suppléance quasi totale,suppléance quasi totale,False,maillage dense,maillage dense,False,True,False
+A04011,Golfe 1,Golfe,A04,grand_lome,351550,bien desservi,bien desservi,False,suppléance quasi totale,suppléance quasi totale,False,maillage dense,maillage dense,False,False,True

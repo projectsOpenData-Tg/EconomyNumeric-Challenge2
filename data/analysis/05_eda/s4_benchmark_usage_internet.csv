@@ -1,0 +1,222 @@
+iso3,pays,annee,valeur,note,rang_uemoa_sur_8
+BEN,Benin,2000,0.23,estimations UIT,5.0
+BEN,Benin,2001,0.36,estimations UIT,4.0
+BEN,Benin,2002,0.7,estimations UIT,4.0
+BEN,Benin,2003,0.95,estimations UIT,4.0
+BEN,Benin,2004,1.18,estimations UIT,4.0
+BEN,Benin,2005,1.27,estimations UIT,4.0
+BEN,Benin,2006,1.54,estimations UIT,4.0
+BEN,Benin,2007,1.79,estimations UIT ; Autorité Transitoire de Régulation des Postes et Télécommunications,5.0
+BEN,Benin,2008,1.85,estimations UIT ; Autorité Transitoire de Régulation des Postes et Télécommunications,5.0
+BEN,Benin,2009,2.24,estimations UIT ; Autorité Transitoire de Régulation des Postes et Télécommunications,4.0
+BEN,Benin,2010,3.13,estimations UIT ; Autorité Transitoire de Régulation des Postes et Télécommunications,2.0
+BEN,Benin,2011,4.15,estimations UIT ; NSO.,2.0
+BEN,Benin,2012,4.5,estimations UIT ; ITU estimate.,2.0
+BEN,Benin,2013,4.9,estimations UIT ; ITU estimate.,4.0
+BEN,Benin,2014,6.0,estimations UIT ; ITU estimate.,4.0
+BEN,Benin,2015,11.26,estimations UIT ; ITU estimate.,3.0
+BEN,Benin,2016,14.5,estimations UIT ; ITU estimate.,3.0
+BEN,Benin,2017,18.7,estimations UIT ; Findex.,4.0
+BEN,Benin,2018,19.0,estimations UIT ; ITU estimate.,4.0
+BEN,Benin,2019,20.5,estimations UIT ; ITU estimate.,5.0
+BEN,Benin,2020,22.12,estimations UIT ; ITU estimate.,5.0
+BEN,Benin,2021,28.2,estimations UIT ; ITU estimate.,5.0
+BEN,Benin,2022,30.54,estimations UIT ; ITU estimate.,5.0
+BEN,Benin,2023,32.39,estimations UIT ; ITU estimate.,5.0
+BEN,Benin,2024,33.98,estimations UIT,5.0
+BFA,Burkina Faso,2000,0.08,estimations UIT,7.0
+BFA,Burkina Faso,2001,0.16,estimations UIT,7.0
+BFA,Burkina Faso,2002,0.2,estimations UIT,7.0
+BFA,Burkina Faso,2003,0.37,estimations UIT,6.0
+BFA,Burkina Faso,2004,0.4,estimations UIT,7.0
+BFA,Burkina Faso,2005,0.47,estimations UIT,7.0
+BFA,Burkina Faso,2006,0.63,estimations UIT,7.0
+BFA,Burkina Faso,2007,0.75,estimations UIT ; Autorité de Régulation des Télécommunications Électroniques (ARCE),7.0
+BFA,Burkina Faso,2008,0.92,estimations UIT ; ITU estimate.,7.0
+BFA,Burkina Faso,2009,1.13,estimations UIT ; ITU estimate.,7.0
+BFA,Burkina Faso,2010,2.4,estimations UIT ; ITU estimate.,6.0
+BFA,Burkina Faso,2011,3.0,estimations UIT ; ITU estimate.,4.0
+BFA,Burkina Faso,2012,3.72,estimations UIT ; ITU estimate.,5.0
+BFA,Burkina Faso,2013,5.0,estimations UIT ; ITU estimate.,3.0
+BFA,Burkina Faso,2014,6.0,estimations UIT ; Institut national des Statistiques,4.0
+BFA,Burkina Faso,2015,6.55,estimations UIT ; ITU estimate.,6.0
+BFA,Burkina Faso,2016,7.14,estimations UIT ; ITU estimate.,7.0
+BFA,Burkina Faso,2017,7.79,estimations UIT ; ITU estimate,8.0
+BFA,Burkina Faso,2018,8.5,estimations UIT ; ITU estimate.,8.0
+BFA,Burkina Faso,2019,9.27,estimations UIT ; Institut National de la Statistique et de la Demographie,8.0
+BFA,Burkina Faso,2020,12.97,estimations UIT ; ITU estimate.,7.0
+BFA,Burkina Faso,2021,18.15,estimations UIT ; ITU estimate.,7.0
+BFA,Burkina Faso,2022,25.4,estimations UIT ; ITU estimate.,7.0
+BFA,Burkina Faso,2023,25.36,estimations UIT ; Gallup World Poll (estimate).,7.0
+BFA,Burkina Faso,2024,28.25,estimations UIT,7.0
+CIV,Cote d'Ivoire,2000,0.23,estimations UIT,3.0
+CIV,Cote d'Ivoire,2001,0.4,estimations UIT,3.0
+CIV,Cote d'Ivoire,2002,0.5,estimations UIT,5.0
+CIV,Cote d'Ivoire,2003,0.76,estimations UIT,5.0
+CIV,Cote d'Ivoire,2004,0.85,estimations UIT,5.0
+CIV,Cote d'Ivoire,2005,1.04,estimations UIT,5.0
+CIV,Cote d'Ivoire,2006,1.52,estimations UIT,5.0
+CIV,Cote d'Ivoire,2007,1.8,estimations UIT ; ITU estimate.,4.0
+CIV,Cote d'Ivoire,2008,1.9,estimations UIT ; ITU estimate.,4.0
+CIV,Cote d'Ivoire,2009,2.0,estimations UIT ; ITU estimate.,5.0
+CIV,Cote d'Ivoire,2010,2.7,estimations UIT ; ITU estimate.,4.0
+CIV,Cote d'Ivoire,2011,2.9,estimations UIT ; ITU estimate.,5.0
+CIV,Cote d'Ivoire,2012,4.4,estimations UIT ; ITU estimate.,3.0
+CIV,Cote d'Ivoire,2013,6.6,estimations UIT ; ITU estimate.,2.0
+CIV,Cote d'Ivoire,2014,10.0,estimations UIT ; ITU estimate.,2.0
+CIV,Cote d'Ivoire,2015,38.44,estimations UIT ; ARTCI,1.0
+CIV,Cote d'Ivoire,2016,41.21,estimations UIT ; ARTCI,1.0
+CIV,Cote d'Ivoire,2017,43.84,estimations UIT ; ARTCI,1.0
+CIV,Cote d'Ivoire,2018,37.55,estimations UIT ; ARTCI,1.0
+CIV,Cote d'Ivoire,2019,36.29,estimations UIT ; ARTCI,2.0
+CIV,Cote d'Ivoire,2020,36.02,estimations UIT ; ITU estimate.,2.0
+CIV,Cote d'Ivoire,2021,35.95,estimations UIT ; ITU estimate.,2.0
+CIV,Cote d'Ivoire,2022,38.41,estimations UIT ; ARTCI,2.0
+CIV,Cote d'Ivoire,2023,40.65,estimations UIT ; ARTCI,2.0
+CIV,Cote d'Ivoire,2024,41.43,estimations UIT,2.0
+GNB,Guinea-Bissau,2000,0.23,estimations UIT,4.0
+GNB,Guinea-Bissau,2001,0.3,estimations UIT,5.0
+GNB,Guinea-Bissau,2002,1.02,estimations UIT,1.0
+GNB,Guinea-Bissau,2003,1.35,estimations UIT,2.0
+GNB,Guinea-Bissau,2004,1.81,estimations UIT,2.0
+GNB,Guinea-Bissau,2005,1.9,estimations UIT,2.0
+GNB,Guinea-Bissau,2006,2.06,estimations UIT,2.0
+GNB,Guinea-Bissau,2007,2.21,estimations UIT ; ITU estimate.,2.0
+GNB,Guinea-Bissau,2008,2.35,estimations UIT ; Instituto das Comunicaçoes da Guiné-Bissau.,3.0
+GNB,Guinea-Bissau,2009,2.3,estimations UIT ; Instituto das Comunicaçoes da Guiné-Bissau.,3.0
+GNB,Guinea-Bissau,2010,2.45,estimations UIT ; ITU estimate.,5.0
+GNB,Guinea-Bissau,2011,2.67,estimations UIT ; ITU estimate.,6.0
+GNB,Guinea-Bissau,2012,2.89,estimations UIT ; ITU estimate.,6.0
+GNB,Guinea-Bissau,2013,3.1,estimations UIT ; ITU estimate.,7.0
+GNB,Guinea-Bissau,2014,3.32,estimations UIT ; ITU estimate.,7.0
+GNB,Guinea-Bissau,2015,6.1,estimations UIT ; ITU estimate.,7.0
+GNB,Guinea-Bissau,2016,13.8,estimations UIT ; ITU estimate.,5.0
+GNB,Guinea-Bissau,2017,14.8,estimations UIT ; ITU estimate.,5.0
+GNB,Guinea-Bissau,2018,15.7,estimations UIT ; ITU estimate.,5.0
+GNB,Guinea-Bissau,2019,17.92,estimations UIT ; ITU estimate.,6.0
+GNB,Guinea-Bissau,2020,20.46,estimations UIT ; ITU estimate.,6.0
+GNB,Guinea-Bissau,2021,23.35,estimations UIT ; ITU estimate.,6.0
+GNB,Guinea-Bissau,2022,27.67,estimations UIT ; ITU estimate.,6.0
+GNB,Guinea-Bissau,2023,28.71,estimations UIT ; ITU estimate.,6.0
+GNB,Guinea-Bissau,2024,29.78,estimations UIT,6.0
+MLI,Mali,2000,0.14,estimations UIT,6.0
+MLI,Mali,2001,0.19,estimations UIT,6.0
+MLI,Mali,2002,0.23,estimations UIT,6.0
+MLI,Mali,2003,0.31,estimations UIT,7.0
+MLI,Mali,2004,0.43,estimations UIT,6.0
+MLI,Mali,2005,0.51,estimations UIT,6.0
+MLI,Mali,2006,0.73,estimations UIT,6.0
+MLI,Mali,2007,0.81,estimations UIT ; Comité de Régulation des Télécommnications CRT,6.0
+MLI,Mali,2008,1.57,estimations UIT ; Comité de Régulation des Télécommnications CRT,6.0
+MLI,Mali,2009,1.8,estimations UIT ; ITU estimate.,6.0
+MLI,Mali,2010,2.0,estimations UIT ; ITU estimate.,7.0
+MLI,Mali,2011,2.2,estimations UIT ; Institut National de la Statistique (ex Direction Nationale de la Statistique et de l'Informatique),7.0
+MLI,Mali,2012,2.8,estimations UIT ; ITU estimate.,7.0
+MLI,Mali,2013,3.5,estimations UIT ; ITU estimate.,6.0
+MLI,Mali,2014,7.0,estimations UIT ; ITU estimate.,3.0
+MLI,Mali,2015,10.33,estimations UIT ; ITU estimate.,4.0
+MLI,Mali,2016,14.0,estimations UIT ; ITU estimate.,4.0
+MLI,Mali,2017,18.9,"estimations UIT ; ITU estimate., Findex.",3.0
+MLI,Mali,2018,21.4,"estimations UIT ; ITU estimate., Estimate based on DHS.",3.0
+MLI,Mali,2019,24.96,estimations UIT ; ITU estimate.,3.0
+MLI,Mali,2020,29.11,estimations UIT ; ITU estimate.,3.0
+MLI,Mali,2021,33.96,estimations UIT ; ITU estimate.,3.0
+MLI,Mali,2022,35.2,estimations UIT ; ITU estimate.,4.0
+MLI,Mali,2023,36.04,estimations UIT ; ITU estimate.,4.0
+MLI,Mali,2024,36.8,estimations UIT,4.0
+NER,Niger,2000,0.04,estimations UIT,8.0
+NER,Niger,2001,0.11,estimations UIT,8.0
+NER,Niger,2002,0.13,estimations UIT,8.0
+NER,Niger,2003,0.16,estimations UIT ; ITU estimate.,8.0
+NER,Niger,2004,0.19,estimations UIT ; ITU estimate.,8.0
+NER,Niger,2005,0.22,estimations UIT ; ITU estimate.,8.0
+NER,Niger,2006,0.29,estimations UIT ; ITU estimate.,8.0
+NER,Niger,2007,0.39,estimations UIT ; ITU estimate.,8.0
+NER,Niger,2008,0.7,estimations UIT ; Institut National de la Statistique (INS).,8.0
+NER,Niger,2009,0.76,estimations UIT ; Institut National de la Statistique,8.0
+NER,Niger,2010,0.83,estimations UIT ; ITU estimate.,8.0
+NER,Niger,2011,0.9,estimations UIT ; Institut National de la Statistique,8.0
+NER,Niger,2012,1.05,estimations UIT ; ITU estimate.,8.0
+NER,Niger,2013,1.15,estimations UIT ; ITU estimate.,8.0
+NER,Niger,2014,1.25,"estimations UIT ; MINISTERE DES POSTES, DES TELECOMMUNICATIONS ET DE L'ECONOMIE NUMERIQUE",8.0
+NER,Niger,2015,2.48,estimations UIT ; ITU estimate.,8.0
+NER,Niger,2016,4.32,estimations UIT ; ITU estimate.,8.0
+NER,Niger,2017,10.22,"estimations UIT ; Ministère des Postes, des Télécommunications et de l'Economie Numérique",7.0
+NER,Niger,2018,10.74,estimations UIT ; Source: Ministère des Postes; des Télécommunications et de l'Economie Numérique,7.0
+NER,Niger,2019,11.29,estimations UIT ; ITU estimate.,7.0
+NER,Niger,2020,11.86,estimations UIT ; ITU estimate.,8.0
+NER,Niger,2021,12.46,estimations UIT ; ITU estimate.,8.0
+NER,Niger,2022,13.09,estimations UIT ; ITU estimate.,8.0
+NER,Niger,2023,12.98,estimations UIT ; ITU estimate.,8.0
+NER,Niger,2024,15.56,estimations UIT,8.0
+SEN,Senegal,2000,0.4,estimations UIT ; Société Nationale des Télécommunications du Sénégal (SONATEL).,2.0
+SEN,Senegal,2001,0.98,estimations UIT ; Société Nationale des Télécommunications du Sénégal (SONATEL).,1.0
+SEN,Senegal,2002,1.01,estimations UIT ; Société Nationale des Télécommunications du Sénégal (SONATEL).,2.0
+SEN,Senegal,2003,2.1,estimations UIT ; Société Nationale des Télécommunications du Sénégal (SONATEL).,1.0
+SEN,Senegal,2004,4.39,estimations UIT ; Agence de Régulation des Télécommunications.,1.0
+SEN,Senegal,2005,4.79,estimations UIT ; Agence de Régulation des Télécommunications.,1.0
+SEN,Senegal,2006,5.61,estimations UIT ; Agence de Régulation des Télécommunications.,1.0
+SEN,Senegal,2007,6.89,estimations UIT ; ITU estimate.,1.0
+SEN,Senegal,2008,7.12,estimations UIT ; ITU estimate.,1.0
+SEN,Senegal,2009,7.5,"estimations UIT ; ITU estimate., Refers to total population. Survey result: 14.5% for population age 12+.",1.0
+SEN,Senegal,2010,8.0,"estimations UIT ; ITU estimate., Refers to total population. Survey result: 16% for population age 12+.",1.0
+SEN,Senegal,2011,9.8,"estimations UIT ; ITU estimate., Refers to total population. Country estimates 17.5% for population age 12+.",1.0
+SEN,Senegal,2012,10.8,"estimations UIT ; ITU estimate., Refers to total population.",1.0
+SEN,Senegal,2013,13.1,"estimations UIT ; ITU estimate., Refers to total population.",1.0
+SEN,Senegal,2014,17.7,"estimations UIT ; ITU estimate., Refers to total population.",1.0
+SEN,Senegal,2015,21.7,estimations UIT ; ITU estimate.,2.0
+SEN,Senegal,2016,25.66,estimations UIT ; ITU estimate.,2.0
+SEN,Senegal,2017,29.64,estimations UIT ; ITU estimate.,2.0
+SEN,Senegal,2018,35.3,"estimations UIT ; ITU estimate., Estimated based on DHS 2018",2.0
+SEN,Senegal,2019,43.38,estimations UIT ; ITU estimate.,1.0
+SEN,Senegal,2020,53.31,estimations UIT ; ITU estimate.,1.0
+SEN,Senegal,2021,55.04,estimations UIT ; ITU estimate.,1.0
+SEN,Senegal,2022,56.83,estimations UIT ; ITU estimate.,1.0
+SEN,Senegal,2023,59.19,estimations UIT ; ITU estimate.,1.0
+SEN,Senegal,2024,60.12,estimations UIT,1.0
+SSF,Afrique subsaharienne (agrégat Banque mondiale),2005,2.0,estimations UIT,
+SSF,Afrique subsaharienne (agrégat Banque mondiale),2006,2.6,estimations UIT,
+SSF,Afrique subsaharienne (agrégat Banque mondiale),2007,3.1,estimations UIT,
+SSF,Afrique subsaharienne (agrégat Banque mondiale),2008,3.6,estimations UIT,
+SSF,Afrique subsaharienne (agrégat Banque mondiale),2009,4.3,estimations UIT,
+SSF,Afrique subsaharienne (agrégat Banque mondiale),2010,6.0,estimations UIT,
+SSF,Afrique subsaharienne (agrégat Banque mondiale),2011,7.5,estimations UIT,
+SSF,Afrique subsaharienne (agrégat Banque mondiale),2012,9.2,estimations UIT,
+SSF,Afrique subsaharienne (agrégat Banque mondiale),2013,11.2,estimations UIT,
+SSF,Afrique subsaharienne (agrégat Banque mondiale),2014,13.4,estimations UIT,
+SSF,Afrique subsaharienne (agrégat Banque mondiale),2015,16.2,estimations UIT,
+SSF,Afrique subsaharienne (agrégat Banque mondiale),2016,18.3,estimations UIT,
+SSF,Afrique subsaharienne (agrégat Banque mondiale),2017,20.0,estimations UIT,
+SSF,Afrique subsaharienne (agrégat Banque mondiale),2018,22.0,estimations UIT,
+SSF,Afrique subsaharienne (agrégat Banque mondiale),2019,24.4,estimations UIT,
+SSF,Afrique subsaharienne (agrégat Banque mondiale),2020,26.7,estimations UIT,
+SSF,Afrique subsaharienne (agrégat Banque mondiale),2021,29.0,estimations UIT,
+SSF,Afrique subsaharienne (agrégat Banque mondiale),2022,31.1,estimations UIT,
+SSF,Afrique subsaharienne (agrégat Banque mondiale),2023,32.3,estimations UIT,
+SSF,Afrique subsaharienne (agrégat Banque mondiale),2024,33.6,estimations UIT,
+SSF,Afrique subsaharienne (agrégat Banque mondiale),2025,35.7,estimations UIT,
+TGO,Togo,2000,0.8,estimations UIT ; ITU estimate.,1.0
+TGO,Togo,2001,0.9,estimations UIT ; ITU estimate.,2.0
+TGO,Togo,2002,1.0,estimations UIT ; ITU estimate.,3.0
+TGO,Togo,2003,1.2,estimations UIT ; ITU estimate.,3.0
+TGO,Togo,2004,1.5,estimations UIT ; ITU estimate.,3.0
+TGO,Togo,2005,1.8,estimations UIT ; ITU estimate.,3.0
+TGO,Togo,2006,2.0,estimations UIT ; ITU estimate.,3.0
+TGO,Togo,2007,2.2,estimations UIT ; ITU estimate.,3.0
+TGO,Togo,2008,2.4,estimations UIT ; ITU estimate.,2.0
+TGO,Togo,2009,2.6,estimations UIT ; ITU estimate.,2.0
+TGO,Togo,2010,3.0,estimations UIT ; ITU estimate.,3.0
+TGO,Togo,2011,3.5,estimations UIT ; ITU estimate.,3.0
+TGO,Togo,2012,4.0,estimations UIT ; ITU estimate.,4.0
+TGO,Togo,2013,4.5,estimations UIT ; ITU estimate.,5.0
+TGO,Togo,2014,5.7,estimations UIT ; ITU estimate.,6.0
+TGO,Togo,2015,7.12,estimations UIT ; ITU estimate.,5.0
+TGO,Togo,2016,11.31,estimations UIT ; ITU estimate.,6.0
+TGO,Togo,2017,12.36,estimations UIT ; Institut national de la statistique et des études économiques et démographiques,6.0
+TGO,Togo,2018,15.5,estimations UIT ; ITU estimate.,6.0
+TGO,Togo,2019,20.73,estimations UIT ; ITU estimate.,4.0
+TGO,Togo,2020,29.02,estimations UIT ; ITU estimate.,4.0
+TGO,Togo,2021,30.34,estimations UIT ; ITU estimate.,4.0
+TGO,Togo,2022,35.61,estimations UIT ; ITU estimate.,3.0
+TGO,Togo,2023,37.57,estimations UIT ; ITU estimate.,3.0
+TGO,Togo,2024,39.48,estimations UIT,3.0

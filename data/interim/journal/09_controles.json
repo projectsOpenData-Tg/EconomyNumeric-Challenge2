@@ -1,0 +1,250 @@
+{
+  "etape": "09_controles",
+  "date": "2026-09-26",
+  "effectifs": [
+    {
+      "objet": "registre",
+      "avant": "9 étapes",
+      "transformation": "consolidation",
+      "apres": "2151 lignes"
+    },
+    {
+      "objet": "contrôles",
+      "avant": "9 étapes",
+      "transformation": "consolidation",
+      "apres": "137 contrôles, 2 écarts signalés"
+    }
+  ],
+  "controles": [
+    {
+      "code": "OUT",
+      "libelle": "table dim_territoire présente et non vide",
+      "attendu": "> 0 ligne",
+      "constate": "563",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "OUT",
+      "libelle": "table points_service présente et non vide",
+      "attendu": "> 0 ligne",
+      "constate": "20805",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "OUT",
+      "libelle": "table terr_commune présente et non vide",
+      "attendu": "> 0 ligne",
+      "constate": "117",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "OUT",
+      "libelle": "table terr_prefecture présente et non vide",
+      "attendu": "> 0 ligne",
+      "constate": "39",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "OUT",
+      "libelle": "table terr_region présente et non vide",
+      "attendu": "> 0 ligne",
+      "constate": "6",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "OUT",
+      "libelle": "table serie_nationale présente et non vide",
+      "attendu": "> 0 ligne",
+      "constate": "3261",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "OUT",
+      "libelle": "table enquetes_region présente et non vide",
+      "attendu": "> 0 ligne",
+      "constate": "979",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "OUT",
+      "libelle": "table benchmark présente et non vide",
+      "attendu": "> 0 ligne",
+      "constate": "698",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "OUT",
+      "libelle": "table chronologie présente et non vide",
+      "attendu": "> 0 ligne",
+      "constate": "40",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "GE2-codes",
+      "libelle": "points_service.canton_code présents dans dim_territoire",
+      "attendu": "0",
+      "constate": "0",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "GE2-codes",
+      "libelle": "points_service.commune_code présents dans dim_territoire",
+      "attendu": "0",
+      "constate": "0",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "GE2-codes",
+      "libelle": "points_service.prefecture_code présents dans dim_territoire",
+      "attendu": "0",
+      "constate": "0",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "GE1-codes",
+      "libelle": "terr_commune : codes présents dans dim_territoire",
+      "attendu": "0",
+      "constate": "0",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "GE1-codes",
+      "libelle": "terr_prefecture : codes présents dans dim_territoire",
+      "attendu": "0",
+      "constate": "0",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "GE1-codes",
+      "libelle": "terr_region : codes présents dans dim_territoire",
+      "attendu": "0",
+      "constate": "0",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "ST3-op",
+      "libelle": "D5 : opérateur non renseigné resté NA (jamais 0)",
+      "attendu": "1348",
+      "constate": "1348",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "ST3-couv",
+      "libelle": "terr_commune : couverture non déterminable laissée en NA",
+      "attendu": "NA partout",
+      "constate": "True",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "A13-zero",
+      "libelle": "terr_commune : les zéros de points formels ont une enquête prouvée",
+      "attendu": "tous",
+      "constate": "True",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "ST3-couv",
+      "libelle": "terr_prefecture : couverture non déterminable laissée en NA",
+      "attendu": "NA partout",
+      "constate": "True",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "A13-zero",
+      "libelle": "terr_prefecture : les zéros de points formels ont une enquête prouvée",
+      "attendu": "tous",
+      "constate": "True",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "TE1",
+      "libelle": "croisement points (PRISE 2021/2022) × population (RGPH 2022)",
+      "attendu": "écart ≤ 1 an",
+      "constate": "['2021/2022 (PRISE)'] × ['RGPH-5 2022 (RG2, RG3)']",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "TE4",
+      "libelle": "D5 libellé comme stock 2021/2022",
+      "attendu": "tous",
+      "constate": "['2021/2022 (campagne PRISE)']",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "PREUVE",
+      "libelle": "points_service : niveau de preuve renseigné",
+      "attendu": "100 %",
+      "constate": "100 %",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "PREUVE",
+      "libelle": "serie_nationale : niveau de preuve renseigné",
+      "attendu": "100 %",
+      "constate": "100 %",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "PREUVE",
+      "libelle": "enquetes_region : niveau de preuve renseigné",
+      "attendu": "100 %",
+      "constate": "100 %",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "PREUVE",
+      "libelle": "benchmark : niveau de preuve renseigné",
+      "attendu": "100 %",
+      "constate": "100 %",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "PREUVE",
+      "libelle": "chronologie : niveau de preuve renseigné",
+      "attendu": "100 %",
+      "constate": "100 %",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "BLOQUANTS",
+      "libelle": "aucun contrôle bloquant en échec sur les étapes 1 à 8",
+      "attendu": "0",
+      "constate": "0",
+      "resultat": "OK",
+      "bloquant": true
+    }
+  ],
+  "sorties": [
+    "data/processed/_registre_anomalies.csv",
+    "data/processed/_controles.csv",
+    "data/processed/_journal_preparation.csv"
+  ],
+  "n_anomalies": 0
+}

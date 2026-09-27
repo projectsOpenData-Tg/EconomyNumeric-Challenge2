@@ -1,0 +1,5 @@
+dimension_a,dimension_b,rho_spearman,prefectures,regle_H6
+D3 couverture (proxy),D1 accès formel,0.204,36,pas de fusion
+D3 couverture (proxy),D2 maillage mobile money,0.399,36,pas de fusion
+D1 accès formel,D2 maillage mobile money,0.534,36,information
+D3 couverture (proxy),densite_hab_km2 densité de population,-0.692,36,information

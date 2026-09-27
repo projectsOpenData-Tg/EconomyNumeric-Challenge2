@@ -1,0 +1,224 @@
+{
+  "etape": "05_ar1",
+  "date": "2026-09-26",
+  "effectifs": [
+    {
+      "objet": "AR1, Moov « 3G » jusqu'au T4 2019",
+      "avant": 20,
+      "transformation": "requalifiées 3G+4G (4G non publiée)",
+      "apres": "3G+4G"
+    },
+    {
+      "objet": "AR1, montants publiés en FCFA",
+      "avant": 219,
+      "transformation": "divisés par 10⁹",
+      "apres": "Md FCFA"
+    },
+    {
+      "objet": "AR1, nombres de transactions publiés en unités",
+      "avant": 135,
+      "transformation": "divisés par 10⁶",
+      "apres": "millions"
+    },
+    {
+      "objet": "AR1, lignes lues",
+      "avant": 13140,
+      "transformation": "reconnaissance des séries utiles",
+      "apres": 7519
+    },
+    {
+      "objet": "AR1, totaux incohérents avec leurs opérateurs",
+      "avant": 28,
+      "transformation": "écartés du numéro concerné",
+      "apres": "publication cohérente retenue"
+    },
+    {
+      "objet": "AR1, valeurs trimestrielles (toutes publications)",
+      "avant": 7063,
+      "transformation": "DD5 : dernière publication",
+      "apres": 1755
+    },
+    {
+      "objet": "AR1, libellés non retenus (trafic, taux, parts de marché, CA data…)",
+      "avant": 5553,
+      "transformation": "hors séries utiles",
+      "apres": "271 libellés distincts"
+    }
+  ],
+  "controles": [
+    {
+      "code": "AR1-numeros",
+      "libelle": "numéros lus",
+      "attendu": "34",
+      "constate": "34",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "TE2",
+      "libelle": "abonnes_data_mobile/ensemble/total : trimestres T1 2018 - T2 2026",
+      "attendu": "34, aucun manquant",
+      "constate": "34 (manquants : [])",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "TE2",
+      "libelle": "abonnes_telephonie_mobile/ensemble/total : trimestres T1 2018 - T2 2026",
+      "attendu": "34, aucun manquant",
+      "constate": "34 (manquants : [])",
+      "resultat": "OK",
+      "bloquant": false
+    },
+    {
+      "code": "TE2",
+      "libelle": "ca/total_secteur/ : trimestres T1 2018 - T2 2026",
+      "attendu": "34, aucun manquant",
+      "constate": "34 (manquants : [])",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "TE2",
+      "libelle": "investissement/total_secteur/ : trimestres T1 2018 - T2 2026",
+      "attendu": "34, aucun manquant",
+      "constate": "34 (manquants : [])",
+      "resultat": "OK",
+      "bloquant": false
+    },
+    {
+      "code": "TE2",
+      "libelle": "abonnes_data_mobile/togocom/total : trimestres T1 2018 - T2 2026",
+      "attendu": "34, aucun manquant",
+      "constate": "34 (manquants : [])",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "TE2",
+      "libelle": "abonnes_data_mobile/moov/total : trimestres T1 2018 - T2 2026",
+      "attendu": "34, aucun manquant",
+      "constate": "34 (manquants : [])",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "TE2-mm",
+      "libelle": "mobile money (points de vente) : premier trimestre publié",
+      "attendu": "T4 2021 au plus tard",
+      "constate": "2020T2",
+      "resultat": "OK",
+      "bloquant": false
+    },
+    {
+      "code": "AR1-somme-data",
+      "libelle": "data mobile : Togocom + Moov = total",
+      "attendu": "écart ≤ 0,6 %",
+      "constate": "aucun écart",
+      "resultat": "OK",
+      "bloquant": false
+    },
+    {
+      "code": "AR1-somme-techno",
+      "libelle": "data mobile togocom : somme des technologies = total",
+      "attendu": "écart ≤ 0,6 %",
+      "constate": "aucun écart",
+      "resultat": "OK",
+      "bloquant": false
+    },
+    {
+      "code": "AR1-somme-techno",
+      "libelle": "data mobile moov : somme des technologies = total",
+      "attendu": "écart ≤ 0,6 %",
+      "constate": "aucun écart",
+      "resultat": "OK",
+      "bloquant": false
+    },
+    {
+      "code": "AR1-somme-ca-mobile",
+      "libelle": "CA : Togocom + Moov = total mobile",
+      "attendu": "écart ≤ 0,6 %",
+      "constate": "aucun écart",
+      "resultat": "OK",
+      "bloquant": false
+    },
+    {
+      "code": "AR1-perimetre-gva",
+      "libelle": "trimestres dont le CA fixe publié exclut GVA (rupture de périmètre)",
+      "attendu": "signalés",
+      "constate": "['2018T1', '2018T3', '2018T4', '2019T1', '2019T2', '2019T3', '2021T1', '2021T2', '2021T3', '2021T4', '2022T1', '2022T2', '2022T3', '2022T4', '2023T1']",
+      "resultat": "OK",
+      "bloquant": false
+    },
+    {
+      "code": "AR1-somme-ca-fixe",
+      "libelle": "CA : Togo Telecom + CAFE + TEOLIS + GVA = total fixe (hors trimestres publiés sans GVA)",
+      "attendu": "écart ≤ 2 %",
+      "constate": "aucun écart",
+      "resultat": "OK",
+      "bloquant": false
+    },
+    {
+      "code": "AR1-somme-ca",
+      "libelle": "CA : mobile + fixe = secteur",
+      "attendu": "écart ≤ 0,6 %",
+      "constate": "aucun écart",
+      "resultat": "OK",
+      "bloquant": false
+    },
+    {
+      "code": "AR1-somme-inv",
+      "libelle": "investissement : mobile + fixe = secteur",
+      "attendu": "écart ≤ 0,6 %",
+      "constate": "aucun écart",
+      "resultat": "OK",
+      "bloquant": false
+    },
+    {
+      "code": "AR1-somme-mm",
+      "libelle": "mobile money, points de vente : Moov + Togocom = total",
+      "attendu": "écart ≤ 0,6 %",
+      "constate": "aucun écart",
+      "resultat": "OK",
+      "bloquant": false
+    },
+    {
+      "code": "AR1-pdv-2021T4",
+      "libelle": "points de vente mobile money au T4 2021 (03 : 33 924)",
+      "attendu": "33924",
+      "constate": "33924",
+      "resultat": "OK",
+      "bloquant": false
+    },
+    {
+      "code": "S6",
+      "libelle": "rupture T4 2019 → T1 2020 du total data mobile (03 : -6,6 %)",
+      "attendu": "-6,6 %",
+      "constate": "-6.6 %",
+      "resultat": "OK",
+      "bloquant": false
+    },
+    {
+      "code": "AR1-revisions",
+      "libelle": "valeurs révisées d'au moins 5 % entre publications",
+      "attendu": "signalées au registre",
+      "constate": "88",
+      "resultat": "OK",
+      "bloquant": false
+    },
+    {
+      "code": "DD5-conflits",
+      "libelle": "valeurs retenues venant d'un numéro où deux tableaux se contredisent",
+      "attendu": "signalées",
+      "constate": "6",
+      "resultat": "OK",
+      "bloquant": false
+    }
+  ],
+  "sorties": [
+    "data/interim/ar1_brut.csv",
+    "data/interim/ar1_toutes_publications.csv",
+    "data/interim/ar1_trimestriel.csv"
+  ],
+  "n_anomalies": 533
+}

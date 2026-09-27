@@ -1,0 +1,7 @@
+code,nom,pop_totale,pop15_prorata,n_formels,n_banque,n_imf,n_assurance,n_dab,n_mm,n_poste,hab_par_point_formel,classe_O4_01,diversite_types,mm_par_point_formel,classe_O4_03,hab_par_point_mm,mm_pour_10k_adultes,classe_O4_04,statut_O4_05,statut_O4_05_variante_poste,statut_O4_05_variante_P9
+A_HGL,Maritime hors Grand Lomé,1346615,777030,98,26,72,0,12,2467,9,13740.97,tendu,3,25.17,suppléance quasi totale,545.85,31.75,maillage dense,mobile money dominant,mobile money dominant,mobile money dominant
+B,Plateaux,1635946,917528,101,22,76,3,19,3079,18,16197.49,tendu,4,30.49,suppléance quasi totale,531.32,33.56,maillage dense,mobile money dominant,mobile money dominant,mobile money dominant
+C,Centrale,795529,447860,62,20,42,0,13,2093,10,12831.11,tendu,3,33.76,suppléance quasi totale,380.09,46.73,maillage dense,mobile money dominant,mobile money dominant,mobile money dominant
+D,Kara,985512,551943,79,35,37,7,14,2951,12,12474.84,tendu,4,37.35,suppléance quasi totale,333.96,53.47,maillage dense,mobile money dominant,mobile money dominant,mobile money dominant
+E,Savanes,1143520,591519,54,22,32,0,19,2679,7,21176.3,tendu,3,49.61,suppléance quasi totale,426.85,45.29,maillage dense,mobile money dominant,mobile money dominant,mobile money dominant
+GL,Grand Lomé,2188376,1435940,262,87,123,52,107,6519,28,8352.58,bien desservi,4,24.88,suppléance quasi totale,335.69,45.4,maillage dense,mobile money dominant,mobile money dominant,desserte diversifiée

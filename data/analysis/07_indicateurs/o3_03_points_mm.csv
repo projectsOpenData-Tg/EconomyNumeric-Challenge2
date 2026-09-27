@@ -1,0 +1,118 @@
+code,nom,prefecture,unite_regionale,n_mm,classe_02
+E02104,Kpendjal 2,Kpendjal,Savanes,5,Q1
+C01067,Blitta 3,Blitta,Centrale,6,Q1
+C02069,Mô 2,Mô,Centrale,7,Q1
+C01066,Blitta 2,Blitta,Centrale,9,Q1
+D06096,Kéran 3,Kéran,Kara,10,Q1
+B12063,Wawa 2,Wawa,Plateaux,16,Q1
+B11061,Ogou 4,Ogou,Plateaux,21,Q1
+B02036,Akébou 2,Akébou,Plateaux,24,Q1
+C02068,Mô 1,Mô,Centrale,25,Q1
+A07028,Yoto 3,Yoto,Maritime hors Grand Lomé,27,Q1
+D01082,Assoli 3,Assoli,Kara,28,Q1
+D02086,Bassar 4,Bassar,Kara,29,Q1
+D05094,Doufelgou 2,Doufelgou,Kara,30,Q1
+B03038,Amou 2,Amou,Plateaux,31,Q1
+D04090,Dankpen 2,Dankpen,Kara,31,Q1
+D01081,Assoli 2,Assoli,Kara,31,Q1
+C05079,Tchaoudjo 4,Tchaoudjo,Centrale,33,Q1
+A03010,Bas-Mono 2,Bas-Mono,Maritime hors Grand Lomé,34,Q1
+D07099,Kozah 3,Kozah,Kara,34,Q1
+D07100,Kozah 4,Kozah,Kara,35,Q1
+B08053,Kloto 3,Kloto,Plateaux,36,Q1
+E02103,Kpendjal 1,Kpendjal,Savanes,36,Q1
+A01002,Agoè-Nyivé 2,Agoè-Nyivé,Grand Lomé,37,Q1
+D04091,Dankpen 3,Dankpen,Kara,37,Q1
+D06095,Kéran 2,Kéran,Kara,38,Q1
+E05108,Oti-Sud 2,Oti-Sud,Savanes,39,Q1
+B10056,Moyen-Mono 1,Moyen-Mono,Plateaux,39,Q1
+A05019,Lacs 2,Lacs,Maritime hors Grand Lomé,40,Q1
+D05093,Doufelgou 3,Doufelgou,Kara,40,Q1
+B06046,Est-Mono 3,Est-Mono,Plateaux,41,Q1
+B10057,Moyen-Mono 2,Moyen-Mono,Plateaux,42,Q2
+B05043,Danyi 2,Danyi,Plateaux,43,Q2
+B03037,Amou 1,Amou,Plateaux,43,Q2
+B11059,Ogou 2,Ogou,Plateaux,44,Q2
+C05077,Tchaoudjo 2,Tchaoudjo,Centrale,45,Q2
+A08032,Zio 4,Zio,Maritime hors Grand Lomé,48,Q2
+B04041,Anié 2,Anié,Plateaux,48,Q2
+A02008,Avé 2,Avé,Maritime hors Grand Lomé,49,Q2
+B01034,Agou 2,Agou,Plateaux,50,Q2
+A07027,Yoto 2,Yoto,Maritime hors Grand Lomé,51,Q2
+A06023,Vo 2,Vo,Maritime hors Grand Lomé,52,Q2
+C04073,Tchamba 1,Tchamba,Centrale,52,Q2
+D02084,Bassar 2,Bassar,Kara,54,Q2
+B07048,Haho 2,Haho,Plateaux,54,Q2
+E03106,Kpendjal-Ouest 2,Kpendjal-Ouest,Savanes,56,Q2
+B12064,Wawa 3,Wawa,Plateaux,56,Q2
+B08052,Kloto 2,Kloto,Plateaux,57,Q2
+B02035,Akébou 1,Akébou,Plateaux,63,Q2
+C05078,Tchaoudjo 3,Tchaoudjo,Centrale,65,Q2
+E06111,Tandjoaré 1,Tandjoaré,Savanes,66,Q2
+C04075,Tchamba 3,Tchamba,Centrale,68,Q2
+B06044,Est-Mono 1,Est-Mono,Plateaux,69,Q2
+B09055,Kpélé 2,Kpélé,Plateaux,71,Q2
+E03105,Kpendjal-Ouest 1,Kpendjal-Ouest,Savanes,73,Q2
+C01065,Blitta 1,Blitta,Centrale,75,Q2
+E01102,Cinkassé 2,Cinkassé,Savanes,76,Q2
+E07114,Tône 2,Tône,Savanes,76,Q2
+A02007,Avé 1,Avé,Maritime hors Grand Lomé,79,Q2
+D02085,Bassar 3,Bassar,Kara,80,Q2
+A08030,Zio 2,Zio,Maritime hors Grand Lomé,81,Q3
+A07026,Yoto 1,Yoto,Maritime hors Grand Lomé,82,Q3
+E07115,Tône 3,Tône,Savanes,83,Q3
+C04074,Tchamba 2,Tchamba,Centrale,85,Q3
+B11060,Ogou 3,Ogou,Plateaux,85,Q3
+A05021,Lacs 4,Lacs,Maritime hors Grand Lomé,86,Q3
+D06094,Kéran 1,Kéran,Kara,91,Q3
+D03087,Binah 1,Binah,Kara,92,Q3
+E06112,Tandjoaré 2,Tandjoaré,Savanes,93,Q3
+C03072,Sotouboua 3,Sotouboua,Centrale,97,Q3
+A01005,Agoè-Nyivé 5,Agoè-Nyivé,Grand Lomé,97,Q3
+B05042,Danyi 1,Danyi,Plateaux,99,Q3
+B06045,Est-Mono 2,Est-Mono,Plateaux,99,Q3
+A06024,Vo 3,Vo,Maritime hors Grand Lomé,100,Q3
+B03039,Amou 3,Amou,Plateaux,101,Q3
+B07049,Haho 3,Haho,Plateaux,105,Q3
+B07050,Haho 4,Haho,Plateaux,107,Q3
+C03071,Sotouboua 2,Sotouboua,Centrale,107,Q3
+A06025,Vo 4,Vo,Maritime hors Grand Lomé,113,Q3
+D05092,Doufelgou 1,Doufelgou,Kara,114,Q3
+E05107,Oti-Sud 1,Oti-Sud,Savanes,120,Q3
+D03088,Binah 2,Binah,Kara,120,Q3
+D04089,Dankpen 1,Dankpen,Kara,122,Q3
+D07098,Kozah 2,Kozah,Kara,127,Q3
+A08031,Zio 3,Zio,Maritime hors Grand Lomé,142,Q3
+A03009,Bas-Mono 1,Bas-Mono,Maritime hors Grand Lomé,149,Q3
+C03070,Sotouboua 1,Sotouboua,Centrale,151,Q3
+E04110,Oti 2,Oti,Savanes,160,Q3
+D01080,Assoli 1,Assoli,Kara,169,Q3
+A05018,Lacs 1,Lacs,Maritime hors Grand Lomé,172,Q4
+B12062,Wawa 1,Wawa,Plateaux,172,Q4
+B01033,Agou 1,Agou,Plateaux,174,Q4
+E07116,Tône 4,Tône,Savanes,175,Q4
+B09054,Kpélé 1,Kpélé,Plateaux,184,Q4
+B07047,Haho 1,Haho,Plateaux,187,Q4
+E04109,Oti 1,Oti,Savanes,208,Q4
+A06022,Vo 1,Vo,Maritime hors Grand Lomé,211,Q4
+B04040,Anié 1,Anié,Plateaux,237,Q4
+A01004,Agoè-Nyivé 4,Agoè-Nyivé,Grand Lomé,258,Q4
+A01003,Agoè-Nyivé 3,Agoè-Nyivé,Grand Lomé,263,Q4
+B11058,Ogou 1,Ogou,Plateaux,271,Q4
+D02083,Bassar 1,Bassar,Kara,273,Q4
+A04013,Golfe 3,Golfe,Grand Lomé,281,Q4
+A01006,Agoè-Nyivé 6,Agoè-Nyivé,Grand Lomé,297,Q4
+B08051,Kloto 1,Kloto,Plateaux,410,Q4
+A05020,Lacs 3,Lacs,Maritime hors Grand Lomé,443,Q4
+A01001,Agoè-Nyivé 1,Agoè-Nyivé,Grand Lomé,446,Q4
+A04012,Golfe 2,Golfe,Grand Lomé,454,Q4
+E01101,Cinkassé 1,Cinkassé,Savanes,467,Q4
+A04016,Golfe 6,Golfe,Grand Lomé,482,Q4
+A08029,Zio 1,Zio,Maritime hors Grand Lomé,508,Q4
+A04017,Golfe 7,Golfe,Grand Lomé,777,Q4
+A04014,Golfe 4,Golfe,Grand Lomé,809,Q4
+E07113,Tône 1,Tône,Savanes,946,Q4
+A04015,Golfe 5,Golfe,Grand Lomé,1062,Q4
+A04011,Golfe 1,Golfe,Grand Lomé,1256,Q4
+C05076,Tchaoudjo 1,Tchaoudjo,Centrale,1268,Q4
+D07097,Kozah 1,Kozah,Kara,1366,Q4

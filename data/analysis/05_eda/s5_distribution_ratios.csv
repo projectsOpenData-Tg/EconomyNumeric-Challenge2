@@ -1,0 +1,15 @@
+maille,ratio,non_defini,n,min,q1,mediane,q3,max,moyenne,p90_sur_p10
+commune,hab_par_point_formel,22,95,1702.23,8913.84,14420.0,23356.92,101866.0,20046.25,5.99
+commune,formels_pour_10k_hab,0,117,0.0,0.23,0.55,1.04,5.87,0.7,
+commune,mm_pour_10k_adultes,0,117,2.4,18.67,31.65,48.32,121.61,36.32,4.96
+commune,hab_par_point_mm,0,117,140.15,359.87,590.11,1028.95,8092.4,886.06,5.32
+commune,dab_pour_100k_adultes,0,117,0.0,0.0,0.0,2.41,49.51,2.19,
+commune,mm_par_point_formel,22,95,4.5,18.92,28.0,44.28,101.0,33.82,7.05
+commune,densite_hab_km2,0,117,27.93,61.59,105.47,242.69,11492.77,806.51,43.71
+préfecture,hab_par_point_formel,1,38,6528.4,10874.59,14052.51,22543.42,73830.0,18822.49,3.56
+préfecture,formels_pour_10k_hab,0,39,0.0,0.41,0.7,0.92,1.53,0.7,3.81
+préfecture,mm_pour_10k_adultes,0,39,9.68,21.41,29.51,53.7,101.96,37.96,3.66
+préfecture,hab_par_point_mm,0,39,170.35,332.42,602.06,899.59,2155.24,671.64,3.95
+préfecture,dab_pour_100k_adultes,0,39,0.0,0.0,1.39,2.85,14.23,2.2,
+préfecture,mm_par_point_formel,1,38,8.42,20.18,31.4,41.73,87.0,34.56,3.94
+préfecture,densite_hab_km2,0,39,35.66,70.25,94.06,209.67,5934.64,405.4,6.03

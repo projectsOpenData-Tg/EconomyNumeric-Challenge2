@@ -1,0 +1,157 @@
+code,nom,unite_regionale,pop_totale,statut_O4_05,couverture_O2_06,cellule_O4_06,maille,couverture_douteuse_P6
+A01,Agoè-Nyivé,Grand Lomé,882695,mobile money dominant,territoire couvert (proxy),intermédiaire,préfecture,
+A02,Avé,Maritime hors Grand Lomé,111214,desserte faible,couverture partielle (proxy),intermédiaire,préfecture,
+A03,Bas-Mono,Maritime hors Grand Lomé,94860,mobile money dominant,territoire couvert (proxy),intermédiaire,préfecture,
+A04,Golfe,Grand Lomé,1305681,mobile money dominant,territoire couvert (proxy),intermédiaire,préfecture,
+A05,Lacs,Maritime hors Grand Lomé,241247,mobile money dominant,territoire couvert (proxy),intermédiaire,préfecture,
+A06,Vo,Maritime hors Grand Lomé,224411,mobile money dominant,territoire couvert (proxy),intermédiaire,préfecture,
+A07,Yoto,Maritime hors Grand Lomé,174851,desserte faible,territoire couvert (proxy),intermédiaire,préfecture,
+A08,Zio,Maritime hors Grand Lomé,500032,mobile money dominant,territoire couvert (proxy),intermédiaire,préfecture,
+B01,Agou,Plateaux,85793,mobile money dominant,couverture partielle (proxy),intermédiaire,préfecture,
+B02,Akébou,Plateaux,73830,mobile money dominant,couverture partielle (proxy),intermédiaire,préfecture,
+B03,Amou,Plateaux,114172,mobile money dominant,territoire couvert (proxy),intermédiaire,préfecture,
+B04,Anié,Plateaux,180158,mobile money dominant,couverture partielle (proxy),intermédiaire,préfecture,
+B05,Danyi,Plateaux,40240,mobile money dominant,territoire couvert (proxy),intermédiaire,préfecture,
+B06,Est-Mono,Plateaux,164460,mobile money dominant,couverture partielle (proxy),intermédiaire,préfecture,
+B07,Haho,Plateaux,305096,mobile money dominant,territoire couvert (proxy),intermédiaire,préfecture,
+B08,Kloto,Plateaux,145986,mobile money dominant,territoire couvert (proxy),intermédiaire,préfecture,
+B09,Kpélé,Plateaux,80939,mobile money dominant,territoire couvert (proxy),intermédiaire,préfecture,
+B10,Moyen-Mono,Plateaux,90505,desserte faible,territoire couvert (proxy),intermédiaire,préfecture,
+B11,Ogou,Plateaux,253467,mobile money dominant,territoire couvert (proxy),intermédiaire,préfecture,
+B12,Wawa,Plateaux,101300,mobile money dominant,territoire couvert (proxy),intermédiaire,préfecture,
+C01,Blitta,Centrale,163272,desserte faible,territoire couvert (proxy),intermédiaire,préfecture,
+C02,Mô,Centrale,52448,desserte faible,non déterminable (A13),non déterminable,préfecture,
+C03,Sotouboua,Centrale,138864,desserte faible,zone blanche prioritaire (proxy),intermédiaire,préfecture,
+C04,Tchamba,Centrale,200585,desserte faible,non déterminable (A13),non déterminable,préfecture,
+C05,Tchaoudjo,Centrale,240360,mobile money dominant,territoire couvert (proxy),intermédiaire,préfecture,
+D01,Assoli,Kara,66394,mobile money dominant,territoire couvert (proxy),intermédiaire,préfecture,
+D02,Bassar,Kara,152065,mobile money dominant,territoire couvert (proxy),intermédiaire,préfecture,
+D03,Binah,Kara,84199,mobile money dominant,territoire couvert (proxy),intermédiaire,préfecture,
+D04,Dankpen,Kara,185662,mobile money dominant,couverture partielle (proxy),intermédiaire,préfecture,
+D05,Doufelgou,Kara,84767,desserte faible,territoire couvert (proxy),intermédiaire,préfecture,
+D06,Kéran,Kara,128687,desserte faible,zone blanche prioritaire (proxy),intermédiaire,préfecture,
+D07,Kozah,Kara,283738,mobile money dominant,territoire couvert (proxy),intermédiaire,préfecture,
+E01,Cinkassé,Savanes,128959,mobile money dominant,territoire couvert (proxy),intermédiaire,préfecture,
+E02,Kpendjal,Savanes,88365,mobile money uniquement,non déterminable (A13),non déterminable,préfecture,
+E03,Kpendjal-Ouest,Savanes,123330,mobile money dominant,couverture partielle (proxy),intermédiaire,préfecture,
+E04,Oti,Savanes,124848,mobile money dominant,territoire couvert (proxy),intermédiaire,préfecture,
+E05,Oti-Sud,Savanes,150376,mobile money dominant,couverture partielle (proxy),intermédiaire,préfecture,
+E06,Tandjoaré,Savanes,138867,mobile money dominant,territoire couvert (proxy),intermédiaire,préfecture,
+E07,Tône,Savanes,388775,mobile money dominant,territoire couvert (proxy),intermédiaire,préfecture,
+A01001,Agoè-Nyivé 1,Grand Lomé,317255,desserte diversifiée,territoire couvert (proxy),favorable,commune,False
+A01002,Agoè-Nyivé 2,Grand Lomé,128164,desserte faible,territoire couvert (proxy),intermédiaire,commune,False
+A01003,Agoè-Nyivé 3,Grand Lomé,47554,mobile money dominant,territoire couvert (proxy),intermédiaire,commune,False
+A01004,Agoè-Nyivé 4,Grand Lomé,154431,mobile money dominant,territoire couvert (proxy),intermédiaire,commune,False
+A01005,Agoè-Nyivé 5,Grand Lomé,125097,desserte faible,territoire couvert (proxy),intermédiaire,commune,False
+A01006,Agoè-Nyivé 6,Grand Lomé,110194,mobile money dominant,territoire couvert (proxy),intermédiaire,commune,False
+A06022,Vo 1,Maritime hors Grand Lomé,88865,mobile money dominant,territoire couvert (proxy),intermédiaire,commune,False
+A06023,Vo 2,Maritime hors Grand Lomé,24396,mobile money dominant,territoire couvert (proxy),intermédiaire,commune,False
+A02007,Avé 1,Maritime hors Grand Lomé,75044,desserte faible,zone blanche prioritaire (proxy),intermédiaire,commune,False
+A06024,Vo 3,Maritime hors Grand Lomé,64651,mobile money dominant,territoire couvert (proxy),intermédiaire,commune,False
+A02008,Avé 2,Maritime hors Grand Lomé,36170,desserte faible,territoire couvert (proxy),intermédiaire,commune,False
+A03009,Bas-Mono 1,Maritime hors Grand Lomé,55382,mobile money dominant,territoire couvert (proxy),intermédiaire,commune,False
+A03010,Bas-Mono 2,Maritime hors Grand Lomé,39478,mobile money dominant,territoire couvert (proxy),intermédiaire,commune,False
+A06025,Vo 4,Maritime hors Grand Lomé,46499,desserte faible,territoire couvert (proxy),intermédiaire,commune,False
+A04014,Golfe 4,Grand Lomé,155842,mobile money dominant,territoire couvert (proxy),intermédiaire,commune,False
+A04015,Golfe 5,Grand Lomé,169993,desserte diversifiée,territoire couvert (proxy),favorable,commune,False
+A04016,Golfe 6,Grand Lomé,181561,mobile money dominant,territoire couvert (proxy),intermédiaire,commune,False
+A04017,Golfe 7,Grand Lomé,257813,mobile money dominant,territoire couvert (proxy),intermédiaire,commune,False
+A07026,Yoto 1,Maritime hors Grand Lomé,77353,desserte faible,territoire couvert (proxy),intermédiaire,commune,False
+A05018,Lacs 1,Maritime hors Grand Lomé,52994,mobile money dominant,territoire couvert (proxy),intermédiaire,commune,False
+A05019,Lacs 2,Maritime hors Grand Lomé,42855,desserte faible,territoire couvert (proxy),intermédiaire,commune,False
+A05021,Lacs 4,Maritime hors Grand Lomé,37222,mobile money dominant,territoire couvert (proxy),intermédiaire,commune,False
+A07027,Yoto 2,Maritime hors Grand Lomé,43412,desserte faible,territoire couvert (proxy),intermédiaire,commune,False
+A07028,Yoto 3,Maritime hors Grand Lomé,54086,desserte faible,territoire couvert (proxy),intermédiaire,commune,False
+A08029,Zio 1,Maritime hors Grand Lomé,307292,mobile money dominant,territoire couvert (proxy),intermédiaire,commune,False
+A08030,Zio 2,Maritime hors Grand Lomé,96193,mobile money dominant,territoire couvert (proxy),intermédiaire,commune,False
+A08031,Zio 3,Maritime hors Grand Lomé,67843,mobile money dominant,territoire couvert (proxy),intermédiaire,commune,False
+A08032,Zio 4,Maritime hors Grand Lomé,28704,desserte faible,territoire couvert (proxy),intermédiaire,commune,False
+B01033,Agou 1,Plateaux,58328,mobile money dominant,territoire couvert (proxy),intermédiaire,commune,False
+B01034,Agou 2,Plateaux,27465,mobile money uniquement,zone blanche prioritaire (proxy),critique (à confirmer : couverture proxy),commune,False
+B02035,Akébou 1,Plateaux,44196,mobile money dominant,territoire couvert (proxy),intermédiaire,commune,False
+B02036,Akébou 2,Plateaux,29634,mobile money uniquement,zone blanche prioritaire (proxy),critique (à confirmer : couverture proxy),commune,False
+B07048,Haho 2,Plateaux,82507,mobile money dominant,couverture partielle (proxy),intermédiaire,commune,False
+B03037,Amou 1,Plateaux,19746,mobile money dominant,territoire couvert (proxy),intermédiaire,commune,False
+B03038,Amou 2,Plateaux,40016,desserte faible,territoire couvert (proxy),intermédiaire,commune,False
+B09054,Kpélé 1,Plateaux,53275,mobile money dominant,territoire couvert (proxy),intermédiaire,commune,False
+B10057,Moyen-Mono 2,Plateaux,43708,mobile money dominant,territoire couvert (proxy),intermédiaire,commune,False
+B03039,Amou 3,Plateaux,54410,mobile money dominant,territoire couvert (proxy),intermédiaire,commune,False
+B04040,Anié 1,Plateaux,100745,mobile money dominant,territoire couvert (proxy),intermédiaire,commune,False
+B04041,Anié 2,Plateaux,79413,mobile money dominant,zone blanche prioritaire (proxy),critique (à confirmer : couverture proxy),commune,True
+B05042,Danyi 1,Plateaux,25820,mobile money dominant,territoire couvert (proxy),intermédiaire,commune,False
+B09055,Kpélé 2,Plateaux,27664,mobile money dominant,territoire couvert (proxy),intermédiaire,commune,False
+C05079,Tchaoudjo 4,Centrale,20279,mobile money uniquement,couverture partielle (proxy),intermédiaire,commune,False
+B05043,Danyi 2,Plateaux,14420,mobile money dominant,territoire couvert (proxy),intermédiaire,commune,False
+B06044,Est-Mono 1,Plateaux,34652,mobile money dominant,territoire couvert (proxy),intermédiaire,commune,False
+D02086,Bassar 4,Kara,16657,mobile money uniquement,territoire couvert (proxy),intermédiaire,commune,False
+B06045,Est-Mono 2,Plateaux,101866,mobile money dominant,couverture partielle (proxy),intermédiaire,commune,False
+B06046,Est-Mono 3,Plateaux,27942,mobile money dominant,territoire couvert (proxy),intermédiaire,commune,False
+B07047,Haho 1,Plateaux,119929,desserte diversifiée,territoire couvert (proxy),favorable,commune,False
+B07050,Haho 4,Plateaux,43965,mobile money dominant,territoire couvert (proxy),intermédiaire,commune,False
+B08051,Kloto 1,Plateaux,118387,mobile money dominant,territoire couvert (proxy),intermédiaire,commune,False
+B10056,Moyen-Mono 1,Plateaux,46797,desserte faible,territoire couvert (proxy),intermédiaire,commune,False
+B08052,Kloto 2,Plateaux,16166,mobile money dominant,territoire couvert (proxy),intermédiaire,commune,False
+B08053,Kloto 3,Plateaux,11433,desserte faible,territoire couvert (proxy),intermédiaire,commune,False
+B11058,Ogou 1,Plateaux,116301,desserte diversifiée,territoire couvert (proxy),favorable,commune,False
+B11059,Ogou 2,Plateaux,56282,mobile money dominant,territoire couvert (proxy),intermédiaire,commune,False
+B12064,Wawa 3,Plateaux,29699,mobile money uniquement,territoire couvert (proxy),intermédiaire,commune,False
+B11060,Ogou 3,Plateaux,51836,mobile money dominant,territoire couvert (proxy),intermédiaire,commune,False
+B11061,Ogou 4,Plateaux,29048,desserte faible,territoire couvert (proxy),intermédiaire,commune,False
+B12062,Wawa 1,Plateaux,51187,mobile money dominant,territoire couvert (proxy),intermédiaire,commune,False
+B12063,Wawa 2,Plateaux,20414,mobile money uniquement,territoire couvert (proxy),intermédiaire,commune,False
+C01065,Blitta 1,Centrale,71539,desserte faible,territoire couvert (proxy),intermédiaire,commune,False
+C01066,Blitta 2,Centrale,46515,desserte faible,couverture partielle (proxy),intermédiaire,commune,False
+C01067,Blitta 3,Centrale,45218,mobile money uniquement,zone blanche prioritaire (proxy),critique (à confirmer : couverture proxy),commune,True
+C02068,Mô 1,Centrale,30522,mobile money dominant,non déterminable (A13),non déterminable,commune,False
+C02069,Mô 2,Centrale,21926,desserte faible,non déterminable (A13),non déterminable,commune,False
+C03070,Sotouboua 1,Centrale,46907,desserte faible,zone blanche prioritaire (proxy),intermédiaire,commune,False
+C03071,Sotouboua 2,Centrale,64187,mobile money dominant,non déterminable (A13),non déterminable,commune,False
+C03072,Sotouboua 3,Centrale,27770,mobile money dominant,territoire couvert (proxy),intermédiaire,commune,False
+C04073,Tchamba 1,Centrale,82451,desserte faible,non déterminable (A13),non déterminable,commune,False
+C05077,Tchaoudjo 2,Centrale,24891,mobile money uniquement,couverture partielle (proxy),intermédiaire,commune,False
+C04074,Tchamba 2,Centrale,64930,mobile money dominant,non déterminable (A13),non déterminable,commune,False
+C05076,Tchaoudjo 1,Centrale,177706,mobile money dominant,territoire couvert (proxy),intermédiaire,commune,False
+C04075,Tchamba 3,Centrale,53204,desserte faible,non déterminable (A13),non déterminable,commune,False
+C05078,Tchaoudjo 3,Centrale,17484,mobile money uniquement,territoire couvert (proxy),intermédiaire,commune,False
+D01080,Assoli 1,Kara,40417,mobile money dominant,territoire couvert (proxy),intermédiaire,commune,False
+D01081,Assoli 2,Kara,9933,mobile money uniquement,territoire couvert (proxy),intermédiaire,commune,False
+D01082,Assoli 3,Kara,16044,mobile money uniquement,territoire couvert (proxy),intermédiaire,commune,False
+D03087,Binah 1,Kara,44039,mobile money dominant,territoire couvert (proxy),intermédiaire,commune,False
+D02083,Bassar 1,Kara,65059,mobile money dominant,territoire couvert (proxy),intermédiaire,commune,False
+D02084,Bassar 2,Kara,36476,mobile money dominant,couverture partielle (proxy),intermédiaire,commune,False
+D02085,Bassar 3,Kara,33873,mobile money dominant,territoire couvert (proxy),intermédiaire,commune,False
+D03088,Binah 2,Kara,40160,desserte faible,territoire couvert (proxy),intermédiaire,commune,False
+D04090,Dankpen 2,Kara,32716,mobile money uniquement,zone blanche prioritaire (proxy),critique (à confirmer : couverture proxy),commune,False
+D04091,Dankpen 3,Kara,76652,mobile money uniquement,couverture partielle (proxy),intermédiaire,commune,False
+D04089,Dankpen 1,Kara,76294,mobile money dominant,couverture partielle (proxy),intermédiaire,commune,False
+D05092,Doufelgou 1,Kara,44783,desserte faible,territoire couvert (proxy),intermédiaire,commune,False
+D05093,Doufelgou 3,Kara,28262,desserte faible,couverture partielle (proxy),intermédiaire,commune,False
+D05094,Doufelgou 2,Kara,11722,mobile money dominant,territoire couvert (proxy),intermédiaire,commune,False
+D06094,Kéran 1,Kara,44399,desserte faible,zone blanche prioritaire (proxy),intermédiaire,commune,False
+E01102,Cinkassé 2,Savanes,52967,mobile money dominant,territoire couvert (proxy),intermédiaire,commune,False
+D06095,Kéran 2,Kara,53305,mobile money uniquement,zone blanche prioritaire (proxy),critique (à confirmer : couverture proxy),commune,True
+D06096,Kéran 3,Kara,30983,mobile money uniquement,non déterminable (A13),non déterminable,commune,False
+D07097,Kozah 1,Kara,193625,mobile money dominant,territoire couvert (proxy),intermédiaire,commune,False
+D07098,Kozah 2,Kara,45704,mobile money dominant,territoire couvert (proxy),intermédiaire,commune,False
+E02103,Kpendjal 1,Savanes,47903,mobile money uniquement,non déterminable (A13),non déterminable,commune,False
+E02104,Kpendjal 2,Savanes,40462,mobile money uniquement,non déterminable (A13),non déterminable,commune,False
+E03105,Kpendjal-Ouest 1,Savanes,56459,mobile money dominant,zone blanche prioritaire (proxy),critique (à confirmer : couverture proxy),commune,False
+D07099,Kozah 3,Kara,23755,mobile money uniquement,territoire couvert (proxy),intermédiaire,commune,False
+D07100,Kozah 4,Kara,20654,mobile money uniquement,territoire couvert (proxy),intermédiaire,commune,False
+E01101,Cinkassé 1,Savanes,75992,mobile money dominant,territoire couvert (proxy),intermédiaire,commune,False
+E03106,Kpendjal-Ouest 2,Savanes,66871,mobile money dominant,couverture partielle (proxy),intermédiaire,commune,False
+E04109,Oti 1,Savanes,54479,mobile money dominant,territoire couvert (proxy),intermédiaire,commune,False
+E04110,Oti 2,Savanes,70369,mobile money dominant,territoire couvert (proxy),intermédiaire,commune,False
+E07116,Tône 4,Savanes,66577,mobile money uniquement,territoire couvert (proxy),intermédiaire,commune,False
+A05020,Lacs 3,Maritime hors Grand Lomé,108176,mobile money dominant,territoire couvert (proxy),intermédiaire,commune,False
+E05107,Oti-Sud 1,Savanes,106052,mobile money dominant,couverture partielle (proxy),intermédiaire,commune,False
+B07049,Haho 3,Plateaux,58695,mobile money uniquement,territoire couvert (proxy),intermédiaire,commune,False
+A04013,Golfe 3,Grand Lomé,52769,desserte diversifiée,territoire couvert (proxy),favorable,commune,False
+A04012,Golfe 2,Grand Lomé,136153,mobile money dominant,territoire couvert (proxy),intermédiaire,commune,False
+E05108,Oti-Sud 2,Savanes,44324,mobile money dominant,zone blanche prioritaire (proxy),critique (à confirmer : couverture proxy),commune,False
+E06111,Tandjoaré 1,Savanes,74692,mobile money dominant,territoire couvert (proxy),intermédiaire,commune,False
+E06112,Tandjoaré 2,Savanes,64175,mobile money dominant,territoire couvert (proxy),intermédiaire,commune,False
+E07113,Tône 1,Savanes,211743,mobile money dominant,territoire couvert (proxy),intermédiaire,commune,False
+E07114,Tône 2,Savanes,50179,mobile money uniquement,territoire couvert (proxy),intermédiaire,commune,False
+E07115,Tône 3,Savanes,60276,mobile money dominant,territoire couvert (proxy),intermédiaire,commune,False
+A04011,Golfe 1,Grand Lomé,351550,mobile money dominant,territoire couvert (proxy),intermédiaire,commune,False

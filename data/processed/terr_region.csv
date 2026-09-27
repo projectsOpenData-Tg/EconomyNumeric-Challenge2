@@ -1,0 +1,7 @@
+code,nom,niveau,commune_code,prefecture_code,unite_regionale_code,region_code,grand_lome,superficie_km2,pop_totale,pop_urbaine,pop_rurale,part_urbaine,pop15_prorata,pop15_hors_nd,strate_50,strate_75,source_population,n_banque,n_imf,n_assurance,n_formels,n_formels_var_statut,n_formels_var_doublon,n_dab,n_mm,n_mm_moov,n_mm_togocom,n_mm_operateur_nd,n_poste,enquete_prouvee,couv_20km_pct,couv_20km_motif,couv_20km_niveau_preuve,millesime_points
+A_HGL,Maritime hors Grand Lomé,unite_regionale,,,A_HGL,A,0,5958.89,1346615,185278,1161337,,777030,774874,,,"RGPH-5 2022 (RG2, RG3)",26,72,0,98,110,97,12,2467,2119,1902,185,9,1,,non_publie,C,2021/2022 (PRISE)
+B,Plateaux,unite_regionale,,,B,B,0,16965.35,1635946,369377,1266569,,917528,914833,,,"RGPH-5 2022 (RG2, RG3)",22,76,3,101,107,101,19,3079,2341,2664,179,18,1,87.53,,C,2021/2022 (PRISE)
+C,Centrale,unite_regionale,,,C,C,0,13391.17,795529,203107,592422,,447860,446385,,,"RGPH-5 2022 (RG2, RG3)",20,42,0,62,62,62,13,2093,1110,1964,106,10,1,57.68,,C,2021/2022 (PRISE)
+D,Kara,unite_regionale,,,D,D,0,11389.74,985512,284815,700697,,551943,550464,,,"RGPH-5 2022 (RG2, RG3)",35,37,7,79,83,79,14,2951,1515,2574,349,12,1,78.38,,C,2021/2022 (PRISE)
+E,Savanes,unite_regionale,,,E,E,0,8536.1,1143520,242839,900681,,591519,590846,,,"RGPH-5 2022 (RG2, RG3)",22,32,0,54,60,54,19,2679,1789,2346,133,7,1,85.31,,C,2021/2022 (PRISE)
+GL,Grand Lomé,unite_regionale,,,GL,A,1,413.25,2188376,2188376,0,,1435940,1429984,,,"RGPH-5 2022 (RG2, RG3)",87,123,52,262,295,261,107,6519,4793,5972,396,28,1,,non_publie,C,2021/2022 (PRISE)

@@ -1,0 +1,23 @@
+maille,x,y,rho_spearman,n
+commune,pop_totale,n_formels,0.64,117
+commune,pop_totale,n_mm,0.7,117
+commune,pop_totale,n_dab,0.58,117
+commune,n_formels,n_mm,0.77,117
+commune,densite_hab_km2,formels_pour_1000_km2,0.76,117
+commune,densite_hab_km2,mm_pour_1000_km2,0.84,117
+commune,part_urbaine,formels_pour_10k_hab,0.5,117
+commune,part_urbaine,mm_pour_10k_adultes,0.39,117
+commune,formels_pour_10k_hab,mm_pour_10k_adultes,0.5,117
+préfecture,pop_totale,n_formels,0.76,39
+préfecture,pop_totale,n_mm,0.67,39
+préfecture,pop_totale,n_dab,0.57,39
+préfecture,n_formels,n_mm,0.79,39
+préfecture,densite_hab_km2,formels_pour_1000_km2,0.84,39
+préfecture,densite_hab_km2,mm_pour_1000_km2,0.84,39
+préfecture,part_urbaine,formels_pour_10k_hab,0.56,39
+préfecture,part_urbaine,mm_pour_10k_adultes,0.61,39
+préfecture,formels_pour_10k_hab,mm_pour_10k_adultes,0.54,39
+préfecture,"couv_20km_pct (3i, C)",mm_pour_10k_adultes,0.35,36
+préfecture,"couv_20km_pct (3i, C)",formels_pour_10k_hab,0.2,36
+préfecture,"couv_20km_pct (3i, C)",densite_hab_km2,0.69,36
+préfecture,"couv_20km_pct (3i, C)",part_urbaine,0.34,36

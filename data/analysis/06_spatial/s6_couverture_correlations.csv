@@ -1,0 +1,4 @@
+maille,relation,n,rho,p
+commune,couverture 3i et densite,108,0.643,0.0
+commune,couverture 3i et mm_pour_10k_adultes,108,0.32,0.001
+commune,couverture 3i et formels_pour_10k_hab,108,0.218,0.023

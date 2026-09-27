@@ -1,0 +1,8 @@
+code,mm_deux_operateurs,mm_togocom_seul,mm_moov_seul,mm_operateur_non_renseigne,nom,total,part_mm_deux_operateurs_pct,part_mm_togocom_seul_pct,part_mm_moov_seul_pct,part_mm_operateur_non_renseigne_pct,presence_moov_pct,presence_togocom_pct
+A_HGL,1739,163,380,185,Maritime hors Grand Lomé,2467,70.5,6.6,15.4,7.5,85.9,77.1
+B,2105,559,236,179,Plateaux,3079,68.4,18.2,7.7,5.8,76.0,86.5
+C,1087,877,23,106,Centrale,2093,51.9,41.9,1.1,5.1,53.0,93.8
+D,1487,1087,28,349,Kara,2951,50.4,36.8,0.9,11.8,51.3,87.2
+E,1589,757,200,133,Savanes,2679,59.3,28.3,7.5,5.0,66.8,87.6
+GL,4642,1330,151,396,Grand Lomé,6519,71.2,20.4,2.3,6.1,73.5,91.6
+national,12649,4773,1018,1348,National,19788,63.9,24.1,5.1,6.8,69.1,88.0

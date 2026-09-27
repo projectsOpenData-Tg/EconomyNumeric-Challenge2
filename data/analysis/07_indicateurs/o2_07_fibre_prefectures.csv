@@ -1,0 +1,40 @@
+code,nom,unite_regionale,superficie_km2,pop_totale,km_fibre_enterree,km_fibre_aerienne,raccorde_02
+A01,Agoè-Nyivé,Grand Lomé,193.2,882695,55.5,1210.1,raccordé
+A02,Avé,Maritime hors Grand Lomé,1020.0,111214,64.3,0.0,raccordé
+A03,Bas-Mono,Maritime hors Grand Lomé,414.0,94860,0.0,0.0,non raccordé
+A04,Golfe,Grand Lomé,220.0,1305681,124.4,1162.5,raccordé
+A05,Lacs,Maritime hors Grand Lomé,386.3,241247,36.9,186.7,raccordé
+A06,Vo,Maritime hors Grand Lomé,746.4,224411,0.0,3.7,raccordé
+A07,Yoto,Maritime hors Grand Lomé,1261.9,174851,0.0,0.0,non raccordé
+A08,Zio,Maritime hors Grand Lomé,2130.3,500032,112.0,58.6,raccordé
+B01,Agou,Plateaux,944.5,85793,35.3,0.1,raccordé
+B02,Akébou,Plateaux,1195.7,73830,0.0,0.0,non raccordé
+B03,Amou,Plateaux,1673.4,114172,80.0,0.0,raccordé
+B04,Anié,Plateaux,1973.7,180158,49.0,0.0,raccordé
+B05,Danyi,Plateaux,427.8,40240,0.0,0.0,non raccordé
+B06,Est-Mono,Plateaux,2525.4,164460,26.2,0.0,raccordé
+B07,Haho,Plateaux,3037.6,305096,113.8,0.4,raccordé
+B08,Kloto,Plateaux,586.2,145986,34.6,99.8,raccordé
+B09,Kpélé,Plateaux,931.1,80939,31.8,0.2,raccordé
+B10,Moyen-Mono,Plateaux,614.4,90505,0.0,0.0,non raccordé
+B11,Ogou,Plateaux,1840.8,253467,110.4,87.1,raccordé
+B12,Wawa,Plateaux,1214.7,101300,0.0,1.2,raccordé
+C01,Blitta,Centrale,3188.6,163272,106.9,0.0,raccordé
+C02,Mô,Centrale,1470.7,52448,0.0,0.0,non raccordé
+C03,Sotouboua,Centrale,3032.7,138864,146.9,0.0,raccordé
+C04,Tchamba,Centrale,3162.5,200585,0.8,0.0,raccordé
+C05,Tchaoudjo,Centrale,2536.7,240360,178.2,95.2,raccordé
+D01,Assoli,Kara,851.7,66394,68.9,0.0,raccordé
+D02,Bassar,Kara,3284.2,152065,83.7,3.9,raccordé
+D03,Binah,Kara,549.4,84199,1.6,0.0,raccordé
+D04,Dankpen,Kara,2611.5,185662,0.0,0.0,raccordé
+D05,Doufelgou,Kara,1221.2,84767,73.1,0.0,raccordé
+D06,Kéran,Kara,1794.1,128687,150.8,0.0,raccordé
+D07,Kozah,Kara,1077.6,283738,102.9,91.1,raccordé
+E01,Cinkassé,Savanes,255.4,128959,28.3,11.7,raccordé
+E02,Kpendjal,Savanes,1103.5,88365,0.0,0.0,non raccordé
+E03,Kpendjal-Ouest,Savanes,648.3,123330,0.0,0.0,non raccordé
+E04,Oti,Savanes,1677.1,124848,250.5,0.0,raccordé
+E05,Oti-Sud,Savanes,2593.0,150376,51.0,0.0,raccordé
+E06,Tandjoaré,Savanes,955.6,138867,21.1,0.2,raccordé
+E07,Tône,Savanes,1303.1,388775,23.4,58.6,raccordé

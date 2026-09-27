@@ -1,0 +1,108 @@
+{
+  "etape": "07_enquetes",
+  "date": "2026-09-26",
+  "effectifs": [
+    {
+      "objet": "EHCVM 2018/19",
+      "avant": 27482,
+      "transformation": "résidents seulement",
+      "apres": 27398
+    },
+    {
+      "objet": "EHCVM 2018/19, module 6",
+      "avant": "individus",
+      "transformation": "réponses valides à la question mobile banking",
+      "apres": 15041
+    },
+    {
+      "objet": "EHCVM 2021/22",
+      "avant": 28815,
+      "transformation": "résidents seulement",
+      "apres": 28774
+    },
+    {
+      "objet": "EHCVM 2021/22, module 6",
+      "avant": "individus",
+      "transformation": "réponses valides à la question mobile banking",
+      "apres": 16221
+    },
+    {
+      "objet": "EHCVM",
+      "avant": "2 vagues",
+      "transformation": "estimations pondérées, IC par linéarisation",
+      "apres": "150 lignes"
+    },
+    {
+      "objet": "MICS6",
+      "avant": 660,
+      "transformation": "valeurs en %",
+      "apres": 590
+    },
+    {
+      "objet": "Afrobaromètre",
+      "avant": "6 vagues",
+      "transformation": "usage d'Internet (+ mobile money en R9)",
+      "apres": 49
+    },
+    {
+      "objet": "Findex",
+      "avant": 57,
+      "transformation": "Togo, toutes vagues et ventilations publiées",
+      "apres": 190
+    }
+  ],
+  "controles": [
+    {
+      "code": "EQ1-2018/19",
+      "libelle": "EHCVM 2018/19 : 6 domaines régionaux",
+      "attendu": "6",
+      "constate": "6",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "EQ2-2018/19",
+      "libelle": "EHCVM 2018/19 : localités du module communautaire rattachées à une région",
+      "attendu": "540",
+      "constate": "540",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "EQ1-2021/22",
+      "libelle": "EHCVM 2021/22 : 6 domaines régionaux",
+      "attendu": "6",
+      "constate": "6",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "EQ2-2021/22",
+      "libelle": "EHCVM 2021/22 : localités du module communautaire rattachées à une région",
+      "attendu": "540",
+      "constate": "540",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "EQ-Findex",
+      "libelle": "Findex 2024, détention d'un compte (03 : 57,4 %)",
+      "attendu": "57.4",
+      "constate": "57.4",
+      "resultat": "OK",
+      "bloquant": false
+    },
+    {
+      "code": "EQ-IC",
+      "libelle": "toute estimation calculée sur micro-données a un IC 95 %",
+      "attendu": "0",
+      "constate": "0",
+      "resultat": "OK",
+      "bloquant": true
+    }
+  ],
+  "sorties": [
+    "data/processed/enquetes_region.csv"
+  ],
+  "n_anomalies": 0
+}

@@ -1,0 +1,14 @@
+code,nom,signal,pop_totale,prefecture,classe_retenue,robustesse,sans_couv_classe
+E02103,Kpendjal 1,"cumul de trois signaux (06, section 9)",47903,Kpendjal,non déterminable (couverture),,priorité 1
+B02036,Akébou 2,"cumul de trois signaux (06, section 9)",29634,Akébou,priorité 1,instable,priorité 1
+E02104,Kpendjal 2,"cumul de trois signaux (06, section 9)",40462,Kpendjal,non déterminable (couverture),,priorité 1
+D06095,Kéran 2,"cumul de trois signaux (06, section 9)",53305,Kéran,priorité 1,instable,priorité 1
+D04090,Dankpen 2,"cumul de trois signaux (06, section 9)",32716,Dankpen,priorité 1,instable,priorité 1
+B01034,Agou 2,cellule critique O4-06 (07),27465,Agou,priorité 2,instable,priorité 2
+B02036,Akébou 2,cellule critique O4-06 (07),29634,Akébou,priorité 1,instable,priorité 1
+B04041,Anié 2,cellule critique O4-06 (07),79413,Anié,priorité 2,instable,priorité 2
+C01067,Blitta 3,cellule critique O4-06 (07),45218,Blitta,priorité 1,instable,priorité 1
+D04090,Dankpen 2,cellule critique O4-06 (07),32716,Dankpen,priorité 1,instable,priorité 1
+D06095,Kéran 2,cellule critique O4-06 (07),53305,Kéran,priorité 1,instable,priorité 1
+E03105,Kpendjal-Ouest 1,cellule critique O4-06 (07),56459,Kpendjal-Ouest,priorité 1,instable,priorité 1
+E05108,Oti-Sud 2,cellule critique O4-06 (07),44324,Oti-Sud,priorité 1,instable,priorité 1

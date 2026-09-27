@@ -1,0 +1,171 @@
+{
+  "etape": "04_territoires",
+  "date": "2026-09-26",
+  "effectifs": [
+    {
+      "objet": "zéros vérifiés (points formels en service)",
+      "avant": "117 communes / 39 préfectures",
+      "transformation": "A13",
+      "apres": "22 communes et 1 préfecture(s) à 0, enquête prouvée par D5"
+    },
+    {
+      "objet": "tables territoriales",
+      "avant": "20 805 points ; 168 unités peuplées",
+      "transformation": "agrégation",
+      "apres": "117 + 39 + 6 lignes"
+    }
+  ],
+  "controles": [
+    {
+      "code": "CX2",
+      "libelle": "couverture nationale de 3i ni à 0 % ni à 100 %",
+      "attendu": "0 < x < 100",
+      "constate": "88.37",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "GE1-tables",
+      "libelle": "lignes des tables communes / préfectures / unités régionales",
+      "attendu": "117 / 39 / 6",
+      "constate": "117 / 39 / 6",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "GE4-communes",
+      "libelle": "communes : sommes des comptages = totaux des points",
+      "attendu": "aucun écart",
+      "constate": "aucun écart",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "GE4-pop-communes",
+      "libelle": "communes : population totale",
+      "attendu": "8095498",
+      "constate": "8095498",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "GE4-préfectures",
+      "libelle": "préfectures : sommes des comptages = totaux des points",
+      "attendu": "aucun écart",
+      "constate": "aucun écart",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "GE4-pop-préfectures",
+      "libelle": "préfectures : population totale",
+      "attendu": "8095498",
+      "constate": "8095498",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "GE4-unités régionales",
+      "libelle": "unités régionales : sommes des comptages = totaux des points",
+      "attendu": "aucun écart",
+      "constate": "aucun écart",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "GE4-pop-unités régionales",
+      "libelle": "unités régionales : population totale",
+      "attendu": "8095498",
+      "constate": "8095498",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "GE4-totaux",
+      "libelle": "totaux nationaux : formels / DAB / mobile money / Poste",
+      "attendu": "656 / 184 / 19788 / 84",
+      "constate": "656 / 184 / 19788 / 84",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "A13-enquete",
+      "libelle": "communes sans point mobile money (enquête non prouvée)",
+      "attendu": "0",
+      "constate": "0",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "A13-kpendjal",
+      "libelle": "préfectures sans point formel",
+      "attendu": "Kpendjal",
+      "constate": "['Kpendjal']",
+      "resultat": "OK",
+      "bloquant": false
+    },
+    {
+      "code": "A13-couv",
+      "libelle": "préfectures à couverture non déterminable",
+      "attendu": "['Kpendjal', 'Mô', 'Tchamba']",
+      "constate": "['Kpendjal', 'Mô', 'Tchamba']",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "A13-couv-communes",
+      "libelle": "communes non déterminables hors des 3 préfectures de A13 (critère étendu)",
+      "attendu": "à confirmer",
+      "constate": "['Sotouboua 2', 'Kéran 3']",
+      "resultat": "OK",
+      "bloquant": false
+    },
+    {
+      "code": "CX5",
+      "libelle": "geodata (4j) face à notre recomptage : banques (toutes lignes)",
+      "attendu": "247",
+      "constate": "247",
+      "resultat": "OK",
+      "bloquant": false
+    },
+    {
+      "code": "CX5",
+      "libelle": "geodata (4j) face à notre recomptage : microfinances (« Micro-Finance » seul)",
+      "attendu": "412",
+      "constate": "412",
+      "resultat": "OK",
+      "bloquant": false
+    },
+    {
+      "code": "CX5",
+      "libelle": "geodata (4j) face à notre recomptage : assurances (toutes lignes)",
+      "attendu": "69",
+      "constate": "69",
+      "resultat": "OK",
+      "bloquant": false
+    },
+    {
+      "code": "CX5",
+      "libelle": "geodata (4j) face à notre recomptage : DAB",
+      "attendu": "184",
+      "constate": "184",
+      "resultat": "OK",
+      "bloquant": false
+    },
+    {
+      "code": "CX5",
+      "libelle": "geodata (4j) face à notre recomptage : Poste (toutes lignes)",
+      "attendu": "95",
+      "constate": "95",
+      "resultat": "OK",
+      "bloquant": false
+    }
+  ],
+  "sorties": [
+    "data/processed/terr_commune.csv",
+    "data/processed/terr_prefecture.csv",
+    "data/processed/terr_region.csv",
+    "data/processed/dim_territoire.csv"
+  ],
+  "n_anomalies": 12
+}

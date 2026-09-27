@@ -1,0 +1,118 @@
+code,nom,prefecture_code,prefecture,unite_regionale_code,unite_regionale,pop_totale,pop15_prorata,n_banque,n_imf,n_assurance,n_formels,n_dab,n_mm,mm_deux_operateurs,mm_togocom_seul,mm_moov_seul,mm_operateur_non_renseigne,dab_dans_une_banque,dab_independant,dab_autre_etablissement
+A02007,Avé 1,A02,Avé,A_HGL,Maritime hors Grand Lomé,75044,45510,3,7,0,10,2,79,46,4,11,18,2,0,0
+A02008,Avé 2,A02,Avé,A_HGL,Maritime hors Grand Lomé,36170,21206,0,3,0,3,0,49,30,2,6,11,0,0,0
+A03009,Bas-Mono 1,A03,Bas-Mono,A_HGL,Maritime hors Grand Lomé,55382,30833,0,3,0,3,0,149,107,5,37,0,0,0,0
+A03010,Bas-Mono 2,A03,Bas-Mono,A_HGL,Maritime hors Grand Lomé,39478,21767,0,1,0,1,0,34,22,4,8,0,0,0,0
+A05018,Lacs 1,A05,Lacs,A_HGL,Maritime hors Grand Lomé,52994,32062,5,3,0,8,0,172,127,14,15,16,0,0,0
+A05019,Lacs 2,A05,Lacs,A_HGL,Maritime hors Grand Lomé,42855,24829,1,1,0,2,0,40,21,5,9,5,0,0,0
+A05020,Lacs 3,A05,Lacs,A_HGL,Maritime hors Grand Lomé,108176,65584,0,5,0,5,0,443,373,24,24,22,0,0,0
+A05021,Lacs 4,A05,Lacs,A_HGL,Maritime hors Grand Lomé,37222,20433,1,2,0,3,0,86,60,0,13,13,0,0,0
+A06022,Vo 1,A06,Vo,A_HGL,Maritime hors Grand Lomé,88865,50735,4,4,0,8,3,211,147,2,52,10,3,0,0
+A06023,Vo 2,A06,Vo,A_HGL,Maritime hors Grand Lomé,24396,13737,0,1,0,1,0,52,25,1,23,3,0,0,0
+A06024,Vo 3,A06,Vo,A_HGL,Maritime hors Grand Lomé,64651,36093,0,2,0,2,0,100,70,1,27,2,0,0,0
+A06025,Vo 4,A06,Vo,A_HGL,Maritime hors Grand Lomé,46499,27261,1,5,0,6,0,113,87,0,23,3,0,0,0
+A07026,Yoto 1,A07,Yoto,A_HGL,Maritime hors Grand Lomé,77353,43479,4,6,0,10,1,82,33,20,29,0,1,0,0
+A07027,Yoto 2,A07,Yoto,A_HGL,Maritime hors Grand Lomé,43412,25758,1,5,0,6,1,51,25,11,15,0,0,1,0
+A07028,Yoto 3,A07,Yoto,A_HGL,Maritime hors Grand Lomé,54086,29053,1,2,0,3,1,27,10,3,14,0,1,0,0
+A08029,Zio 1,A08,Zio,A_HGL,Maritime hors Grand Lomé,307292,179519,4,13,0,17,4,508,378,43,49,38,3,1,0
+A08030,Zio 2,A08,Zio,A_HGL,Maritime hors Grand Lomé,96193,54011,0,3,0,3,0,81,50,7,5,19,0,0,0
+A08031,Zio 3,A08,Zio,A_HGL,Maritime hors Grand Lomé,67843,38012,1,3,0,4,0,142,108,17,8,9,0,0,0
+A08032,Zio 4,A08,Zio,A_HGL,Maritime hors Grand Lomé,28704,17138,0,3,0,3,0,48,20,0,12,16,0,0,0
+B01033,Agou 1,B01,Agou,B,Plateaux,58328,35031,1,5,0,6,0,174,140,19,9,6,0,0,0
+B01034,Agou 2,B01,Agou,B,Plateaux,27465,16359,0,0,0,0,0,50,32,7,8,3,0,0,0
+B02035,Akébou 1,B02,Akébou,B,Plateaux,44196,24645,0,1,0,1,0,63,35,15,1,12,0,0,0
+B02036,Akébou 2,B02,Akébou,B,Plateaux,29634,16181,0,0,0,0,0,24,15,2,3,4,0,0,0
+B03037,Amou 1,B03,Amou,B,Plateaux,19746,11659,0,1,0,1,0,43,30,8,5,0,0,0,0
+B03038,Amou 2,B03,Amou,B,Plateaux,40016,22631,0,4,0,4,0,31,18,9,4,0,0,0,0
+B03039,Amou 3,B03,Amou,B,Plateaux,54410,31518,0,1,0,1,0,101,62,34,5,0,0,0,0
+B04040,Anié 1,B04,Anié,B,Plateaux,100745,57147,4,5,0,9,2,237,165,53,2,17,2,0,0
+B04041,Anié 2,B04,Anié,B,Plateaux,79413,39910,0,1,0,1,0,48,41,7,0,0,0,0,0
+B05042,Danyi 1,B05,Danyi,B,Plateaux,25820,15660,0,2,0,2,0,99,65,11,15,8,0,0,0
+B05043,Danyi 2,B05,Danyi,B,Plateaux,14420,8503,0,1,0,1,0,43,28,8,5,2,0,0,0
+B06044,Est-Mono 1,B06,Est-Mono,B,Plateaux,34652,20199,0,1,0,1,0,69,48,15,0,6,0,0,0
+B06045,Est-Mono 2,B06,Est-Mono,B,Plateaux,101866,54115,0,1,0,1,0,99,56,29,9,5,0,0,0
+B06046,Est-Mono 3,B06,Est-Mono,B,Plateaux,27942,15014,0,1,0,1,0,41,36,4,1,0,0,0,0
+B07047,Haho 1,B07,Haho,B,Plateaux,119929,66997,3,12,1,16,2,187,147,11,9,20,2,0,0
+B07048,Haho 2,B07,Haho,B,Plateaux,82507,40545,0,2,0,2,0,54,35,4,10,5,0,0,0
+B07049,Haho 3,B07,Haho,B,Plateaux,58695,31056,0,0,0,0,0,105,72,6,17,10,0,0,0
+B07050,Haho 4,B07,Haho,B,Plateaux,43965,23973,0,4,0,4,0,107,78,8,15,6,0,0,0
+B08051,Kloto 1,B08,Kloto,B,Plateaux,118387,74442,5,4,0,9,6,410,297,64,27,22,5,1,0
+B08052,Kloto 2,B08,Kloto,B,Plateaux,16166,9792,0,1,0,1,0,57,43,8,4,2,0,0,0
+B08053,Kloto 3,B08,Kloto,B,Plateaux,11433,6970,0,2,0,2,0,36,21,11,2,2,0,0,0
+B09054,Kpélé 1,B09,Kpélé,B,Plateaux,53275,30680,1,4,0,5,1,184,165,10,3,6,0,1,0
+B09055,Kpélé 2,B09,Kpélé,B,Plateaux,27664,15887,0,3,0,3,0,71,55,16,0,0,0,0,0
+B10056,Moyen-Mono 1,B10,Moyen-Mono,B,Plateaux,46797,25424,0,3,0,3,1,39,21,4,9,5,0,1,0
+B10057,Moyen-Mono 2,B10,Moyen-Mono,B,Plateaux,43708,22495,0,2,0,2,0,42,38,3,1,0,0,0,0
+B11058,Ogou 1,B11,Ogou,B,Plateaux,116301,69598,7,5,2,14,6,271,103,93,44,31,4,2,0
+B11059,Ogou 2,B11,Ogou,B,Plateaux,56282,30598,0,2,0,2,0,44,20,16,7,1,0,0,0
+B11060,Ogou 3,B11,Ogou,B,Plateaux,51836,28484,0,3,0,3,0,85,72,5,6,2,0,0,0
+B11061,Ogou 4,B11,Ogou,B,Plateaux,29048,14004,0,2,0,2,0,21,12,1,8,0,0,0,0
+B12062,Wawa 1,B12,Wawa,B,Plateaux,51187,29992,1,3,0,4,1,172,109,54,5,4,1,0,0
+B12063,Wawa 2,B12,Wawa,B,Plateaux,20414,11340,0,0,0,0,0,16,9,7,0,0,0,0,0
+B12064,Wawa 3,B12,Wawa,B,Plateaux,29699,16653,0,0,0,0,0,56,37,17,2,0,0,0,0
+C01065,Blitta 1,C01,Blitta,C,Centrale,71539,41434,3,5,0,8,1,75,52,20,3,0,1,0,0
+C01066,Blitta 2,C01,Blitta,C,Centrale,46515,25565,0,2,0,2,0,9,5,2,1,1,0,0,0
+C01067,Blitta 3,C01,Blitta,C,Centrale,45218,25028,0,0,0,0,0,6,3,3,0,0,0,0,0
+C02068,Mô 1,C02,Mô,C,Centrale,30522,15649,0,1,0,1,0,25,8,11,0,6,0,0,0
+C02069,Mô 2,C02,Mô,C,Centrale,21926,11371,0,1,0,1,0,7,2,5,0,0,0,0,0
+C03070,Sotouboua 1,C03,Sotouboua,C,Centrale,46907,28749,4,7,0,11,3,151,93,46,7,5,3,0,0
+C03071,Sotouboua 2,C03,Sotouboua,C,Centrale,64187,37068,1,3,0,4,1,107,71,31,2,3,1,0,0
+C03072,Sotouboua 3,C03,Sotouboua,C,Centrale,27770,16226,0,3,0,3,0,97,41,29,3,24,0,0,0
+C04073,Tchamba 1,C04,Tchamba,C,Centrale,82451,44906,1,5,0,6,0,52,29,16,1,6,0,0,0
+C04074,Tchamba 2,C04,Tchamba,C,Centrale,64930,34517,0,1,0,1,0,85,54,22,0,9,0,0,0
+C04075,Tchamba 3,C04,Tchamba,C,Centrale,53204,28949,0,5,0,5,0,68,49,15,0,4,0,0,0
+C05076,Tchaoudjo 1,C05,Tchaoudjo,C,Centrale,177706,104270,11,9,0,20,8,1268,616,609,5,38,8,0,0
+C05077,Tchaoudjo 2,C05,Tchaoudjo,C,Centrale,24891,13973,0,0,0,0,0,45,34,3,0,8,0,0,0
+C05078,Tchaoudjo 3,C05,Tchaoudjo,C,Centrale,17484,9712,0,0,0,0,0,65,24,38,1,2,0,0,0
+C05079,Tchaoudjo 4,C05,Tchaoudjo,C,Centrale,20279,10428,0,0,0,0,0,33,6,27,0,0,0,0,0
+D01080,Assoli 1,D01,Assoli,D,Kara,40417,22726,2,5,0,7,1,169,66,89,3,11,0,1,0
+D01081,Assoli 2,D01,Assoli,D,Kara,9933,5749,0,0,0,0,0,31,15,14,0,2,0,0,0
+D01082,Assoli 3,D01,Assoli,D,Kara,16044,8498,0,0,0,0,0,28,8,15,0,5,0,0,0
+D02083,Bassar 1,D02,Bassar,D,Kara,65059,36226,4,4,1,9,1,273,77,59,1,136,1,0,0
+D02084,Bassar 2,D02,Bassar,D,Kara,36476,19483,1,1,0,2,0,54,21,10,1,22,0,0,0
+D02085,Bassar 3,D02,Bassar,D,Kara,33873,18253,1,2,0,3,1,80,31,39,0,10,1,0,0
+D02086,Bassar 4,D02,Bassar,D,Kara,16657,8880,0,0,0,0,0,29,15,6,0,8,0,0,0
+D03087,Binah 1,D03,Binah,D,Kara,44039,24683,1,1,0,2,0,92,58,31,1,2,0,0,0
+D03088,Binah 2,D03,Binah,D,Kara,40160,22877,3,4,0,7,1,120,69,44,1,6,0,1,0
+D04089,Dankpen 1,D04,Dankpen,D,Kara,76294,37519,2,4,0,6,0,122,64,34,5,19,0,0,0
+D04090,Dankpen 2,D04,Dankpen,D,Kara,32716,15286,0,0,0,0,0,31,11,16,1,3,0,0,0
+D04091,Dankpen 3,D04,Dankpen,D,Kara,76652,36357,0,0,0,0,0,37,14,9,2,12,0,0,0
+D05092,Doufelgou 1,D05,Doufelgou,D,Kara,44783,26584,2,4,0,6,0,114,73,24,1,16,0,0,0
+D05093,Doufelgou 3,D05,Doufelgou,D,Kara,28262,14658,0,3,0,3,0,40,20,16,2,2,0,0,0
+D05094,Doufelgou 2,D05,Doufelgou,D,Kara,11722,6564,0,1,0,1,0,30,11,11,0,8,0,0,0
+D06094,Kéran 1,D06,Kéran,D,Kara,44399,23723,4,3,0,7,0,91,38,24,1,28,0,0,0
+D06095,Kéran 2,D06,Kéran,D,Kara,53305,25794,0,0,0,0,0,38,17,16,1,4,0,0,0
+D06096,Kéran 3,D06,Kéran,D,Kara,30983,15174,0,0,0,0,0,10,7,2,1,0,0,0,0
+D07097,Kozah 1,D07,Kozah,D,Kara,193625,127540,12,4,6,22,10,1366,777,538,5,46,10,0,0
+D07098,Kozah 2,D07,Kozah,D,Kara,45704,29763,3,1,0,4,0,127,71,48,1,7,0,0,0
+D07099,Kozah 3,D07,Kozah,D,Kara,23755,13690,0,0,0,0,0,34,8,24,0,2,0,0,0
+D07100,Kozah 4,D07,Kozah,D,Kara,20654,11938,0,0,0,0,0,35,16,18,1,0,0,0,0
+E01101,Cinkassé 1,E01,Cinkassé,E,Savanes,75992,41988,8,6,0,14,10,467,202,254,1,10,9,1,0
+E01102,Cinkassé 2,E01,Cinkassé,E,Savanes,52967,28266,0,2,0,2,0,76,53,17,6,0,0,0,0
+E02103,Kpendjal 1,E02,Kpendjal,E,Savanes,47903,23333,0,0,0,0,0,36,20,10,5,1,0,0,0
+E02104,Kpendjal 2,E02,Kpendjal,E,Savanes,40462,19038,0,0,0,0,0,5,2,2,0,1,0,0,0
+E03105,Kpendjal-Ouest 1,E03,Kpendjal-Ouest,E,Savanes,56459,26819,0,1,0,1,0,73,43,13,16,1,0,0,0
+E03106,Kpendjal-Ouest 2,E03,Kpendjal-Ouest,E,Savanes,66871,32433,0,2,0,2,0,56,33,16,7,0,0,0,0
+E04109,Oti 1,E04,Oti,E,Savanes,54479,30245,4,3,0,7,0,208,123,69,3,13,0,0,0
+E04110,Oti 2,E04,Oti,E,Savanes,70369,35512,1,2,0,3,0,160,84,32,35,9,0,0,0
+E05107,Oti-Sud 1,E05,Oti-Sud,E,Savanes,106052,50191,1,3,0,4,0,120,78,18,14,10,0,0,0
+E05108,Oti-Sud 2,E05,Oti-Sud,E,Savanes,44324,20838,0,1,0,1,0,39,11,17,5,6,0,0,0
+E06111,Tandjoaré 1,E06,Tandjoaré,E,Savanes,74692,40234,1,0,0,1,0,66,49,1,13,3,0,0,0
+E06112,Tandjoaré 2,E06,Tandjoaré,E,Savanes,64175,34330,0,4,0,4,0,93,66,10,17,0,0,0,0
+E07113,Tône 1,E07,Tône,E,Savanes,211743,117925,7,7,0,14,9,946,641,251,20,34,7,2,0
+E07114,Tône 2,E07,Tône,E,Savanes,50179,25901,0,0,0,0,0,76,47,13,14,2,0,0,0
+E07115,Tône 3,E07,Tône,E,Savanes,60276,30764,0,1,0,1,0,83,52,16,14,1,0,0,0
+E07116,Tône 4,E07,Tône,E,Savanes,66577,33697,0,0,0,0,0,175,85,18,30,42,0,0,0
+A01001,Agoè-Nyivé 1,A01,Agoè-Nyivé,GL,Grand Lomé,317255,214351,5,21,7,33,9,446,291,137,0,18,2,7,0
+A01002,Agoè-Nyivé 2,A01,Agoè-Nyivé,GL,Grand Lomé,128164,78543,0,6,0,6,0,37,27,6,1,3,0,0,0
+A01003,Agoè-Nyivé 3,A01,Agoè-Nyivé,GL,Grand Lomé,47554,32286,1,5,1,7,1,263,156,105,0,2,0,1,0
+A01004,Agoè-Nyivé 4,A01,Agoè-Nyivé,GL,Grand Lomé,154431,92359,2,2,0,4,2,258,102,149,0,7,2,0,0
+A01005,Agoè-Nyivé 5,A01,Agoè-Nyivé,GL,Grand Lomé,125097,77675,0,5,0,5,1,97,80,14,1,2,0,0,1
+A01006,Agoè-Nyivé 6,A01,Agoè-Nyivé,GL,Grand Lomé,110194,67172,1,6,0,7,1,297,195,94,1,7,0,1,0
+A04011,Golfe 1,A04,Golfe,GL,Grand Lomé,351550,231198,22,23,7,52,21,1256,955,138,53,110,17,2,2
+A04012,Golfe 2,A04,Golfe,GL,Grand Lomé,136153,92644,5,2,0,7,14,454,342,62,37,13,3,10,1
+A04013,Golfe 3,A04,Golfe,GL,Grand Lomé,52769,36353,13,6,12,31,18,281,214,46,7,14,9,9,0
+A04014,Golfe 4,A04,Golfe,GL,Grand Lomé,155842,110018,8,1,11,20,18,809,643,101,22,43,12,6,0
+A04015,Golfe 5,A04,Golfe,GL,Grand Lomé,169993,120922,20,23,12,55,12,1062,738,287,0,37,7,4,1
+A04016,Golfe 6,A04,Golfe,GL,Grand Lomé,181561,116955,10,12,1,23,8,482,340,91,13,38,8,0,0
+A04017,Golfe 7,A04,Golfe,GL,Grand Lomé,257813,165474,0,11,1,12,2,777,559,100,16,102,1,1,0

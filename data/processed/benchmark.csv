@@ -1,0 +1,699 @@
+source,iso3,pays,annee,indicateur,valeur,unite,niveau_preuve,note
+"C5 (FAS, Banque mondiale)",BEN,Bénin,2014,FB.ATM.TOTL.P5,3.28849061970081,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",BEN,Bénin,2015,FB.ATM.TOTL.P5,3.45235938439144,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",BEN,Bénin,2016,FB.ATM.TOTL.P5,3.63429081564946,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",BEN,Bénin,2017,FB.ATM.TOTL.P5,3.59773781266316,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",BEN,Bénin,2018,FB.ATM.TOTL.P5,4.5671109293092,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",BEN,Bénin,2019,FB.ATM.TOTL.P5,4.4842395486269,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",BEN,Bénin,2020,FB.ATM.TOTL.P5,4.10922753726789,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",BEN,Bénin,2021,FB.ATM.TOTL.P5,3.99933680900293,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",BEN,Bénin,2022,FB.ATM.TOTL.P5,3.82977612007767,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",BEN,Bénin,2023,FB.ATM.TOTL.P5,3.97197491466345,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",BEN,Bénin,2024,FB.ATM.TOTL.P5,3.97487218301636,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",BFA,Burkina Faso,2015,FB.ATM.TOTL.P5,4.2981568917136,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",BFA,Burkina Faso,2016,FB.ATM.TOTL.P5,4.63554932773182,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",BFA,Burkina Faso,2017,FB.ATM.TOTL.P5,5.17515566227062,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",BFA,Burkina Faso,2018,FB.ATM.TOTL.P5,4.03698123238478,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",BFA,Burkina Faso,2019,FB.ATM.TOTL.P5,4.97709034141034,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",BFA,Burkina Faso,2020,FB.ATM.TOTL.P5,4.36011631858404,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",BFA,Burkina Faso,2021,FB.ATM.TOTL.P5,4.35459753336599,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",BFA,Burkina Faso,2022,FB.ATM.TOTL.P5,4.39345303831036,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",BFA,Burkina Faso,2023,FB.ATM.TOTL.P5,4.35059327540032,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",BFA,Burkina Faso,2024,FB.ATM.TOTL.P5,4.13720247622148,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",CIV,Côte d'Ivoire,2014,FB.ATM.TOTL.P5,6.77239050405362,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",CIV,Côte d'Ivoire,2015,FB.ATM.TOTL.P5,6.35521410010168,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",CIV,Côte d'Ivoire,2016,FB.ATM.TOTL.P5,6.54723862702604,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",CIV,Côte d'Ivoire,2017,FB.ATM.TOTL.P5,6.50144889432502,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",CIV,Côte d'Ivoire,2018,FB.ATM.TOTL.P5,8.25952319232404,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",CIV,Côte d'Ivoire,2019,FB.ATM.TOTL.P5,7.56701619396788,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",CIV,Côte d'Ivoire,2020,FB.ATM.TOTL.P5,6.92636135449243,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",CIV,Côte d'Ivoire,2021,FB.ATM.TOTL.P5,6.86747369077225,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",CIV,Côte d'Ivoire,2022,FB.ATM.TOTL.P5,7.02135031902308,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",CIV,Côte d'Ivoire,2023,FB.ATM.TOTL.P5,7.02124864793153,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",CIV,Côte d'Ivoire,2024,FB.ATM.TOTL.P5,7.04364240836221,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",GNB,Guinée-Bissau,2010,FB.ATM.TOTL.P5,1.46061999948316,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",GNB,Guinée-Bissau,2011,FB.ATM.TOTL.P5,1.41864558632076,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",GNB,Guinée-Bissau,2012,FB.ATM.TOTL.P5,2.01314690886589,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",GNB,Guinée-Bissau,2013,FB.ATM.TOTL.P5,3.90844769828429,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",GNB,Guinée-Bissau,2014,FB.ATM.TOTL.P5,4.19338702865581,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",GNB,Guinée-Bissau,2015,FB.ATM.TOTL.P5,3.97368451658674,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",GNB,Guinée-Bissau,2016,FB.ATM.TOTL.P5,4.79828390787294,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",GNB,Guinée-Bissau,2017,FB.ATM.TOTL.P5,5.02307876370158,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",GNB,Guinée-Bissau,2018,FB.ATM.TOTL.P5,5.14120132146602,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",GNB,Guinée-Bissau,2019,FB.ATM.TOTL.P5,5.93630601743553,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",GNB,Guinée-Bissau,2020,FB.ATM.TOTL.P5,6.09831486017315,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",GNB,Guinée-Bissau,2021,FB.ATM.TOTL.P5,6.49149897637175,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",GNB,Guinée-Bissau,2022,FB.ATM.TOTL.P5,7.40429165347284,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",GNB,Guinée-Bissau,2023,FB.ATM.TOTL.P5,7.03192954618066,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",GNB,Guinée-Bissau,2024,FB.ATM.TOTL.P5,7.19831811668251,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",MLI,Mali,2010,FB.ATM.TOTL.P5,2.55042093214682,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",MLI,Mali,2011,FB.ATM.TOTL.P5,3.03236443716779,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",MLI,Mali,2012,FB.ATM.TOTL.P5,3.17574004878477,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",MLI,Mali,2013,FB.ATM.TOTL.P5,3.76890399282963,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",MLI,Mali,2014,FB.ATM.TOTL.P5,3.77452602242473,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",MLI,Mali,2015,FB.ATM.TOTL.P5,4.07442421870847,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",MLI,Mali,2016,FB.ATM.TOTL.P5,4.37623745123925,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",MLI,Mali,2017,FB.ATM.TOTL.P5,4.44565018311914,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",MLI,Mali,2018,FB.ATM.TOTL.P5,4.91711108765467,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",MLI,Mali,2019,FB.ATM.TOTL.P5,4.98014055767614,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",MLI,Mali,2020,FB.ATM.TOTL.P5,4.65075984411562,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",MLI,Mali,2021,FB.ATM.TOTL.P5,4.49460449293482,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",MLI,Mali,2022,FB.ATM.TOTL.P5,4.32193482033936,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",MLI,Mali,2023,FB.ATM.TOTL.P5,4.22758454913714,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",MLI,Mali,2024,FB.ATM.TOTL.P5,4.24011232732635,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",NER,Niger,2014,FB.ATM.TOTL.P5,1.30420673422526,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",NER,Niger,2015,FB.ATM.TOTL.P5,1.49050420499861,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",NER,Niger,2016,FB.ATM.TOTL.P5,1.60236368554646,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",NER,Niger,2017,FB.ATM.TOTL.P5,1.72261755839468,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",NER,Niger,2018,FB.ATM.TOTL.P5,1.80584295390322,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",NER,Niger,2019,FB.ATM.TOTL.P5,1.79612239941714,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",NER,Niger,2020,FB.ATM.TOTL.P5,1.84935930244762,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",NER,Niger,2021,FB.ATM.TOTL.P5,1.87998283209038,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",NER,Niger,2022,FB.ATM.TOTL.P5,2.02510196388388,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",NER,Niger,2023,FB.ATM.TOTL.P5,1.97496024311328,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",NER,Niger,2024,FB.ATM.TOTL.P5,1.39937331629238,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",SEN,Sénégal,2014,FB.ATM.TOTL.P5,5.32727623256009,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",SEN,Sénégal,2015,FB.ATM.TOTL.P5,5.26693679830402,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",SEN,Sénégal,2016,FB.ATM.TOTL.P5,5.53669848966446,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",SEN,Sénégal,2017,FB.ATM.TOTL.P5,5.59177449971092,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",SEN,Sénégal,2018,FB.ATM.TOTL.P5,6.00924137772945,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",SEN,Sénégal,2019,FB.ATM.TOTL.P5,5.78004917281188,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",SEN,Sénégal,2020,FB.ATM.TOTL.P5,6.39851594358445,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",SEN,Sénégal,2021,FB.ATM.TOTL.P5,6.53591116867682,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",SEN,Sénégal,2022,FB.ATM.TOTL.P5,6.79773127115619,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",SEN,Sénégal,2023,FB.ATM.TOTL.P5,6.67911812926283,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",SEN,Sénégal,2024,FB.ATM.TOTL.P5,6.27760166589012,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",TGO,Togo,2014,FB.ATM.TOTL.P5,4.48701410044181,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",TGO,Togo,2015,FB.ATM.TOTL.P5,5.0823258773978,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",TGO,Togo,2016,FB.ATM.TOTL.P5,5.59843469501876,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",TGO,Togo,2017,FB.ATM.TOTL.P5,5.17423114621046,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",TGO,Togo,2018,FB.ATM.TOTL.P5,5.42595381691187,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",TGO,Togo,2019,FB.ATM.TOTL.P5,5.92069745816057,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",TGO,Togo,2020,FB.ATM.TOTL.P5,6.24781642708593,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",TGO,Togo,2021,FB.ATM.TOTL.P5,6.28528848716892,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",TGO,Togo,2022,FB.ATM.TOTL.P5,6.91924104758781,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",TGO,Togo,2023,FB.ATM.TOTL.P5,6.81144107567135,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",TGO,Togo,2024,FB.ATM.TOTL.P5,6.93399084018072,pour 100 000 adultes,C,Distributeurs automatiques de billets (DAB) pour 100 000 adultes ; appareils (A19)
+"C5 (FAS, Banque mondiale)",BEN,Bénin,2010,FB.CBK.BRCH.P5,2.87456124280017,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",BEN,Bénin,2011,FB.CBK.BRCH.P5,3.08295021070643,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",BEN,Bénin,2012,FB.CBK.BRCH.P5,3.07241581666007,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",BEN,Bénin,2013,FB.CBK.BRCH.P5,3.14396098046574,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",BEN,Bénin,2014,FB.CBK.BRCH.P5,3.24036636672958,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",BEN,Bénin,2015,FB.CBK.BRCH.P5,3.42125704759512,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",BEN,Bénin,2016,FB.CBK.BRCH.P5,3.39301009759805,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",BEN,Bénin,2017,FB.CBK.BRCH.P5,3.15898929892375,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",BEN,Bénin,2018,FB.CBK.BRCH.P5,3.06365205195897,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",BEN,Bénin,2019,FB.CBK.BRCH.P5,3.70018539441913,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",BEN,Bénin,2020,FB.CBK.BRCH.P5,3.21533713143364,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",BEN,Bénin,2021,FB.CBK.BRCH.P5,3.26159506753637,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",BEN,Bénin,2022,FB.CBK.BRCH.P5,2.80013139271252,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",BEN,Bénin,2023,FB.CBK.BRCH.P5,2.63173798026781,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",BEN,Bénin,2024,FB.CBK.BRCH.P5,2.51978504459073,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",BFA,Burkina Faso,2010,FB.CBK.BRCH.P5,1.85177569384217,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",BFA,Burkina Faso,2011,FB.CBK.BRCH.P5,2.02005238669189,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",BFA,Burkina Faso,2012,FB.CBK.BRCH.P5,2.0672078181157,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",BFA,Burkina Faso,2013,FB.CBK.BRCH.P5,2.2446175940609,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",BFA,Burkina Faso,2014,FB.CBK.BRCH.P5,2.67113455079278,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",BFA,Burkina Faso,2015,FB.CBK.BRCH.P5,2.8035705180041,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",BFA,Burkina Faso,2016,FB.CBK.BRCH.P5,2.78132959663909,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",BFA,Burkina Faso,2017,FB.CBK.BRCH.P5,2.75702983069638,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",BFA,Burkina Faso,2018,FB.CBK.BRCH.P5,2.73272575730662,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",BFA,Burkina Faso,2019,FB.CBK.BRCH.P5,2.97421978951291,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",BFA,Burkina Faso,2020,FB.CBK.BRCH.P5,2.72923311544955,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",BFA,Burkina Faso,2021,FB.CBK.BRCH.P5,2.8735514222027,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",BFA,Burkina Faso,2022,FB.CBK.BRCH.P5,2.91338907150368,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",BFA,Burkina Faso,2023,FB.CBK.BRCH.P5,2.77472846680644,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",BFA,Burkina Faso,2024,FB.CBK.BRCH.P5,2.68516845017549,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",CIV,Côte d'Ivoire,2010,FB.CBK.BRCH.P5,3.94667588245925,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",CIV,Côte d'Ivoire,2011,FB.CBK.BRCH.P5,3.93563238707842,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",CIV,Côte d'Ivoire,2012,FB.CBK.BRCH.P5,4.11851663520164,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",CIV,Côte d'Ivoire,2013,FB.CBK.BRCH.P5,4.05096474700281,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",CIV,Côte d'Ivoire,2014,FB.CBK.BRCH.P5,4.21955794645085,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",CIV,Côte d'Ivoire,2015,FB.CBK.BRCH.P5,4.49732518842147,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",CIV,Côte d'Ivoire,2016,FB.CBK.BRCH.P5,4.6251135255138,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",CIV,Côte d'Ivoire,2017,FB.CBK.BRCH.P5,4.76729619224232,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",CIV,Côte d'Ivoire,2018,FB.CBK.BRCH.P5,4.65111635007688,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",CIV,Côte d'Ivoire,2019,FB.CBK.BRCH.P5,4.62258016073424,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",CIV,Côte d'Ivoire,2020,FB.CBK.BRCH.P5,4.52187321588625,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",CIV,Côte d'Ivoire,2021,FB.CBK.BRCH.P5,4.40774348654138,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",CIV,Côte d'Ivoire,2022,FB.CBK.BRCH.P5,3.90263005683853,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",CIV,Côte d'Ivoire,2023,FB.CBK.BRCH.P5,3.7810926570962,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",CIV,Côte d'Ivoire,2024,FB.CBK.BRCH.P5,4.19970558633927,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",GNB,Guinée-Bissau,2010,FB.CBK.BRCH.P5,1.91004153778567,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",GNB,Guinée-Bissau,2011,FB.CBK.BRCH.P5,2.29165825482585,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",GNB,Guinée-Bissau,2012,FB.CBK.BRCH.P5,2.4369673107324,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",GNB,Guinée-Bissau,2013,FB.CBK.BRCH.P5,2.67420105672083,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",GNB,Guinée-Bissau,2014,FB.CBK.BRCH.P5,2.59590625583454,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",GNB,Guinée-Bissau,2015,FB.CBK.BRCH.P5,3.19833144017957,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",GNB,Guinée-Bissau,2016,FB.CBK.BRCH.P5,3.10477194038837,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",GNB,Guinée-Bissau,2017,FB.CBK.BRCH.P5,3.01384725822095,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",GNB,Guinée-Bissau,2018,FB.CBK.BRCH.P5,2.92516626910997,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",GNB,Guinée-Bissau,2019,FB.CBK.BRCH.P5,3.61340366278684,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",GNB,Guinée-Bissau,2020,FB.CBK.BRCH.P5,3.50861950859277,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",GNB,Guinée-Bissau,2021,FB.CBK.BRCH.P5,3.40803696259517,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",GNB,Guinée-Bissau,2022,FB.CBK.BRCH.P5,3.30830052601978,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",GNB,Guinée-Bissau,2023,FB.CBK.BRCH.P5,3.28666272267139,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",GNB,Guinée-Bissau,2024,FB.CBK.BRCH.P5,4.00731111650366,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",MLI,Mali,2010,FB.CBK.BRCH.P5,3.42824022972293,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",MLI,Mali,2011,FB.CBK.BRCH.P5,3.9893463698101,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",MLI,Mali,2012,FB.CBK.BRCH.P5,4.5271187929485,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",MLI,Mali,2013,FB.CBK.BRCH.P5,4.7578292387616,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",MLI,Mali,2014,FB.CBK.BRCH.P5,5.29926393543811,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",MLI,Mali,2015,FB.CBK.BRCH.P5,5.68764802103974,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",MLI,Mali,2016,FB.CBK.BRCH.P5,5.70813580596424,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",MLI,Mali,2017,FB.CBK.BRCH.P5,4.83307067838006,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",MLI,Mali,2018,FB.CBK.BRCH.P5,4.71106071826723,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",MLI,Mali,2019,FB.CBK.BRCH.P5,4.6541677211737,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",MLI,Mali,2020,FB.CBK.BRCH.P5,4.37975692086828,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",MLI,Mali,2021,FB.CBK.BRCH.P5,4.28378814711236,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",MLI,Mali,2022,FB.CBK.BRCH.P5,3.9882261053979,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",MLI,Mali,2023,FB.CBK.BRCH.P5,3.86611821222207,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",MLI,Mali,2024,FB.CBK.BRCH.P5,3.64088357265948,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",NER,Niger,2010,FB.CBK.BRCH.P5,1.19377142595877,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",NER,Niger,2011,FB.CBK.BRCH.P5,1.2324362004061,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",NER,Niger,2012,FB.CBK.BRCH.P5,1.51944669958431,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",NER,Niger,2013,FB.CBK.BRCH.P5,1.62202020482273,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",NER,Niger,2014,FB.CBK.BRCH.P5,1.63282575387257,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",NER,Niger,2015,FB.CBK.BRCH.P5,1.67805109172029,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",NER,Niger,2016,FB.CBK.BRCH.P5,1.6402894532517,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",NER,Niger,2017,FB.CBK.BRCH.P5,1.64970252946792,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",NER,Niger,2018,FB.CBK.BRCH.P5,1.60421971147714,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",NER,Niger,2019,FB.CBK.BRCH.P5,1.61060740980598,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",NER,Niger,2020,FB.CBK.BRCH.P5,1.57357765208263,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",NER,Niger,2021,FB.CBK.BRCH.P5,1.59135476243335,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",NER,Niger,2022,FB.CBK.BRCH.P5,1.59758043817506,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",NER,Niger,2023,FB.CBK.BRCH.P5,1.52807142897815,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",NER,Niger,2024,FB.CBK.BRCH.P5,1.46172163236481,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",SEN,Sénégal,2010,FB.CBK.BRCH.P5,4.1968667352615,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",SEN,Sénégal,2011,FB.CBK.BRCH.P5,4.51032116314047,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",SEN,Sénégal,2012,FB.CBK.BRCH.P5,4.74639188991098,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",SEN,Sénégal,2013,FB.CBK.BRCH.P5,4.65710120135396,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",SEN,Sénégal,2014,FB.CBK.BRCH.P5,4.68751095751823,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",SEN,Sénégal,2015,FB.CBK.BRCH.P5,4.99348409771487,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",SEN,Sénégal,2016,FB.CBK.BRCH.P5,5.00829987861765,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",SEN,Sénégal,2017,FB.CBK.BRCH.P5,5.59177449971092,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",SEN,Sénégal,2018,FB.CBK.BRCH.P5,5.42010006618734,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",SEN,Sénégal,2019,FB.CBK.BRCH.P5,5.01489060610691,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",SEN,Sénégal,2020,FB.CBK.BRCH.P5,5.01100624598969,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",SEN,Sénégal,2021,FB.CBK.BRCH.P5,5.35983275779397,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",SEN,Sénégal,2022,FB.CBK.BRCH.P5,5.20538600078946,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",SEN,Sénégal,2023,FB.CBK.BRCH.P5,5.30904261556789,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",SEN,Sénégal,2024,FB.CBK.BRCH.P5,5.27213621801078,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",TGO,Togo,2010,FB.CBK.BRCH.P5,3.94101495627888,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",TGO,Togo,2011,FB.CBK.BRCH.P5,4.16069701581436,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",TGO,Togo,2012,FB.CBK.BRCH.P5,4.19818421294541,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",TGO,Togo,2013,FB.CBK.BRCH.P5,4.30140484352288,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",TGO,Togo,2014,FB.CBK.BRCH.P5,4.62437167494513,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",TGO,Togo,2015,FB.CBK.BRCH.P5,4.99316226551363,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",TGO,Togo,2016,FB.CBK.BRCH.P5,5.35974174290555,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",TGO,Togo,2017,FB.CBK.BRCH.P5,5.30094701101562,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",TGO,Togo,2018,FB.CBK.BRCH.P5,4.9326852881017,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",TGO,Togo,2019,FB.CBK.BRCH.P5,5.20061263216806,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",TGO,Togo,2020,FB.CBK.BRCH.P5,5.29409990083294,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",TGO,Togo,2021,FB.CBK.BRCH.P5,4.86541910000727,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",TGO,Togo,2022,FB.CBK.BRCH.P5,4.82138604911704,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",TGO,Togo,2023,FB.CBK.BRCH.P5,4.68398310190523,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5 (FAS, Banque mondiale)",TGO,Togo,2024,FB.CBK.BRCH.P5,4.37936263590361,pour 100 000 adultes,C,Agences bancaires commerciales pour 100 000 adultes
+"C5b (UIT, Banque mondiale)",SSF,Afrique subsaharienne (agrégat Banque mondiale),2005,usage_internet_pct_population,2.0,% de la population,C,estimations UIT
+"C5b (UIT, Banque mondiale)",SSF,Afrique subsaharienne (agrégat Banque mondiale),2006,usage_internet_pct_population,2.6,% de la population,C,estimations UIT
+"C5b (UIT, Banque mondiale)",SSF,Afrique subsaharienne (agrégat Banque mondiale),2007,usage_internet_pct_population,3.1,% de la population,C,estimations UIT
+"C5b (UIT, Banque mondiale)",SSF,Afrique subsaharienne (agrégat Banque mondiale),2008,usage_internet_pct_population,3.6,% de la population,C,estimations UIT
+"C5b (UIT, Banque mondiale)",SSF,Afrique subsaharienne (agrégat Banque mondiale),2009,usage_internet_pct_population,4.3,% de la population,C,estimations UIT
+"C5b (UIT, Banque mondiale)",SSF,Afrique subsaharienne (agrégat Banque mondiale),2010,usage_internet_pct_population,6.0,% de la population,C,estimations UIT
+"C5b (UIT, Banque mondiale)",SSF,Afrique subsaharienne (agrégat Banque mondiale),2011,usage_internet_pct_population,7.5,% de la population,C,estimations UIT
+"C5b (UIT, Banque mondiale)",SSF,Afrique subsaharienne (agrégat Banque mondiale),2012,usage_internet_pct_population,9.2,% de la population,C,estimations UIT
+"C5b (UIT, Banque mondiale)",SSF,Afrique subsaharienne (agrégat Banque mondiale),2013,usage_internet_pct_population,11.2,% de la population,C,estimations UIT
+"C5b (UIT, Banque mondiale)",SSF,Afrique subsaharienne (agrégat Banque mondiale),2014,usage_internet_pct_population,13.4,% de la population,C,estimations UIT
+"C5b (UIT, Banque mondiale)",SSF,Afrique subsaharienne (agrégat Banque mondiale),2015,usage_internet_pct_population,16.2,% de la population,C,estimations UIT
+"C5b (UIT, Banque mondiale)",SSF,Afrique subsaharienne (agrégat Banque mondiale),2016,usage_internet_pct_population,18.3,% de la population,C,estimations UIT
+"C5b (UIT, Banque mondiale)",SSF,Afrique subsaharienne (agrégat Banque mondiale),2017,usage_internet_pct_population,20.0,% de la population,C,estimations UIT
+"C5b (UIT, Banque mondiale)",SSF,Afrique subsaharienne (agrégat Banque mondiale),2018,usage_internet_pct_population,22.0,% de la population,C,estimations UIT
+"C5b (UIT, Banque mondiale)",SSF,Afrique subsaharienne (agrégat Banque mondiale),2019,usage_internet_pct_population,24.4,% de la population,C,estimations UIT
+"C5b (UIT, Banque mondiale)",SSF,Afrique subsaharienne (agrégat Banque mondiale),2020,usage_internet_pct_population,26.7,% de la population,C,estimations UIT
+"C5b (UIT, Banque mondiale)",SSF,Afrique subsaharienne (agrégat Banque mondiale),2021,usage_internet_pct_population,29.0,% de la population,C,estimations UIT
+"C5b (UIT, Banque mondiale)",SSF,Afrique subsaharienne (agrégat Banque mondiale),2022,usage_internet_pct_population,31.1,% de la population,C,estimations UIT
+"C5b (UIT, Banque mondiale)",SSF,Afrique subsaharienne (agrégat Banque mondiale),2023,usage_internet_pct_population,32.3,% de la population,C,estimations UIT
+"C5b (UIT, Banque mondiale)",SSF,Afrique subsaharienne (agrégat Banque mondiale),2024,usage_internet_pct_population,33.6,% de la population,C,estimations UIT
+"C5b (UIT, Banque mondiale)",SSF,Afrique subsaharienne (agrégat Banque mondiale),2025,usage_internet_pct_population,35.7,% de la population,C,estimations UIT
+"C5b (UIT, Banque mondiale)",BEN,Benin,2000,usage_internet_pct_population,0.225247851473369,% de la population,C,estimations UIT
+"C5b (UIT, Banque mondiale)",BEN,Benin,2001,usage_internet_pct_population,0.363417890016082,% de la population,C,estimations UIT
+"C5b (UIT, Banque mondiale)",BEN,Benin,2002,usage_internet_pct_population,0.7029455951039,% de la population,C,estimations UIT
+"C5b (UIT, Banque mondiale)",BEN,Benin,2003,usage_internet_pct_population,0.951327114915695,% de la population,C,estimations UIT
+"C5b (UIT, Banque mondiale)",BEN,Benin,2004,usage_internet_pct_population,1.18254096518994,% de la population,C,estimations UIT
+"C5b (UIT, Banque mondiale)",BEN,Benin,2005,usage_internet_pct_population,1.271000028,% de la population,C,estimations UIT
+"C5b (UIT, Banque mondiale)",BEN,Benin,2006,usage_internet_pct_population,1.537899971,% de la population,C,estimations UIT
+"C5b (UIT, Banque mondiale)",BEN,Benin,2007,usage_internet_pct_population,1.79,% de la population,C,estimations UIT ; Autorité Transitoire de Régulation des Postes et Télécommunications
+"C5b (UIT, Banque mondiale)",BEN,Benin,2008,usage_internet_pct_population,1.85,% de la population,C,estimations UIT ; Autorité Transitoire de Régulation des Postes et Télécommunications
+"C5b (UIT, Banque mondiale)",BEN,Benin,2009,usage_internet_pct_population,2.24,% de la population,C,estimations UIT ; Autorité Transitoire de Régulation des Postes et Télécommunications
+"C5b (UIT, Banque mondiale)",BEN,Benin,2010,usage_internet_pct_population,3.13,% de la population,C,estimations UIT ; Autorité Transitoire de Régulation des Postes et Télécommunications
+"C5b (UIT, Banque mondiale)",BEN,Benin,2011,usage_internet_pct_population,4.14832306562512,% de la population,C,estimations UIT ; NSO.
+"C5b (UIT, Banque mondiale)",BEN,Benin,2012,usage_internet_pct_population,4.5,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",BEN,Benin,2013,usage_internet_pct_population,4.900000095,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",BEN,Benin,2014,usage_internet_pct_population,6.0,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",BEN,Benin,2015,usage_internet_pct_population,11.25500011,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",BEN,Benin,2016,usage_internet_pct_population,14.5,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",BEN,Benin,2017,usage_internet_pct_population,18.7,% de la population,C,estimations UIT ; Findex.
+"C5b (UIT, Banque mondiale)",BEN,Benin,2018,usage_internet_pct_population,19.0,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",BEN,Benin,2019,usage_internet_pct_population,20.50099945,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",BEN,Benin,2020,usage_internet_pct_population,22.12059975,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",BEN,Benin,2021,usage_internet_pct_population,28.20470047,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",BEN,Benin,2022,usage_internet_pct_population,30.53730011,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",BEN,Benin,2023,usage_internet_pct_population,32.39400101,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",BEN,Benin,2024,usage_internet_pct_population,33.98379898,% de la population,C,estimations UIT
+"C5b (UIT, Banque mondiale)",BFA,Burkina Faso,2000,usage_internet_pct_population,0.0770801689426014,% de la population,C,estimations UIT
+"C5b (UIT, Banque mondiale)",BFA,Burkina Faso,2001,usage_internet_pct_population,0.157732464653607,% de la population,C,estimations UIT
+"C5b (UIT, Banque mondiale)",BFA,Burkina Faso,2002,usage_internet_pct_population,0.200992597925001,% de la population,C,estimations UIT
+"C5b (UIT, Banque mondiale)",BFA,Burkina Faso,2003,usage_internet_pct_population,0.373440303233526,% de la population,C,estimations UIT
+"C5b (UIT, Banque mondiale)",BFA,Burkina Faso,2004,usage_internet_pct_population,0.400295285492178,% de la population,C,estimations UIT
+"C5b (UIT, Banque mondiale)",BFA,Burkina Faso,2005,usage_internet_pct_population,0.469900012,% de la population,C,estimations UIT
+"C5b (UIT, Banque mondiale)",BFA,Burkina Faso,2006,usage_internet_pct_population,0.632700026,% de la population,C,estimations UIT
+"C5b (UIT, Banque mondiale)",BFA,Burkina Faso,2007,usage_internet_pct_population,0.75,% de la population,C,estimations UIT ; Autorité de Régulation des Télécommunications Électroniques (ARCE)
+"C5b (UIT, Banque mondiale)",BFA,Burkina Faso,2008,usage_internet_pct_population,0.920000017,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",BFA,Burkina Faso,2009,usage_internet_pct_population,1.129999995,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",BFA,Burkina Faso,2010,usage_internet_pct_population,2.400000095,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",BFA,Burkina Faso,2011,usage_internet_pct_population,3.0,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",BFA,Burkina Faso,2012,usage_internet_pct_population,3.724999905,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",BFA,Burkina Faso,2013,usage_internet_pct_population,5.0,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",BFA,Burkina Faso,2014,usage_internet_pct_population,6.0,% de la population,C,estimations UIT ; Institut national des Statistiques
+"C5b (UIT, Banque mondiale)",BFA,Burkina Faso,2015,usage_internet_pct_population,6.545700073,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",BFA,Burkina Faso,2016,usage_internet_pct_population,7.140999794,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",BFA,Burkina Faso,2017,usage_internet_pct_population,7.790400028,% de la population,C,estimations UIT ; ITU estimate
+"C5b (UIT, Banque mondiale)",BFA,Burkina Faso,2018,usage_internet_pct_population,8.498900414,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",BFA,Burkina Faso,2019,usage_internet_pct_population,9.27180600953186,% de la population,C,estimations UIT ; Institut National de la Statistique et de la Demographie
+"C5b (UIT, Banque mondiale)",BFA,Burkina Faso,2020,usage_internet_pct_population,12.97319984,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",BFA,Burkina Faso,2021,usage_internet_pct_population,18.1522007,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",BFA,Burkina Faso,2022,usage_internet_pct_population,25.3987999,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",BFA,Burkina Faso,2023,usage_internet_pct_population,25.36120033,% de la population,C,estimations UIT ; Gallup World Poll (estimate).
+"C5b (UIT, Banque mondiale)",BFA,Burkina Faso,2024,usage_internet_pct_population,28.25270081,% de la population,C,estimations UIT
+"C5b (UIT, Banque mondiale)",CIV,Cote d'Ivoire,2000,usage_internet_pct_population,0.231461670612799,% de la population,C,estimations UIT
+"C5b (UIT, Banque mondiale)",CIV,Cote d'Ivoire,2001,usage_internet_pct_population,0.395747702246439,% de la population,C,estimations UIT
+"C5b (UIT, Banque mondiale)",CIV,Cote d'Ivoire,2002,usage_internet_pct_population,0.497929360753307,% de la population,C,estimations UIT
+"C5b (UIT, Banque mondiale)",CIV,Cote d'Ivoire,2003,usage_internet_pct_population,0.758669629452205,% de la population,C,estimations UIT
+"C5b (UIT, Banque mondiale)",CIV,Cote d'Ivoire,2004,usage_internet_pct_population,0.849282414747704,% de la population,C,estimations UIT
+"C5b (UIT, Banque mondiale)",CIV,Cote d'Ivoire,2005,usage_internet_pct_population,1.039199948,% de la population,C,estimations UIT
+"C5b (UIT, Banque mondiale)",CIV,Cote d'Ivoire,2006,usage_internet_pct_population,1.52489996,% de la population,C,estimations UIT
+"C5b (UIT, Banque mondiale)",CIV,Cote d'Ivoire,2007,usage_internet_pct_population,1.799999952,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",CIV,Cote d'Ivoire,2008,usage_internet_pct_population,1.899999976,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",CIV,Cote d'Ivoire,2009,usage_internet_pct_population,2.0,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",CIV,Cote d'Ivoire,2010,usage_internet_pct_population,2.700000048,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",CIV,Cote d'Ivoire,2011,usage_internet_pct_population,2.900000095,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",CIV,Cote d'Ivoire,2012,usage_internet_pct_population,4.400000095,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",CIV,Cote d'Ivoire,2013,usage_internet_pct_population,6.599999905,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",CIV,Cote d'Ivoire,2014,usage_internet_pct_population,10.0,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",CIV,Cote d'Ivoire,2015,usage_internet_pct_population,38.4400001654616,% de la population,C,estimations UIT ; ARTCI
+"C5b (UIT, Banque mondiale)",CIV,Cote d'Ivoire,2016,usage_internet_pct_population,41.2078149304414,% de la population,C,estimations UIT ; ARTCI
+"C5b (UIT, Banque mondiale)",CIV,Cote d'Ivoire,2017,usage_internet_pct_population,43.8399208514876,% de la population,C,estimations UIT ; ARTCI
+"C5b (UIT, Banque mondiale)",CIV,Cote d'Ivoire,2018,usage_internet_pct_population,37.5465361301281,% de la population,C,estimations UIT ; ARTCI
+"C5b (UIT, Banque mondiale)",CIV,Cote d'Ivoire,2019,usage_internet_pct_population,36.2889545655205,% de la population,C,estimations UIT ; ARTCI
+"C5b (UIT, Banque mondiale)",CIV,Cote d'Ivoire,2020,usage_internet_pct_population,36.01660156,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",CIV,Cote d'Ivoire,2021,usage_internet_pct_population,35.95069885,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",CIV,Cote d'Ivoire,2022,usage_internet_pct_population,38.41328122,% de la population,C,estimations UIT ; ARTCI
+"C5b (UIT, Banque mondiale)",CIV,Cote d'Ivoire,2023,usage_internet_pct_population,40.65284979,% de la population,C,estimations UIT ; ARTCI
+"C5b (UIT, Banque mondiale)",CIV,Cote d'Ivoire,2024,usage_internet_pct_population,41.43219902,% de la population,C,estimations UIT
+"C5b (UIT, Banque mondiale)",GNB,Guinea-Bissau,2000,usage_internet_pct_population,0.230103170591588,% de la population,C,estimations UIT
+"C5b (UIT, Banque mondiale)",GNB,Guinea-Bissau,2001,usage_internet_pct_population,0.299569144677667,% de la population,C,estimations UIT
+"C5b (UIT, Banque mondiale)",GNB,Guinea-Bissau,2002,usage_internet_pct_population,1.02299323436117,% de la population,C,estimations UIT
+"C5b (UIT, Banque mondiale)",GNB,Guinea-Bissau,2003,usage_internet_pct_population,1.35419747762901,% de la population,C,estimations UIT
+"C5b (UIT, Banque mondiale)",GNB,Guinea-Bissau,2004,usage_internet_pct_population,1.80814220342991,% de la population,C,estimations UIT
+"C5b (UIT, Banque mondiale)",GNB,Guinea-Bissau,2005,usage_internet_pct_population,1.90139997,% de la population,C,estimations UIT
+"C5b (UIT, Banque mondiale)",GNB,Guinea-Bissau,2006,usage_internet_pct_population,2.057199955,% de la population,C,estimations UIT
+"C5b (UIT, Banque mondiale)",GNB,Guinea-Bissau,2007,usage_internet_pct_population,2.20630002,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",GNB,Guinea-Bissau,2008,usage_internet_pct_population,2.35488871087933,% de la population,C,estimations UIT ; Instituto das Comunicaçoes da Guiné-Bissau.
+"C5b (UIT, Banque mondiale)",GNB,Guinea-Bissau,2009,usage_internet_pct_population,2.30328059172582,% de la population,C,estimations UIT ; Instituto das Comunicaçoes da Guiné-Bissau.
+"C5b (UIT, Banque mondiale)",GNB,Guinea-Bissau,2010,usage_internet_pct_population,2.450000048,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",GNB,Guinea-Bissau,2011,usage_internet_pct_population,2.671999931,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",GNB,Guinea-Bissau,2012,usage_internet_pct_population,2.894000053,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",GNB,Guinea-Bissau,2013,usage_internet_pct_population,3.099999905,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",GNB,Guinea-Bissau,2014,usage_internet_pct_population,3.319999933,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",GNB,Guinea-Bissau,2015,usage_internet_pct_population,6.099999905,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",GNB,Guinea-Bissau,2016,usage_internet_pct_population,13.80000019,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",GNB,Guinea-Bissau,2017,usage_internet_pct_population,14.80000019,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",GNB,Guinea-Bissau,2018,usage_internet_pct_population,15.69999981,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",GNB,Guinea-Bissau,2019,usage_internet_pct_population,17.92149925,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",GNB,Guinea-Bissau,2020,usage_internet_pct_population,20.45730019,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",GNB,Guinea-Bissau,2021,usage_internet_pct_population,23.3519001,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",GNB,Guinea-Bissau,2022,usage_internet_pct_population,27.67379951,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",GNB,Guinea-Bissau,2023,usage_internet_pct_population,28.71240044,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",GNB,Guinea-Bissau,2024,usage_internet_pct_population,29.77739906,% de la population,C,estimations UIT
+"C5b (UIT, Banque mondiale)",MLI,Mali,2000,usage_internet_pct_population,0.142545755049184,% de la population,C,estimations UIT
+"C5b (UIT, Banque mondiale)",MLI,Mali,2001,usage_internet_pct_population,0.185897413256084,% de la population,C,estimations UIT
+"C5b (UIT, Banque mondiale)",MLI,Mali,2002,usage_internet_pct_population,0.2270455784917,% de la population,C,estimations UIT
+"C5b (UIT, Banque mondiale)",MLI,Mali,2003,usage_internet_pct_population,0.310364443230575,% de la population,C,estimations UIT
+"C5b (UIT, Banque mondiale)",MLI,Mali,2004,usage_internet_pct_population,0.432819639900985,% de la population,C,estimations UIT
+"C5b (UIT, Banque mondiale)",MLI,Mali,2005,usage_internet_pct_population,0.507099986,% de la population,C,estimations UIT
+"C5b (UIT, Banque mondiale)",MLI,Mali,2006,usage_internet_pct_population,0.729600012,% de la population,C,estimations UIT
+"C5b (UIT, Banque mondiale)",MLI,Mali,2007,usage_internet_pct_population,0.81,% de la population,C,estimations UIT ; Comité de Régulation des Télécommnications CRT
+"C5b (UIT, Banque mondiale)",MLI,Mali,2008,usage_internet_pct_population,1.57,% de la population,C,estimations UIT ; Comité de Régulation des Télécommnications CRT
+"C5b (UIT, Banque mondiale)",MLI,Mali,2009,usage_internet_pct_population,1.799999952,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",MLI,Mali,2010,usage_internet_pct_population,2.0,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",MLI,Mali,2011,usage_internet_pct_population,2.2,% de la population,C,estimations UIT ; Institut National de la Statistique (ex Direction Nationale de la Statistique et de l'Informatique)
+"C5b (UIT, Banque mondiale)",MLI,Mali,2012,usage_internet_pct_population,2.799999952,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",MLI,Mali,2013,usage_internet_pct_population,3.5,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",MLI,Mali,2014,usage_internet_pct_population,7.0,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",MLI,Mali,2015,usage_internet_pct_population,10.32999992,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",MLI,Mali,2016,usage_internet_pct_population,14.0,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",MLI,Mali,2017,usage_internet_pct_population,18.89999962,% de la population,C,"estimations UIT ; ITU estimate., Findex."
+"C5b (UIT, Banque mondiale)",MLI,Mali,2018,usage_internet_pct_population,21.39999962,% de la population,C,"estimations UIT ; ITU estimate., Estimate based on DHS."
+"C5b (UIT, Banque mondiale)",MLI,Mali,2019,usage_internet_pct_population,24.96030045,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",MLI,Mali,2020,usage_internet_pct_population,29.11300087,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",MLI,Mali,2021,usage_internet_pct_population,33.95650101,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",MLI,Mali,2022,usage_internet_pct_population,35.19919968,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",MLI,Mali,2023,usage_internet_pct_population,36.03879929,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",MLI,Mali,2024,usage_internet_pct_population,36.80149841,% de la population,C,estimations UIT
+"C5b (UIT, Banque mondiale)",NER,Niger,2000,usage_internet_pct_population,0.0362612938065891,% de la population,C,estimations UIT
+"C5b (UIT, Banque mondiale)",NER,Niger,2001,usage_internet_pct_population,0.10518543139701,% de la population,C,estimations UIT
+"C5b (UIT, Banque mondiale)",NER,Niger,2002,usage_internet_pct_population,0.127152468779619,% de la population,C,estimations UIT
+"C5b (UIT, Banque mondiale)",NER,Niger,2003,usage_internet_pct_population,0.155698703668983,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",NER,Niger,2004,usage_internet_pct_population,0.189933733703092,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",NER,Niger,2005,usage_internet_pct_population,0.221300006,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",NER,Niger,2006,usage_internet_pct_population,0.294,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",NER,Niger,2007,usage_internet_pct_population,0.390399992,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",NER,Niger,2008,usage_internet_pct_population,0.7,% de la population,C,estimations UIT ; Institut National de la Statistique (INS).
+"C5b (UIT, Banque mondiale)",NER,Niger,2009,usage_internet_pct_population,0.76,% de la population,C,estimations UIT ; Institut National de la Statistique
+"C5b (UIT, Banque mondiale)",NER,Niger,2010,usage_internet_pct_population,0.829999983,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",NER,Niger,2011,usage_internet_pct_population,0.9,% de la population,C,estimations UIT ; Institut National de la Statistique
+"C5b (UIT, Banque mondiale)",NER,Niger,2012,usage_internet_pct_population,1.049999952,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",NER,Niger,2013,usage_internet_pct_population,1.149999976,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",NER,Niger,2014,usage_internet_pct_population,1.24867568902241,% de la population,C,"estimations UIT ; MINISTERE DES POSTES, DES TELECOMMUNICATIONS ET DE L'ECONOMIE NUMERIQUE"
+"C5b (UIT, Banque mondiale)",NER,Niger,2015,usage_internet_pct_population,2.476200104,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",NER,Niger,2016,usage_internet_pct_population,4.322800159,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",NER,Niger,2017,usage_internet_pct_population,10.2243115586561,% de la population,C,"estimations UIT ; Ministère des Postes, des Télécommunications et de l'Economie Numérique"
+"C5b (UIT, Banque mondiale)",NER,Niger,2018,usage_internet_pct_population,10.74180031,% de la population,C,estimations UIT ; Source: Ministère des Postes; des Télécommunications et de l'Economie Numérique
+"C5b (UIT, Banque mondiale)",NER,Niger,2019,usage_internet_pct_population,11.28549957,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",NER,Niger,2020,usage_internet_pct_population,11.85680008,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",NER,Niger,2021,usage_internet_pct_population,12.45689964,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",NER,Niger,2022,usage_internet_pct_population,13.08749962,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",NER,Niger,2023,usage_internet_pct_population,12.98079967,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",NER,Niger,2024,usage_internet_pct_population,15.55760002,% de la population,C,estimations UIT
+"C5b (UIT, Banque mondiale)",SEN,Senegal,2000,usage_internet_pct_population,0.403967485868965,% de la population,C,estimations UIT ; Société Nationale des Télécommunications du Sénégal (SONATEL).
+"C5b (UIT, Banque mondiale)",SEN,Senegal,2001,usage_internet_pct_population,0.983794058848003,% de la population,C,estimations UIT ; Société Nationale des Télécommunications du Sénégal (SONATEL).
+"C5b (UIT, Banque mondiale)",SEN,Senegal,2002,usage_internet_pct_population,1.00645453672323,% de la population,C,estimations UIT ; Société Nationale des Télécommunications du Sénégal (SONATEL).
+"C5b (UIT, Banque mondiale)",SEN,Senegal,2003,usage_internet_pct_population,2.10143642986685,% de la population,C,estimations UIT ; Société Nationale des Télécommunications du Sénégal (SONATEL).
+"C5b (UIT, Banque mondiale)",SEN,Senegal,2004,usage_internet_pct_population,4.38602398008563,% de la population,C,estimations UIT ; Agence de Régulation des Télécommunications.
+"C5b (UIT, Banque mondiale)",SEN,Senegal,2005,usage_internet_pct_population,4.78668408310535,% de la population,C,estimations UIT ; Agence de Régulation des Télécommunications.
+"C5b (UIT, Banque mondiale)",SEN,Senegal,2006,usage_internet_pct_population,5.61173865217952,% de la population,C,estimations UIT ; Agence de Régulation des Télécommunications.
+"C5b (UIT, Banque mondiale)",SEN,Senegal,2007,usage_internet_pct_population,6.889999866,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",SEN,Senegal,2008,usage_internet_pct_population,7.119999886,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",SEN,Senegal,2009,usage_internet_pct_population,7.5,% de la population,C,"estimations UIT ; ITU estimate., Refers to total population. Survey result: 14.5% for population age 12+."
+"C5b (UIT, Banque mondiale)",SEN,Senegal,2010,usage_internet_pct_population,8.0,% de la population,C,"estimations UIT ; ITU estimate., Refers to total population. Survey result: 16% for population age 12+."
+"C5b (UIT, Banque mondiale)",SEN,Senegal,2011,usage_internet_pct_population,9.800000191,% de la population,C,"estimations UIT ; ITU estimate., Refers to total population. Country estimates 17.5% for population age 12+."
+"C5b (UIT, Banque mondiale)",SEN,Senegal,2012,usage_internet_pct_population,10.80000019,% de la population,C,"estimations UIT ; ITU estimate., Refers to total population."
+"C5b (UIT, Banque mondiale)",SEN,Senegal,2013,usage_internet_pct_population,13.10000038,% de la population,C,"estimations UIT ; ITU estimate., Refers to total population."
+"C5b (UIT, Banque mondiale)",SEN,Senegal,2014,usage_internet_pct_population,17.70000076,% de la population,C,"estimations UIT ; ITU estimate., Refers to total population."
+"C5b (UIT, Banque mondiale)",SEN,Senegal,2015,usage_internet_pct_population,21.70000076,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",SEN,Senegal,2016,usage_internet_pct_population,25.66480064,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",SEN,Senegal,2017,usage_internet_pct_population,29.64310074,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",SEN,Senegal,2018,usage_internet_pct_population,35.29999924,% de la population,C,"estimations UIT ; ITU estimate., Estimated based on DHS 2018"
+"C5b (UIT, Banque mondiale)",SEN,Senegal,2019,usage_internet_pct_population,43.37969971,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",SEN,Senegal,2020,usage_internet_pct_population,53.30879974,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",SEN,Senegal,2021,usage_internet_pct_population,55.04040146,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",SEN,Senegal,2022,usage_internet_pct_population,56.82830048,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",SEN,Senegal,2023,usage_internet_pct_population,59.18740082,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",SEN,Senegal,2024,usage_internet_pct_population,60.11780167,% de la population,C,estimations UIT
+"C5b (UIT, Banque mondiale)",TGO,Togo,2000,usage_internet_pct_population,0.8,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",TGO,Togo,2001,usage_internet_pct_population,0.9,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",TGO,Togo,2002,usage_internet_pct_population,1.0,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",TGO,Togo,2003,usage_internet_pct_population,1.2,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",TGO,Togo,2004,usage_internet_pct_population,1.5,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",TGO,Togo,2005,usage_internet_pct_population,1.799999952,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",TGO,Togo,2006,usage_internet_pct_population,2.0,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",TGO,Togo,2007,usage_internet_pct_population,2.200000048,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",TGO,Togo,2008,usage_internet_pct_population,2.400000095,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",TGO,Togo,2009,usage_internet_pct_population,2.599999905,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",TGO,Togo,2010,usage_internet_pct_population,3.0,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",TGO,Togo,2011,usage_internet_pct_population,3.5,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",TGO,Togo,2012,usage_internet_pct_population,4.0,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",TGO,Togo,2013,usage_internet_pct_population,4.5,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",TGO,Togo,2014,usage_internet_pct_population,5.699999809,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",TGO,Togo,2015,usage_internet_pct_population,7.119999886,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",TGO,Togo,2016,usage_internet_pct_population,11.31000042,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",TGO,Togo,2017,usage_internet_pct_population,12.3602249692905,% de la population,C,estimations UIT ; Institut national de la statistique et des études économiques et démographiques
+"C5b (UIT, Banque mondiale)",TGO,Togo,2018,usage_internet_pct_population,15.5,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",TGO,Togo,2019,usage_internet_pct_population,20.72730064,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",TGO,Togo,2020,usage_internet_pct_population,29.02370071,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",TGO,Togo,2021,usage_internet_pct_population,30.33839989,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",TGO,Togo,2022,usage_internet_pct_population,35.60749817,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",TGO,Togo,2023,usage_internet_pct_population,37.57020187,% de la population,C,estimations UIT ; ITU estimate.
+"C5b (UIT, Banque mondiale)",TGO,Togo,2024,usage_internet_pct_population,39.48320007,% de la population,C,estimations UIT
+IT1 (UIT),BEN,Bénin,2023,i271mb_1GB_GNI,4.17,% du RNB mensuel par habitant,C,Data-only mobile broadband 1GB
+IT1 (UIT),BEN,Bénin,2024,i271mb_1GB_GNI,3.88,% du RNB mensuel par habitant,C,Data-only mobile broadband 1GB
+IT1 (UIT),BEN,Bénin,2025,i271mb_1GB_GNI,3.77,% du RNB mensuel par habitant,C,Data-only mobile broadband 1GB
+IT1 (UIT),BEN,Bénin,2021,i271mb_2GB_GNI,6.53,% du RNB mensuel par habitant,C,Data-only mobile broadband 2GB (2021-2024)
+IT1 (UIT),BEN,Bénin,2022,i271mb_2GB_GNI,5.66,% du RNB mensuel par habitant,C,Data-only mobile broadband 2GB (2021-2024)
+IT1 (UIT),BEN,Bénin,2023,i271mb_2GB_GNI,5.51,% du RNB mensuel par habitant,C,Data-only mobile broadband 2GB (2021-2024)
+IT1 (UIT),BEN,Bénin,2024,i271mb_2GB_GNI,4.58,% du RNB mensuel par habitant,C,Data-only mobile broadband 2GB (2021-2024)
+IT1 (UIT),BEN,Bénin,2025,i271mb_2GB_GNI,4.04,% du RNB mensuel par habitant,C,Data-only mobile broadband 2GB (2021-2024)
+IT1 (UIT),BFA,Burkina Faso,2023,i271mb_1GB_GNI,7.36,% du RNB mensuel par habitant,C,Data-only mobile broadband 1GB
+IT1 (UIT),BFA,Burkina Faso,2024,i271mb_1GB_GNI,6.14,% du RNB mensuel par habitant,C,Data-only mobile broadband 1GB
+IT1 (UIT),BFA,Burkina Faso,2025,i271mb_1GB_GNI,5.5,% du RNB mensuel par habitant,C,Data-only mobile broadband 1GB
+IT1 (UIT),BFA,Burkina Faso,2021,i271mb_2GB_GNI,10.46,% du RNB mensuel par habitant,C,Data-only mobile broadband 2GB (2021-2024)
+IT1 (UIT),BFA,Burkina Faso,2022,i271mb_2GB_GNI,9.94,% du RNB mensuel par habitant,C,Data-only mobile broadband 2GB (2021-2024)
+IT1 (UIT),BFA,Burkina Faso,2023,i271mb_2GB_GNI,9.81,% du RNB mensuel par habitant,C,Data-only mobile broadband 2GB (2021-2024)
+IT1 (UIT),BFA,Burkina Faso,2024,i271mb_2GB_GNI,4.96,% du RNB mensuel par habitant,C,Data-only mobile broadband 2GB (2021-2024)
+IT1 (UIT),BFA,Burkina Faso,2025,i271mb_2GB_GNI,8.8,% du RNB mensuel par habitant,C,Data-only mobile broadband 2GB (2021-2024)
+IT1 (UIT),CIV,Côte d'Ivoire,2023,i271mb_1GB_GNI,1.6,% du RNB mensuel par habitant,C,Data-only mobile broadband 1GB
+IT1 (UIT),CIV,Côte d'Ivoire,2024,i271mb_1GB_GNI,1.51,% du RNB mensuel par habitant,C,Data-only mobile broadband 1GB
+IT1 (UIT),CIV,Côte d'Ivoire,2025,i271mb_1GB_GNI,1.52,% du RNB mensuel par habitant,C,Data-only mobile broadband 1GB
+IT1 (UIT),CIV,Côte d'Ivoire,2021,i271mb_2GB_GNI,2.58,% du RNB mensuel par habitant,C,Data-only mobile broadband 2GB (2021-2024)
+IT1 (UIT),CIV,Côte d'Ivoire,2022,i271mb_2GB_GNI,2.42,% du RNB mensuel par habitant,C,Data-only mobile broadband 2GB (2021-2024)
+IT1 (UIT),CIV,Côte d'Ivoire,2023,i271mb_2GB_GNI,2.0,% du RNB mensuel par habitant,C,Data-only mobile broadband 2GB (2021-2024)
+IT1 (UIT),CIV,Côte d'Ivoire,2024,i271mb_2GB_GNI,1.89,% du RNB mensuel par habitant,C,Data-only mobile broadband 2GB (2021-2024)
+IT1 (UIT),CIV,Côte d'Ivoire,2025,i271mb_2GB_GNI,1.9,% du RNB mensuel par habitant,C,Data-only mobile broadband 2GB (2021-2024)
+IT1 (UIT),GNB,Guinée-Bissau,2023,i271mb_1GB_GNI,9.79,% du RNB mensuel par habitant,C,Data-only mobile broadband 1GB
+IT1 (UIT),GNB,Guinée-Bissau,2024,i271mb_1GB_GNI,8.54,% du RNB mensuel par habitant,C,Data-only mobile broadband 1GB
+IT1 (UIT),GNB,Guinée-Bissau,2025,i271mb_1GB_GNI,5.1,% du RNB mensuel par habitant,C,Data-only mobile broadband 1GB
+IT1 (UIT),GNB,Guinée-Bissau,2021,i271mb_2GB_GNI,8.45,% du RNB mensuel par habitant,C,Data-only mobile broadband 2GB (2021-2024)
+IT1 (UIT),GNB,Guinée-Bissau,2022,i271mb_2GB_GNI,7.97,% du RNB mensuel par habitant,C,Data-only mobile broadband 2GB (2021-2024)
+IT1 (UIT),GNB,Guinée-Bissau,2023,i271mb_2GB_GNI,9.79,% du RNB mensuel par habitant,C,Data-only mobile broadband 2GB (2021-2024)
+IT1 (UIT),GNB,Guinée-Bissau,2024,i271mb_2GB_GNI,8.54,% du RNB mensuel par habitant,C,Data-only mobile broadband 2GB (2021-2024)
+IT1 (UIT),GNB,Guinée-Bissau,2025,i271mb_2GB_GNI,5.1,% du RNB mensuel par habitant,C,Data-only mobile broadband 2GB (2021-2024)
+IT1 (UIT),MLI,Mali,2023,i271mb_1GB_GNI,4.81,% du RNB mensuel par habitant,C,Data-only mobile broadband 1GB
+IT1 (UIT),MLI,Mali,2024,i271mb_1GB_GNI,4.62,% du RNB mensuel par habitant,C,Data-only mobile broadband 1GB
+IT1 (UIT),MLI,Mali,2025,i271mb_1GB_GNI,3.75,% du RNB mensuel par habitant,C,Data-only mobile broadband 1GB
+IT1 (UIT),MLI,Mali,2021,i271mb_2GB_GNI,10.08,% du RNB mensuel par habitant,C,Data-only mobile broadband 2GB (2021-2024)
+IT1 (UIT),MLI,Mali,2022,i271mb_2GB_GNI,9.72,% du RNB mensuel par habitant,C,Data-only mobile broadband 2GB (2021-2024)
+IT1 (UIT),MLI,Mali,2023,i271mb_2GB_GNI,9.62,% du RNB mensuel par habitant,C,Data-only mobile broadband 2GB (2021-2024)
+IT1 (UIT),MLI,Mali,2024,i271mb_2GB_GNI,9.24,% du RNB mensuel par habitant,C,Data-only mobile broadband 2GB (2021-2024)
+IT1 (UIT),MLI,Mali,2025,i271mb_2GB_GNI,7.51,% du RNB mensuel par habitant,C,Data-only mobile broadband 2GB (2021-2024)
+IT1 (UIT),NER,Niger,2023,i271mb_1GB_GNI,7.17,% du RNB mensuel par habitant,C,Data-only mobile broadband 1GB
+IT1 (UIT),NER,Niger,2024,i271mb_1GB_GNI,6.65,% du RNB mensuel par habitant,C,Data-only mobile broadband 1GB
+IT1 (UIT),NER,Niger,2025,i271mb_1GB_GNI,5.55,% du RNB mensuel par habitant,C,Data-only mobile broadband 1GB
+IT1 (UIT),NER,Niger,2021,i271mb_2GB_GNI,15.34,% du RNB mensuel par habitant,C,Data-only mobile broadband 2GB (2021-2024)
+IT1 (UIT),NER,Niger,2022,i271mb_2GB_GNI,7.16,% du RNB mensuel par habitant,C,Data-only mobile broadband 2GB (2021-2024)
+IT1 (UIT),NER,Niger,2023,i271mb_2GB_GNI,7.17,% du RNB mensuel par habitant,C,Data-only mobile broadband 2GB (2021-2024)
+IT1 (UIT),NER,Niger,2024,i271mb_2GB_GNI,8.31,% du RNB mensuel par habitant,C,Data-only mobile broadband 2GB (2021-2024)
+IT1 (UIT),NER,Niger,2025,i271mb_2GB_GNI,6.93,% du RNB mensuel par habitant,C,Data-only mobile broadband 2GB (2021-2024)
+IT1 (UIT),SEN,Sénégal,2023,i271mb_1GB_GNI,2.47,% du RNB mensuel par habitant,C,Data-only mobile broadband 1GB
+IT1 (UIT),SEN,Sénégal,2024,i271mb_1GB_GNI,2.34,% du RNB mensuel par habitant,C,Data-only mobile broadband 1GB
+IT1 (UIT),SEN,Sénégal,2025,i271mb_1GB_GNI,2.34,% du RNB mensuel par habitant,C,Data-only mobile broadband 1GB
+IT1 (UIT),SEN,Sénégal,2021,i271mb_2GB_GNI,2.87,% du RNB mensuel par habitant,C,Data-only mobile broadband 2GB (2021-2024)
+IT1 (UIT),SEN,Sénégal,2022,i271mb_2GB_GNI,2.75,% du RNB mensuel par habitant,C,Data-only mobile broadband 2GB (2021-2024)
+IT1 (UIT),SEN,Sénégal,2023,i271mb_2GB_GNI,2.47,% du RNB mensuel par habitant,C,Data-only mobile broadband 2GB (2021-2024)
+IT1 (UIT),SEN,Sénégal,2024,i271mb_2GB_GNI,2.34,% du RNB mensuel par habitant,C,Data-only mobile broadband 2GB (2021-2024)
+IT1 (UIT),SEN,Sénégal,2025,i271mb_2GB_GNI,2.34,% du RNB mensuel par habitant,C,Data-only mobile broadband 2GB (2021-2024)
+IT1 (UIT),TGO,Togo,2023,i271mb_1GB_GNI,5.85,% du RNB mensuel par habitant,C,Data-only mobile broadband 1GB
+IT1 (UIT),TGO,Togo,2024,i271mb_1GB_GNI,5.45,% du RNB mensuel par habitant,C,Data-only mobile broadband 1GB
+IT1 (UIT),TGO,Togo,2025,i271mb_1GB_GNI,5.3,% du RNB mensuel par habitant,C,Data-only mobile broadband 1GB
+IT1 (UIT),TGO,Togo,2021,i271mb_2GB_GNI,11.37,% du RNB mensuel par habitant,C,Data-only mobile broadband 2GB (2021-2024)
+IT1 (UIT),TGO,Togo,2022,i271mb_2GB_GNI,8.7,% du RNB mensuel par habitant,C,Data-only mobile broadband 2GB (2021-2024)
+IT1 (UIT),TGO,Togo,2023,i271mb_2GB_GNI,6.27,% du RNB mensuel par habitant,C,Data-only mobile broadband 2GB (2021-2024)
+IT1 (UIT),TGO,Togo,2024,i271mb_2GB_GNI,5.83,% du RNB mensuel par habitant,C,Data-only mobile broadband 2GB (2021-2024)
+IT1 (UIT),TGO,Togo,2025,i271mb_2GB_GNI,5.68,% du RNB mensuel par habitant,C,Data-only mobile broadband 2GB (2021-2024)
+"BC2 (BCEAO, tableau de bord 2024)",BEN,Bénin,2014,TGPSFd,45.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",BEN,Bénin,2015,TGPSFd,50.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",BEN,Bénin,2016,TGPSFd,55.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",BEN,Bénin,2017,TGPSFd,69.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",BEN,Bénin,2018,TGPSFd,115.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",BEN,Bénin,2019,TGPSFd,166.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",BEN,Bénin,2020,TGPSFd,253.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",BEN,Bénin,2021,TGPSFd,290.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",BEN,Bénin,2022,TGPSFd,454.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",BEN,Bénin,2023,TGPSFd,608.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",BEN,Bénin,2024,TGPSFd,417.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",BEN,Bénin,2014,TGPSFg,219.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",BEN,Bénin,2015,TGPSFg,250.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",BEN,Bénin,2016,TGPSFg,285.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",BEN,Bénin,2017,TGPSFg,371.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",BEN,Bénin,2018,TGPSFg,645.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",BEN,Bénin,2019,TGPSFg,989.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",BEN,Bénin,2020,TGPSFg,1531.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",BEN,Bénin,2021,TGPSFg,1830.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",BEN,Bénin,2022,TGPSFg,2931.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",BEN,Bénin,2023,TGPSFg,4051.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",BEN,Bénin,2024,TGPSFg,2867.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",BFA,Burkina Faso,2014,TGPSFd,14.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",BFA,Burkina Faso,2015,TGPSFd,18.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",BFA,Burkina Faso,2016,TGPSFd,14.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",BFA,Burkina Faso,2017,TGPSFd,43.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",BFA,Burkina Faso,2018,TGPSFd,65.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",BFA,Burkina Faso,2019,TGPSFd,110.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",BFA,Burkina Faso,2020,TGPSFd,92.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",BFA,Burkina Faso,2021,TGPSFd,108.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",BFA,Burkina Faso,2022,TGPSFd,116.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",BFA,Burkina Faso,2023,TGPSFd,94.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",BFA,Burkina Faso,2024,TGPSFd,105.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",BFA,Burkina Faso,2014,TGPSFg,48.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",BFA,Burkina Faso,2015,TGPSFg,64.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",BFA,Burkina Faso,2016,TGPSFg,52.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",BFA,Burkina Faso,2017,TGPSFg,163.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",BFA,Burkina Faso,2018,TGPSFg,255.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",BFA,Burkina Faso,2019,TGPSFg,449.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",BFA,Burkina Faso,2020,TGPSFg,396.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",BFA,Burkina Faso,2021,TGPSFg,491.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",BFA,Burkina Faso,2022,TGPSFg,555.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",BFA,Burkina Faso,2023,TGPSFg,471.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",BFA,Burkina Faso,2024,TGPSFg,552.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",CIV,Côte d'Ivoire,2014,TGPSFd,16.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",CIV,Côte d'Ivoire,2015,TGPSFd,23.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",CIV,Côte d'Ivoire,2016,TGPSFd,25.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",CIV,Côte d'Ivoire,2017,TGPSFd,35.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",CIV,Côte d'Ivoire,2018,TGPSFd,60.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",CIV,Côte d'Ivoire,2019,TGPSFd,115.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",CIV,Côte d'Ivoire,2020,TGPSFd,118.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",CIV,Côte d'Ivoire,2021,TGPSFd,156.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",CIV,Côte d'Ivoire,2022,TGPSFd,209.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",CIV,Côte d'Ivoire,2023,TGPSFd,225.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",CIV,Côte d'Ivoire,2024,TGPSFd,224.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",CIV,Côte d'Ivoire,2014,TGPSFg,67.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",CIV,Côte d'Ivoire,2015,TGPSFg,102.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",CIV,Côte d'Ivoire,2016,TGPSFg,115.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",CIV,Côte d'Ivoire,2017,TGPSFg,168.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",CIV,Côte d'Ivoire,2018,TGPSFg,293.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",CIV,Côte d'Ivoire,2019,TGPSFg,574.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",CIV,Côte d'Ivoire,2020,TGPSFg,628.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",CIV,Côte d'Ivoire,2021,TGPSFg,856.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",CIV,Côte d'Ivoire,2022,TGPSFg,1176.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",CIV,Côte d'Ivoire,2023,TGPSFg,1295.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",CIV,Côte d'Ivoire,2024,TGPSFg,1325.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",GNB,Guinée-Bissau,2014,TGPSFd,2.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",GNB,Guinée-Bissau,2015,TGPSFd,2.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",GNB,Guinée-Bissau,2016,TGPSFd,2.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",GNB,Guinée-Bissau,2017,TGPSFd,2.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",GNB,Guinée-Bissau,2018,TGPSFd,2.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",GNB,Guinée-Bissau,2019,TGPSFd,2.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",GNB,Guinée-Bissau,2020,TGPSFd,143.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",GNB,Guinée-Bissau,2021,TGPSFd,169.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",GNB,Guinée-Bissau,2022,TGPSFd,189.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",GNB,Guinée-Bissau,2023,TGPSFd,57.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",GNB,Guinée-Bissau,2024,TGPSFd,64.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",GNB,Guinée-Bissau,2014,TGPSFg,4.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",GNB,Guinée-Bissau,2015,TGPSFg,4.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",GNB,Guinée-Bissau,2016,TGPSFg,4.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",GNB,Guinée-Bissau,2017,TGPSFg,5.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",GNB,Guinée-Bissau,2018,TGPSFg,5.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",GNB,Guinée-Bissau,2019,TGPSFg,6.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",GNB,Guinée-Bissau,2020,TGPSFg,401.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",GNB,Guinée-Bissau,2021,TGPSFg,550.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",GNB,Guinée-Bissau,2022,TGPSFg,632.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",GNB,Guinée-Bissau,2023,TGPSFg,207.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",GNB,Guinée-Bissau,2024,TGPSFg,242.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",MLI,Mali,2014,TGPSFd,21.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",MLI,Mali,2015,TGPSFd,38.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",MLI,Mali,2016,TGPSFd,45.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",MLI,Mali,2017,TGPSFd,47.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",MLI,Mali,2018,TGPSFd,56.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",MLI,Mali,2019,TGPSFd,139.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",MLI,Mali,2020,TGPSFd,185.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",MLI,Mali,2021,TGPSFd,204.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",MLI,Mali,2022,TGPSFd,206.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",MLI,Mali,2023,TGPSFd,244.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",MLI,Mali,2024,TGPSFd,238.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",MLI,Mali,2014,TGPSFg,16.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",MLI,Mali,2015,TGPSFg,29.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",MLI,Mali,2016,TGPSFg,36.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",MLI,Mali,2017,TGPSFg,39.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",MLI,Mali,2018,TGPSFg,47.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",MLI,Mali,2019,TGPSFg,121.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",MLI,Mali,2020,TGPSFg,165.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",MLI,Mali,2021,TGPSFg,189.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",MLI,Mali,2022,TGPSFg,195.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",MLI,Mali,2023,TGPSFg,238.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",MLI,Mali,2024,TGPSFg,238.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",NER,Niger,2014,TGPSFd,27.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",NER,Niger,2015,TGPSFd,37.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",NER,Niger,2016,TGPSFd,24.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",NER,Niger,2017,TGPSFd,22.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",NER,Niger,2018,TGPSFd,26.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",NER,Niger,2019,TGPSFd,21.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",NER,Niger,2020,TGPSFd,20.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",NER,Niger,2021,TGPSFd,31.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",NER,Niger,2022,TGPSFd,63.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",NER,Niger,2023,TGPSFd,69.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",NER,Niger,2024,TGPSFd,109.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",NER,Niger,2014,TGPSFg,20.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",NER,Niger,2015,TGPSFg,27.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",NER,Niger,2016,TGPSFg,18.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",NER,Niger,2017,TGPSFg,17.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",NER,Niger,2018,TGPSFg,22.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",NER,Niger,2019,TGPSFg,18.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",NER,Niger,2020,TGPSFg,18.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",NER,Niger,2021,TGPSFg,29.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",NER,Niger,2022,TGPSFg,62.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",NER,Niger,2023,TGPSFg,71.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",NER,Niger,2024,TGPSFg,115.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",SEN,Sénégal,2014,TGPSFd,31.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",SEN,Sénégal,2015,TGPSFd,41.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",SEN,Sénégal,2016,TGPSFd,23.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",SEN,Sénégal,2017,TGPSFd,46.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",SEN,Sénégal,2018,TGPSFd,53.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",SEN,Sénégal,2019,TGPSFd,113.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",SEN,Sénégal,2020,TGPSFd,84.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",SEN,Sénégal,2021,TGPSFd,145.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",SEN,Sénégal,2022,TGPSFd,160.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",SEN,Sénégal,2023,TGPSFd,204.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",SEN,Sénégal,2024,TGPSFd,201.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",SEN,Sénégal,2014,TGPSFg,131.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",SEN,Sénégal,2015,TGPSFg,175.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",SEN,Sénégal,2016,TGPSFg,101.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",SEN,Sénégal,2017,TGPSFg,206.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",SEN,Sénégal,2018,TGPSFg,250.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",SEN,Sénégal,2019,TGPSFg,546.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",SEN,Sénégal,2020,TGPSFg,416.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",SEN,Sénégal,2021,TGPSFg,741.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",SEN,Sénégal,2022,TGPSFg,841.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",SEN,Sénégal,2023,TGPSFg,1139.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",SEN,Sénégal,2024,TGPSFg,1170.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",TGO,Togo,2014,TGPSFd,4.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",TGO,Togo,2015,TGPSFd,8.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",TGO,Togo,2016,TGPSFd,11.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",TGO,Togo,2017,TGPSFd,35.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",TGO,Togo,2018,TGPSFd,33.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",TGO,Togo,2019,TGPSFd,37.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",TGO,Togo,2020,TGPSFd,50.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",TGO,Togo,2021,TGPSFd,67.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",TGO,Togo,2022,TGPSFd,75.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",TGO,Togo,2023,TGPSFd,104.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",TGO,Togo,2024,TGPSFd,116.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",TGO,Togo,2014,TGPSFg,29.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",TGO,Togo,2015,TGPSFg,59.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",TGO,Togo,2016,TGPSFg,81.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",TGO,Togo,2017,TGPSFg,265.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",TGO,Togo,2018,TGPSFg,259.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",TGO,Togo,2019,TGPSFg,300.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",TGO,Togo,2020,TGPSFg,422.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",TGO,Togo,2021,TGPSFg,589.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",TGO,Togo,2022,TGPSFg,675.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",TGO,Togo,2023,TGPSFg,963.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",TGO,Togo,2024,TGPSFg,1094.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",UEMOA,UEMOA,2014,TGPSFd,22.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",UEMOA,UEMOA,2015,TGPSFd,31.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",UEMOA,UEMOA,2016,TGPSFd,28.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",UEMOA,UEMOA,2017,TGPSFd,40.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",UEMOA,UEMOA,2018,TGPSFd,57.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",UEMOA,UEMOA,2019,TGPSFd,101.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",UEMOA,UEMOA,2020,TGPSFd,113.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",UEMOA,UEMOA,2021,TGPSFd,142.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",UEMOA,UEMOA,2022,TGPSFd,178.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",UEMOA,UEMOA,2023,TGPSFd,204.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",UEMOA,UEMOA,2024,TGPSFd,193.0,points de service pour 10 000 adultes,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",UEMOA,UEMOA,2014,TGPSFg,38.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",UEMOA,UEMOA,2015,TGPSFg,54.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",UEMOA,UEMOA,2016,TGPSFg,50.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",UEMOA,UEMOA,2017,TGPSFg,76.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",UEMOA,UEMOA,2018,TGPSFg,111.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",UEMOA,UEMOA,2019,TGPSFg,205.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",UEMOA,UEMOA,2020,TGPSFg,238.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",UEMOA,UEMOA,2021,TGPSFg,311.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",UEMOA,UEMOA,2022,TGPSFg,403.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",UEMOA,UEMOA,2023,TGPSFg,480.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"
+"BC2 (BCEAO, tableau de bord 2024)",UEMOA,UEMOA,2024,TGPSFg,470.0,points de service pour 1 000 km²,C,"mobile money compris (≈ 98-99 % des points) : repère de la variante « tous points de service » seulement, jamais de O4-02 (R1)"

@@ -1,0 +1,12 @@
+maille,code,nom,prefecture,pop_totale,n_mm,hab_par_point_mm,classe_O4_04,cible,seuil_habitants_par_point,points_requis,points_a_ajouter,rang_D2_08
+commune,C01066,Blitta 2,Blitta,46515,9,5168.3,maillage insuffisant,acceptable,5 000 ou moins,10,1,
+commune,C01067,Blitta 3,Blitta,45218,6,7536.3,maillage insuffisant,acceptable,5 000 ou moins,10,4,
+commune,E02104,Kpendjal 2,Kpendjal,40462,5,8092.4,maillage insuffisant,acceptable,5 000 ou moins,9,4,
+préfecture,D04,Dankpen,Dankpen,185662,190,977.2,maillage dense,médiane des préfectures,602,309,119,91.4
+préfecture,C01,Blitta,Blitta,163272,90,1814.1,acceptable,dense,moins de 1 000,164,74,100.0
+préfecture,E05,Oti-Sud,Oti-Sud,150376,159,945.8,maillage dense,médiane des préfectures,602,250,91,85.7
+préfecture,D06,Kéran,Kéran,128687,139,925.8,maillage dense,médiane des préfectures,602,214,75,82.9
+préfecture,E03,Kpendjal-Ouest,Kpendjal-Ouest,123330,129,956.0,maillage dense,médiane des préfectures,602,205,76,88.6
+préfecture,E02,Kpendjal,Kpendjal,88365,41,2155.2,acceptable,dense,moins de 1 000,89,48,100.0
+préfecture,C02,Mô,Mô,52448,32,1639.0,acceptable,dense,moins de 1 000,53,21,94.7
+préfecture,C04,Tchamba,Tchamba,200585,205,978.5,maillage dense,médiane des préfectures,602,334,129,86.8

@@ -1,0 +1,14 @@
+annee,abonnes_data_mobile,dont_haut_debit,part_haut_debit_pct,source,2G,3G,4G,5G,"3G+4G (Moov, non ventilé)",bascule_haut_debit_02,serie_retenue_pour_la_bascule,rupture,abonnes_ftth_T4,part_ftth_internet_pct
+2013,279437.0,130019.0,46.5,2b,,,,,,non acquise,False,,,
+2014,526984.0,210448.0,39.9,2b,,,,,,non acquise,False,,,
+2015,836676.0,431869.0,51.6,2b,,,,,,non acquise,False,,,
+2016,1521390.0,1437425.0,94.5,2b,,,,,,acquise (plus de 80 %),False,,,
+2017,2605249.0,2015858.0,77.4,2b,,,,,,non acquise,False,,,
+2018,3660055.0,2524282.0,69.0,ARCEP (T4),31.0,52.8,3.4,0.0,12.8,non acquise,True,,,
+2019,4671179.0,3322213.0,71.1,ARCEP (T4),28.9,50.8,6.7,0.0,13.6,non acquise,True,,,
+2020,4891899.0,3079412.0,62.9,ARCEP (T4),37.1,41.6,21.3,0.0,0.0,non acquise,True,S6 : aucune évolution par technologie calculée entre 2019 et 2020,,
+2021,4651596.0,2961688.0,63.7,ARCEP (T4),36.3,44.9,18.8,0.0,0.0,non acquise,True,,,
+2022,4870282.0,3362423.0,69.0,ARCEP (T4),31.0,42.5,26.6,0.0,0.0,non acquise,True,,,
+2023,5281504.0,3867977.0,73.2,ARCEP (T4),26.8,36.9,36.4,0.0,0.0,non acquise,True,,,
+2024,5624336.0,4310286.0,76.6,ARCEP (T4),23.4,29.8,46.9,0.0,0.0,non acquise,True,,128462.0,2.23
+2025,6346056.0,5156648.0,81.3,ARCEP (T4),18.7,24.4,56.9,0.0,0.0,acquise (plus de 80 %),True,,150427.0,2.31

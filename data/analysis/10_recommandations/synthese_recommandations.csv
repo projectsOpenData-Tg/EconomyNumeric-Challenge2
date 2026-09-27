@@ -1,0 +1,13 @@
+id,volet,recommandation,indicateur,territoires,population,nature,horizon,cible
+R1,inclusion financière (O5-03),un premier point formel dans chaque commune « mobile money uniquement »,"O4-01, O4-05",22 communes,759599,immédiate,1 an,22 points (1 par commune) ; seuil « tendu » à 3 ans : 34 points
+R2,inclusion financière (O5-03),"points formels dans les préfectures prioritaires, jusqu'au seuil de classe supérieure",O4-01,10 préfectures,1331015,immédiate,3 ans,"38 points, dont 7 apportés par R1"
+R3,inclusion financière (O5-03),points mobile money là où le maillage est insuffisant ou dans le quart le plus mal servi,O4-04,8 préfectures et 3 communes au maillage insuffisant,1092725,immédiate,3 ans,633 points pour les préfectures ; 9 pour les communes insuffisantes
+R4a,Internet (O5-02),mesurer la couverture réelle là où elle est inconnue ou douteuse,O2-06,14 communes,689181,immédiate,1 an,couverture déterminable dans chaque commune
+R4b,Internet (O5-02),étendre le réseau dans les préfectures prioritaires sous 85 % (Kéran : 50 %),"O2-06, O4-06",6 préfectures,347866,conditionnelle,5 ans,178873 habitants de plus dans la couverture théorique
+R5,inclusion financière (O5-03),frais du retrait de petit montant sous le repère de 3 %,O3-06,national ; d'abord là où le mobile money n'a pas d'alternative,6054427,immédiate,5 ans,retrait de 1 000 FCFA : de 75 à 30 FCFA au plus
+R6,Internet (O5-02),coût de 1 Go sous 2 % du revenu mensuel,O2-05b,national,8095498,immédiate,5 ans,"de 5,30 % à 2 % : baisse de 62 % à revenu constant"
+R7,Internet (O5-02),compétences numériques dans les régions à frein de capacité présumé,O1-06,"Savanes, Plateaux",1509047,immédiate,5 ans,sortir du quartile inférieur (alphabétisation ; compétences TIC)
+R7b,Internet (O5-02),réduire le frein de coût sur le smartphone,"O1-06 (équipement, national)",national,1514288,immédiate,5 ans,"baisse de la part des adultes sans smartphone pour raison de coût (32,1 %) ; pas de seuil du 02"
+R8,"Internet (O5-02), marché",garder l'investissement au-dessus du seuil de sous-investissement,O2-04,national,8095498,veille,chaque année,"15 % du chiffre d'affaires au moins (16,3 % en 2025)"
+R9,"Internet (O5-02), marché",étendre la fibre aux préfectures non raccordées,O2-07,8 préfectures,738429,immédiate,5 ans,chaque préfecture « raccordée » au sens du 02
+R10,"Internet (O5-02), marché",relancer les ajouts nets de sites radio,O2-08,national ; d'abord les zones blanches de R4b,8095498,veille,1 à 3 ans,au moins 50 ajouts nets par an (seuil déclaré)

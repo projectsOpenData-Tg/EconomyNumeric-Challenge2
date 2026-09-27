@@ -1,0 +1,40 @@
+numero,date,precision,evenement,type,niveau_preuve,retenu,motif_exclusion,x
+,2009-05-02,jour,Arrêté de licence de Togo Telecom,opérateur,A,False,"pas une entrée d'opérateur (nom, capital, licence de l'opérateur historique)",2009.333
+,2010-07,mois,"Baisse de l'indice des prix « Frais de connexion internet » (-4,7 % sur le mois)",tarif,A,False,"mouvement d'indice de prix, pas une réforme",2010.542
+,2010-12,mois,"Baisse de l'indice « Frais de connexion internet » (-9,1 %)",tarif,A,False,"mouvement d'indice de prix, pas une réforme",2010.958
+,2012-12-17,jour,Loi n° 2012-018 sur les communications électroniques,régulation,A,False,régulation générale,2012.96
+,2013-01,mois,"Baisse de l'indice « Frais de connexion internet » (-9,1 %) ; « Matériel de téléphonie » : -28 % entre janvier 2013 et janvier 2014",tarif,A,False,"mouvement d'indice de prix, pas une réforme",2013.042
+1.0,2013,année,3G de Togocel déjà en service (130 019 clients en 2013) ; date de lancement inconnue,technologie,A,True,,2013.5
+,2014-02,mois,"Baisse de l'indice « Frais de connexion internet » (-4,7 %)",tarif,A,False,"mouvement d'indice de prix, pas une réforme",2014.125
+,2014-10,mois,"Baisse de l'indice « Frais de connexion internet » (-6,5 %)",tarif,A,False,"mouvement d'indice de prix, pas une réforme",2014.792
+2.0,2016,année,Mise en service du datacenter E-Gouv NOC,infrastructure,A,True,,2016.5
+3.0,2016-08,mois,Lancement commercial de la 3G de Moov (Atlantique Telecom),technologie,A,True,,2016.625
+,2017-01,mois,"Baisse de l'indice « Frais de connexion internet » (-6,5 %) ; indice à 63,6 en avril 2017 (base 100 en janvier 2010)",tarif,A,False,"mouvement d'indice de prix, pas une réforme",2017.042
+4.0,2017-06-07,jour,Licences de fournisseur d'accès Internet de GVA et de TEOLIS,opérateur,A,True,,2017.432
+,2017,année,Création de la holding Togocom (fusion de Togo Telecom et Togo Cellulaire),opérateur,C,False,"pas une entrée d'opérateur (nom, capital, licence de l'opérateur historique)",2017.5
+5.0,2017,année,Premiers abonnés FTTH (92),technologie,A,True,,2017.5
+6.0,2018-06-12,jour,"Licences de Togocel et de Moov, dont la 4G (arrêtés 005 et 006/MPEN/CAB ; la presse cite le 11/06/2018)",technologie,A,True,,2018.445
+7.0,2018-06,mois,Lancement de la 4G à Lomé par Togocel et Moov,technologie,C,True,,2018.458
+8.0,2018,année,Premiers abonnés Internet fixe de GVA et de TEOLIS,opérateur,A,True,,2018.5
+9.0,2018-Q3,trimestre,Premiers abonnés 4G de Togocel comptés par l'ARCEP (48 799),technologie,A,True,,2018.625
+,2019-11,mois,Privatisation : 51 % de Togocom cédés à Agou Holding (Axian et ECP),opérateur,C,False,"pas une entrée d'opérateur (nom, capital, licence de l'opérateur historique)",2019.875
+,2019-Q4,trimestre,"L'ARCEP publie la 4G de Moov séparément de sa 3G (99 013 abonnés 4G) : avant, 3G et 4G de Moov sont réunies",statistique,A,False,"rupture de série, marquée sur la série",2019.875
+,2020-Q1,trimestre,"Rupture de la série 3G de Togocel (2 373 589 au T4 2019, 1 057 232 au T1 2020, -58 %) : reclassement probable, non documenté",statistique,A,False,"rupture de série, marquée sur la série",2020.125
+10.0,2020-03-06,jour,Premier cas de Covid-19 au Togo,crise,C,True,,2020.179
+11.0,2020-04-01,jour,"État d'urgence sanitaire (couvre-feu, bouclage du Grand Lomé)",crise,C,True,,2020.25
+,2020-04-08,jour,Lancement de Novissi (transferts sociaux par mobile money),programme,C,False,programme social (objectif 4),2020.269
+,2020,année,"Saut de l'indice des prix « Communication » : 88,4 en décembre 2019, 101,8 en décembre 2020 (+15 %) ; hausse des prix ou changement de méthode, non vérifié : ne pas lire comme une hausse des prix (décision S7)",statistique,A,False,"rupture de série, marquée sur la série",2020.5
+12.0,2020-11-23,jour,Décision fixant les plafonds des tarifs USSD,tarif,A,True,,2020.895
+13.0,2020-11-30,jour,Togocom lance la 5G à Lomé avec Nokia (première en Afrique de l'Ouest),technologie,C,True,,2020.914
+14.0,2020-12,mois,Fin des pratiques de différenciation tarifaire,tarif,C,True,,2020.958
+,2021-01,mois,Moov Togo devient Moov Africa (déjà nommé ainsi dans la décision du 19/01/2021),opérateur,C,False,"pas une entrée d'opérateur (nom, capital, licence de l'opérateur historique)",2021.042
+15.0,2021-01-19,jour,Décision 011/ARCEP/DG/21 : principes tarifaires (offres transparentes et comparables),tarif,A,True,,2021.051
+16.0,2021-Q1,trimestre,"Début de la baisse des forfaits data de Moov : -71,4 % entre le T1 2021 et avril 2023",tarif,A,True,,2021.125
+,2021-06,mois,Mise en service du centre de supervision des réseaux mobiles de l'ARCEP,régulation,A,False,régulation générale,2021.458
+17.0,2021,année,Mise en service du datacenter Cloud & Racks (CAFE Informatique),infrastructure,A,True,,2021.5
+18.0,2022-03-18,jour,"Inauguration à Lomé du câble sous-marin Equiano (Google), premier atterrissage africain",infrastructure,C,True,,2022.21
+19.0,2022,année,Mise en service du Lomé Data Center (LDC),infrastructure,A,True,,2022.5
+20.0,2024-02-12,jour,Licence de fournisseur d'accès Internet d'IDS Technologie,opérateur,A,True,,2024.116
+,2024-11,mois,Togocom devient YAS Togo,opérateur,C,False,"pas une entrée d'opérateur (nom, capital, licence de l'opérateur historique)",2024.875
+21.0,2025-01-16,jour,Décision 003/ARCEP/DG/25 : plafonds tarifaires des offres de gros,tarif,A,True,,2025.042
+22.0,2026-Q2,trimestre,"Premiers abonnés 5G comptés par l'ARCEP (YAS Togo, 3 951)",technologie,A,True,,2026.375

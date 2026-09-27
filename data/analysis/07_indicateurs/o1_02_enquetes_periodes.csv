@@ -1,0 +1,7 @@
+source,debut,fin,valeur_debut,valeur_fin,croissance_annualisee_pct,moyenne_source,sens
+Afrobaromètre,2012,2014,15.33,18.88,10.98,11.54,au-dessous de sa moyenne
+Afrobaromètre,2014,2017,18.88,29.04,15.43,11.54,au-dessus de sa moyenne
+Afrobaromètre,2017,2020,29.04,45.54,16.18,11.54,au-dessus de sa moyenne
+Afrobaromètre,2020,2022,45.54,56.27,11.16,11.54,au-dessous de sa moyenne
+Afrobaromètre,2022,2024,56.27,60.83,3.97,11.54,au-dessous de sa moyenne
+EHCVM,2018,2021,23.71,35.34,14.23,,une seule période : pas de repère

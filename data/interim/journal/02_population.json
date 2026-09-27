@@ -1,0 +1,144 @@
+{
+  "etape": "02_population",
+  "date": "2026-09-26",
+  "effectifs": [
+    {
+      "objet": "15 ans et plus (national)",
+      "avant": "4707386 déclarés + 24180 âge ND au total",
+      "transformation": "prorata (S5)",
+      "apres": "4721488 (variante hors ND : -0.3 %)"
+    },
+    {
+      "objet": "unités avec population",
+      "avant": "RG2 + RG3",
+      "transformation": "jointure au référentiel",
+      "apres": 168
+    }
+  ],
+  "controles": [
+    {
+      "code": "ST-age-communes",
+      "libelle": "communes : âges déclarés + non déclarés = total",
+      "attendu": "toutes",
+      "constate": "True",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "ST-milieu-communes",
+      "libelle": "communes : urbain + rural = total",
+      "attendu": "toutes",
+      "constate": "True",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "ST-age-préfectures",
+      "libelle": "préfectures : âges déclarés + non déclarés = total",
+      "attendu": "toutes",
+      "constate": "True",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "ST-milieu-préfectures",
+      "libelle": "préfectures : urbain + rural = total",
+      "attendu": "toutes",
+      "constate": "True",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "ST-age-autres niveaux",
+      "libelle": "autres niveaux : âges déclarés + non déclarés = total",
+      "attendu": "toutes",
+      "constate": "True",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "ST-milieu-autres niveaux",
+      "libelle": "autres niveaux : urbain + rural = total",
+      "attendu": "toutes",
+      "constate": "True",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "R6-commune",
+      "libelle": "communes de RG joints au référentiel sans correction",
+      "attendu": "117",
+      "constate": "117 (non joints : [])",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "R6-prefecture",
+      "libelle": "prefectures de RG joints au référentiel sans correction",
+      "attendu": "39",
+      "constate": "39 (non joints : [])",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "GE4-pref",
+      "libelle": "somme des communes = préfecture (écart absolu cumulé)",
+      "attendu": "0",
+      "constate": "0",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "GE4-ur",
+      "libelle": "somme des communes = unité régionale",
+      "attendu": "0",
+      "constate": "0",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "GE4-nat",
+      "libelle": "population nationale = somme des communes",
+      "attendu": "8095498",
+      "constate": "8095498 / 8095498",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "GE6",
+      "libelle": "population du Grand Lomé",
+      "attendu": "2 188 376 (27,0 %)",
+      "constate": "2188376 (27.0 %)",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "GE7",
+      "libelle": "totaux RG2 / RG3 présents dans D6 (Danyi 1 + 2 sommées)",
+      "attendu": "0",
+      "constate": "0",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "R7",
+      "libelle": "strates (Grand Lomé / autres villes / rural), seuil 50 %",
+      "attendu": "[13, 13, 91]",
+      "constate": "[13, 13, 91]",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "R7-75",
+      "libelle": "strates, variante au seuil de 75 %",
+      "attendu": "[13, 2, 102]",
+      "constate": "[13, 2, 102]",
+      "resultat": "OK",
+      "bloquant": true
+    }
+  ],
+  "sorties": [
+    "data/interim/population_territoires.csv"
+  ],
+  "n_anomalies": 0
+}

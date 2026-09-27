@@ -1,0 +1,42 @@
+maille,indicateur,classe,territoires,population,part_population_pct
+commune,O4_01,bien desservi,31,2845283,35.1
+commune,O4_01,non défini et critique (0 point),22,759599,9.4
+commune,O4_01,sous-desservi,17,1149871,14.2
+commune,O4_01,tendu,47,3340745,41.3
+commune,O4_03,mobile money prépondérant,28,1994556,24.6
+commune,O4_03,mobile money uniquement (0 point formel),22,759599,9.4
+commune,O4_03,réseaux comparables,1,46515,0.6
+commune,O4_03,suppléance quasi totale,66,5294828,65.4
+commune,O4_04,acceptable,27,1577903,19.5
+commune,O4_04,maillage dense,87,6385400,78.9
+commune,O4_04,maillage insuffisant,3,132195,1.6
+commune,O4_05,desserte diversifiée,5,776247,9.6
+commune,O4_05,desserte faible,24,1264824,15.6
+commune,O4_05,mobile money dominant,66,5294828,65.4
+commune,O4_05,mobile money uniquement,22,759599,9.4
+commune,O4_05_variante_poste,desserte diversifiée,6,957808,11.8
+commune,O4_05_variante_poste,desserte faible,31,1605154,19.8
+commune,O4_05_variante_poste,mobile money dominant,60,4841494,59.8
+commune,O4_05_variante_poste,mobile money uniquement,20,691042,8.5
+commune,O4_05_variante_P9,desserte diversifiée,11,1771438,21.9
+commune,O4_05_variante_P9,desserte faible,24,1264824,15.6
+commune,O4_05_variante_P9,mobile money dominant,60,4299637,53.1
+commune,O4_05_variante_P9,mobile money uniquement,22,759599,9.4
+préfecture,O4_01,bien desservi,8,2094929,25.9
+préfecture,O4_01,non défini et critique (0 point),1,88365,1.1
+préfecture,O4_01,sous-desservi,5,697658,8.6
+préfecture,O4_01,tendu,25,5214546,64.4
+préfecture,O4_03,mobile money prépondérant,9,1145193,14.1
+préfecture,O4_03,mobile money uniquement (0 point formel),1,88365,1.1
+préfecture,O4_03,suppléance quasi totale,29,6861940,84.8
+préfecture,O4_04,acceptable,5,569441,7.0
+préfecture,O4_04,maillage dense,34,7526057,93.0
+préfecture,O4_05,desserte faible,9,1145193,14.1
+préfecture,O4_05,mobile money dominant,29,6861940,84.8
+préfecture,O4_05,mobile money uniquement,1,88365,1.1
+préfecture,O4_05_variante_poste,desserte faible,13,2700623,33.4
+préfecture,O4_05_variante_poste,mobile money dominant,26,5394875,66.6
+préfecture,O4_05_variante_P9,desserte diversifiée,1,1305681,16.1
+préfecture,O4_05_variante_P9,desserte faible,9,1145193,14.1
+préfecture,O4_05_variante_P9,mobile money dominant,28,5556259,68.6
+préfecture,O4_05_variante_P9,mobile money uniquement,1,88365,1.1

@@ -1,0 +1,9 @@
+jeu,id_source,variable,type,decision,regle,effet,detail,etape
+6b,A03010020,commune du canton,canton rattaché à une autre commune,signalé,A21,"gardé dans A03010, polygone dans A03009",Agome-Glozou,01_referentiel
+6b,B01032079,commune du canton,code corrigé,corrigé,A21,commune B01032 → B01033,Kati,01_referentiel
+6b,B02048134,commune du canton,code corrigé,corrigé,A21,commune B02048 → B07048,Djemegni,01_referentiel
+6b,B08051141,commune du canton,canton rattaché à une autre commune,signalé,A21,"gardé dans B08051, polygone dans B08052",Yokélé,01_referentiel
+6b,D05093297,commune du canton,code corrigé,corrigé,A21,commune D05093 → D05094,Kpaha,01_referentiel
+6b,E06108355,commune du canton,code corrigé,corrigé,A21,commune E06108 → E05108,Takpamba,01_referentiel
+6b,D05093296,commune du canton,code corrigé,corrigé,A21,commune D05093 → D05094,Anima,01_referentiel
+6b,B07050139,commune du canton,canton rattaché à une autre commune,signalé,A21,"gardé dans B07050, polygone dans B07049",Akpakpakpé,01_referentiel

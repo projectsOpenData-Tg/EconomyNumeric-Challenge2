@@ -1,0 +1,15 @@
+maille,variable,n,min,q1,mediane,q3,max,moyenne,p90_sur_p10
+commune,Banques,117,0,0.0,0.0,2.0,22,1.8,
+commune,IMF,117,0,1.0,2.0,4.0,23,3.3,
+commune,Assurances,117,0,0.0,0.0,0.0,12,0.5,
+commune,Points formels,117,0,1.0,3.0,7.0,55,5.6,
+commune,Sites de DAB,117,0,0.0,0.0,1.0,21,1.6,
+commune,Points mobile money,117,5,41.0,80.0,169.0,1366,169.1,15.0
+commune,Poste (variante),117,0,0.0,1.0,1.0,6,0.7,
+préfecture,Banques,39,0,1.0,3.0,5.5,78,5.4,
+préfecture,IMF,39,0,4.0,6.0,10.5,78,9.8,4.7
+préfecture,Assurances,39,0,0.0,0.0,0.0,44,1.6,
+préfecture,Points formels,39,0,5.0,10.0,17.5,200,16.8,7.6
+préfecture,Sites de DAB,39,0,0.0,1.0,3.5,93,4.7,
+préfecture,Points mobile money,39,32,159.0,224.0,464.5,5121,507.4,14.6
+préfecture,Poste (variante),39,0,1.0,1.0,2.0,18,2.2,4.0

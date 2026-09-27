@@ -1,0 +1,11 @@
+code,nom,classe_08,pop_totale,n_formels,n_banque,hab_par_point_formel,classe_O4_01,cible,seuil_habitants_par_point,points_requis,points_a_ajouter,dont_points_R1,reste_apres_R1
+D04,Dankpen,priorité 1,185662,6,2,30944.0,sous-desservi,tendu,30 000 ou moins,7,1,1,0
+B06,Est-Mono,priorité 1,164460,3,0,54820.0,sous-desservi,tendu,30 000 ou moins,6,3,0,3
+C01,Blitta,priorité 1,163272,10,3,16327.0,tendu,bien desservi,moins de 10 000,17,7,1,6
+E05,Oti-Sud,priorité 1,150376,5,1,30075.0,sous-desservi,tendu,30 000 ou moins,6,1,0,1
+D06,Kéran,priorité 1,128687,7,4,18384.0,tendu,bien desservi,moins de 10 000,13,6,2,4
+E03,Kpendjal-Ouest,priorité 1,123330,3,0,41110.0,sous-desservi,tendu,30 000 ou moins,5,2,0,2
+B02,Akébou,priorité 1,73830,1,0,73830.0,sous-desservi,tendu,30 000 ou moins,3,2,1,1
+E02,Kpendjal,non déterminable (couverture),88365,0,0,inf,non défini et critique (0 point),tendu,30 000 ou moins,3,3,2,1
+C02,Mô,non déterminable (couverture),52448,2,0,26224.0,tendu,bien desservi,moins de 10 000,6,4,0,4
+C04,Tchamba,non déterminable (couverture),200585,12,1,16715.0,tendu,bien desservi,moins de 10 000,21,9,0,9

@@ -1,0 +1,59 @@
+{
+  "etape": "08_references",
+  "date": "2026-09-26",
+  "effectifs": [
+    {
+      "objet": "benchmark",
+      "avant": "C5, C5b, IT1, BC2",
+      "transformation": "tels que publiés",
+      "apres": "698 lignes"
+    }
+  ],
+  "controles": [
+    {
+      "code": "C5",
+      "libelle": "pays de C5",
+      "attendu": "8",
+      "constate": "8",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "C5b",
+      "libelle": "Afrique subsaharienne 2024 (03 : 33,6 %)",
+      "attendu": "33.6",
+      "constate": "33.6",
+      "resultat": "OK",
+      "bloquant": false
+    },
+    {
+      "code": "BC2",
+      "libelle": "lignes pays de BC2 lues (8 pays + UEMOA)",
+      "attendu": "9",
+      "constate": "9",
+      "resultat": "OK",
+      "bloquant": false
+    },
+    {
+      "code": "BC2-Togo",
+      "libelle": "Togo 2024 : TGPSFd / TGPSFg (03 : 116 / 1 094)",
+      "attendu": "116 / 1094",
+      "constate": "116 / 1094",
+      "resultat": "OK",
+      "bloquant": false
+    },
+    {
+      "code": "CH1",
+      "libelle": "événements datés, avec source et niveau de preuve",
+      "attendu": "40",
+      "constate": "40 (40 sources, 40 niveaux)",
+      "resultat": "OK",
+      "bloquant": true
+    }
+  ],
+  "sorties": [
+    "data/processed/benchmark.csv",
+    "data/processed/chronologie.csv"
+  ],
+  "n_anomalies": 0
+}

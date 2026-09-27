@@ -1,0 +1,661 @@
+tableau,population,type_domaine,domaine,indicateur,valeur,unite,page_pdf
+SR.9.2,Ménages,Total,Total,radio,41.6,%,68
+SR.9.2,Ménages,Total,Total,television,39.1,%,68
+SR.9.2,Ménages,Total,Total,telephone_fixe,0.6,%,68
+SR.9.2,Ménages,Total,Total,telephone_mobile,84.6,%,68
+SR.9.2,Ménages,Total,Total,telephone_quelconque,84.6,%,68
+SR.9.2,Ménages,Total,Total,ordinateur,9.5,%,68
+SR.9.2,Ménages,Total,Total,internet_a_la_maison,26.5,%,68
+SR.9.2,Ménages,Total,Total,effectif_menages,7916.0,effectif pondéré,68
+SR.9.2,Ménages,Milieu,Urbain,radio,34.5,%,68
+SR.9.2,Ménages,Milieu,Urbain,television,69.8,%,68
+SR.9.2,Ménages,Milieu,Urbain,telephone_fixe,1.2,%,68
+SR.9.2,Ménages,Milieu,Urbain,telephone_mobile,96.9,%,68
+SR.9.2,Ménages,Milieu,Urbain,telephone_quelconque,96.9,%,68
+SR.9.2,Ménages,Milieu,Urbain,ordinateur,18.4,%,68
+SR.9.2,Ménages,Milieu,Urbain,internet_a_la_maison,49.2,%,68
+SR.9.2,Ménages,Milieu,Urbain,effectif_menages,3486.0,effectif pondéré,68
+SR.9.2,Ménages,Milieu,Rural,radio,47.2,%,68
+SR.9.2,Ménages,Milieu,Rural,television,15.0,%,68
+SR.9.2,Ménages,Milieu,Rural,telephone_fixe,0.0,%,68
+SR.9.2,Ménages,Milieu,Rural,telephone_mobile,75.0,%,68
+SR.9.2,Ménages,Milieu,Rural,telephone_quelconque,75.0,%,68
+SR.9.2,Ménages,Milieu,Rural,ordinateur,2.6,%,68
+SR.9.2,Ménages,Milieu,Rural,internet_a_la_maison,8.6,%,68
+SR.9.2,Ménages,Milieu,Rural,effectif_menages,4430.0,effectif pondéré,68
+SR.9.2,Ménages,Région,Maritime,radio,45.5,%,68
+SR.9.2,Ménages,Région,Maritime,television,25.8,%,68
+SR.9.2,Ménages,Région,Maritime,telephone_fixe,0.4,%,68
+SR.9.2,Ménages,Région,Maritime,telephone_mobile,77.9,%,68
+SR.9.2,Ménages,Région,Maritime,telephone_quelconque,77.9,%,68
+SR.9.2,Ménages,Région,Maritime,ordinateur,6.6,%,68
+SR.9.2,Ménages,Région,Maritime,internet_a_la_maison,16.2,%,68
+SR.9.2,Ménages,Région,Maritime,effectif_menages,1404.0,effectif pondéré,68
+SR.9.2,Ménages,Région,Plateaux,radio,44.8,%,68
+SR.9.2,Ménages,Région,Plateaux,television,24.3,%,68
+SR.9.2,Ménages,Région,Plateaux,telephone_fixe,0.0,%,68
+SR.9.2,Ménages,Région,Plateaux,telephone_mobile,78.9,%,68
+SR.9.2,Ménages,Région,Plateaux,telephone_quelconque,78.9,%,68
+SR.9.2,Ménages,Région,Plateaux,ordinateur,3.6,%,68
+SR.9.2,Ménages,Région,Plateaux,internet_a_la_maison,13.2,%,68
+SR.9.2,Ménages,Région,Plateaux,effectif_menages,1883.0,effectif pondéré,68
+SR.9.2,Ménages,Région,Centrale,radio,49.6,%,68
+SR.9.2,Ménages,Région,Centrale,television,29.5,%,68
+SR.9.2,Ménages,Région,Centrale,telephone_fixe,0.1,%,68
+SR.9.2,Ménages,Région,Centrale,telephone_mobile,83.5,%,68
+SR.9.2,Ménages,Région,Centrale,telephone_quelconque,83.5,%,68
+SR.9.2,Ménages,Région,Centrale,ordinateur,4.7,%,68
+SR.9.2,Ménages,Région,Centrale,internet_a_la_maison,18.1,%,68
+SR.9.2,Ménages,Région,Centrale,effectif_menages,719.0,effectif pondéré,68
+SR.9.2,Ménages,Région,Kara,radio,47.2,%,68
+SR.9.2,Ménages,Région,Kara,television,27.5,%,68
+SR.9.2,Ménages,Région,Kara,telephone_fixe,0.0,%,68
+SR.9.2,Ménages,Région,Kara,telephone_mobile,81.4,%,68
+SR.9.2,Ménages,Région,Kara,telephone_quelconque,81.4,%,68
+SR.9.2,Ménages,Région,Kara,ordinateur,5.3,%,68
+SR.9.2,Ménages,Région,Kara,internet_a_la_maison,18.3,%,68
+SR.9.2,Ménages,Région,Kara,effectif_menages,865.0,effectif pondéré,68
+SR.9.2,Ménages,Région,Savanes,radio,46.1,%,68
+SR.9.2,Ménages,Région,Savanes,television,14.5,%,68
+SR.9.2,Ménages,Région,Savanes,telephone_fixe,0.2,%,68
+SR.9.2,Ménages,Région,Savanes,telephone_mobile,76.8,%,68
+SR.9.2,Ménages,Région,Savanes,telephone_quelconque,76.8,%,68
+SR.9.2,Ménages,Région,Savanes,ordinateur,2.9,%,68
+SR.9.2,Ménages,Région,Savanes,internet_a_la_maison,10.2,%,68
+SR.9.2,Ménages,Région,Savanes,effectif_menages,808.0,effectif pondéré,68
+SR.9.2,Ménages,Région,Lomé commune,radio,30.3,%,68
+SR.9.2,Ménages,Région,Lomé commune,television,77.1,%,68
+SR.9.2,Ménages,Région,Lomé commune,telephone_fixe,1.6,%,68
+SR.9.2,Ménages,Région,Lomé commune,telephone_mobile,98.5,%,68
+SR.9.2,Ménages,Région,Lomé commune,telephone_quelconque,98.5,%,68
+SR.9.2,Ménages,Région,Lomé commune,ordinateur,18.8,%,68
+SR.9.2,Ménages,Région,Lomé commune,internet_a_la_maison,53.7,%,68
+SR.9.2,Ménages,Région,Lomé commune,effectif_menages,1182.0,effectif pondéré,68
+SR.9.2,Ménages,Région,Golfe urbain,radio,29.8,%,68
+SR.9.2,Ménages,Région,Golfe urbain,television,75.6,%,68
+SR.9.2,Ménages,Région,Golfe urbain,telephone_fixe,1.6,%,68
+SR.9.2,Ménages,Région,Golfe urbain,telephone_mobile,97.7,%,68
+SR.9.2,Ménages,Région,Golfe urbain,telephone_quelconque,97.7,%,68
+SR.9.2,Ménages,Région,Golfe urbain,ordinateur,25.4,%,68
+SR.9.2,Ménages,Région,Golfe urbain,internet_a_la_maison,58.1,%,68
+SR.9.2,Ménages,Région,Golfe urbain,effectif_menages,1055.0,effectif pondéré,68
+SR.9.3W,Femmes 15-49 ans,Total,Total,ordinateur_deja_utilise,9.3,%,69
+SR.9.3W,Femmes 15-49 ans,Total,Total,ordinateur_utilise_3_derniers_mois,4.4,%,69
+SR.9.3W,Femmes 15-49 ans,Total,Total,ordinateur_hebdomadaire_3_derniers_mois,3.4,%,69
+SR.9.3W,Femmes 15-49 ans,Total,Total,possede_telephone_portable,56.6,%,69
+SR.9.3W,Femmes 15-49 ans,Total,Total,portable_utilise_3_derniers_mois,64.6,%,69
+SR.9.3W,Femmes 15-49 ans,Total,Total,portable_hebdomadaire_3_derniers_mois,54.3,%,69
+SR.9.3W,Femmes 15-49 ans,Total,Total,internet_deja_utilise,16.9,%,69
+SR.9.3W,Femmes 15-49 ans,Total,Total,internet_utilise_3_derniers_mois,14.1,%,69
+SR.9.3W,Femmes 15-49 ans,Total,Total,internet_hebdomadaire_3_derniers_mois,12.6,%,69
+SR.9.3W,Femmes 15-49 ans,Total,Total,effectif,7326.0,effectif pondéré,69
+SR.9.3W,Femmes 15-49 ans,Milieu,Urbain,ordinateur_deja_utilise,16.5,%,69
+SR.9.3W,Femmes 15-49 ans,Milieu,Urbain,ordinateur_utilise_3_derniers_mois,8.2,%,69
+SR.9.3W,Femmes 15-49 ans,Milieu,Urbain,ordinateur_hebdomadaire_3_derniers_mois,6.5,%,69
+SR.9.3W,Femmes 15-49 ans,Milieu,Urbain,possede_telephone_portable,77.8,%,69
+SR.9.3W,Femmes 15-49 ans,Milieu,Urbain,portable_utilise_3_derniers_mois,82.6,%,69
+SR.9.3W,Femmes 15-49 ans,Milieu,Urbain,portable_hebdomadaire_3_derniers_mois,74.5,%,69
+SR.9.3W,Femmes 15-49 ans,Milieu,Urbain,internet_deja_utilise,32.0,%,69
+SR.9.3W,Femmes 15-49 ans,Milieu,Urbain,internet_utilise_3_derniers_mois,27.0,%,69
+SR.9.3W,Femmes 15-49 ans,Milieu,Urbain,internet_hebdomadaire_3_derniers_mois,24.2,%,69
+SR.9.3W,Femmes 15-49 ans,Milieu,Urbain,effectif,3474.0,effectif pondéré,69
+SR.9.3W,Femmes 15-49 ans,Milieu,Rural,ordinateur_deja_utilise,2.7,%,69
+SR.9.3W,Femmes 15-49 ans,Milieu,Rural,ordinateur_utilise_3_derniers_mois,0.9,%,69
+SR.9.3W,Femmes 15-49 ans,Milieu,Rural,ordinateur_hebdomadaire_3_derniers_mois,0.6,%,69
+SR.9.3W,Femmes 15-49 ans,Milieu,Rural,possede_telephone_portable,37.6,%,69
+SR.9.3W,Femmes 15-49 ans,Milieu,Rural,portable_utilise_3_derniers_mois,48.3,%,69
+SR.9.3W,Femmes 15-49 ans,Milieu,Rural,portable_hebdomadaire_3_derniers_mois,36.0,%,69
+SR.9.3W,Femmes 15-49 ans,Milieu,Rural,internet_deja_utilise,3.2,%,69
+SR.9.3W,Femmes 15-49 ans,Milieu,Rural,internet_utilise_3_derniers_mois,2.4,%,69
+SR.9.3W,Femmes 15-49 ans,Milieu,Rural,internet_hebdomadaire_3_derniers_mois,2.1,%,69
+SR.9.3W,Femmes 15-49 ans,Milieu,Rural,effectif,3852.0,effectif pondéré,69
+SR.9.3W,Femmes 15-49 ans,Région,Maritime,ordinateur_deja_utilise,6.7,%,69
+SR.9.3W,Femmes 15-49 ans,Région,Maritime,ordinateur_utilise_3_derniers_mois,2.8,%,69
+SR.9.3W,Femmes 15-49 ans,Région,Maritime,ordinateur_hebdomadaire_3_derniers_mois,2.0,%,69
+SR.9.3W,Femmes 15-49 ans,Région,Maritime,possede_telephone_portable,52.7,%,69
+SR.9.3W,Femmes 15-49 ans,Région,Maritime,portable_utilise_3_derniers_mois,61.5,%,69
+SR.9.3W,Femmes 15-49 ans,Région,Maritime,portable_hebdomadaire_3_derniers_mois,54.0,%,69
+SR.9.3W,Femmes 15-49 ans,Région,Maritime,internet_deja_utilise,8.9,%,69
+SR.9.3W,Femmes 15-49 ans,Région,Maritime,internet_utilise_3_derniers_mois,6.5,%,69
+SR.9.3W,Femmes 15-49 ans,Région,Maritime,internet_hebdomadaire_3_derniers_mois,5.6,%,69
+SR.9.3W,Femmes 15-49 ans,Région,Maritime,effectif,1121.0,effectif pondéré,69
+SR.9.3W,Femmes 15-49 ans,Région,Plateaux,ordinateur_deja_utilise,3.7,%,69
+SR.9.3W,Femmes 15-49 ans,Région,Plateaux,ordinateur_utilise_3_derniers_mois,1.2,%,69
+SR.9.3W,Femmes 15-49 ans,Région,Plateaux,ordinateur_hebdomadaire_3_derniers_mois,1.0,%,69
+SR.9.3W,Femmes 15-49 ans,Région,Plateaux,possede_telephone_portable,46.0,%,69
+SR.9.3W,Femmes 15-49 ans,Région,Plateaux,portable_utilise_3_derniers_mois,53.0,%,69
+SR.9.3W,Femmes 15-49 ans,Région,Plateaux,portable_hebdomadaire_3_derniers_mois,43.3,%,69
+SR.9.3W,Femmes 15-49 ans,Région,Plateaux,internet_deja_utilise,6.6,%,69
+SR.9.3W,Femmes 15-49 ans,Région,Plateaux,internet_utilise_3_derniers_mois,5.6,%,69
+SR.9.3W,Femmes 15-49 ans,Région,Plateaux,internet_hebdomadaire_3_derniers_mois,4.9,%,69
+SR.9.3W,Femmes 15-49 ans,Région,Plateaux,effectif,1662.0,effectif pondéré,69
+SR.9.3W,Femmes 15-49 ans,Région,Centrale,ordinateur_deja_utilise,4.9,%,69
+SR.9.3W,Femmes 15-49 ans,Région,Centrale,ordinateur_utilise_3_derniers_mois,1.8,%,69
+SR.9.3W,Femmes 15-49 ans,Région,Centrale,ordinateur_hebdomadaire_3_derniers_mois,1.3,%,69
+SR.9.3W,Femmes 15-49 ans,Région,Centrale,possede_telephone_portable,51.0,%,69
+SR.9.3W,Femmes 15-49 ans,Région,Centrale,portable_utilise_3_derniers_mois,64.2,%,69
+SR.9.3W,Femmes 15-49 ans,Région,Centrale,portable_hebdomadaire_3_derniers_mois,42.1,%,69
+SR.9.3W,Femmes 15-49 ans,Région,Centrale,internet_deja_utilise,8.1,%,69
+SR.9.3W,Femmes 15-49 ans,Région,Centrale,internet_utilise_3_derniers_mois,6.5,%,69
+SR.9.3W,Femmes 15-49 ans,Région,Centrale,internet_hebdomadaire_3_derniers_mois,5.9,%,69
+SR.9.3W,Femmes 15-49 ans,Région,Centrale,effectif,630.0,effectif pondéré,69
+SR.9.3W,Femmes 15-49 ans,Région,Kara,ordinateur_deja_utilise,7.2,%,69
+SR.9.3W,Femmes 15-49 ans,Région,Kara,ordinateur_utilise_3_derniers_mois,2.5,%,69
+SR.9.3W,Femmes 15-49 ans,Région,Kara,ordinateur_hebdomadaire_3_derniers_mois,1.9,%,69
+SR.9.3W,Femmes 15-49 ans,Région,Kara,possede_telephone_portable,44.9,%,69
+SR.9.3W,Femmes 15-49 ans,Région,Kara,portable_utilise_3_derniers_mois,58.7,%,69
+SR.9.3W,Femmes 15-49 ans,Région,Kara,portable_hebdomadaire_3_derniers_mois,45.4,%,69
+SR.9.3W,Femmes 15-49 ans,Région,Kara,internet_deja_utilise,7.8,%,69
+SR.9.3W,Femmes 15-49 ans,Région,Kara,internet_utilise_3_derniers_mois,5.8,%,69
+SR.9.3W,Femmes 15-49 ans,Région,Kara,internet_hebdomadaire_3_derniers_mois,5.1,%,69
+SR.9.3W,Femmes 15-49 ans,Région,Kara,effectif,782.0,effectif pondéré,69
+SR.9.3W,Femmes 15-49 ans,Région,Savanes,ordinateur_deja_utilise,1.6,%,69
+SR.9.3W,Femmes 15-49 ans,Région,Savanes,ordinateur_utilise_3_derniers_mois,0.4,%,69
+SR.9.3W,Femmes 15-49 ans,Région,Savanes,ordinateur_hebdomadaire_3_derniers_mois,0.4,%,69
+SR.9.3W,Femmes 15-49 ans,Région,Savanes,possede_telephone_portable,31.2,%,69
+SR.9.3W,Femmes 15-49 ans,Région,Savanes,portable_utilise_3_derniers_mois,39.7,%,69
+SR.9.3W,Femmes 15-49 ans,Région,Savanes,portable_hebdomadaire_3_derniers_mois,31.1,%,69
+SR.9.3W,Femmes 15-49 ans,Région,Savanes,internet_deja_utilise,2.7,%,69
+SR.9.3W,Femmes 15-49 ans,Région,Savanes,internet_utilise_3_derniers_mois,1.4,%,69
+SR.9.3W,Femmes 15-49 ans,Région,Savanes,internet_hebdomadaire_3_derniers_mois,1.2,%,69
+SR.9.3W,Femmes 15-49 ans,Région,Savanes,effectif,875.0,effectif pondéré,69
+SR.9.3W,Femmes 15-49 ans,Région,Lomé commune,ordinateur_deja_utilise,17.6,%,69
+SR.9.3W,Femmes 15-49 ans,Région,Lomé commune,ordinateur_utilise_3_derniers_mois,10.0,%,69
+SR.9.3W,Femmes 15-49 ans,Région,Lomé commune,ordinateur_hebdomadaire_3_derniers_mois,7.0,%,69
+SR.9.3W,Femmes 15-49 ans,Région,Lomé commune,possede_telephone_portable,83.1,%,69
+SR.9.3W,Femmes 15-49 ans,Région,Lomé commune,portable_utilise_3_derniers_mois,87.1,%,69
+SR.9.3W,Femmes 15-49 ans,Région,Lomé commune,portable_hebdomadaire_3_derniers_mois,77.0,%,69
+SR.9.3W,Femmes 15-49 ans,Région,Lomé commune,internet_deja_utilise,40.5,%,69
+SR.9.3W,Femmes 15-49 ans,Région,Lomé commune,internet_utilise_3_derniers_mois,36.0,%,69
+SR.9.3W,Femmes 15-49 ans,Région,Lomé commune,internet_hebdomadaire_3_derniers_mois,32.9,%,69
+SR.9.3W,Femmes 15-49 ans,Région,Lomé commune,effectif,1168.0,effectif pondéré,69
+SR.9.3W,Femmes 15-49 ans,Région,Golfe urbain,ordinateur_deja_utilise,21.6,%,69
+SR.9.3W,Femmes 15-49 ans,Région,Golfe urbain,ordinateur_utilise_3_derniers_mois,10.9,%,69
+SR.9.3W,Femmes 15-49 ans,Région,Golfe urbain,ordinateur_hebdomadaire_3_derniers_mois,9.2,%,69
+SR.9.3W,Femmes 15-49 ans,Région,Golfe urbain,possede_telephone_portable,80.6,%,69
+SR.9.3W,Femmes 15-49 ans,Région,Golfe urbain,portable_utilise_3_derniers_mois,85.4,%,69
+SR.9.3W,Femmes 15-49 ans,Région,Golfe urbain,portable_hebdomadaire_3_derniers_mois,78.9,%,69
+SR.9.3W,Femmes 15-49 ans,Région,Golfe urbain,internet_deja_utilise,38.3,%,69
+SR.9.3W,Femmes 15-49 ans,Région,Golfe urbain,internet_utilise_3_derniers_mois,31.7,%,69
+SR.9.3W,Femmes 15-49 ans,Région,Golfe urbain,internet_hebdomadaire_3_derniers_mois,28.4,%,69
+SR.9.3W,Femmes 15-49 ans,Région,Golfe urbain,effectif,1089.0,effectif pondéré,69
+SR.9.3M,Hommes 15-49 ans,Total,Total,ordinateur_deja_utilise,19.2,%,70
+SR.9.3M,Hommes 15-49 ans,Total,Total,ordinateur_utilise_3_derniers_mois,11.7,%,70
+SR.9.3M,Hommes 15-49 ans,Total,Total,ordinateur_hebdomadaire_3_derniers_mois,9.0,%,70
+SR.9.3M,Hommes 15-49 ans,Total,Total,possede_telephone_portable,78.3,%,70
+SR.9.3M,Hommes 15-49 ans,Total,Total,portable_utilise_3_derniers_mois,82.9,%,70
+SR.9.3M,Hommes 15-49 ans,Total,Total,portable_hebdomadaire_3_derniers_mois,77.8,%,70
+SR.9.3M,Hommes 15-49 ans,Total,Total,internet_deja_utilise,31.5,%,70
+SR.9.3M,Hommes 15-49 ans,Total,Total,internet_utilise_3_derniers_mois,27.6,%,70
+SR.9.3M,Hommes 15-49 ans,Total,Total,internet_hebdomadaire_3_derniers_mois,25.7,%,70
+SR.9.3M,Hommes 15-49 ans,Total,Total,effectif,2286.0,effectif pondéré,70
+SR.9.3M,Hommes 15-49 ans,Milieu,Urbain,ordinateur_deja_utilise,33.3,%,70
+SR.9.3M,Hommes 15-49 ans,Milieu,Urbain,ordinateur_utilise_3_derniers_mois,22.1,%,70
+SR.9.3M,Hommes 15-49 ans,Milieu,Urbain,ordinateur_hebdomadaire_3_derniers_mois,17.0,%,70
+SR.9.3M,Hommes 15-49 ans,Milieu,Urbain,possede_telephone_portable,87.8,%,70
+SR.9.3M,Hommes 15-49 ans,Milieu,Urbain,portable_utilise_3_derniers_mois,92.3,%,70
+SR.9.3M,Hommes 15-49 ans,Milieu,Urbain,portable_hebdomadaire_3_derniers_mois,89.4,%,70
+SR.9.3M,Hommes 15-49 ans,Milieu,Urbain,internet_deja_utilise,54.7,%,70
+SR.9.3M,Hommes 15-49 ans,Milieu,Urbain,internet_utilise_3_derniers_mois,49.3,%,70
+SR.9.3M,Hommes 15-49 ans,Milieu,Urbain,internet_hebdomadaire_3_derniers_mois,46.3,%,70
+SR.9.3M,Hommes 15-49 ans,Milieu,Urbain,effectif,1057.0,effectif pondéré,70
+SR.9.3M,Hommes 15-49 ans,Milieu,Rural,ordinateur_deja_utilise,7.0,%,70
+SR.9.3M,Hommes 15-49 ans,Milieu,Rural,ordinateur_utilise_3_derniers_mois,2.8,%,70
+SR.9.3M,Hommes 15-49 ans,Milieu,Rural,ordinateur_hebdomadaire_3_derniers_mois,2.0,%,70
+SR.9.3M,Hommes 15-49 ans,Milieu,Rural,possede_telephone_portable,70.1,%,70
+SR.9.3M,Hommes 15-49 ans,Milieu,Rural,portable_utilise_3_derniers_mois,74.7,%,70
+SR.9.3M,Hommes 15-49 ans,Milieu,Rural,portable_hebdomadaire_3_derniers_mois,67.7,%,70
+SR.9.3M,Hommes 15-49 ans,Milieu,Rural,internet_deja_utilise,11.5,%,70
+SR.9.3M,Hommes 15-49 ans,Milieu,Rural,internet_utilise_3_derniers_mois,9.0,%,70
+SR.9.3M,Hommes 15-49 ans,Milieu,Rural,internet_hebdomadaire_3_derniers_mois,8.0,%,70
+SR.9.3M,Hommes 15-49 ans,Milieu,Rural,effectif,1229.0,effectif pondéré,70
+SR.9.3M,Hommes 15-49 ans,Région,Maritime,ordinateur_deja_utilise,13.5,%,70
+SR.9.3M,Hommes 15-49 ans,Région,Maritime,ordinateur_utilise_3_derniers_mois,7.1,%,70
+SR.9.3M,Hommes 15-49 ans,Région,Maritime,ordinateur_hebdomadaire_3_derniers_mois,5.9,%,70
+SR.9.3M,Hommes 15-49 ans,Région,Maritime,possede_telephone_portable,72.7,%,70
+SR.9.3M,Hommes 15-49 ans,Région,Maritime,portable_utilise_3_derniers_mois,76.7,%,70
+SR.9.3M,Hommes 15-49 ans,Région,Maritime,portable_hebdomadaire_3_derniers_mois,74.3,%,70
+SR.9.3M,Hommes 15-49 ans,Région,Maritime,internet_deja_utilise,22.2,%,70
+SR.9.3M,Hommes 15-49 ans,Région,Maritime,internet_utilise_3_derniers_mois,18.7,%,70
+SR.9.3M,Hommes 15-49 ans,Région,Maritime,internet_hebdomadaire_3_derniers_mois,16.3,%,70
+SR.9.3M,Hommes 15-49 ans,Région,Maritime,effectif,338.0,effectif pondéré,70
+SR.9.3M,Hommes 15-49 ans,Région,Plateaux,ordinateur_deja_utilise,11.2,%,70
+SR.9.3M,Hommes 15-49 ans,Région,Plateaux,ordinateur_utilise_3_derniers_mois,4.7,%,70
+SR.9.3M,Hommes 15-49 ans,Région,Plateaux,ordinateur_hebdomadaire_3_derniers_mois,2.4,%,70
+SR.9.3M,Hommes 15-49 ans,Région,Plateaux,possede_telephone_portable,67.0,%,70
+SR.9.3M,Hommes 15-49 ans,Région,Plateaux,portable_utilise_3_derniers_mois,76.2,%,70
+SR.9.3M,Hommes 15-49 ans,Région,Plateaux,portable_hebdomadaire_3_derniers_mois,64.1,%,70
+SR.9.3M,Hommes 15-49 ans,Région,Plateaux,internet_deja_utilise,11.9,%,70
+SR.9.3M,Hommes 15-49 ans,Région,Plateaux,internet_utilise_3_derniers_mois,7.9,%,70
+SR.9.3M,Hommes 15-49 ans,Région,Plateaux,internet_hebdomadaire_3_derniers_mois,7.2,%,70
+SR.9.3M,Hommes 15-49 ans,Région,Plateaux,effectif,556.0,effectif pondéré,70
+SR.9.3M,Hommes 15-49 ans,Région,Centrale,ordinateur_deja_utilise,11.6,%,70
+SR.9.3M,Hommes 15-49 ans,Région,Centrale,ordinateur_utilise_3_derniers_mois,6.8,%,70
+SR.9.3M,Hommes 15-49 ans,Région,Centrale,ordinateur_hebdomadaire_3_derniers_mois,3.9,%,70
+SR.9.3M,Hommes 15-49 ans,Région,Centrale,possede_telephone_portable,78.3,%,70
+SR.9.3M,Hommes 15-49 ans,Région,Centrale,portable_utilise_3_derniers_mois,79.2,%,70
+SR.9.3M,Hommes 15-49 ans,Région,Centrale,portable_hebdomadaire_3_derniers_mois,75.9,%,70
+SR.9.3M,Hommes 15-49 ans,Région,Centrale,internet_deja_utilise,28.7,%,70
+SR.9.3M,Hommes 15-49 ans,Région,Centrale,internet_utilise_3_derniers_mois,25.0,%,70
+SR.9.3M,Hommes 15-49 ans,Région,Centrale,internet_hebdomadaire_3_derniers_mois,23.6,%,70
+SR.9.3M,Hommes 15-49 ans,Région,Centrale,effectif,213.0,effectif pondéré,70
+SR.9.3M,Hommes 15-49 ans,Région,Kara,ordinateur_deja_utilise,15.1,%,70
+SR.9.3M,Hommes 15-49 ans,Région,Kara,ordinateur_utilise_3_derniers_mois,9.8,%,70
+SR.9.3M,Hommes 15-49 ans,Région,Kara,ordinateur_hebdomadaire_3_derniers_mois,8.1,%,70
+SR.9.3M,Hommes 15-49 ans,Région,Kara,possede_telephone_portable,79.5,%,70
+SR.9.3M,Hommes 15-49 ans,Région,Kara,portable_utilise_3_derniers_mois,84.8,%,70
+SR.9.3M,Hommes 15-49 ans,Région,Kara,portable_hebdomadaire_3_derniers_mois,76.6,%,70
+SR.9.3M,Hommes 15-49 ans,Région,Kara,internet_deja_utilise,21.5,%,70
+SR.9.3M,Hommes 15-49 ans,Région,Kara,internet_utilise_3_derniers_mois,19.1,%,70
+SR.9.3M,Hommes 15-49 ans,Région,Kara,internet_hebdomadaire_3_derniers_mois,17.5,%,70
+SR.9.3M,Hommes 15-49 ans,Région,Kara,effectif,261.0,effectif pondéré,70
+SR.9.3M,Hommes 15-49 ans,Région,Savanes,ordinateur_deja_utilise,5.3,%,70
+SR.9.3M,Hommes 15-49 ans,Région,Savanes,ordinateur_utilise_3_derniers_mois,4.1,%,70
+SR.9.3M,Hommes 15-49 ans,Région,Savanes,ordinateur_hebdomadaire_3_derniers_mois,3.0,%,70
+SR.9.3M,Hommes 15-49 ans,Région,Savanes,possede_telephone_portable,74.4,%,70
+SR.9.3M,Hommes 15-49 ans,Région,Savanes,portable_utilise_3_derniers_mois,76.7,%,70
+SR.9.3M,Hommes 15-49 ans,Région,Savanes,portable_hebdomadaire_3_derniers_mois,74.7,%,70
+SR.9.3M,Hommes 15-49 ans,Région,Savanes,internet_deja_utilise,15.1,%,70
+SR.9.3M,Hommes 15-49 ans,Région,Savanes,internet_utilise_3_derniers_mois,14.1,%,70
+SR.9.3M,Hommes 15-49 ans,Région,Savanes,internet_hebdomadaire_3_derniers_mois,13.4,%,70
+SR.9.3M,Hommes 15-49 ans,Région,Savanes,effectif,256.0,effectif pondéré,70
+SR.9.3M,Hommes 15-49 ans,Région,Lomé commune,ordinateur_deja_utilise,33.8,%,70
+SR.9.3M,Hommes 15-49 ans,Région,Lomé commune,ordinateur_utilise_3_derniers_mois,22.7,%,70
+SR.9.3M,Hommes 15-49 ans,Région,Lomé commune,ordinateur_hebdomadaire_3_derniers_mois,17.8,%,70
+SR.9.3M,Hommes 15-49 ans,Région,Lomé commune,possede_telephone_portable,91.8,%,70
+SR.9.3M,Hommes 15-49 ans,Région,Lomé commune,portable_utilise_3_derniers_mois,94.2,%,70
+SR.9.3M,Hommes 15-49 ans,Région,Lomé commune,portable_hebdomadaire_3_derniers_mois,93.1,%,70
+SR.9.3M,Hommes 15-49 ans,Région,Lomé commune,internet_deja_utilise,60.2,%,70
+SR.9.3M,Hommes 15-49 ans,Région,Lomé commune,internet_utilise_3_derniers_mois,56.5,%,70
+SR.9.3M,Hommes 15-49 ans,Région,Lomé commune,internet_hebdomadaire_3_derniers_mois,53.2,%,70
+SR.9.3M,Hommes 15-49 ans,Région,Lomé commune,effectif,347.0,effectif pondéré,70
+SR.9.3M,Hommes 15-49 ans,Région,Golfe urbain,ordinateur_deja_utilise,43.1,%,70
+SR.9.3M,Hommes 15-49 ans,Région,Golfe urbain,ordinateur_utilise_3_derniers_mois,28.1,%,70
+SR.9.3M,Hommes 15-49 ans,Région,Golfe urbain,ordinateur_hebdomadaire_3_derniers_mois,23.1,%,70
+SR.9.3M,Hommes 15-49 ans,Région,Golfe urbain,possede_telephone_portable,91.3,%,70
+SR.9.3M,Hommes 15-49 ans,Région,Golfe urbain,portable_utilise_3_derniers_mois,94.6,%,70
+SR.9.3M,Hommes 15-49 ans,Région,Golfe urbain,portable_hebdomadaire_3_derniers_mois,93.3,%,70
+SR.9.3M,Hommes 15-49 ans,Région,Golfe urbain,internet_deja_utilise,67.6,%,70
+SR.9.3M,Hommes 15-49 ans,Région,Golfe urbain,internet_utilise_3_derniers_mois,60.1,%,70
+SR.9.3M,Hommes 15-49 ans,Région,Golfe urbain,internet_hebdomadaire_3_derniers_mois,56.5,%,70
+SR.9.3M,Hommes 15-49 ans,Région,Golfe urbain,effectif,316.0,effectif pondéré,70
+SR.9.4W,Femmes 15-49 ans,Total,Total,copie_deplace_fichier,2.8,%,71
+SR.9.4W,Femmes 15-49 ans,Total,Total,copier_coller,2.9,%,71
+SR.9.4W,Femmes 15-49 ans,Total,Total,email_piece_jointe,2.1,%,71
+SR.9.4W,Femmes 15-49 ans,Total,Total,formule_tableur,1.4,%,71
+SR.9.4W,Femmes 15-49 ans,Total,Total,connecte_installe_appareil,1.2,%,71
+SR.9.4W,Femmes 15-49 ans,Total,Total,logiciel_installe_configure,1.6,%,71
+SR.9.4W,Femmes 15-49 ans,Total,Total,presentation_electronique,0.8,%,71
+SR.9.4W,Femmes 15-49 ans,Total,Total,transfert_fichier_appareil,1.9,%,71
+SR.9.4W,Femmes 15-49 ans,Total,Total,programme_informatique,0.4,%,71
+SR.9.4W,Femmes 15-49 ans,Total,Total,au_moins_une_activite_ODD_4_4_1,3.7,%,71
+SR.9.4W,Femmes 15-49 ans,Total,Total,effectif,7326.0,effectif pondéré,71
+SR.9.4W,Femmes 15-49 ans,Milieu,Urbain,copie_deplace_fichier,5.3,%,71
+SR.9.4W,Femmes 15-49 ans,Milieu,Urbain,copier_coller,5.4,%,71
+SR.9.4W,Femmes 15-49 ans,Milieu,Urbain,email_piece_jointe,4.2,%,71
+SR.9.4W,Femmes 15-49 ans,Milieu,Urbain,formule_tableur,2.9,%,71
+SR.9.4W,Femmes 15-49 ans,Milieu,Urbain,connecte_installe_appareil,2.3,%,71
+SR.9.4W,Femmes 15-49 ans,Milieu,Urbain,logiciel_installe_configure,3.1,%,71
+SR.9.4W,Femmes 15-49 ans,Milieu,Urbain,presentation_electronique,1.5,%,71
+SR.9.4W,Femmes 15-49 ans,Milieu,Urbain,transfert_fichier_appareil,3.4,%,71
+SR.9.4W,Femmes 15-49 ans,Milieu,Urbain,programme_informatique,0.8,%,71
+SR.9.4W,Femmes 15-49 ans,Milieu,Urbain,au_moins_une_activite_ODD_4_4_1,7.1,%,71
+SR.9.4W,Femmes 15-49 ans,Milieu,Urbain,effectif,3474.0,effectif pondéré,71
+SR.9.4W,Femmes 15-49 ans,Milieu,Rural,copie_deplace_fichier,0.6,%,71
+SR.9.4W,Femmes 15-49 ans,Milieu,Rural,copier_coller,0.6,%,71
+SR.9.4W,Femmes 15-49 ans,Milieu,Rural,email_piece_jointe,0.3,%,71
+SR.9.4W,Femmes 15-49 ans,Milieu,Rural,formule_tableur,0.1,%,71
+SR.9.4W,Femmes 15-49 ans,Milieu,Rural,connecte_installe_appareil,0.1,%,71
+SR.9.4W,Femmes 15-49 ans,Milieu,Rural,logiciel_installe_configure,0.2,%,71
+SR.9.4W,Femmes 15-49 ans,Milieu,Rural,presentation_electronique,0.1,%,71
+SR.9.4W,Femmes 15-49 ans,Milieu,Rural,transfert_fichier_appareil,0.4,%,71
+SR.9.4W,Femmes 15-49 ans,Milieu,Rural,programme_informatique,0.0,%,71
+SR.9.4W,Femmes 15-49 ans,Milieu,Rural,au_moins_une_activite_ODD_4_4_1,0.7,%,71
+SR.9.4W,Femmes 15-49 ans,Milieu,Rural,effectif,3852.0,effectif pondéré,71
+SR.9.4W,Femmes 15-49 ans,Région,Maritime,copie_deplace_fichier,1.8,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Maritime,copier_coller,1.8,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Maritime,email_piece_jointe,0.7,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Maritime,formule_tableur,0.4,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Maritime,connecte_installe_appareil,0.6,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Maritime,logiciel_installe_configure,0.6,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Maritime,presentation_electronique,0.1,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Maritime,transfert_fichier_appareil,1.4,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Maritime,programme_informatique,0.1,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Maritime,au_moins_une_activite_ODD_4_4_1,2.1,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Maritime,effectif,1121.0,effectif pondéré,71
+SR.9.4W,Femmes 15-49 ans,Région,Plateaux,copie_deplace_fichier,0.6,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Plateaux,copier_coller,0.9,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Plateaux,email_piece_jointe,0.5,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Plateaux,formule_tableur,0.3,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Plateaux,connecte_installe_appareil,0.1,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Plateaux,logiciel_installe_configure,0.3,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Plateaux,presentation_electronique,0.1,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Plateaux,transfert_fichier_appareil,0.6,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Plateaux,programme_informatique,0.0,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Plateaux,au_moins_une_activite_ODD_4_4_1,1.0,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Plateaux,effectif,1662.0,effectif pondéré,71
+SR.9.4W,Femmes 15-49 ans,Région,Centrale,copie_deplace_fichier,1.4,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Centrale,copier_coller,1.2,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Centrale,email_piece_jointe,0.8,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Centrale,formule_tableur,0.5,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Centrale,connecte_installe_appareil,0.2,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Centrale,logiciel_installe_configure,0.4,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Centrale,presentation_electronique,0.1,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Centrale,transfert_fichier_appareil,0.7,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Centrale,programme_informatique,0.0,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Centrale,au_moins_une_activite_ODD_4_4_1,1.6,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Centrale,effectif,630.0,effectif pondéré,71
+SR.9.4W,Femmes 15-49 ans,Région,Kara,copie_deplace_fichier,2.0,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Kara,copier_coller,2.1,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Kara,email_piece_jointe,0.8,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Kara,formule_tableur,0.7,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Kara,connecte_installe_appareil,0.4,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Kara,logiciel_installe_configure,0.5,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Kara,presentation_electronique,0.5,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Kara,transfert_fichier_appareil,1.0,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Kara,programme_informatique,0.1,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Kara,au_moins_une_activite_ODD_4_4_1,2.5,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Kara,effectif,782.0,effectif pondéré,71
+SR.9.4W,Femmes 15-49 ans,Région,Savanes,copie_deplace_fichier,0.0,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Savanes,copier_coller,0.1,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Savanes,email_piece_jointe,0.2,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Savanes,formule_tableur,0.0,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Savanes,connecte_installe_appareil,0.2,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Savanes,logiciel_installe_configure,0.3,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Savanes,presentation_electronique,0.0,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Savanes,transfert_fichier_appareil,0.1,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Savanes,programme_informatique,0.2,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Savanes,au_moins_une_activite_ODD_4_4_1,0.4,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Savanes,effectif,875.0,effectif pondéré,71
+SR.9.4W,Femmes 15-49 ans,Région,Lomé commune,copie_deplace_fichier,6.4,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Lomé commune,copier_coller,6.4,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Lomé commune,email_piece_jointe,5.6,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Lomé commune,formule_tableur,3.9,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Lomé commune,connecte_installe_appareil,2.4,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Lomé commune,logiciel_installe_configure,3.6,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Lomé commune,presentation_electronique,2.1,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Lomé commune,transfert_fichier_appareil,4.2,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Lomé commune,programme_informatique,1.0,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Lomé commune,au_moins_une_activite_ODD_4_4_1,9.1,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Lomé commune,effectif,1168.0,effectif pondéré,71
+SR.9.4W,Femmes 15-49 ans,Région,Golfe urbain,copie_deplace_fichier,7.1,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Golfe urbain,copier_coller,7.1,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Golfe urbain,email_piece_jointe,5.6,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Golfe urbain,formule_tableur,3.8,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Golfe urbain,connecte_installe_appareil,3.8,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Golfe urbain,logiciel_installe_configure,4.8,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Golfe urbain,presentation_electronique,2.1,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Golfe urbain,transfert_fichier_appareil,4.3,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Golfe urbain,programme_informatique,1.3,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Golfe urbain,au_moins_une_activite_ODD_4_4_1,8.8,%,71
+SR.9.4W,Femmes 15-49 ans,Région,Golfe urbain,effectif,1089.0,effectif pondéré,71
+SR.9.4M,Hommes 15-49 ans,Total,Total,copie_deplace_fichier,9.1,%,73
+SR.9.4M,Hommes 15-49 ans,Total,Total,copier_coller,9.2,%,73
+SR.9.4M,Hommes 15-49 ans,Total,Total,email_piece_jointe,7.4,%,73
+SR.9.4M,Hommes 15-49 ans,Total,Total,formule_tableur,3.4,%,73
+SR.9.4M,Hommes 15-49 ans,Total,Total,connecte_installe_appareil,4.2,%,73
+SR.9.4M,Hommes 15-49 ans,Total,Total,logiciel_installe_configure,6.5,%,73
+SR.9.4M,Hommes 15-49 ans,Total,Total,presentation_electronique,2.7,%,73
+SR.9.4M,Hommes 15-49 ans,Total,Total,transfert_fichier_appareil,8.6,%,73
+SR.9.4M,Hommes 15-49 ans,Total,Total,programme_informatique,1.3,%,73
+SR.9.4M,Hommes 15-49 ans,Total,Total,au_moins_une_activite_ODD_4_4_1,11.2,%,73
+SR.9.4M,Hommes 15-49 ans,Total,Total,effectif,2286.0,effectif pondéré,73
+SR.9.4M,Hommes 15-49 ans,Milieu,Urbain,copie_deplace_fichier,17.4,%,73
+SR.9.4M,Hommes 15-49 ans,Milieu,Urbain,copier_coller,17.1,%,73
+SR.9.4M,Hommes 15-49 ans,Milieu,Urbain,email_piece_jointe,14.1,%,73
+SR.9.4M,Hommes 15-49 ans,Milieu,Urbain,formule_tableur,6.7,%,73
+SR.9.4M,Hommes 15-49 ans,Milieu,Urbain,connecte_installe_appareil,8.3,%,73
+SR.9.4M,Hommes 15-49 ans,Milieu,Urbain,logiciel_installe_configure,12.7,%,73
+SR.9.4M,Hommes 15-49 ans,Milieu,Urbain,presentation_electronique,5.6,%,73
+SR.9.4M,Hommes 15-49 ans,Milieu,Urbain,transfert_fichier_appareil,16.9,%,73
+SR.9.4M,Hommes 15-49 ans,Milieu,Urbain,programme_informatique,2.8,%,73
+SR.9.4M,Hommes 15-49 ans,Milieu,Urbain,au_moins_une_activite_ODD_4_4_1,20.9,%,73
+SR.9.4M,Hommes 15-49 ans,Milieu,Urbain,effectif,1057.0,effectif pondéré,73
+SR.9.4M,Hommes 15-49 ans,Milieu,Rural,copie_deplace_fichier,2.0,%,73
+SR.9.4M,Hommes 15-49 ans,Milieu,Rural,copier_coller,2.4,%,73
+SR.9.4M,Hommes 15-49 ans,Milieu,Rural,email_piece_jointe,1.7,%,73
+SR.9.4M,Hommes 15-49 ans,Milieu,Rural,formule_tableur,0.5,%,73
+SR.9.4M,Hommes 15-49 ans,Milieu,Rural,connecte_installe_appareil,0.7,%,73
+SR.9.4M,Hommes 15-49 ans,Milieu,Rural,logiciel_installe_configure,1.0,%,73
+SR.9.4M,Hommes 15-49 ans,Milieu,Rural,presentation_electronique,0.3,%,73
+SR.9.4M,Hommes 15-49 ans,Milieu,Rural,transfert_fichier_appareil,1.5,%,73
+SR.9.4M,Hommes 15-49 ans,Milieu,Rural,programme_informatique,0.0,%,73
+SR.9.4M,Hommes 15-49 ans,Milieu,Rural,au_moins_une_activite_ODD_4_4_1,2.8,%,73
+SR.9.4M,Hommes 15-49 ans,Milieu,Rural,effectif,1229.0,effectif pondéré,73
+SR.9.4M,Hommes 15-49 ans,Région,Maritime,copie_deplace_fichier,5.7,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Maritime,copier_coller,6.2,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Maritime,email_piece_jointe,4.5,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Maritime,formule_tableur,2.0,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Maritime,connecte_installe_appareil,2.2,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Maritime,logiciel_installe_configure,4.1,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Maritime,presentation_electronique,1.8,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Maritime,transfert_fichier_appareil,6.3,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Maritime,programme_informatique,0.6,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Maritime,au_moins_une_activite_ODD_4_4_1,7.1,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Maritime,effectif,338.0,effectif pondéré,73
+SR.9.4M,Hommes 15-49 ans,Région,Plateaux,copie_deplace_fichier,3.3,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Plateaux,copier_coller,3.4,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Plateaux,email_piece_jointe,2.9,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Plateaux,formule_tableur,0.6,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Plateaux,connecte_installe_appareil,1.5,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Plateaux,logiciel_installe_configure,1.8,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Plateaux,presentation_electronique,0.9,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Plateaux,transfert_fichier_appareil,1.9,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Plateaux,programme_informatique,0.9,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Plateaux,au_moins_une_activite_ODD_4_4_1,4.0,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Plateaux,effectif,556.0,effectif pondéré,73
+SR.9.4M,Hommes 15-49 ans,Région,Centrale,copie_deplace_fichier,4.8,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Centrale,copier_coller,5.6,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Centrale,email_piece_jointe,3.2,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Centrale,formule_tableur,0.8,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Centrale,connecte_installe_appareil,1.7,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Centrale,logiciel_installe_configure,4.1,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Centrale,presentation_electronique,0.3,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Centrale,transfert_fichier_appareil,3.7,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Centrale,programme_informatique,0.0,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Centrale,au_moins_une_activite_ODD_4_4_1,6.5,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Centrale,effectif,213.0,effectif pondéré,73
+SR.9.4M,Hommes 15-49 ans,Région,Kara,copie_deplace_fichier,7.9,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Kara,copier_coller,8.3,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Kara,email_piece_jointe,4.1,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Kara,formule_tableur,3.7,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Kara,connecte_installe_appareil,3.7,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Kara,logiciel_installe_configure,4.4,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Kara,presentation_electronique,3.3,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Kara,transfert_fichier_appareil,7.8,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Kara,programme_informatique,1.8,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Kara,au_moins_une_activite_ODD_4_4_1,9.6,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Kara,effectif,261.0,effectif pondéré,73
+SR.9.4M,Hommes 15-49 ans,Région,Savanes,copie_deplace_fichier,4.0,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Savanes,copier_coller,3.6,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Savanes,email_piece_jointe,3.9,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Savanes,formule_tableur,1.7,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Savanes,connecte_installe_appareil,0.0,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Savanes,logiciel_installe_configure,0.6,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Savanes,presentation_electronique,0.0,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Savanes,transfert_fichier_appareil,2.4,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Savanes,programme_informatique,0.0,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Savanes,au_moins_une_activite_ODD_4_4_1,4.1,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Savanes,effectif,256.0,effectif pondéré,73
+SR.9.4M,Hommes 15-49 ans,Région,Lomé commune,copie_deplace_fichier,17.0,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Lomé commune,copier_coller,16.9,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Lomé commune,email_piece_jointe,15.0,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Lomé commune,formule_tableur,7.4,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Lomé commune,connecte_installe_appareil,7.9,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Lomé commune,logiciel_installe_configure,13.4,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Lomé commune,presentation_electronique,5.8,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Lomé commune,transfert_fichier_appareil,18.4,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Lomé commune,programme_informatique,1.6,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Lomé commune,au_moins_une_activite_ODD_4_4_1,21.8,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Lomé commune,effectif,347.0,effectif pondéré,73
+SR.9.4M,Hommes 15-49 ans,Région,Golfe urbain,copie_deplace_fichier,22.5,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Golfe urbain,copier_coller,21.7,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Golfe urbain,email_piece_jointe,18.4,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Golfe urbain,formule_tableur,8.2,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Golfe urbain,connecte_installe_appareil,12.7,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Golfe urbain,logiciel_installe_configure,17.5,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Golfe urbain,presentation_electronique,6.7,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Golfe urbain,transfert_fichier_appareil,21.2,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Golfe urbain,programme_informatique,4.1,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Golfe urbain,au_moins_une_activite_ODD_4_4_1,26.7,%,73
+SR.9.4M,Hommes 15-49 ans,Région,Golfe urbain,effectif,316.0,effectif pondéré,73
+SR.6.1W,Femmes 15-49 ans,Total,Total,aucun_preprimaire_alphabetise,0.1,%,51
+SR.6.1W,Femmes 15-49 ans,Total,Total,aucun_preprimaire_analphabete,27.4,%,51
+SR.6.1W,Femmes 15-49 ans,Total,Total,primaire_alphabetise,6.0,%,51
+SR.6.1W,Femmes 15-49 ans,Total,Total,primaire_analphabete,26.5,%,51
+SR.6.1W,Femmes 15-49 ans,Total,Total,secondaire_ou_plus,40.0,%,51
+SR.6.1W,Femmes 15-49 ans,Total,Total,total_repartition,100.0,%,51
+SR.6.1W,Femmes 15-49 ans,Total,Total,alphabetises,46.1,%,51
+SR.6.1W,Femmes 15-49 ans,Total,Total,effectif,7326.0,effectif pondéré,51
+SR.6.1W,Femmes 15-49 ans,Milieu,Urbain,aucun_preprimaire_alphabetise,0.1,%,51
+SR.6.1W,Femmes 15-49 ans,Milieu,Urbain,aucun_preprimaire_analphabete,15.8,%,51
+SR.6.1W,Femmes 15-49 ans,Milieu,Urbain,primaire_alphabetise,7.2,%,51
+SR.6.1W,Femmes 15-49 ans,Milieu,Urbain,primaire_analphabete,24.1,%,51
+SR.6.1W,Femmes 15-49 ans,Milieu,Urbain,secondaire_ou_plus,52.8,%,51
+SR.6.1W,Femmes 15-49 ans,Milieu,Urbain,total_repartition,100.0,%,51
+SR.6.1W,Femmes 15-49 ans,Milieu,Urbain,alphabetises,60.1,%,51
+SR.6.1W,Femmes 15-49 ans,Milieu,Urbain,effectif,3474.0,effectif pondéré,51
+SR.6.1W,Femmes 15-49 ans,Milieu,Rural,aucun_preprimaire_alphabetise,0.1,%,51
+SR.6.1W,Femmes 15-49 ans,Milieu,Rural,aucun_preprimaire_analphabete,37.9,%,51
+SR.6.1W,Femmes 15-49 ans,Milieu,Rural,primaire_alphabetise,5.0,%,51
+SR.6.1W,Femmes 15-49 ans,Milieu,Rural,primaire_analphabete,28.7,%,51
+SR.6.1W,Femmes 15-49 ans,Milieu,Rural,secondaire_ou_plus,28.4,%,51
+SR.6.1W,Femmes 15-49 ans,Milieu,Rural,total_repartition,100.0,%,51
+SR.6.1W,Femmes 15-49 ans,Milieu,Rural,alphabetises,33.4,%,51
+SR.6.1W,Femmes 15-49 ans,Milieu,Rural,effectif,3852.0,effectif pondéré,51
+SR.6.1W,Femmes 15-49 ans,Région,Maritime,aucun_preprimaire_alphabetise,0.1,%,51
+SR.6.1W,Femmes 15-49 ans,Région,Maritime,aucun_preprimaire_analphabete,27.2,%,51
+SR.6.1W,Femmes 15-49 ans,Région,Maritime,primaire_alphabetise,7.6,%,51
+SR.6.1W,Femmes 15-49 ans,Région,Maritime,primaire_analphabete,31.5,%,51
+SR.6.1W,Femmes 15-49 ans,Région,Maritime,secondaire_ou_plus,33.6,%,51
+SR.6.1W,Femmes 15-49 ans,Région,Maritime,total_repartition,100.0,%,51
+SR.6.1W,Femmes 15-49 ans,Région,Maritime,alphabetises,41.3,%,51
+SR.6.1W,Femmes 15-49 ans,Région,Maritime,effectif,1121.0,effectif pondéré,51
+SR.6.1W,Femmes 15-49 ans,Région,Plateaux,aucun_preprimaire_alphabetise,0.0,%,51
+SR.6.1W,Femmes 15-49 ans,Région,Plateaux,aucun_preprimaire_analphabete,27.5,%,51
+SR.6.1W,Femmes 15-49 ans,Région,Plateaux,primaire_alphabetise,6.0,%,51
+SR.6.1W,Femmes 15-49 ans,Région,Plateaux,primaire_analphabete,30.7,%,51
+SR.6.1W,Femmes 15-49 ans,Région,Plateaux,secondaire_ou_plus,35.9,%,51
+SR.6.1W,Femmes 15-49 ans,Région,Plateaux,total_repartition,100.0,%,51
+SR.6.1W,Femmes 15-49 ans,Région,Plateaux,alphabetises,41.9,%,51
+SR.6.1W,Femmes 15-49 ans,Région,Plateaux,effectif,1662.0,effectif pondéré,51
+SR.6.1W,Femmes 15-49 ans,Région,Centrale,aucun_preprimaire_alphabetise,0.0,%,51
+SR.6.1W,Femmes 15-49 ans,Région,Centrale,aucun_preprimaire_analphabete,28.6,%,51
+SR.6.1W,Femmes 15-49 ans,Région,Centrale,primaire_alphabetise,3.3,%,51
+SR.6.1W,Femmes 15-49 ans,Région,Centrale,primaire_analphabete,30.4,%,51
+SR.6.1W,Femmes 15-49 ans,Région,Centrale,secondaire_ou_plus,37.7,%,51
+SR.6.1W,Femmes 15-49 ans,Région,Centrale,total_repartition,100.0,%,51
+SR.6.1W,Femmes 15-49 ans,Région,Centrale,alphabetises,41.0,%,51
+SR.6.1W,Femmes 15-49 ans,Région,Centrale,effectif,630.0,effectif pondéré,51
+SR.6.1W,Femmes 15-49 ans,Région,Kara,aucun_preprimaire_alphabetise,0.1,%,51
+SR.6.1W,Femmes 15-49 ans,Région,Kara,aucun_preprimaire_analphabete,34.7,%,51
+SR.6.1W,Femmes 15-49 ans,Région,Kara,primaire_alphabetise,3.6,%,51
+SR.6.1W,Femmes 15-49 ans,Région,Kara,primaire_analphabete,24.7,%,51
+SR.6.1W,Femmes 15-49 ans,Région,Kara,secondaire_ou_plus,36.8,%,51
+SR.6.1W,Femmes 15-49 ans,Région,Kara,total_repartition,100.0,%,51
+SR.6.1W,Femmes 15-49 ans,Région,Kara,alphabetises,40.6,%,51
+SR.6.1W,Femmes 15-49 ans,Région,Kara,effectif,782.0,effectif pondéré,51
+SR.6.1W,Femmes 15-49 ans,Région,Savanes,aucun_preprimaire_alphabetise,0.0,%,51
+SR.6.1W,Femmes 15-49 ans,Région,Savanes,aucun_preprimaire_analphabete,58.3,%,51
+SR.6.1W,Femmes 15-49 ans,Région,Savanes,primaire_alphabetise,2.1,%,51
+SR.6.1W,Femmes 15-49 ans,Région,Savanes,primaire_analphabete,17.9,%,51
+SR.6.1W,Femmes 15-49 ans,Région,Savanes,secondaire_ou_plus,21.7,%,51
+SR.6.1W,Femmes 15-49 ans,Région,Savanes,total_repartition,100.0,%,51
+SR.6.1W,Femmes 15-49 ans,Région,Savanes,alphabetises,23.8,%,51
+SR.6.1W,Femmes 15-49 ans,Région,Savanes,effectif,875.0,effectif pondéré,51
+SR.6.1W,Femmes 15-49 ans,Région,Lomé commune,aucun_preprimaire_alphabetise,0.2,%,51
+SR.6.1W,Femmes 15-49 ans,Région,Lomé commune,aucun_preprimaire_analphabete,12.7,%,51
+SR.6.1W,Femmes 15-49 ans,Région,Lomé commune,primaire_alphabetise,8.3,%,51
+SR.6.1W,Femmes 15-49 ans,Région,Lomé commune,primaire_analphabete,24.1,%,51
+SR.6.1W,Femmes 15-49 ans,Région,Lomé commune,secondaire_ou_plus,54.7,%,51
+SR.6.1W,Femmes 15-49 ans,Région,Lomé commune,total_repartition,100.0,%,51
+SR.6.1W,Femmes 15-49 ans,Région,Lomé commune,alphabetises,63.3,%,51
+SR.6.1W,Femmes 15-49 ans,Région,Lomé commune,effectif,1168.0,effectif pondéré,51
+SR.6.1W,Femmes 15-49 ans,Région,Golfe urbain,aucun_preprimaire_alphabetise,0.2,%,51
+SR.6.1W,Femmes 15-49 ans,Région,Golfe urbain,aucun_preprimaire_analphabete,12.6,%,51
+SR.6.1W,Femmes 15-49 ans,Région,Golfe urbain,primaire_alphabetise,8.6,%,51
+SR.6.1W,Femmes 15-49 ans,Région,Golfe urbain,primaire_analphabete,23.6,%,51
+SR.6.1W,Femmes 15-49 ans,Région,Golfe urbain,secondaire_ou_plus,55.0,%,51
+SR.6.1W,Femmes 15-49 ans,Région,Golfe urbain,total_repartition,100.0,%,51
+SR.6.1W,Femmes 15-49 ans,Région,Golfe urbain,alphabetises,63.8,%,51
+SR.6.1W,Femmes 15-49 ans,Région,Golfe urbain,effectif,1089.0,effectif pondéré,51
+SR.6.1M,Hommes 15-49 ans,Total,Total,aucun_preprimaire_alphabetise,0.0,%,52
+SR.6.1M,Hommes 15-49 ans,Total,Total,aucun_preprimaire_analphabete,9.3,%,52
+SR.6.1M,Hommes 15-49 ans,Total,Total,primaire_alphabetise,4.7,%,52
+SR.6.1M,Hommes 15-49 ans,Total,Total,primaire_analphabete,18.9,%,52
+SR.6.1M,Hommes 15-49 ans,Total,Total,secondaire_ou_plus,67.0,%,52
+SR.6.1M,Hommes 15-49 ans,Total,Total,total_repartition,100.0,%,52
+SR.6.1M,Hommes 15-49 ans,Total,Total,alphabetises,71.8,%,52
+SR.6.1M,Hommes 15-49 ans,Total,Total,effectif,2286.0,effectif pondéré,52
+SR.6.1M,Hommes 15-49 ans,Milieu,Urbain,aucun_preprimaire_alphabetise,0.0,%,52
+SR.6.1M,Hommes 15-49 ans,Milieu,Urbain,aucun_preprimaire_analphabete,3.0,%,52
+SR.6.1M,Hommes 15-49 ans,Milieu,Urbain,primaire_alphabetise,4.5,%,52
+SR.6.1M,Hommes 15-49 ans,Milieu,Urbain,primaire_analphabete,14.1,%,52
+SR.6.1M,Hommes 15-49 ans,Milieu,Urbain,secondaire_ou_plus,78.3,%,52
+SR.6.1M,Hommes 15-49 ans,Milieu,Urbain,total_repartition,100.0,%,52
+SR.6.1M,Hommes 15-49 ans,Milieu,Urbain,alphabetises,82.9,%,52
+SR.6.1M,Hommes 15-49 ans,Milieu,Urbain,effectif,1057.0,effectif pondéré,52
+SR.6.1M,Hommes 15-49 ans,Milieu,Rural,aucun_preprimaire_alphabetise,0.0,%,52
+SR.6.1M,Hommes 15-49 ans,Milieu,Rural,aucun_preprimaire_analphabete,14.6,%,52
+SR.6.1M,Hommes 15-49 ans,Milieu,Rural,primaire_alphabetise,4.9,%,52
+SR.6.1M,Hommes 15-49 ans,Milieu,Rural,primaire_analphabete,23.1,%,52
+SR.6.1M,Hommes 15-49 ans,Milieu,Rural,secondaire_ou_plus,57.3,%,52
+SR.6.1M,Hommes 15-49 ans,Milieu,Rural,total_repartition,100.0,%,52
+SR.6.1M,Hommes 15-49 ans,Milieu,Rural,alphabetises,62.3,%,52
+SR.6.1M,Hommes 15-49 ans,Milieu,Rural,effectif,1229.0,effectif pondéré,52
+SR.6.1M,Hommes 15-49 ans,Région,Maritime,aucun_preprimaire_alphabetise,0.0,%,52
+SR.6.1M,Hommes 15-49 ans,Région,Maritime,aucun_preprimaire_analphabete,5.1,%,52
+SR.6.1M,Hommes 15-49 ans,Région,Maritime,primaire_alphabetise,9.1,%,52
+SR.6.1M,Hommes 15-49 ans,Région,Maritime,primaire_analphabete,24.2,%,52
+SR.6.1M,Hommes 15-49 ans,Région,Maritime,secondaire_ou_plus,61.6,%,52
+SR.6.1M,Hommes 15-49 ans,Région,Maritime,total_repartition,100.0,%,52
+SR.6.1M,Hommes 15-49 ans,Région,Maritime,alphabetises,70.7,%,52
+SR.6.1M,Hommes 15-49 ans,Région,Maritime,effectif,338.0,effectif pondéré,52
+SR.6.1M,Hommes 15-49 ans,Région,Plateaux,aucun_preprimaire_alphabetise,0.0,%,52
+SR.6.1M,Hommes 15-49 ans,Région,Plateaux,aucun_preprimaire_analphabete,11.2,%,52
+SR.6.1M,Hommes 15-49 ans,Région,Plateaux,primaire_alphabetise,3.2,%,52
+SR.6.1M,Hommes 15-49 ans,Région,Plateaux,primaire_analphabete,15.8,%,52
+SR.6.1M,Hommes 15-49 ans,Région,Plateaux,secondaire_ou_plus,69.8,%,52
+SR.6.1M,Hommes 15-49 ans,Région,Plateaux,total_repartition,100.0,%,52
+SR.6.1M,Hommes 15-49 ans,Région,Plateaux,alphabetises,73.0,%,52
+SR.6.1M,Hommes 15-49 ans,Région,Plateaux,effectif,556.0,effectif pondéré,52
+SR.6.1M,Hommes 15-49 ans,Région,Centrale,aucun_preprimaire_alphabetise,0.0,%,52
+SR.6.1M,Hommes 15-49 ans,Région,Centrale,aucun_preprimaire_analphabete,6.2,%,52
+SR.6.1M,Hommes 15-49 ans,Région,Centrale,primaire_alphabetise,3.8,%,52
+SR.6.1M,Hommes 15-49 ans,Région,Centrale,primaire_analphabete,24.4,%,52
+SR.6.1M,Hommes 15-49 ans,Région,Centrale,secondaire_ou_plus,65.6,%,52
+SR.6.1M,Hommes 15-49 ans,Région,Centrale,total_repartition,100.0,%,52
+SR.6.1M,Hommes 15-49 ans,Région,Centrale,alphabetises,69.4,%,52
+SR.6.1M,Hommes 15-49 ans,Région,Centrale,effectif,213.0,effectif pondéré,52
+SR.6.1M,Hommes 15-49 ans,Région,Kara,aucun_preprimaire_alphabetise,0.0,%,52
+SR.6.1M,Hommes 15-49 ans,Région,Kara,aucun_preprimaire_analphabete,12.8,%,52
+SR.6.1M,Hommes 15-49 ans,Région,Kara,primaire_alphabetise,4.9,%,52
+SR.6.1M,Hommes 15-49 ans,Région,Kara,primaire_analphabete,16.8,%,52
+SR.6.1M,Hommes 15-49 ans,Région,Kara,secondaire_ou_plus,65.5,%,52
+SR.6.1M,Hommes 15-49 ans,Région,Kara,total_repartition,100.0,%,52
+SR.6.1M,Hommes 15-49 ans,Région,Kara,alphabetises,70.4,%,52
+SR.6.1M,Hommes 15-49 ans,Région,Kara,effectif,261.0,effectif pondéré,52
+SR.6.1M,Hommes 15-49 ans,Région,Savanes,aucun_preprimaire_alphabetise,0.2,%,52
+SR.6.1M,Hommes 15-49 ans,Région,Savanes,aucun_preprimaire_analphabete,25.4,%,52
+SR.6.1M,Hommes 15-49 ans,Région,Savanes,primaire_alphabetise,1.1,%,52
+SR.6.1M,Hommes 15-49 ans,Région,Savanes,primaire_analphabete,24.7,%,52
+SR.6.1M,Hommes 15-49 ans,Région,Savanes,secondaire_ou_plus,48.7,%,52
+SR.6.1M,Hommes 15-49 ans,Région,Savanes,total_repartition,100.0,%,52
+SR.6.1M,Hommes 15-49 ans,Région,Savanes,alphabetises,50.0,%,52
+SR.6.1M,Hommes 15-49 ans,Région,Savanes,effectif,256.0,effectif pondéré,52
+SR.6.1M,Hommes 15-49 ans,Région,Lomé commune,aucun_preprimaire_alphabetise,0.0,%,52
+SR.6.1M,Hommes 15-49 ans,Région,Lomé commune,aucun_preprimaire_analphabete,2.9,%,52
+SR.6.1M,Hommes 15-49 ans,Région,Lomé commune,primaire_alphabetise,3.6,%,52
+SR.6.1M,Hommes 15-49 ans,Région,Lomé commune,primaire_analphabete,17.5,%,52
+SR.6.1M,Hommes 15-49 ans,Région,Lomé commune,secondaire_ou_plus,76.0,%,52
+SR.6.1M,Hommes 15-49 ans,Région,Lomé commune,total_repartition,100.0,%,52
+SR.6.1M,Hommes 15-49 ans,Région,Lomé commune,alphabetises,79.6,%,52
+SR.6.1M,Hommes 15-49 ans,Région,Lomé commune,effectif,347.0,effectif pondéré,52
+SR.6.1M,Hommes 15-49 ans,Région,Golfe urbain,aucun_preprimaire_alphabetise,0.0,%,52
+SR.6.1M,Hommes 15-49 ans,Région,Golfe urbain,aucun_preprimaire_analphabete,3.5,%,52
+SR.6.1M,Hommes 15-49 ans,Région,Golfe urbain,primaire_alphabetise,7.7,%,52
+SR.6.1M,Hommes 15-49 ans,Région,Golfe urbain,primaire_analphabete,13.7,%,52
+SR.6.1M,Hommes 15-49 ans,Région,Golfe urbain,secondaire_ou_plus,75.2,%,52
+SR.6.1M,Hommes 15-49 ans,Région,Golfe urbain,total_repartition,100.0,%,52
+SR.6.1M,Hommes 15-49 ans,Région,Golfe urbain,alphabetises,82.9,%,52
+SR.6.1M,Hommes 15-49 ans,Région,Golfe urbain,effectif,316.0,effectif pondéré,52

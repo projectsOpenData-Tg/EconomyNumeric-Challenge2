@@ -1,0 +1,144 @@
+{
+  "etape": "06_series",
+  "date": "2026-09-26",
+  "effectifs": [
+    {
+      "objet": "D1 (API)",
+      "avant": 35,
+      "transformation": "une valeur par année, drapeau P1",
+      "apres": 35
+    },
+    {
+      "objet": "serie_nationale",
+      "avant": "D1, 2b, D2, D3, 3g, AR1, IT1, 4h, 4g, IN1, IN3",
+      "transformation": "format long",
+      "apres": "3261 lignes, 27 indicateurs"
+    }
+  ],
+  "controles": [
+    {
+      "code": "SN3-D2-2b",
+      "libelle": "totaux mobiles par opérateur : D2 = 2b (2013-2017)",
+      "attendu": "0",
+      "constate": "0",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "CX3",
+      "libelle": "raccord D2 / AR1 (2017) : 3G de Togocel",
+      "attendu": "écart nul",
+      "constate": "1610821 / 1610821",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "CX3",
+      "libelle": "raccord D2 / AR1 (2017) : total data mobile",
+      "attendu": "≤ 0,03 %",
+      "constate": "+0.030 %",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "CX3",
+      "libelle": "raccord D2 / AR1 (2018) : 3G de Togocel",
+      "attendu": "écart nul",
+      "constate": "1932767 / 1932767",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "CX3",
+      "libelle": "raccord D2 / AR1 (2018) : total data mobile",
+      "attendu": "≤ 0,03 %",
+      "constate": "+0.000 %",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "SN4-raccord",
+      "libelle": "téléphonie mobile : D3 2018 face à AR1 T4 2018",
+      "attendu": "égalité (raccord P4)",
+      "constate": "+0.00 %",
+      "resultat": "OK",
+      "bloquant": false
+    },
+    {
+      "code": "SN4-operateurs",
+      "libelle": "abonnés téléphonie mobile par opérateur dans AR1 (tableaux)",
+      "attendu": "présents",
+      "constate": "absents : graphiques seulement",
+      "resultat": "ÉCHEC",
+      "bloquant": false
+    },
+    {
+      "code": "SN6-1Go",
+      "libelle": "années du panier « 1 Go, data seule » (O2-05b)",
+      "attendu": "2023-2025 (3)",
+      "constate": "3",
+      "resultat": "OK",
+      "bloquant": false
+    },
+    {
+      "code": "SN8",
+      "libelle": "IN1 15 ans et plus en 2022 face au RGPH (03 : +6,6 %)",
+      "attendu": "+6,6 %",
+      "constate": "+6.6 %",
+      "resultat": "OK",
+      "bloquant": false
+    },
+    {
+      "code": "S7",
+      "libelle": "indice « Communication » : décembre 2019 → décembre 2020 (03 : +15 %)",
+      "attendu": "≈ +15 %, non lu comme hausse",
+      "constate": "+15.2 %",
+      "resultat": "OK",
+      "bloquant": false
+    },
+    {
+      "code": "SN-cle",
+      "libelle": "une seule ligne par série, période, convention et variante",
+      "attendu": "0",
+      "constate": "0",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "CX7",
+      "libelle": "une seule base de population par indicateur",
+      "attendu": "1",
+      "constate": "1",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "SN3-continuite",
+      "libelle": "abonnements data mobile, total annuel principal : 2010-2025 sans trou",
+      "attendu": "16 années",
+      "constate": "2010-2025 (16)",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "CX6",
+      "libelle": "CA 2021 : 2b face à la somme des 4 trimestres de AR1 (03 : +2,8 % / +3,7 %)",
+      "attendu": "+2,8 %",
+      "constate": "+2.8 %",
+      "resultat": "OK",
+      "bloquant": false
+    },
+    {
+      "code": "CX6",
+      "libelle": "CA 2022 : 2b face à la somme des 4 trimestres de AR1 (03 : +2,8 % / +3,7 %)",
+      "attendu": "+3,7 %",
+      "constate": "+3.7 %",
+      "resultat": "OK",
+      "bloquant": false
+    }
+  ],
+  "sorties": [
+    "data/processed/serie_nationale.csv"
+  ],
+  "n_anomalies": 0
+}

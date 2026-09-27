@@ -1,0 +1,980 @@
+source,vague,domaine_type,domaine,unite_regionale_code,indicateur,population_reference,estimation_pct,ic95_bas,ic95_haut,cv_pct,affichable_cv30,n_obs,niveau_preuve,note
+"EHCVM (W2, micro-données)",2018/19,national,Togo,,acces_internet_declare,individus de 15 ans et plus,23.71,22.37,25.05,2.9,1.0,15047.0,B,accès à Internet déclaré (« individu a accès à Internet »)
+"EHCVM (W2, micro-données)",2018/19,milieu,Urbain,,acces_internet_declare,individus de 15 ans et plus,44.59,42.42,46.76,2.5,1.0,5280.0,B,accès à Internet déclaré (« individu a accès à Internet »)
+"EHCVM (W2, micro-données)",2018/19,milieu,Rural,,acces_internet_declare,individus de 15 ans et plus,6.34,5.22,7.45,9.0,1.0,9767.0,B,accès à Internet déclaré (« individu a accès à Internet »)
+"EHCVM (W2, micro-données)",2018/19,region,Centrale,C,acces_internet_declare,individus de 15 ans et plus,16.54,13.76,19.33,8.6,1.0,2036.0,B,accès à Internet déclaré (« individu a accès à Internet »)
+"EHCVM (W2, micro-données)",2018/19,region,Kara,D,acces_internet_declare,individus de 15 ans et plus,11.38,9.09,13.67,10.3,1.0,2731.0,B,accès à Internet déclaré (« individu a accès à Internet »)
+"EHCVM (W2, micro-données)",2018/19,region,Lomé commune,GL,acces_internet_declare,individus de 15 ans et plus,51.98,49.02,54.94,2.9,1.0,2403.0,B,"accès à Internet déclaré (« individu a accès à Internet ») ; libellé « Lomé commune » en 2018/19, mêmes grappes que « Grand Lomé » (R5)"
+"EHCVM (W2, micro-données)",2018/19,region,Maritime,A_HGL,acces_internet_declare,individus de 15 ans et plus,12.79,9.84,15.74,11.8,1.0,2056.0,B,accès à Internet déclaré (« individu a accès à Internet »)
+"EHCVM (W2, micro-données)",2018/19,region,Plateaux,B,acces_internet_declare,individus de 15 ans et plus,10.67,8.7,12.63,9.4,1.0,2600.0,B,accès à Internet déclaré (« individu a accès à Internet »)
+"EHCVM (W2, micro-données)",2018/19,region,Savanes,E,acces_internet_declare,individus de 15 ans et plus,7.02,5.37,8.68,12.0,1.0,3221.0,B,accès à Internet déclaré (« individu a accès à Internet »)
+"EHCVM (W2, micro-données)",2018/19,national,Togo,,acces_internet_declare,tous les individus,13.51,12.66,14.37,3.2,1.0,27398.0,B,accès à Internet déclaré (« individu a accès à Internet »)
+"EHCVM (W2, micro-données)",2018/19,milieu,Urbain,,acces_internet_declare,tous les individus,28.17,26.51,29.83,3.0,1.0,8565.0,B,accès à Internet déclaré (« individu a accès à Internet »)
+"EHCVM (W2, micro-données)",2018/19,milieu,Rural,,acces_internet_declare,tous les individus,3.32,2.72,3.93,9.3,1.0,18833.0,B,accès à Internet déclaré (« individu a accès à Internet »)
+"EHCVM (W2, micro-données)",2018/19,region,Centrale,C,acces_internet_declare,tous les individus,9.09,7.47,10.7,9.1,1.0,3747.0,B,accès à Internet déclaré (« individu a accès à Internet »)
+"EHCVM (W2, micro-données)",2018/19,region,Kara,D,acces_internet_declare,tous les individus,6.31,4.98,7.65,10.8,1.0,4914.0,B,accès à Internet déclaré (« individu a accès à Internet »)
+"EHCVM (W2, micro-données)",2018/19,region,Lomé commune,GL,acces_internet_declare,tous les individus,33.78,31.32,36.25,3.7,1.0,3715.0,B,"accès à Internet déclaré (« individu a accès à Internet ») ; libellé « Lomé commune » en 2018/19, mêmes grappes que « Grand Lomé » (R5)"
+"EHCVM (W2, micro-données)",2018/19,region,Maritime,A_HGL,acces_internet_declare,tous les individus,7.03,5.33,8.74,12.3,1.0,3754.0,B,accès à Internet déclaré (« individu a accès à Internet »)
+"EHCVM (W2, micro-données)",2018/19,region,Plateaux,B,acces_internet_declare,tous les individus,5.82,4.7,6.94,9.8,1.0,4778.0,B,accès à Internet déclaré (« individu a accès à Internet »)
+"EHCVM (W2, micro-données)",2018/19,region,Savanes,E,acces_internet_declare,tous les individus,3.5,2.66,4.33,12.2,1.0,6490.0,B,accès à Internet déclaré (« individu a accès à Internet »)
+"EHCVM (W2, micro-données)",2018/19,national,Togo,,telephone_portable,individus de 15 ans et plus,60.31,58.96,61.65,1.1,1.0,15047.0,B,possède un téléphone portable
+"EHCVM (W2, micro-données)",2018/19,milieu,Urbain,,telephone_portable,individus de 15 ans et plus,77.85,76.4,79.31,1.0,1.0,5280.0,B,possède un téléphone portable
+"EHCVM (W2, micro-données)",2018/19,milieu,Rural,,telephone_portable,individus de 15 ans et plus,45.71,43.82,47.59,2.1,1.0,9767.0,B,possède un téléphone portable
+"EHCVM (W2, micro-données)",2018/19,region,Centrale,C,telephone_portable,individus de 15 ans et plus,58.19,55.19,61.19,2.6,1.0,2036.0,B,possède un téléphone portable
+"EHCVM (W2, micro-données)",2018/19,region,Kara,D,telephone_portable,individus de 15 ans et plus,48.43,44.84,52.02,3.8,1.0,2731.0,B,possède un téléphone portable
+"EHCVM (W2, micro-données)",2018/19,region,Lomé commune,GL,telephone_portable,individus de 15 ans et plus,82.17,80.46,83.89,1.1,1.0,2403.0,B,"possède un téléphone portable ; libellé « Lomé commune » en 2018/19, mêmes grappes que « Grand Lomé » (R5)"
+"EHCVM (W2, micro-données)",2018/19,region,Maritime,A_HGL,telephone_portable,individus de 15 ans et plus,54.76,50.57,58.95,3.9,1.0,2056.0,B,possède un téléphone portable
+"EHCVM (W2, micro-données)",2018/19,region,Plateaux,B,telephone_portable,individus de 15 ans et plus,51.69,48.81,54.58,2.8,1.0,2600.0,B,possède un téléphone portable
+"EHCVM (W2, micro-données)",2018/19,region,Savanes,E,telephone_portable,individus de 15 ans et plus,40.23,37.5,42.96,3.5,1.0,3221.0,B,possède un téléphone portable
+"EHCVM (W2, micro-données)",2018/19,national,Togo,,compte_banque_ou_autre,individus de 15 ans et plus,31.26,29.74,32.77,2.5,1.0,15047.0,B,"compte en banque ou autre (variable harmonisée : réunit les 5 types de compte du module 6, mobile banking compris)"
+"EHCVM (W2, micro-données)",2018/19,milieu,Urbain,,compte_banque_ou_autre,individus de 15 ans et plus,45.38,43.0,47.76,2.7,1.0,5280.0,B,"compte en banque ou autre (variable harmonisée : réunit les 5 types de compte du module 6, mobile banking compris)"
+"EHCVM (W2, micro-données)",2018/19,milieu,Rural,,compte_banque_ou_autre,individus de 15 ans et plus,19.5,17.78,21.23,4.5,1.0,9767.0,B,"compte en banque ou autre (variable harmonisée : réunit les 5 types de compte du module 6, mobile banking compris)"
+"EHCVM (W2, micro-données)",2018/19,region,Centrale,C,compte_banque_ou_autre,individus de 15 ans et plus,23.23,19.89,26.58,7.3,1.0,2036.0,B,"compte en banque ou autre (variable harmonisée : réunit les 5 types de compte du module 6, mobile banking compris)"
+"EHCVM (W2, micro-données)",2018/19,region,Kara,D,compte_banque_ou_autre,individus de 15 ans et plus,22.25,18.68,25.82,8.2,1.0,2731.0,B,"compte en banque ou autre (variable harmonisée : réunit les 5 types de compte du module 6, mobile banking compris)"
+"EHCVM (W2, micro-données)",2018/19,region,Lomé commune,GL,compte_banque_ou_autre,individus de 15 ans et plus,47.15,43.85,50.44,3.6,1.0,2403.0,B,"compte en banque ou autre (variable harmonisée : réunit les 5 types de compte du module 6, mobile banking compris) ; libellé « Lomé commune » en 2018/19, mêmes grappes que « Grand Lomé » (R5)"
+"EHCVM (W2, micro-données)",2018/19,region,Maritime,A_HGL,compte_banque_ou_autre,individus de 15 ans et plus,31.32,27.41,35.23,6.4,1.0,2056.0,B,"compte en banque ou autre (variable harmonisée : réunit les 5 types de compte du module 6, mobile banking compris)"
+"EHCVM (W2, micro-données)",2018/19,region,Plateaux,B,compte_banque_ou_autre,individus de 15 ans et plus,25.91,23.15,28.68,5.4,1.0,2600.0,B,"compte en banque ou autre (variable harmonisée : réunit les 5 types de compte du module 6, mobile banking compris)"
+"EHCVM (W2, micro-données)",2018/19,region,Savanes,E,compte_banque_ou_autre,individus de 15 ans et plus,15.07,12.54,17.61,8.6,1.0,3221.0,B,"compte en banque ou autre (variable harmonisée : réunit les 5 types de compte du module 6, mobile banking compris)"
+"EHCVM (W2, micro-données)",2018/19,national,Togo,,alphabetisation,individus de 15 ans et plus,66.51,65.13,67.89,1.1,1.0,15047.0,B,sait lire et écrire (variable harmonisée de la vague)
+"EHCVM (W2, micro-données)",2018/19,milieu,Urbain,,alphabetisation,individus de 15 ans et plus,84.2,82.97,85.44,0.7,1.0,5280.0,B,sait lire et écrire (variable harmonisée de la vague)
+"EHCVM (W2, micro-données)",2018/19,milieu,Rural,,alphabetisation,individus de 15 ans et plus,51.79,49.77,53.81,2.0,1.0,9767.0,B,sait lire et écrire (variable harmonisée de la vague)
+"EHCVM (W2, micro-données)",2018/19,region,Centrale,C,alphabetisation,individus de 15 ans et plus,59.64,56.27,63.01,2.9,1.0,2036.0,B,sait lire et écrire (variable harmonisée de la vague)
+"EHCVM (W2, micro-données)",2018/19,region,Kara,D,alphabetisation,individus de 15 ans et plus,57.12,52.46,61.79,4.2,1.0,2731.0,B,sait lire et écrire (variable harmonisée de la vague)
+"EHCVM (W2, micro-données)",2018/19,region,Lomé commune,GL,alphabetisation,individus de 15 ans et plus,87.25,85.8,88.71,0.9,1.0,2403.0,B,"sait lire et écrire (variable harmonisée de la vague) ; libellé « Lomé commune » en 2018/19, mêmes grappes que « Grand Lomé » (R5)"
+"EHCVM (W2, micro-données)",2018/19,region,Maritime,A_HGL,alphabetisation,individus de 15 ans et plus,64.67,61.58,67.76,2.4,1.0,2056.0,B,sait lire et écrire (variable harmonisée de la vague)
+"EHCVM (W2, micro-données)",2018/19,region,Plateaux,B,alphabetisation,individus de 15 ans et plus,61.47,58.08,64.86,2.8,1.0,2600.0,B,sait lire et écrire (variable harmonisée de la vague)
+"EHCVM (W2, micro-données)",2018/19,region,Savanes,E,alphabetisation,individus de 15 ans et plus,39.05,35.67,42.43,4.4,1.0,3221.0,B,sait lire et écrire (variable harmonisée de la vague)
+"EHCVM (W2, micro-données)",2018/19,national,Togo,,compte_mobile_banking,répondants du module 6 (15 ans et plus),16.01,14.46,17.55,4.9,1.0,15041.0,B,"possède un compte dans un Mobile Banking (module 6) ; « mobile banking » au sens du questionnaire UEMOA, sans nom d'opérateur"
+"EHCVM (W2, micro-données)",2018/19,milieu,Urbain,,compte_mobile_banking,répondants du module 6 (15 ans et plus),21.8,18.93,24.67,6.7,1.0,5262.0,B,"possède un compte dans un Mobile Banking (module 6) ; « mobile banking » au sens du questionnaire UEMOA, sans nom d'opérateur"
+"EHCVM (W2, micro-données)",2018/19,milieu,Rural,,compte_mobile_banking,répondants du module 6 (15 ans et plus),11.23,9.84,12.62,6.3,1.0,9779.0,B,"possède un compte dans un Mobile Banking (module 6) ; « mobile banking » au sens du questionnaire UEMOA, sans nom d'opérateur"
+"EHCVM (W2, micro-données)",2018/19,region,Centrale,C,compte_mobile_banking,répondants du module 6 (15 ans et plus),12.8,10.47,15.14,9.3,1.0,2044.0,B,"possède un compte dans un Mobile Banking (module 6) ; « mobile banking » au sens du questionnaire UEMOA, sans nom d'opérateur"
+"EHCVM (W2, micro-données)",2018/19,region,Kara,D,compte_mobile_banking,répondants du module 6 (15 ans et plus),11.99,9.34,14.65,11.3,1.0,2743.0,B,"possède un compte dans un Mobile Banking (module 6) ; « mobile banking » au sens du questionnaire UEMOA, sans nom d'opérateur"
+"EHCVM (W2, micro-données)",2018/19,region,Lomé commune,GL,compte_mobile_banking,répondants du module 6 (15 ans et plus),20.44,16.4,24.47,10.1,1.0,2378.0,B,"possède un compte dans un Mobile Banking (module 6) ; « mobile banking » au sens du questionnaire UEMOA, sans nom d'opérateur"
+"EHCVM (W2, micro-données)",2018/19,region,Maritime,A_HGL,compte_mobile_banking,répondants du module 6 (15 ans et plus),20.35,16.8,23.89,8.9,1.0,2049.0,B,"possède un compte dans un Mobile Banking (module 6) ; « mobile banking » au sens du questionnaire UEMOA, sans nom d'opérateur"
+"EHCVM (W2, micro-données)",2018/19,region,Plateaux,B,compte_mobile_banking,répondants du module 6 (15 ans et plus),15.54,12.67,18.4,9.4,1.0,2602.0,B,"possède un compte dans un Mobile Banking (module 6) ; « mobile banking » au sens du questionnaire UEMOA, sans nom d'opérateur"
+"EHCVM (W2, micro-données)",2018/19,region,Savanes,E,compte_mobile_banking,répondants du module 6 (15 ans et plus),6.2,4.58,7.82,13.3,1.0,3225.0,B,"possède un compte dans un Mobile Banking (module 6) ; « mobile banking » au sens du questionnaire UEMOA, sans nom d'opérateur"
+"EHCVM (W2, module communautaire)",2018/19,national,Togo,,reseau_1_bien_capte,population des localités enquêtées,59.48,,,,,535.0,B,"réception déclarée « Réseau 1 » (opérateur non nommé dans le fichier) ; part des localités : 58.3 % ; déclaratif, jamais une mesure (Q6)"
+"EHCVM (W2, module communautaire)",2018/19,region,Centrale,C,reseau_1_bien_capte,population des localités enquêtées,54.91,,,,,72.0,B,"réception déclarée « Réseau 1 » (opérateur non nommé dans le fichier) ; part des localités : 55.6 % ; déclaratif, jamais une mesure (Q6)"
+"EHCVM (W2, module communautaire)",2018/19,region,Kara,D,reseau_1_bien_capte,population des localités enquêtées,56.16,,,,,96.0,B,"réception déclarée « Réseau 1 » (opérateur non nommé dans le fichier) ; part des localités : 60.4 % ; déclaratif, jamais une mesure (Q6)"
+"EHCVM (W2, module communautaire)",2018/19,region,Lomé commune,GL,reseau_1_bien_capte,population des localités enquêtées,81.03,,,,,97.0,B,"réception déclarée « Réseau 1 » (opérateur non nommé dans le fichier) ; part des localités : 82.5 % ; déclaratif, jamais une mesure (Q6)"
+"EHCVM (W2, module communautaire)",2018/19,region,Maritime,A_HGL,reseau_1_bien_capte,population des localités enquêtées,52.53,,,,,78.0,B,"réception déclarée « Réseau 1 » (opérateur non nommé dans le fichier) ; part des localités : 55.1 % ; déclaratif, jamais une mesure (Q6)"
+"EHCVM (W2, module communautaire)",2018/19,region,Plateaux,B,reseau_1_bien_capte,population des localités enquêtées,49.49,,,,,96.0,B,"réception déclarée « Réseau 1 » (opérateur non nommé dans le fichier) ; part des localités : 47.9 % ; déclaratif, jamais une mesure (Q6)"
+"EHCVM (W2, module communautaire)",2018/19,region,Savanes,E,reseau_1_bien_capte,population des localités enquêtées,47.74,,,,,96.0,B,"réception déclarée « Réseau 1 » (opérateur non nommé dans le fichier) ; part des localités : 46.9 % ; déclaratif, jamais une mesure (Q6)"
+"EHCVM (W2, module communautaire)",2018/19,national,Togo,,reseau_2_bien_capte,population des localités enquêtées,58.64,,,,,533.0,B,"réception déclarée « Réseau 2 » (opérateur non nommé dans le fichier) ; part des localités : 58.2 % ; déclaratif, jamais une mesure (Q6)"
+"EHCVM (W2, module communautaire)",2018/19,region,Centrale,C,reseau_2_bien_capte,population des localités enquêtées,53.89,,,,,72.0,B,"réception déclarée « Réseau 2 » (opérateur non nommé dans le fichier) ; part des localités : 54.2 % ; déclaratif, jamais une mesure (Q6)"
+"EHCVM (W2, module communautaire)",2018/19,region,Kara,D,reseau_2_bien_capte,population des localités enquêtées,57.85,,,,,96.0,B,"réception déclarée « Réseau 2 » (opérateur non nommé dans le fichier) ; part des localités : 59.4 % ; déclaratif, jamais une mesure (Q6)"
+"EHCVM (W2, module communautaire)",2018/19,region,Lomé commune,GL,reseau_2_bien_capte,population des localités enquêtées,87.12,,,,,97.0,B,"réception déclarée « Réseau 2 » (opérateur non nommé dans le fichier) ; part des localités : 89.7 % ; déclaratif, jamais une mesure (Q6)"
+"EHCVM (W2, module communautaire)",2018/19,region,Maritime,A_HGL,reseau_2_bien_capte,population des localités enquêtées,53.5,,,,,77.0,B,"réception déclarée « Réseau 2 » (opérateur non nommé dans le fichier) ; part des localités : 59.7 % ; déclaratif, jamais une mesure (Q6)"
+"EHCVM (W2, module communautaire)",2018/19,region,Plateaux,B,reseau_2_bien_capte,population des localités enquêtées,41.17,,,,,96.0,B,"réception déclarée « Réseau 2 » (opérateur non nommé dans le fichier) ; part des localités : 43.8 % ; déclaratif, jamais une mesure (Q6)"
+"EHCVM (W2, module communautaire)",2018/19,region,Savanes,E,reseau_2_bien_capte,population des localités enquêtées,40.74,,,,,95.0,B,"réception déclarée « Réseau 2 » (opérateur non nommé dans le fichier) ; part des localités : 41.1 % ; déclaratif, jamais une mesure (Q6)"
+"EHCVM (W2, module communautaire)",2018/19,national,Togo,,reseau_3_bien_capte,population des localités enquêtées,7.9,,,,,522.0,B,"réception déclarée « Réseau 3 » (opérateur non nommé dans le fichier) ; part des localités : 7.7 % ; déclaratif, jamais une mesure (Q6)"
+"EHCVM (W2, module communautaire)",2018/19,region,Centrale,C,reseau_3_bien_capte,population des localités enquêtées,3.88,,,,,72.0,B,"réception déclarée « Réseau 3 » (opérateur non nommé dans le fichier) ; part des localités : 4.2 % ; déclaratif, jamais une mesure (Q6)"
+"EHCVM (W2, module communautaire)",2018/19,region,Kara,D,reseau_3_bien_capte,population des localités enquêtées,7.94,,,,,96.0,B,"réception déclarée « Réseau 3 » (opérateur non nommé dans le fichier) ; part des localités : 7.3 % ; déclaratif, jamais une mesure (Q6)"
+"EHCVM (W2, module communautaire)",2018/19,region,Lomé commune,GL,reseau_3_bien_capte,population des localités enquêtées,7.35,,,,,93.0,B,"réception déclarée « Réseau 3 » (opérateur non nommé dans le fichier) ; part des localités : 8.6 % ; déclaratif, jamais une mesure (Q6)"
+"EHCVM (W2, module communautaire)",2018/19,region,Maritime,A_HGL,reseau_3_bien_capte,population des localités enquêtées,10.77,,,,,74.0,B,"réception déclarée « Réseau 3 » (opérateur non nommé dans le fichier) ; part des localités : 9.5 % ; déclaratif, jamais une mesure (Q6)"
+"EHCVM (W2, module communautaire)",2018/19,region,Plateaux,B,reseau_3_bien_capte,population des localités enquêtées,7.44,,,,,93.0,B,"réception déclarée « Réseau 3 » (opérateur non nommé dans le fichier) ; part des localités : 6.5 % ; déclaratif, jamais une mesure (Q6)"
+"EHCVM (W2, module communautaire)",2018/19,region,Savanes,E,reseau_3_bien_capte,population des localités enquêtées,9.43,,,,,94.0,B,"réception déclarée « Réseau 3 » (opérateur non nommé dans le fichier) ; part des localités : 9.6 % ; déclaratif, jamais une mesure (Q6)"
+"EHCVM (W2, micro-données)",2021/22,national,Togo,,acces_internet_declare,individus de 15 ans et plus,35.34,33.63,37.05,2.5,1.0,16228.0,B,accès à Internet déclaré (« individu a accès à Internet »)
+"EHCVM (W2, micro-données)",2021/22,milieu,Urbain,,acces_internet_declare,individus de 15 ans et plus,57.99,55.43,60.55,2.3,1.0,6077.0,B,accès à Internet déclaré (« individu a accès à Internet »)
+"EHCVM (W2, micro-données)",2021/22,milieu,Rural,,acces_internet_declare,individus de 15 ans et plus,14.77,12.93,16.61,6.4,1.0,10151.0,B,accès à Internet déclaré (« individu a accès à Internet »)
+"EHCVM (W2, micro-données)",2021/22,region,Centrale,C,acces_internet_declare,individus de 15 ans et plus,25.62,21.82,29.43,7.6,1.0,2174.0,B,accès à Internet déclaré (« individu a accès à Internet »)
+"EHCVM (W2, micro-données)",2021/22,region,Grand Lomé,GL,acces_internet_declare,individus de 15 ans et plus,66.67,63.0,70.34,2.8,1.0,2831.0,B,"accès à Internet déclaré (« individu a accès à Internet ») ; libellé « Lomé commune » en 2018/19, mêmes grappes que « Grand Lomé » (R5)"
+"EHCVM (W2, micro-données)",2021/22,region,Kara,D,acces_internet_declare,individus de 15 ans et plus,21.2,17.55,24.86,8.8,1.0,2924.0,B,accès à Internet déclaré (« individu a accès à Internet »)
+"EHCVM (W2, micro-données)",2021/22,region,Maritime,A_HGL,acces_internet_declare,individus de 15 ans et plus,25.3,20.55,30.06,9.6,1.0,2266.0,B,accès à Internet déclaré (« individu a accès à Internet »)
+"EHCVM (W2, micro-données)",2021/22,region,Plateaux,B,acces_internet_declare,individus de 15 ans et plus,19.61,17.09,22.13,6.6,1.0,2807.0,B,accès à Internet déclaré (« individu a accès à Internet »)
+"EHCVM (W2, micro-données)",2021/22,region,Savanes,E,acces_internet_declare,individus de 15 ans et plus,14.32,11.87,16.76,8.7,1.0,3226.0,B,accès à Internet déclaré (« individu a accès à Internet »)
+"EHCVM (W2, micro-données)",2021/22,national,Togo,,acces_internet_declare,tous les individus,20.8,19.61,22.0,2.9,1.0,28774.0,B,accès à Internet déclaré (« individu a accès à Internet »)
+"EHCVM (W2, micro-données)",2021/22,milieu,Urbain,,acces_internet_declare,tous les individus,37.94,35.84,40.05,2.8,1.0,9652.0,B,accès à Internet déclaré (« individu a accès à Internet »)
+"EHCVM (W2, micro-données)",2021/22,milieu,Rural,,acces_internet_declare,tous les individus,7.93,6.87,8.99,6.8,1.0,19122.0,B,accès à Internet déclaré (« individu a accès à Internet »)
+"EHCVM (W2, micro-données)",2021/22,region,Centrale,C,acces_internet_declare,tous les individus,14.1,11.89,16.32,8.0,1.0,3976.0,B,accès à Internet déclaré (« individu a accès à Internet »)
+"EHCVM (W2, micro-données)",2021/22,region,Grand Lomé,GL,acces_internet_declare,tous les individus,45.71,42.47,48.95,3.6,1.0,4200.0,B,"accès à Internet déclaré (« individu a accès à Internet ») ; libellé « Lomé commune » en 2018/19, mêmes grappes que « Grand Lomé » (R5)"
+"EHCVM (W2, micro-données)",2021/22,region,Kara,D,acces_internet_declare,tous les individus,11.94,9.5,14.39,10.5,1.0,5224.0,B,accès à Internet déclaré (« individu a accès à Internet »)
+"EHCVM (W2, micro-données)",2021/22,region,Maritime,A_HGL,acces_internet_declare,tous les individus,14.28,11.28,17.28,10.7,1.0,4043.0,B,accès à Internet déclaré (« individu a accès à Internet »)
+"EHCVM (W2, micro-données)",2021/22,region,Plateaux,B,acces_internet_declare,tous les individus,10.87,9.32,12.43,7.3,1.0,5079.0,B,accès à Internet déclaré (« individu a accès à Internet »)
+"EHCVM (W2, micro-données)",2021/22,region,Savanes,E,acces_internet_declare,tous les individus,7.4,6.09,8.71,9.0,1.0,6252.0,B,accès à Internet déclaré (« individu a accès à Internet »)
+"EHCVM (W2, micro-données)",2021/22,national,Togo,,telephone_portable,individus de 15 ans et plus,64.89,63.65,66.12,1.0,1.0,16228.0,B,possède un téléphone portable
+"EHCVM (W2, micro-données)",2021/22,milieu,Urbain,,telephone_portable,individus de 15 ans et plus,77.97,76.34,79.6,1.1,1.0,6077.0,B,possède un téléphone portable
+"EHCVM (W2, micro-données)",2021/22,milieu,Rural,,telephone_portable,individus de 15 ans et plus,53.0,51.24,54.76,1.7,1.0,10151.0,B,possède un téléphone portable
+"EHCVM (W2, micro-données)",2021/22,region,Centrale,C,telephone_portable,individus de 15 ans et plus,60.23,56.8,63.65,2.9,1.0,2174.0,B,possède un téléphone portable
+"EHCVM (W2, micro-données)",2021/22,region,Grand Lomé,GL,telephone_portable,individus de 15 ans et plus,81.62,79.37,83.87,1.4,1.0,2831.0,B,"possède un téléphone portable ; libellé « Lomé commune » en 2018/19, mêmes grappes que « Grand Lomé » (R5)"
+"EHCVM (W2, micro-données)",2021/22,region,Kara,D,telephone_portable,individus de 15 ans et plus,58.19,54.65,61.72,3.1,1.0,2924.0,B,possède un téléphone portable
+"EHCVM (W2, micro-données)",2021/22,region,Maritime,A_HGL,telephone_portable,individus de 15 ans et plus,60.66,57.04,64.28,3.0,1.0,2266.0,B,possède un téléphone portable
+"EHCVM (W2, micro-données)",2021/22,region,Plateaux,B,telephone_portable,individus de 15 ans et plus,58.69,55.93,61.44,2.4,1.0,2807.0,B,possède un téléphone portable
+"EHCVM (W2, micro-données)",2021/22,region,Savanes,E,telephone_portable,individus de 15 ans et plus,47.63,44.51,50.76,3.3,1.0,3226.0,B,possède un téléphone portable
+"EHCVM (W2, micro-données)",2021/22,national,Togo,,compte_banque_ou_autre,individus de 15 ans et plus,47.24,45.44,49.05,2.0,1.0,16228.0,B,"compte en banque ou autre (variable harmonisée : réunit les 5 types de compte du module 6, mobile banking compris)"
+"EHCVM (W2, micro-données)",2021/22,milieu,Urbain,,compte_banque_ou_autre,individus de 15 ans et plus,64.74,62.16,67.31,2.0,1.0,6077.0,B,"compte en banque ou autre (variable harmonisée : réunit les 5 types de compte du module 6, mobile banking compris)"
+"EHCVM (W2, micro-données)",2021/22,milieu,Rural,,compte_banque_ou_autre,individus de 15 ans et plus,31.35,29.14,33.57,3.6,1.0,10151.0,B,"compte en banque ou autre (variable harmonisée : réunit les 5 types de compte du module 6, mobile banking compris)"
+"EHCVM (W2, micro-données)",2021/22,region,Centrale,C,compte_banque_ou_autre,individus de 15 ans et plus,28.21,24.45,31.97,6.8,1.0,2174.0,B,"compte en banque ou autre (variable harmonisée : réunit les 5 types de compte du module 6, mobile banking compris)"
+"EHCVM (W2, micro-données)",2021/22,region,Grand Lomé,GL,compte_banque_ou_autre,individus de 15 ans et plus,70.16,66.8,73.53,2.4,1.0,2831.0,B,"compte en banque ou autre (variable harmonisée : réunit les 5 types de compte du module 6, mobile banking compris) ; libellé « Lomé commune » en 2018/19, mêmes grappes que « Grand Lomé » (R5)"
+"EHCVM (W2, micro-données)",2021/22,region,Kara,D,compte_banque_ou_autre,individus de 15 ans et plus,39.68,35.78,43.58,5.0,1.0,2924.0,B,"compte en banque ou autre (variable harmonisée : réunit les 5 types de compte du module 6, mobile banking compris)"
+"EHCVM (W2, micro-données)",2021/22,region,Maritime,A_HGL,compte_banque_ou_autre,individus de 15 ans et plus,43.2,38.94,47.47,5.0,1.0,2266.0,B,"compte en banque ou autre (variable harmonisée : réunit les 5 types de compte du module 6, mobile banking compris)"
+"EHCVM (W2, micro-données)",2021/22,region,Plateaux,B,compte_banque_ou_autre,individus de 15 ans et plus,37.51,33.33,41.68,5.7,1.0,2807.0,B,"compte en banque ou autre (variable harmonisée : réunit les 5 types de compte du module 6, mobile banking compris)"
+"EHCVM (W2, micro-données)",2021/22,region,Savanes,E,compte_banque_ou_autre,individus de 15 ans et plus,31.09,27.61,34.58,5.7,1.0,3226.0,B,"compte en banque ou autre (variable harmonisée : réunit les 5 types de compte du module 6, mobile banking compris)"
+"EHCVM (W2, micro-données)",2021/22,national,Togo,,alphabetisation,individus de 15 ans et plus,70.95,69.44,72.45,1.1,1.0,16228.0,B,sait lire et écrire (variable harmonisée de la vague)
+"EHCVM (W2, micro-données)",2021/22,milieu,Urbain,,alphabetisation,individus de 15 ans et plus,86.21,84.75,87.68,0.9,1.0,6077.0,B,sait lire et écrire (variable harmonisée de la vague)
+"EHCVM (W2, micro-données)",2021/22,milieu,Rural,,alphabetisation,individus de 15 ans et plus,57.08,54.76,59.4,2.1,1.0,10151.0,B,sait lire et écrire (variable harmonisée de la vague)
+"EHCVM (W2, micro-données)",2021/22,region,Centrale,C,alphabetisation,individus de 15 ans et plus,67.75,63.98,71.52,2.8,1.0,2174.0,B,sait lire et écrire (variable harmonisée de la vague)
+"EHCVM (W2, micro-données)",2021/22,region,Grand Lomé,GL,alphabetisation,individus de 15 ans et plus,90.18,88.76,91.61,0.8,1.0,2831.0,B,"sait lire et écrire (variable harmonisée de la vague) ; libellé « Lomé commune » en 2018/19, mêmes grappes que « Grand Lomé » (R5)"
+"EHCVM (W2, micro-données)",2021/22,region,Kara,D,alphabetisation,individus de 15 ans et plus,60.15,55.0,65.29,4.4,1.0,2924.0,B,sait lire et écrire (variable harmonisée de la vague)
+"EHCVM (W2, micro-données)",2021/22,region,Maritime,A_HGL,alphabetisation,individus de 15 ans et plus,68.99,65.09,72.89,2.9,1.0,2266.0,B,sait lire et écrire (variable harmonisée de la vague)
+"EHCVM (W2, micro-données)",2021/22,region,Plateaux,B,alphabetisation,individus de 15 ans et plus,68.79,65.34,72.23,2.6,1.0,2807.0,B,sait lire et écrire (variable harmonisée de la vague)
+"EHCVM (W2, micro-données)",2021/22,region,Savanes,E,alphabetisation,individus de 15 ans et plus,41.16,37.11,45.2,5.0,1.0,3226.0,B,sait lire et écrire (variable harmonisée de la vague)
+"EHCVM (W2, micro-données)",2021/22,national,Togo,,usage_mobile_banking,répondants du module 6 (15 ans et plus),36.93,34.85,39.0,2.9,1.0,16221.0,B,"fait du Mobile Banking (module 6) ; « mobile banking » au sens du questionnaire UEMOA, sans nom d'opérateur"
+"EHCVM (W2, micro-données)",2021/22,milieu,Urbain,,usage_mobile_banking,répondants du module 6 (15 ans et plus),51.76,48.45,55.06,3.3,1.0,6072.0,B,"fait du Mobile Banking (module 6) ; « mobile banking » au sens du questionnaire UEMOA, sans nom d'opérateur"
+"EHCVM (W2, micro-données)",2021/22,milieu,Rural,,usage_mobile_banking,répondants du module 6 (15 ans et plus),23.47,21.25,25.69,4.8,1.0,10149.0,B,"fait du Mobile Banking (module 6) ; « mobile banking » au sens du questionnaire UEMOA, sans nom d'opérateur"
+"EHCVM (W2, micro-données)",2021/22,region,Centrale,C,usage_mobile_banking,répondants du module 6 (15 ans et plus),19.94,16.04,23.85,10.0,1.0,2173.0,B,"fait du Mobile Banking (module 6) ; « mobile banking » au sens du questionnaire UEMOA, sans nom d'opérateur"
+"EHCVM (W2, micro-données)",2021/22,region,Grand Lomé,GL,usage_mobile_banking,répondants du module 6 (15 ans et plus),57.44,53.5,61.38,3.5,1.0,2828.0,B,"fait du Mobile Banking (module 6) ; « mobile banking » au sens du questionnaire UEMOA, sans nom d'opérateur"
+"EHCVM (W2, micro-données)",2021/22,region,Kara,D,usage_mobile_banking,répondants du module 6 (15 ans et plus),28.52,23.16,33.89,9.6,1.0,2924.0,B,"fait du Mobile Banking (module 6) ; « mobile banking » au sens du questionnaire UEMOA, sans nom d'opérateur"
+"EHCVM (W2, micro-données)",2021/22,region,Maritime,A_HGL,usage_mobile_banking,répondants du module 6 (15 ans et plus),31.59,27.17,36.02,7.1,1.0,2265.0,B,"fait du Mobile Banking (module 6) ; « mobile banking » au sens du questionnaire UEMOA, sans nom d'opérateur"
+"EHCVM (W2, micro-données)",2021/22,region,Plateaux,B,usage_mobile_banking,répondants du module 6 (15 ans et plus),29.99,25.54,34.44,7.6,1.0,2806.0,B,"fait du Mobile Banking (module 6) ; « mobile banking » au sens du questionnaire UEMOA, sans nom d'opérateur"
+"EHCVM (W2, micro-données)",2021/22,region,Savanes,E,usage_mobile_banking,répondants du module 6 (15 ans et plus),23.54,20.1,26.97,7.4,1.0,3225.0,B,"fait du Mobile Banking (module 6) ; « mobile banking » au sens du questionnaire UEMOA, sans nom d'opérateur"
+"EHCVM (W2, module communautaire)",2021/22,national,Togo,,reseau_1_bien_capte,population des localités enquêtées,75.73,,,,,540.0,B,"réception déclarée « Réseau 1 » (opérateur non nommé dans le fichier) ; part des localités : 75.7 % ; déclaratif, jamais une mesure (Q6)"
+"EHCVM (W2, module communautaire)",2021/22,region,Centrale,C,reseau_1_bien_capte,population des localités enquêtées,93.66,,,,,72.0,B,"réception déclarée « Réseau 1 » (opérateur non nommé dans le fichier) ; part des localités : 93.1 % ; déclaratif, jamais une mesure (Q6)"
+"EHCVM (W2, module communautaire)",2021/22,region,Grand Lomé,GL,reseau_1_bien_capte,population des localités enquêtées,82.53,,,,,98.0,B,"réception déclarée « Réseau 1 » (opérateur non nommé dans le fichier) ; part des localités : 82.7 % ; déclaratif, jamais une mesure (Q6)"
+"EHCVM (W2, module communautaire)",2021/22,region,Kara,D,reseau_1_bien_capte,population des localités enquêtées,81.4,,,,,96.0,B,"réception déclarée « Réseau 1 » (opérateur non nommé dans le fichier) ; part des localités : 82.3 % ; déclaratif, jamais une mesure (Q6)"
+"EHCVM (W2, module communautaire)",2021/22,region,Maritime,A_HGL,reseau_1_bien_capte,population des localités enquêtées,80.46,,,,,82.0,B,"réception déclarée « Réseau 1 » (opérateur non nommé dans le fichier) ; part des localités : 81.7 % ; déclaratif, jamais une mesure (Q6)"
+"EHCVM (W2, module communautaire)",2021/22,region,Plateaux,B,reseau_1_bien_capte,population des localités enquêtées,51.05,,,,,96.0,B,"réception déclarée « Réseau 1 » (opérateur non nommé dans le fichier) ; part des localités : 50.0 % ; déclaratif, jamais une mesure (Q6)"
+"EHCVM (W2, module communautaire)",2021/22,region,Savanes,E,reseau_1_bien_capte,population des localités enquêtées,75.13,,,,,96.0,B,"réception déclarée « Réseau 1 » (opérateur non nommé dans le fichier) ; part des localités : 69.8 % ; déclaratif, jamais une mesure (Q6)"
+"EHCVM (W2, module communautaire)",2021/22,national,Togo,,reseau_2_bien_capte,population des localités enquêtées,70.43,,,,,540.0,B,"réception déclarée « Réseau 2 » (opérateur non nommé dans le fichier) ; part des localités : 70.4 % ; déclaratif, jamais une mesure (Q6)"
+"EHCVM (W2, module communautaire)",2021/22,region,Centrale,C,reseau_2_bien_capte,population des localités enquêtées,83.8,,,,,72.0,B,"réception déclarée « Réseau 2 » (opérateur non nommé dans le fichier) ; part des localités : 84.7 % ; déclaratif, jamais une mesure (Q6)"
+"EHCVM (W2, module communautaire)",2021/22,region,Grand Lomé,GL,reseau_2_bien_capte,population des localités enquêtées,79.33,,,,,98.0,B,"réception déclarée « Réseau 2 » (opérateur non nommé dans le fichier) ; part des localités : 79.6 % ; déclaratif, jamais une mesure (Q6)"
+"EHCVM (W2, module communautaire)",2021/22,region,Kara,D,reseau_2_bien_capte,population des localités enquêtées,73.14,,,,,96.0,B,"réception déclarée « Réseau 2 » (opérateur non nommé dans le fichier) ; part des localités : 74.0 % ; déclaratif, jamais une mesure (Q6)"
+"EHCVM (W2, module communautaire)",2021/22,region,Maritime,A_HGL,reseau_2_bien_capte,population des localités enquêtées,77.74,,,,,82.0,B,"réception déclarée « Réseau 2 » (opérateur non nommé dans le fichier) ; part des localités : 78.0 % ; déclaratif, jamais une mesure (Q6)"
+"EHCVM (W2, module communautaire)",2021/22,region,Plateaux,B,reseau_2_bien_capte,population des localités enquêtées,47.65,,,,,96.0,B,"réception déclarée « Réseau 2 » (opérateur non nommé dans le fichier) ; part des localités : 47.9 % ; déclaratif, jamais une mesure (Q6)"
+"EHCVM (W2, module communautaire)",2021/22,region,Savanes,E,reseau_2_bien_capte,population des localités enquêtées,65.79,,,,,96.0,B,"réception déclarée « Réseau 2 » (opérateur non nommé dans le fichier) ; part des localités : 62.5 % ; déclaratif, jamais une mesure (Q6)"
+"EHCVM (W2, module communautaire)",2021/22,national,Togo,,reseau_3_bien_capte,population des localités enquêtées,8.7,,,,,530.0,B,"réception déclarée « Réseau 3 » (opérateur non nommé dans le fichier) ; part des localités : 7.5 % ; déclaratif, jamais une mesure (Q6)"
+"EHCVM (W2, module communautaire)",2021/22,region,Centrale,C,reseau_3_bien_capte,population des localités enquêtées,1.93,,,,,70.0,B,"réception déclarée « Réseau 3 » (opérateur non nommé dans le fichier) ; part des localités : 1.4 % ; déclaratif, jamais une mesure (Q6)"
+"EHCVM (W2, module communautaire)",2021/22,region,Grand Lomé,GL,reseau_3_bien_capte,population des localités enquêtées,16.13,,,,,93.0,B,"réception déclarée « Réseau 3 » (opérateur non nommé dans le fichier) ; part des localités : 17.2 % ; déclaratif, jamais une mesure (Q6)"
+"EHCVM (W2, module communautaire)",2021/22,region,Kara,D,reseau_3_bien_capte,population des localités enquêtées,4.83,,,,,95.0,B,"réception déclarée « Réseau 3 » (opérateur non nommé dans le fichier) ; part des localités : 5.3 % ; déclaratif, jamais une mesure (Q6)"
+"EHCVM (W2, module communautaire)",2021/22,region,Maritime,A_HGL,reseau_3_bien_capte,population des localités enquêtées,0.92,,,,,82.0,B,"réception déclarée « Réseau 3 » (opérateur non nommé dans le fichier) ; part des localités : 1.2 % ; déclaratif, jamais une mesure (Q6)"
+"EHCVM (W2, module communautaire)",2021/22,region,Plateaux,B,reseau_3_bien_capte,population des localités enquêtées,6.59,,,,,96.0,B,"réception déclarée « Réseau 3 » (opérateur non nommé dans le fichier) ; part des localités : 5.2 % ; déclaratif, jamais une mesure (Q6)"
+"EHCVM (W2, module communautaire)",2021/22,region,Savanes,E,reseau_3_bien_capte,population des localités enquêtées,15.16,,,,,94.0,B,"réception déclarée « Réseau 3 » (opérateur non nommé dans le fichier) ; part des localités : 12.8 % ; déclaratif, jamais une mesure (Q6)"
+"MICS6 2017 (W1, tableaux publiés)",2017,national,Togo,,radio,Ménages,41.6,,,,,,C,"tableau SR.9.2, p. 68 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,national,Togo,,television,Ménages,39.1,,,,,,C,"tableau SR.9.2, p. 68 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,national,Togo,,telephone_fixe,Ménages,0.6,,,,,,C,"tableau SR.9.2, p. 68 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,national,Togo,,telephone_mobile,Ménages,84.6,,,,,,C,"tableau SR.9.2, p. 68 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,national,Togo,,telephone_quelconque,Ménages,84.6,,,,,,C,"tableau SR.9.2, p. 68 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,national,Togo,,ordinateur,Ménages,9.5,,,,,,C,"tableau SR.9.2, p. 68 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,national,Togo,,internet_a_la_maison,Ménages,26.5,,,,,,C,"tableau SR.9.2, p. 68 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Urbain,,radio,Ménages,34.5,,,,,,C,"tableau SR.9.2, p. 68 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Urbain,,television,Ménages,69.8,,,,,,C,"tableau SR.9.2, p. 68 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Urbain,,telephone_fixe,Ménages,1.2,,,,,,C,"tableau SR.9.2, p. 68 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Urbain,,telephone_mobile,Ménages,96.9,,,,,,C,"tableau SR.9.2, p. 68 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Urbain,,telephone_quelconque,Ménages,96.9,,,,,,C,"tableau SR.9.2, p. 68 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Urbain,,ordinateur,Ménages,18.4,,,,,,C,"tableau SR.9.2, p. 68 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Urbain,,internet_a_la_maison,Ménages,49.2,,,,,,C,"tableau SR.9.2, p. 68 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Rural,,radio,Ménages,47.2,,,,,,C,"tableau SR.9.2, p. 68 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Rural,,television,Ménages,15.0,,,,,,C,"tableau SR.9.2, p. 68 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Rural,,telephone_fixe,Ménages,0.0,,,,,,C,"tableau SR.9.2, p. 68 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Rural,,telephone_mobile,Ménages,75.0,,,,,,C,"tableau SR.9.2, p. 68 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Rural,,telephone_quelconque,Ménages,75.0,,,,,,C,"tableau SR.9.2, p. 68 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Rural,,ordinateur,Ménages,2.6,,,,,,C,"tableau SR.9.2, p. 68 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Rural,,internet_a_la_maison,Ménages,8.6,,,,,,C,"tableau SR.9.2, p. 68 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Maritime,,radio,Ménages,45.5,,,,,,C,"tableau SR.9.2, p. 68 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Maritime,,television,Ménages,25.8,,,,,,C,"tableau SR.9.2, p. 68 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Maritime,,telephone_fixe,Ménages,0.4,,,,,,C,"tableau SR.9.2, p. 68 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Maritime,,telephone_mobile,Ménages,77.9,,,,,,C,"tableau SR.9.2, p. 68 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Maritime,,telephone_quelconque,Ménages,77.9,,,,,,C,"tableau SR.9.2, p. 68 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Maritime,,ordinateur,Ménages,6.6,,,,,,C,"tableau SR.9.2, p. 68 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Maritime,,internet_a_la_maison,Ménages,16.2,,,,,,C,"tableau SR.9.2, p. 68 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Plateaux,B,radio,Ménages,44.8,,,,,,C,"tableau SR.9.2, p. 68 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Plateaux,B,television,Ménages,24.3,,,,,,C,"tableau SR.9.2, p. 68 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Plateaux,B,telephone_fixe,Ménages,0.0,,,,,,C,"tableau SR.9.2, p. 68 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Plateaux,B,telephone_mobile,Ménages,78.9,,,,,,C,"tableau SR.9.2, p. 68 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Plateaux,B,telephone_quelconque,Ménages,78.9,,,,,,C,"tableau SR.9.2, p. 68 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Plateaux,B,ordinateur,Ménages,3.6,,,,,,C,"tableau SR.9.2, p. 68 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Plateaux,B,internet_a_la_maison,Ménages,13.2,,,,,,C,"tableau SR.9.2, p. 68 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Centrale,C,radio,Ménages,49.6,,,,,,C,"tableau SR.9.2, p. 68 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Centrale,C,television,Ménages,29.5,,,,,,C,"tableau SR.9.2, p. 68 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Centrale,C,telephone_fixe,Ménages,0.1,,,,,,C,"tableau SR.9.2, p. 68 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Centrale,C,telephone_mobile,Ménages,83.5,,,,,,C,"tableau SR.9.2, p. 68 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Centrale,C,telephone_quelconque,Ménages,83.5,,,,,,C,"tableau SR.9.2, p. 68 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Centrale,C,ordinateur,Ménages,4.7,,,,,,C,"tableau SR.9.2, p. 68 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Centrale,C,internet_a_la_maison,Ménages,18.1,,,,,,C,"tableau SR.9.2, p. 68 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Kara,D,radio,Ménages,47.2,,,,,,C,"tableau SR.9.2, p. 68 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Kara,D,television,Ménages,27.5,,,,,,C,"tableau SR.9.2, p. 68 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Kara,D,telephone_fixe,Ménages,0.0,,,,,,C,"tableau SR.9.2, p. 68 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Kara,D,telephone_mobile,Ménages,81.4,,,,,,C,"tableau SR.9.2, p. 68 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Kara,D,telephone_quelconque,Ménages,81.4,,,,,,C,"tableau SR.9.2, p. 68 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Kara,D,ordinateur,Ménages,5.3,,,,,,C,"tableau SR.9.2, p. 68 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Kara,D,internet_a_la_maison,Ménages,18.3,,,,,,C,"tableau SR.9.2, p. 68 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Savanes,E,radio,Ménages,46.1,,,,,,C,"tableau SR.9.2, p. 68 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Savanes,E,television,Ménages,14.5,,,,,,C,"tableau SR.9.2, p. 68 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Savanes,E,telephone_fixe,Ménages,0.2,,,,,,C,"tableau SR.9.2, p. 68 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Savanes,E,telephone_mobile,Ménages,76.8,,,,,,C,"tableau SR.9.2, p. 68 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Savanes,E,telephone_quelconque,Ménages,76.8,,,,,,C,"tableau SR.9.2, p. 68 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Savanes,E,ordinateur,Ménages,2.9,,,,,,C,"tableau SR.9.2, p. 68 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Savanes,E,internet_a_la_maison,Ménages,10.2,,,,,,C,"tableau SR.9.2, p. 68 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Lomé commune,,radio,Ménages,30.3,,,,,,C,"tableau SR.9.2, p. 68 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Lomé commune,,television,Ménages,77.1,,,,,,C,"tableau SR.9.2, p. 68 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Lomé commune,,telephone_fixe,Ménages,1.6,,,,,,C,"tableau SR.9.2, p. 68 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Lomé commune,,telephone_mobile,Ménages,98.5,,,,,,C,"tableau SR.9.2, p. 68 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Lomé commune,,telephone_quelconque,Ménages,98.5,,,,,,C,"tableau SR.9.2, p. 68 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Lomé commune,,ordinateur,Ménages,18.8,,,,,,C,"tableau SR.9.2, p. 68 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Lomé commune,,internet_a_la_maison,Ménages,53.7,,,,,,C,"tableau SR.9.2, p. 68 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Golfe urbain,,radio,Ménages,29.8,,,,,,C,"tableau SR.9.2, p. 68 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Golfe urbain,,television,Ménages,75.6,,,,,,C,"tableau SR.9.2, p. 68 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Golfe urbain,,telephone_fixe,Ménages,1.6,,,,,,C,"tableau SR.9.2, p. 68 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Golfe urbain,,telephone_mobile,Ménages,97.7,,,,,,C,"tableau SR.9.2, p. 68 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Golfe urbain,,telephone_quelconque,Ménages,97.7,,,,,,C,"tableau SR.9.2, p. 68 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Golfe urbain,,ordinateur,Ménages,25.4,,,,,,C,"tableau SR.9.2, p. 68 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Golfe urbain,,internet_a_la_maison,Ménages,58.1,,,,,,C,"tableau SR.9.2, p. 68 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,national,Togo,,ordinateur_deja_utilise,Femmes 15-49 ans,9.3,,,,,,C,"tableau SR.9.3W, p. 69 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,national,Togo,,ordinateur_utilise_3_derniers_mois,Femmes 15-49 ans,4.4,,,,,,C,"tableau SR.9.3W, p. 69 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,national,Togo,,ordinateur_hebdomadaire_3_derniers_mois,Femmes 15-49 ans,3.4,,,,,,C,"tableau SR.9.3W, p. 69 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,national,Togo,,possede_telephone_portable,Femmes 15-49 ans,56.6,,,,,,C,"tableau SR.9.3W, p. 69 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,national,Togo,,portable_utilise_3_derniers_mois,Femmes 15-49 ans,64.6,,,,,,C,"tableau SR.9.3W, p. 69 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,national,Togo,,portable_hebdomadaire_3_derniers_mois,Femmes 15-49 ans,54.3,,,,,,C,"tableau SR.9.3W, p. 69 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,national,Togo,,internet_deja_utilise,Femmes 15-49 ans,16.9,,,,,,C,"tableau SR.9.3W, p. 69 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,national,Togo,,internet_utilise_3_derniers_mois,Femmes 15-49 ans,14.1,,,,,,C,"tableau SR.9.3W, p. 69 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,national,Togo,,internet_hebdomadaire_3_derniers_mois,Femmes 15-49 ans,12.6,,,,,,C,"tableau SR.9.3W, p. 69 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Urbain,,ordinateur_deja_utilise,Femmes 15-49 ans,16.5,,,,,,C,"tableau SR.9.3W, p. 69 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Urbain,,ordinateur_utilise_3_derniers_mois,Femmes 15-49 ans,8.2,,,,,,C,"tableau SR.9.3W, p. 69 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Urbain,,ordinateur_hebdomadaire_3_derniers_mois,Femmes 15-49 ans,6.5,,,,,,C,"tableau SR.9.3W, p. 69 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Urbain,,possede_telephone_portable,Femmes 15-49 ans,77.8,,,,,,C,"tableau SR.9.3W, p. 69 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Urbain,,portable_utilise_3_derniers_mois,Femmes 15-49 ans,82.6,,,,,,C,"tableau SR.9.3W, p. 69 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Urbain,,portable_hebdomadaire_3_derniers_mois,Femmes 15-49 ans,74.5,,,,,,C,"tableau SR.9.3W, p. 69 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Urbain,,internet_deja_utilise,Femmes 15-49 ans,32.0,,,,,,C,"tableau SR.9.3W, p. 69 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Urbain,,internet_utilise_3_derniers_mois,Femmes 15-49 ans,27.0,,,,,,C,"tableau SR.9.3W, p. 69 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Urbain,,internet_hebdomadaire_3_derniers_mois,Femmes 15-49 ans,24.2,,,,,,C,"tableau SR.9.3W, p. 69 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Rural,,ordinateur_deja_utilise,Femmes 15-49 ans,2.7,,,,,,C,"tableau SR.9.3W, p. 69 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Rural,,ordinateur_utilise_3_derniers_mois,Femmes 15-49 ans,0.9,,,,,,C,"tableau SR.9.3W, p. 69 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Rural,,ordinateur_hebdomadaire_3_derniers_mois,Femmes 15-49 ans,0.6,,,,,,C,"tableau SR.9.3W, p. 69 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Rural,,possede_telephone_portable,Femmes 15-49 ans,37.6,,,,,,C,"tableau SR.9.3W, p. 69 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Rural,,portable_utilise_3_derniers_mois,Femmes 15-49 ans,48.3,,,,,,C,"tableau SR.9.3W, p. 69 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Rural,,portable_hebdomadaire_3_derniers_mois,Femmes 15-49 ans,36.0,,,,,,C,"tableau SR.9.3W, p. 69 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Rural,,internet_deja_utilise,Femmes 15-49 ans,3.2,,,,,,C,"tableau SR.9.3W, p. 69 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Rural,,internet_utilise_3_derniers_mois,Femmes 15-49 ans,2.4,,,,,,C,"tableau SR.9.3W, p. 69 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Rural,,internet_hebdomadaire_3_derniers_mois,Femmes 15-49 ans,2.1,,,,,,C,"tableau SR.9.3W, p. 69 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Maritime,,ordinateur_deja_utilise,Femmes 15-49 ans,6.7,,,,,,C,"tableau SR.9.3W, p. 69 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Maritime,,ordinateur_utilise_3_derniers_mois,Femmes 15-49 ans,2.8,,,,,,C,"tableau SR.9.3W, p. 69 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Maritime,,ordinateur_hebdomadaire_3_derniers_mois,Femmes 15-49 ans,2.0,,,,,,C,"tableau SR.9.3W, p. 69 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Maritime,,possede_telephone_portable,Femmes 15-49 ans,52.7,,,,,,C,"tableau SR.9.3W, p. 69 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Maritime,,portable_utilise_3_derniers_mois,Femmes 15-49 ans,61.5,,,,,,C,"tableau SR.9.3W, p. 69 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Maritime,,portable_hebdomadaire_3_derniers_mois,Femmes 15-49 ans,54.0,,,,,,C,"tableau SR.9.3W, p. 69 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Maritime,,internet_deja_utilise,Femmes 15-49 ans,8.9,,,,,,C,"tableau SR.9.3W, p. 69 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Maritime,,internet_utilise_3_derniers_mois,Femmes 15-49 ans,6.5,,,,,,C,"tableau SR.9.3W, p. 69 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Maritime,,internet_hebdomadaire_3_derniers_mois,Femmes 15-49 ans,5.6,,,,,,C,"tableau SR.9.3W, p. 69 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Plateaux,B,ordinateur_deja_utilise,Femmes 15-49 ans,3.7,,,,,,C,"tableau SR.9.3W, p. 69 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Plateaux,B,ordinateur_utilise_3_derniers_mois,Femmes 15-49 ans,1.2,,,,,,C,"tableau SR.9.3W, p. 69 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Plateaux,B,ordinateur_hebdomadaire_3_derniers_mois,Femmes 15-49 ans,1.0,,,,,,C,"tableau SR.9.3W, p. 69 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Plateaux,B,possede_telephone_portable,Femmes 15-49 ans,46.0,,,,,,C,"tableau SR.9.3W, p. 69 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Plateaux,B,portable_utilise_3_derniers_mois,Femmes 15-49 ans,53.0,,,,,,C,"tableau SR.9.3W, p. 69 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Plateaux,B,portable_hebdomadaire_3_derniers_mois,Femmes 15-49 ans,43.3,,,,,,C,"tableau SR.9.3W, p. 69 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Plateaux,B,internet_deja_utilise,Femmes 15-49 ans,6.6,,,,,,C,"tableau SR.9.3W, p. 69 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Plateaux,B,internet_utilise_3_derniers_mois,Femmes 15-49 ans,5.6,,,,,,C,"tableau SR.9.3W, p. 69 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Plateaux,B,internet_hebdomadaire_3_derniers_mois,Femmes 15-49 ans,4.9,,,,,,C,"tableau SR.9.3W, p. 69 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Centrale,C,ordinateur_deja_utilise,Femmes 15-49 ans,4.9,,,,,,C,"tableau SR.9.3W, p. 69 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Centrale,C,ordinateur_utilise_3_derniers_mois,Femmes 15-49 ans,1.8,,,,,,C,"tableau SR.9.3W, p. 69 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Centrale,C,ordinateur_hebdomadaire_3_derniers_mois,Femmes 15-49 ans,1.3,,,,,,C,"tableau SR.9.3W, p. 69 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Centrale,C,possede_telephone_portable,Femmes 15-49 ans,51.0,,,,,,C,"tableau SR.9.3W, p. 69 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Centrale,C,portable_utilise_3_derniers_mois,Femmes 15-49 ans,64.2,,,,,,C,"tableau SR.9.3W, p. 69 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Centrale,C,portable_hebdomadaire_3_derniers_mois,Femmes 15-49 ans,42.1,,,,,,C,"tableau SR.9.3W, p. 69 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Centrale,C,internet_deja_utilise,Femmes 15-49 ans,8.1,,,,,,C,"tableau SR.9.3W, p. 69 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Centrale,C,internet_utilise_3_derniers_mois,Femmes 15-49 ans,6.5,,,,,,C,"tableau SR.9.3W, p. 69 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Centrale,C,internet_hebdomadaire_3_derniers_mois,Femmes 15-49 ans,5.9,,,,,,C,"tableau SR.9.3W, p. 69 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Kara,D,ordinateur_deja_utilise,Femmes 15-49 ans,7.2,,,,,,C,"tableau SR.9.3W, p. 69 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Kara,D,ordinateur_utilise_3_derniers_mois,Femmes 15-49 ans,2.5,,,,,,C,"tableau SR.9.3W, p. 69 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Kara,D,ordinateur_hebdomadaire_3_derniers_mois,Femmes 15-49 ans,1.9,,,,,,C,"tableau SR.9.3W, p. 69 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Kara,D,possede_telephone_portable,Femmes 15-49 ans,44.9,,,,,,C,"tableau SR.9.3W, p. 69 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Kara,D,portable_utilise_3_derniers_mois,Femmes 15-49 ans,58.7,,,,,,C,"tableau SR.9.3W, p. 69 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Kara,D,portable_hebdomadaire_3_derniers_mois,Femmes 15-49 ans,45.4,,,,,,C,"tableau SR.9.3W, p. 69 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Kara,D,internet_deja_utilise,Femmes 15-49 ans,7.8,,,,,,C,"tableau SR.9.3W, p. 69 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Kara,D,internet_utilise_3_derniers_mois,Femmes 15-49 ans,5.8,,,,,,C,"tableau SR.9.3W, p. 69 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Kara,D,internet_hebdomadaire_3_derniers_mois,Femmes 15-49 ans,5.1,,,,,,C,"tableau SR.9.3W, p. 69 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Savanes,E,ordinateur_deja_utilise,Femmes 15-49 ans,1.6,,,,,,C,"tableau SR.9.3W, p. 69 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Savanes,E,ordinateur_utilise_3_derniers_mois,Femmes 15-49 ans,0.4,,,,,,C,"tableau SR.9.3W, p. 69 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Savanes,E,ordinateur_hebdomadaire_3_derniers_mois,Femmes 15-49 ans,0.4,,,,,,C,"tableau SR.9.3W, p. 69 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Savanes,E,possede_telephone_portable,Femmes 15-49 ans,31.2,,,,,,C,"tableau SR.9.3W, p. 69 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Savanes,E,portable_utilise_3_derniers_mois,Femmes 15-49 ans,39.7,,,,,,C,"tableau SR.9.3W, p. 69 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Savanes,E,portable_hebdomadaire_3_derniers_mois,Femmes 15-49 ans,31.1,,,,,,C,"tableau SR.9.3W, p. 69 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Savanes,E,internet_deja_utilise,Femmes 15-49 ans,2.7,,,,,,C,"tableau SR.9.3W, p. 69 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Savanes,E,internet_utilise_3_derniers_mois,Femmes 15-49 ans,1.4,,,,,,C,"tableau SR.9.3W, p. 69 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Savanes,E,internet_hebdomadaire_3_derniers_mois,Femmes 15-49 ans,1.2,,,,,,C,"tableau SR.9.3W, p. 69 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Lomé commune,,ordinateur_deja_utilise,Femmes 15-49 ans,17.6,,,,,,C,"tableau SR.9.3W, p. 69 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Lomé commune,,ordinateur_utilise_3_derniers_mois,Femmes 15-49 ans,10.0,,,,,,C,"tableau SR.9.3W, p. 69 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Lomé commune,,ordinateur_hebdomadaire_3_derniers_mois,Femmes 15-49 ans,7.0,,,,,,C,"tableau SR.9.3W, p. 69 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Lomé commune,,possede_telephone_portable,Femmes 15-49 ans,83.1,,,,,,C,"tableau SR.9.3W, p. 69 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Lomé commune,,portable_utilise_3_derniers_mois,Femmes 15-49 ans,87.1,,,,,,C,"tableau SR.9.3W, p. 69 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Lomé commune,,portable_hebdomadaire_3_derniers_mois,Femmes 15-49 ans,77.0,,,,,,C,"tableau SR.9.3W, p. 69 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Lomé commune,,internet_deja_utilise,Femmes 15-49 ans,40.5,,,,,,C,"tableau SR.9.3W, p. 69 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Lomé commune,,internet_utilise_3_derniers_mois,Femmes 15-49 ans,36.0,,,,,,C,"tableau SR.9.3W, p. 69 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Lomé commune,,internet_hebdomadaire_3_derniers_mois,Femmes 15-49 ans,32.9,,,,,,C,"tableau SR.9.3W, p. 69 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Golfe urbain,,ordinateur_deja_utilise,Femmes 15-49 ans,21.6,,,,,,C,"tableau SR.9.3W, p. 69 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Golfe urbain,,ordinateur_utilise_3_derniers_mois,Femmes 15-49 ans,10.9,,,,,,C,"tableau SR.9.3W, p. 69 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Golfe urbain,,ordinateur_hebdomadaire_3_derniers_mois,Femmes 15-49 ans,9.2,,,,,,C,"tableau SR.9.3W, p. 69 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Golfe urbain,,possede_telephone_portable,Femmes 15-49 ans,80.6,,,,,,C,"tableau SR.9.3W, p. 69 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Golfe urbain,,portable_utilise_3_derniers_mois,Femmes 15-49 ans,85.4,,,,,,C,"tableau SR.9.3W, p. 69 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Golfe urbain,,portable_hebdomadaire_3_derniers_mois,Femmes 15-49 ans,78.9,,,,,,C,"tableau SR.9.3W, p. 69 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Golfe urbain,,internet_deja_utilise,Femmes 15-49 ans,38.3,,,,,,C,"tableau SR.9.3W, p. 69 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Golfe urbain,,internet_utilise_3_derniers_mois,Femmes 15-49 ans,31.7,,,,,,C,"tableau SR.9.3W, p. 69 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Golfe urbain,,internet_hebdomadaire_3_derniers_mois,Femmes 15-49 ans,28.4,,,,,,C,"tableau SR.9.3W, p. 69 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,national,Togo,,ordinateur_deja_utilise,Hommes 15-49 ans,19.2,,,,,,C,"tableau SR.9.3M, p. 70 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,national,Togo,,ordinateur_utilise_3_derniers_mois,Hommes 15-49 ans,11.7,,,,,,C,"tableau SR.9.3M, p. 70 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,national,Togo,,ordinateur_hebdomadaire_3_derniers_mois,Hommes 15-49 ans,9.0,,,,,,C,"tableau SR.9.3M, p. 70 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,national,Togo,,possede_telephone_portable,Hommes 15-49 ans,78.3,,,,,,C,"tableau SR.9.3M, p. 70 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,national,Togo,,portable_utilise_3_derniers_mois,Hommes 15-49 ans,82.9,,,,,,C,"tableau SR.9.3M, p. 70 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,national,Togo,,portable_hebdomadaire_3_derniers_mois,Hommes 15-49 ans,77.8,,,,,,C,"tableau SR.9.3M, p. 70 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,national,Togo,,internet_deja_utilise,Hommes 15-49 ans,31.5,,,,,,C,"tableau SR.9.3M, p. 70 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,national,Togo,,internet_utilise_3_derniers_mois,Hommes 15-49 ans,27.6,,,,,,C,"tableau SR.9.3M, p. 70 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,national,Togo,,internet_hebdomadaire_3_derniers_mois,Hommes 15-49 ans,25.7,,,,,,C,"tableau SR.9.3M, p. 70 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Urbain,,ordinateur_deja_utilise,Hommes 15-49 ans,33.3,,,,,,C,"tableau SR.9.3M, p. 70 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Urbain,,ordinateur_utilise_3_derniers_mois,Hommes 15-49 ans,22.1,,,,,,C,"tableau SR.9.3M, p. 70 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Urbain,,ordinateur_hebdomadaire_3_derniers_mois,Hommes 15-49 ans,17.0,,,,,,C,"tableau SR.9.3M, p. 70 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Urbain,,possede_telephone_portable,Hommes 15-49 ans,87.8,,,,,,C,"tableau SR.9.3M, p. 70 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Urbain,,portable_utilise_3_derniers_mois,Hommes 15-49 ans,92.3,,,,,,C,"tableau SR.9.3M, p. 70 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Urbain,,portable_hebdomadaire_3_derniers_mois,Hommes 15-49 ans,89.4,,,,,,C,"tableau SR.9.3M, p. 70 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Urbain,,internet_deja_utilise,Hommes 15-49 ans,54.7,,,,,,C,"tableau SR.9.3M, p. 70 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Urbain,,internet_utilise_3_derniers_mois,Hommes 15-49 ans,49.3,,,,,,C,"tableau SR.9.3M, p. 70 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Urbain,,internet_hebdomadaire_3_derniers_mois,Hommes 15-49 ans,46.3,,,,,,C,"tableau SR.9.3M, p. 70 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Rural,,ordinateur_deja_utilise,Hommes 15-49 ans,7.0,,,,,,C,"tableau SR.9.3M, p. 70 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Rural,,ordinateur_utilise_3_derniers_mois,Hommes 15-49 ans,2.8,,,,,,C,"tableau SR.9.3M, p. 70 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Rural,,ordinateur_hebdomadaire_3_derniers_mois,Hommes 15-49 ans,2.0,,,,,,C,"tableau SR.9.3M, p. 70 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Rural,,possede_telephone_portable,Hommes 15-49 ans,70.1,,,,,,C,"tableau SR.9.3M, p. 70 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Rural,,portable_utilise_3_derniers_mois,Hommes 15-49 ans,74.7,,,,,,C,"tableau SR.9.3M, p. 70 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Rural,,portable_hebdomadaire_3_derniers_mois,Hommes 15-49 ans,67.7,,,,,,C,"tableau SR.9.3M, p. 70 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Rural,,internet_deja_utilise,Hommes 15-49 ans,11.5,,,,,,C,"tableau SR.9.3M, p. 70 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Rural,,internet_utilise_3_derniers_mois,Hommes 15-49 ans,9.0,,,,,,C,"tableau SR.9.3M, p. 70 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Rural,,internet_hebdomadaire_3_derniers_mois,Hommes 15-49 ans,8.0,,,,,,C,"tableau SR.9.3M, p. 70 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Maritime,,ordinateur_deja_utilise,Hommes 15-49 ans,13.5,,,,,,C,"tableau SR.9.3M, p. 70 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Maritime,,ordinateur_utilise_3_derniers_mois,Hommes 15-49 ans,7.1,,,,,,C,"tableau SR.9.3M, p. 70 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Maritime,,ordinateur_hebdomadaire_3_derniers_mois,Hommes 15-49 ans,5.9,,,,,,C,"tableau SR.9.3M, p. 70 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Maritime,,possede_telephone_portable,Hommes 15-49 ans,72.7,,,,,,C,"tableau SR.9.3M, p. 70 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Maritime,,portable_utilise_3_derniers_mois,Hommes 15-49 ans,76.7,,,,,,C,"tableau SR.9.3M, p. 70 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Maritime,,portable_hebdomadaire_3_derniers_mois,Hommes 15-49 ans,74.3,,,,,,C,"tableau SR.9.3M, p. 70 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Maritime,,internet_deja_utilise,Hommes 15-49 ans,22.2,,,,,,C,"tableau SR.9.3M, p. 70 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Maritime,,internet_utilise_3_derniers_mois,Hommes 15-49 ans,18.7,,,,,,C,"tableau SR.9.3M, p. 70 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Maritime,,internet_hebdomadaire_3_derniers_mois,Hommes 15-49 ans,16.3,,,,,,C,"tableau SR.9.3M, p. 70 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Plateaux,B,ordinateur_deja_utilise,Hommes 15-49 ans,11.2,,,,,,C,"tableau SR.9.3M, p. 70 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Plateaux,B,ordinateur_utilise_3_derniers_mois,Hommes 15-49 ans,4.7,,,,,,C,"tableau SR.9.3M, p. 70 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Plateaux,B,ordinateur_hebdomadaire_3_derniers_mois,Hommes 15-49 ans,2.4,,,,,,C,"tableau SR.9.3M, p. 70 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Plateaux,B,possede_telephone_portable,Hommes 15-49 ans,67.0,,,,,,C,"tableau SR.9.3M, p. 70 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Plateaux,B,portable_utilise_3_derniers_mois,Hommes 15-49 ans,76.2,,,,,,C,"tableau SR.9.3M, p. 70 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Plateaux,B,portable_hebdomadaire_3_derniers_mois,Hommes 15-49 ans,64.1,,,,,,C,"tableau SR.9.3M, p. 70 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Plateaux,B,internet_deja_utilise,Hommes 15-49 ans,11.9,,,,,,C,"tableau SR.9.3M, p. 70 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Plateaux,B,internet_utilise_3_derniers_mois,Hommes 15-49 ans,7.9,,,,,,C,"tableau SR.9.3M, p. 70 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Plateaux,B,internet_hebdomadaire_3_derniers_mois,Hommes 15-49 ans,7.2,,,,,,C,"tableau SR.9.3M, p. 70 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Centrale,C,ordinateur_deja_utilise,Hommes 15-49 ans,11.6,,,,,,C,"tableau SR.9.3M, p. 70 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Centrale,C,ordinateur_utilise_3_derniers_mois,Hommes 15-49 ans,6.8,,,,,,C,"tableau SR.9.3M, p. 70 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Centrale,C,ordinateur_hebdomadaire_3_derniers_mois,Hommes 15-49 ans,3.9,,,,,,C,"tableau SR.9.3M, p. 70 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Centrale,C,possede_telephone_portable,Hommes 15-49 ans,78.3,,,,,,C,"tableau SR.9.3M, p. 70 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Centrale,C,portable_utilise_3_derniers_mois,Hommes 15-49 ans,79.2,,,,,,C,"tableau SR.9.3M, p. 70 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Centrale,C,portable_hebdomadaire_3_derniers_mois,Hommes 15-49 ans,75.9,,,,,,C,"tableau SR.9.3M, p. 70 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Centrale,C,internet_deja_utilise,Hommes 15-49 ans,28.7,,,,,,C,"tableau SR.9.3M, p. 70 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Centrale,C,internet_utilise_3_derniers_mois,Hommes 15-49 ans,25.0,,,,,,C,"tableau SR.9.3M, p. 70 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Centrale,C,internet_hebdomadaire_3_derniers_mois,Hommes 15-49 ans,23.6,,,,,,C,"tableau SR.9.3M, p. 70 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Kara,D,ordinateur_deja_utilise,Hommes 15-49 ans,15.1,,,,,,C,"tableau SR.9.3M, p. 70 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Kara,D,ordinateur_utilise_3_derniers_mois,Hommes 15-49 ans,9.8,,,,,,C,"tableau SR.9.3M, p. 70 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Kara,D,ordinateur_hebdomadaire_3_derniers_mois,Hommes 15-49 ans,8.1,,,,,,C,"tableau SR.9.3M, p. 70 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Kara,D,possede_telephone_portable,Hommes 15-49 ans,79.5,,,,,,C,"tableau SR.9.3M, p. 70 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Kara,D,portable_utilise_3_derniers_mois,Hommes 15-49 ans,84.8,,,,,,C,"tableau SR.9.3M, p. 70 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Kara,D,portable_hebdomadaire_3_derniers_mois,Hommes 15-49 ans,76.6,,,,,,C,"tableau SR.9.3M, p. 70 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Kara,D,internet_deja_utilise,Hommes 15-49 ans,21.5,,,,,,C,"tableau SR.9.3M, p. 70 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Kara,D,internet_utilise_3_derniers_mois,Hommes 15-49 ans,19.1,,,,,,C,"tableau SR.9.3M, p. 70 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Kara,D,internet_hebdomadaire_3_derniers_mois,Hommes 15-49 ans,17.5,,,,,,C,"tableau SR.9.3M, p. 70 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Savanes,E,ordinateur_deja_utilise,Hommes 15-49 ans,5.3,,,,,,C,"tableau SR.9.3M, p. 70 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Savanes,E,ordinateur_utilise_3_derniers_mois,Hommes 15-49 ans,4.1,,,,,,C,"tableau SR.9.3M, p. 70 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Savanes,E,ordinateur_hebdomadaire_3_derniers_mois,Hommes 15-49 ans,3.0,,,,,,C,"tableau SR.9.3M, p. 70 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Savanes,E,possede_telephone_portable,Hommes 15-49 ans,74.4,,,,,,C,"tableau SR.9.3M, p. 70 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Savanes,E,portable_utilise_3_derniers_mois,Hommes 15-49 ans,76.7,,,,,,C,"tableau SR.9.3M, p. 70 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Savanes,E,portable_hebdomadaire_3_derniers_mois,Hommes 15-49 ans,74.7,,,,,,C,"tableau SR.9.3M, p. 70 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Savanes,E,internet_deja_utilise,Hommes 15-49 ans,15.1,,,,,,C,"tableau SR.9.3M, p. 70 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Savanes,E,internet_utilise_3_derniers_mois,Hommes 15-49 ans,14.1,,,,,,C,"tableau SR.9.3M, p. 70 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Savanes,E,internet_hebdomadaire_3_derniers_mois,Hommes 15-49 ans,13.4,,,,,,C,"tableau SR.9.3M, p. 70 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Lomé commune,,ordinateur_deja_utilise,Hommes 15-49 ans,33.8,,,,,,C,"tableau SR.9.3M, p. 70 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Lomé commune,,ordinateur_utilise_3_derniers_mois,Hommes 15-49 ans,22.7,,,,,,C,"tableau SR.9.3M, p. 70 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Lomé commune,,ordinateur_hebdomadaire_3_derniers_mois,Hommes 15-49 ans,17.8,,,,,,C,"tableau SR.9.3M, p. 70 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Lomé commune,,possede_telephone_portable,Hommes 15-49 ans,91.8,,,,,,C,"tableau SR.9.3M, p. 70 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Lomé commune,,portable_utilise_3_derniers_mois,Hommes 15-49 ans,94.2,,,,,,C,"tableau SR.9.3M, p. 70 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Lomé commune,,portable_hebdomadaire_3_derniers_mois,Hommes 15-49 ans,93.1,,,,,,C,"tableau SR.9.3M, p. 70 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Lomé commune,,internet_deja_utilise,Hommes 15-49 ans,60.2,,,,,,C,"tableau SR.9.3M, p. 70 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Lomé commune,,internet_utilise_3_derniers_mois,Hommes 15-49 ans,56.5,,,,,,C,"tableau SR.9.3M, p. 70 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Lomé commune,,internet_hebdomadaire_3_derniers_mois,Hommes 15-49 ans,53.2,,,,,,C,"tableau SR.9.3M, p. 70 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Golfe urbain,,ordinateur_deja_utilise,Hommes 15-49 ans,43.1,,,,,,C,"tableau SR.9.3M, p. 70 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Golfe urbain,,ordinateur_utilise_3_derniers_mois,Hommes 15-49 ans,28.1,,,,,,C,"tableau SR.9.3M, p. 70 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Golfe urbain,,ordinateur_hebdomadaire_3_derniers_mois,Hommes 15-49 ans,23.1,,,,,,C,"tableau SR.9.3M, p. 70 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Golfe urbain,,possede_telephone_portable,Hommes 15-49 ans,91.3,,,,,,C,"tableau SR.9.3M, p. 70 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Golfe urbain,,portable_utilise_3_derniers_mois,Hommes 15-49 ans,94.6,,,,,,C,"tableau SR.9.3M, p. 70 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Golfe urbain,,portable_hebdomadaire_3_derniers_mois,Hommes 15-49 ans,93.3,,,,,,C,"tableau SR.9.3M, p. 70 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Golfe urbain,,internet_deja_utilise,Hommes 15-49 ans,67.6,,,,,,C,"tableau SR.9.3M, p. 70 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Golfe urbain,,internet_utilise_3_derniers_mois,Hommes 15-49 ans,60.1,,,,,,C,"tableau SR.9.3M, p. 70 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Golfe urbain,,internet_hebdomadaire_3_derniers_mois,Hommes 15-49 ans,56.5,,,,,,C,"tableau SR.9.3M, p. 70 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,national,Togo,,copie_deplace_fichier,Femmes 15-49 ans,2.8,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,national,Togo,,copier_coller,Femmes 15-49 ans,2.9,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,national,Togo,,email_piece_jointe,Femmes 15-49 ans,2.1,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,national,Togo,,formule_tableur,Femmes 15-49 ans,1.4,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,national,Togo,,connecte_installe_appareil,Femmes 15-49 ans,1.2,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,national,Togo,,logiciel_installe_configure,Femmes 15-49 ans,1.6,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,national,Togo,,presentation_electronique,Femmes 15-49 ans,0.8,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,national,Togo,,transfert_fichier_appareil,Femmes 15-49 ans,1.9,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,national,Togo,,programme_informatique,Femmes 15-49 ans,0.4,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,national,Togo,,au_moins_une_activite_ODD_4_4_1,Femmes 15-49 ans,3.7,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Urbain,,copie_deplace_fichier,Femmes 15-49 ans,5.3,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Urbain,,copier_coller,Femmes 15-49 ans,5.4,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Urbain,,email_piece_jointe,Femmes 15-49 ans,4.2,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Urbain,,formule_tableur,Femmes 15-49 ans,2.9,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Urbain,,connecte_installe_appareil,Femmes 15-49 ans,2.3,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Urbain,,logiciel_installe_configure,Femmes 15-49 ans,3.1,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Urbain,,presentation_electronique,Femmes 15-49 ans,1.5,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Urbain,,transfert_fichier_appareil,Femmes 15-49 ans,3.4,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Urbain,,programme_informatique,Femmes 15-49 ans,0.8,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Urbain,,au_moins_une_activite_ODD_4_4_1,Femmes 15-49 ans,7.1,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Rural,,copie_deplace_fichier,Femmes 15-49 ans,0.6,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Rural,,copier_coller,Femmes 15-49 ans,0.6,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Rural,,email_piece_jointe,Femmes 15-49 ans,0.3,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Rural,,formule_tableur,Femmes 15-49 ans,0.1,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Rural,,connecte_installe_appareil,Femmes 15-49 ans,0.1,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Rural,,logiciel_installe_configure,Femmes 15-49 ans,0.2,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Rural,,presentation_electronique,Femmes 15-49 ans,0.1,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Rural,,transfert_fichier_appareil,Femmes 15-49 ans,0.4,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Rural,,programme_informatique,Femmes 15-49 ans,0.0,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Rural,,au_moins_une_activite_ODD_4_4_1,Femmes 15-49 ans,0.7,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Maritime,,copie_deplace_fichier,Femmes 15-49 ans,1.8,,,,,,C,"tableau SR.9.4W, p. 71 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Maritime,,copier_coller,Femmes 15-49 ans,1.8,,,,,,C,"tableau SR.9.4W, p. 71 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Maritime,,email_piece_jointe,Femmes 15-49 ans,0.7,,,,,,C,"tableau SR.9.4W, p. 71 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Maritime,,formule_tableur,Femmes 15-49 ans,0.4,,,,,,C,"tableau SR.9.4W, p. 71 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Maritime,,connecte_installe_appareil,Femmes 15-49 ans,0.6,,,,,,C,"tableau SR.9.4W, p. 71 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Maritime,,logiciel_installe_configure,Femmes 15-49 ans,0.6,,,,,,C,"tableau SR.9.4W, p. 71 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Maritime,,presentation_electronique,Femmes 15-49 ans,0.1,,,,,,C,"tableau SR.9.4W, p. 71 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Maritime,,transfert_fichier_appareil,Femmes 15-49 ans,1.4,,,,,,C,"tableau SR.9.4W, p. 71 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Maritime,,programme_informatique,Femmes 15-49 ans,0.1,,,,,,C,"tableau SR.9.4W, p. 71 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Maritime,,au_moins_une_activite_ODD_4_4_1,Femmes 15-49 ans,2.1,,,,,,C,"tableau SR.9.4W, p. 71 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Plateaux,B,copie_deplace_fichier,Femmes 15-49 ans,0.6,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Plateaux,B,copier_coller,Femmes 15-49 ans,0.9,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Plateaux,B,email_piece_jointe,Femmes 15-49 ans,0.5,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Plateaux,B,formule_tableur,Femmes 15-49 ans,0.3,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Plateaux,B,connecte_installe_appareil,Femmes 15-49 ans,0.1,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Plateaux,B,logiciel_installe_configure,Femmes 15-49 ans,0.3,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Plateaux,B,presentation_electronique,Femmes 15-49 ans,0.1,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Plateaux,B,transfert_fichier_appareil,Femmes 15-49 ans,0.6,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Plateaux,B,programme_informatique,Femmes 15-49 ans,0.0,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Plateaux,B,au_moins_une_activite_ODD_4_4_1,Femmes 15-49 ans,1.0,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Centrale,C,copie_deplace_fichier,Femmes 15-49 ans,1.4,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Centrale,C,copier_coller,Femmes 15-49 ans,1.2,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Centrale,C,email_piece_jointe,Femmes 15-49 ans,0.8,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Centrale,C,formule_tableur,Femmes 15-49 ans,0.5,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Centrale,C,connecte_installe_appareil,Femmes 15-49 ans,0.2,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Centrale,C,logiciel_installe_configure,Femmes 15-49 ans,0.4,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Centrale,C,presentation_electronique,Femmes 15-49 ans,0.1,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Centrale,C,transfert_fichier_appareil,Femmes 15-49 ans,0.7,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Centrale,C,programme_informatique,Femmes 15-49 ans,0.0,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Centrale,C,au_moins_une_activite_ODD_4_4_1,Femmes 15-49 ans,1.6,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Kara,D,copie_deplace_fichier,Femmes 15-49 ans,2.0,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Kara,D,copier_coller,Femmes 15-49 ans,2.1,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Kara,D,email_piece_jointe,Femmes 15-49 ans,0.8,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Kara,D,formule_tableur,Femmes 15-49 ans,0.7,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Kara,D,connecte_installe_appareil,Femmes 15-49 ans,0.4,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Kara,D,logiciel_installe_configure,Femmes 15-49 ans,0.5,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Kara,D,presentation_electronique,Femmes 15-49 ans,0.5,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Kara,D,transfert_fichier_appareil,Femmes 15-49 ans,1.0,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Kara,D,programme_informatique,Femmes 15-49 ans,0.1,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Kara,D,au_moins_une_activite_ODD_4_4_1,Femmes 15-49 ans,2.5,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Savanes,E,copie_deplace_fichier,Femmes 15-49 ans,0.0,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Savanes,E,copier_coller,Femmes 15-49 ans,0.1,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Savanes,E,email_piece_jointe,Femmes 15-49 ans,0.2,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Savanes,E,formule_tableur,Femmes 15-49 ans,0.0,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Savanes,E,connecte_installe_appareil,Femmes 15-49 ans,0.2,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Savanes,E,logiciel_installe_configure,Femmes 15-49 ans,0.3,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Savanes,E,presentation_electronique,Femmes 15-49 ans,0.0,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Savanes,E,transfert_fichier_appareil,Femmes 15-49 ans,0.1,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Savanes,E,programme_informatique,Femmes 15-49 ans,0.2,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Savanes,E,au_moins_une_activite_ODD_4_4_1,Femmes 15-49 ans,0.4,,,,,,C,"tableau SR.9.4W, p. 71 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Lomé commune,,copie_deplace_fichier,Femmes 15-49 ans,6.4,,,,,,C,"tableau SR.9.4W, p. 71 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Lomé commune,,copier_coller,Femmes 15-49 ans,6.4,,,,,,C,"tableau SR.9.4W, p. 71 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Lomé commune,,email_piece_jointe,Femmes 15-49 ans,5.6,,,,,,C,"tableau SR.9.4W, p. 71 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Lomé commune,,formule_tableur,Femmes 15-49 ans,3.9,,,,,,C,"tableau SR.9.4W, p. 71 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Lomé commune,,connecte_installe_appareil,Femmes 15-49 ans,2.4,,,,,,C,"tableau SR.9.4W, p. 71 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Lomé commune,,logiciel_installe_configure,Femmes 15-49 ans,3.6,,,,,,C,"tableau SR.9.4W, p. 71 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Lomé commune,,presentation_electronique,Femmes 15-49 ans,2.1,,,,,,C,"tableau SR.9.4W, p. 71 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Lomé commune,,transfert_fichier_appareil,Femmes 15-49 ans,4.2,,,,,,C,"tableau SR.9.4W, p. 71 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Lomé commune,,programme_informatique,Femmes 15-49 ans,1.0,,,,,,C,"tableau SR.9.4W, p. 71 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Lomé commune,,au_moins_une_activite_ODD_4_4_1,Femmes 15-49 ans,9.1,,,,,,C,"tableau SR.9.4W, p. 71 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Golfe urbain,,copie_deplace_fichier,Femmes 15-49 ans,7.1,,,,,,C,"tableau SR.9.4W, p. 71 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Golfe urbain,,copier_coller,Femmes 15-49 ans,7.1,,,,,,C,"tableau SR.9.4W, p. 71 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Golfe urbain,,email_piece_jointe,Femmes 15-49 ans,5.6,,,,,,C,"tableau SR.9.4W, p. 71 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Golfe urbain,,formule_tableur,Femmes 15-49 ans,3.8,,,,,,C,"tableau SR.9.4W, p. 71 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Golfe urbain,,connecte_installe_appareil,Femmes 15-49 ans,3.8,,,,,,C,"tableau SR.9.4W, p. 71 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Golfe urbain,,logiciel_installe_configure,Femmes 15-49 ans,4.8,,,,,,C,"tableau SR.9.4W, p. 71 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Golfe urbain,,presentation_electronique,Femmes 15-49 ans,2.1,,,,,,C,"tableau SR.9.4W, p. 71 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Golfe urbain,,transfert_fichier_appareil,Femmes 15-49 ans,4.3,,,,,,C,"tableau SR.9.4W, p. 71 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Golfe urbain,,programme_informatique,Femmes 15-49 ans,1.3,,,,,,C,"tableau SR.9.4W, p. 71 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Golfe urbain,,au_moins_une_activite_ODD_4_4_1,Femmes 15-49 ans,8.8,,,,,,C,"tableau SR.9.4W, p. 71 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,national,Togo,,copie_deplace_fichier,Hommes 15-49 ans,9.1,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,national,Togo,,copier_coller,Hommes 15-49 ans,9.2,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,national,Togo,,email_piece_jointe,Hommes 15-49 ans,7.4,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,national,Togo,,formule_tableur,Hommes 15-49 ans,3.4,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,national,Togo,,connecte_installe_appareil,Hommes 15-49 ans,4.2,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,national,Togo,,logiciel_installe_configure,Hommes 15-49 ans,6.5,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,national,Togo,,presentation_electronique,Hommes 15-49 ans,2.7,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,national,Togo,,transfert_fichier_appareil,Hommes 15-49 ans,8.6,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,national,Togo,,programme_informatique,Hommes 15-49 ans,1.3,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,national,Togo,,au_moins_une_activite_ODD_4_4_1,Hommes 15-49 ans,11.2,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Urbain,,copie_deplace_fichier,Hommes 15-49 ans,17.4,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Urbain,,copier_coller,Hommes 15-49 ans,17.1,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Urbain,,email_piece_jointe,Hommes 15-49 ans,14.1,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Urbain,,formule_tableur,Hommes 15-49 ans,6.7,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Urbain,,connecte_installe_appareil,Hommes 15-49 ans,8.3,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Urbain,,logiciel_installe_configure,Hommes 15-49 ans,12.7,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Urbain,,presentation_electronique,Hommes 15-49 ans,5.6,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Urbain,,transfert_fichier_appareil,Hommes 15-49 ans,16.9,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Urbain,,programme_informatique,Hommes 15-49 ans,2.8,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Urbain,,au_moins_une_activite_ODD_4_4_1,Hommes 15-49 ans,20.9,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Rural,,copie_deplace_fichier,Hommes 15-49 ans,2.0,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Rural,,copier_coller,Hommes 15-49 ans,2.4,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Rural,,email_piece_jointe,Hommes 15-49 ans,1.7,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Rural,,formule_tableur,Hommes 15-49 ans,0.5,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Rural,,connecte_installe_appareil,Hommes 15-49 ans,0.7,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Rural,,logiciel_installe_configure,Hommes 15-49 ans,1.0,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Rural,,presentation_electronique,Hommes 15-49 ans,0.3,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Rural,,transfert_fichier_appareil,Hommes 15-49 ans,1.5,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Rural,,programme_informatique,Hommes 15-49 ans,0.0,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Rural,,au_moins_une_activite_ODD_4_4_1,Hommes 15-49 ans,2.8,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Maritime,,copie_deplace_fichier,Hommes 15-49 ans,5.7,,,,,,C,"tableau SR.9.4M, p. 73 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Maritime,,copier_coller,Hommes 15-49 ans,6.2,,,,,,C,"tableau SR.9.4M, p. 73 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Maritime,,email_piece_jointe,Hommes 15-49 ans,4.5,,,,,,C,"tableau SR.9.4M, p. 73 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Maritime,,formule_tableur,Hommes 15-49 ans,2.0,,,,,,C,"tableau SR.9.4M, p. 73 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Maritime,,connecte_installe_appareil,Hommes 15-49 ans,2.2,,,,,,C,"tableau SR.9.4M, p. 73 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Maritime,,logiciel_installe_configure,Hommes 15-49 ans,4.1,,,,,,C,"tableau SR.9.4M, p. 73 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Maritime,,presentation_electronique,Hommes 15-49 ans,1.8,,,,,,C,"tableau SR.9.4M, p. 73 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Maritime,,transfert_fichier_appareil,Hommes 15-49 ans,6.3,,,,,,C,"tableau SR.9.4M, p. 73 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Maritime,,programme_informatique,Hommes 15-49 ans,0.6,,,,,,C,"tableau SR.9.4M, p. 73 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Maritime,,au_moins_une_activite_ODD_4_4_1,Hommes 15-49 ans,7.1,,,,,,C,"tableau SR.9.4M, p. 73 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Plateaux,B,copie_deplace_fichier,Hommes 15-49 ans,3.3,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Plateaux,B,copier_coller,Hommes 15-49 ans,3.4,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Plateaux,B,email_piece_jointe,Hommes 15-49 ans,2.9,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Plateaux,B,formule_tableur,Hommes 15-49 ans,0.6,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Plateaux,B,connecte_installe_appareil,Hommes 15-49 ans,1.5,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Plateaux,B,logiciel_installe_configure,Hommes 15-49 ans,1.8,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Plateaux,B,presentation_electronique,Hommes 15-49 ans,0.9,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Plateaux,B,transfert_fichier_appareil,Hommes 15-49 ans,1.9,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Plateaux,B,programme_informatique,Hommes 15-49 ans,0.9,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Plateaux,B,au_moins_une_activite_ODD_4_4_1,Hommes 15-49 ans,4.0,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Centrale,C,copie_deplace_fichier,Hommes 15-49 ans,4.8,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Centrale,C,copier_coller,Hommes 15-49 ans,5.6,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Centrale,C,email_piece_jointe,Hommes 15-49 ans,3.2,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Centrale,C,formule_tableur,Hommes 15-49 ans,0.8,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Centrale,C,connecte_installe_appareil,Hommes 15-49 ans,1.7,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Centrale,C,logiciel_installe_configure,Hommes 15-49 ans,4.1,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Centrale,C,presentation_electronique,Hommes 15-49 ans,0.3,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Centrale,C,transfert_fichier_appareil,Hommes 15-49 ans,3.7,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Centrale,C,programme_informatique,Hommes 15-49 ans,0.0,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Centrale,C,au_moins_une_activite_ODD_4_4_1,Hommes 15-49 ans,6.5,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Kara,D,copie_deplace_fichier,Hommes 15-49 ans,7.9,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Kara,D,copier_coller,Hommes 15-49 ans,8.3,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Kara,D,email_piece_jointe,Hommes 15-49 ans,4.1,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Kara,D,formule_tableur,Hommes 15-49 ans,3.7,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Kara,D,connecte_installe_appareil,Hommes 15-49 ans,3.7,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Kara,D,logiciel_installe_configure,Hommes 15-49 ans,4.4,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Kara,D,presentation_electronique,Hommes 15-49 ans,3.3,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Kara,D,transfert_fichier_appareil,Hommes 15-49 ans,7.8,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Kara,D,programme_informatique,Hommes 15-49 ans,1.8,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Kara,D,au_moins_une_activite_ODD_4_4_1,Hommes 15-49 ans,9.6,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Savanes,E,copie_deplace_fichier,Hommes 15-49 ans,4.0,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Savanes,E,copier_coller,Hommes 15-49 ans,3.6,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Savanes,E,email_piece_jointe,Hommes 15-49 ans,3.9,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Savanes,E,formule_tableur,Hommes 15-49 ans,1.7,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Savanes,E,connecte_installe_appareil,Hommes 15-49 ans,0.0,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Savanes,E,logiciel_installe_configure,Hommes 15-49 ans,0.6,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Savanes,E,presentation_electronique,Hommes 15-49 ans,0.0,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Savanes,E,transfert_fichier_appareil,Hommes 15-49 ans,2.4,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Savanes,E,programme_informatique,Hommes 15-49 ans,0.0,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Savanes,E,au_moins_une_activite_ODD_4_4_1,Hommes 15-49 ans,4.1,,,,,,C,"tableau SR.9.4M, p. 73 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Lomé commune,,copie_deplace_fichier,Hommes 15-49 ans,17.0,,,,,,C,"tableau SR.9.4M, p. 73 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Lomé commune,,copier_coller,Hommes 15-49 ans,16.9,,,,,,C,"tableau SR.9.4M, p. 73 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Lomé commune,,email_piece_jointe,Hommes 15-49 ans,15.0,,,,,,C,"tableau SR.9.4M, p. 73 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Lomé commune,,formule_tableur,Hommes 15-49 ans,7.4,,,,,,C,"tableau SR.9.4M, p. 73 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Lomé commune,,connecte_installe_appareil,Hommes 15-49 ans,7.9,,,,,,C,"tableau SR.9.4M, p. 73 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Lomé commune,,logiciel_installe_configure,Hommes 15-49 ans,13.4,,,,,,C,"tableau SR.9.4M, p. 73 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Lomé commune,,presentation_electronique,Hommes 15-49 ans,5.8,,,,,,C,"tableau SR.9.4M, p. 73 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Lomé commune,,transfert_fichier_appareil,Hommes 15-49 ans,18.4,,,,,,C,"tableau SR.9.4M, p. 73 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Lomé commune,,programme_informatique,Hommes 15-49 ans,1.6,,,,,,C,"tableau SR.9.4M, p. 73 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Lomé commune,,au_moins_une_activite_ODD_4_4_1,Hommes 15-49 ans,21.8,,,,,,C,"tableau SR.9.4M, p. 73 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Golfe urbain,,copie_deplace_fichier,Hommes 15-49 ans,22.5,,,,,,C,"tableau SR.9.4M, p. 73 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Golfe urbain,,copier_coller,Hommes 15-49 ans,21.7,,,,,,C,"tableau SR.9.4M, p. 73 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Golfe urbain,,email_piece_jointe,Hommes 15-49 ans,18.4,,,,,,C,"tableau SR.9.4M, p. 73 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Golfe urbain,,formule_tableur,Hommes 15-49 ans,8.2,,,,,,C,"tableau SR.9.4M, p. 73 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Golfe urbain,,connecte_installe_appareil,Hommes 15-49 ans,12.7,,,,,,C,"tableau SR.9.4M, p. 73 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Golfe urbain,,logiciel_installe_configure,Hommes 15-49 ans,17.5,,,,,,C,"tableau SR.9.4M, p. 73 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Golfe urbain,,presentation_electronique,Hommes 15-49 ans,6.7,,,,,,C,"tableau SR.9.4M, p. 73 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Golfe urbain,,transfert_fichier_appareil,Hommes 15-49 ans,21.2,,,,,,C,"tableau SR.9.4M, p. 73 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Golfe urbain,,programme_informatique,Hommes 15-49 ans,4.1,,,,,,C,"tableau SR.9.4M, p. 73 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Golfe urbain,,au_moins_une_activite_ODD_4_4_1,Hommes 15-49 ans,26.7,,,,,,C,"tableau SR.9.4M, p. 73 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,national,Togo,,aucun_preprimaire_alphabetise,Femmes 15-49 ans,0.1,,,,,,C,"tableau SR.6.1W, p. 51 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,national,Togo,,aucun_preprimaire_analphabete,Femmes 15-49 ans,27.4,,,,,,C,"tableau SR.6.1W, p. 51 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,national,Togo,,primaire_alphabetise,Femmes 15-49 ans,6.0,,,,,,C,"tableau SR.6.1W, p. 51 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,national,Togo,,primaire_analphabete,Femmes 15-49 ans,26.5,,,,,,C,"tableau SR.6.1W, p. 51 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,national,Togo,,secondaire_ou_plus,Femmes 15-49 ans,40.0,,,,,,C,"tableau SR.6.1W, p. 51 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,national,Togo,,total_repartition,Femmes 15-49 ans,100.0,,,,,,C,"tableau SR.6.1W, p. 51 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,national,Togo,,alphabetises,Femmes 15-49 ans,46.1,,,,,,C,"tableau SR.6.1W, p. 51 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Urbain,,aucun_preprimaire_alphabetise,Femmes 15-49 ans,0.1,,,,,,C,"tableau SR.6.1W, p. 51 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Urbain,,aucun_preprimaire_analphabete,Femmes 15-49 ans,15.8,,,,,,C,"tableau SR.6.1W, p. 51 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Urbain,,primaire_alphabetise,Femmes 15-49 ans,7.2,,,,,,C,"tableau SR.6.1W, p. 51 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Urbain,,primaire_analphabete,Femmes 15-49 ans,24.1,,,,,,C,"tableau SR.6.1W, p. 51 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Urbain,,secondaire_ou_plus,Femmes 15-49 ans,52.8,,,,,,C,"tableau SR.6.1W, p. 51 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Urbain,,total_repartition,Femmes 15-49 ans,100.0,,,,,,C,"tableau SR.6.1W, p. 51 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Urbain,,alphabetises,Femmes 15-49 ans,60.1,,,,,,C,"tableau SR.6.1W, p. 51 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Rural,,aucun_preprimaire_alphabetise,Femmes 15-49 ans,0.1,,,,,,C,"tableau SR.6.1W, p. 51 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Rural,,aucun_preprimaire_analphabete,Femmes 15-49 ans,37.9,,,,,,C,"tableau SR.6.1W, p. 51 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Rural,,primaire_alphabetise,Femmes 15-49 ans,5.0,,,,,,C,"tableau SR.6.1W, p. 51 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Rural,,primaire_analphabete,Femmes 15-49 ans,28.7,,,,,,C,"tableau SR.6.1W, p. 51 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Rural,,secondaire_ou_plus,Femmes 15-49 ans,28.4,,,,,,C,"tableau SR.6.1W, p. 51 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Rural,,total_repartition,Femmes 15-49 ans,100.0,,,,,,C,"tableau SR.6.1W, p. 51 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Rural,,alphabetises,Femmes 15-49 ans,33.4,,,,,,C,"tableau SR.6.1W, p. 51 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Maritime,,aucun_preprimaire_alphabetise,Femmes 15-49 ans,0.1,,,,,,C,"tableau SR.6.1W, p. 51 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Maritime,,aucun_preprimaire_analphabete,Femmes 15-49 ans,27.2,,,,,,C,"tableau SR.6.1W, p. 51 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Maritime,,primaire_alphabetise,Femmes 15-49 ans,7.6,,,,,,C,"tableau SR.6.1W, p. 51 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Maritime,,primaire_analphabete,Femmes 15-49 ans,31.5,,,,,,C,"tableau SR.6.1W, p. 51 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Maritime,,secondaire_ou_plus,Femmes 15-49 ans,33.6,,,,,,C,"tableau SR.6.1W, p. 51 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Maritime,,total_repartition,Femmes 15-49 ans,100.0,,,,,,C,"tableau SR.6.1W, p. 51 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Maritime,,alphabetises,Femmes 15-49 ans,41.3,,,,,,C,"tableau SR.6.1W, p. 51 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Plateaux,B,aucun_preprimaire_alphabetise,Femmes 15-49 ans,0.0,,,,,,C,"tableau SR.6.1W, p. 51 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Plateaux,B,aucun_preprimaire_analphabete,Femmes 15-49 ans,27.5,,,,,,C,"tableau SR.6.1W, p. 51 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Plateaux,B,primaire_alphabetise,Femmes 15-49 ans,6.0,,,,,,C,"tableau SR.6.1W, p. 51 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Plateaux,B,primaire_analphabete,Femmes 15-49 ans,30.7,,,,,,C,"tableau SR.6.1W, p. 51 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Plateaux,B,secondaire_ou_plus,Femmes 15-49 ans,35.9,,,,,,C,"tableau SR.6.1W, p. 51 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Plateaux,B,total_repartition,Femmes 15-49 ans,100.0,,,,,,C,"tableau SR.6.1W, p. 51 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Plateaux,B,alphabetises,Femmes 15-49 ans,41.9,,,,,,C,"tableau SR.6.1W, p. 51 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Centrale,C,aucun_preprimaire_alphabetise,Femmes 15-49 ans,0.0,,,,,,C,"tableau SR.6.1W, p. 51 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Centrale,C,aucun_preprimaire_analphabete,Femmes 15-49 ans,28.6,,,,,,C,"tableau SR.6.1W, p. 51 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Centrale,C,primaire_alphabetise,Femmes 15-49 ans,3.3,,,,,,C,"tableau SR.6.1W, p. 51 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Centrale,C,primaire_analphabete,Femmes 15-49 ans,30.4,,,,,,C,"tableau SR.6.1W, p. 51 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Centrale,C,secondaire_ou_plus,Femmes 15-49 ans,37.7,,,,,,C,"tableau SR.6.1W, p. 51 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Centrale,C,total_repartition,Femmes 15-49 ans,100.0,,,,,,C,"tableau SR.6.1W, p. 51 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Centrale,C,alphabetises,Femmes 15-49 ans,41.0,,,,,,C,"tableau SR.6.1W, p. 51 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Kara,D,aucun_preprimaire_alphabetise,Femmes 15-49 ans,0.1,,,,,,C,"tableau SR.6.1W, p. 51 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Kara,D,aucun_preprimaire_analphabete,Femmes 15-49 ans,34.7,,,,,,C,"tableau SR.6.1W, p. 51 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Kara,D,primaire_alphabetise,Femmes 15-49 ans,3.6,,,,,,C,"tableau SR.6.1W, p. 51 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Kara,D,primaire_analphabete,Femmes 15-49 ans,24.7,,,,,,C,"tableau SR.6.1W, p. 51 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Kara,D,secondaire_ou_plus,Femmes 15-49 ans,36.8,,,,,,C,"tableau SR.6.1W, p. 51 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Kara,D,total_repartition,Femmes 15-49 ans,100.0,,,,,,C,"tableau SR.6.1W, p. 51 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Kara,D,alphabetises,Femmes 15-49 ans,40.6,,,,,,C,"tableau SR.6.1W, p. 51 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Savanes,E,aucun_preprimaire_alphabetise,Femmes 15-49 ans,0.0,,,,,,C,"tableau SR.6.1W, p. 51 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Savanes,E,aucun_preprimaire_analphabete,Femmes 15-49 ans,58.3,,,,,,C,"tableau SR.6.1W, p. 51 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Savanes,E,primaire_alphabetise,Femmes 15-49 ans,2.1,,,,,,C,"tableau SR.6.1W, p. 51 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Savanes,E,primaire_analphabete,Femmes 15-49 ans,17.9,,,,,,C,"tableau SR.6.1W, p. 51 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Savanes,E,secondaire_ou_plus,Femmes 15-49 ans,21.7,,,,,,C,"tableau SR.6.1W, p. 51 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Savanes,E,total_repartition,Femmes 15-49 ans,100.0,,,,,,C,"tableau SR.6.1W, p. 51 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Savanes,E,alphabetises,Femmes 15-49 ans,23.8,,,,,,C,"tableau SR.6.1W, p. 51 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Lomé commune,,aucun_preprimaire_alphabetise,Femmes 15-49 ans,0.2,,,,,,C,"tableau SR.6.1W, p. 51 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Lomé commune,,aucun_preprimaire_analphabete,Femmes 15-49 ans,12.7,,,,,,C,"tableau SR.6.1W, p. 51 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Lomé commune,,primaire_alphabetise,Femmes 15-49 ans,8.3,,,,,,C,"tableau SR.6.1W, p. 51 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Lomé commune,,primaire_analphabete,Femmes 15-49 ans,24.1,,,,,,C,"tableau SR.6.1W, p. 51 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Lomé commune,,secondaire_ou_plus,Femmes 15-49 ans,54.7,,,,,,C,"tableau SR.6.1W, p. 51 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Lomé commune,,total_repartition,Femmes 15-49 ans,100.0,,,,,,C,"tableau SR.6.1W, p. 51 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Lomé commune,,alphabetises,Femmes 15-49 ans,63.3,,,,,,C,"tableau SR.6.1W, p. 51 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Golfe urbain,,aucun_preprimaire_alphabetise,Femmes 15-49 ans,0.2,,,,,,C,"tableau SR.6.1W, p. 51 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Golfe urbain,,aucun_preprimaire_analphabete,Femmes 15-49 ans,12.6,,,,,,C,"tableau SR.6.1W, p. 51 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Golfe urbain,,primaire_alphabetise,Femmes 15-49 ans,8.6,,,,,,C,"tableau SR.6.1W, p. 51 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Golfe urbain,,primaire_analphabete,Femmes 15-49 ans,23.6,,,,,,C,"tableau SR.6.1W, p. 51 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Golfe urbain,,secondaire_ou_plus,Femmes 15-49 ans,55.0,,,,,,C,"tableau SR.6.1W, p. 51 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Golfe urbain,,total_repartition,Femmes 15-49 ans,100.0,,,,,,C,"tableau SR.6.1W, p. 51 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Golfe urbain,,alphabetises,Femmes 15-49 ans,63.8,,,,,,C,"tableau SR.6.1W, p. 51 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,national,Togo,,aucun_preprimaire_alphabetise,Hommes 15-49 ans,0.0,,,,,,C,"tableau SR.6.1M, p. 52 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,national,Togo,,aucun_preprimaire_analphabete,Hommes 15-49 ans,9.3,,,,,,C,"tableau SR.6.1M, p. 52 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,national,Togo,,primaire_alphabetise,Hommes 15-49 ans,4.7,,,,,,C,"tableau SR.6.1M, p. 52 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,national,Togo,,primaire_analphabete,Hommes 15-49 ans,18.9,,,,,,C,"tableau SR.6.1M, p. 52 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,national,Togo,,secondaire_ou_plus,Hommes 15-49 ans,67.0,,,,,,C,"tableau SR.6.1M, p. 52 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,national,Togo,,total_repartition,Hommes 15-49 ans,100.0,,,,,,C,"tableau SR.6.1M, p. 52 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,national,Togo,,alphabetises,Hommes 15-49 ans,71.8,,,,,,C,"tableau SR.6.1M, p. 52 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Urbain,,aucun_preprimaire_alphabetise,Hommes 15-49 ans,0.0,,,,,,C,"tableau SR.6.1M, p. 52 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Urbain,,aucun_preprimaire_analphabete,Hommes 15-49 ans,3.0,,,,,,C,"tableau SR.6.1M, p. 52 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Urbain,,primaire_alphabetise,Hommes 15-49 ans,4.5,,,,,,C,"tableau SR.6.1M, p. 52 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Urbain,,primaire_analphabete,Hommes 15-49 ans,14.1,,,,,,C,"tableau SR.6.1M, p. 52 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Urbain,,secondaire_ou_plus,Hommes 15-49 ans,78.3,,,,,,C,"tableau SR.6.1M, p. 52 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Urbain,,total_repartition,Hommes 15-49 ans,100.0,,,,,,C,"tableau SR.6.1M, p. 52 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Urbain,,alphabetises,Hommes 15-49 ans,82.9,,,,,,C,"tableau SR.6.1M, p. 52 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Rural,,aucun_preprimaire_alphabetise,Hommes 15-49 ans,0.0,,,,,,C,"tableau SR.6.1M, p. 52 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Rural,,aucun_preprimaire_analphabete,Hommes 15-49 ans,14.6,,,,,,C,"tableau SR.6.1M, p. 52 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Rural,,primaire_alphabetise,Hommes 15-49 ans,4.9,,,,,,C,"tableau SR.6.1M, p. 52 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Rural,,primaire_analphabete,Hommes 15-49 ans,23.1,,,,,,C,"tableau SR.6.1M, p. 52 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Rural,,secondaire_ou_plus,Hommes 15-49 ans,57.3,,,,,,C,"tableau SR.6.1M, p. 52 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Rural,,total_repartition,Hommes 15-49 ans,100.0,,,,,,C,"tableau SR.6.1M, p. 52 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,milieu,Rural,,alphabetises,Hommes 15-49 ans,62.3,,,,,,C,"tableau SR.6.1M, p. 52 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Maritime,,aucun_preprimaire_alphabetise,Hommes 15-49 ans,0.0,,,,,,C,"tableau SR.6.1M, p. 52 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Maritime,,aucun_preprimaire_analphabete,Hommes 15-49 ans,5.1,,,,,,C,"tableau SR.6.1M, p. 52 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Maritime,,primaire_alphabetise,Hommes 15-49 ans,9.1,,,,,,C,"tableau SR.6.1M, p. 52 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Maritime,,primaire_analphabete,Hommes 15-49 ans,24.2,,,,,,C,"tableau SR.6.1M, p. 52 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Maritime,,secondaire_ou_plus,Hommes 15-49 ans,61.6,,,,,,C,"tableau SR.6.1M, p. 52 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Maritime,,total_repartition,Hommes 15-49 ans,100.0,,,,,,C,"tableau SR.6.1M, p. 52 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Maritime,,alphabetises,Hommes 15-49 ans,70.7,,,,,,C,"tableau SR.6.1M, p. 52 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Plateaux,B,aucun_preprimaire_alphabetise,Hommes 15-49 ans,0.0,,,,,,C,"tableau SR.6.1M, p. 52 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Plateaux,B,aucun_preprimaire_analphabete,Hommes 15-49 ans,11.2,,,,,,C,"tableau SR.6.1M, p. 52 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Plateaux,B,primaire_alphabetise,Hommes 15-49 ans,3.2,,,,,,C,"tableau SR.6.1M, p. 52 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Plateaux,B,primaire_analphabete,Hommes 15-49 ans,15.8,,,,,,C,"tableau SR.6.1M, p. 52 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Plateaux,B,secondaire_ou_plus,Hommes 15-49 ans,69.8,,,,,,C,"tableau SR.6.1M, p. 52 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Plateaux,B,total_repartition,Hommes 15-49 ans,100.0,,,,,,C,"tableau SR.6.1M, p. 52 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Plateaux,B,alphabetises,Hommes 15-49 ans,73.0,,,,,,C,"tableau SR.6.1M, p. 52 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Centrale,C,aucun_preprimaire_alphabetise,Hommes 15-49 ans,0.0,,,,,,C,"tableau SR.6.1M, p. 52 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Centrale,C,aucun_preprimaire_analphabete,Hommes 15-49 ans,6.2,,,,,,C,"tableau SR.6.1M, p. 52 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Centrale,C,primaire_alphabetise,Hommes 15-49 ans,3.8,,,,,,C,"tableau SR.6.1M, p. 52 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Centrale,C,primaire_analphabete,Hommes 15-49 ans,24.4,,,,,,C,"tableau SR.6.1M, p. 52 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Centrale,C,secondaire_ou_plus,Hommes 15-49 ans,65.6,,,,,,C,"tableau SR.6.1M, p. 52 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Centrale,C,total_repartition,Hommes 15-49 ans,100.0,,,,,,C,"tableau SR.6.1M, p. 52 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Centrale,C,alphabetises,Hommes 15-49 ans,69.4,,,,,,C,"tableau SR.6.1M, p. 52 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Kara,D,aucun_preprimaire_alphabetise,Hommes 15-49 ans,0.0,,,,,,C,"tableau SR.6.1M, p. 52 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Kara,D,aucun_preprimaire_analphabete,Hommes 15-49 ans,12.8,,,,,,C,"tableau SR.6.1M, p. 52 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Kara,D,primaire_alphabetise,Hommes 15-49 ans,4.9,,,,,,C,"tableau SR.6.1M, p. 52 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Kara,D,primaire_analphabete,Hommes 15-49 ans,16.8,,,,,,C,"tableau SR.6.1M, p. 52 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Kara,D,secondaire_ou_plus,Hommes 15-49 ans,65.5,,,,,,C,"tableau SR.6.1M, p. 52 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Kara,D,total_repartition,Hommes 15-49 ans,100.0,,,,,,C,"tableau SR.6.1M, p. 52 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Kara,D,alphabetises,Hommes 15-49 ans,70.4,,,,,,C,"tableau SR.6.1M, p. 52 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Savanes,E,aucun_preprimaire_alphabetise,Hommes 15-49 ans,0.2,,,,,,C,"tableau SR.6.1M, p. 52 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Savanes,E,aucun_preprimaire_analphabete,Hommes 15-49 ans,25.4,,,,,,C,"tableau SR.6.1M, p. 52 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Savanes,E,primaire_alphabetise,Hommes 15-49 ans,1.1,,,,,,C,"tableau SR.6.1M, p. 52 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Savanes,E,primaire_analphabete,Hommes 15-49 ans,24.7,,,,,,C,"tableau SR.6.1M, p. 52 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Savanes,E,secondaire_ou_plus,Hommes 15-49 ans,48.7,,,,,,C,"tableau SR.6.1M, p. 52 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Savanes,E,total_repartition,Hommes 15-49 ans,100.0,,,,,,C,"tableau SR.6.1M, p. 52 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Savanes,E,alphabetises,Hommes 15-49 ans,50.0,,,,,,C,"tableau SR.6.1M, p. 52 du rapport"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Lomé commune,,aucun_preprimaire_alphabetise,Hommes 15-49 ans,0.0,,,,,,C,"tableau SR.6.1M, p. 52 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Lomé commune,,aucun_preprimaire_analphabete,Hommes 15-49 ans,2.9,,,,,,C,"tableau SR.6.1M, p. 52 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Lomé commune,,primaire_alphabetise,Hommes 15-49 ans,3.6,,,,,,C,"tableau SR.6.1M, p. 52 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Lomé commune,,primaire_analphabete,Hommes 15-49 ans,17.5,,,,,,C,"tableau SR.6.1M, p. 52 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Lomé commune,,secondaire_ou_plus,Hommes 15-49 ans,76.0,,,,,,C,"tableau SR.6.1M, p. 52 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Lomé commune,,total_repartition,Hommes 15-49 ans,100.0,,,,,,C,"tableau SR.6.1M, p. 52 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Lomé commune,,alphabetises,Hommes 15-49 ans,79.6,,,,,,C,"tableau SR.6.1M, p. 52 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Golfe urbain,,aucun_preprimaire_alphabetise,Hommes 15-49 ans,0.0,,,,,,C,"tableau SR.6.1M, p. 52 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Golfe urbain,,aucun_preprimaire_analphabete,Hommes 15-49 ans,3.5,,,,,,C,"tableau SR.6.1M, p. 52 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Golfe urbain,,primaire_alphabetise,Hommes 15-49 ans,7.7,,,,,,C,"tableau SR.6.1M, p. 52 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Golfe urbain,,primaire_analphabete,Hommes 15-49 ans,13.7,,,,,,C,"tableau SR.6.1M, p. 52 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Golfe urbain,,secondaire_ou_plus,Hommes 15-49 ans,75.2,,,,,,C,"tableau SR.6.1M, p. 52 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Golfe urbain,,total_repartition,Hommes 15-49 ans,100.0,,,,,,C,"tableau SR.6.1M, p. 52 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"MICS6 2017 (W1, tableaux publiés)",2017,region,Golfe urbain,,alphabetises,Hommes 15-49 ans,82.9,,,,,,C,"tableau SR.6.1M, p. 52 du rapport ; domaine propre à la MICS6, sans équivalent exact dans nos unités"
+"Afrobaromètre R5 (W4, micro-données)",2012,national,Togo,,usage_internet_toute_frequence,adultes de 18 ans et plus,15.33,13.07,17.59,7.5,1.0,1173.0,C,"IC approximatif (effectif efficace de Kish, grappes non modélisées)"
+"Afrobaromètre R5 (W4, micro-données)",2012,region,Lomé commune,,usage_internet_toute_frequence,adultes de 18 ans et plus,32.82,26.02,39.62,10.6,1.0,192.0,C,"IC approximatif (effectif efficace de Kish, grappes non modélisées) ; domaine Afrobaromètre sans équivalent exact"
+"Afrobaromètre R5 (W4, micro-données)",2012,region,Maritime,,usage_internet_toute_frequence,adultes de 18 ans et plus,16.83,12.16,21.51,14.2,1.0,341.0,C,"IC approximatif (effectif efficace de Kish, grappes non modélisées) ; domaine Afrobaromètre sans équivalent exact"
+"Afrobaromètre R5 (W4, micro-données)",2012,region,Plateaux,B,usage_internet_toute_frequence,adultes de 18 ans et plus,5.23,2.21,8.25,29.4,1.0,247.0,C,"IC approximatif (effectif efficace de Kish, grappes non modélisées)"
+"Afrobaromètre R5 (W4, micro-données)",2012,region,Centrale,C,usage_internet_toute_frequence,adultes de 18 ans et plus,11.34,5.41,17.27,26.7,1.0,119.0,C,"IC approximatif (effectif efficace de Kish, grappes non modélisées)"
+"Afrobaromètre R5 (W4, micro-données)",2012,region,Kara,D,usage_internet_toute_frequence,adultes de 18 ans et plus,15.25,8.89,21.61,21.3,1.0,143.0,C,"IC approximatif (effectif efficace de Kish, grappes non modélisées)"
+"Afrobaromètre R5 (W4, micro-données)",2012,region,Savanes,E,usage_internet_toute_frequence,adultes de 18 ans et plus,8.74,3.62,13.87,29.9,1.0,131.0,C,"IC approximatif (effectif efficace de Kish, grappes non modélisées)"
+"Afrobaromètre R6 (W4, micro-données)",2014,national,Togo,,usage_internet_toute_frequence,adultes de 18 ans et plus,18.88,16.51,21.24,6.4,1.0,1177.0,C,"IC approximatif (effectif efficace de Kish, grappes non modélisées)"
+"Afrobaromètre R6 (W4, micro-données)",2014,region,Lomé commune,,usage_internet_toute_frequence,adultes de 18 ans et plus,40.0,32.83,47.17,9.1,1.0,192.0,C,"IC approximatif (effectif efficace de Kish, grappes non modélisées) ; domaine Afrobaromètre sans équivalent exact"
+"Afrobaromètre R6 (W4, micro-données)",2014,region,Maritime,,usage_internet_toute_frequence,adultes de 18 ans et plus,20.09,15.69,24.49,11.2,1.0,346.0,C,"IC approximatif (effectif efficace de Kish, grappes non modélisées) ; domaine Afrobaromètre sans équivalent exact"
+"Afrobaromètre R6 (W4, micro-données)",2014,region,Plateaux,B,usage_internet_toute_frequence,adultes de 18 ans et plus,6.14,3.05,9.22,25.6,1.0,255.0,C,"IC approximatif (effectif efficace de Kish, grappes non modélisées)"
+"Afrobaromètre R6 (W4, micro-données)",2014,region,Centrale,C,usage_internet_toute_frequence,adultes de 18 ans et plus,24.42,15.6,33.23,18.4,1.0,111.0,C,"IC approximatif (effectif efficace de Kish, grappes non modélisées)"
+"Afrobaromètre R6 (W4, micro-données)",2014,region,Kara,D,usage_internet_toute_frequence,adultes de 18 ans et plus,20.62,13.57,27.66,17.4,1.0,137.0,C,"IC approximatif (effectif efficace de Kish, grappes non modélisées)"
+"Afrobaromètre R6 (W4, micro-données)",2014,region,Savanes,E,usage_internet_toute_frequence,adultes de 18 ans et plus,4.04,0.32,7.76,47.0,0.0,136.0,C,"IC approximatif (effectif efficace de Kish, grappes non modélisées)"
+"Afrobaromètre R7 (W4, micro-données)",2017,national,Togo,,usage_internet_toute_frequence,adultes de 18 ans et plus,29.04,26.22,31.87,5.0,1.0,1189.0,C,"IC approximatif (effectif efficace de Kish, grappes non modélisées)"
+"Afrobaromètre R7 (W4, micro-données)",2017,region,Lomé commune,,usage_internet_toute_frequence,adultes de 18 ans et plus,52.57,44.94,60.2,7.4,1.0,170.0,C,"IC approximatif (effectif efficace de Kish, grappes non modélisées) ; domaine Afrobaromètre sans équivalent exact"
+"Afrobaromètre R7 (W4, micro-données)",2017,region,Maritime,,usage_internet_toute_frequence,adultes de 18 ans et plus,31.39,26.34,36.44,8.2,1.0,366.0,C,"IC approximatif (effectif efficace de Kish, grappes non modélisées) ; domaine Afrobaromètre sans équivalent exact"
+"Afrobaromètre R7 (W4, micro-données)",2017,region,Plateaux,B,usage_internet_toute_frequence,adultes de 18 ans et plus,18.61,12.98,24.24,15.4,1.0,262.0,C,"IC approximatif (effectif efficace de Kish, grappes non modélisées)"
+"Afrobaromètre R7 (W4, micro-données)",2017,region,Centrale,C,usage_internet_toute_frequence,adultes de 18 ans et plus,22.67,15.1,30.24,17.0,1.0,127.0,C,"IC approximatif (effectif efficace de Kish, grappes non modélisées)"
+"Afrobaromètre R7 (W4, micro-données)",2017,region,Kara,D,usage_internet_toute_frequence,adultes de 18 ans et plus,27.52,19.73,35.3,14.4,1.0,152.0,C,"IC approximatif (effectif efficace de Kish, grappes non modélisées)"
+"Afrobaromètre R7 (W4, micro-données)",2017,region,Savanes,E,usage_internet_toute_frequence,adultes de 18 ans et plus,20.42,12.09,28.76,20.8,1.0,112.0,C,"IC approximatif (effectif efficace de Kish, grappes non modélisées)"
+"Afrobaromètre R8 (W4, micro-données)",2020,national,Togo,,usage_internet_toute_frequence,adultes de 18 ans et plus,45.54,42.51,48.58,3.4,1.0,1199.0,C,"IC approximatif (effectif efficace de Kish, grappes non modélisées)"
+"Afrobaromètre R8 (W4, micro-données)",2020,region,Lomé commune,,usage_internet_toute_frequence,adultes de 18 ans et plus,72.32,65.2,79.44,5.0,1.0,176.0,C,"IC approximatif (effectif efficace de Kish, grappes non modélisées) ; domaine Afrobaromètre sans équivalent exact"
+"Afrobaromètre R8 (W4, micro-données)",2020,region,Maritime,,usage_internet_toute_frequence,adultes de 18 ans et plus,52.95,47.51,58.38,5.2,1.0,368.0,C,"IC approximatif (effectif efficace de Kish, grappes non modélisées) ; domaine Afrobaromètre sans équivalent exact"
+"Afrobaromètre R8 (W4, micro-données)",2020,region,Plateaux,B,usage_internet_toute_frequence,adultes de 18 ans et plus,34.32,28.22,40.42,9.1,1.0,264.0,C,"IC approximatif (effectif efficace de Kish, grappes non modélisées)"
+"Afrobaromètre R8 (W4, micro-données)",2020,region,Centrale,C,usage_internet_toute_frequence,adultes de 18 ans et plus,42.52,33.04,52.0,11.4,1.0,119.0,C,"IC approximatif (effectif efficace de Kish, grappes non modélisées)"
+"Afrobaromètre R8 (W4, micro-données)",2020,region,Kara,D,usage_internet_toute_frequence,adultes de 18 ans et plus,34.79,26.5,43.08,12.2,1.0,152.0,C,"IC approximatif (effectif efficace de Kish, grappes non modélisées)"
+"Afrobaromètre R8 (W4, micro-données)",2020,region,Savanes,E,usage_internet_toute_frequence,adultes de 18 ans et plus,25.03,16.4,33.67,17.6,1.0,120.0,C,"IC approximatif (effectif efficace de Kish, grappes non modélisées)"
+"Afrobaromètre R9 (W4, micro-données)",2022,national,Togo,,usage_internet_toute_frequence,adultes de 18 ans et plus,56.27,52.93,59.61,3.0,1.0,1195.0,C,"IC approximatif (effectif efficace de Kish, grappes non modélisées)"
+"Afrobaromètre R9 (W4, micro-données)",2022,region,Lomé commune,,usage_internet_toute_frequence,adultes de 18 ans et plus,87.2,81.39,93.0,3.4,1.0,168.0,C,"IC approximatif (effectif efficace de Kish, grappes non modélisées) ; domaine Afrobaromètre sans équivalent exact"
+"Afrobaromètre R9 (W4, micro-données)",2022,region,Maritime,,usage_internet_toute_frequence,adultes de 18 ans et plus,60.47,54.35,66.59,5.2,1.0,367.0,C,"IC approximatif (effectif efficace de Kish, grappes non modélisées) ; domaine Afrobaromètre sans équivalent exact"
+"Afrobaromètre R9 (W4, micro-données)",2022,region,Plateaux,B,usage_internet_toute_frequence,adultes de 18 ans et plus,41.11,34.12,48.11,8.7,1.0,272.0,C,"IC approximatif (effectif efficace de Kish, grappes non modélisées)"
+"Afrobaromètre R9 (W4, micro-données)",2022,region,Centrale,C,usage_internet_toute_frequence,adultes de 18 ans et plus,63.1,52.64,73.55,8.5,1.0,116.0,C,"IC approximatif (effectif efficace de Kish, grappes non modélisées)"
+"Afrobaromètre R9 (W4, micro-données)",2022,region,Kara,D,usage_internet_toute_frequence,adultes de 18 ans et plus,45.39,36.2,54.57,10.3,1.0,152.0,C,"IC approximatif (effectif efficace de Kish, grappes non modélisées)"
+"Afrobaromètre R9 (W4, micro-données)",2022,region,Savanes,E,usage_internet_toute_frequence,adultes de 18 ans et plus,39.6,29.7,49.49,12.8,1.0,120.0,C,"IC approximatif (effectif efficace de Kish, grappes non modélisées)"
+"Afrobaromètre R9 (W4, micro-données)",2022,national,Togo,,compte_mobile_money_personnel,adultes de 18 ans et plus,77.87,75.07,80.66,1.8,1.0,1196.0,C,"IC approximatif (effectif efficace de Kish, grappes non modélisées)"
+"Afrobaromètre R9 (W4, micro-données)",2022,region,Lomé commune,,compte_mobile_money_personnel,adultes de 18 ans et plus,93.84,89.66,98.01,2.3,1.0,168.0,C,"IC approximatif (effectif efficace de Kish, grappes non modélisées) ; domaine Afrobaromètre sans équivalent exact"
+"Afrobaromètre R9 (W4, micro-données)",2022,region,Maritime,,compte_mobile_money_personnel,adultes de 18 ans et plus,83.42,78.77,88.08,2.8,1.0,367.0,C,"IC approximatif (effectif efficace de Kish, grappes non modélisées) ; domaine Afrobaromètre sans équivalent exact"
+"Afrobaromètre R9 (W4, micro-données)",2022,region,Plateaux,B,compte_mobile_money_personnel,adultes de 18 ans et plus,73.21,66.89,79.52,4.4,1.0,271.0,C,"IC approximatif (effectif efficace de Kish, grappes non modélisées)"
+"Afrobaromètre R9 (W4, micro-données)",2022,region,Centrale,C,compte_mobile_money_personnel,adultes de 18 ans et plus,69.51,59.64,79.38,7.2,1.0,119.0,C,"IC approximatif (effectif efficace de Kish, grappes non modélisées)"
+"Afrobaromètre R9 (W4, micro-données)",2022,region,Kara,D,compte_mobile_money_personnel,adultes de 18 ans et plus,77.71,70.0,85.41,5.1,1.0,151.0,C,"IC approximatif (effectif efficace de Kish, grappes non modélisées)"
+"Afrobaromètre R9 (W4, micro-données)",2022,region,Savanes,E,compte_mobile_money_personnel,adultes de 18 ans et plus,56.56,46.53,66.59,9.0,1.0,120.0,C,"IC approximatif (effectif efficace de Kish, grappes non modélisées)"
+"Afrobaromètre R10 (W4, micro-données)",2024,national,Togo,,usage_internet_toute_frequence,adultes de 18 ans et plus,60.83,57.67,63.98,2.6,1.0,1195.0,C,"IC approximatif (effectif efficace de Kish, grappes non modélisées)"
+"Afrobaromètre R10 (W4, micro-données)",2024,region,Lomé commune,,usage_internet_toute_frequence,adultes de 18 ans et plus,87.9,84.07,91.72,2.2,1.0,360.0,C,"IC approximatif (effectif efficace de Kish, grappes non modélisées) ; domaine Afrobaromètre sans équivalent exact"
+"Afrobaromètre R10 (W4, micro-données)",2024,region,Maritime,,usage_internet_toute_frequence,adultes de 18 ans et plus,58.54,50.94,66.14,6.6,1.0,200.0,C,"IC approximatif (effectif efficace de Kish, grappes non modélisées) ; domaine Afrobaromètre sans équivalent exact"
+"Afrobaromètre R10 (W4, micro-données)",2024,region,Plateaux,B,usage_internet_toute_frequence,adultes de 18 ans et plus,49.75,42.21,57.29,7.7,1.0,231.0,C,"IC approximatif (effectif efficace de Kish, grappes non modélisées)"
+"Afrobaromètre R10 (W4, micro-données)",2024,region,Centrale,C,usage_internet_toute_frequence,adultes de 18 ans et plus,42.91,32.75,53.08,12.1,1.0,118.0,C,"IC approximatif (effectif efficace de Kish, grappes non modélisées)"
+"Afrobaromètre R10 (W4, micro-données)",2024,region,Kara,D,usage_internet_toute_frequence,adultes de 18 ans et plus,43.18,33.85,52.51,11.0,1.0,142.0,C,"IC approximatif (effectif efficace de Kish, grappes non modélisées)"
+"Afrobaromètre R10 (W4, micro-données)",2024,region,Savanes,E,usage_internet_toute_frequence,adultes de 18 ans et plus,45.09,35.92,54.26,10.4,1.0,144.0,C,"IC approximatif (effectif efficace de Kish, grappes non modélisées)"
+"Findex 2025 (W3, base publiée)",2011,national,Togo,,compte_total,adultes de 15 ans et plus,10.19,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2011,national,Togo,,compte_institution_financiere,adultes de 15 ans et plus,10.19,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2014,national,Togo,,compte_total,adultes de 15 ans et plus,18.25,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2014,national,Togo,,compte_mobile_money,adultes de 15 ans et plus,1.41,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2014,national,Togo,,compte_institution_financiere,adultes de 15 ans et plus,17.61,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2017,national,Togo,,compte_total,adultes de 15 ans et plus,45.29,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2017,national,Togo,,compte_mobile_money,adultes de 15 ans et plus,21.46,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2017,national,Togo,,compte_institution_financiere,adultes de 15 ans et plus,34.07,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2021,national,Togo,,compte_total,adultes de 15 ans et plus,49.61,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2021,national,Togo,,compte_mobile_money,adultes de 15 ans et plus,36.48,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2021,national,Togo,,compte_institution_financiere,adultes de 15 ans et plus,24.9,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,national,Togo,,compte_total,adultes de 15 ans et plus,57.43,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,national,Togo,,compte_mobile_money,adultes de 15 ans et plus,47.99,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,national,Togo,,compte_institution_financiere,adultes de 15 ans et plus,32.44,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,national,Togo,,usage_internet_3_mois,adultes de 15 ans et plus,43.71,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,national,Togo,,smartphone_telephone_principal,adultes de 15 ans et plus,45.08,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,national,Togo,,sans_smartphone_cause_cout,adultes de 15 ans et plus,32.07,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,national,Togo,,sans_smartphone_cause_cout_data,adultes de 15 ans et plus,9.57,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2011,ventilation,gender : men,,compte_total,adultes de 15 ans et plus,11.19,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2011,ventilation,gender : men,,compte_institution_financiere,adultes de 15 ans et plus,11.19,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2011,ventilation,gender : women,,compte_total,adultes de 15 ans et plus,9.22,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2011,ventilation,gender : women,,compte_institution_financiere,adultes de 15 ans et plus,9.22,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2014,ventilation,gender : men,,compte_total,adultes de 15 ans et plus,21.49,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2014,ventilation,gender : men,,compte_institution_financiere,adultes de 15 ans et plus,20.9,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2014,ventilation,gender : women,,compte_total,adultes de 15 ans et plus,15.11,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2014,ventilation,gender : women,,compte_institution_financiere,adultes de 15 ans et plus,14.44,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2017,ventilation,gender : men,,compte_total,adultes de 15 ans et plus,53.05,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2017,ventilation,gender : men,,compte_mobile_money,adultes de 15 ans et plus,26.97,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2017,ventilation,gender : men,,compte_institution_financiere,adultes de 15 ans et plus,39.56,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2017,ventilation,gender : women,,compte_total,adultes de 15 ans et plus,37.59,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2017,ventilation,gender : women,,compte_mobile_money,adultes de 15 ans et plus,15.99,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2017,ventilation,gender : women,,compte_institution_financiere,adultes de 15 ans et plus,28.62,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2021,ventilation,gender : men,,compte_total,adultes de 15 ans et plus,55.22,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2021,ventilation,gender : men,,compte_mobile_money,adultes de 15 ans et plus,41.3,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2021,ventilation,gender : men,,compte_institution_financiere,adultes de 15 ans et plus,28.54,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2021,ventilation,gender : women,,compte_total,adultes de 15 ans et plus,44.3,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2021,ventilation,gender : women,,compte_mobile_money,adultes de 15 ans et plus,31.92,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2021,ventilation,gender : women,,compte_institution_financiere,adultes de 15 ans et plus,21.45,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,gender : men,,compte_total,adultes de 15 ans et plus,70.0,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,gender : men,,compte_mobile_money,adultes de 15 ans et plus,61.4,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,gender : men,,compte_institution_financiere,adultes de 15 ans et plus,38.84,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,gender : men,,usage_internet_3_mois,adultes de 15 ans et plus,51.86,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,gender : men,,smartphone_telephone_principal,adultes de 15 ans et plus,54.38,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,gender : men,,sans_smartphone_cause_cout,adultes de 15 ans et plus,26.92,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,gender : women,,compte_total,adultes de 15 ans et plus,45.35,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,gender : women,,compte_mobile_money,adultes de 15 ans et plus,35.1,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,gender : women,,compte_institution_financiere,adultes de 15 ans et plus,26.29,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,gender : women,,usage_internet_3_mois,adultes de 15 ans et plus,35.88,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,gender : women,,smartphone_telephone_principal,adultes de 15 ans et plus,36.13,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,gender : women,,sans_smartphone_cause_cout,adultes de 15 ans et plus,37.01,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2011,ventilation,income : richest 60%,,compte_total,adultes de 15 ans et plus,13.0,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2011,ventilation,income : richest 60%,,compte_institution_financiere,adultes de 15 ans et plus,13.0,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2011,ventilation,income : poorest 40%,,compte_total,adultes de 15 ans et plus,5.95,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2011,ventilation,income : poorest 40%,,compte_institution_financiere,adultes de 15 ans et plus,5.95,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2014,ventilation,income : richest 60%,,compte_total,adultes de 15 ans et plus,24.97,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2014,ventilation,income : richest 60%,,compte_institution_financiere,adultes de 15 ans et plus,24.26,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2014,ventilation,income : poorest 40%,,compte_total,adultes de 15 ans et plus,8.14,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2014,ventilation,income : poorest 40%,,compte_institution_financiere,adultes de 15 ans et plus,7.62,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2017,ventilation,income : richest 60%,,compte_total,adultes de 15 ans et plus,52.31,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2017,ventilation,income : richest 60%,,compte_mobile_money,adultes de 15 ans et plus,24.82,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2017,ventilation,income : richest 60%,,compte_institution_financiere,adultes de 15 ans et plus,40.32,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2017,ventilation,income : poorest 40%,,compte_total,adultes de 15 ans et plus,34.74,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2017,ventilation,income : poorest 40%,,compte_mobile_money,adultes de 15 ans et plus,16.41,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2017,ventilation,income : poorest 40%,,compte_institution_financiere,adultes de 15 ans et plus,24.69,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2021,ventilation,income : richest 60%,,compte_total,adultes de 15 ans et plus,56.58,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2021,ventilation,income : richest 60%,,compte_mobile_money,adultes de 15 ans et plus,43.16,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2021,ventilation,income : richest 60%,,compte_institution_financiere,adultes de 15 ans et plus,28.73,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2021,ventilation,income : poorest 40%,,compte_total,adultes de 15 ans et plus,39.04,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2021,ventilation,income : poorest 40%,,compte_mobile_money,adultes de 15 ans et plus,26.37,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2021,ventilation,income : poorest 40%,,compte_institution_financiere,adultes de 15 ans et plus,19.1,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,income : richest 60%,,compte_total,adultes de 15 ans et plus,66.6,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,income : richest 60%,,compte_mobile_money,adultes de 15 ans et plus,57.59,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,income : richest 60%,,compte_institution_financiere,adultes de 15 ans et plus,38.71,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,income : richest 60%,,usage_internet_3_mois,adultes de 15 ans et plus,54.08,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,income : richest 60%,,smartphone_telephone_principal,adultes de 15 ans et plus,56.95,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,income : richest 60%,,sans_smartphone_cause_cout,adultes de 15 ans et plus,27.37,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,income : poorest 40%,,compte_total,adultes de 15 ans et plus,43.65,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,income : poorest 40%,,compte_mobile_money,adultes de 15 ans et plus,33.55,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,income : poorest 40%,,compte_institution_financiere,adultes de 15 ans et plus,23.01,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,income : poorest 40%,,usage_internet_3_mois,adultes de 15 ans et plus,28.13,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,income : poorest 40%,,smartphone_telephone_principal,adultes de 15 ans et plus,27.22,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,income : poorest 40%,,sans_smartphone_cause_cout,adultes de 15 ans et plus,39.12,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2011,ventilation,age_cat : age 25+,,compte_total,adultes de 15 ans et plus,11.87,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2011,ventilation,age_cat : age 25+,,compte_institution_financiere,adultes de 15 ans et plus,11.87,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2011,ventilation,age_cat : ages 15-24,,compte_total,adultes de 15 ans et plus,6.81,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2011,ventilation,age_cat : ages 15-24,,compte_institution_financiere,adultes de 15 ans et plus,6.81,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2014,ventilation,age_cat : age 25+,,compte_total,adultes de 15 ans et plus,21.16,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2014,ventilation,age_cat : age 25+,,compte_institution_financiere,adultes de 15 ans et plus,20.69,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2014,ventilation,age_cat : ages 15-24,,compte_total,adultes de 15 ans et plus,12.29,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2014,ventilation,age_cat : ages 15-24,,compte_institution_financiere,adultes de 15 ans et plus,11.32,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2017,ventilation,age_cat : age 25+,,compte_total,adultes de 15 ans et plus,45.96,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2017,ventilation,age_cat : age 25+,,compte_mobile_money,adultes de 15 ans et plus,19.91,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2017,ventilation,age_cat : age 25+,,compte_institution_financiere,adultes de 15 ans et plus,35.16,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2017,ventilation,age_cat : ages 15-24,,compte_total,adultes de 15 ans et plus,43.88,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2017,ventilation,age_cat : ages 15-24,,compte_mobile_money,adultes de 15 ans et plus,24.71,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2017,ventilation,age_cat : ages 15-24,,compte_institution_financiere,adultes de 15 ans et plus,31.77,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2021,ventilation,age_cat : age 25+,,compte_total,adultes de 15 ans et plus,53.04,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2021,ventilation,age_cat : age 25+,,compte_mobile_money,adultes de 15 ans et plus,38.74,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2021,ventilation,age_cat : age 25+,,compte_institution_financiere,adultes de 15 ans et plus,27.61,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2021,ventilation,age_cat : ages 15-24,,compte_total,adultes de 15 ans et plus,42.34,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2021,ventilation,age_cat : ages 15-24,,compte_mobile_money,adultes de 15 ans et plus,31.7,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2021,ventilation,age_cat : ages 15-24,,compte_institution_financiere,adultes de 15 ans et plus,19.16,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,age_cat : age 25+,,compte_total,adultes de 15 ans et plus,61.1,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,age_cat : age 25+,,compte_mobile_money,adultes de 15 ans et plus,49.46,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,age_cat : age 25+,,compte_institution_financiere,adultes de 15 ans et plus,38.38,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,age_cat : age 25+,,usage_internet_3_mois,adultes de 15 ans et plus,43.18,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,age_cat : age 25+,,smartphone_telephone_principal,adultes de 15 ans et plus,46.68,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,age_cat : age 25+,,sans_smartphone_cause_cout,adultes de 15 ans et plus,33.98,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,age_cat : ages 15-24,,compte_total,adultes de 15 ans et plus,49.05,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,age_cat : ages 15-24,,compte_mobile_money,adultes de 15 ans et plus,44.65,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,age_cat : ages 15-24,,compte_institution_financiere,adultes de 15 ans et plus,18.86,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,age_cat : ages 15-24,,usage_internet_3_mois,adultes de 15 ans et plus,44.93,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,age_cat : ages 15-24,,smartphone_telephone_principal,adultes de 15 ans et plus,41.41,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,age_cat : ages 15-24,,sans_smartphone_cause_cout,adultes de 15 ans et plus,27.68,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,urbanicity : rural,,compte_total,adultes de 15 ans et plus,52.87,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,urbanicity : rural,,compte_mobile_money,adultes de 15 ans et plus,46.23,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,urbanicity : rural,,compte_institution_financiere,adultes de 15 ans et plus,25.47,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,urbanicity : rural,,usage_internet_3_mois,adultes de 15 ans et plus,33.79,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,urbanicity : rural,,smartphone_telephone_principal,adultes de 15 ans et plus,36.87,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,urbanicity : rural,,sans_smartphone_cause_cout,adultes de 15 ans et plus,37.18,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,urbanicity : urban,,compte_total,adultes de 15 ans et plus,65.74,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,urbanicity : urban,,compte_mobile_money,adultes de 15 ans et plus,51.2,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,urbanicity : urban,,compte_institution_financiere,adultes de 15 ans et plus,45.13,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,urbanicity : urban,,usage_internet_3_mois,adultes de 15 ans et plus,61.78,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,urbanicity : urban,,smartphone_telephone_principal,adultes de 15 ans et plus,60.02,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,urbanicity : urban,,sans_smartphone_cause_cout,adultes de 15 ans et plus,22.75,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2011,ventilation,laborforce : out of laborforce,,compte_total,adultes de 15 ans et plus,6.62,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2011,ventilation,laborforce : out of laborforce,,compte_institution_financiere,adultes de 15 ans et plus,6.62,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2011,ventilation,laborforce : in laborforce,,compte_total,adultes de 15 ans et plus,12.29,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2011,ventilation,laborforce : in laborforce,,compte_institution_financiere,adultes de 15 ans et plus,12.29,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2014,ventilation,laborforce : out of laborforce,,compte_total,adultes de 15 ans et plus,10.69,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2014,ventilation,laborforce : out of laborforce,,compte_institution_financiere,adultes de 15 ans et plus,10.25,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2014,ventilation,laborforce : in laborforce,,compte_total,adultes de 15 ans et plus,23.1,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2014,ventilation,laborforce : in laborforce,,compte_institution_financiere,adultes de 15 ans et plus,22.34,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2017,ventilation,laborforce : out of laborforce,,compte_total,adultes de 15 ans et plus,36.17,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2017,ventilation,laborforce : out of laborforce,,compte_mobile_money,adultes de 15 ans et plus,15.57,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2017,ventilation,laborforce : out of laborforce,,compte_institution_financiere,adultes de 15 ans et plus,27.89,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2017,ventilation,laborforce : in laborforce,,compte_total,adultes de 15 ans et plus,50.61,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2017,ventilation,laborforce : in laborforce,,compte_mobile_money,adultes de 15 ans et plus,24.89,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2017,ventilation,laborforce : in laborforce,,compte_institution_financiere,adultes de 15 ans et plus,37.67,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2021,ventilation,laborforce : out of laborforce,,compte_total,adultes de 15 ans et plus,33.74,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2021,ventilation,laborforce : out of laborforce,,compte_mobile_money,adultes de 15 ans et plus,25.95,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2021,ventilation,laborforce : out of laborforce,,compte_institution_financiere,adultes de 15 ans et plus,12.09,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2021,ventilation,laborforce : in laborforce,,compte_total,adultes de 15 ans et plus,55.47,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2021,ventilation,laborforce : in laborforce,,compte_mobile_money,adultes de 15 ans et plus,40.37,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2021,ventilation,laborforce : in laborforce,,compte_institution_financiere,adultes de 15 ans et plus,29.63,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,laborforce : out of laborforce,,compte_total,adultes de 15 ans et plus,51.71,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,laborforce : out of laborforce,,compte_mobile_money,adultes de 15 ans et plus,41.89,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,laborforce : out of laborforce,,compte_institution_financiere,adultes de 15 ans et plus,24.6,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,laborforce : out of laborforce,,usage_internet_3_mois,adultes de 15 ans et plus,44.81,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,laborforce : out of laborforce,,smartphone_telephone_principal,adultes de 15 ans et plus,43.74,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,laborforce : out of laborforce,,sans_smartphone_cause_cout,adultes de 15 ans et plus,22.89,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,laborforce : in laborforce,,compte_total,adultes de 15 ans et plus,59.51,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,laborforce : in laborforce,,compte_mobile_money,adultes de 15 ans et plus,50.21,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,laborforce : in laborforce,,compte_institution_financiere,adultes de 15 ans et plus,35.29,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,laborforce : in laborforce,,usage_internet_3_mois,adultes de 15 ans et plus,43.31,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,laborforce : in laborforce,,smartphone_telephone_principal,adultes de 15 ans et plus,45.56,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,laborforce : in laborforce,,sans_smartphone_cause_cout,adultes de 15 ans et plus,35.4,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2011,ventilation,education : secondary edu or more,,compte_total,adultes de 15 ans et plus,20.38,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2011,ventilation,education : secondary edu or more,,compte_institution_financiere,adultes de 15 ans et plus,20.38,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2011,ventilation,education : prim edu or less,,compte_total,adultes de 15 ans et plus,6.46,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2011,ventilation,education : prim edu or less,,compte_institution_financiere,adultes de 15 ans et plus,6.46,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2014,ventilation,education : secondary edu or more,,compte_total,adultes de 15 ans et plus,32.75,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2014,ventilation,education : secondary edu or more,,compte_institution_financiere,adultes de 15 ans et plus,31.18,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2014,ventilation,education : prim edu or less,,compte_total,adultes de 15 ans et plus,12.85,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2014,ventilation,education : prim edu or less,,compte_institution_financiere,adultes de 15 ans et plus,12.56,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2017,ventilation,education : secondary edu or more,,compte_total,adultes de 15 ans et plus,56.1,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2017,ventilation,education : secondary edu or more,,compte_mobile_money,adultes de 15 ans et plus,29.98,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2017,ventilation,education : secondary edu or more,,compte_institution_financiere,adultes de 15 ans et plus,43.77,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2017,ventilation,education : prim edu or less,,compte_total,adultes de 15 ans et plus,38.36,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2017,ventilation,education : prim edu or less,,compte_mobile_money,adultes de 15 ans et plus,16.88,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2017,ventilation,education : prim edu or less,,compte_institution_financiere,adultes de 15 ans et plus,27.09,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2021,ventilation,education : secondary edu or more,,compte_total,adultes de 15 ans et plus,61.91,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2021,ventilation,education : secondary edu or more,,compte_mobile_money,adultes de 15 ans et plus,47.42,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2021,ventilation,education : secondary edu or more,,compte_institution_financiere,adultes de 15 ans et plus,35.4,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2021,ventilation,education : prim edu or less,,compte_total,adultes de 15 ans et plus,42.28,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2021,ventilation,education : prim edu or less,,compte_mobile_money,adultes de 15 ans et plus,30.34,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2021,ventilation,education : prim edu or less,,compte_institution_financiere,adultes de 15 ans et plus,18.66,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,education : secondary edu or more,,compte_total,adultes de 15 ans et plus,72.59,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,education : secondary edu or more,,compte_mobile_money,adultes de 15 ans et plus,64.05,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,education : secondary edu or more,,compte_institution_financiere,adultes de 15 ans et plus,45.62,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,education : secondary edu or more,,usage_internet_3_mois,adultes de 15 ans et plus,70.79,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,education : secondary edu or more,,smartphone_telephone_principal,adultes de 15 ans et plus,69.64,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,education : secondary edu or more,,sans_smartphone_cause_cout,adultes de 15 ans et plus,17.54,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,education : prim edu or less,,compte_total,adultes de 15 ans et plus,48.3,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,education : prim edu or less,,compte_mobile_money,adultes de 15 ans et plus,38.23,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,education : prim edu or less,,compte_institution_financiere,adultes de 15 ans et plus,24.26,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,education : prim edu or less,,usage_internet_3_mois,adultes de 15 ans et plus,27.33,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,education : prim edu or less,,smartphone_telephone_principal,adultes de 15 ans et plus,30.21,,,,,,C,tel que publié par la Banque mondiale
+"Findex 2025 (W3, base publiée)",2024,ventilation,education : prim edu or less,,sans_smartphone_cause_cout,adultes de 15 ans et plus,41.04,,,,,,C,tel que publié par la Banque mondiale

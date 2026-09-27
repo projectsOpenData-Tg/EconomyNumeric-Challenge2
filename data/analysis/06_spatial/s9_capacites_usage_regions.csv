@@ -1,0 +1,19 @@
+indicateur,vague,code,nom,estimation_pct,ic95_bas,ic95_haut,cv_pct,national_pct,ecart_national,variation_points
+alphabetisation,2018/19,C,Centrale,59.64,56.27,63.01,2.9,66.51,au-dessous,
+alphabetisation,2018/19,D,Kara,57.12,52.46,61.79,4.2,66.51,au-dessous,
+alphabetisation,2018/19,GL,Grand Lomé,87.25,85.8,88.71,0.9,66.51,au-dessus,
+alphabetisation,2018/19,A_HGL,Maritime hors Grand Lomé,64.67,61.58,67.76,2.4,66.51,non distinct,
+alphabetisation,2018/19,B,Plateaux,61.47,58.08,64.86,2.8,66.51,au-dessous,
+alphabetisation,2018/19,E,Savanes,39.05,35.67,42.43,4.4,66.51,au-dessous,
+alphabetisation,2021/22,C,Centrale,67.75,63.98,71.52,2.8,70.95,non distinct,8.11
+alphabetisation,2021/22,GL,Grand Lomé,90.18,88.76,91.61,0.8,70.95,au-dessus,2.93
+alphabetisation,2021/22,D,Kara,60.15,55.0,65.29,4.4,70.95,au-dessous,3.03
+alphabetisation,2021/22,A_HGL,Maritime hors Grand Lomé,68.99,65.09,72.89,2.9,70.95,non distinct,4.32
+alphabetisation,2021/22,B,Plateaux,68.79,65.34,72.23,2.6,70.95,non distinct,7.32
+alphabetisation,2021/22,E,Savanes,41.16,37.11,45.2,5.0,70.95,au-dessous,2.11
+usage_mobile_banking,2021/22,C,Centrale,19.94,16.04,23.85,10.0,36.93,au-dessous,
+usage_mobile_banking,2021/22,GL,Grand Lomé,57.44,53.5,61.38,3.5,36.93,au-dessus,
+usage_mobile_banking,2021/22,D,Kara,28.52,23.16,33.89,9.6,36.93,au-dessous,
+usage_mobile_banking,2021/22,A_HGL,Maritime hors Grand Lomé,31.59,27.17,36.02,7.1,36.93,non distinct,
+usage_mobile_banking,2021/22,B,Plateaux,29.99,25.54,34.44,7.6,36.93,au-dessous,
+usage_mobile_banking,2021/22,E,Savanes,23.54,20.1,26.97,7.4,36.93,au-dessous,

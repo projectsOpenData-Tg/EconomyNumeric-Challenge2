@@ -1,0 +1,7 @@
+maille,variable,n,min,q1,mediane,q3,max,moyenne,p90_sur_p10
+commune,pop_totale,117,9933.0,33873.0,51836.0,76294.0,351550.0,69192.29,6.13
+commune,densite_hab_km2,117,27.93,61.59,105.47,242.69,11492.77,806.51,43.71
+commune,part_urbaine,117,0.0,0.0,0.0,0.4,1.0,0.23,
+préfecture,pop_totale,39,40240.0,92682.5,138867.0,212498.0,1305681.0,207576.87,4.05
+préfecture,densite_hab_km2,39,35.66,70.25,94.06,209.67,5934.64,405.4,6.03
+préfecture,part_urbaine,39,0.02,0.1,0.15,0.31,1.0,0.24,7.73

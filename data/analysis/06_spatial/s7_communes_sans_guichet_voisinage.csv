@@ -1,0 +1,23 @@
+code,voisines,voisines_avec_guichet,voisines_sans_guichet,nom,prefecture,unite_regionale,pop_totale
+D01082,5,1,"Assoli 2, Kozah 3, Tchaoudjo 3, Tchaoudjo 4",Assoli 3,Assoli,Kara,16044
+D01081,3,1,"Assoli 3, Tchaoudjo 3",Assoli 2,Assoli,Kara,9933
+E02103,3,2,Kpendjal 2,Kpendjal 1,Kpendjal,Savanes,47903
+C05077,2,2,,Tchaoudjo 2,Tchaoudjo,Centrale,24891
+C05079,4,2,"Assoli 3, Tchaoudjo 3",Tchaoudjo 4,Tchaoudjo,Centrale,20279
+D04091,4,3,Dankpen 2,Dankpen 3,Dankpen,Kara,76652
+E07116,3,3,,Tône 4,Tône,Savanes,66577
+E07114,3,3,,Tône 2,Tône,Savanes,50179
+D04090,5,3,"Dankpen 3, Kéran 2",Dankpen 2,Dankpen,Kara,32716
+D06096,3,3,,Kéran 3,Kéran,Kara,30983
+D07099,5,3,"Assoli 3, Kozah 4",Kozah 3,Kozah,Kara,23755
+C05078,6,3,"Assoli 2, Assoli 3, Tchaoudjo 4",Tchaoudjo 3,Tchaoudjo,Centrale,17484
+D02086,4,3,Kozah 4,Bassar 4,Bassar,Kara,16657
+B07049,4,4,,Haho 3,Haho,Plateaux,58695
+D06095,5,4,Dankpen 2,Kéran 2,Kéran,Kara,53305
+C01067,5,4,Akébou 2,Blitta 3,Blitta,Centrale,45218
+E02104,5,4,Kpendjal 1,Kpendjal 2,Kpendjal,Savanes,40462
+B12064,5,4,Wawa 2,Wawa 3,Wawa,Plateaux,29699
+B02036,5,4,Blitta 3,Akébou 2,Akébou,Plateaux,29634
+D07100,6,4,"Bassar 4, Kozah 3",Kozah 4,Kozah,Kara,20654
+B12063,5,4,Wawa 3,Wawa 2,Wawa,Plateaux,20414
+B01034,5,5,,Agou 2,Agou,Plateaux,27465

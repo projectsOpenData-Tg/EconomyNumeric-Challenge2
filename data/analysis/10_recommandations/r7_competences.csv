@@ -1,0 +1,3 @@
+code,region,pop15,alphabetisation_pct,seuil_quartile_alphabetisation,frein_alphabetisation,ecart_alphabetisation_points,competences_Femmes 15-49 ans,seuil_quartile_Femmes 15-49 ans,frein_Femmes 15-49 ans,competences_Hommes 15-49 ans,seuil_quartile_Hommes 15-49 ans,frein_Hommes 15-49 ans
+B,Plateaux,917528,68.79,62.05,False,0.0,1.0,1.3,True,4.0,5.3,True
+E,Savanes,591519,41.16,62.05,True,20.89,0.4,1.3,True,4.1,5.3,True

@@ -1,0 +1,11 @@
+facteur,colonne,sens_defavorable,mediane_39,mediane_priorite_1,mediane_autres_classees,priorite_1_du_cote_defavorable,lecture,non_classees_du_cote_defavorable
+part de la population urbaine,part_urbaine_pct,bas,15.47,10.72,21.14,7 sur 7,se répète,1 sur 3
+densité de population,densite_hab_km2,bas,94.06,65.12,137.69,6 sur 7,se répète,3 sur 3
+"types de points formels présents (sur 4, DAB compris)",types_formels_presents,bas,3.0,2.0,3.0,6 sur 7,se répète,3 sur 3
+agences bancaires pour 10 000 adultes,banques_pour_10k_adultes,bas,0.33,0.14,0.42,5 sur 7,partagé,3 sur 3
+concentration des points formels dans une commune (points en % moins population en %),concentration_points_formels_pts,haut,21.14,36.18,21.5,4 sur 7,partagé,0 sur 3
+points mobile money à plus de 10 km d'un guichet,part_points_mm_plus_10km_guichet_pct,haut,11.93,39.08,6.17,6 sur 7,se répète,3 sur 3
+points mobile money servis par Togocom seul,part_points_mm_togocom_seul_pct,haut,23.26,22.97,21.26,3 sur 7,non commun,3 sur 3
+points mobile money servis par les deux opérateurs,part_points_mm_deux_operateurs_pct,bas,60.86,57.5,63.55,5 sur 7,partagé,2 sur 3
+habitants à moins de 5 km d'une agence Togocom,pct_hab_5km_agence_togocom,bas,23.52,12.55,28.92,5 sur 7,partagé,2 sur 3
+fibre enterrée recensée (km),km_fibre_enterree,bas,35.3,26.2,49.0,4 sur 7,partagé,3 sur 3

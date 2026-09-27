@@ -1,0 +1,10 @@
+serie,convention,role,debut,fin,n,moyenne,ecart_type,seuil_bas,seuil_haut
+usage (D1),publiée,principal,2010,2024,15,20.68,14.89,5.79,35.57
+usage (D1),publiée,sensibilité,2015,2024,10,22.47,17.9,4.57,40.37
+abonnements data mobile,T4,principal,2010,2024,12,46.27,31.04,15.23,77.31
+abonnements data mobile,T4,sensibilité (2015-2024),2015,2024,8,37.45,30.58,6.87,68.03
+abonnements data mobile,T4,sensibilité (ruptures comptées),2010,2024,14,39.65,33.2,6.45,72.85
+abonnements data mobile,moyenne_4T,principal,2010,2024,12,47.12,30.48,16.64,77.61
+abonnements data mobile,moyenne_4T,sensibilité (2015-2024),2015,2024,8,38.72,30.11,8.62,68.83
+abonnements data mobile,moyenne_4T,sensibilité (ruptures comptées),2010,2024,14,40.71,32.45,8.26,73.16
+abonnements Internet (data mobile + fixe),T4,sensibilité (périmètre),2010,2024,12,41.62,26.24,15.39,67.86

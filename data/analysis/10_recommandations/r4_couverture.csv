@@ -1,0 +1,11 @@
+code,nom,classe_08,pop_totale,couverture_proxy_pct,classe_O2_06,cible,pop_hors_couverture_theorique,pop_a_couvrir_pour_la_cible,action,condition
+D04,Dankpen,priorité 1,185662,63.78,couverture partielle,85 %,67247.0,39397.0,conditionnelle,confirmer la couverture réelle (A17)
+B06,Est-Mono,priorité 1,164460,74.54,couverture partielle,85 %,41872.0,17203.0,conditionnelle,confirmer la couverture réelle (A17)
+E05,Oti-Sud,priorité 1,150376,58.59,couverture partielle,85 %,62271.0,39714.0,conditionnelle,confirmer la couverture réelle (A17)
+D06,Kéran,priorité 1,128687,21.36,zone blanche,50 %,101199.0,36856.0,conditionnelle,confirmer la couverture réelle (A17); P16
+E03,Kpendjal-Ouest,priorité 1,123330,63.98,couverture partielle,85 %,44423.0,25924.0,conditionnelle,confirmer la couverture réelle (A17)
+B02,Akébou,priorité 1,73830,58.21,couverture partielle,85 %,30854.0,19779.0,conditionnelle,confirmer la couverture réelle (A17)
+E02,Kpendjal,non déterminable (couverture),88365,,non déterminable (A13),mesurer la couverture réelle,,,immédiate : mesure,préalable à toute action réseau
+C02,Mô,non déterminable (couverture),52448,,non déterminable (A13),mesurer la couverture réelle,,,immédiate : mesure,préalable à toute action réseau
+C04,Tchamba,non déterminable (couverture),200585,,non déterminable (A13),mesurer la couverture réelle,,,immédiate : mesure,préalable à toute action réseau
+C03,Sotouboua,priorité 2,138864,27.02,zone blanche,50 %,101343.0,31911.0,mesure (R4a) ; hors R4b (P24),confirmer la couverture réelle (A17)

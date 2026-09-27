@@ -1,0 +1,15 @@
+code,nom,unite_regionale,pop_totale,couverture_proxy_pct,classe_02,valeur_douteuse_P6
+B04041,Anié 2,Plateaux,79413,5.16,zone blanche prioritaire (proxy),True
+C01067,Blitta 3,Centrale,45218,9.92,zone blanche prioritaire (proxy),True
+C02068,Mô 1,Centrale,30522,,non déterminable (A13),False
+C02069,Mô 2,Centrale,21926,,non déterminable (A13),False
+C03070,Sotouboua 1,Centrale,46907,14.52,zone blanche prioritaire (proxy),False
+C03071,Sotouboua 2,Centrale,64187,,non déterminable (A13),False
+C03072,Sotouboua 3,Centrale,27770,94.47,territoire couvert (proxy),False
+C04073,Tchamba 1,Centrale,82451,,non déterminable (A13),False
+C04074,Tchamba 2,Centrale,64930,,non déterminable (A13),False
+C04075,Tchamba 3,Centrale,53204,,non déterminable (A13),False
+D06095,Kéran 2,Kara,53305,1.49,zone blanche prioritaire (proxy),True
+D06096,Kéran 3,Kara,30983,,non déterminable (A13),False
+E02103,Kpendjal 1,Savanes,47903,,non déterminable (A13),False
+E02104,Kpendjal 2,Savanes,40462,,non déterminable (A13),False

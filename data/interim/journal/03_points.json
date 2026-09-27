@@ -1,0 +1,184 @@
+{
+  "etape": "03_points",
+  "date": "2026-09-26",
+  "effectifs": [
+    {
+      "objet": "D4",
+      "avant": 738,
+      "transformation": "statut en service (A6)",
+      "apres": 660
+    },
+    {
+      "objet": "D4 en service",
+      "avant": 660,
+      "transformation": "4 lignes marquées doublon_de, fusionnées dans 4 lignes principales (V1)",
+      "apres": "656"
+    },
+    {
+      "objet": "D4 en service",
+      "avant": "656",
+      "transformation": "variante : 2 paires FUCEC / COOPEC fusionnées",
+      "apres": "654"
+    },
+    {
+      "objet": "4c",
+      "avant": 184,
+      "transformation": "aucun filtre ; hors agrégat formel (DD7)",
+      "apres": 184
+    },
+    {
+      "objet": "D5",
+      "avant": 19788,
+      "transformation": "ni filtre ni dédoublonnage (A8)",
+      "apres": 19788
+    },
+    {
+      "objet": "GD1",
+      "avant": 95,
+      "transformation": "en service, variante (Q5)",
+      "apres": 84
+    }
+  ],
+  "controles": [
+    {
+      "code": "ST1",
+      "libelle": "effectifs lus (D4, 4c, D5, GD1)",
+      "attendu": "[738, 184, 19788, 95]",
+      "constate": "[738, 184, 19788, 95]",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "ST4",
+      "libelle": "statuts de D4 : en service / hors service / inconnu (A6)",
+      "attendu": "[660, 17, 61]",
+      "constate": "[660, 17, 61]",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "ST5",
+      "libelle": "opérateurs de D5 (Moov+Togocom / Togocom / Moov / Nsp)",
+      "attendu": "[12649, 4773, 1018, 1348]",
+      "constate": "[12649, 4773, 1018, 1348]",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "GE2",
+      "libelle": "points rattachés à un canton, donc à tous les niveaux",
+      "attendu": "100 %",
+      "constate": "100.00 % (0 non rattachés)",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "GE2-noms",
+      "libelle": "préfecture et région déclarées = parents du canton",
+      "attendu": "0",
+      "constate": "0",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "GE3-D4",
+      "libelle": "D4 : points hors du polygone de leur unité déclarée",
+      "attendu": "0",
+      "constate": "0",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "GE3-4c",
+      "libelle": "4c : points hors du polygone de leur unité déclarée",
+      "attendu": "0",
+      "constate": "0",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "GE3-GD1",
+      "libelle": "GD1 : points hors du polygone de leur unité déclarée",
+      "attendu": "signalé",
+      "constate": "0",
+      "resultat": "OK",
+      "bloquant": false
+    },
+    {
+      "code": "GE3-D5",
+      "libelle": "D5 : écarts de position par type",
+      "attendu": "{'hors_frontiere': 49, 'debordement_contour': 22, 'canton_autre_commune': 25}",
+      "constate": "{'hors_frontiere': 49, 'canton_autre_commune': 25, 'debordement_contour': 22}",
+      "resultat": "OK",
+      "bloquant": false
+    },
+    {
+      "code": "GE3-R3",
+      "libelle": "D5 : écarts à la préfecture après reconstitution (hors frontière exclus)",
+      "attendu": "0",
+      "constate": "0",
+      "resultat": "OK",
+      "bloquant": false
+    },
+    {
+      "code": "DD1-presel",
+      "libelle": "paires de D4 de même catégorie à moins de 30 m",
+      "attendu": "18",
+      "constate": "18",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "DD1",
+      "libelle": "doublons décidés : fusionnés / ambigus (variante) / gardés",
+      "attendu": "4 / 2 / 12",
+      "constate": "4 / 2 / 12",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "DD3",
+      "libelle": "D5 : points partageant une cellule de ~11 m / en surplus",
+      "attendu": "974 / 509",
+      "constate": "972 / 508",
+      "resultat": "ÉCHEC",
+      "bloquant": false
+    },
+    {
+      "code": "ST-formels",
+      "libelle": "points formels : principal / variante doublons / variante statuts",
+      "attendu": "656 / 654 / 717",
+      "constate": "656 / 654 / 717",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "CX1",
+      "libelle": "lieux mobile money (total) ≠ somme des vues par opérateur",
+      "attendu": "19788",
+      "constate": "19788 lieux ; 31089 points-opérateurs hors Nsp",
+      "resultat": "OK",
+      "bloquant": true
+    },
+    {
+      "code": "CX4",
+      "libelle": "D5 en points-opérateurs face aux 33 924 de l'ARCEP (T4 2021)",
+      "attendu": "31 089 / 32 437 / 33 785",
+      "constate": "31089 / 32437 / 33785 ; écarts 8.4 / 4.4 / 0.4 %",
+      "resultat": "OK",
+      "bloquant": false
+    },
+    {
+      "code": "ST2",
+      "libelle": "lignes en sortie = lignes lues (aucune supprimée)",
+      "attendu": "20805",
+      "constate": "20805",
+      "resultat": "OK",
+      "bloquant": true
+    }
+  ],
+  "sorties": [
+    "data/processed/points_service.csv"
+  ],
+  "n_anomalies": 1598
+}

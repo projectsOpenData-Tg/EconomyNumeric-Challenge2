@@ -1,0 +1,157 @@
+maille,code,nom,unite_regionale,couverture_proxy_pct,classe_02,valeur_douteuse_P6,pop_totale
+commune,A01001,Agoè-Nyivé 1,Grand Lomé,100.0,territoire couvert (proxy),False,317255
+commune,A01002,Agoè-Nyivé 2,Grand Lomé,100.0,territoire couvert (proxy),False,128164
+commune,A01003,Agoè-Nyivé 3,Grand Lomé,100.0,territoire couvert (proxy),False,47554
+commune,A01004,Agoè-Nyivé 4,Grand Lomé,100.0,territoire couvert (proxy),False,154431
+commune,A01005,Agoè-Nyivé 5,Grand Lomé,100.0,territoire couvert (proxy),False,125097
+commune,A01006,Agoè-Nyivé 6,Grand Lomé,100.0,territoire couvert (proxy),False,110194
+commune,A06022,Vo 1,Maritime hors Grand Lomé,100.0,territoire couvert (proxy),False,88865
+commune,A06023,Vo 2,Maritime hors Grand Lomé,100.0,territoire couvert (proxy),False,24396
+commune,A02007,Avé 1,Maritime hors Grand Lomé,39.48,zone blanche prioritaire (proxy),False,75044
+commune,A06024,Vo 3,Maritime hors Grand Lomé,100.0,territoire couvert (proxy),False,64651
+commune,A02008,Avé 2,Maritime hors Grand Lomé,100.0,territoire couvert (proxy),False,36170
+commune,A03009,Bas-Mono 1,Maritime hors Grand Lomé,100.0,territoire couvert (proxy),False,55382
+commune,A03010,Bas-Mono 2,Maritime hors Grand Lomé,100.0,territoire couvert (proxy),False,39478
+commune,A06025,Vo 4,Maritime hors Grand Lomé,100.0,territoire couvert (proxy),False,46499
+commune,A04014,Golfe 4,Grand Lomé,100.0,territoire couvert (proxy),False,155842
+commune,A04015,Golfe 5,Grand Lomé,100.0,territoire couvert (proxy),False,169993
+commune,A04016,Golfe 6,Grand Lomé,100.0,territoire couvert (proxy),False,181561
+commune,A04017,Golfe 7,Grand Lomé,100.0,territoire couvert (proxy),False,257813
+commune,A07026,Yoto 1,Maritime hors Grand Lomé,99.76,territoire couvert (proxy),False,77353
+commune,A05018,Lacs 1,Maritime hors Grand Lomé,100.0,territoire couvert (proxy),False,52994
+commune,A05019,Lacs 2,Maritime hors Grand Lomé,99.97,territoire couvert (proxy),False,42855
+commune,A05021,Lacs 4,Maritime hors Grand Lomé,100.0,territoire couvert (proxy),False,37222
+commune,A07027,Yoto 2,Maritime hors Grand Lomé,100.0,territoire couvert (proxy),False,43412
+commune,A07028,Yoto 3,Maritime hors Grand Lomé,100.0,territoire couvert (proxy),False,54086
+commune,A08029,Zio 1,Maritime hors Grand Lomé,100.0,territoire couvert (proxy),False,307292
+commune,A08030,Zio 2,Maritime hors Grand Lomé,100.0,territoire couvert (proxy),False,96193
+commune,A08031,Zio 3,Maritime hors Grand Lomé,97.85,territoire couvert (proxy),False,67843
+commune,A08032,Zio 4,Maritime hors Grand Lomé,91.82,territoire couvert (proxy),False,28704
+commune,B01033,Agou 1,Plateaux,100.0,territoire couvert (proxy),False,58328
+commune,B01034,Agou 2,Plateaux,38.12,zone blanche prioritaire (proxy),False,27465
+commune,B02035,Akébou 1,Plateaux,85.98,territoire couvert (proxy),False,44196
+commune,B02036,Akébou 2,Plateaux,27.23,zone blanche prioritaire (proxy),False,29634
+commune,B07048,Haho 2,Plateaux,65.64,couverture partielle (proxy),False,82507
+commune,B03037,Amou 1,Plateaux,100.0,territoire couvert (proxy),False,19746
+commune,B03038,Amou 2,Plateaux,100.0,territoire couvert (proxy),False,40016
+commune,B09054,Kpélé 1,Plateaux,85.03,territoire couvert (proxy),False,53275
+commune,B10057,Moyen-Mono 2,Plateaux,100.0,territoire couvert (proxy),False,43708
+commune,B03039,Amou 3,Plateaux,98.29,territoire couvert (proxy),False,54410
+commune,B04040,Anié 1,Plateaux,99.98,territoire couvert (proxy),False,100745
+commune,B04041,Anié 2,Plateaux,5.16,zone blanche prioritaire (proxy),True,79413
+commune,B05042,Danyi 1,Plateaux,100.0,territoire couvert (proxy),False,25820
+commune,B09055,Kpélé 2,Plateaux,99.87,territoire couvert (proxy),False,27664
+commune,C05079,Tchaoudjo 4,Centrale,56.9,couverture partielle (proxy),False,20279
+commune,B05043,Danyi 2,Plateaux,100.0,territoire couvert (proxy),False,14420
+commune,B06044,Est-Mono 1,Plateaux,88.5,territoire couvert (proxy),False,34652
+commune,D02086,Bassar 4,Kara,100.0,territoire couvert (proxy),False,16657
+commune,B06045,Est-Mono 2,Plateaux,55.26,couverture partielle (proxy),False,101866
+commune,B06046,Est-Mono 3,Plateaux,100.0,territoire couvert (proxy),False,27942
+commune,B07047,Haho 1,Plateaux,97.17,territoire couvert (proxy),False,119929
+commune,B07050,Haho 4,Plateaux,90.81,territoire couvert (proxy),False,43965
+commune,B08051,Kloto 1,Plateaux,100.0,territoire couvert (proxy),False,118387
+commune,B10056,Moyen-Mono 1,Plateaux,100.0,territoire couvert (proxy),False,46797
+commune,B08052,Kloto 2,Plateaux,100.0,territoire couvert (proxy),False,16166
+commune,B08053,Kloto 3,Plateaux,100.0,territoire couvert (proxy),False,11433
+commune,B11058,Ogou 1,Plateaux,100.0,territoire couvert (proxy),False,116301
+commune,B11059,Ogou 2,Plateaux,88.78,territoire couvert (proxy),False,56282
+commune,B12064,Wawa 3,Plateaux,100.0,territoire couvert (proxy),False,29699
+commune,B11060,Ogou 3,Plateaux,98.06,territoire couvert (proxy),False,51836
+commune,B11061,Ogou 4,Plateaux,86.43,territoire couvert (proxy),False,29048
+commune,B12062,Wawa 1,Plateaux,100.0,territoire couvert (proxy),False,51187
+commune,B12063,Wawa 2,Plateaux,100.0,territoire couvert (proxy),False,20414
+commune,C01065,Blitta 1,Centrale,98.69,territoire couvert (proxy),False,71539
+commune,C01066,Blitta 2,Centrale,78.75,couverture partielle (proxy),False,46515
+commune,C01067,Blitta 3,Centrale,9.92,zone blanche prioritaire (proxy),True,45218
+commune,C02068,Mô 1,Centrale,,non déterminable (A13),False,30522
+commune,C02069,Mô 2,Centrale,,non déterminable (A13),False,21926
+commune,C03070,Sotouboua 1,Centrale,14.52,zone blanche prioritaire (proxy),False,46907
+commune,C03071,Sotouboua 2,Centrale,,non déterminable (A13),False,64187
+commune,C03072,Sotouboua 3,Centrale,94.47,territoire couvert (proxy),False,27770
+commune,C04073,Tchamba 1,Centrale,,non déterminable (A13),False,82451
+commune,C05077,Tchaoudjo 2,Centrale,80.99,couverture partielle (proxy),False,24891
+commune,C04074,Tchamba 2,Centrale,,non déterminable (A13),False,64930
+commune,C05076,Tchaoudjo 1,Centrale,94.03,territoire couvert (proxy),False,177706
+commune,C04075,Tchamba 3,Centrale,,non déterminable (A13),False,53204
+commune,C05078,Tchaoudjo 3,Centrale,99.86,territoire couvert (proxy),False,17484
+commune,D01080,Assoli 1,Kara,93.69,territoire couvert (proxy),False,40417
+commune,D01081,Assoli 2,Kara,100.0,territoire couvert (proxy),False,9933
+commune,D01082,Assoli 3,Kara,100.0,territoire couvert (proxy),False,16044
+commune,D03087,Binah 1,Kara,94.11,territoire couvert (proxy),False,44039
+commune,D02083,Bassar 1,Kara,96.08,territoire couvert (proxy),False,65059
+commune,D02084,Bassar 2,Kara,77.0,couverture partielle (proxy),False,36476
+commune,D02085,Bassar 3,Kara,99.59,territoire couvert (proxy),False,33873
+commune,D03088,Binah 2,Kara,100.0,territoire couvert (proxy),False,40160
+commune,D04090,Dankpen 2,Kara,47.66,zone blanche prioritaire (proxy),False,32716
+commune,D04091,Dankpen 3,Kara,65.59,couverture partielle (proxy),False,76652
+commune,D04089,Dankpen 1,Kara,69.5,couverture partielle (proxy),False,76294
+commune,D05092,Doufelgou 1,Kara,98.28,territoire couvert (proxy),False,44783
+commune,D05093,Doufelgou 3,Kara,62.87,couverture partielle (proxy),False,28262
+commune,D05094,Doufelgou 2,Kara,96.78,territoire couvert (proxy),False,11722
+commune,D06094,Kéran 1,Kara,44.69,zone blanche prioritaire (proxy),False,44399
+commune,E01102,Cinkassé 2,Savanes,100.0,territoire couvert (proxy),False,52967
+commune,D06095,Kéran 2,Kara,1.49,zone blanche prioritaire (proxy),True,53305
+commune,D06096,Kéran 3,Kara,,non déterminable (A13),False,30983
+commune,D07097,Kozah 1,Kara,100.0,territoire couvert (proxy),False,193625
+commune,D07098,Kozah 2,Kara,100.0,territoire couvert (proxy),False,45704
+commune,E02103,Kpendjal 1,Savanes,,non déterminable (A13),False,47903
+commune,E02104,Kpendjal 2,Savanes,,non déterminable (A13),False,40462
+commune,E03105,Kpendjal-Ouest 1,Savanes,45.51,zone blanche prioritaire (proxy),False,56459
+commune,D07099,Kozah 3,Kara,99.83,territoire couvert (proxy),False,23755
+commune,D07100,Kozah 4,Kara,100.0,territoire couvert (proxy),False,20654
+commune,E01101,Cinkassé 1,Savanes,100.0,territoire couvert (proxy),False,75992
+commune,E03106,Kpendjal-Ouest 2,Savanes,82.53,couverture partielle (proxy),False,66871
+commune,E04109,Oti 1,Savanes,93.73,territoire couvert (proxy),False,54479
+commune,E04110,Oti 2,Savanes,92.12,territoire couvert (proxy),False,70369
+commune,E07116,Tône 4,Savanes,100.0,territoire couvert (proxy),False,66577
+commune,A05020,Lacs 3,Maritime hors Grand Lomé,100.0,territoire couvert (proxy),False,108176
+commune,E05107,Oti-Sud 1,Savanes,78.18,couverture partielle (proxy),False,106052
+commune,B07049,Haho 3,Plateaux,96.03,territoire couvert (proxy),False,58695
+commune,A04013,Golfe 3,Grand Lomé,100.0,territoire couvert (proxy),False,52769
+commune,A04012,Golfe 2,Grand Lomé,100.0,territoire couvert (proxy),False,136153
+commune,E05108,Oti-Sud 2,Savanes,20.22,zone blanche prioritaire (proxy),False,44324
+commune,E06111,Tandjoaré 1,Savanes,99.95,territoire couvert (proxy),False,74692
+commune,E06112,Tandjoaré 2,Savanes,99.71,territoire couvert (proxy),False,64175
+commune,E07113,Tône 1,Savanes,100.0,territoire couvert (proxy),False,211743
+commune,E07114,Tône 2,Savanes,99.99,territoire couvert (proxy),False,50179
+commune,E07115,Tône 3,Savanes,91.69,territoire couvert (proxy),False,60276
+commune,A04011,Golfe 1,Grand Lomé,100.0,territoire couvert (proxy),False,351550
+préfecture,A01,Agoè-Nyivé,Grand Lomé,100.0,territoire couvert (proxy),False,882695
+préfecture,A02,Avé,Maritime hors Grand Lomé,59.95,couverture partielle (proxy),False,111214
+préfecture,A03,Bas-Mono,Maritime hors Grand Lomé,100.0,territoire couvert (proxy),False,94860
+préfecture,A04,Golfe,Grand Lomé,100.0,territoire couvert (proxy),False,1305681
+préfecture,A05,Lacs,Maritime hors Grand Lomé,100.0,territoire couvert (proxy),False,241247
+préfecture,A06,Vo,Maritime hors Grand Lomé,100.0,territoire couvert (proxy),False,224411
+préfecture,A07,Yoto,Maritime hors Grand Lomé,99.9,territoire couvert (proxy),False,174851
+préfecture,A08,Zio,Maritime hors Grand Lomé,98.9,territoire couvert (proxy),False,500032
+préfecture,B01,Agou,Plateaux,77.28,couverture partielle (proxy),False,85793
+préfecture,B02,Akébou,Plateaux,58.21,couverture partielle (proxy),False,73830
+préfecture,B03,Amou,Plateaux,99.26,territoire couvert (proxy),False,114172
+préfecture,B04,Anié,Plateaux,69.12,couverture partielle (proxy),False,180158
+préfecture,B05,Danyi,Plateaux,100.0,territoire couvert (proxy),False,40240
+préfecture,B06,Est-Mono,Plateaux,74.54,couverture partielle (proxy),False,164460
+préfecture,B07,Haho,Plateaux,88.16,territoire couvert (proxy),False,305096
+préfecture,B08,Kloto,Plateaux,100.0,territoire couvert (proxy),False,145986
+préfecture,B09,Kpélé,Plateaux,90.11,territoire couvert (proxy),False,80939
+préfecture,B10,Moyen-Mono,Plateaux,100.0,territoire couvert (proxy),False,90505
+préfecture,B11,Ogou,Plateaux,96.51,territoire couvert (proxy),False,253467
+préfecture,B12,Wawa,Plateaux,100.0,territoire couvert (proxy),False,101300
+préfecture,C01,Blitta,Centrale,87.17,territoire couvert (proxy),False,163272
+préfecture,C02,Mô,Centrale,,non déterminable (A13),False,52448
+préfecture,C03,Sotouboua,Centrale,27.02,zone blanche prioritaire (proxy),False,138864
+préfecture,C04,Tchamba,Centrale,,non déterminable (A13),False,200585
+préfecture,C05,Tchaoudjo,Centrale,90.96,territoire couvert (proxy),False,240360
+préfecture,D01,Assoli,Kara,96.07,territoire couvert (proxy),False,66394
+préfecture,D02,Bassar,Kara,92.9,territoire couvert (proxy),False,152065
+préfecture,D03,Binah,Kara,96.26,territoire couvert (proxy),False,84199
+préfecture,D04,Dankpen,Kara,63.78,couverture partielle (proxy),False,185662
+préfecture,D05,Doufelgou,Kara,93.05,territoire couvert (proxy),False,84767
+préfecture,D06,Kéran,Kara,21.36,zone blanche prioritaire (proxy),False,128687
+préfecture,D07,Kozah,Kara,99.99,territoire couvert (proxy),False,283738
+préfecture,E01,Cinkassé,Savanes,100.0,territoire couvert (proxy),False,128959
+préfecture,E02,Kpendjal,Savanes,,non déterminable (A13),False,88365
+préfecture,E03,Kpendjal-Ouest,Savanes,63.98,couverture partielle (proxy),False,123330
+préfecture,E04,Oti,Savanes,92.8,territoire couvert (proxy),False,124848
+préfecture,E05,Oti-Sud,Savanes,58.59,couverture partielle (proxy),False,150376
+préfecture,E06,Tandjoaré,Savanes,99.82,territoire couvert (proxy),False,138867
+préfecture,E07,Tône,Savanes,98.56,territoire couvert (proxy),False,388775

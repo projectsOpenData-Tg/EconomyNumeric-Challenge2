@@ -1,0 +1,534 @@
+jeu,id_source,variable,type,decision,regle,effet,detail,etape
+AR1,2018T2 p.7,Abonnés de Togo Telecom,valeur corrigée,corrigé,extraction,appel de note retiré (13 5201),2018T2 : 13520.0,05_ar1
+AR1,2018T3 p.7,Abonnés de Togo Telecom,valeur corrigée,corrigé,extraction,appel de note retiré (13 5201),2018T2 : 13520.0,05_ar1
+AR1,2018T4 p.7,Abonnés de Togo Telecom,valeur corrigée,corrigé,extraction,appel de note retiré (13 5201),2018T2 : 13520.0,05_ar1
+AR1,2019T1,ca/total_fixe,total incohérent avec ses opérateurs,écarté pour ce numéro,DD5,la publication cohérente précédente fait foi,"2018T2 : total 17.887, somme des opérateurs 8.898",05_ar1
+AR1,2019T1,ca/total_fixe,total incohérent avec ses opérateurs,écarté pour ce numéro,DD5,la publication cohérente précédente fait foi,"2018T3 : total 25.999, somme des opérateurs 8.519",05_ar1
+AR1,2019T1,ca/total_fixe,total incohérent avec ses opérateurs,écarté pour ce numéro,DD5,la publication cohérente précédente fait foi,"2018T4 : total 34.131, somme des opérateurs 8.559",05_ar1
+AR1,2019T2,ca/total_fixe,total incohérent avec ses opérateurs,écarté pour ce numéro,DD5,la publication cohérente précédente fait foi,"2018T2 : total 17.887, somme des opérateurs 8.898",05_ar1
+AR1,2019T2,ca/total_fixe,total incohérent avec ses opérateurs,écarté pour ce numéro,DD5,la publication cohérente précédente fait foi,"2018T3 : total 25.999, somme des opérateurs 8.519",05_ar1
+AR1,2019T2,ca/total_fixe,total incohérent avec ses opérateurs,écarté pour ce numéro,DD5,la publication cohérente précédente fait foi,"2018T4 : total 34.372, somme des opérateurs 8.559",05_ar1
+AR1,2019T3,ca/total_fixe,total incohérent avec ses opérateurs,écarté pour ce numéro,DD5,la publication cohérente précédente fait foi,"2018T3 : total 25.999, somme des opérateurs 8.519",05_ar1
+AR1,2019T3,ca/total_fixe,total incohérent avec ses opérateurs,écarté pour ce numéro,DD5,la publication cohérente précédente fait foi,"2018T4 : total 34.372, somme des opérateurs 8.559",05_ar1
+AR1,2019T4,ca/total_fixe,total incohérent avec ses opérateurs,écarté pour ce numéro,DD5,la publication cohérente précédente fait foi,"2018T4 : total 34.372, somme des opérateurs 8.8",05_ar1
+AR1,2025T2,ca/total_fixe,total incohérent avec ses opérateurs,écarté pour ce numéro,DD5,la publication cohérente précédente fait foi,"2024T2 : total 12.95, somme des opérateurs 3.229",05_ar1
+AR1,2025T2,ca/total_fixe,total incohérent avec ses opérateurs,écarté pour ce numéro,DD5,la publication cohérente précédente fait foi,"2024T3 : total 13.25, somme des opérateurs 3.406",05_ar1
+AR1,2025T2,ca/total_fixe,total incohérent avec ses opérateurs,écarté pour ce numéro,DD5,la publication cohérente précédente fait foi,"2024T4 : total 14.32, somme des opérateurs 3.505",05_ar1
+AR1,2025T2,ca/total_fixe,total incohérent avec ses opérateurs,écarté pour ce numéro,DD5,la publication cohérente précédente fait foi,"2025T1 : total 13.05, somme des opérateurs 3.592",05_ar1
+AR1,2025T2,ca/total_fixe,total incohérent avec ses opérateurs,écarté pour ce numéro,DD5,la publication cohérente précédente fait foi,"2025T2 : total 9.46, somme des opérateurs 3.646",05_ar1
+AR1,2019T3,abonnes_data_mobile/ensemble/haut_debit,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T1 : 2.71913e+06 (p.5) / 2.71913e+06 (p.15),05_ar1
+AR1,2019T4,abonnes_data_mobile/ensemble/haut_debit,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T1 : 2.71913e+06 (p.5) / 2.71913e+06 (p.15),05_ar1
+AR1,2020T1,abonnes_data_mobile/ensemble/haut_debit,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T1 : 2.71913e+06 (p.5) / 2.71913e+06 (p.14),05_ar1
+AR1,2019T3,abonnes_data_mobile/ensemble/haut_debit,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T2 : 2.97254e+06 (p.5) / 2.97254e+06 (p.15),05_ar1
+AR1,2019T4,abonnes_data_mobile/ensemble/haut_debit,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T2 : 2.97254e+06 (p.5) / 2.97254e+06 (p.15),05_ar1
+AR1,2020T1,abonnes_data_mobile/ensemble/haut_debit,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T2 : 2.97254e+06 (p.5) / 2.97254e+06 (p.14),05_ar1
+AR1,2020T2,abonnes_data_mobile/ensemble/haut_debit,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T2 : 2.97254e+06 (p.5) / 2.97254e+06 (p.14),05_ar1
+AR1,2019T3,abonnes_data_mobile/ensemble/haut_debit,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T3 : 3.19971e+06 (p.5) / 3.19971e+06 (p.15),05_ar1
+AR1,2019T4,abonnes_data_mobile/ensemble/haut_debit,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T3 : 3.19971e+06 (p.5) / 3.19971e+06 (p.15),05_ar1
+AR1,2020T1,abonnes_data_mobile/ensemble/haut_debit,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T3 : 3.19971e+06 (p.5) / 3.19971e+06 (p.14),05_ar1
+AR1,2020T2,abonnes_data_mobile/ensemble/haut_debit,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T3 : 3.19971e+06 (p.5) / 3.19971e+06 (p.14),05_ar1
+AR1,2020T3,abonnes_data_mobile/ensemble/haut_debit,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T3 : 3.19971e+06 (p.5) / 3.19971e+06 (p.15),05_ar1
+AR1,2019T4,abonnes_data_mobile/ensemble/haut_debit,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T4 : 3.32221e+06 (p.5) / 3.32221e+06 (p.15),05_ar1
+AR1,2020T1,abonnes_data_mobile/ensemble/haut_debit,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T4 : 3.32221e+06 (p.5) / 3.32221e+06 (p.14),05_ar1
+AR1,2020T2,abonnes_data_mobile/ensemble/haut_debit,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T4 : 3.32221e+06 (p.5) / 3.32221e+06 (p.14),05_ar1
+AR1,2020T3,abonnes_data_mobile/ensemble/haut_debit,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T4 : 3.32221e+06 (p.5) / 3.32221e+06 (p.15),05_ar1
+AR1,2020T4,abonnes_data_mobile/ensemble/haut_debit,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T4 : 3.32221e+06 (p.5) / 3.32221e+06 (p.15),05_ar1
+AR1,2020T1,abonnes_data_mobile/ensemble/haut_debit,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T1 : 2.49649e+06 (p.5) / 2.49649e+06 (p.14),05_ar1
+AR1,2020T2,abonnes_data_mobile/ensemble/haut_debit,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T1 : 2.49649e+06 (p.5) / 2.49649e+06 (p.14),05_ar1
+AR1,2020T3,abonnes_data_mobile/ensemble/haut_debit,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T1 : 2.49649e+06 (p.5) / 2.49649e+06 (p.15),05_ar1
+AR1,2020T4,abonnes_data_mobile/ensemble/haut_debit,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T1 : 2.49649e+06 (p.5) / 2.49649e+06 (p.15),05_ar1
+AR1,2021T1,abonnes_data_mobile/ensemble/haut_debit,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T1 : 2.49649e+06 (p.5) / 2.49649e+06 (p.14),05_ar1
+AR1,2020T2,abonnes_data_mobile/ensemble/haut_debit,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T2 : 2.66399e+06 (p.5) / 2.66399e+06 (p.14),05_ar1
+AR1,2020T3,abonnes_data_mobile/ensemble/haut_debit,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T2 : 2.66399e+06 (p.5) / 2.66399e+06 (p.15),05_ar1
+AR1,2020T4,abonnes_data_mobile/ensemble/haut_debit,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T2 : 2.66399e+06 (p.5) / 2.66399e+06 (p.15),05_ar1
+AR1,2021T1,abonnes_data_mobile/ensemble/haut_debit,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T2 : 2.66399e+06 (p.5) / 2.66399e+06 (p.14),05_ar1
+AR1,2021T2,abonnes_data_mobile/ensemble/haut_debit,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T2 : 2.66399e+06 (p.5) / 2.66399e+06 (p.13),05_ar1
+AR1,2020T3,abonnes_data_mobile/ensemble/haut_debit,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T3 : 2.79314e+06 (p.5) / 2.79314e+06 (p.15),05_ar1
+AR1,2020T4,abonnes_data_mobile/ensemble/haut_debit,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T3 : 2.79314e+06 (p.5) / 2.79314e+06 (p.15),05_ar1
+AR1,2021T1,abonnes_data_mobile/ensemble/haut_debit,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T3 : 2.79314e+06 (p.5) / 2.79314e+06 (p.14),05_ar1
+AR1,2021T2,abonnes_data_mobile/ensemble/haut_debit,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T3 : 2.79314e+06 (p.5) / 2.79314e+06 (p.13),05_ar1
+AR1,2021T3,abonnes_data_mobile/ensemble/haut_debit,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T3 : 2.79314e+06 (p.5) / 2.79314e+06 (p.13),05_ar1
+AR1,2020T4,abonnes_data_mobile/ensemble/haut_debit,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T4 : 3.07941e+06 (p.5) / 3.07941e+06 (p.15),05_ar1
+AR1,2021T1,abonnes_data_mobile/ensemble/haut_debit,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T4 : 3.07941e+06 (p.5) / 3.07941e+06 (p.14),05_ar1
+AR1,2021T2,abonnes_data_mobile/ensemble/haut_debit,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T4 : 3.07941e+06 (p.5) / 3.07941e+06 (p.13),05_ar1
+AR1,2021T3,abonnes_data_mobile/ensemble/haut_debit,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T4 : 3.07941e+06 (p.5) / 3.07941e+06 (p.13),05_ar1
+AR1,2021T1,abonnes_data_mobile/ensemble/haut_debit,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T1 : 2.82734e+06 (p.5) / 2.82734e+06 (p.14),05_ar1
+AR1,2021T2,abonnes_data_mobile/ensemble/haut_debit,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T1 : 2.82734e+06 (p.5) / 2.82734e+06 (p.13),05_ar1
+AR1,2021T3,abonnes_data_mobile/ensemble/haut_debit,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T1 : 2.82734e+06 (p.5) / 2.82734e+06 (p.13),05_ar1
+AR1,2021T2,abonnes_data_mobile/ensemble/haut_debit,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T2 : 2.75413e+06 (p.5) / 2.75413e+06 (p.13),05_ar1
+AR1,2021T3,abonnes_data_mobile/ensemble/haut_debit,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T2 : 2.75413e+06 (p.5) / 2.75413e+06 (p.13),05_ar1
+AR1,2021T3,abonnes_data_mobile/ensemble/haut_debit,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T3 : 3.02516e+06 (p.5) / 3.02516e+06 (p.13),05_ar1
+AR1,2019T3,abonnes_internet_fixe/cafe/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T1 : 5621 (p.7) / 5621 (p.13),05_ar1
+AR1,2019T4,abonnes_internet_fixe/cafe/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T1 : 5621 (p.6) / 5621 (p.12),05_ar1
+AR1,2020T1,abonnes_internet_fixe/cafe/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T1 : 5621 (p.6) / 5621 (p.12),05_ar1
+AR1,2019T3,abonnes_internet_fixe/cafe/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T2 : 5695 (p.7) / 5695 (p.13),05_ar1
+AR1,2019T4,abonnes_internet_fixe/cafe/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T2 : 5695 (p.6) / 5695 (p.12),05_ar1
+AR1,2020T1,abonnes_internet_fixe/cafe/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T2 : 5695 (p.6) / 5695 (p.12),05_ar1
+AR1,2020T2,abonnes_internet_fixe/cafe/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T2 : 5695 (p.6) / 5695 (p.12),05_ar1
+AR1,2019T3,abonnes_internet_fixe/cafe/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T3 : 5363 (p.7) / 5363 (p.13),05_ar1
+AR1,2019T4,abonnes_internet_fixe/cafe/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T3 : 5363 (p.6) / 5363 (p.12),05_ar1
+AR1,2020T1,abonnes_internet_fixe/cafe/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T3 : 5363 (p.6) / 5363 (p.12),05_ar1
+AR1,2020T2,abonnes_internet_fixe/cafe/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T3 : 5363 (p.6) / 5363 (p.12),05_ar1
+AR1,2020T3,abonnes_internet_fixe/cafe/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T3 : 5363 (p.6) / 5363 (p.12),05_ar1
+AR1,2019T4,abonnes_internet_fixe/cafe/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T4 : 2334 (p.6) / 2334 (p.12),05_ar1
+AR1,2020T1,abonnes_internet_fixe/cafe/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T4 : 2334 (p.6) / 2334 (p.12),05_ar1
+AR1,2020T2,abonnes_internet_fixe/cafe/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T4 : 2334 (p.6) / 2334 (p.12),05_ar1
+AR1,2020T3,abonnes_internet_fixe/cafe/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T4 : 2334 (p.6) / 2334 (p.12),05_ar1
+AR1,2020T4,abonnes_internet_fixe/cafe/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T4 : 2334 (p.6) / 2334 (p.12),05_ar1
+AR1,2020T1,abonnes_internet_fixe/cafe/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T1 : 2168 (p.6) / 2168 (p.12),05_ar1
+AR1,2020T2,abonnes_internet_fixe/cafe/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T1 : 2168 (p.6) / 2168 (p.12),05_ar1
+AR1,2020T3,abonnes_internet_fixe/cafe/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T1 : 2168 (p.6) / 2168 (p.12),05_ar1
+AR1,2020T4,abonnes_internet_fixe/cafe/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T1 : 2168 (p.6) / 2168 (p.12),05_ar1
+AR1,2021T1,abonnes_internet_fixe/cafe/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T1 : 2168 (p.6) / 2168 (p.12),05_ar1
+AR1,2020T2,abonnes_internet_fixe/cafe/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T2 : 1838 (p.6) / 1838 (p.12),05_ar1
+AR1,2020T3,abonnes_internet_fixe/cafe/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T2 : 1838 (p.6) / 1838 (p.12),05_ar1
+AR1,2020T4,abonnes_internet_fixe/cafe/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T2 : 1838 (p.6) / 1838 (p.12),05_ar1
+AR1,2021T1,abonnes_internet_fixe/cafe/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T2 : 1838 (p.6) / 1838 (p.12),05_ar1
+AR1,2021T2,abonnes_internet_fixe/cafe/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T2 : 1838 (p.6) / 1838 (p.12),05_ar1
+AR1,2020T3,abonnes_internet_fixe/cafe/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T3 : 1856 (p.6) / 1856 (p.12),05_ar1
+AR1,2020T4,abonnes_internet_fixe/cafe/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T3 : 1856 (p.6) / 1856 (p.12),05_ar1
+AR1,2021T1,abonnes_internet_fixe/cafe/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T3 : 1856 (p.6) / 1856 (p.12),05_ar1
+AR1,2021T2,abonnes_internet_fixe/cafe/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T3 : 1856 (p.6) / 1856 (p.12),05_ar1
+AR1,2021T3,abonnes_internet_fixe/cafe/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T3 : 1856 (p.6) / 1856 (p.12),05_ar1
+AR1,2020T4,abonnes_internet_fixe/cafe/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T4 : 1768 (p.6) / 1768 (p.12),05_ar1
+AR1,2021T1,abonnes_internet_fixe/cafe/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T4 : 1768 (p.6) / 1768 (p.12),05_ar1
+AR1,2021T2,abonnes_internet_fixe/cafe/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T4 : 1768 (p.6) / 1768 (p.12),05_ar1
+AR1,2021T3,abonnes_internet_fixe/cafe/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T4 : 1768 (p.6) / 1768 (p.12),05_ar1
+AR1,2021T4,abonnes_internet_fixe/cafe/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T4 : 1768 (p.7) / 1768 (p.15),05_ar1
+AR1,2021T1,abonnes_internet_fixe/cafe/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T1 : 1936 (p.6) / 1936 (p.12),05_ar1
+AR1,2021T2,abonnes_internet_fixe/cafe/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T1 : 1936 (p.6) / 1936 (p.12),05_ar1
+AR1,2021T3,abonnes_internet_fixe/cafe/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T1 : 1936 (p.6) / 1936 (p.12),05_ar1
+AR1,2021T4,abonnes_internet_fixe/cafe/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T1 : 1936 (p.7) / 1936 (p.15),05_ar1
+AR1,2021T2,abonnes_internet_fixe/cafe/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T2 : 2091 (p.6) / 2091 (p.12),05_ar1
+AR1,2021T3,abonnes_internet_fixe/cafe/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T2 : 2091 (p.6) / 2091 (p.12),05_ar1
+AR1,2021T4,abonnes_internet_fixe/cafe/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T2 : 2091 (p.7) / 2091 (p.15),05_ar1
+AR1,2021T3,abonnes_internet_fixe/cafe/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T3 : 2026 (p.6) / 2026 (p.12),05_ar1
+AR1,2021T4,abonnes_internet_fixe/cafe/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T3 : 2026 (p.7) / 2026 (p.15),05_ar1
+AR1,2021T4,abonnes_internet_fixe/cafe/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T4 : 1921 (p.7) / 1921 (p.15),05_ar1
+AR1,2019T3,abonnes_internet_fixe/ensemble/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T1 : 29327 (p.7) / 29327 (p.13),05_ar1
+AR1,2019T4,abonnes_internet_fixe/ensemble/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T1 : 29327 (p.6) / 29327 (p.12),05_ar1
+AR1,2020T1,abonnes_internet_fixe/ensemble/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T1 : 29327 (p.6) / 29327 (p.12),05_ar1
+AR1,2019T3,abonnes_internet_fixe/ensemble/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T2 : 28101 (p.7) / 28101 (p.13),05_ar1
+AR1,2019T4,abonnes_internet_fixe/ensemble/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T2 : 28101 (p.6) / 28101 (p.12),05_ar1
+AR1,2020T1,abonnes_internet_fixe/ensemble/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T2 : 28101 (p.6) / 28101 (p.12),05_ar1
+AR1,2020T2,abonnes_internet_fixe/ensemble/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T2 : 28101 (p.6) / 28101 (p.12),05_ar1
+AR1,2019T3,abonnes_internet_fixe/ensemble/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T3 : 31052 (p.7) / 31052 (p.13),05_ar1
+AR1,2019T4,abonnes_internet_fixe/ensemble/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T3 : 31052 (p.6) / 31052 (p.12),05_ar1
+AR1,2020T1,abonnes_internet_fixe/ensemble/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T3 : 31052 (p.6) / 31052 (p.12),05_ar1
+AR1,2020T2,abonnes_internet_fixe/ensemble/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T3 : 31052 (p.6) / 31052 (p.12),05_ar1
+AR1,2020T3,abonnes_internet_fixe/ensemble/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T3 : 31052 (p.6) / 31052 (p.12),05_ar1
+AR1,2019T4,abonnes_internet_fixe/ensemble/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T4 : 31899 (p.6) / 31899 (p.12),05_ar1
+AR1,2020T1,abonnes_internet_fixe/ensemble/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T4 : 31899 (p.6) / 31899 (p.12),05_ar1
+AR1,2020T2,abonnes_internet_fixe/ensemble/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T4 : 31899 (p.6) / 31899 (p.12),05_ar1
+AR1,2020T3,abonnes_internet_fixe/ensemble/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T4 : 31899 (p.6) / 31899 (p.12),05_ar1
+AR1,2020T4,abonnes_internet_fixe/ensemble/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T4 : 31899 (p.6) / 31899 (p.12),05_ar1
+AR1,2020T1,abonnes_internet_fixe/ensemble/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T1 : 36724 (p.6) / 36724 (p.12),05_ar1
+AR1,2020T2,abonnes_internet_fixe/ensemble/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T1 : 33671 (p.6) / 33671 (p.12),05_ar1
+AR1,2020T3,abonnes_internet_fixe/ensemble/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T1 : 36724 (p.6) / 36724 (p.12),05_ar1
+AR1,2020T4,abonnes_internet_fixe/ensemble/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T1 : 36724 (p.6) / 36724 (p.12),05_ar1
+AR1,2021T1,abonnes_internet_fixe/ensemble/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T1 : 36724 (p.6) / 36724 (p.12),05_ar1
+AR1,2020T2,abonnes_internet_fixe/ensemble/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T2 : 41776 (p.6) / 41776 (p.12),05_ar1
+AR1,2020T3,abonnes_internet_fixe/ensemble/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T2 : 41776 (p.6) / 41776 (p.12),05_ar1
+AR1,2020T4,abonnes_internet_fixe/ensemble/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T2 : 41776 (p.6) / 41776 (p.12),05_ar1
+AR1,2021T1,abonnes_internet_fixe/ensemble/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T2 : 41776 (p.6) / 41776 (p.12),05_ar1
+AR1,2021T2,abonnes_internet_fixe/ensemble/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T2 : 41776 (p.6) / 41776 (p.12),05_ar1
+AR1,2020T3,abonnes_internet_fixe/ensemble/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T3 : 47543 (p.6) / 47543 (p.12),05_ar1
+AR1,2020T4,abonnes_internet_fixe/ensemble/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T3 : 47543 (p.6) / 47543 (p.12),05_ar1
+AR1,2021T1,abonnes_internet_fixe/ensemble/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T3 : 47543 (p.6) / 47543 (p.12),05_ar1
+AR1,2021T2,abonnes_internet_fixe/ensemble/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T3 : 47543 (p.6) / 47543 (p.12),05_ar1
+AR1,2021T3,abonnes_internet_fixe/ensemble/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T3 : 47543 (p.6) / 47543 (p.12),05_ar1
+AR1,2020T4,abonnes_internet_fixe/ensemble/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T4 : 52707 (p.6) / 52707 (p.12),05_ar1
+AR1,2021T1,abonnes_internet_fixe/ensemble/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T4 : 52707 (p.6) / 52707 (p.12),05_ar1
+AR1,2021T2,abonnes_internet_fixe/ensemble/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T4 : 52707 (p.6) / 52707 (p.12),05_ar1
+AR1,2021T3,abonnes_internet_fixe/ensemble/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T4 : 52707 (p.6) / 52707 (p.12),05_ar1
+AR1,2021T4,abonnes_internet_fixe/ensemble/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T4 : 52707 (p.7) / 52707 (p.15),05_ar1
+AR1,2021T1,abonnes_internet_fixe/ensemble/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T1 : 64074 (p.6) / 64074 (p.12),05_ar1
+AR1,2021T2,abonnes_internet_fixe/ensemble/total,conflit entre deux tableaux du même numéro,première occurrence gardée (ordre des pages),DD5,écart 3.7 %,2021T1 : 64074 (p.6) / 61689 (p.12),05_ar1
+AR1,2021T3,abonnes_internet_fixe/ensemble/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T1 : 61689 (p.6) / 61689 (p.12),05_ar1
+AR1,2021T4,abonnes_internet_fixe/ensemble/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T1 : 64074 (p.7) / 64074 (p.15),05_ar1
+AR1,2021T2,abonnes_internet_fixe/ensemble/total,doublon de lecture (arrondi),première occurrence gardée (ordre des pages),DD5,aucun,2021T2 : 54083 (p.6) / 54091 (p.12),05_ar1
+AR1,2021T3,abonnes_internet_fixe/ensemble/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T2 : 54091 (p.6) / 54091 (p.12),05_ar1
+AR1,2021T4,abonnes_internet_fixe/ensemble/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T2 : 54083 (p.7) / 54083 (p.15),05_ar1
+AR1,2021T3,abonnes_internet_fixe/ensemble/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T3 : 59863 (p.6) / 59863 (p.12),05_ar1
+AR1,2021T4,abonnes_internet_fixe/ensemble/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T3 : 59863 (p.7) / 59863 (p.15),05_ar1
+AR1,2021T4,abonnes_internet_fixe/ensemble/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T4 : 69384 (p.7) / 69384 (p.15),05_ar1
+AR1,2019T3,abonnes_internet_fixe/gva/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T1 : 1680 (p.7) / 1680 (p.13),05_ar1
+AR1,2019T4,abonnes_internet_fixe/gva/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T1 : 1680 (p.6) / 1680 (p.12),05_ar1
+AR1,2020T1,abonnes_internet_fixe/gva/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T1 : 1680 (p.6) / 1680 (p.12),05_ar1
+AR1,2019T3,abonnes_internet_fixe/gva/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T2 : 2100 (p.7) / 2100 (p.13),05_ar1
+AR1,2019T4,abonnes_internet_fixe/gva/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T2 : 2100 (p.6) / 2100 (p.12),05_ar1
+AR1,2020T1,abonnes_internet_fixe/gva/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T2 : 2100 (p.6) / 2100 (p.12),05_ar1
+AR1,2020T2,abonnes_internet_fixe/gva/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T2 : 2100 (p.6) / 2100 (p.12),05_ar1
+AR1,2019T3,abonnes_internet_fixe/gva/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T3 : 3928 (p.7) / 3928 (p.13),05_ar1
+AR1,2019T4,abonnes_internet_fixe/gva/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T3 : 3928 (p.6) / 3928 (p.12),05_ar1
+AR1,2020T1,abonnes_internet_fixe/gva/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T3 : 3928 (p.6) / 3928 (p.12),05_ar1
+AR1,2020T2,abonnes_internet_fixe/gva/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T3 : 3928 (p.6) / 3928 (p.12),05_ar1
+AR1,2020T3,abonnes_internet_fixe/gva/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T3 : 3928 (p.6) / 3928 (p.12),05_ar1
+AR1,2019T4,abonnes_internet_fixe/gva/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T4 : 5945 (p.6) / 5945 (p.12),05_ar1
+AR1,2020T1,abonnes_internet_fixe/gva/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T4 : 5945 (p.6) / 5945 (p.12),05_ar1
+AR1,2020T2,abonnes_internet_fixe/gva/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T4 : 5945 (p.6) / 5945 (p.12),05_ar1
+AR1,2020T3,abonnes_internet_fixe/gva/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T4 : 5945 (p.6) / 5945 (p.12),05_ar1
+AR1,2020T4,abonnes_internet_fixe/gva/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T4 : 5945 (p.6) / 5945 (p.12),05_ar1
+AR1,2020T1,abonnes_internet_fixe/gva/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T1 : 8998 (p.6) / 8998 (p.12),05_ar1
+AR1,2020T2,abonnes_internet_fixe/gva/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T1 : 8998 (p.6) / 8998 (p.12),05_ar1
+AR1,2020T3,abonnes_internet_fixe/gva/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T1 : 8998 (p.6) / 8998 (p.12),05_ar1
+AR1,2020T4,abonnes_internet_fixe/gva/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T1 : 8998 (p.6) / 8998 (p.12),05_ar1
+AR1,2021T1,abonnes_internet_fixe/gva/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T1 : 8998 (p.6) / 8998 (p.12),05_ar1
+AR1,2020T2,abonnes_internet_fixe/gva/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T2 : 12390 (p.6) / 12390 (p.12),05_ar1
+AR1,2020T3,abonnes_internet_fixe/gva/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T2 : 12390 (p.6) / 12390 (p.12),05_ar1
+AR1,2020T4,abonnes_internet_fixe/gva/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T2 : 12390 (p.6) / 12390 (p.12),05_ar1
+AR1,2021T1,abonnes_internet_fixe/gva/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T2 : 12390 (p.6) / 12390 (p.12),05_ar1
+AR1,2021T2,abonnes_internet_fixe/gva/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T2 : 12390 (p.6) / 12390 (p.12),05_ar1
+AR1,2020T3,abonnes_internet_fixe/gva/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T3 : 14918 (p.6) / 14918 (p.12),05_ar1
+AR1,2020T4,abonnes_internet_fixe/gva/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T3 : 14918 (p.6) / 14918 (p.12),05_ar1
+AR1,2021T1,abonnes_internet_fixe/gva/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T3 : 14918 (p.6) / 14918 (p.12),05_ar1
+AR1,2021T2,abonnes_internet_fixe/gva/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T3 : 14918 (p.6) / 14918 (p.12),05_ar1
+AR1,2021T3,abonnes_internet_fixe/gva/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T3 : 14918 (p.6) / 14918 (p.12),05_ar1
+AR1,2020T4,abonnes_internet_fixe/gva/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T4 : 18270 (p.6) / 18270 (p.12),05_ar1
+AR1,2021T1,abonnes_internet_fixe/gva/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T4 : 18270 (p.6) / 18270 (p.12),05_ar1
+AR1,2021T2,abonnes_internet_fixe/gva/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T4 : 18270 (p.6) / 18270 (p.12),05_ar1
+AR1,2021T3,abonnes_internet_fixe/gva/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T4 : 18270 (p.6) / 18270 (p.12),05_ar1
+AR1,2021T4,abonnes_internet_fixe/gva/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T4 : 18270 (p.7) / 18270 (p.15),05_ar1
+AR1,2021T1,abonnes_internet_fixe/gva/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T1 : 25588 (p.6) / 25588 (p.12),05_ar1
+AR1,2021T2,abonnes_internet_fixe/gva/total,conflit entre deux tableaux du même numéro,première occurrence gardée (ordre des pages),DD5,écart 9.3 %,2021T1 : 25588 (p.6) / 23203 (p.12),05_ar1
+AR1,2021T3,abonnes_internet_fixe/gva/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T1 : 23203 (p.6) / 23203 (p.12),05_ar1
+AR1,2021T4,abonnes_internet_fixe/gva/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T1 : 25588 (p.7) / 25588 (p.15),05_ar1
+AR1,2021T2,abonnes_internet_fixe/gva/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T2 : 25588 (p.6) / 25588 (p.12),05_ar1
+AR1,2021T3,abonnes_internet_fixe/gva/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T2 : 25588 (p.6) / 25588 (p.12),05_ar1
+AR1,2021T4,abonnes_internet_fixe/gva/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T2 : 25588 (p.7) / 25588 (p.15),05_ar1
+AR1,2021T3,abonnes_internet_fixe/gva/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T3 : 29433 (p.6) / 29433 (p.12),05_ar1
+AR1,2021T4,abonnes_internet_fixe/gva/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T3 : 29433 (p.7) / 29433 (p.15),05_ar1
+AR1,2021T4,abonnes_internet_fixe/gva/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T4 : 36050 (p.7) / 36050 (p.15),05_ar1
+AR1,2019T3,abonnes_internet_fixe/teolis/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T1 : 36 (p.7) / 36 (p.13),05_ar1
+AR1,2019T4,abonnes_internet_fixe/teolis/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T1 : 36 (p.6) / 36 (p.12),05_ar1
+AR1,2020T1,abonnes_internet_fixe/teolis/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T1 : 36 (p.6) / 36 (p.12),05_ar1
+AR1,2019T3,abonnes_internet_fixe/teolis/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T2 : 68 (p.7) / 68 (p.13),05_ar1
+AR1,2019T4,abonnes_internet_fixe/teolis/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T2 : 68 (p.6) / 68 (p.12),05_ar1
+AR1,2020T1,abonnes_internet_fixe/teolis/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T2 : 68 (p.6) / 68 (p.12),05_ar1
+AR1,2020T2,abonnes_internet_fixe/teolis/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T2 : 68 (p.6) / 68 (p.12),05_ar1
+AR1,2019T3,abonnes_internet_fixe/teolis/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T3 : 134 (p.7) / 134 (p.13),05_ar1
+AR1,2019T4,abonnes_internet_fixe/teolis/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T3 : 134 (p.6) / 134 (p.12),05_ar1
+AR1,2020T1,abonnes_internet_fixe/teolis/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T3 : 134 (p.6) / 134 (p.12),05_ar1
+AR1,2020T2,abonnes_internet_fixe/teolis/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T3 : 134 (p.6) / 134 (p.12),05_ar1
+AR1,2020T3,abonnes_internet_fixe/teolis/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T3 : 134 (p.6) / 134 (p.12),05_ar1
+AR1,2019T4,abonnes_internet_fixe/teolis/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T4 : 154 (p.6) / 154 (p.12),05_ar1
+AR1,2020T1,abonnes_internet_fixe/teolis/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T4 : 154 (p.6) / 154 (p.12),05_ar1
+AR1,2020T2,abonnes_internet_fixe/teolis/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T4 : 154 (p.6) / 154 (p.12),05_ar1
+AR1,2020T3,abonnes_internet_fixe/teolis/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T4 : 154 (p.6) / 154 (p.12),05_ar1
+AR1,2020T4,abonnes_internet_fixe/teolis/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T4 : 154 (p.6) / 154 (p.12),05_ar1
+AR1,2020T1,abonnes_internet_fixe/teolis/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T1 : 169 (p.6) / 169 (p.12),05_ar1
+AR1,2020T2,abonnes_internet_fixe/teolis/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T1 : 169 (p.6) / 169 (p.12),05_ar1
+AR1,2020T3,abonnes_internet_fixe/teolis/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T1 : 169 (p.6) / 169 (p.12),05_ar1
+AR1,2020T4,abonnes_internet_fixe/teolis/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T1 : 169 (p.6) / 169 (p.12),05_ar1
+AR1,2021T1,abonnes_internet_fixe/teolis/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T1 : 169 (p.6) / 169 (p.12),05_ar1
+AR1,2020T2,abonnes_internet_fixe/teolis/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T2 : 203 (p.6) / 203 (p.12),05_ar1
+AR1,2020T3,abonnes_internet_fixe/teolis/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T2 : 203 (p.6) / 203 (p.12),05_ar1
+AR1,2020T4,abonnes_internet_fixe/teolis/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T2 : 203 (p.6) / 203 (p.12),05_ar1
+AR1,2021T1,abonnes_internet_fixe/teolis/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T2 : 203 (p.6) / 203 (p.12),05_ar1
+AR1,2021T2,abonnes_internet_fixe/teolis/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T2 : 203 (p.6) / 203 (p.12),05_ar1
+AR1,2020T3,abonnes_internet_fixe/teolis/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T3 : 228 (p.6) / 228 (p.12),05_ar1
+AR1,2020T4,abonnes_internet_fixe/teolis/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T3 : 228 (p.6) / 228 (p.12),05_ar1
+AR1,2021T1,abonnes_internet_fixe/teolis/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T3 : 228 (p.6) / 228 (p.12),05_ar1
+AR1,2021T2,abonnes_internet_fixe/teolis/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T3 : 228 (p.6) / 228 (p.12),05_ar1
+AR1,2021T3,abonnes_internet_fixe/teolis/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T3 : 228 (p.6) / 228 (p.12),05_ar1
+AR1,2020T4,abonnes_internet_fixe/teolis/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T4 : 254 (p.6) / 254 (p.12),05_ar1
+AR1,2021T1,abonnes_internet_fixe/teolis/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T4 : 254 (p.6) / 254 (p.12),05_ar1
+AR1,2021T2,abonnes_internet_fixe/teolis/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T4 : 254 (p.6) / 254 (p.12),05_ar1
+AR1,2021T3,abonnes_internet_fixe/teolis/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T4 : 254 (p.6) / 254 (p.12),05_ar1
+AR1,2021T4,abonnes_internet_fixe/teolis/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T4 : 254 (p.7) / 254 (p.15),05_ar1
+AR1,2021T1,abonnes_internet_fixe/teolis/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T1 : 250 (p.6) / 250 (p.12),05_ar1
+AR1,2021T2,abonnes_internet_fixe/teolis/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T1 : 250 (p.6) / 250 (p.12),05_ar1
+AR1,2021T3,abonnes_internet_fixe/teolis/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T1 : 250 (p.6) / 250 (p.12),05_ar1
+AR1,2021T4,abonnes_internet_fixe/teolis/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T1 : 250 (p.7) / 250 (p.15),05_ar1
+AR1,2021T2,abonnes_internet_fixe/teolis/total,conflit entre deux tableaux du même numéro,première occurrence gardée (ordre des pages),DD5,écart 3.1 %,2021T2 : 250 (p.6) / 258 (p.12),05_ar1
+AR1,2021T3,abonnes_internet_fixe/teolis/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T2 : 258 (p.6) / 258 (p.12),05_ar1
+AR1,2021T4,abonnes_internet_fixe/teolis/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T2 : 250 (p.7) / 250 (p.15),05_ar1
+AR1,2021T3,abonnes_internet_fixe/teolis/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T3 : 275 (p.6) / 275 (p.12),05_ar1
+AR1,2021T4,abonnes_internet_fixe/teolis/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T3 : 275 (p.7) / 275 (p.15),05_ar1
+AR1,2021T4,abonnes_internet_fixe/teolis/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T4 : 510 (p.7) / 510 (p.15),05_ar1
+AR1,2019T3,abonnes_internet_fixe/togo_telecom/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T1 : 21990 (p.7) / 21990 (p.13),05_ar1
+AR1,2019T4,abonnes_internet_fixe/togo_telecom/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T1 : 21990 (p.6) / 21990 (p.12),05_ar1
+AR1,2020T1,abonnes_internet_fixe/togo_telecom/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T1 : 21990 (p.6) / 21990 (p.12),05_ar1
+AR1,2019T3,abonnes_internet_fixe/togo_telecom/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T2 : 20238 (p.7) / 20238 (p.13),05_ar1
+AR1,2019T4,abonnes_internet_fixe/togo_telecom/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T2 : 20238 (p.6) / 20238 (p.12),05_ar1
+AR1,2020T1,abonnes_internet_fixe/togo_telecom/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T2 : 20238 (p.6) / 20238 (p.12),05_ar1
+AR1,2020T2,abonnes_internet_fixe/togo_telecom/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T2 : 20238 (p.6) / 20238 (p.12),05_ar1
+AR1,2019T3,abonnes_internet_fixe/togo_telecom/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T3 : 21627 (p.7) / 21627 (p.13),05_ar1
+AR1,2019T4,abonnes_internet_fixe/togo_telecom/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T3 : 21627 (p.6) / 21627 (p.12),05_ar1
+AR1,2020T1,abonnes_internet_fixe/togo_telecom/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T3 : 21627 (p.6) / 21627 (p.12),05_ar1
+AR1,2020T2,abonnes_internet_fixe/togo_telecom/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T3 : 21627 (p.6) / 21627 (p.12),05_ar1
+AR1,2020T3,abonnes_internet_fixe/togo_telecom/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T3 : 21627 (p.6) / 21627 (p.12),05_ar1
+AR1,2019T4,abonnes_internet_fixe/togo_telecom/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T4 : 23466 (p.6) / 23466 (p.12),05_ar1
+AR1,2020T1,abonnes_internet_fixe/togo_telecom/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T4 : 23466 (p.6) / 23466 (p.12),05_ar1
+AR1,2020T2,abonnes_internet_fixe/togo_telecom/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T4 : 23466 (p.6) / 23466 (p.12),05_ar1
+AR1,2020T3,abonnes_internet_fixe/togo_telecom/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T4 : 23466 (p.6) / 23466 (p.12),05_ar1
+AR1,2020T4,abonnes_internet_fixe/togo_telecom/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T4 : 23466 (p.6) / 23466 (p.12),05_ar1
+AR1,2020T1,abonnes_internet_fixe/togo_telecom/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T1 : 25389 (p.6) / 25389 (p.12),05_ar1
+AR1,2020T2,abonnes_internet_fixe/togo_telecom/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T1 : 25389 (p.6) / 25389 (p.12),05_ar1
+AR1,2020T3,abonnes_internet_fixe/togo_telecom/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T1 : 25389 (p.6) / 25389 (p.12),05_ar1
+AR1,2020T4,abonnes_internet_fixe/togo_telecom/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T1 : 25389 (p.6) / 25389 (p.12),05_ar1
+AR1,2021T1,abonnes_internet_fixe/togo_telecom/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T1 : 25389 (p.6) / 25389 (p.12),05_ar1
+AR1,2020T2,abonnes_internet_fixe/togo_telecom/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T2 : 27345 (p.6) / 27345 (p.12),05_ar1
+AR1,2020T3,abonnes_internet_fixe/togo_telecom/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T2 : 27345 (p.6) / 27345 (p.12),05_ar1
+AR1,2020T4,abonnes_internet_fixe/togo_telecom/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T2 : 27345 (p.6) / 27345 (p.12),05_ar1
+AR1,2021T1,abonnes_internet_fixe/togo_telecom/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T2 : 27345 (p.6) / 27345 (p.12),05_ar1
+AR1,2021T2,abonnes_internet_fixe/togo_telecom/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T2 : 27345 (p.6) / 27345 (p.12),05_ar1
+AR1,2020T3,abonnes_internet_fixe/togo_telecom/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T3 : 30541 (p.6) / 30541 (p.12),05_ar1
+AR1,2020T4,abonnes_internet_fixe/togo_telecom/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T3 : 30541 (p.6) / 30541 (p.12),05_ar1
+AR1,2021T1,abonnes_internet_fixe/togo_telecom/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T3 : 30541 (p.6) / 30541 (p.12),05_ar1
+AR1,2021T2,abonnes_internet_fixe/togo_telecom/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T3 : 30541 (p.6) / 30541 (p.12),05_ar1
+AR1,2021T3,abonnes_internet_fixe/togo_telecom/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T3 : 30541 (p.6) / 30541 (p.12),05_ar1
+AR1,2020T4,abonnes_internet_fixe/togo_telecom/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T4 : 32415 (p.6) / 32415 (p.12),05_ar1
+AR1,2021T1,abonnes_internet_fixe/togo_telecom/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T4 : 32415 (p.6) / 32415 (p.12),05_ar1
+AR1,2021T2,abonnes_internet_fixe/togo_telecom/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T4 : 32415 (p.6) / 32415 (p.12),05_ar1
+AR1,2021T3,abonnes_internet_fixe/togo_telecom/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T4 : 32415 (p.6) / 32415 (p.12),05_ar1
+AR1,2021T4,abonnes_internet_fixe/togo_telecom/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T4 : 32415 (p.7) / 32415 (p.15),05_ar1
+AR1,2021T1,abonnes_internet_fixe/togo_telecom/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T1 : 36300 (p.6) / 36300 (p.12),05_ar1
+AR1,2021T2,abonnes_internet_fixe/togo_telecom/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T1 : 36300 (p.6) / 36300 (p.12),05_ar1
+AR1,2021T3,abonnes_internet_fixe/togo_telecom/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T1 : 36300 (p.6) / 36300 (p.12),05_ar1
+AR1,2021T4,abonnes_internet_fixe/togo_telecom/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T1 : 36300 (p.7) / 36300 (p.15),05_ar1
+AR1,2021T2,abonnes_internet_fixe/togo_telecom/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T2 : 26154 (p.6) / 26154 (p.12),05_ar1
+AR1,2021T3,abonnes_internet_fixe/togo_telecom/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T2 : 26154 (p.6) / 26154 (p.12),05_ar1
+AR1,2021T4,abonnes_internet_fixe/togo_telecom/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T2 : 26154 (p.7) / 26154 (p.15),05_ar1
+AR1,2021T3,abonnes_internet_fixe/togo_telecom/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T3 : 28129 (p.6) / 28129 (p.12),05_ar1
+AR1,2021T4,abonnes_internet_fixe/togo_telecom/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T3 : 28129 (p.7) / 28129 (p.15),05_ar1
+AR1,2021T4,abonnes_internet_fixe/togo_telecom/total,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T4 : 30903 (p.7) / 30903 (p.15),05_ar1
+AR1,2019T3,ca/moov/,doublon de lecture (arrondi),première occurrence gardée (ordre des pages),DD5,aucun,2019T1 : 15.349 (p.12) / 15.3492 (p.16),05_ar1
+AR1,2019T4,ca/moov/,doublon de lecture (arrondi),première occurrence gardée (ordre des pages),DD5,aucun,2019T1 : 15.349 (p.11) / 15.3492 (p.15),05_ar1
+AR1,2020T1,ca/moov/,doublon de lecture (arrondi),première occurrence gardée (ordre des pages),DD5,aucun,2019T1 : 15.349 (p.10) / 15.3492 (p.14),05_ar1
+AR1,2019T3,ca/moov/,doublon de lecture (arrondi),première occurrence gardée (ordre des pages),DD5,aucun,2019T2 : 14.488 (p.12) / 14.4879 (p.16),05_ar1
+AR1,2019T4,ca/moov/,doublon de lecture (arrondi),première occurrence gardée (ordre des pages),DD5,aucun,2019T2 : 14.488 (p.11) / 14.4879 (p.15),05_ar1
+AR1,2020T1,ca/moov/,doublon de lecture (arrondi),première occurrence gardée (ordre des pages),DD5,aucun,2019T2 : 14.488 (p.10) / 14.4879 (p.14),05_ar1
+AR1,2020T2,ca/moov/,doublon de lecture (arrondi),première occurrence gardée (ordre des pages),DD5,aucun,2019T2 : 14.488 (p.11) / 14.4879 (p.15),05_ar1
+AR1,2019T3,ca/moov/,doublon de lecture (arrondi),première occurrence gardée (ordre des pages),DD5,aucun,2019T3 : 15.166 (p.12) / 15.1657 (p.16),05_ar1
+AR1,2019T4,ca/moov/,doublon de lecture (arrondi),première occurrence gardée (ordre des pages),DD5,aucun,2019T3 : 15.166 (p.11) / 15.1657 (p.15),05_ar1
+AR1,2020T1,ca/moov/,doublon de lecture (arrondi),première occurrence gardée (ordre des pages),DD5,aucun,2019T3 : 15.166 (p.10) / 15.1657 (p.14),05_ar1
+AR1,2020T2,ca/moov/,doublon de lecture (arrondi),première occurrence gardée (ordre des pages),DD5,aucun,2019T3 : 15.166 (p.11) / 15.1657 (p.15),05_ar1
+AR1,2020T3,ca/moov/,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T3 : 15.1657 (p.11) / 15.1657 (p.15),05_ar1
+AR1,2019T4,ca/moov/,doublon de lecture (arrondi),première occurrence gardée (ordre des pages),DD5,aucun,2019T4 : 14.377 (p.11) / 14.3775 (p.15),05_ar1
+AR1,2020T1,ca/moov/,doublon de lecture (arrondi),première occurrence gardée (ordre des pages),DD5,aucun,2019T4 : 14.377 (p.10) / 14.3775 (p.14),05_ar1
+AR1,2020T2,ca/moov/,doublon de lecture (arrondi),première occurrence gardée (ordre des pages),DD5,aucun,2019T4 : 14.377 (p.11) / 14.3775 (p.15),05_ar1
+AR1,2020T3,ca/moov/,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T4 : 14.3775 (p.11) / 14.3775 (p.15),05_ar1
+AR1,2020T4,ca/moov/,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T4 : 14.377 (p.11) / 14.377 (p.15),05_ar1
+AR1,2020T1,ca/moov/,doublon de lecture (arrondi),première occurrence gardée (ordre des pages),DD5,aucun,2020T1 : 15.705 (p.10) / 15.7054 (p.14),05_ar1
+AR1,2020T2,ca/moov/,doublon de lecture (arrondi),première occurrence gardée (ordre des pages),DD5,aucun,2020T1 : 15.705 (p.11) / 15.7054 (p.15),05_ar1
+AR1,2020T3,ca/moov/,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T1 : 15.7054 (p.11) / 15.7054 (p.15),05_ar1
+AR1,2020T4,ca/moov/,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T1 : 15.705 (p.11) / 15.705 (p.15),05_ar1
+AR1,2021T1,ca/moov/,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T1 : 15.71 (p.10) / 15.71 (p.14),05_ar1
+AR1,2020T2,ca/moov/,doublon de lecture (arrondi),première occurrence gardée (ordre des pages),DD5,aucun,2020T2 : 14.77 (p.11) / 14.7707 (p.15),05_ar1
+AR1,2020T3,ca/moov/,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T2 : 14.7707 (p.11) / 14.7707 (p.15),05_ar1
+AR1,2020T4,ca/moov/,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T2 : 14.771 (p.11) / 14.771 (p.15),05_ar1
+AR1,2021T1,ca/moov/,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T2 : 14.77 (p.10) / 14.77 (p.14),05_ar1
+AR1,2021T2,ca/moov/,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T2 : 14.77 (p.10) / 14.77 (p.13),05_ar1
+AR1,2020T3,ca/moov/,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T3 : 15.4162 (p.11) / 15.4162 (p.15),05_ar1
+AR1,2020T4,ca/moov/,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T3 : 15.416 (p.11) / 15.416 (p.15),05_ar1
+AR1,2021T1,ca/moov/,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T3 : 15.42 (p.10) / 15.42 (p.14),05_ar1
+AR1,2021T2,ca/moov/,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T3 : 15.42 (p.10) / 15.42 (p.13),05_ar1
+AR1,2021T3,ca/moov/,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T3 : 15.42 (p.10) / 15.42 (p.14),05_ar1
+AR1,2020T4,ca/moov/,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T4 : 17.096 (p.11) / 17.096 (p.15),05_ar1
+AR1,2021T1,ca/moov/,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T4 : 17.1 (p.10) / 17.1 (p.14),05_ar1
+AR1,2021T2,ca/moov/,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T4 : 17.1 (p.10) / 17.1 (p.13),05_ar1
+AR1,2021T3,ca/moov/,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T4 : 17.1 (p.10) / 17.1 (p.14),05_ar1
+AR1,2021T1,ca/moov/,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T1 : 16.35 (p.10) / 16.35 (p.14),05_ar1
+AR1,2021T2,ca/moov/,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T1 : 16.35 (p.10) / 16.35 (p.13),05_ar1
+AR1,2021T3,ca/moov/,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T1 : 16.35 (p.10) / 16.35 (p.14),05_ar1
+AR1,2021T2,ca/moov/,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T2 : 15.48 (p.10) / 15.48 (p.13),05_ar1
+AR1,2021T3,ca/moov/,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T2 : 15.48 (p.10) / 15.48 (p.14),05_ar1
+AR1,2021T3,ca/moov/,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T3 : 15.42 (p.10) / 15.42 (p.14),05_ar1
+AR1,2019T3,ca/togocom/,doublon de lecture (arrondi),première occurrence gardée (ordre des pages),DD5,aucun,2019T1 : 23.335 (p.12) / 23.335 (p.16),05_ar1
+AR1,2019T4,ca/togocom/,doublon de lecture (arrondi),première occurrence gardée (ordre des pages),DD5,aucun,2019T1 : 23.335 (p.11) / 23.335 (p.15),05_ar1
+AR1,2020T1,ca/togocom/,doublon de lecture (arrondi),première occurrence gardée (ordre des pages),DD5,aucun,2019T1 : 23.335 (p.10) / 23.335 (p.14),05_ar1
+AR1,2019T3,ca/togocom/,doublon de lecture (arrondi),première occurrence gardée (ordre des pages),DD5,aucun,2019T2 : 26.014 (p.12) / 26.0142 (p.16),05_ar1
+AR1,2019T4,ca/togocom/,doublon de lecture (arrondi),première occurrence gardée (ordre des pages),DD5,aucun,2019T2 : 26.014 (p.11) / 26.0142 (p.15),05_ar1
+AR1,2020T1,ca/togocom/,doublon de lecture (arrondi),première occurrence gardée (ordre des pages),DD5,aucun,2019T2 : 26.014 (p.10) / 26.0142 (p.14),05_ar1
+AR1,2020T2,ca/togocom/,doublon de lecture (arrondi),première occurrence gardée (ordre des pages),DD5,aucun,2019T2 : 26.014 (p.11) / 26.0142 (p.15),05_ar1
+AR1,2019T3,ca/togocom/,doublon de lecture (arrondi),première occurrence gardée (ordre des pages),DD5,aucun,2019T3 : 26.105 (p.12) / 26.1056 (p.16),05_ar1
+AR1,2019T4,ca/togocom/,doublon de lecture (arrondi),première occurrence gardée (ordre des pages),DD5,aucun,2019T3 : 26.105 (p.11) / 26.1056 (p.15),05_ar1
+AR1,2020T1,ca/togocom/,doublon de lecture (arrondi),première occurrence gardée (ordre des pages),DD5,aucun,2019T3 : 26.105 (p.10) / 26.1056 (p.14),05_ar1
+AR1,2020T2,ca/togocom/,doublon de lecture (arrondi),première occurrence gardée (ordre des pages),DD5,aucun,2019T3 : 26.105 (p.11) / 26.1056 (p.15),05_ar1
+AR1,2020T3,ca/togocom/,conflit entre deux tableaux du même numéro,première occurrence gardée (ordre des pages),DD5,écart 0.1 %,2019T3 : 26.137 (p.11) / 26.1056 (p.15),05_ar1
+AR1,2019T4,ca/togocom/,doublon de lecture (arrondi),première occurrence gardée (ordre des pages),DD5,aucun,2019T4 : 24.641 (p.11) / 24.6407 (p.15),05_ar1
+AR1,2020T1,ca/togocom/,doublon de lecture (arrondi),première occurrence gardée (ordre des pages),DD5,aucun,2019T4 : 24.641 (p.10) / 24.6407 (p.14),05_ar1
+AR1,2020T2,ca/togocom/,doublon de lecture (arrondi),première occurrence gardée (ordre des pages),DD5,aucun,2019T4 : 24.641 (p.11) / 24.6407 (p.15),05_ar1
+AR1,2020T3,ca/togocom/,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T4 : 24.6407 (p.11) / 24.6407 (p.15),05_ar1
+AR1,2020T4,ca/togocom/,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T4 : 24.641 (p.11) / 24.641 (p.15),05_ar1
+AR1,2020T1,ca/togocom/,doublon de lecture (arrondi),première occurrence gardée (ordre des pages),DD5,aucun,2020T1 : 24.727 (p.10) / 24.7265 (p.14),05_ar1
+AR1,2020T2,ca/togocom/,doublon de lecture (arrondi),première occurrence gardée (ordre des pages),DD5,aucun,2020T1 : 24.727 (p.11) / 24.7265 (p.15),05_ar1
+AR1,2020T3,ca/togocom/,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T1 : 24.7289 (p.11) / 24.7289 (p.15),05_ar1
+AR1,2020T4,ca/togocom/,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T1 : 24.727 (p.11) / 24.727 (p.15),05_ar1
+AR1,2021T1,ca/togocom/,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T1 : 24.73 (p.10) / 24.73 (p.14),05_ar1
+AR1,2020T2,ca/togocom/,doublon de lecture (arrondi),première occurrence gardée (ordre des pages),DD5,aucun,2020T2 : 25.518 (p.11) / 25.518 (p.15),05_ar1
+AR1,2020T3,ca/togocom/,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T2 : 25.518 (p.11) / 25.518 (p.15),05_ar1
+AR1,2020T4,ca/togocom/,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T2 : 25.518 (p.11) / 25.518 (p.15),05_ar1
+AR1,2021T1,ca/togocom/,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T2 : 25.52 (p.10) / 25.52 (p.14),05_ar1
+AR1,2021T2,ca/togocom/,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T2 : 25.52 (p.10) / 25.52 (p.13),05_ar1
+AR1,2020T3,ca/togocom/,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T3 : 26.7777 (p.11) / 26.7777 (p.15),05_ar1
+AR1,2020T4,ca/togocom/,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T3 : 26.778 (p.11) / 26.778 (p.15),05_ar1
+AR1,2021T1,ca/togocom/,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T3 : 26.78 (p.10) / 26.78 (p.14),05_ar1
+AR1,2021T2,ca/togocom/,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T3 : 26.78 (p.10) / 26.78 (p.13),05_ar1
+AR1,2021T3,ca/togocom/,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T3 : 26.78 (p.10) / 26.78 (p.14),05_ar1
+AR1,2020T4,ca/togocom/,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T4 : 26.758 (p.11) / 26.758 (p.15),05_ar1
+AR1,2021T1,ca/togocom/,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T4 : 26.76 (p.10) / 26.76 (p.14),05_ar1
+AR1,2021T2,ca/togocom/,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T4 : 26.76 (p.10) / 26.76 (p.13),05_ar1
+AR1,2021T3,ca/togocom/,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T4 : 26.76 (p.10) / 26.76 (p.14),05_ar1
+AR1,2021T1,ca/togocom/,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T1 : 28.79 (p.10) / 28.79 (p.14),05_ar1
+AR1,2021T2,ca/togocom/,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T1 : 28.79 (p.10) / 28.79 (p.13),05_ar1
+AR1,2021T3,ca/togocom/,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T1 : 28.79 (p.10) / 28.79 (p.14),05_ar1
+AR1,2021T2,ca/togocom/,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T2 : 29.09 (p.10) / 29.09 (p.13),05_ar1
+AR1,2021T3,ca/togocom/,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T2 : 29.09 (p.10) / 29.09 (p.14),05_ar1
+AR1,2021T3,ca/togocom/,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T3 : 31 (p.10) / 31 (p.14),05_ar1
+AR1,2019T3,ca/total_mobile/,doublon de lecture (arrondi),première occurrence gardée (ordre des pages),DD5,aucun,2019T1 : 38.684 (p.12) / 38.6843 (p.16),05_ar1
+AR1,2019T4,ca/total_mobile/,doublon de lecture (arrondi),première occurrence gardée (ordre des pages),DD5,aucun,2019T1 : 38.684 (p.11) / 38.6843 (p.15),05_ar1
+AR1,2020T1,ca/total_mobile/,doublon de lecture (arrondi),première occurrence gardée (ordre des pages),DD5,aucun,2019T1 : 38.684 (p.10) / 38.6843 (p.14),05_ar1
+AR1,2019T3,ca/total_mobile/,doublon de lecture (arrondi),première occurrence gardée (ordre des pages),DD5,aucun,2019T2 : 40.502 (p.12) / 40.502 (p.16),05_ar1
+AR1,2019T4,ca/total_mobile/,doublon de lecture (arrondi),première occurrence gardée (ordre des pages),DD5,aucun,2019T2 : 40.502 (p.11) / 40.502 (p.15),05_ar1
+AR1,2020T1,ca/total_mobile/,doublon de lecture (arrondi),première occurrence gardée (ordre des pages),DD5,aucun,2019T2 : 40.502 (p.10) / 40.502 (p.14),05_ar1
+AR1,2020T2,ca/total_mobile/,doublon de lecture (arrondi),première occurrence gardée (ordre des pages),DD5,aucun,2019T2 : 40.502 (p.11) / 40.502 (p.15),05_ar1
+AR1,2019T3,ca/total_mobile/,doublon de lecture (arrondi),première occurrence gardée (ordre des pages),DD5,aucun,2019T3 : 41.271 (p.12) / 41.2713 (p.16),05_ar1
+AR1,2019T4,ca/total_mobile/,doublon de lecture (arrondi),première occurrence gardée (ordre des pages),DD5,aucun,2019T3 : 41.271 (p.11) / 41.2713 (p.15),05_ar1
+AR1,2020T1,ca/total_mobile/,doublon de lecture (arrondi),première occurrence gardée (ordre des pages),DD5,aucun,2019T3 : 41.271 (p.10) / 41.2713 (p.14),05_ar1
+AR1,2020T2,ca/total_mobile/,doublon de lecture (arrondi),première occurrence gardée (ordre des pages),DD5,aucun,2019T3 : 41.271 (p.11) / 41.2713 (p.15),05_ar1
+AR1,2020T3,ca/total_mobile/,doublon de lecture (arrondi),première occurrence gardée (ordre des pages),DD5,aucun,2019T3 : 41.302 (p.11) / 41.2713 (p.15),05_ar1
+AR1,2019T4,ca/total_mobile/,doublon de lecture (arrondi),première occurrence gardée (ordre des pages),DD5,aucun,2019T4 : 39.018 (p.11) / 39.0181 (p.15),05_ar1
+AR1,2020T1,ca/total_mobile/,doublon de lecture (arrondi),première occurrence gardée (ordre des pages),DD5,aucun,2019T4 : 39.018 (p.10) / 39.0181 (p.14),05_ar1
+AR1,2020T2,ca/total_mobile/,doublon de lecture (arrondi),première occurrence gardée (ordre des pages),DD5,aucun,2019T4 : 39.018 (p.11) / 39.0181 (p.15),05_ar1
+AR1,2020T3,ca/total_mobile/,doublon de lecture (arrondi),première occurrence gardée (ordre des pages),DD5,aucun,2019T4 : 39.018 (p.11) / 39.0181 (p.15),05_ar1
+AR1,2020T4,ca/total_mobile/,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2019T4 : 39.018 (p.11) / 39.018 (p.15),05_ar1
+AR1,2020T1,ca/total_mobile/,doublon de lecture (arrondi),première occurrence gardée (ordre des pages),DD5,aucun,2020T1 : 40.432 (p.10) / 40.4319 (p.14),05_ar1
+AR1,2020T2,ca/total_mobile/,doublon de lecture (arrondi),première occurrence gardée (ordre des pages),DD5,aucun,2020T1 : 40.432 (p.11) / 40.4319 (p.15),05_ar1
+AR1,2020T3,ca/total_mobile/,doublon de lecture (arrondi),première occurrence gardée (ordre des pages),DD5,aucun,2020T1 : 40.434 (p.11) / 40.4343 (p.15),05_ar1
+AR1,2020T4,ca/total_mobile/,conflit entre deux tableaux du même numéro,première occurrence gardée (ordre des pages),DD5,écart 99.9 %,2020T1 : 40.432 (p.11) / 40432 (p.15),05_ar1
+AR1,2021T1,ca/total_mobile/,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T1 : 40.43 (p.10) / 40.43 (p.14),05_ar1
+AR1,2020T2,ca/total_mobile/,doublon de lecture (arrondi),première occurrence gardée (ordre des pages),DD5,aucun,2020T2 : 40.289 (p.11) / 40.2887 (p.15),05_ar1
+AR1,2020T3,ca/total_mobile/,doublon de lecture (arrondi),première occurrence gardée (ordre des pages),DD5,aucun,2020T2 : 40.289 (p.11) / 40.2887 (p.15),05_ar1
+AR1,2020T4,ca/total_mobile/,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T2 : 40.289 (p.11) / 40.289 (p.15),05_ar1
+AR1,2021T1,ca/total_mobile/,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T2 : 40.29 (p.10) / 40.29 (p.14),05_ar1
+AR1,2021T2,ca/total_mobile/,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T2 : 40.29 (p.10) / 40.29 (p.13),05_ar1
+AR1,2020T3,ca/total_mobile/,doublon de lecture (arrondi),première occurrence gardée (ordre des pages),DD5,aucun,2020T3 : 42.194 (p.11) / 42.1939 (p.15),05_ar1
+AR1,2020T4,ca/total_mobile/,conflit entre deux tableaux du même numéro,première occurrence gardée (ordre des pages),DD5,écart 99.9 %,2020T3 : 42.194 (p.11) / 42194 (p.15),05_ar1
+AR1,2021T1,ca/total_mobile/,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T3 : 42.19 (p.10) / 42.19 (p.14),05_ar1
+AR1,2021T2,ca/total_mobile/,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T3 : 42.19 (p.10) / 42.19 (p.13),05_ar1
+AR1,2021T3,ca/total_mobile/,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T3 : 42.19 (p.10) / 42.19 (p.14),05_ar1
+AR1,2020T4,ca/total_mobile/,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T4 : 43.854 (p.11) / 43.854 (p.15),05_ar1
+AR1,2021T1,ca/total_mobile/,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T4 : 43.85 (p.10) / 43.85 (p.14),05_ar1
+AR1,2021T2,ca/total_mobile/,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T4 : 43.85 (p.10) / 43.85 (p.13),05_ar1
+AR1,2021T3,ca/total_mobile/,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2020T4 : 43.85 (p.10) / 43.85 (p.14),05_ar1
+AR1,2021T1,ca/total_mobile/,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T1 : 45.14 (p.10) / 45.14 (p.14),05_ar1
+AR1,2021T2,ca/total_mobile/,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T1 : 45.14 (p.10) / 45.14 (p.13),05_ar1
+AR1,2021T3,ca/total_mobile/,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T1 : 45.14 (p.10) / 45.14 (p.14),05_ar1
+AR1,2021T2,ca/total_mobile/,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T2 : 44.58 (p.10) / 44.58 (p.13),05_ar1
+AR1,2021T3,ca/total_mobile/,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T2 : 44.58 (p.10) / 44.58 (p.14),05_ar1
+AR1,2021T3,ca/total_mobile/,doublon de lecture (valeurs égales),première occurrence gardée (ordre des pages),DD5,aucun,2021T3 : 46.42 (p.10) / 46.42 (p.14),05_ar1
+AR1,2023T3,mm_comptes/moov/,conflit entre deux tableaux du même numéro,première occurrence gardée (ordre des pages),DD5,écart 98.8 %,2022T3 : 1.29688e+06 (p.13) / 15803 (p.13),05_ar1
+AR1,2023T3,mm_comptes/moov/,conflit entre deux tableaux du même numéro,première occurrence gardée (ordre des pages),DD5,écart 98.7 %,2022T4 : 1.3087e+06 (p.13) / 16620 (p.13),05_ar1
+AR1,2023T3,mm_comptes/moov/,conflit entre deux tableaux du même numéro,première occurrence gardée (ordre des pages),DD5,écart 98.7 %,2023T1 : 1.28404e+06 (p.13) / 16662 (p.13),05_ar1
+AR1,2023T3,mm_comptes/moov/,conflit entre deux tableaux du même numéro,première occurrence gardée (ordre des pages),DD5,écart 98.7 %,2023T2 : 1.28311e+06 (p.13) / 16813 (p.13),05_ar1
+AR1,2023T3,mm_comptes/moov/,conflit entre deux tableaux du même numéro,première occurrence gardée (ordre des pages),DD5,écart 98.7 %,2023T3 : 1.33482e+06 (p.13) / 16993 (p.13),05_ar1
+AR1,2023T3,mm_comptes/togocom/,conflit entre deux tableaux du même numéro,première occurrence gardée (ordre des pages),DD5,écart 98.6 %,2022T3 : 1.56931e+06 (p.13) / 22656 (p.13),05_ar1
+AR1,2023T3,mm_comptes/togocom/,conflit entre deux tableaux du même numéro,première occurrence gardée (ordre des pages),DD5,écart 98.7 %,2022T4 : 1.69634e+06 (p.13) / 21399 (p.13),05_ar1
+AR1,2023T3,mm_comptes/togocom/,conflit entre deux tableaux du même numéro,première occurrence gardée (ordre des pages),DD5,écart 98.6 %,2023T1 : 1.82563e+06 (p.13) / 25705 (p.13),05_ar1
+AR1,2023T3,mm_comptes/togocom/,conflit entre deux tableaux du même numéro,première occurrence gardée (ordre des pages),DD5,écart 98.6 %,2023T2 : 1.90448e+06 (p.13) / 26967 (p.13),05_ar1
+AR1,2023T3,mm_comptes/togocom/,conflit entre deux tableaux du même numéro,première occurrence gardée (ordre des pages),DD5,écart 98.6 %,2023T3 : 1.96717e+06 (p.13) / 28194 (p.13),05_ar1
+AR1,2023T3,mm_valeur_transactions/ensemble/,conflit entre deux tableaux du même numéro,première occurrence gardée (ordre des pages),DD5,écart 100.0 %,2022T3 : 735 (p.14) / 0.0617887 (p.14),05_ar1
+AR1,2023T3,mm_valeur_transactions/ensemble/,conflit entre deux tableaux du même numéro,première occurrence gardée (ordre des pages),DD5,écart 100.0 %,2022T4 : 868 (p.14) / 0.0702908 (p.14),05_ar1
+AR1,2023T3,mm_valeur_transactions/ensemble/,conflit entre deux tableaux du même numéro,première occurrence gardée (ordre des pages),DD5,écart 100.0 %,2023T1 : 887 (p.14) / 0.0724376 (p.14),05_ar1
+AR1,2023T3,mm_valeur_transactions/ensemble/,conflit entre deux tableaux du même numéro,première occurrence gardée (ordre des pages),DD5,écart 100.0 %,2023T2 : 868 (p.14) / 0.0755251 (p.14),05_ar1
+AR1,2023T3,mm_valeur_transactions/ensemble/,conflit entre deux tableaux du même numéro,première occurrence gardée (ordre des pages),DD5,écart 100.0 %,2023T3 : 879 (p.14) / 0.0787335 (p.14),05_ar1
+AR1,2023T3,mm_valeur_transactions/moov/,conflit entre deux tableaux du même numéro,première occurrence gardée (ordre des pages),DD5,écart 100.0 %,2022T3 : 310 (p.14) / 0.0228848 (p.14),05_ar1
+AR1,2023T3,mm_valeur_transactions/moov/,conflit entre deux tableaux du même numéro,première occurrence gardée (ordre des pages),DD5,écart 100.0 %,2022T4 : 328 (p.14) / 0.0235751 (p.14),05_ar1
+AR1,2023T3,mm_valeur_transactions/moov/,conflit entre deux tableaux du même numéro,première occurrence gardée (ordre des pages),DD5,écart 100.0 %,2023T1 : 305 (p.14) / 0.0218578 (p.14),05_ar1
+AR1,2023T3,mm_valeur_transactions/moov/,conflit entre deux tableaux du même numéro,première occurrence gardée (ordre des pages),DD5,écart 100.0 %,2023T2 : 301 (p.14) / 0.0225408 (p.14),05_ar1
+AR1,2023T3,mm_valeur_transactions/moov/,conflit entre deux tableaux du même numéro,première occurrence gardée (ordre des pages),DD5,écart 100.0 %,2023T3 : 326 (p.14) / 0.0248098 (p.14),05_ar1
+AR1,2023T3,mm_valeur_transactions/togocom/,conflit entre deux tableaux du même numéro,première occurrence gardée (ordre des pages),DD5,écart 100.0 %,2022T3 : 425 (p.14) / 0.0389039 (p.14),05_ar1
+AR1,2023T3,mm_valeur_transactions/togocom/,conflit entre deux tableaux du même numéro,première occurrence gardée (ordre des pages),DD5,écart 100.0 %,2022T4 : 540 (p.14) / 0.0467158 (p.14),05_ar1
+AR1,2023T3,mm_valeur_transactions/togocom/,conflit entre deux tableaux du même numéro,première occurrence gardée (ordre des pages),DD5,écart 100.0 %,2023T1 : 582 (p.14) / 0.0505797 (p.14),05_ar1
+AR1,2023T3,mm_valeur_transactions/togocom/,conflit entre deux tableaux du même numéro,première occurrence gardée (ordre des pages),DD5,écart 100.0 %,2023T2 : 567 (p.14) / 0.0529844 (p.14),05_ar1
+AR1,2023T3,mm_valeur_transactions/togocom/,conflit entre deux tableaux du même numéro,première occurrence gardée (ordre des pages),DD5,écart 100.0 %,2023T3 : 552 (p.14) / 0.0539237 (p.14),05_ar1
+AR1,investissement/total_secteur/,2017T3,révision,dernière publication retenue,P4 / DD5,écart entre publications : 99900.0 %,11 à 10504 ; retenu 11 (2018T3),05_ar1
+AR1,investissement/total_secteur/,2017T4,révision,dernière publication retenue,P4 / DD5,écart entre publications : 99900.0 %,32 à 31551 ; retenu 32 (2018T4),05_ar1
+AR1,abonnes_internet_fixe_acces/togo_telecom/Evdo,2018T2,révision,dernière publication retenue,P4 / DD5,écart entre publications : inf %,0 à 3 ; retenu 0 (2019T1),05_ar1
+AR1,investissement/total_secteur/,2018T1,révision,dernière publication retenue,P4 / DD5,écart entre publications : 99900.0 %,6 à 5941 ; retenu 6 (2019T1),05_ar1
+AR1,abonnes_telephonie_mobile/ensemble/prepaid,2018T2,révision,dernière publication retenue,P4 / DD5,écart entre publications : 45.54 %,3139293 à 5764433 ; retenu 5764433 (2019T2),05_ar1
+AR1,ca/teolis/,2018T2,révision,dernière publication retenue,P4 / DD5,écart entre publications : 95.29 %,0 à 0 ; retenu 0 (2019T2),05_ar1
+AR1,investissement/togocom/,2018T2,révision,dernière publication retenue,P4 / DD5,écart entre publications : 95.23 %,2 à 4 ; retenu 2 (2019T2),05_ar1
+AR1,investissement/total_mobile/,2018T2,révision,dernière publication retenue,P4 / DD5,écart entre publications : 5.66 %,33 à 35 ; retenu 33 (2019T2),05_ar1
+AR1,ca/teolis/,2018T3,révision,dernière publication retenue,P4 / DD5,écart entre publications : 75.0 %,0 à 0 ; retenu 0 (2019T3),05_ar1
+AR1,ca/teolis/,2018T4,révision,dernière publication retenue,P4 / DD5,écart entre publications : 82.14 %,0 à 0 ; retenu 0 (2019T4),05_ar1
+AR1,abonnes_internet_fixe/ensemble/total,2019T1,révision,dernière publication retenue,P4 / DD5,écart entre publications : 5.73 %,27647 à 29327 ; retenu 29327 (2020T1),05_ar1
+AR1,ca/togocom/,2019T1,révision,dernière publication retenue,P4 / DD5,écart entre publications : 11.21 %,21 à 23 ; retenu 23 (2020T1),05_ar1
+AR1,ca/total_mobile/,2019T1,révision,dernière publication retenue,P4 / DD5,écart entre publications : 6.76 %,36 à 39 ; retenu 39 (2020T1),05_ar1
+AR1,ca/total_secteur/,2019T1,révision,dernière publication retenue,P4 / DD5,écart entre publications : 5.85 %,42 à 45 ; retenu 45 (2020T1),05_ar1
+AR1,investissement/cafe/,2019T1,révision,dernière publication retenue,P4 / DD5,écart entre publications : 12.5 %,0 à 0 ; retenu 0 (2020T1),05_ar1
+AR1,abonnes_telephonie_mobile/ensemble/total,2020T1,révision,dernière publication retenue,P4 / DD5,écart entre publications : 9.41 %,5302444 à 5853122 ; retenu 5853122 (2021T1),05_ar1
+AR1,abonnes_internet_fixe/ensemble/total,2020T1,révision,dernière publication retenue,P4 / DD5,écart entre publications : 8.31 %,33671 à 36724 ; retenu 36724 (2021T1),05_ar1
+AR1,ca/teolis/,2020T1,révision,dernière publication retenue,P4 / DD5,écart entre publications : 20.0 %,0 à 0 ; retenu 0 (2021T1),05_ar1
+AR1,abonnes_internet_fixe_acces/togo_telecom/FTTH,2020T2,révision,dernière publication retenue,P4 / DD5,écart entre publications : 20.1 %,8076 à 9699 ; retenu 8076 (2021T2),05_ar1
+AR1,abonnes_internet_fixe_acces/togo_telecom/total,2020T2,révision,dernière publication retenue,P4 / DD5,écart entre publications : 11.69 %,27345 à 30541 ; retenu 27345 (2021T2),05_ar1
+AR1,ca/cafe/,2020T3,révision,dernière publication retenue,P4 / DD5,écart entre publications : 23.89 %,0 à 0 ; retenu 0 (2021T3),05_ar1
+AR1,ca/teolis/,2020T3,révision,dernière publication retenue,P4 / DD5,écart entre publications : 16.67 %,0 à 0 ; retenu 0 (2021T3),05_ar1
+AR1,ca/gva/,2020T3,révision,dernière publication retenue,P4 / DD5,écart entre publications : 21.21 %,1 à 1 ; retenu 1 (2021T3),05_ar1
+AR1,ca/teolis/,2020T4,révision,dernière publication retenue,P4 / DD5,écart entre publications : 5.0 %,0 à 0 ; retenu 0 (2021T4),05_ar1
+AR1,abonnes_telephonie_mobile/ensemble/postpaid,2021T1,révision,dernière publication retenue,P4 / DD5,écart entre publications : 15.72 %,30926 à 36696 ; retenu 36696 (2022T1),05_ar1
+AR1,abonnes_data_mobile/moov/2G,2021T1,révision,dernière publication retenue,P4 / DD5,écart entre publications : 72.52 %,1046832 à 1805976 ; retenu 1046832 (2022T1),05_ar1
+AR1,abonnes_data_mobile/moov/3G,2021T1,révision,dernière publication retenue,P4 / DD5,écart entre publications : 20.07 %,906015 à 1087849 ; retenu 906015 (2022T1),05_ar1
+AR1,abonnes_data_mobile/moov/4G,2021T1,révision,dernière publication retenue,P4 / DD5,écart entre publications : 29.89 %,115338 à 149809 ; retenu 115338 (2022T1),05_ar1
+AR1,abonnes_data_mobile/moov/total,2021T1,révision,dernière publication retenue,P4 / DD5,écart entre publications : 47.16 %,2068185 à 3043634 ; retenu 2068185 (2022T1),05_ar1
+AR1,abonnes_data_mobile/ensemble/total,2021T1,révision,dernière publication retenue,P4 / DD5,écart entre publications : 21.46 %,4544856 à 5520305 ; retenu 4544856 (2022T1),05_ar1
+AR1,abonnes_data_mobile/ensemble/haut_debit,2021T1,révision,dernière publication retenue,P4 / DD5,écart entre publications : 8.28 %,2611038 à 2827343 ; retenu 2611038 (2022T1),05_ar1
+AR1,abonnes_internet_fixe/gva/total,2021T1,révision,dernière publication retenue,P4 / DD5,écart entre publications : 10.28 %,23203 à 25588 ; retenu 23203 (2022T1),05_ar1
+AR1,ca/teolis/,2021T1,révision,dernière publication retenue,P4 / DD5,écart entre publications : 16.67 %,0 à 0 ; retenu 0 (2022T1),05_ar1
+AR1,ca/total_fixe/,2021T1,révision,dernière publication retenue,P4 / DD5,écart entre publications : 16.05 %,9 à 10 ; retenu 9 (2022T1),05_ar1
+AR1,investissement/total_fixe/,2021T1,révision,dernière publication retenue,P4 / DD5,écart entre publications : 180.0 %,1 à 2 ; retenu 1 (2022T1),05_ar1
+AR1,investissement/total_secteur/,2021T1,révision,dernière publication retenue,P4 / DD5,écart entre publications : 46.31 %,2 à 3 ; retenu 2 (2022T1),05_ar1
+AR1,mm_comptes/moov/,2021T1,révision,dernière publication retenue,P4 / DD5,écart entre publications : 156.22 %,1309132 à 3354214 ; retenu 1309132 (2022T1),05_ar1
+AR1,mm_comptes/ensemble/,2021T1,révision,dernière publication retenue,P4 / DD5,écart entre publications : 83.43 %,2451172 à 4496254 ; retenu 2451172 (2022T1),05_ar1
+AR1,abonnes_telephonie_mobile/ensemble/postpaid,2021T2,révision,dernière publication retenue,P4 / DD5,écart entre publications : 12.22 %,33959 à 38685 ; retenu 38685 (2022T2),05_ar1
+AR1,abonnes_data_mobile/moov/2G,2021T2,révision,dernière publication retenue,P4 / DD5,écart entre publications : 59.64 %,999661 à 1595824 ; retenu 999661 (2022T2),05_ar1
+AR1,abonnes_data_mobile/moov/3G,2021T2,révision,dernière publication retenue,P4 / DD5,écart entre publications : 9.61 %,897480 à 983685 ; retenu 897480 (2022T2),05_ar1
+AR1,abonnes_data_mobile/moov/4G,2021T2,révision,dernière publication retenue,P4 / DD5,écart entre publications : 15.16 %,125426 à 144439 ; retenu 125426 (2022T2),05_ar1
+AR1,abonnes_data_mobile/moov/total,2021T2,révision,dernière publication retenue,P4 / DD5,écart entre publications : 34.68 %,2022567 à 2723948 ; retenu 2022567 (2022T2),05_ar1
+AR1,abonnes_data_mobile/ensemble/total,2021T2,révision,dernière publication retenue,P4 / DD5,écart entre publications : 15.53 %,4516964 à 5218345 ; retenu 4516964 (2022T2),05_ar1
+AR1,ca/total_fixe/,2021T2,révision,dernière publication retenue,P4 / DD5,écart entre publications : 16.65 %,9 à 10 ; retenu 9 (2022T2),05_ar1
+AR1,investissement/total_fixe/,2021T2,révision,dernière publication retenue,P4 / DD5,écart entre publications : 85.83 %,1 à 2 ; retenu 1 (2022T2),05_ar1
+AR1,investissement/total_secteur/,2021T2,révision,dernière publication retenue,P4 / DD5,écart entre publications : 17.21 %,6 à 7 ; retenu 6 (2022T2),05_ar1
+AR1,mm_comptes/moov/,2021T2,révision,dernière publication retenue,P4 / DD5,écart entre publications : 182.49 %,1232549 à 3481873 ; retenu 1232549 (2022T2),05_ar1
+AR1,mm_comptes/ensemble/,2021T2,révision,dernière publication retenue,P4 / DD5,écart entre publications : 93.63 %,2402295 à 4651619 ; retenu 2402295 (2022T2),05_ar1
+AR1,mm_points_de_vente/togocom/,2021T2,révision,dernière publication retenue,P4 / DD5,écart entre publications : 24.42 %,15569 à 19371 ; retenu 15569 (2022T2),05_ar1
+AR1,mm_points_de_vente/ensemble/,2021T2,révision,dernière publication retenue,P4 / DD5,écart entre publications : 13.52 %,28126 à 31928 ; retenu 28126 (2022T2),05_ar1
+AR1,abonnes_telephonie_mobile/ensemble/postpaid,2021T3,révision,dernière publication retenue,P4 / DD5,écart entre publications : 12.52 %,34518 à 39459 ; retenu 39459 (2022T3),05_ar1
+AR1,abonnes_data_mobile/moov/2G,2021T3,révision,dernière publication retenue,P4 / DD5,écart entre publications : 94.08 %,894430 à 1735873 ; retenu 894430 (2022T3),05_ar1
+AR1,abonnes_data_mobile/moov/3G,2021T3,révision,dernière publication retenue,P4 / DD5,écart entre publications : 20.84 %,927460 à 1120698 ; retenu 927460 (2022T3),05_ar1
+AR1,abonnes_data_mobile/moov/4G,2021T3,révision,dernière publication retenue,P4 / DD5,écart entre publications : 26.41 %,137988 à 174434 ; retenu 137988 (2022T3),05_ar1
+AR1,abonnes_data_mobile/moov/total,2021T3,révision,dernière publication retenue,P4 / DD5,écart entre publications : 54.65 %,1959878 à 3031005 ; retenu 1959878 (2022T3),05_ar1
+AR1,abonnes_data_mobile/ensemble/total,2021T3,révision,dernière publication retenue,P4 / DD5,écart entre publications : 23.64 %,4531380 à 5602507 ; retenu 4531380 (2022T3),05_ar1
+AR1,abonnes_data_mobile/ensemble/haut_debit,2021T3,révision,dernière publication retenue,P4 / DD5,écart entre publications : 8.22 %,2795471 à 3025155 ; retenu 2795471 (2022T3),05_ar1
+AR1,ca/total_fixe/,2021T3,révision,dernière publication retenue,P4 / DD5,écart entre publications : 16.23 %,9 à 10 ; retenu 9 (2022T3),05_ar1
+AR1,investissement/cafe/,2021T3,révision,dernière publication retenue,P4 / DD5,écart entre publications : 100.0 %,0 à 0 ; retenu 0 (2022T3),05_ar1
+AR1,investissement/total_fixe/,2021T3,révision,dernière publication retenue,P4 / DD5,écart entre publications : 84.43 %,1 à 2 ; retenu 1 (2022T3),05_ar1
+AR1,mm_comptes/moov/,2021T3,révision,dernière publication retenue,P4 / DD5,écart entre publications : 191.85 %,1236987 à 3610130 ; retenu 1236987 (2022T3),05_ar1
+AR1,mm_comptes/ensemble/,2021T3,révision,dernière publication retenue,P4 / DD5,écart entre publications : 93.93 %,2526489 à 4899632 ; retenu 2526489 (2022T3),05_ar1
+AR1,abonnes_telephonie_mobile/ensemble/postpaid,2021T4,révision,dernière publication retenue,P4 / DD5,écart entre publications : 11.72 %,37458 à 42430 ; retenu 42430 (2022T4),05_ar1
+AR1,abonnes_data_mobile/moov/2G,2021T4,révision,dernière publication retenue,P4 / DD5,écart entre publications : 103.58 %,815345 à 1659857 ; retenu 815345 (2022T4),05_ar1
+AR1,abonnes_data_mobile/ensemble/haut_debit,2021T4,révision,dernière publication retenue,P4 / DD5,écart entre publications : 13.84 %,2961688 à 3371583 ; retenu 2961688 (2022T4),05_ar1
+AR1,ca/teolis/,2021T4,révision,dernière publication retenue,P4 / DD5,écart entre publications : 15.38 %,0 à 0 ; retenu 0 (2022T4),05_ar1
+AR1,ca/total_fixe/,2021T4,révision,dernière publication retenue,P4 / DD5,écart entre publications : 17.68 %,8 à 9 ; retenu 8 (2022T4),05_ar1
+AR1,investissement/total_fixe/,2021T4,révision,dernière publication retenue,P4 / DD5,écart entre publications : 25.84 %,4 à 5 ; retenu 4 (2022T4),05_ar1
+AR1,ca/total_fixe/,2023T2,révision,dernière publication retenue,P4 / DD5,écart entre publications : 21.41 %,9 à 11 ; retenu 11 (2024T2),05_ar1
+AR1,investissement/togocom/,2023T2,révision,dernière publication retenue,P4 / DD5,écart entre publications : 46.59 %,2 à 5 ; retenu 5 (2024T2),05_ar1
+AR1,investissement/togo_telecom/,2023T2,révision,dernière publication retenue,P4 / DD5,écart entre publications : 91.38 %,0 à 3 ; retenu 3 (2024T2),05_ar1
+AR1,investissement/total_mobile/,2023T2,révision,dernière publication retenue,P4 / DD5,écart entre publications : 30.83 %,5 à 7 ; retenu 7 (2024T2),05_ar1
+AR1,investissement/total_fixe/,2023T2,révision,dernière publication retenue,P4 / DD5,écart entre publications : 91.29 %,0 à 4 ; retenu 4 (2024T2),05_ar1
+AR1,investissement/total_secteur/,2023T2,révision,dernière publication retenue,P4 / DD5,écart entre publications : 54.08 %,5 à 11 ; retenu 11 (2024T2),05_ar1
+AR1,investissement/togocom/,2023T3,révision,dernière publication retenue,P4 / DD5,écart entre publications : 41.98 %,8 à 14 ; retenu 14 (2024T3),05_ar1
+AR1,investissement/togo_telecom/,2023T3,révision,dernière publication retenue,P4 / DD5,écart entre publications : 64.68 %,1 à 4 ; retenu 4 (2024T3),05_ar1
+AR1,investissement/total_mobile/,2023T3,révision,dernière publication retenue,P4 / DD5,écart entre publications : 31.68 %,12 à 18 ; retenu 18 (2024T3),05_ar1
+AR1,investissement/total_fixe/,2023T3,révision,dernière publication retenue,P4 / DD5,écart entre publications : 45.01 %,3 à 6 ; retenu 6 (2024T3),05_ar1
+AR1,investissement/total_secteur/,2023T3,révision,dernière publication retenue,P4 / DD5,écart entre publications : 34.84 %,16 à 24 ; retenu 24 (2024T3),05_ar1
+AR1,investissement/togocom/,2023T4,révision,dernière publication retenue,P4 / DD5,écart entre publications : 38.91 %,11 à 18 ; retenu 18 (2024T4),05_ar1
+AR1,investissement/togo_telecom/,2023T4,révision,dernière publication retenue,P4 / DD5,écart entre publications : 56.59 %,4 à 6 ; retenu 4 (2024T4),05_ar1
+AR1,investissement/total_mobile/,2023T4,révision,dernière publication retenue,P4 / DD5,écart entre publications : 27.34 %,19 à 25 ; retenu 25 (2024T4),05_ar1
+AR1,investissement/total_fixe/,2023T4,révision,dernière publication retenue,P4 / DD5,écart entre publications : 37.14 %,6 à 9 ; retenu 6 (2024T4),05_ar1
+AR1,investissement/total_secteur/,2023T4,révision,dernière publication retenue,P4 / DD5,écart entre publications : 14.72 %,27 à 32 ; retenu 32 (2024T4),05_ar1
+AR1,investissement/togocom/,2024T1,révision,dernière publication retenue,P4 / DD5,écart entre publications : 6.44 %,3 à 3 ; retenu 3 (2025T1),05_ar1
+AR1,investissement/togo_telecom/,2024T1,révision,dernière publication retenue,P4 / DD5,écart entre publications : 13.96 %,1 à 2 ; retenu 1 (2025T1),05_ar1
+AR1,investissement/total_fixe/,2024T1,révision,dernière publication retenue,P4 / DD5,écart entre publications : 8.3 %,2 à 3 ; retenu 2 (2025T1),05_ar1

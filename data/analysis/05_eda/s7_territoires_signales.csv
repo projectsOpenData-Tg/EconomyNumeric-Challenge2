@@ -1,0 +1,40 @@
+code,nom,prefecture,unite_regionale,strate_50,pop_totale,n_formels,n_mm,n_dab,couv_20km_pct,couv_20km_motif,contradictions,prefecture_en_c2
+C01067,Blitta 3,Blitta,Centrale,rural,45218,0,6,0,9.9,,C5 mobile money uniquement,False
+C02068,Mô 1,Mô,Centrale,rural,30522,1,25,0,,non_determinable,C3 voisine moins dotée (points formels),False
+C02069,Mô 2,Mô,Centrale,rural,21926,1,7,0,,non_determinable,C3 voisine moins dotée (points formels),False
+C03071,Sotouboua 2,Sotouboua,Centrale,rural,64187,4,107,1,,non_determinable,C3 voisine moins dotée (mobile money),True
+C04073,Tchamba 1,Tchamba,Centrale,rural,82451,6,52,0,,non_determinable,C3 voisine moins dotée (mobile money),False
+C04074,Tchamba 2,Tchamba,Centrale,rural,64930,1,85,0,,non_determinable,C3 voisine moins dotée (points formels) ; C3 voisine moins dotée (mobile money),False
+C05077,Tchaoudjo 2,Tchaoudjo,Centrale,rural,24891,0,45,0,81.0,,C3 voisine moins dotée (mobile money) ; C5 mobile money uniquement,True
+C05078,Tchaoudjo 3,Tchaoudjo,Centrale,rural,17484,0,65,0,99.9,,C5 mobile money uniquement,True
+C05079,Tchaoudjo 4,Tchaoudjo,Centrale,rural,20279,0,33,0,56.9,,C3 voisine moins dotée (mobile money) ; C5 mobile money uniquement ; C5 un opérateur dominant,True
+A01001,Agoè-Nyivé 1,Agoè-Nyivé,Grand Lomé,grand_lome,317255,33,446,9,100.0,,C3 voisine moins dotée (points formels),False
+A01002,Agoè-Nyivé 2,Agoè-Nyivé,Grand Lomé,grand_lome,128164,6,37,0,100.0,,C3 voisine moins dotée (mobile money),False
+A01003,Agoè-Nyivé 3,Agoè-Nyivé,Grand Lomé,grand_lome,47554,7,263,1,100.0,,C3 voisine moins dotée (points formels),False
+A01005,Agoè-Nyivé 5,Agoè-Nyivé,Grand Lomé,grand_lome,125097,5,97,1,100.0,,C3 voisine moins dotée (points formels) ; C3 voisine moins dotée (mobile money),False
+A04012,Golfe 2,Golfe,Grand Lomé,grand_lome,136153,7,454,14,100.0,,C3 voisine moins dotée (points formels),False
+A04014,Golfe 4,Golfe,Grand Lomé,grand_lome,155842,20,809,18,100.0,,C3 voisine moins dotée (points formels),False
+A04017,Golfe 7,Golfe,Grand Lomé,grand_lome,257813,12,777,2,100.0,,C3 voisine moins dotée (points formels),False
+D01081,Assoli 2,Assoli,Kara,rural,9933,0,31,0,100.0,,C5 mobile money uniquement,True
+D01082,Assoli 3,Assoli,Kara,rural,16044,0,28,0,100.0,,C5 mobile money uniquement,True
+D02086,Bassar 4,Bassar,Kara,rural,16657,0,29,0,100.0,,C5 mobile money uniquement,True
+D04090,Dankpen 2,Dankpen,Kara,rural,32716,0,31,0,47.7,,C5 mobile money uniquement,False
+D04091,Dankpen 3,Dankpen,Kara,rural,76652,0,37,0,65.6,,"C1 population forte, offre faible ; C5 mobile money uniquement",False
+D07099,Kozah 3,Kozah,Kara,rural,23755,0,34,0,99.8,,C3 voisine moins dotée (points formels) ; C3 voisine moins dotée (mobile money) ; C5 mobile money uniquement,False
+D07100,Kozah 4,Kozah,Kara,rural,20654,0,35,0,100.0,,C3 voisine moins dotée (mobile money) ; C5 mobile money uniquement,False
+D06095,Kéran 2,Kéran,Kara,rural,53305,0,38,0,1.5,,C5 mobile money uniquement,False
+D06096,Kéran 3,Kéran,Kara,rural,30983,0,10,0,,non_determinable,C5 mobile money uniquement,False
+A08029,Zio 1,Zio,Maritime hors Grand Lomé,rural,307292,17,508,4,100.0,,"C4 volume élevé, taux faible",False
+B01034,Agou 2,Agou,Plateaux,rural,27465,0,50,0,38.1,,C5 mobile money uniquement,True
+B02036,Akébou 2,Akébou,Plateaux,rural,29634,0,24,0,27.2,,C5 mobile money uniquement,False
+B04041,Anié 2,Anié,Plateaux,rural,79413,1,48,0,5.2,,"C1 population forte, offre faible",False
+B06045,Est-Mono 2,Est-Mono,Plateaux,rural,101866,1,99,0,55.3,,"C1 population forte, offre faible",False
+B07049,Haho 3,Haho,Plateaux,rural,58695,0,105,0,96.0,,C5 mobile money uniquement,False
+B08053,Kloto 3,Kloto,Plateaux,rural,11433,2,36,0,100.0,,"C4 taux élevé, volume faible",False
+B12063,Wawa 2,Wawa,Plateaux,rural,20414,0,16,0,100.0,,C5 mobile money uniquement,False
+B12064,Wawa 3,Wawa,Plateaux,rural,29699,0,56,0,100.0,,C5 mobile money uniquement,False
+E01102,Cinkassé 2,Cinkassé,Savanes,rural,52967,2,76,0,100.0,,C3 voisine moins dotée (mobile money),False
+E02103,Kpendjal 1,Kpendjal,Savanes,rural,47903,0,36,0,,non_determinable,C5 mobile money uniquement,False
+E02104,Kpendjal 2,Kpendjal,Savanes,rural,40462,0,5,0,,non_determinable,C5 mobile money uniquement,False
+E07114,Tône 2,Tône,Savanes,rural,50179,0,76,0,100.0,,C5 mobile money uniquement,False
+E07116,Tône 4,Tône,Savanes,rural,66577,0,175,0,100.0,,C5 mobile money uniquement,False

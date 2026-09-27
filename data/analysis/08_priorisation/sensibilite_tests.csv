@@ -1,0 +1,12 @@
+test,territoires,classes_changees,rho_avec_principal,lecture,extreme_retire
+poids D1 doublé,36,3,0.971,3 dimensions,Akébou (D1)
+poids D2 doublé,36,2,0.981,3 dimensions,Akébou (D1)
+poids D3 doublé,36,7,0.95,3 dimensions,Akébou (D1)
+min-max,36,23,0.956,3 dimensions,Akébou (D1)
+sans Akébou,35,0,0.998,3 dimensions,Akébou (D1)
+min-max lu en rang (variante P13),36,2,0.956,3 dimensions,Akébou (D1)
+poids D1 doublé,39,6,0.989,sans couverture,Kpendjal (D1)
+poids D2 doublé,39,2,0.979,sans couverture,Kpendjal (D1)
+min-max,39,24,0.98,sans couverture,Kpendjal (D1)
+sans Kpendjal,38,0,1.0,sans couverture,Kpendjal (D1)
+min-max lu en rang (variante P13),39,0,0.98,sans couverture,Kpendjal (D1)

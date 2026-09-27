@@ -1,0 +1,34 @@
+territoire,maille,nature,levier_possible,indicateur_qui_chiffrera,condition
+Dankpen,préfecture,accès formel (rang 91),infrastructure financière : points formels,"O4-01, O4-02",
+Dankpen,préfecture,maillage mobile money (rang 91),réseau d'agents mobile money,"O4-04, O4-05",
+Dankpen,préfecture,couverture (proxy) (rang 86),infrastructure réseau,"O2-06, O4-06",couverture proxy (A17) : à confirmer avant toute action réseau
+Dankpen,commune,"sans point formel : Dankpen 2, Dankpen 3",infrastructure financière : points formels de proximité,"O4-01, O4-05",priorité absolue d'O5-03 à la maille communale (P17)
+Est-Mono,préfecture,accès formel (rang 97),infrastructure financière : points formels,"O4-01, O4-02",
+Est-Mono,préfecture,couverture (proxy) (rang 77),infrastructure réseau,"O2-06, O4-06",couverture proxy (A17) : à confirmer avant toute action réseau
+Blitta,préfecture,maillage mobile money (rang 100),réseau d'agents mobile money,"O4-04, O4-05",
+Blitta,commune,sans point formel : Blitta 3,infrastructure financière : points formels de proximité,"O4-01, O4-05",priorité absolue d'O5-03 à la maille communale (P17)
+Oti-Sud,préfecture,couverture (proxy) (rang 91),infrastructure réseau,"O2-06, O4-06",couverture proxy (A17) : à confirmer avant toute action réseau
+Oti-Sud,préfecture,accès formel (rang 89),infrastructure financière : points formels,"O4-01, O4-02",
+Oti-Sud,préfecture,maillage mobile money (rang 86),réseau d'agents mobile money,"O4-04, O4-05",
+Kéran,préfecture,couverture (proxy) (rang 100),infrastructure réseau,"O2-06, O4-06",couverture proxy (A17) : à confirmer avant toute action réseau ; P16 : les actions sur les guichets n'attendent pas
+Kéran,préfecture,maillage mobile money (rang 83),réseau d'agents mobile money,"O4-04, O4-05",
+Kéran,commune,"sans point formel : Kéran 2, Kéran 3",infrastructure financière : points formels de proximité,"O4-01, O4-05",priorité absolue d'O5-03 à la maille communale (P17)
+Kpendjal-Ouest,préfecture,accès formel (rang 94),infrastructure financière : points formels,"O4-01, O4-02",
+Kpendjal-Ouest,préfecture,maillage mobile money (rang 89),réseau d'agents mobile money,"O4-04, O4-05",
+Kpendjal-Ouest,préfecture,couverture (proxy) (rang 83),infrastructure réseau,"O2-06, O4-06",couverture proxy (A17) : à confirmer avant toute action réseau
+Akébou,préfecture,accès formel (rang 100),infrastructure financière : points formels,"O4-01, O4-02",
+Akébou,préfecture,couverture (proxy) (rang 94),infrastructure réseau,"O2-06, O4-06",couverture proxy (A17) : à confirmer avant toute action réseau
+Akébou,commune,sans point formel : Akébou 2,infrastructure financière : points formels de proximité,"O4-01, O4-05",priorité absolue d'O5-03 à la maille communale (P17)
+Tchamba,préfecture,maillage mobile money (rang 87),réseau d'agents mobile money,"O4-04, O4-05",
+Tchamba,préfecture,couverture inconnue (A13),mesurer la couverture réelle,O2-06,préalable à toute action réseau
+Kpendjal,préfecture,accès formel (rang 100),infrastructure financière : points formels,"O4-01, O4-02",
+Kpendjal,préfecture,maillage mobile money (rang 100),réseau d'agents mobile money,"O4-04, O4-05",
+Kpendjal,préfecture,couverture inconnue (A13),mesurer la couverture réelle,O2-06,préalable à toute action réseau
+Kpendjal,commune,"sans point formel : Kpendjal 1, Kpendjal 2",infrastructure financière : points formels de proximité,"O4-01, O4-05",priorité absolue d'O5-03 à la maille communale (P17)
+Mô,préfecture,maillage mobile money (rang 95),réseau d'agents mobile money,"O4-04, O4-05",
+Mô,préfecture,accès formel (rang 82),infrastructure financière : points formels,"O4-01, O4-02",
+Mô,préfecture,couverture inconnue (A13),mesurer la couverture réelle,O2-06,préalable à toute action réseau
+14 communes « mobile money uniquement » des préfectures en priorité 2 ou 3,commune,"sans point formel : Agou 2, Haho 3, Tône 2, Tône 4, Wawa 2, Wawa 3, Assoli 2, Assoli 3, Bassar 4, Kozah 3, Kozah 4, Tchaoudjo 2, Tchaoudjo 3, Tchaoudjo 4",infrastructure financière : points formels de proximité,"O4-01, O4-05",priorité absolue d'O5-03 à la maille communale (P17)
+Plateaux,région,"usage d'Internet faible, frein de capacité présumé (O1-06)",compétences numériques,O1-06,proxy de compétence ; maille régionale
+Savanes,région,"usage d'Internet faible, frein de capacité présumé (O1-06)",compétences numériques,O1-06,proxy de compétence ; maille régionale
+toutes les régions,national,"1 Go = 5,30 % du revenu mensuel (O2-05b)",tarification,O2-05b,national

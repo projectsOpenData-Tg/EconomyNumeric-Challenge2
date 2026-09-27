@@ -1,0 +1,25 @@
+maille,type,classe_02,territoires,population
+commune,banques,absence,67,3205633
+commune,banques,présence marginale,23,1440519
+commune,banques,présence établie,27,3449346
+commune,IMF,absence,23,834291
+commune,IMF,présence marginale,39,2037696
+commune,IMF,présence établie,55,5223511
+commune,assurances,absence,105,6066247
+commune,assurances,présence marginale,6,788217
+commune,assurances,présence établie,6,1241034
+commune,sites de DAB,absence,81,3761405
+commune,sites de DAB,présence marginale,20,1632152
+commune,sites de DAB,présence établie,16,2701941
+préfecture,banques,absence,9,842210
+préfecture,banques,présence marginale,9,1094683
+préfecture,banques,présence établie,21,6158605
+préfecture,IMF,absence,1,88365
+préfecture,IMF,présence marginale,2,126278
+préfecture,IMF,présence établie,36,7880855
+préfecture,assurances,absence,33,4912756
+préfecture,assurances,présence marginale,3,710628
+préfecture,assurances,présence établie,3,2472114
+préfecture,sites de DAB,absence,17,2092537
+préfecture,sites de DAB,présence marginale,10,1335142
+préfecture,sites de DAB,présence établie,12,4667819

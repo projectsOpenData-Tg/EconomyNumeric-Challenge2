@@ -1,0 +1,7 @@
+strates,strate,pop,formels,part_points_pct,part_population_pct,indice_concentration
+seuil de 50 % d'urbains,autres_villes,1299138.0,150.0,22.866,16.048,1.425
+seuil de 50 % d'urbains,grand_lome,2188376.0,262.0,39.939,27.032,1.477
+seuil de 50 % d'urbains,rural,4607984.0,244.0,37.195,56.92,0.653
+seuil de 75 % d'urbains,autres_villes,309926.0,36.0,5.488,3.828,1.433
+seuil de 75 % d'urbains,grand_lome,2188376.0,262.0,39.939,27.032,1.477
+seuil de 75 % d'urbains,rural,5597196.0,358.0,54.573,69.14,0.789

@@ -1,0 +1,7 @@
+lecture,classe,prefectures,robustes,robustes_P13,communes_sans_point_formel,pop_communes_sans_point_formel,communes_critiques_O4_06,pop_communes_critiques,population,part_population_pct,prefectures_noms
+3 dimensions,priorité 1,7,0,7,6,268508,6,261656,989617,12.8,"Dankpen, Est-Mono, Blitta, Oti-Sud, Kéran, Kpendjal-Ouest, Akébou"
+3 dimensions,priorité 2,16,0,8,6,253029,2,106878,3685497,47.5,"Agoè-Nyivé, Zio, Tône, Haho, Ogou, Anié, Yoto, Tandjoaré, Sotouboua, Oti, Amou, Avé, Wawa, Bas-Mono, Moyen-Mono, Agou"
+3 dimensions,priorité 3,13,10,10,8,149697,0,0,3078986,39.7,"Golfe, Kozah, Lacs, Tchaoudjo, Vo, Bassar, Kloto, Cinkassé, Doufelgou, Binah, Kpélé, Assoli, Danyi"
+sans couverture,priorité 1,12,1,9,8,356873,6,261656,1560387,19.3,"Dankpen, Est-Mono, Blitta, Oti-Sud, Kéran, Kpendjal-Ouest, Akébou, Tandjoaré, Moyen-Mono, Tchamba, Kpendjal, Mô"
+sans couverture,priorité 2,13,0,8,6,253029,2,106878,3416824,42.2,"Agoè-Nyivé, Zio, Tône, Haho, Ogou, Anié, Yoto, Amou, Avé, Wawa, Bas-Mono, Agou, Vo"
+sans couverture,priorité 3,14,14,14,8,149697,0,0,3118287,38.5,"Sotouboua, Oti, Golfe, Kozah, Lacs, Tchaoudjo, Bassar, Kloto, Cinkassé, Doufelgou, Binah, Kpélé, Assoli, Danyi"

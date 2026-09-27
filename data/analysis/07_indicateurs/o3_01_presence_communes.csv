@@ -1,0 +1,118 @@
+code,nom,unite_regionale,n_banque,n_imf,n_assurance,n_dab,classe_n_banque,classe_n_imf,classe_n_assurance,classe_n_dab
+A01001,Agoè-Nyivé 1,Grand Lomé,5,21,7,9,présence établie,présence établie,présence établie,présence établie
+A01002,Agoè-Nyivé 2,Grand Lomé,0,6,0,0,absence,présence établie,absence,absence
+A01003,Agoè-Nyivé 3,Grand Lomé,1,5,1,1,présence marginale,présence établie,présence marginale,présence marginale
+A01004,Agoè-Nyivé 4,Grand Lomé,2,2,0,2,présence marginale,présence marginale,absence,présence marginale
+A01005,Agoè-Nyivé 5,Grand Lomé,0,5,0,1,absence,présence établie,absence,présence marginale
+A01006,Agoè-Nyivé 6,Grand Lomé,1,6,0,1,présence marginale,présence établie,absence,présence marginale
+A06022,Vo 1,Maritime hors Grand Lomé,4,4,0,3,présence établie,présence établie,absence,présence établie
+A06023,Vo 2,Maritime hors Grand Lomé,0,1,0,0,absence,présence marginale,absence,absence
+A02007,Avé 1,Maritime hors Grand Lomé,3,7,0,2,présence établie,présence établie,absence,présence marginale
+A06024,Vo 3,Maritime hors Grand Lomé,0,2,0,0,absence,présence marginale,absence,absence
+A02008,Avé 2,Maritime hors Grand Lomé,0,3,0,0,absence,présence établie,absence,absence
+A03009,Bas-Mono 1,Maritime hors Grand Lomé,0,3,0,0,absence,présence établie,absence,absence
+A03010,Bas-Mono 2,Maritime hors Grand Lomé,0,1,0,0,absence,présence marginale,absence,absence
+A06025,Vo 4,Maritime hors Grand Lomé,1,5,0,0,présence marginale,présence établie,absence,absence
+A04014,Golfe 4,Grand Lomé,8,1,11,18,présence établie,présence marginale,présence établie,présence établie
+A04015,Golfe 5,Grand Lomé,20,23,12,12,présence établie,présence établie,présence établie,présence établie
+A04016,Golfe 6,Grand Lomé,10,12,1,8,présence établie,présence établie,présence marginale,présence établie
+A04017,Golfe 7,Grand Lomé,0,11,1,2,absence,présence établie,présence marginale,présence marginale
+A07026,Yoto 1,Maritime hors Grand Lomé,4,6,0,1,présence établie,présence établie,absence,présence marginale
+A05018,Lacs 1,Maritime hors Grand Lomé,5,3,0,0,présence établie,présence établie,absence,absence
+A05019,Lacs 2,Maritime hors Grand Lomé,1,1,0,0,présence marginale,présence marginale,absence,absence
+A05021,Lacs 4,Maritime hors Grand Lomé,1,2,0,0,présence marginale,présence marginale,absence,absence
+A07027,Yoto 2,Maritime hors Grand Lomé,1,5,0,1,présence marginale,présence établie,absence,présence marginale
+A07028,Yoto 3,Maritime hors Grand Lomé,1,2,0,1,présence marginale,présence marginale,absence,présence marginale
+A08029,Zio 1,Maritime hors Grand Lomé,4,13,0,4,présence établie,présence établie,absence,présence établie
+A08030,Zio 2,Maritime hors Grand Lomé,0,3,0,0,absence,présence établie,absence,absence
+A08031,Zio 3,Maritime hors Grand Lomé,1,3,0,0,présence marginale,présence établie,absence,absence
+A08032,Zio 4,Maritime hors Grand Lomé,0,3,0,0,absence,présence établie,absence,absence
+B01033,Agou 1,Plateaux,1,5,0,0,présence marginale,présence établie,absence,absence
+B01034,Agou 2,Plateaux,0,0,0,0,absence,absence,absence,absence
+B02035,Akébou 1,Plateaux,0,1,0,0,absence,présence marginale,absence,absence
+B02036,Akébou 2,Plateaux,0,0,0,0,absence,absence,absence,absence
+B07048,Haho 2,Plateaux,0,2,0,0,absence,présence marginale,absence,absence
+B03037,Amou 1,Plateaux,0,1,0,0,absence,présence marginale,absence,absence
+B03038,Amou 2,Plateaux,0,4,0,0,absence,présence établie,absence,absence
+B09054,Kpélé 1,Plateaux,1,4,0,1,présence marginale,présence établie,absence,présence marginale
+B10057,Moyen-Mono 2,Plateaux,0,2,0,0,absence,présence marginale,absence,absence
+B03039,Amou 3,Plateaux,0,1,0,0,absence,présence marginale,absence,absence
+B04040,Anié 1,Plateaux,4,5,0,2,présence établie,présence établie,absence,présence marginale
+B04041,Anié 2,Plateaux,0,1,0,0,absence,présence marginale,absence,absence
+B05042,Danyi 1,Plateaux,0,2,0,0,absence,présence marginale,absence,absence
+B09055,Kpélé 2,Plateaux,0,3,0,0,absence,présence établie,absence,absence
+C05079,Tchaoudjo 4,Centrale,0,0,0,0,absence,absence,absence,absence
+B05043,Danyi 2,Plateaux,0,1,0,0,absence,présence marginale,absence,absence
+B06044,Est-Mono 1,Plateaux,0,1,0,0,absence,présence marginale,absence,absence
+D02086,Bassar 4,Kara,0,0,0,0,absence,absence,absence,absence
+B06045,Est-Mono 2,Plateaux,0,1,0,0,absence,présence marginale,absence,absence
+B06046,Est-Mono 3,Plateaux,0,1,0,0,absence,présence marginale,absence,absence
+B07047,Haho 1,Plateaux,3,12,1,2,présence établie,présence établie,présence marginale,présence marginale
+B07050,Haho 4,Plateaux,0,4,0,0,absence,présence établie,absence,absence
+B08051,Kloto 1,Plateaux,5,4,0,6,présence établie,présence établie,absence,présence établie
+B10056,Moyen-Mono 1,Plateaux,0,3,0,1,absence,présence établie,absence,présence marginale
+B08052,Kloto 2,Plateaux,0,1,0,0,absence,présence marginale,absence,absence
+B08053,Kloto 3,Plateaux,0,2,0,0,absence,présence marginale,absence,absence
+B11058,Ogou 1,Plateaux,7,5,2,6,présence établie,présence établie,présence marginale,présence établie
+B11059,Ogou 2,Plateaux,0,2,0,0,absence,présence marginale,absence,absence
+B12064,Wawa 3,Plateaux,0,0,0,0,absence,absence,absence,absence
+B11060,Ogou 3,Plateaux,0,3,0,0,absence,présence établie,absence,absence
+B11061,Ogou 4,Plateaux,0,2,0,0,absence,présence marginale,absence,absence
+B12062,Wawa 1,Plateaux,1,3,0,1,présence marginale,présence établie,absence,présence marginale
+B12063,Wawa 2,Plateaux,0,0,0,0,absence,absence,absence,absence
+C01065,Blitta 1,Centrale,3,5,0,1,présence établie,présence établie,absence,présence marginale
+C01066,Blitta 2,Centrale,0,2,0,0,absence,présence marginale,absence,absence
+C01067,Blitta 3,Centrale,0,0,0,0,absence,absence,absence,absence
+C02068,Mô 1,Centrale,0,1,0,0,absence,présence marginale,absence,absence
+C02069,Mô 2,Centrale,0,1,0,0,absence,présence marginale,absence,absence
+C03070,Sotouboua 1,Centrale,4,7,0,3,présence établie,présence établie,absence,présence établie
+C03071,Sotouboua 2,Centrale,1,3,0,1,présence marginale,présence établie,absence,présence marginale
+C03072,Sotouboua 3,Centrale,0,3,0,0,absence,présence établie,absence,absence
+C04073,Tchamba 1,Centrale,1,5,0,0,présence marginale,présence établie,absence,absence
+C05077,Tchaoudjo 2,Centrale,0,0,0,0,absence,absence,absence,absence
+C04074,Tchamba 2,Centrale,0,1,0,0,absence,présence marginale,absence,absence
+C05076,Tchaoudjo 1,Centrale,11,9,0,8,présence établie,présence établie,absence,présence établie
+C04075,Tchamba 3,Centrale,0,5,0,0,absence,présence établie,absence,absence
+C05078,Tchaoudjo 3,Centrale,0,0,0,0,absence,absence,absence,absence
+D01080,Assoli 1,Kara,2,5,0,1,présence marginale,présence établie,absence,présence marginale
+D01081,Assoli 2,Kara,0,0,0,0,absence,absence,absence,absence
+D01082,Assoli 3,Kara,0,0,0,0,absence,absence,absence,absence
+D03087,Binah 1,Kara,1,1,0,0,présence marginale,présence marginale,absence,absence
+D02083,Bassar 1,Kara,4,4,1,1,présence établie,présence établie,présence marginale,présence marginale
+D02084,Bassar 2,Kara,1,1,0,0,présence marginale,présence marginale,absence,absence
+D02085,Bassar 3,Kara,1,2,0,1,présence marginale,présence marginale,absence,présence marginale
+D03088,Binah 2,Kara,3,4,0,1,présence établie,présence établie,absence,présence marginale
+D04090,Dankpen 2,Kara,0,0,0,0,absence,absence,absence,absence
+D04091,Dankpen 3,Kara,0,0,0,0,absence,absence,absence,absence
+D04089,Dankpen 1,Kara,2,4,0,0,présence marginale,présence établie,absence,absence
+D05092,Doufelgou 1,Kara,2,4,0,0,présence marginale,présence établie,absence,absence
+D05093,Doufelgou 3,Kara,0,3,0,0,absence,présence établie,absence,absence
+D05094,Doufelgou 2,Kara,0,1,0,0,absence,présence marginale,absence,absence
+D06094,Kéran 1,Kara,4,3,0,0,présence établie,présence établie,absence,absence
+E01102,Cinkassé 2,Savanes,0,2,0,0,absence,présence marginale,absence,absence
+D06095,Kéran 2,Kara,0,0,0,0,absence,absence,absence,absence
+D06096,Kéran 3,Kara,0,0,0,0,absence,absence,absence,absence
+D07097,Kozah 1,Kara,12,4,6,10,présence établie,présence établie,présence établie,présence établie
+D07098,Kozah 2,Kara,3,1,0,0,présence établie,présence marginale,absence,absence
+E02103,Kpendjal 1,Savanes,0,0,0,0,absence,absence,absence,absence
+E02104,Kpendjal 2,Savanes,0,0,0,0,absence,absence,absence,absence
+E03105,Kpendjal-Ouest 1,Savanes,0,1,0,0,absence,présence marginale,absence,absence
+D07099,Kozah 3,Kara,0,0,0,0,absence,absence,absence,absence
+D07100,Kozah 4,Kara,0,0,0,0,absence,absence,absence,absence
+E01101,Cinkassé 1,Savanes,8,6,0,10,présence établie,présence établie,absence,présence établie
+E03106,Kpendjal-Ouest 2,Savanes,0,2,0,0,absence,présence marginale,absence,absence
+E04109,Oti 1,Savanes,4,3,0,0,présence établie,présence établie,absence,absence
+E04110,Oti 2,Savanes,1,2,0,0,présence marginale,présence marginale,absence,absence
+E07116,Tône 4,Savanes,0,0,0,0,absence,absence,absence,absence
+A05020,Lacs 3,Maritime hors Grand Lomé,0,5,0,0,absence,présence établie,absence,absence
+E05107,Oti-Sud 1,Savanes,1,3,0,0,présence marginale,présence établie,absence,absence
+B07049,Haho 3,Plateaux,0,0,0,0,absence,absence,absence,absence
+A04013,Golfe 3,Grand Lomé,13,6,12,18,présence établie,présence établie,présence établie,présence établie
+A04012,Golfe 2,Grand Lomé,5,2,0,14,présence établie,présence marginale,absence,présence établie
+E05108,Oti-Sud 2,Savanes,0,1,0,0,absence,présence marginale,absence,absence
+E06111,Tandjoaré 1,Savanes,1,0,0,0,présence marginale,absence,absence,absence
+E06112,Tandjoaré 2,Savanes,0,4,0,0,absence,présence établie,absence,absence
+E07113,Tône 1,Savanes,7,7,0,9,présence établie,présence établie,absence,présence établie
+E07114,Tône 2,Savanes,0,0,0,0,absence,absence,absence,absence
+E07115,Tône 3,Savanes,0,1,0,0,absence,présence marginale,absence,absence
+A04011,Golfe 1,Grand Lomé,22,23,7,21,présence établie,présence établie,présence établie,présence établie

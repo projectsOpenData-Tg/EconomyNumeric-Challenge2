@@ -1,0 +1,8 @@
+code,nom,points_mm,mediane_km_guichet,mediane_km_dab,part_plus_5km_guichet_pct,part_plus_5km_dab_pct,part_plus_10km_guichet_pct,part_plus_10km_dab_pct
+A_HGL,Maritime hors Grand Lomé,2467.0,1.0,9.7,15.6,73.7,3.9,49.0
+B,Plateaux,3079.0,1.0,8.7,26.5,57.1,14.0,47.8
+C,Centrale,2093.0,1.2,2.2,22.7,33.5,15.4,28.4
+D,Kara,2951.0,1.3,2.3,20.1,37.3,10.8,28.9
+E,Savanes,2679.0,0.9,5.8,27.7,50.5,13.7,46.2
+GL,Grand Lomé,6519.0,0.5,0.9,0.0,1.4,0.0,0.0
+national,National,19788.0,0.7,1.7,15.2,34.5,7.8,27.1

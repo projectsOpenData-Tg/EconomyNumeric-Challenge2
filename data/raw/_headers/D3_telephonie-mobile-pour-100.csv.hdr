@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Fri, 25 Sep 2026 11:43:14 GMT
+Content-Type: application/octet-stream
+Content-Length: 4652
+Connection: keep-alive
+Server: nginx/1.18.0 (Ubuntu)
+Last-Modified: Mon, 06 Jan 2025 18:24:05 GMT
+ETag: "677c1fc5-122c"
+Pragma: public
+Cache-Control: public
+Accept-Ranges: bytes
+X-Robots-Tag: noindex, nofollow
+

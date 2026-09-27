@@ -1,0 +1,57 @@
+No.,Nom du champ,Question,Description,Type du champ
+1,region_nom_bdd,,xsd:string,string
+2,prefecture_nom_bdd,,xsd:string,string
+3,commune_nom_bdd,,xsd:string,string
+4,canton_nom_bdd,,xsd:string,string
+5,id,,xsd:int,int
+6,canton_id_bdd,ID du canton,xsd:string,string
+7,nom_localite,Nom de la localité (Ville + Quartier si grande ville),xsd:string,string
+8,tour_id_collecte,ID textuel de la tour,xsd:string,string
+9,tour_nom,Nom de la tour,xsd:string,string
+10,interlocuteur_presence,,xsd:string,string
+11,interlocuteur_operateur,,xsd:string,string
+12,interlocuteur_responsable,,xsd:string,string
+13,interlocuteur_fonction,,xsd:string,string
+14,interlocuteur_nom_prenom,,xsd:string,string
+15,interlocuteur_genre,,xsd:string,string
+16,interlocuteur_tel,,xsd:string,string
+17,tour_ancrage,,xsd:string,string
+18,tour_hauteur,,xsd:string,string
+19,tour_proprietaire,,xsd:string,string
+20,tour_operateur,,xsd:string,string
+21,tour_construction_date,,xsd:int,int
+22,tour_maintenance,,xsd:string,string
+23,tour_pylone_mantenance_nom,,xsd:string,string
+24,tour_pylone_mantenance,,xsd:string,string
+25,tour_fibre,,xsd:string,string
+26,tour_fibre_probleme,,xsd:string,string
+27,tour_vsat,,xsd:string,string
+28,tour_radio,,xsd:string,string
+29,tour_radio_source,,xsd:string,string
+30,tour_radio_cible,,xsd:string,string
+31,tour_gsm,,xsd:string,string
+32,tour_gsm_type,,xsd:string,string
+33,tour_equip_autre,,xsd:string,string
+34,tour_energie,,xsd:string,string
+35,tour_ceet_transfo,,xsd:string,string
+36,tour_ceet_regul,,xsd:string,string
+37,tour_gen_marque,,xsd:string,string
+38,tour_gen_probleme,,xsd:string,string
+39,tour_batterie_nbr,,xsd:int,int
+40,tour_batterie_marque,,xsd:string,string
+41,tour_batterie_type,,xsd:string,string
+42,tour_batterie_probleme,,xsd:string,string
+43,tour_solaire_nbr,,xsd:int,int
+44,tour_solaire_marque,,xsd:string,string
+45,tour_solaire_probleme,,xsd:string,string
+46,tour_invert_nbr,,xsd:int,int
+47,tour_invert_marque,,xsd:string,string
+48,tour_invert_probleme,,xsd:string,string
+49,tour_equip_mantenance_nom_ener,,xsd:string,string
+50,tour_equip_mantenance_telephone_ener,,xsd:string,string
+51,tour_employe,,xsd:string,string
+52,tour_employe_nbr,,xsd:string,string
+53,tour_employe_telephone,,xsd:string,string
+54,date_collecte,Date de la collecte,xsd:string,string
+55,date_mise_a_jour_collecte,Date de la mise à jour,xsd:string,string
+56,geometry,Géométrie,gml:Point,Point

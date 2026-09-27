@@ -1,0 +1,343 @@
+code,Ii,p,grappe,variable,nom,prefecture,unite_regionale,strate_50
+A01001,0.4004,0.049,élevé entouré d'élevés,formels_pour_10k_hab,Agoè-Nyivé 1,Agoè-Nyivé,Grand Lomé,grand_lome
+A01002,0.012,0.511,non significatif,formels_pour_10k_hab,Agoè-Nyivé 2,Agoè-Nyivé,Grand Lomé,grand_lome
+A01003,0.8097,0.057,non significatif,formels_pour_10k_hab,Agoè-Nyivé 3,Agoè-Nyivé,Grand Lomé,grand_lome
+A01004,0.0215,0.522,non significatif,formels_pour_10k_hab,Agoè-Nyivé 4,Agoè-Nyivé,Grand Lomé,grand_lome
+A01005,-0.2326,0.087,non significatif,formels_pour_10k_hab,Agoè-Nyivé 5,Agoè-Nyivé,Grand Lomé,grand_lome
+A01006,0.035,0.319,non significatif,formels_pour_10k_hab,Agoè-Nyivé 6,Agoè-Nyivé,Grand Lomé,grand_lome
+A06022,0.0221,0.328,non significatif,formels_pour_10k_hab,Vo 1,Vo,Maritime hors Grand Lomé,rural
+A06023,-0.1777,0.124,non significatif,formels_pour_10k_hab,Vo 2,Vo,Maritime hors Grand Lomé,rural
+A02007,-0.174,0.329,non significatif,formels_pour_10k_hab,Avé 1,Avé,Maritime hors Grand Lomé,rural
+A06024,-0.1706,0.148,non significatif,formels_pour_10k_hab,Vo 3,Vo,Maritime hors Grand Lomé,rural
+A02008,-0.017,0.48,non significatif,formels_pour_10k_hab,Avé 2,Avé,Maritime hors Grand Lomé,rural
+A03009,0.0346,0.4,non significatif,formels_pour_10k_hab,Bas-Mono 1,Bas-Mono,Maritime hors Grand Lomé,rural
+A03010,0.0777,0.441,non significatif,formels_pour_10k_hab,Bas-Mono 2,Bas-Mono,Maritime hors Grand Lomé,rural
+A06025,-0.0337,0.512,non significatif,formels_pour_10k_hab,Vo 4,Vo,Maritime hors Grand Lomé,rural
+A04014,1.0896,0.045,élevé entouré d'élevés,formels_pour_10k_hab,Golfe 4,Golfe,Grand Lomé,grand_lome
+A04015,1.0514,0.128,non significatif,formels_pour_10k_hab,Golfe 5,Golfe,Grand Lomé,grand_lome
+A04016,-0.1967,0.362,non significatif,formels_pour_10k_hab,Golfe 6,Golfe,Grand Lomé,grand_lome
+A04017,-0.3335,0.048,faible entouré d'élevés,formels_pour_10k_hab,Golfe 7,Golfe,Grand Lomé,grand_lome
+A07026,0.0277,0.377,non significatif,formels_pour_10k_hab,Yoto 1,Yoto,Maritime hors Grand Lomé,rural
+A05018,-0.1341,0.438,non significatif,formels_pour_10k_hab,Lacs 1,Lacs,Maritime hors Grand Lomé,autres_villes
+A05019,-0.0322,0.356,non significatif,formels_pour_10k_hab,Lacs 2,Lacs,Maritime hors Grand Lomé,rural
+A05021,0.0153,0.328,non significatif,formels_pour_10k_hab,Lacs 4,Lacs,Maritime hors Grand Lomé,rural
+A07027,0.2632,0.174,non significatif,formels_pour_10k_hab,Yoto 2,Yoto,Maritime hors Grand Lomé,rural
+A07028,-0.0672,0.202,non significatif,formels_pour_10k_hab,Yoto 3,Yoto,Maritime hors Grand Lomé,rural
+A08029,-0.0383,0.22,non significatif,formels_pour_10k_hab,Zio 1,Zio,Maritime hors Grand Lomé,rural
+A08030,-0.0107,0.417,non significatif,formels_pour_10k_hab,Zio 2,Zio,Maritime hors Grand Lomé,rural
+A08031,-0.0515,0.173,non significatif,formels_pour_10k_hab,Zio 3,Zio,Maritime hors Grand Lomé,rural
+A08032,0.0434,0.315,non significatif,formels_pour_10k_hab,Zio 4,Zio,Maritime hors Grand Lomé,rural
+B01033,0.0033,0.423,non significatif,formels_pour_10k_hab,Agou 1,Agou,Plateaux,rural
+B01034,-0.315,0.165,non significatif,formels_pour_10k_hab,Agou 2,Agou,Plateaux,rural
+B02035,0.4339,0.022,faible entouré de faibles,formels_pour_10k_hab,Akébou 1,Akébou,Plateaux,rural
+B02036,0.447,0.089,non significatif,formels_pour_10k_hab,Akébou 2,Akébou,Plateaux,rural
+B07048,-0.0721,0.337,non significatif,formels_pour_10k_hab,Haho 2,Haho,Plateaux,rural
+B03037,0.1141,0.109,non significatif,formels_pour_10k_hab,Amou 1,Amou,Plateaux,rural
+B03038,-0.0335,0.505,non significatif,formels_pour_10k_hab,Amou 2,Amou,Plateaux,rural
+B09054,0.0512,0.249,non significatif,formels_pour_10k_hab,Kpélé 1,Kpélé,Plateaux,rural
+B10057,0.016,0.548,non significatif,formels_pour_10k_hab,Moyen-Mono 2,Moyen-Mono,Plateaux,rural
+B03039,0.2136,0.192,non significatif,formels_pour_10k_hab,Amou 3,Amou,Plateaux,rural
+B04040,-0.1144,0.074,non significatif,formels_pour_10k_hab,Anié 1,Anié,Plateaux,autres_villes
+B04041,0.0159,0.562,non significatif,formels_pour_10k_hab,Anié 2,Anié,Plateaux,rural
+B05042,0.0174,0.254,non significatif,formels_pour_10k_hab,Danyi 1,Danyi,Plateaux,rural
+B09055,0.1115,0.226,non significatif,formels_pour_10k_hab,Kpélé 2,Kpélé,Plateaux,rural
+C05079,0.3,0.253,non significatif,formels_pour_10k_hab,Tchaoudjo 4,Tchaoudjo,Centrale,rural
+B05043,0.0004,0.517,non significatif,formels_pour_10k_hab,Danyi 2,Danyi,Plateaux,rural
+B06044,0.2466,0.131,non significatif,formels_pour_10k_hab,Est-Mono 1,Est-Mono,Plateaux,rural
+D02086,-0.3768,0.152,non significatif,formels_pour_10k_hab,Bassar 4,Bassar,Kara,rural
+B06045,0.1661,0.327,non significatif,formels_pour_10k_hab,Est-Mono 2,Est-Mono,Plateaux,rural
+B06046,0.169,0.191,non significatif,formels_pour_10k_hab,Est-Mono 3,Est-Mono,Plateaux,rural
+B07047,0.0595,0.358,non significatif,formels_pour_10k_hab,Haho 1,Haho,Plateaux,rural
+B07050,-0.0205,0.489,non significatif,formels_pour_10k_hab,Haho 4,Haho,Plateaux,rural
+B08051,0.0157,0.26,non significatif,formels_pour_10k_hab,Kloto 1,Kloto,Plateaux,autres_villes
+B10056,0.0136,0.366,non significatif,formels_pour_10k_hab,Moyen-Mono 1,Moyen-Mono,Plateaux,rural
+B08052,-0.0519,0.109,non significatif,formels_pour_10k_hab,Kloto 2,Kloto,Plateaux,rural
+B08053,-0.0224,0.599,non significatif,formels_pour_10k_hab,Kloto 3,Kloto,Plateaux,rural
+B11058,-0.2815,0.171,non significatif,formels_pour_10k_hab,Ogou 1,Ogou,Plateaux,autres_villes
+B11059,0.0324,0.501,non significatif,formels_pour_10k_hab,Ogou 2,Ogou,Plateaux,rural
+B12064,0.4559,0.069,non significatif,formels_pour_10k_hab,Wawa 3,Wawa,Plateaux,rural
+B11060,0.0116,0.527,non significatif,formels_pour_10k_hab,Ogou 3,Ogou,Plateaux,rural
+B11061,0.0044,0.267,non significatif,formels_pour_10k_hab,Ogou 4,Ogou,Plateaux,rural
+B12062,-0.0902,0.009,élevé entouré de faibles,formels_pour_10k_hab,Wawa 1,Wawa,Plateaux,rural
+B12063,0.1325,0.39,non significatif,formels_pour_10k_hab,Wawa 2,Wawa,Plateaux,rural
+C01065,-0.2614,0.107,non significatif,formels_pour_10k_hab,Blitta 1,Blitta,Centrale,rural
+C01066,0.1414,0.143,non significatif,formels_pour_10k_hab,Blitta 2,Blitta,Centrale,rural
+C01067,0.1643,0.368,non significatif,formels_pour_10k_hab,Blitta 3,Blitta,Centrale,rural
+C02068,-0.2484,0.122,non significatif,formels_pour_10k_hab,Mô 1,Mô,Centrale,rural
+C02069,-0.2423,0.075,non significatif,formels_pour_10k_hab,Mô 2,Mô,Centrale,rural
+C03070,-0.5113,0.344,non significatif,formels_pour_10k_hab,Sotouboua 1,Sotouboua,Centrale,autres_villes
+C03071,-0.0264,0.203,non significatif,formels_pour_10k_hab,Sotouboua 2,Sotouboua,Centrale,rural
+C03072,0.0772,0.296,non significatif,formels_pour_10k_hab,Sotouboua 3,Sotouboua,Centrale,rural
+C04073,-0.007,0.377,non significatif,formels_pour_10k_hab,Tchamba 1,Tchamba,Centrale,rural
+C05077,-0.2181,0.274,non significatif,formels_pour_10k_hab,Tchaoudjo 2,Tchaoudjo,Centrale,rural
+C04074,-0.3009,0.111,non significatif,formels_pour_10k_hab,Tchamba 2,Tchamba,Centrale,rural
+C05076,-0.2201,0.114,non significatif,formels_pour_10k_hab,Tchaoudjo 1,Tchaoudjo,Centrale,autres_villes
+C04075,-0.1606,0.139,non significatif,formels_pour_10k_hab,Tchamba 3,Tchamba,Centrale,rural
+C05078,-0.0069,0.404,non significatif,formels_pour_10k_hab,Tchaoudjo 3,Tchaoudjo,Centrale,rural
+D01080,-0.933,0.008,élevé entouré de faibles,formels_pour_10k_hab,Assoli 1,Assoli,Kara,autres_villes
+D01081,0.1563,0.423,non significatif,formels_pour_10k_hab,Assoli 2,Assoli,Kara,rural
+D01082,0.4473,0.091,non significatif,formels_pour_10k_hab,Assoli 3,Assoli,Kara,rural
+D03087,-0.2542,0.072,non significatif,formels_pour_10k_hab,Binah 1,Binah,Kara,rural
+D02083,-0.0564,0.502,non significatif,formels_pour_10k_hab,Bassar 1,Bassar,Kara,autres_villes
+D02084,0.0143,0.482,non significatif,formels_pour_10k_hab,Bassar 2,Bassar,Kara,rural
+D02085,-0.0722,0.21,non significatif,formels_pour_10k_hab,Bassar 3,Bassar,Kara,rural
+D03088,-0.3205,0.374,non significatif,formels_pour_10k_hab,Binah 2,Binah,Kara,rural
+D04090,0.1948,0.327,non significatif,formels_pour_10k_hab,Dankpen 2,Dankpen,Kara,rural
+D04091,0.1843,0.352,non significatif,formels_pour_10k_hab,Dankpen 3,Dankpen,Kara,rural
+D04089,-0.0987,0.002,élevé entouré de faibles,formels_pour_10k_hab,Dankpen 1,Dankpen,Kara,rural
+D05092,-0.0603,0.51,non significatif,formels_pour_10k_hab,Doufelgou 1,Doufelgou,Kara,autres_villes
+D05093,0.0575,0.276,non significatif,formels_pour_10k_hab,Doufelgou 3,Doufelgou,Kara,rural
+D05094,0.08,0.149,non significatif,formels_pour_10k_hab,Doufelgou 2,Doufelgou,Kara,rural
+D06094,-0.4432,0.146,non significatif,formels_pour_10k_hab,Kéran 1,Kéran,Kara,rural
+E01102,-0.0775,0.294,non significatif,formels_pour_10k_hab,Cinkassé 2,Cinkassé,Savanes,rural
+D06095,-0.0362,0.375,non significatif,formels_pour_10k_hab,Kéran 2,Kéran,Kara,rural
+D06096,-0.6998,0.065,non significatif,formels_pour_10k_hab,Kéran 3,Kéran,Kara,rural
+D07097,-0.0679,0.459,non significatif,formels_pour_10k_hab,Kozah 1,Kozah,Kara,autres_villes
+D07098,0.0349,0.285,non significatif,formels_pour_10k_hab,Kozah 2,Kozah,Kara,rural
+E02103,0.5998,0.072,non significatif,formels_pour_10k_hab,Kpendjal 1,Kpendjal,Savanes,rural
+E02104,0.5613,0.037,faible entouré de faibles,formels_pour_10k_hab,Kpendjal 2,Kpendjal,Savanes,rural
+E03105,0.3994,0.041,faible entouré de faibles,formels_pour_10k_hab,Kpendjal-Ouest 1,Kpendjal-Ouest,Savanes,rural
+D07099,-0.2785,0.181,non significatif,formels_pour_10k_hab,Kozah 3,Kozah,Kara,rural
+D07100,-0.0885,0.335,non significatif,formels_pour_10k_hab,Kozah 4,Kozah,Kara,rural
+E01101,-0.6638,0.374,non significatif,formels_pour_10k_hab,Cinkassé 1,Cinkassé,Savanes,autres_villes
+E03106,0.4749,0.003,faible entouré de faibles,formels_pour_10k_hab,Kpendjal-Ouest 2,Kpendjal-Ouest,Savanes,rural
+E04109,-0.3758,0.165,non significatif,formels_pour_10k_hab,Oti 1,Oti,Savanes,autres_villes
+E04110,0.1296,0.147,non significatif,formels_pour_10k_hab,Oti 2,Oti,Savanes,rural
+E07116,0.4061,0.169,non significatif,formels_pour_10k_hab,Tône 4,Tône,Savanes,rural
+A05020,-0.1309,0.143,non significatif,formels_pour_10k_hab,Lacs 3,Lacs,Maritime hors Grand Lomé,rural
+E05107,0.0674,0.366,non significatif,formels_pour_10k_hab,Oti-Sud 1,Oti-Sud,Savanes,rural
+B07049,-0.1953,0.261,non significatif,formels_pour_10k_hab,Haho 3,Haho,Plateaux,rural
+A04013,-1.7403,0.495,non significatif,formels_pour_10k_hab,Golfe 3,Golfe,Grand Lomé,grand_lome
+A04012,-0.968,0.002,faible entouré d'élevés,formels_pour_10k_hab,Golfe 2,Golfe,Grand Lomé,grand_lome
+E05108,-0.0887,0.281,non significatif,formels_pour_10k_hab,Oti-Sud 2,Oti-Sud,Savanes,rural
+E06111,0.1336,0.388,non significatif,formels_pour_10k_hab,Tandjoaré 1,Tandjoaré,Savanes,rural
+E06112,0.0534,0.143,non significatif,formels_pour_10k_hab,Tandjoaré 2,Tandjoaré,Savanes,rural
+E07113,0.0334,0.011,faible entouré de faibles,formels_pour_10k_hab,Tône 1,Tône,Savanes,autres_villes
+E07114,0.3778,0.216,non significatif,formels_pour_10k_hab,Tône 2,Tône,Savanes,rural
+E07115,0.2628,0.274,non significatif,formels_pour_10k_hab,Tône 3,Tône,Savanes,rural
+A04011,0.8137,0.174,non significatif,formels_pour_10k_hab,Golfe 1,Golfe,Grand Lomé,grand_lome
+A01001,-0.4217,0.116,non significatif,mm_pour_10k_adultes,Agoè-Nyivé 1,Agoè-Nyivé,Grand Lomé,grand_lome
+A01002,0.3227,0.263,non significatif,mm_pour_10k_adultes,Agoè-Nyivé 2,Agoè-Nyivé,Grand Lomé,grand_lome
+A01003,-0.421,0.349,non significatif,mm_pour_10k_adultes,Agoè-Nyivé 3,Agoè-Nyivé,Grand Lomé,grand_lome
+A01004,0.19,0.139,non significatif,mm_pour_10k_adultes,Agoè-Nyivé 4,Agoè-Nyivé,Grand Lomé,grand_lome
+A01005,-0.3137,0.215,non significatif,mm_pour_10k_adultes,Agoè-Nyivé 5,Agoè-Nyivé,Grand Lomé,grand_lome
+A01006,-0.1243,0.347,non significatif,mm_pour_10k_adultes,Agoè-Nyivé 6,Agoè-Nyivé,Grand Lomé,grand_lome
+A06022,0.0008,0.469,non significatif,mm_pour_10k_adultes,Vo 1,Vo,Maritime hors Grand Lomé,rural
+A06023,0.0435,0.111,non significatif,mm_pour_10k_adultes,Vo 2,Vo,Maritime hors Grand Lomé,rural
+A02007,0.412,0.108,non significatif,mm_pour_10k_adultes,Avé 1,Avé,Maritime hors Grand Lomé,rural
+A06024,0.0889,0.296,non significatif,mm_pour_10k_adultes,Vo 3,Vo,Maritime hors Grand Lomé,rural
+A02008,0.3389,0.09,non significatif,mm_pour_10k_adultes,Avé 2,Avé,Maritime hors Grand Lomé,rural
+A03009,-0.3859,0.042,élevé entouré de faibles,mm_pour_10k_adultes,Bas-Mono 1,Bas-Mono,Maritime hors Grand Lomé,rural
+A03010,0.0458,0.491,non significatif,mm_pour_10k_adultes,Bas-Mono 2,Bas-Mono,Maritime hors Grand Lomé,rural
+A06025,0.008,0.418,non significatif,mm_pour_10k_adultes,Vo 4,Vo,Maritime hors Grand Lomé,rural
+A04014,1.9574,0.024,élevé entouré d'élevés,mm_pour_10k_adultes,Golfe 4,Golfe,Grand Lomé,grand_lome
+A04015,1.061,0.135,non significatif,mm_pour_10k_adultes,Golfe 5,Golfe,Grand Lomé,grand_lome
+A04016,0.1091,0.214,non significatif,mm_pour_10k_adultes,Golfe 6,Golfe,Grand Lomé,grand_lome
+A04017,0.0985,0.299,non significatif,mm_pour_10k_adultes,Golfe 7,Golfe,Grand Lomé,grand_lome
+A07026,0.3996,0.075,non significatif,mm_pour_10k_adultes,Yoto 1,Yoto,Maritime hors Grand Lomé,rural
+A05018,0.157,0.277,non significatif,mm_pour_10k_adultes,Lacs 1,Lacs,Maritime hors Grand Lomé,autres_villes
+A05019,-0.1397,0.365,non significatif,mm_pour_10k_adultes,Lacs 2,Lacs,Maritime hors Grand Lomé,rural
+A05021,-0.0507,0.39,non significatif,mm_pour_10k_adultes,Lacs 4,Lacs,Maritime hors Grand Lomé,rural
+A07027,0.2021,0.221,non significatif,mm_pour_10k_adultes,Yoto 2,Yoto,Maritime hors Grand Lomé,rural
+A07028,0.8448,0.078,non significatif,mm_pour_10k_adultes,Yoto 3,Yoto,Maritime hors Grand Lomé,rural
+A08029,0.0861,0.21,non significatif,mm_pour_10k_adultes,Zio 1,Zio,Maritime hors Grand Lomé,rural
+A08030,0.7826,0.009,faible entouré de faibles,mm_pour_10k_adultes,Zio 2,Zio,Maritime hors Grand Lomé,rural
+A08031,-0.0102,0.355,non significatif,mm_pour_10k_adultes,Zio 3,Zio,Maritime hors Grand Lomé,rural
+A08032,0.1538,0.163,non significatif,mm_pour_10k_adultes,Zio 4,Zio,Maritime hors Grand Lomé,rural
+B01033,0.2187,0.185,non significatif,mm_pour_10k_adultes,Agou 1,Agou,Plateaux,rural
+B01034,-0.013,0.42,non significatif,mm_pour_10k_adultes,Agou 2,Agou,Plateaux,rural
+B02035,0.1706,0.222,non significatif,mm_pour_10k_adultes,Akébou 1,Akébou,Plateaux,rural
+B02036,0.6317,0.047,faible entouré de faibles,mm_pour_10k_adultes,Akébou 2,Akébou,Plateaux,rural
+B07048,0.5007,0.106,non significatif,mm_pour_10k_adultes,Haho 2,Haho,Plateaux,rural
+B03037,-0.0081,0.223,non significatif,mm_pour_10k_adultes,Amou 1,Amou,Plateaux,rural
+B03038,-0.0808,0.414,non significatif,mm_pour_10k_adultes,Amou 2,Amou,Plateaux,rural
+B09054,0.4406,0.125,non significatif,mm_pour_10k_adultes,Kpélé 1,Kpélé,Plateaux,rural
+B10057,0.7163,0.051,non significatif,mm_pour_10k_adultes,Moyen-Mono 2,Moyen-Mono,Plateaux,rural
+B03039,0.0363,0.347,non significatif,mm_pour_10k_adultes,Amou 3,Amou,Plateaux,rural
+B04040,-0.1292,0.048,élevé entouré de faibles,mm_pour_10k_adultes,Anié 1,Anié,Plateaux,autres_villes
+B04041,0.351,0.248,non significatif,mm_pour_10k_adultes,Anié 2,Anié,Plateaux,rural
+B05042,0.8801,0.071,non significatif,mm_pour_10k_adultes,Danyi 1,Danyi,Plateaux,rural
+B09055,0.1624,0.145,non significatif,mm_pour_10k_adultes,Kpélé 2,Kpélé,Plateaux,rural
+C05079,-0.1968,0.041,faible entouré d'élevés,mm_pour_10k_adultes,Tchaoudjo 4,Tchaoudjo,Centrale,rural
+B05043,-0.0492,0.466,non significatif,mm_pour_10k_adultes,Danyi 2,Danyi,Plateaux,rural
+B06044,0.0478,0.151,non significatif,mm_pour_10k_adultes,Est-Mono 1,Est-Mono,Plateaux,rural
+D02086,-0.1363,0.046,faible entouré d'élevés,mm_pour_10k_adultes,Bassar 4,Bassar,Kara,rural
+B06045,0.4998,0.048,faible entouré de faibles,mm_pour_10k_adultes,Est-Mono 2,Est-Mono,Plateaux,rural
+B06046,0.2067,0.178,non significatif,mm_pour_10k_adultes,Est-Mono 3,Est-Mono,Plateaux,rural
+B07047,0.0977,0.232,non significatif,mm_pour_10k_adultes,Haho 1,Haho,Plateaux,rural
+B07050,-0.1294,0.134,non significatif,mm_pour_10k_adultes,Haho 4,Haho,Plateaux,rural
+B08051,0.4035,0.181,non significatif,mm_pour_10k_adultes,Kloto 1,Kloto,Plateaux,autres_villes
+B10056,0.4842,0.113,non significatif,mm_pour_10k_adultes,Moyen-Mono 1,Moyen-Mono,Plateaux,rural
+B08052,0.8237,0.037,élevé entouré d'élevés,mm_pour_10k_adultes,Kloto 2,Kloto,Plateaux,rural
+B08053,0.5982,0.109,non significatif,mm_pour_10k_adultes,Kloto 3,Kloto,Plateaux,rural
+B11058,-0.057,0.137,non significatif,mm_pour_10k_adultes,Ogou 1,Ogou,Plateaux,autres_villes
+B11059,0.5207,0.121,non significatif,mm_pour_10k_adultes,Ogou 2,Ogou,Plateaux,rural
+B12064,0.0161,0.437,non significatif,mm_pour_10k_adultes,Wawa 3,Wawa,Plateaux,rural
+B11060,0.1738,0.085,non significatif,mm_pour_10k_adultes,Ogou 3,Ogou,Plateaux,rural
+B11061,0.5662,0.042,faible entouré de faibles,mm_pour_10k_adultes,Ogou 4,Ogou,Plateaux,rural
+B12062,-0.4797,0.18,non significatif,mm_pour_10k_adultes,Wawa 1,Wawa,Plateaux,rural
+B12063,-0.0899,0.392,non significatif,mm_pour_10k_adultes,Wawa 2,Wawa,Plateaux,rural
+C01065,0.5102,0.051,non significatif,mm_pour_10k_adultes,Blitta 1,Blitta,Centrale,rural
+C01066,1.0019,0.016,faible entouré de faibles,mm_pour_10k_adultes,Blitta 2,Blitta,Centrale,rural
+C01067,0.7785,0.094,non significatif,mm_pour_10k_adultes,Blitta 3,Blitta,Centrale,rural
+C02068,-0.0706,0.391,non significatif,mm_pour_10k_adultes,Mô 1,Mô,Centrale,rural
+C02069,-0.373,0.283,non significatif,mm_pour_10k_adultes,Mô 2,Mô,Centrale,rural
+C03070,-0.2873,0.194,non significatif,mm_pour_10k_adultes,Sotouboua 1,Sotouboua,Centrale,autres_villes
+C03071,-0.2488,0.038,faible entouré d'élevés,mm_pour_10k_adultes,Sotouboua 2,Sotouboua,Centrale,rural
+C03072,-0.7006,0.04,élevé entouré de faibles,mm_pour_10k_adultes,Sotouboua 3,Sotouboua,Centrale,rural
+C04073,-0.6659,0.133,non significatif,mm_pour_10k_adultes,Tchamba 1,Tchamba,Centrale,rural
+C05077,-0.3072,0.026,faible entouré d'élevés,mm_pour_10k_adultes,Tchaoudjo 2,Tchaoudjo,Centrale,rural
+C04074,-0.1226,0.238,non significatif,mm_pour_10k_adultes,Tchamba 2,Tchamba,Centrale,rural
+C05076,0.3974,0.308,non significatif,mm_pour_10k_adultes,Tchaoudjo 1,Tchaoudjo,Centrale,autres_villes
+C04075,0.4469,0.062,non significatif,mm_pour_10k_adultes,Tchamba 3,Tchamba,Centrale,rural
+C05078,1.6838,0.007,élevé entouré d'élevés,mm_pour_10k_adultes,Tchaoudjo 3,Tchaoudjo,Centrale,rural
+D01080,0.6442,0.136,non significatif,mm_pour_10k_adultes,Assoli 1,Assoli,Kara,autres_villes
+D01081,0.7354,0.071,non significatif,mm_pour_10k_adultes,Assoli 2,Assoli,Kara,rural
+D01082,-0.0906,0.098,non significatif,mm_pour_10k_adultes,Assoli 3,Assoli,Kara,rural
+D03087,0.0458,0.02,élevé entouré d'élevés,mm_pour_10k_adultes,Binah 1,Binah,Kara,rural
+D02083,1.1373,0.04,élevé entouré d'élevés,mm_pour_10k_adultes,Bassar 1,Bassar,Kara,autres_villes
+D02084,-0.0003,0.434,non significatif,mm_pour_10k_adultes,Bassar 2,Bassar,Kara,rural
+D02085,-0.0452,0.389,non significatif,mm_pour_10k_adultes,Bassar 3,Bassar,Kara,rural
+D03088,0.6222,0.075,non significatif,mm_pour_10k_adultes,Binah 2,Binah,Kara,rural
+D04090,0.3265,0.152,non significatif,mm_pour_10k_adultes,Dankpen 2,Dankpen,Kara,rural
+D04091,0.2625,0.358,non significatif,mm_pour_10k_adultes,Dankpen 3,Dankpen,Kara,rural
+D04089,0.1484,0.014,faible entouré de faibles,mm_pour_10k_adultes,Dankpen 1,Dankpen,Kara,rural
+D05092,-0.0556,0.362,non significatif,mm_pour_10k_adultes,Doufelgou 1,Doufelgou,Kara,autres_villes
+D05093,0.0143,0.483,non significatif,mm_pour_10k_adultes,Doufelgou 3,Doufelgou,Kara,rural
+D05094,-0.1358,0.265,non significatif,mm_pour_10k_adultes,Doufelgou 2,Doufelgou,Kara,rural
+D06094,-0.0529,0.048,élevé entouré de faibles,mm_pour_10k_adultes,Kéran 1,Kéran,Kara,rural
+E01102,-0.6747,0.012,faible entouré d'élevés,mm_pour_10k_adultes,Cinkassé 2,Cinkassé,Savanes,rural
+D06095,0.3681,0.187,non significatif,mm_pour_10k_adultes,Kéran 2,Kéran,Kara,rural
+D06096,-0.3423,0.303,non significatif,mm_pour_10k_adultes,Kéran 3,Kéran,Kara,rural
+D07097,0.135,0.41,non significatif,mm_pour_10k_adultes,Kozah 1,Kozah,Kara,autres_villes
+D07098,0.1419,0.088,non significatif,mm_pour_10k_adultes,Kozah 2,Kozah,Kara,rural
+E02103,0.8707,0.019,faible entouré de faibles,mm_pour_10k_adultes,Kpendjal 1,Kpendjal,Savanes,rural
+E02104,0.6817,0.122,non significatif,mm_pour_10k_adultes,Kpendjal 2,Kpendjal,Savanes,rural
+E03105,-0.0542,0.335,non significatif,mm_pour_10k_adultes,Kpendjal-Ouest 1,Kpendjal-Ouest,Savanes,rural
+D07099,-0.5051,0.024,faible entouré d'élevés,mm_pour_10k_adultes,Kozah 3,Kozah,Kara,rural
+D07100,-0.2408,0.035,faible entouré d'élevés,mm_pour_10k_adultes,Kozah 4,Kozah,Kara,rural
+E01101,-1.3557,0.359,non significatif,mm_pour_10k_adultes,Cinkassé 1,Cinkassé,Savanes,autres_villes
+E03106,0.4393,0.134,non significatif,mm_pour_10k_adultes,Kpendjal-Ouest 2,Kpendjal-Ouest,Savanes,rural
+E04109,-0.4417,0.326,non significatif,mm_pour_10k_adultes,Oti 1,Oti,Savanes,autres_villes
+E04110,0.0035,0.446,non significatif,mm_pour_10k_adultes,Oti 2,Oti,Savanes,rural
+E07116,0.1574,0.292,non significatif,mm_pour_10k_adultes,Tône 4,Tône,Savanes,rural
+A05020,0.2503,0.295,non significatif,mm_pour_10k_adultes,Lacs 3,Lacs,Maritime hors Grand Lomé,rural
+E05107,0.1149,0.317,non significatif,mm_pour_10k_adultes,Oti-Sud 1,Oti-Sud,Savanes,rural
+B07049,-0.0007,0.461,non significatif,mm_pour_10k_adultes,Haho 3,Haho,Plateaux,rural
+A04013,0.998,0.267,non significatif,mm_pour_10k_adultes,Golfe 3,Golfe,Grand Lomé,grand_lome
+A04012,0.9522,0.029,élevé entouré d'élevés,mm_pour_10k_adultes,Golfe 2,Golfe,Grand Lomé,grand_lome
+E05108,0.0223,0.507,non significatif,mm_pour_10k_adultes,Oti-Sud 2,Oti-Sud,Savanes,rural
+E06111,-0.5531,0.131,non significatif,mm_pour_10k_adultes,Tandjoaré 1,Tandjoaré,Savanes,rural
+E06112,-0.0865,0.322,non significatif,mm_pour_10k_adultes,Tandjoaré 2,Tandjoaré,Savanes,rural
+E07113,-0.4174,0.302,non significatif,mm_pour_10k_adultes,Tône 1,Tône,Savanes,autres_villes
+E07114,-0.1122,0.246,non significatif,mm_pour_10k_adultes,Tône 2,Tône,Savanes,rural
+E07115,-0.1655,0.221,non significatif,mm_pour_10k_adultes,Tône 3,Tône,Savanes,rural
+A04011,1.2864,0.084,non significatif,mm_pour_10k_adultes,Golfe 1,Golfe,Grand Lomé,grand_lome
+A01001,0.2605,0.055,non significatif,couv_20km_pct,Agoè-Nyivé 1,Agoè-Nyivé,Grand Lomé,grand_lome
+A01002,0.2605,0.001,élevé entouré d'élevés,couv_20km_pct,Agoè-Nyivé 2,Agoè-Nyivé,Grand Lomé,grand_lome
+A01003,0.2605,0.052,non significatif,couv_20km_pct,Agoè-Nyivé 3,Agoè-Nyivé,Grand Lomé,grand_lome
+A01004,0.2605,0.061,non significatif,couv_20km_pct,Agoè-Nyivé 4,Agoè-Nyivé,Grand Lomé,grand_lome
+A01005,0.2605,0.001,élevé entouré d'élevés,couv_20km_pct,Agoè-Nyivé 5,Agoè-Nyivé,Grand Lomé,grand_lome
+A01006,0.2605,0.239,non significatif,couv_20km_pct,Agoè-Nyivé 6,Agoè-Nyivé,Grand Lomé,grand_lome
+A06022,0.2605,0.001,élevé entouré d'élevés,couv_20km_pct,Vo 1,Vo,Maritime hors Grand Lomé,rural
+A06023,0.2605,0.055,non significatif,couv_20km_pct,Vo 2,Vo,Maritime hors Grand Lomé,rural
+A02007,0.1881,0.339,non significatif,couv_20km_pct,Avé 1,Avé,Maritime hors Grand Lomé,rural
+A06024,0.2596,0.033,élevé entouré d'élevés,couv_20km_pct,Vo 3,Vo,Maritime hors Grand Lomé,rural
+A02008,-0.0705,0.345,non significatif,couv_20km_pct,Avé 2,Avé,Maritime hors Grand Lomé,rural
+A03009,0.259,0.095,non significatif,couv_20km_pct,Bas-Mono 1,Bas-Mono,Maritime hors Grand Lomé,rural
+A03010,0.2603,0.034,élevé entouré d'élevés,couv_20km_pct,Bas-Mono 2,Bas-Mono,Maritime hors Grand Lomé,rural
+A06025,0.2605,0.001,élevé entouré d'élevés,couv_20km_pct,Vo 4,Vo,Maritime hors Grand Lomé,rural
+A04014,0.2605,0.114,non significatif,couv_20km_pct,Golfe 4,Golfe,Grand Lomé,grand_lome
+A04015,0.2605,0.021,élevé entouré d'élevés,couv_20km_pct,Golfe 5,Golfe,Grand Lomé,grand_lome
+A04016,0.2605,0.242,non significatif,couv_20km_pct,Golfe 6,Golfe,Grand Lomé,grand_lome
+A04017,0.2605,0.107,non significatif,couv_20km_pct,Golfe 7,Golfe,Grand Lomé,grand_lome
+A07026,0.1223,0.321,non significatif,couv_20km_pct,Yoto 1,Yoto,Maritime hors Grand Lomé,rural
+A05018,0.2603,0.027,élevé entouré d'élevés,couv_20km_pct,Lacs 1,Lacs,Maritime hors Grand Lomé,autres_villes
+A05019,0.2598,0.052,non significatif,couv_20km_pct,Lacs 2,Lacs,Maritime hors Grand Lomé,rural
+A05021,0.2603,0.077,non significatif,couv_20km_pct,Lacs 4,Lacs,Maritime hors Grand Lomé,rural
+A07027,0.2186,0.114,non significatif,couv_20km_pct,Yoto 2,Yoto,Maritime hors Grand Lomé,rural
+A07028,-0.0125,0.358,non significatif,couv_20km_pct,Yoto 3,Yoto,Maritime hors Grand Lomé,rural
+A08029,0.1102,0.269,non significatif,couv_20km_pct,Zio 1,Zio,Maritime hors Grand Lomé,rural
+A08030,-0.0043,0.434,non significatif,couv_20km_pct,Zio 2,Zio,Maritime hors Grand Lomé,rural
+A08031,-0.0479,0.331,non significatif,couv_20km_pct,Zio 3,Zio,Maritime hors Grand Lomé,rural
+A08032,-0.089,0.122,non significatif,couv_20km_pct,Zio 4,Zio,Maritime hors Grand Lomé,rural
+B01033,-0.0379,0.396,non significatif,couv_20km_pct,Agou 1,Agou,Plateaux,rural
+B01034,0.2079,0.36,non significatif,couv_20km_pct,Agou 2,Agou,Plateaux,rural
+B02035,0.0816,0.044,faible entouré de faibles,couv_20km_pct,Akébou 1,Akébou,Plateaux,rural
+B02036,1.5108,0.094,non significatif,couv_20km_pct,Akébou 2,Akébou,Plateaux,rural
+B07048,-0.3796,0.205,non significatif,couv_20km_pct,Haho 2,Haho,Plateaux,rural
+B03037,0.253,0.055,non significatif,couv_20km_pct,Amou 1,Amou,Plateaux,rural
+B03038,0.2197,0.166,non significatif,couv_20km_pct,Amou 2,Amou,Plateaux,rural
+B09054,-0.0541,0.137,non significatif,couv_20km_pct,Kpélé 1,Kpélé,Plateaux,rural
+B10057,0.112,0.584,non significatif,couv_20km_pct,Moyen-Mono 2,Moyen-Mono,Plateaux,rural
+B03039,-0.048,0.392,non significatif,couv_20km_pct,Amou 3,Amou,Plateaux,rural
+B04040,-0.3704,0.04,élevé entouré de faibles,couv_20km_pct,Anié 1,Anié,Plateaux,autres_villes
+B04041,-0.7077,0.45,non significatif,couv_20km_pct,Anié 2,Anié,Plateaux,rural
+B05042,0.1779,0.312,non significatif,couv_20km_pct,Danyi 1,Danyi,Plateaux,rural
+B09055,0.1531,0.336,non significatif,couv_20km_pct,Kpélé 2,Kpélé,Plateaux,rural
+C05079,-0.5657,0.358,non significatif,couv_20km_pct,Tchaoudjo 4,Tchaoudjo,Centrale,rural
+B05043,0.2599,0.038,élevé entouré d'élevés,couv_20km_pct,Danyi 2,Danyi,Plateaux,rural
+B06044,-0.0172,0.05,élevé entouré de faibles,couv_20km_pct,Est-Mono 1,Est-Mono,Plateaux,rural
+D02086,0.2023,0.294,non significatif,couv_20km_pct,Bassar 4,Bassar,Kara,rural
+B06045,-0.2046,0.525,non significatif,couv_20km_pct,Est-Mono 2,Est-Mono,Plateaux,rural
+B06046,-0.1634,0.265,non significatif,couv_20km_pct,Est-Mono 3,Est-Mono,Plateaux,rural
+B07047,0.0825,0.306,non significatif,couv_20km_pct,Haho 1,Haho,Plateaux,rural
+B07050,0.0164,0.394,non significatif,couv_20km_pct,Haho 4,Haho,Plateaux,rural
+B08051,-0.078,0.342,non significatif,couv_20km_pct,Kloto 1,Kloto,Plateaux,autres_villes
+B10056,0.0021,0.556,non significatif,couv_20km_pct,Moyen-Mono 1,Moyen-Mono,Plateaux,rural
+B08052,0.195,0.243,non significatif,couv_20km_pct,Kloto 2,Kloto,Plateaux,rural
+B08053,0.2605,0.232,non significatif,couv_20km_pct,Kloto 3,Kloto,Plateaux,rural
+B11058,-0.3291,0.106,non significatif,couv_20km_pct,Ogou 1,Ogou,Plateaux,autres_villes
+B11059,-0.0198,0.089,non significatif,couv_20km_pct,Ogou 2,Ogou,Plateaux,rural
+B12064,0.1916,0.264,non significatif,couv_20km_pct,Wawa 3,Wawa,Plateaux,rural
+B11060,0.0625,0.502,non significatif,couv_20km_pct,Ogou 3,Ogou,Plateaux,rural
+B11061,0.0233,0.192,non significatif,couv_20km_pct,Ogou 4,Ogou,Plateaux,rural
+B12062,0.1582,0.425,non significatif,couv_20km_pct,Wawa 1,Wawa,Plateaux,rural
+B12063,0.2605,0.031,élevé entouré d'élevés,couv_20km_pct,Wawa 2,Wawa,Plateaux,rural
+C01065,-0.5548,0.022,élevé entouré de faibles,couv_20km_pct,Blitta 1,Blitta,Centrale,rural
+C01066,0.3934,0.017,faible entouré de faibles,couv_20km_pct,Blitta 2,Blitta,Centrale,rural
+C01067,1.5901,0.132,non significatif,couv_20km_pct,Blitta 3,Blitta,Centrale,rural
+C03070,-0.862,0.689,non significatif,couv_20km_pct,Sotouboua 1,Sotouboua,Centrale,autres_villes
+C03072,-0.5512,0.006,élevé entouré de faibles,couv_20km_pct,Sotouboua 3,Sotouboua,Centrale,rural
+C05077,-0.0775,0.704,non significatif,couv_20km_pct,Tchaoudjo 2,Tchaoudjo,Centrale,rural
+C05076,-0.0506,0.32,non significatif,couv_20km_pct,Tchaoudjo 1,Tchaoudjo,Centrale,autres_villes
+C05078,0.0437,0.472,non significatif,couv_20km_pct,Tchaoudjo 3,Tchaoudjo,Centrale,rural
+D01080,0.1162,0.054,non significatif,couv_20km_pct,Assoli 1,Assoli,Kara,autres_villes
+D01081,0.2134,0.338,non significatif,couv_20km_pct,Assoli 2,Assoli,Kara,rural
+D01082,0.0429,0.514,non significatif,couv_20km_pct,Assoli 3,Assoli,Kara,rural
+D03087,0.1269,0.137,non significatif,couv_20km_pct,Binah 1,Binah,Kara,rural
+D02083,0.0871,0.336,non significatif,couv_20km_pct,Bassar 1,Bassar,Kara,autres_villes
+D02084,0.0205,0.378,non significatif,couv_20km_pct,Bassar 2,Bassar,Kara,rural
+D02085,-0.1467,0.197,non significatif,couv_20km_pct,Bassar 3,Bassar,Kara,rural
+D03088,0.2163,0.327,non significatif,couv_20km_pct,Binah 2,Binah,Kara,rural
+D04090,2.1015,0.012,faible entouré de faibles,couv_20km_pct,Dankpen 2,Dankpen,Kara,rural
+D04091,0.606,0.101,non significatif,couv_20km_pct,Dankpen 3,Dankpen,Kara,rural
+D04089,1.857,0.002,faible entouré de faibles,couv_20km_pct,Dankpen 1,Dankpen,Kara,rural
+D05092,0.0065,0.592,non significatif,couv_20km_pct,Doufelgou 1,Doufelgou,Kara,autres_villes
+D05093,0.8486,0.036,faible entouré de faibles,couv_20km_pct,Doufelgou 3,Doufelgou,Kara,rural
+D05094,-0.3109,0.101,non significatif,couv_20km_pct,Doufelgou 2,Doufelgou,Kara,rural
+D06094,2.8859,0.004,faible entouré de faibles,couv_20km_pct,Kéran 1,Kéran,Kara,rural
+E01102,0.2604,0.107,non significatif,couv_20km_pct,Cinkassé 2,Cinkassé,Savanes,rural
+D06095,6.2228,0.002,faible entouré de faibles,couv_20km_pct,Kéran 2,Kéran,Kara,rural
+D07097,0.234,0.137,non significatif,couv_20km_pct,Kozah 1,Kozah,Kara,autres_villes
+D07098,0.0958,0.398,non significatif,couv_20km_pct,Kozah 2,Kozah,Kara,rural
+E03105,-0.4357,0.47,non significatif,couv_20km_pct,Kpendjal-Ouest 1,Kpendjal-Ouest,Savanes,rural
+D07099,0.2295,0.153,non significatif,couv_20km_pct,Kozah 3,Kozah,Kara,rural
+D07100,0.2353,0.097,non significatif,couv_20km_pct,Kozah 4,Kozah,Kara,rural
+E01101,0.2605,0.494,non significatif,couv_20km_pct,Cinkassé 1,Cinkassé,Savanes,autres_villes
+E03106,0.1568,0.191,non significatif,couv_20km_pct,Kpendjal-Ouest 2,Kpendjal-Ouest,Savanes,rural
+E04109,-0.2546,0.056,non significatif,couv_20km_pct,Oti 1,Oti,Savanes,autres_villes
+E04110,-0.0342,0.349,non significatif,couv_20km_pct,Oti 2,Oti,Savanes,rural
+E07116,-0.2643,0.184,non significatif,couv_20km_pct,Tône 4,Tône,Savanes,rural
+A05020,0.2605,0.032,élevé entouré d'élevés,couv_20km_pct,Lacs 3,Lacs,Maritime hors Grand Lomé,rural
+E05107,0.4628,0.041,faible entouré de faibles,couv_20km_pct,Oti-Sud 1,Oti-Sud,Savanes,rural
+B07049,-0.05,0.33,non significatif,couv_20km_pct,Haho 3,Haho,Plateaux,rural
+A04013,0.2605,0.501,non significatif,couv_20km_pct,Golfe 3,Golfe,Grand Lomé,grand_lome
+A04012,0.2605,0.229,non significatif,couv_20km_pct,Golfe 2,Golfe,Grand Lomé,grand_lome
+E05108,3.8132,0.004,faible entouré de faibles,couv_20km_pct,Oti-Sud 2,Oti-Sud,Savanes,rural
+E06111,0.2,0.344,non significatif,couv_20km_pct,Tandjoaré 1,Tandjoaré,Savanes,rural
+E06112,0.1946,0.387,non significatif,couv_20km_pct,Tandjoaré 2,Tandjoaré,Savanes,rural
+E07113,0.0662,0.404,non significatif,couv_20km_pct,Tône 1,Tône,Savanes,autres_villes
+E07114,0.1997,0.35,non significatif,couv_20km_pct,Tône 2,Tône,Savanes,rural
+E07115,0.078,0.201,non significatif,couv_20km_pct,Tône 3,Tône,Savanes,rural
+A04011,0.2605,0.479,non significatif,couv_20km_pct,Golfe 1,Golfe,Grand Lomé,grand_lome

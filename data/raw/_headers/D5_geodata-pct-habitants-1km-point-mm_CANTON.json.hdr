@@ -1,0 +1,14 @@
+HTTP/2 200 
+server: nginx
+date: Fri, 25 Sep 2026 12:16:46 GMT
+content-type: application/json
+content-length: 50825
+allow: GET, OPTIONS
+x-frame-options: DENY
+x-content-type-options: nosniff
+referrer-policy: same-origin
+cross-origin-opener-policy: same-origin
+vary: Origin
+content-security-policy: frame-ancestors geoportail.gouv.tg api.geoportail.gouv.tg geodata.gouv.tg api.geodata.gouv.tg geoserver.geoportail.gouv.tg
+strict-transport-security: max-age=16000000; includeSubDomains; preload;
+

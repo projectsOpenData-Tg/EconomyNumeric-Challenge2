@@ -1,0 +1,6 @@
+regle,valeur,verifiee
+Grand Lomé : plus de 50 % des points formels,39.94,False
+Grand Lomé : moins de 25 % de la population,27.03,False
+Concentration urbaine confirmée (les deux critères),,False
+Gradient urbain : indice décroissant Grand Lomé > autres villes > rural (seuil 50 %),,True
+"Gradient urbain, sensibilité au seuil de 75 %",,True

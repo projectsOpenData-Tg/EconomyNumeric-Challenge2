@@ -1,0 +1,138 @@
+etape,code,libelle,attendu,constate,resultat,bloquant
+01_referentiel,R1-region,chaque contour de region a un nom geodata,0,0,OK,True
+01_referentiel,R1-prefecture,chaque contour de prefecture a un nom geodata,0,0,OK,True
+01_referentiel,R1-commune,chaque contour de commune a un nom geodata,0,0,OK,True
+01_referentiel,R1-canton,chaque contour de canton a un nom geodata,0,0,OK,True
+01_referentiel,GE1,nombre d'entités par maille = découpage geodata,5 / 39 / 117 / 396,5 / 39 / 117 / 396,OK,True
+01_referentiel,R2,cantons dont le code ne correspond pas à la commune du polygone,8,8,OK,True
+01_referentiel,R2-bilan,codes corrigés / gardés et signalés,5 / 3,5 / 3,OK,True
+01_referentiel,R2-parents,chaque canton a une commune existante,0,0,OK,True
+01_referentiel,R3,préfectures dont le contour change à la reconstitution (> 1 km²),"débordements Haho 1, Oti 2, Lacs 3","{'A04': 1.3, 'A05': 1.2, 'B07': 99.8, 'B09': 99.8, 'E04': 48.5, 'E06': 48.5}",OK,False
+01_referentiel,R3-regions,"régions inchangées par la reconstitution (écart max, km²)",< 1,0.093,OK,True
+01_referentiel,GE5,superficie totale (km²),56654.6,56654.5,OK,True
+01_referentiel,GE5-emboitement,somme des cantons = somme des unités régionales (km²),56654.5,56654.5,OK,True
+01_referentiel,GE6-communes,communes du Grand Lomé,13,13,OK,True
+02_population,ST-age-communes,communes : âges déclarés + non déclarés = total,toutes,True,OK,True
+02_population,ST-milieu-communes,communes : urbain + rural = total,toutes,True,OK,True
+02_population,ST-age-préfectures,préfectures : âges déclarés + non déclarés = total,toutes,True,OK,True
+02_population,ST-milieu-préfectures,préfectures : urbain + rural = total,toutes,True,OK,True
+02_population,ST-age-autres niveaux,autres niveaux : âges déclarés + non déclarés = total,toutes,True,OK,True
+02_population,ST-milieu-autres niveaux,autres niveaux : urbain + rural = total,toutes,True,OK,True
+02_population,R6-commune,communes de RG joints au référentiel sans correction,117,117 (non joints : []),OK,True
+02_population,R6-prefecture,prefectures de RG joints au référentiel sans correction,39,39 (non joints : []),OK,True
+02_population,GE4-pref,somme des communes = préfecture (écart absolu cumulé),0,0,OK,True
+02_population,GE4-ur,somme des communes = unité régionale,0,0,OK,True
+02_population,GE4-nat,population nationale = somme des communes,8095498,8095498 / 8095498,OK,True
+02_population,GE6,population du Grand Lomé,"2 188 376 (27,0 %)",2188376 (27.0 %),OK,True
+02_population,GE7,totaux RG2 / RG3 présents dans D6 (Danyi 1 + 2 sommées),0,0,OK,True
+02_population,R7,"strates (Grand Lomé / autres villes / rural), seuil 50 %","[13, 13, 91]","[13, 13, 91]",OK,True
+02_population,R7-75,"strates, variante au seuil de 75 %","[13, 2, 102]","[13, 2, 102]",OK,True
+03_points,ST1,"effectifs lus (D4, 4c, D5, GD1)","[738, 184, 19788, 95]","[738, 184, 19788, 95]",OK,True
+03_points,ST4,statuts de D4 : en service / hors service / inconnu (A6),"[660, 17, 61]","[660, 17, 61]",OK,True
+03_points,ST5,opérateurs de D5 (Moov+Togocom / Togocom / Moov / Nsp),"[12649, 4773, 1018, 1348]","[12649, 4773, 1018, 1348]",OK,True
+03_points,GE2,"points rattachés à un canton, donc à tous les niveaux",100 %,100.00 % (0 non rattachés),OK,True
+03_points,GE2-noms,préfecture et région déclarées = parents du canton,0,0,OK,True
+03_points,GE3-D4,D4 : points hors du polygone de leur unité déclarée,0,0,OK,True
+03_points,GE3-4c,4c : points hors du polygone de leur unité déclarée,0,0,OK,True
+03_points,GE3-GD1,GD1 : points hors du polygone de leur unité déclarée,signalé,0,OK,False
+03_points,GE3-D5,D5 : écarts de position par type,"{'hors_frontiere': 49, 'debordement_contour': 22, 'canton_autre_commune': 25}","{'hors_frontiere': 49, 'canton_autre_commune': 25, 'debordement_contour': 22}",OK,False
+03_points,GE3-R3,D5 : écarts à la préfecture après reconstitution (hors frontière exclus),0,0,OK,False
+03_points,DD1-presel,paires de D4 de même catégorie à moins de 30 m,18,18,OK,True
+03_points,DD1,doublons décidés : fusionnés / ambigus (variante) / gardés,4 / 2 / 12,4 / 2 / 12,OK,True
+03_points,DD3,D5 : points partageant une cellule de ~11 m / en surplus,974 / 509,972 / 508,ÉCHEC,False
+03_points,ST-formels,points formels : principal / variante doublons / variante statuts,656 / 654 / 717,656 / 654 / 717,OK,True
+03_points,CX1,lieux mobile money (total) ≠ somme des vues par opérateur,19788,19788 lieux ; 31089 points-opérateurs hors Nsp,OK,True
+03_points,CX4,D5 en points-opérateurs face aux 33 924 de l'ARCEP (T4 2021),31 089 / 32 437 / 33 785,31089 / 32437 / 33785 ; écarts 8.4 / 4.4 / 0.4 %,OK,False
+03_points,ST2,lignes en sortie = lignes lues (aucune supprimée),20805,20805,OK,True
+04_territoires,CX2,couverture nationale de 3i ni à 0 % ni à 100 %,0 < x < 100,88.37,OK,True
+04_territoires,GE1-tables,lignes des tables communes / préfectures / unités régionales,117 / 39 / 6,117 / 39 / 6,OK,True
+04_territoires,GE4-communes,communes : sommes des comptages = totaux des points,aucun écart,aucun écart,OK,True
+04_territoires,GE4-pop-communes,communes : population totale,8095498,8095498,OK,True
+04_territoires,GE4-préfectures,préfectures : sommes des comptages = totaux des points,aucun écart,aucun écart,OK,True
+04_territoires,GE4-pop-préfectures,préfectures : population totale,8095498,8095498,OK,True
+04_territoires,GE4-unités régionales,unités régionales : sommes des comptages = totaux des points,aucun écart,aucun écart,OK,True
+04_territoires,GE4-pop-unités régionales,unités régionales : population totale,8095498,8095498,OK,True
+04_territoires,GE4-totaux,totaux nationaux : formels / DAB / mobile money / Poste,656 / 184 / 19788 / 84,656 / 184 / 19788 / 84,OK,True
+04_territoires,A13-enquete,communes sans point mobile money (enquête non prouvée),0,0,OK,True
+04_territoires,A13-kpendjal,préfectures sans point formel,Kpendjal,['Kpendjal'],OK,False
+04_territoires,A13-couv,préfectures à couverture non déterminable,"['Kpendjal', 'Mô', 'Tchamba']","['Kpendjal', 'Mô', 'Tchamba']",OK,True
+04_territoires,A13-couv-communes,communes non déterminables hors des 3 préfectures de A13 (critère étendu),à confirmer,"['Sotouboua 2', 'Kéran 3']",OK,False
+04_territoires,CX5,geodata (4j) face à notre recomptage : banques (toutes lignes),247,247,OK,False
+04_territoires,CX5,geodata (4j) face à notre recomptage : microfinances (« Micro-Finance » seul),412,412,OK,False
+04_territoires,CX5,geodata (4j) face à notre recomptage : assurances (toutes lignes),69,69,OK,False
+04_territoires,CX5,geodata (4j) face à notre recomptage : DAB,184,184,OK,False
+04_territoires,CX5,geodata (4j) face à notre recomptage : Poste (toutes lignes),95,95,OK,False
+05_ar1,AR1-numeros,numéros lus,34,34,OK,True
+05_ar1,TE2,abonnes_data_mobile/ensemble/total : trimestres T1 2018 - T2 2026,"34, aucun manquant",34 (manquants : []),OK,True
+05_ar1,TE2,abonnes_telephonie_mobile/ensemble/total : trimestres T1 2018 - T2 2026,"34, aucun manquant",34 (manquants : []),OK,False
+05_ar1,TE2,ca/total_secteur/ : trimestres T1 2018 - T2 2026,"34, aucun manquant",34 (manquants : []),OK,True
+05_ar1,TE2,investissement/total_secteur/ : trimestres T1 2018 - T2 2026,"34, aucun manquant",34 (manquants : []),OK,False
+05_ar1,TE2,abonnes_data_mobile/togocom/total : trimestres T1 2018 - T2 2026,"34, aucun manquant",34 (manquants : []),OK,True
+05_ar1,TE2,abonnes_data_mobile/moov/total : trimestres T1 2018 - T2 2026,"34, aucun manquant",34 (manquants : []),OK,True
+05_ar1,TE2-mm,mobile money (points de vente) : premier trimestre publié,T4 2021 au plus tard,2020T2,OK,False
+05_ar1,AR1-somme-data,data mobile : Togocom + Moov = total,"écart ≤ 0,6 %",aucun écart,OK,False
+05_ar1,AR1-somme-techno,data mobile togocom : somme des technologies = total,"écart ≤ 0,6 %",aucun écart,OK,False
+05_ar1,AR1-somme-techno,data mobile moov : somme des technologies = total,"écart ≤ 0,6 %",aucun écart,OK,False
+05_ar1,AR1-somme-ca-mobile,CA : Togocom + Moov = total mobile,"écart ≤ 0,6 %",aucun écart,OK,False
+05_ar1,AR1-perimetre-gva,trimestres dont le CA fixe publié exclut GVA (rupture de périmètre),signalés,"['2018T1', '2018T3', '2018T4', '2019T1', '2019T2', '2019T3', '2021T1', '2021T2', '2021T3', '2021T4', '2022T1', '2022T2', '2022T3', '2022T4', '2023T1']",OK,False
+05_ar1,AR1-somme-ca-fixe,CA : Togo Telecom + CAFE + TEOLIS + GVA = total fixe (hors trimestres publiés sans GVA),écart ≤ 2 %,aucun écart,OK,False
+05_ar1,AR1-somme-ca,CA : mobile + fixe = secteur,"écart ≤ 0,6 %",aucun écart,OK,False
+05_ar1,AR1-somme-inv,investissement : mobile + fixe = secteur,"écart ≤ 0,6 %",aucun écart,OK,False
+05_ar1,AR1-somme-mm,"mobile money, points de vente : Moov + Togocom = total","écart ≤ 0,6 %",aucun écart,OK,False
+05_ar1,AR1-pdv-2021T4,points de vente mobile money au T4 2021 (03 : 33 924),33924,33924,OK,False
+05_ar1,S6,"rupture T4 2019 → T1 2020 du total data mobile (03 : -6,6 %)","-6,6 %",-6.6 %,OK,False
+05_ar1,AR1-revisions,valeurs révisées d'au moins 5 % entre publications,signalées au registre,88,OK,False
+05_ar1,DD5-conflits,valeurs retenues venant d'un numéro où deux tableaux se contredisent,signalées,6,OK,False
+06_series,SN3-D2-2b,totaux mobiles par opérateur : D2 = 2b (2013-2017),0,0,OK,True
+06_series,CX3,raccord D2 / AR1 (2017) : 3G de Togocel,écart nul,1610821 / 1610821,OK,True
+06_series,CX3,raccord D2 / AR1 (2017) : total data mobile,"≤ 0,03 %",+0.030 %,OK,True
+06_series,CX3,raccord D2 / AR1 (2018) : 3G de Togocel,écart nul,1932767 / 1932767,OK,True
+06_series,CX3,raccord D2 / AR1 (2018) : total data mobile,"≤ 0,03 %",+0.000 %,OK,True
+06_series,SN4-raccord,téléphonie mobile : D3 2018 face à AR1 T4 2018,égalité (raccord P4),+0.00 %,OK,False
+06_series,SN4-operateurs,abonnés téléphonie mobile par opérateur dans AR1 (tableaux),présents,absents : graphiques seulement,ÉCHEC,False
+06_series,SN6-1Go,"années du panier « 1 Go, data seule » (O2-05b)",2023-2025 (3),3,OK,False
+06_series,SN8,"IN1 15 ans et plus en 2022 face au RGPH (03 : +6,6 %)","+6,6 %",+6.6 %,OK,False
+06_series,S7,indice « Communication » : décembre 2019 → décembre 2020 (03 : +15 %),"≈ +15 %, non lu comme hausse",+15.2 %,OK,False
+06_series,SN-cle,"une seule ligne par série, période, convention et variante",0,0,OK,True
+06_series,CX7,une seule base de population par indicateur,1,1,OK,True
+06_series,SN3-continuite,"abonnements data mobile, total annuel principal : 2010-2025 sans trou",16 années,2010-2025 (16),OK,True
+06_series,CX6,"CA 2021 : 2b face à la somme des 4 trimestres de AR1 (03 : +2,8 % / +3,7 %)","+2,8 %",+2.8 %,OK,False
+06_series,CX6,"CA 2022 : 2b face à la somme des 4 trimestres de AR1 (03 : +2,8 % / +3,7 %)","+3,7 %",+3.7 %,OK,False
+07_enquetes,EQ1-2018/19,EHCVM 2018/19 : 6 domaines régionaux,6,6,OK,True
+07_enquetes,EQ2-2018/19,EHCVM 2018/19 : localités du module communautaire rattachées à une région,540,540,OK,True
+07_enquetes,EQ1-2021/22,EHCVM 2021/22 : 6 domaines régionaux,6,6,OK,True
+07_enquetes,EQ2-2021/22,EHCVM 2021/22 : localités du module communautaire rattachées à une région,540,540,OK,True
+07_enquetes,EQ-Findex,"Findex 2024, détention d'un compte (03 : 57,4 %)",57.4,57.4,OK,False
+07_enquetes,EQ-IC,toute estimation calculée sur micro-données a un IC 95 %,0,0,OK,True
+08_references,C5,pays de C5,8,8,OK,True
+08_references,C5b,"Afrique subsaharienne 2024 (03 : 33,6 %)",33.6,33.6,OK,False
+08_references,BC2,lignes pays de BC2 lues (8 pays + UEMOA),9,9,OK,False
+08_references,BC2-Togo,Togo 2024 : TGPSFd / TGPSFg (03 : 116 / 1 094),116 / 1094,116 / 1094,OK,False
+08_references,CH1,"événements datés, avec source et niveau de preuve",40,"40 (40 sources, 40 niveaux)",OK,True
+09_controles,OUT,table dim_territoire présente et non vide,> 0 ligne,563,OK,True
+09_controles,OUT,table points_service présente et non vide,> 0 ligne,20805,OK,True
+09_controles,OUT,table terr_commune présente et non vide,> 0 ligne,117,OK,True
+09_controles,OUT,table terr_prefecture présente et non vide,> 0 ligne,39,OK,True
+09_controles,OUT,table terr_region présente et non vide,> 0 ligne,6,OK,True
+09_controles,OUT,table serie_nationale présente et non vide,> 0 ligne,3261,OK,True
+09_controles,OUT,table enquetes_region présente et non vide,> 0 ligne,979,OK,True
+09_controles,OUT,table benchmark présente et non vide,> 0 ligne,698,OK,True
+09_controles,OUT,table chronologie présente et non vide,> 0 ligne,40,OK,True
+09_controles,GE2-codes,points_service.canton_code présents dans dim_territoire,0,0,OK,True
+09_controles,GE2-codes,points_service.commune_code présents dans dim_territoire,0,0,OK,True
+09_controles,GE2-codes,points_service.prefecture_code présents dans dim_territoire,0,0,OK,True
+09_controles,GE1-codes,terr_commune : codes présents dans dim_territoire,0,0,OK,True
+09_controles,GE1-codes,terr_prefecture : codes présents dans dim_territoire,0,0,OK,True
+09_controles,GE1-codes,terr_region : codes présents dans dim_territoire,0,0,OK,True
+09_controles,ST3-op,D5 : opérateur non renseigné resté NA (jamais 0),1348,1348,OK,True
+09_controles,ST3-couv,terr_commune : couverture non déterminable laissée en NA,NA partout,True,OK,True
+09_controles,A13-zero,terr_commune : les zéros de points formels ont une enquête prouvée,tous,True,OK,True
+09_controles,ST3-couv,terr_prefecture : couverture non déterminable laissée en NA,NA partout,True,OK,True
+09_controles,A13-zero,terr_prefecture : les zéros de points formels ont une enquête prouvée,tous,True,OK,True
+09_controles,TE1,croisement points (PRISE 2021/2022) × population (RGPH 2022),écart ≤ 1 an,"['2021/2022 (PRISE)'] × ['RGPH-5 2022 (RG2, RG3)']",OK,True
+09_controles,TE4,D5 libellé comme stock 2021/2022,tous,['2021/2022 (campagne PRISE)'],OK,True
+09_controles,PREUVE,points_service : niveau de preuve renseigné,100 %,100 %,OK,True
+09_controles,PREUVE,serie_nationale : niveau de preuve renseigné,100 %,100 %,OK,True
+09_controles,PREUVE,enquetes_region : niveau de preuve renseigné,100 %,100 %,OK,True
+09_controles,PREUVE,benchmark : niveau de preuve renseigné,100 %,100 %,OK,True
+09_controles,PREUVE,chronologie : niveau de preuve renseigné,100 %,100 %,OK,True

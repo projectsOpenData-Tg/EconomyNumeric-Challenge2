@@ -1,0 +1,13 @@
+jeu,id_source,variable,type,decision,regle,effet,detail,etape
+3i,C02068,couv_20km_pct,manquant,mis à NA (non déterminable),A13,0.0 % → NA,Mô 1 : 25 points mobile money,04_territoires
+3i,C02069,couv_20km_pct,manquant,mis à NA (non déterminable),A13,0.0 % → NA,Mô 2 : 7 points mobile money,04_territoires
+3i,C03071,couv_20km_pct,manquant,mis à NA (non déterminable),"A13 (critère étendu, à confirmer)",0.0 % → NA,Sotouboua 2 : 107 points mobile money,04_territoires
+3i,C04073,couv_20km_pct,manquant,mis à NA (non déterminable),A13,0.12 % → NA,Tchamba 1 : 52 points mobile money,04_territoires
+3i,C04074,couv_20km_pct,manquant,mis à NA (non déterminable),A13,0.0 % → NA,Tchamba 2 : 85 points mobile money,04_territoires
+3i,C04075,couv_20km_pct,manquant,mis à NA (non déterminable),A13,0.0 % → NA,Tchamba 3 : 68 points mobile money,04_territoires
+3i,D06096,couv_20km_pct,manquant,mis à NA (non déterminable),"A13 (critère étendu, à confirmer)",0.0 % → NA,Kéran 3 : 10 points mobile money,04_territoires
+3i,E02103,couv_20km_pct,manquant,mis à NA (non déterminable),A13,0.0 % → NA,Kpendjal 1 : 36 points mobile money,04_territoires
+3i,E02104,couv_20km_pct,manquant,mis à NA (non déterminable),A13,0.0 % → NA,Kpendjal 2 : 5 points mobile money,04_territoires
+3i,C02,couv_20km_pct,manquant,mis à NA (non déterminable),A13,0.0 % → NA,Mô : 32 points mobile money,04_territoires
+3i,C04,couv_20km_pct,manquant,mis à NA (non déterminable),A13,0.05 % → NA,Tchamba : 205 points mobile money,04_territoires
+3i,E02,couv_20km_pct,manquant,mis à NA (non déterminable),A13,0.0 % → NA,Kpendjal : 41 points mobile money,04_territoires

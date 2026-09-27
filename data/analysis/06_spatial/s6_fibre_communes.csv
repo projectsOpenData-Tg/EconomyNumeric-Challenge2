@@ -1,0 +1,118 @@
+code,nom,prefecture,unite_regionale,superficie_km2,pop_totale,km_fibre_enterree,km_fibre_aerienne,aucune_fibre_recensee
+A01001,Agoè-Nyivé 1,Agoè-Nyivé,Grand Lomé,42.36,317255,24.57,627.9,False
+A01002,Agoè-Nyivé 2,Agoè-Nyivé,Grand Lomé,25.42,128164,0.0,149.26,False
+A01003,Agoè-Nyivé 3,Agoè-Nyivé,Grand Lomé,5.85,47554,2.55,116.59,False
+A01004,Agoè-Nyivé 4,Agoè-Nyivé,Grand Lomé,34.35,154431,19.68,123.9,False
+A01005,Agoè-Nyivé 5,Agoè-Nyivé,Grand Lomé,30.87,125097,0.0,164.35,False
+A01006,Agoè-Nyivé 6,Agoè-Nyivé,Grand Lomé,54.39,110194,8.71,28.12,False
+A06022,Vo 1,Vo,Maritime hors Grand Lomé,187.8,88865,0.0,0.0,True
+A06023,Vo 2,Vo,Maritime hors Grand Lomé,96.13,24396,0.0,0.0,True
+A02007,Avé 1,Avé,Maritime hors Grand Lomé,809.74,75044,0.0,0.0,True
+A06024,Vo 3,Vo,Maritime hors Grand Lomé,240.43,64651,0.0,0.0,True
+A02008,Avé 2,Avé,Maritime hors Grand Lomé,210.25,36170,64.28,0.0,False
+A03009,Bas-Mono 1,Bas-Mono,Maritime hors Grand Lomé,249.75,55382,0.0,0.0,True
+A03010,Bas-Mono 2,Bas-Mono,Maritime hors Grand Lomé,164.27,39478,0.0,0.0,True
+A06025,Vo 4,Vo,Maritime hors Grand Lomé,222.01,46499,0.0,3.75,False
+A04014,Golfe 4,Golfe,Grand Lomé,13.56,155842,9.61,92.57,False
+A04015,Golfe 5,Golfe,Grand Lomé,19.42,169993,19.83,219.99,False
+A04016,Golfe 6,Golfe,Grand Lomé,37.31,181561,15.99,84.56,False
+A04017,Golfe 7,Golfe,Grand Lomé,48.95,257813,11.0,379.35,False
+A07026,Yoto 1,Yoto,Maritime hors Grand Lomé,469.38,77353,0.0,0.0,True
+A05018,Lacs 1,Lacs,Maritime hors Grand Lomé,46.85,52994,9.16,57.27,False
+A05019,Lacs 2,Lacs,Maritime hors Grand Lomé,153.08,42855,0.0,0.0,True
+A05021,Lacs 4,Lacs,Maritime hors Grand Lomé,106.56,37222,0.0,0.0,True
+A07027,Yoto 2,Yoto,Maritime hors Grand Lomé,354.46,43412,0.0,0.0,True
+A07028,Yoto 3,Yoto,Maritime hors Grand Lomé,438.06,54086,0.0,0.0,True
+A08029,Zio 1,Zio,Maritime hors Grand Lomé,813.46,307292,60.27,58.52,False
+A08030,Zio 2,Zio,Maritime hors Grand Lomé,206.99,96193,0.0,0.0,True
+A08031,Zio 3,Zio,Maritime hors Grand Lomé,690.52,67843,31.59,0.05,False
+A08032,Zio 4,Zio,Maritime hors Grand Lomé,419.35,28704,20.13,0.0,False
+B01033,Agou 1,Agou,Plateaux,475.41,58328,23.76,0.06,False
+B01034,Agou 2,Agou,Plateaux,469.09,27465,11.53,0.0,False
+B02035,Akébou 1,Akébou,Plateaux,527.24,44196,0.0,0.0,True
+B02036,Akébou 2,Akébou,Plateaux,668.5,29634,0.0,0.0,True
+B07048,Haho 2,Haho,Plateaux,857.54,82507,0.0,0.0,True
+B03037,Amou 1,Amou,Plateaux,223.85,19746,49.9,0.0,False
+B03038,Amou 2,Amou,Plateaux,443.86,40016,19.17,0.0,False
+B09054,Kpélé 1,Kpélé,Plateaux,589.89,53275,15.57,0.24,False
+B10057,Moyen-Mono 2,Moyen-Mono,Plateaux,192.53,43708,0.0,0.0,True
+B03039,Amou 3,Amou,Plateaux,1005.75,54410,10.95,0.0,False
+B04040,Anié 1,Anié,Plateaux,650.6,100745,48.96,0.0,False
+B04041,Anié 2,Anié,Plateaux,1323.11,79413,0.0,0.0,True
+B05042,Danyi 1,Danyi,Plateaux,186.45,25820,0.0,0.0,True
+B09055,Kpélé 2,Kpélé,Plateaux,341.24,27664,16.24,0.0,False
+C05079,Tchaoudjo 4,Tchaoudjo,Centrale,477.98,20279,0.0,0.0,True
+B05043,Danyi 2,Danyi,Plateaux,241.34,14420,0.0,0.0,True
+B06044,Est-Mono 1,Est-Mono,Plateaux,824.04,34652,0.0,0.0,True
+D02086,Bassar 4,Bassar,Kara,206.75,16657,15.41,0.0,False
+B06045,Est-Mono 2,Est-Mono,Plateaux,1510.22,101866,0.0,0.0,True
+B06046,Est-Mono 3,Est-Mono,Plateaux,191.19,27942,26.23,0.0,False
+B07047,Haho 1,Haho,Plateaux,901.77,119929,51.1,0.4,False
+B07050,Haho 4,Haho,Plateaux,736.67,43965,30.48,0.0,False
+B08051,Kloto 1,Kloto,Plateaux,256.14,118387,20.56,98.37,False
+B10056,Moyen-Mono 1,Moyen-Mono,Plateaux,421.85,46797,0.0,0.0,True
+B08052,Kloto 2,Kloto,Plateaux,240.15,16166,12.19,0.0,False
+B08053,Kloto 3,Kloto,Plateaux,89.87,11433,1.89,1.47,False
+B11058,Ogou 1,Ogou,Plateaux,415.38,116301,58.16,87.07,False
+B11059,Ogou 2,Ogou,Plateaux,534.2,56282,22.08,0.0,False
+B12064,Wawa 3,Wawa,Plateaux,421.91,29699,0.0,0.0,True
+B11060,Ogou 3,Ogou,Plateaux,526.82,51836,30.21,0.0,False
+B11061,Ogou 4,Ogou,Plateaux,364.42,29048,0.0,0.0,True
+B12062,Wawa 1,Wawa,Plateaux,428.96,51187,0.0,1.23,False
+B12063,Wawa 2,Wawa,Plateaux,363.79,20414,0.0,0.0,True
+C01065,Blitta 1,Blitta,Centrale,808.21,71539,19.51,0.0,False
+C01066,Blitta 2,Blitta,Centrale,783.58,46515,87.38,0.0,False
+C01067,Blitta 3,Blitta,Centrale,1596.82,45218,0.0,0.0,True
+C02068,Mô 1,Mô,Centrale,1089.79,30522,0.0,0.0,True
+C02069,Mô 2,Mô,Centrale,380.91,21926,0.0,0.0,True
+C03070,Sotouboua 1,Sotouboua,Centrale,836.76,46907,22.35,0.0,False
+C03071,Sotouboua 2,Sotouboua,Centrale,1539.59,64187,61.49,0.0,False
+C03072,Sotouboua 3,Sotouboua,Centrale,656.36,27770,63.02,0.0,False
+C04073,Tchamba 1,Tchamba,Centrale,828.79,82451,0.81,0.0,False
+C05077,Tchaoudjo 2,Tchaoudjo,Centrale,377.37,24891,72.71,0.0,False
+C04074,Tchamba 2,Tchamba,Centrale,1364.58,64930,0.0,0.0,True
+C05076,Tchaoudjo 1,Tchaoudjo,Centrale,1055.45,177706,44.39,95.16,False
+C04075,Tchamba 3,Tchamba,Centrale,969.1,53204,0.0,0.0,True
+C05078,Tchaoudjo 3,Tchaoudjo,Centrale,625.89,17484,61.14,0.0,False
+D01080,Assoli 1,Assoli,Kara,405.83,40417,53.64,0.0,False
+D01081,Assoli 2,Assoli,Kara,154.02,9933,15.28,0.0,False
+D01082,Assoli 3,Assoli,Kara,291.87,16044,0.0,0.0,True
+D03087,Binah 1,Binah,Kara,383.92,44039,0.0,0.0,True
+D02083,Bassar 1,Bassar,Kara,1535.76,65059,54.61,3.93,False
+D02084,Bassar 2,Bassar,Kara,991.72,36476,0.0,0.0,True
+D02085,Bassar 3,Bassar,Kara,549.96,33873,13.68,0.0,False
+D03088,Binah 2,Binah,Kara,165.48,40160,1.64,0.0,False
+D04090,Dankpen 2,Dankpen,Kara,540.51,32716,0.0,0.0,True
+D04091,Dankpen 3,Dankpen,Kara,1347.59,76652,0.0,0.0,True
+D04089,Dankpen 1,Dankpen,Kara,723.36,76294,0.0,0.01,False
+D05092,Doufelgou 1,Doufelgou,Kara,534.26,44783,35.89,0.0,False
+D05093,Doufelgou 3,Doufelgou,Kara,466.69,28262,0.0,0.0,True
+D05094,Doufelgou 2,Doufelgou,Kara,220.26,11722,37.24,0.0,False
+D06094,Kéran 1,Kéran,Kara,890.75,44399,143.64,0.0,False
+E01102,Cinkassé 2,Cinkassé,Savanes,165.15,52967,20.36,0.0,False
+D06095,Kéran 2,Kéran,Kara,614.28,53305,7.12,0.0,False
+D06096,Kéran 3,Kéran,Kara,289.09,30983,0.0,0.0,True
+D07097,Kozah 1,Kozah,Kara,241.74,193625,32.62,74.2,False
+D07098,Kozah 2,Kozah,Kara,270.99,45704,27.89,16.85,False
+E02103,Kpendjal 1,Kpendjal,Savanes,715.29,47903,0.0,0.0,True
+E02104,Kpendjal 2,Kpendjal,Savanes,388.18,40462,0.0,0.0,True
+E03105,Kpendjal-Ouest 1,Kpendjal-Ouest,Savanes,350.29,56459,0.0,0.0,True
+D07099,Kozah 3,Kozah,Kara,199.69,23755,14.66,0.0,False
+D07100,Kozah 4,Kozah,Kara,365.21,20654,27.7,0.0,False
+E01101,Cinkassé 1,Cinkassé,Savanes,90.21,75992,7.98,11.67,False
+E03106,Kpendjal-Ouest 2,Kpendjal-Ouest,Savanes,298.05,66871,0.0,0.0,True
+E04109,Oti 1,Oti,Savanes,557.85,54479,54.26,0.0,False
+E04110,Oti 2,Oti,Savanes,1119.28,70369,196.21,0.0,False
+E07116,Tône 4,Tône,Savanes,320.47,66577,0.0,0.0,True
+A05020,Lacs 3,Lacs,Maritime hors Grand Lomé,79.8,108176,27.73,129.43,False
+E05107,Oti-Sud 1,Oti-Sud,Savanes,1524.76,106052,34.31,0.0,False
+B07049,Haho 3,Haho,Plateaux,541.6,58695,32.18,0.0,False
+A04013,Golfe 3,Golfe,Grand Lomé,22.86,52769,22.44,158.8,False
+A04012,Golfe 2,Golfe,Grand Lomé,17.82,136153,15.1,81.88,False
+E05108,Oti-Sud 2,Oti-Sud,Savanes,1068.3,44324,16.7,0.0,False
+E06111,Tandjoaré 1,Tandjoaré,Savanes,404.73,74692,21.07,0.22,False
+E06112,Tandjoaré 2,Tandjoaré,Savanes,550.88,64175,0.0,0.0,True
+E07113,Tône 1,Tône,Savanes,525.18,211743,14.66,58.59,False
+E07114,Tône 2,Tône,Savanes,216.04,50179,8.76,0.0,False
+E07115,Tône 3,Tône,Savanes,241.45,60276,0.0,0.0,True
+A04011,Golfe 1,Golfe,Grand Lomé,60.13,351550,30.4,145.35,False

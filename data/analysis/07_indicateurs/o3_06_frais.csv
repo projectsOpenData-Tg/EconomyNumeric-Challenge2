@@ -1,0 +1,7 @@
+operateur,operation,montant_fcfa,frais_fcfa,frais_pct_montant,frais_pct_revenu_mensuel,au_dessus_repere_3pct,note,revenu_mensuel_par_habitant_fcfa
+Moov Africa (Flooz),retrait chez un agent,1000.0,75.0,7.5,0.14,True,,52828.74
+Moov Africa (Flooz),retrait chez un agent,10000.0,280.0,2.8,0.53,False,,52828.74
+Moov Africa (Flooz),retrait chez un agent,100000.0,1000.0,1.0,1.89,False,,52828.74
+Moov Africa (Flooz),transfert national,,0.0,,,,gratuit jusqu'au troisième transfert (conditions publiées),52828.74
+YAS Togo (Mixx),transfert national,,0.0,,,,"6 premiers transferts du jour gratuits, puis 1 % du montant",52828.74
+YAS Togo (Mixx),retrait chez un agent,,,,,,grille officielle non publiée : indicateur partiel (R3),52828.74

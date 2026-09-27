@@ -1,0 +1,21 @@
+ratio,sens,prefecture,valeur,n_formels,n_mm,pop
+formels_pour_10k_hab,plus bas,Kpendjal,0.0,0,41,88365
+formels_pour_10k_hab,plus bas,Akébou,0.14,1,87,73830
+formels_pour_10k_hab,plus bas,Est-Mono,0.18,3,209,164460
+formels_pour_10k_hab,plus bas,Kpendjal-Ouest,0.24,3,129,123330
+formels_pour_10k_hab,plus bas,Dankpen,0.32,6,190,185662
+formels_pour_10k_hab,plus haut,Golfe,1.53,200,5121,1305681
+formels_pour_10k_hab,plus haut,Sotouboua,1.3,18,355,138864
+formels_pour_10k_hab,plus haut,Cinkassé,1.24,16,543,128959
+formels_pour_10k_hab,plus haut,Doufelgou,1.18,10,184,84767
+formels_pour_10k_hab,plus haut,Avé,1.17,13,128,111214
+mm_pour_10k_adultes,plus bas,Kpendjal,9.68,0,41,88365
+mm_pour_10k_adultes,plus bas,Blitta,9.78,10,90,163272
+mm_pour_10k_adultes,plus bas,Mô,11.84,2,32,52448
+mm_pour_10k_adultes,plus bas,Yoto,16.28,19,160,174851
+mm_pour_10k_adultes,plus bas,Moyen-Mono,16.9,5,81,90505
+mm_pour_10k_adultes,plus haut,Tchaoudjo,101.96,20,1411,240360
+mm_pour_10k_adultes,plus haut,Kozah,85.39,26,1562,283738
+mm_pour_10k_adultes,plus haut,Cinkassé,77.29,16,543,128959
+mm_pour_10k_adultes,plus haut,Assoli,61.67,7,228,66394
+mm_pour_10k_adultes,plus haut,Tône,61.45,15,1280,388775

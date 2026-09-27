@@ -1,0 +1,16 @@
+annee,pct_population,croissance_pct,variation_points,classe,classe_variante_2015,source_valeur,controle_enquete,lecture
+2010,3.0,15.38,0.4,rythme habituel,,estimation UIT,,rythme habituel
+2011,3.5,16.67,0.5,rythme habituel,,estimation UIT,,rythme habituel
+2012,4.0,14.29,0.5,rythme habituel,,estimation UIT,,rythme habituel
+2013,4.5,12.5,0.5,rythme habituel,,estimation UIT,,rythme habituel
+2014,5.7,26.67,1.2,rythme habituel,,estimation UIT,,rythme habituel
+2015,7.12,24.91,1.42,rythme habituel,rythme habituel,estimation UIT,,rythme habituel
+2016,11.31,58.85,4.19,accélération,accélération,estimation UIT,"confirmée (Afrobaromètre 2014-2017 : +15.4 %/an, moyenne +11.5)",accélération
+2017,12.36,9.29,1.05,rythme habituel,rythme habituel,INSEED (enquête),,rythme habituel
+2018,15.5,25.4,3.14,rythme habituel,rythme habituel,estimation UIT,,rythme habituel
+2019,20.73,33.72,5.23,rythme habituel,rythme habituel,estimation UIT,,rythme habituel
+2020,29.02,40.03,8.3,accélération,rythme habituel,estimation UIT,"confirmée (Afrobaromètre 2017-2020 : +16.2 %/an, moyenne +11.5)",accélération
+2021,30.34,4.53,1.31,ralentissement,ralentissement,estimation UIT,"confirmée (Afrobaromètre 2020-2022 : +11.2 %/an, moyenne +11.5)",ralentissement
+2022,35.61,17.37,5.27,rythme habituel,rythme habituel,estimation UIT,,rythme habituel
+2023,37.57,5.51,1.96,ralentissement,rythme habituel,estimation UIT,"confirmée (Afrobaromètre 2022-2024 : +4.0 %/an, moyenne +11.5)",ralentissement
+2024,39.48,5.09,1.91,ralentissement,rythme habituel,estimation UIT,"confirmée (Afrobaromètre 2022-2024 : +4.0 %/an, moyenne +11.5)",ralentissement

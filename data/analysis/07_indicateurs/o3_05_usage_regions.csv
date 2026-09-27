@@ -1,0 +1,7 @@
+vague,unite_regionale_code,unite_regionale,estimation_pct,ic95_bas,ic95_haut,cv_pct,affichable,ecart_national
+2021/22,C,Centrale,19.94,16.04,23.85,10.0,oui (CV < 30 %),au-dessous du national
+2021/22,GL,Grand Lomé,57.44,53.5,61.38,3.5,oui (CV < 30 %),au-dessus du national
+2021/22,D,Kara,28.52,23.16,33.89,9.6,oui (CV < 30 %),au-dessous du national
+2021/22,A_HGL,Maritime hors Grand Lomé,31.59,27.17,36.02,7.1,oui (CV < 30 %),non distinct du national
+2021/22,B,Plateaux,29.99,25.54,34.44,7.6,oui (CV < 30 %),au-dessous du national
+2021/22,E,Savanes,23.54,20.1,26.97,7.4,oui (CV < 30 %),au-dessous du national

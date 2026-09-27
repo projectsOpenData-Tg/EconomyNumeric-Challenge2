@@ -1,0 +1,12 @@
+source,vague,indicateur,population_reference,estimation_pct,ic95_bas,ic95_haut
+"EHCVM (W2, micro-données)",2018/19,acces_internet_declare,individus de 15 ans et plus,23.71,22.37,25.05
+"EHCVM (W2, micro-données)",2021/22,acces_internet_declare,individus de 15 ans et plus,35.34,33.63,37.05
+"Afrobaromètre R5 (W4, micro-données)",2012,usage_internet_toute_frequence,adultes de 18 ans et plus,15.33,13.07,17.59
+"Afrobaromètre R6 (W4, micro-données)",2014,usage_internet_toute_frequence,adultes de 18 ans et plus,18.88,16.51,21.24
+"Afrobaromètre R7 (W4, micro-données)",2017,usage_internet_toute_frequence,adultes de 18 ans et plus,29.04,26.22,31.87
+"Afrobaromètre R8 (W4, micro-données)",2020,usage_internet_toute_frequence,adultes de 18 ans et plus,45.54,42.51,48.58
+"Afrobaromètre R9 (W4, micro-données)",2022,usage_internet_toute_frequence,adultes de 18 ans et plus,56.27,52.93,59.61
+"Afrobaromètre R10 (W4, micro-données)",2024,usage_internet_toute_frequence,adultes de 18 ans et plus,60.83,57.67,63.98
+"Findex 2025 (W3, base publiée)",2024,usage_internet_3_mois,adultes de 15 ans et plus,43.71,,
+"MICS6 2017 (W1, tableaux publiés)",2017,internet_utilise_3_derniers_mois,Femmes 15-49 ans,14.1,,
+"MICS6 2017 (W1, tableaux publiés)",2017,internet_utilise_3_derniers_mois,Hommes 15-49 ans,27.6,,
