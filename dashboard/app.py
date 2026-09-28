@@ -18,11 +18,18 @@ if str(ICI) not in sys.path:
 from composants import topbar  # noqa: E402
 from donnees import REGIONS  # noqa: E402
 from i18n import bi, langue, region, t  # noqa: E402
+from notify import signaler_visite  # noqa: E402
 from theme import appliquer_theme  # noqa: E402
 
 st.set_page_config(page_title=t("topbar.brand").replace("&amp;", "&"), page_icon=":material/insights:", layout="wide",
                    initial_sidebar_state="expanded")
 appliquer_theme()
+
+# Alerte de visite Telegram (notify.py) : sans effet tant que les deux variables d'environnement ne sont pas posées sur
+# le dyno. Appelée après le thème pour qu'un incident réseau ne retarde jamais le premier rendu : l'envoi part dans un
+# thread démon.
+signaler_visite()
+
 topbar()
 
 # ----------------------------------------------------------------- Filtres globaux (conservés d’une page à l’autre)

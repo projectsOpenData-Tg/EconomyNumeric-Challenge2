@@ -248,6 +248,25 @@ jobs:
           heroku logs --app "$HEROKU_APP_NAME" --num 100
           exit 1
 
+      # L'alerte de visite vit dans le dyno (`dashboard/notify.py`), pas dans ce workflow : un
+      # runner ne voit pas les connexions au site. On ne peut donc que constater si les deux
+      # config vars sont posées, et le dire, plutôt que de laisser croire que les
+      # notifications marchent alors que le bot n'est pas configuré.
+      - name: État de l'alerte de visite Telegram
+        id: telegram
+        continue-on-error: true
+        run: |
+          jeton=$(heroku config:get TELEGRAM_BOT_TOKEN --app "$HEROKU_APP_NAME" || true)
+          salon=$(heroku config:get TELEGRAM_CHAT_ID  --app "$HEROKU_APP_NAME" || true)
+          if [ -n "$jeton" ] && [ -n "$salon" ]; then
+            echo "etat=active" >> "$GITHUB_OUTPUT"
+            echo "Alerte de visite active : une notification par nouvelle session."
+          else
+            echo "etat=inactive" >> "$GITHUB_OUTPUT"
+            echo "::warning::Alerte de visite inactive — posez les deux variables sur le dyno :"
+            echo "::warning::heroku config:set TELEGRAM_BOT_TOKEN=... TELEGRAM_CHAT_ID=... --app $HEROKU_APP_NAME"
+          fi
+
       - name: Récapitulatif
         run: |
           {
@@ -256,4 +275,5 @@ jobs:
             echo "- **Application** : \`$HEROKU_APP_NAME\`"
             echo "- **URL** : ${{ steps.release.outputs.url }}"
             echo "- **Commit** : \`${GITHUB_SHA:0:7}\`"
+            echo "- **Alerte de visite Telegram** : ${{ steps.telegram.outputs.etat || 'inconnue' }}"
           } >> "$GITHUB_STEP_SUMMARY"
