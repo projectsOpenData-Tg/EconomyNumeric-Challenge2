@@ -67,13 +67,27 @@ with gauche:
 
     with st.container(border=True):
         st.markdown(f'<div class="bloc-titre">{html.escape(bi("Statut d’accès financier", "Financial access status"))}</div>', unsafe_allow_html=True)
-        variante = st.toggle(bi("Variante P9 (règle 5 avant la règle 4)", "P9 variant (rule 5 before rule 4)"), key="variante_p9")
+        # Variante de l’ordre de la cascade (07, O4-05) : la règle « desserte diversifiée » est testée avant « mobile money dominant »
+        variante = st.toggle(bi("Variante : la desserte diversifiée l’emporte sur le mobile money dominant",
+                                "Variant: diversified service takes precedence over mobile money dominant"), key="variante_p9",
+                             help=bi("Règle de référence : une commune qui a plus de 20 points mobile money par guichet est « mobile money "
+                                     "dominant », même si elle a les 4 types de points et moins de 10 000 habitants par guichet. La variante "
+                                     "la classe alors en « desserte diversifiée ».",
+                                     "Reference rule: a commune with more than 20 mobile money points per formal point is “mobile money "
+                                     "dominant”, even if it has all 4 point types and fewer than 10,000 people per formal point. The variant "
+                                     "then classes it as “diversified service”."))
         colonne = "statut_O4_05_variante_P9" if variante else "statut_O4_05"
         carte_valeur(contours("communes"), C, f"carte_statut_{colonne}", colonne, bi("Statut", "Status"), categorique=True,
                     couleurs_categorie=STATUT_O4_05)
         if variante:
-            st.caption(bi("Variante décidée après avoir vu le résultat (P9) : affichée à côté, jamais à la place de la règle de référence.",
-                         "Variant decided after seeing the result (P9): shown alongside, never instead of the reference rule."))
+            bascule = C[(C.statut_O4_05 == "mobile money dominant") & (C.statut_O4_05_variante_P9 == "desserte diversifiée")]
+            noms_bascule = ", ".join(bascule.nom)
+            st.caption(bi(f"Variante décidée après avoir vu le résultat : affichée à côté, jamais à la place de la règle de référence. "
+                          f"{len(bascule)} communes passent de « mobile money dominant » à « desserte diversifiée » "
+                          f"({nombre(int(bascule.pop_totale.sum()))} habitants) : {noms_bascule}.",
+                          f"Variant decided after seeing the result: shown alongside, never instead of the reference rule. "
+                          f"{len(bascule)} communes move from “mobile money dominant” to “diversified service” "
+                          f"({nombre(int(bascule.pop_totale.sum()))} people): {noms_bascule}."))
         export_csv(C[["code", "nom", "statut_O4_05", "statut_O4_05_variante_P9"]], "statut_acces.csv", "export_statut")
 
 with droite:
@@ -84,7 +98,12 @@ with droite:
         st.markdown(f'<div class="bloc-titre">{html.escape(bi("Matrice statut × couverture (communes)", "Status × coverage matrix (communes)"))}</div>', unsafe_allow_html=True)
         mat = lire("07_indicateurs", "o4_06_matrice_communes")
         cols = [c for c in mat.columns if c != "statut_O4_05"]
-        mat_disp = mat.rename(columns={"statut_O4_05": bi("statut", "status")})
+        # En-têtes en clair et dans la langue choisie : la table écrit « non déterminable (A13) », un code interne
+        mat_disp = mat.rename(columns={"statut_O4_05": bi("statut", "status"),
+                                       "couverture partielle (proxy)": bi("couverture partielle (proxy)", "partial coverage (proxy)"),
+                                       "non déterminable (A13)": bi("couverture inconnue", "coverage unknown"),
+                                       "territoire couvert (proxy)": bi("territoire couvert (proxy)", "covered territory (proxy)"),
+                                       "zone blanche prioritaire (proxy)": bi("zone blanche prioritaire (proxy)", "priority white zone (proxy)")})
         st.dataframe(mat_disp, hide_index=True, use_container_width=True)
         export_csv(mat, "matrice_statut_couverture.csv", "export_matrice")
 

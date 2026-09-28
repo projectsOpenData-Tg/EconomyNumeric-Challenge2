@@ -13,9 +13,9 @@ import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
 
-from donnees import centres, contours
-from i18n import bi, definir_langue, langue, t
-from theme import BLEUS, ENCRE, HORS_SELECTION, OCRE, PRIORITE
+from donnees import centres, contours, nombre
+from i18n import bi, definir_langue, langue, region, t
+from theme import BLEUS, COULEUR_REGION, ENCRE, HORS_SELECTION, OCRE, PRIORITE
 
 STATIQUE = Path(__file__).resolve().parent / "static"
 EMBLEME = STATIQUE / "armoiries-togo-ecu.svg"
@@ -262,3 +262,57 @@ def carte_regions(df: pd.DataFrame, cle: str, colonne: str, bornes: list[float],
                       legend=dict(orientation="h", x=0.5, xanchor="center", y=-0.01, yanchor="top", font=dict(size=11),
                                   itemclick=False, itemdoubleclick=False))
     st.plotly_chart(fig, key=cle, config={"displayModeBar": False, "scrollZoom": False})
+
+
+# ----------------------------------------------------------------- Graphiques des pages d’analyse (Internet, Marché)
+BLEU_FONCE = "#0d366b"  # texte du pied de page (theme.py, .pied-identite-titre) : textes mis en avant sur les graphiques
+
+
+def titre_bloc(titre: str, sous_titre: str | None = None, marge: bool = False):
+    style = ' style="margin-top:1rem;"' if marge else ""
+    sous = f'<div class="bloc-sous-titre">{html.escape(sous_titre)}</div>' if sous_titre else ""
+    st.markdown(f'<div class="bloc-titre"{style}>{html.escape(titre)}</div>{sous}', unsafe_allow_html=True)
+
+
+def habiller(fig: go.Figure, hauteur: int, suffixe_y: str = "", legende_y: float = 1.12, **kw) -> go.Figure:
+    """Mise en forme commune des graphiques des pages d’analyse ; `kw` complète ou remplace les réglages par défaut (axes compris)."""
+    reglages = dict(height=hauteur, margin=dict(l=10, r=10, t=10, b=10), paper_bgcolor="#ffffff", plot_bgcolor="#ffffff",
+                    font=dict(family="IBM Plex Sans, system-ui, sans-serif", color=ENCRE, size=11),
+                    legend=dict(orientation="h", y=legende_y, x=0), yaxis=dict(ticksuffix=suffixe_y, gridcolor="#efece4"),
+                    xaxis=dict(gridcolor="#efece4"), hoverlabel=dict(bgcolor="#ffffff", font_size=12),
+                    separators=", " if langue() == "fr" else ".,")
+    reglages.update(kw)
+    fig.update_layout(**reglages)
+    return fig
+
+
+def tracer(fig: go.Figure, cle: str):
+    st.plotly_chart(fig, key=cle, config={"displayModeBar": False})
+
+
+def note(texte: str, forte: bool = False):
+    """Phrase de lecture sous un graphique, en bleu foncé ; en gras si `forte` (demande du 28/09/2026)."""
+    st.markdown(f'<div class="note-graphique{" forte" if forte else ""}">{html.escape(texte)}</div>', unsafe_allow_html=True)
+
+
+def pct(x, d=1) -> str:
+    """Pourcentage selon la langue : « 39,5 % » en français, « 39.5% » en anglais."""
+    return f"{nombre(x, d)}\u00a0%" if langue() == "fr" else f"{nombre(x, d)}%"
+
+
+def couleur_region(nom: str) -> str:
+    """Couleur d’une région (nom de la table ou nom traduit), pour écrire son nom en couleur ; encre si inconnue."""
+    return COULEUR_REGION.get(nom) or {region(k): v for k, v in COULEUR_REGION.items()}.get(nom, ENCRE)
+
+
+def colorer_regions(df: pd.DataFrame, colonne: str):
+    """Tableau dont la colonne des régions est écrite en couleur, une couleur par région (demande du 28/09/2026). Rend un
+    `Styler` à passer à `st.dataframe`. Un `Styler` impose son propre format d’affichage (6 décimales par défaut) : chaque
+    colonne décimale garde donc le nombre de décimales dont ses valeurs ont besoin (au plus 2), au format de la langue."""
+    sty = df.style.map(lambda v: f"color: {couleur_region(v)}; font-weight: 600", subset=[colonne])
+    for c in df.columns:
+        if pd.api.types.is_float_dtype(df[c]):
+            v = df[c].dropna()
+            d = next((k for k in (0, 1) if ((v * 10 ** k).round(6) % 1 == 0).all()), 2)
+            sty = sty.format(lambda x, d=d: "" if pd.isna(x) else nombre(x, d), subset=[c])
+    return sty

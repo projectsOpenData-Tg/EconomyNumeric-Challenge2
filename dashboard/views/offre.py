@@ -6,7 +6,8 @@ import html
 import pandas as pd
 import streamlit as st
 
-from composants import ariane, carte_kpi, carte_regions, carte_valeur, constat, entete, export_csv, limite, pied, rangee_kpi
+from composants import (ariane, carte_kpi, carte_regions, carte_valeur, colorer_regions, constat, entete, export_csv, limite, pied,
+                        rangee_kpi)
 from donnees import communes, contours, filtrer_communes, lire, nombre, operateurs_communes
 from i18n import bi, langue, region, t
 from theme import CATEGORIELLE
@@ -116,7 +117,7 @@ with st.container(border=True):
         tab_od = pd.DataFrame({c_reg: od.unite.map(region), c_off: od.mm_pour_10k_adultes, c_use: od.usage_mobile_banking_2021_pct.round(1)})
         if f["regions"]:
             tab_od = tab_od[od.unite.isin(f["regions"]).values]
-        st.dataframe(tab_od.sort_values(c_use), hide_index=True, use_container_width=True,
+        st.dataframe(colorer_regions(tab_od.sort_values(c_use), c_reg), hide_index=True, use_container_width=True,
                      column_config={c_reg: st.column_config.TextColumn(c_reg, width="medium"),
                                     c_use: st.column_config.ProgressColumn(c_use, min_value=0, max_value=100, format="%.1f")})
         st.caption(bi("Six régions : c’est un constat, pas une corrélation. Offre : recensement 2021/2022 ; usage : enquête 2021/22.",
@@ -131,7 +132,7 @@ with st.container(border=True):
                             "n_banque": bi("banques", "banks"), "n_imf": "IMF", "n_assurance": bi("assurances", "insurers"),
                             "n_dab": "DAB", "n_mm": bi("mobile money", "mobile money")})
     pf[bi("région", "region")] = pf[bi("région", "region")].map(region)
-    st.dataframe(pf, hide_index=True, use_container_width=True)
+    st.dataframe(colorer_regions(pf, bi("région", "region")), hide_index=True, use_container_width=True)
     export_csv(pf, "points_par_prefecture.csv", "export_pf_type")
 
 limite(bi("Recensement 2021/2022 : des lieux, pas des agents ni des transactions. L’opérateur n’est pas renseigné pour jusqu’à 23 % "

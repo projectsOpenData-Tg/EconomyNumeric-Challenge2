@@ -11,6 +11,15 @@ OCRE = "#eda100"
 HORS_SELECTION = "#ebe8e0"
 BLEUS = ["#cde2fb", "#86b6ef", "#3987e5", "#1c5cab", "#0d366b"]  # rampe séquentielle validée (analyse/cartes_06.py)
 CATEGORIELLE = ["#2a78d6", "#eb6834", "#1baf7a", "#eda100", "#e87ba4"]  # palette catégorielle validée
+# Les 8 teintes de la même palette, dans son ordre validé (écart CVD entre voisines ≥ 9,2) : une par pays de l’UEMOA.
+CATEGORIELLE_8 = CATEGORIELLE + ["#008300", "#4a3aa7", "#e34948"]
+# Même teinte, assez foncée pour du texte sur fond blanc (contraste ≥ 4,5:1) : #2a78d6 → #256abf (rampe bleue, pas 500) ;
+# #e87ba4 → #bb537d (même teinte OKLab, clarté abaissée).
+TEXTE_CATEGORIELLE = {"#2a78d6": "#256abf", "#e87ba4": "#bb537d", "#eb6834": "#cb4b0c", "#eda100": "#ab6300", "#e34948": "#d53b3c"}
+# Une couleur par région, pour écrire son nom (tableaux, constats) : teintes de la palette catégorielle, en pas lisibles sur
+# fond blanc (contraste ≥ 4,5:1). La couleur suit la région, jamais son rang (demande du 28/09/2026).
+COULEUR_REGION = {"Grand Lomé": "#256abf", "Maritime hors Grand Lomé": "#008300", "Plateaux": "#ab6300",
+                  "Centrale": "#4a3aa7", "Kara": "#cb4b0c", "Savanes": "#bb537d"}
 DIMENSION = {"acces": "#eb6834", "maillage": "#1baf7a", "couverture": "#4a3aa7"}  # figures_08.py, D1/D2/D3
 STATUT_O4_05 = {"desserte diversifiée": "#2a78d6", "desserte faible": "#eda100",
                 "mobile money dominant": "#4a3aa7", "mobile money uniquement": "#e34948"}  # figures_07.py
@@ -128,10 +137,11 @@ div.st-key-topbar_droite button { padding: 0.15rem 0.55rem !important; min-heigh
 /* Sous-onglets d'une page, en pastilles sur une barre blanche (demande du 27/09/2026, sur le modèle de l'image jointe ;
    même principe que les onglets du défi 1, theme.py). Streamlit 1.61 construit ses onglets avec React Aria, plus avec
    BaseWeb : la barre est [role="tablist"], chaque onglet [data-testid="stTab"], le soulignement de l'onglet actif
-   .react-aria-SelectionIndicator (masqué). Les pastilles passent à la ligne sur un écran étroit plutôt que de défiler. */
+   .react-aria-SelectionIndicator (masqué). Les pastilles se partagent toute la largeur de la barre, texte centré
+   (28/09/2026), et passent à la ligne sur un écran étroit plutôt que de défiler. */
 .stTabs [role="tablist"] { gap: 4px; background: #ffffff; padding: 6px; border-radius: 12px; border: 1px solid #e2dfd6;
   box-shadow: 0 1px 4px rgba(13,54,107,0.06); flex-wrap: wrap; }
-.stTabs [data-testid="stTab"] { border-radius: 8px; padding: 7px 15px; height: auto; margin: 0; }
+.stTabs [data-testid="stTab"] { border-radius: 8px; padding: 7px 15px; height: auto; margin: 0; flex: 1 1 auto; justify-content: center; text-align: center; }
 .stTabs [data-testid="stTab"] p { font-size: 0.9rem; font-weight: 600; color: #55534e; }
 .stTabs [data-testid="stTab"]:hover { background: #e8f0fb; }
 .stTabs [data-testid="stTab"]:hover p { color: #0d366b; }
@@ -142,6 +152,8 @@ div.st-key-topbar_droite button { padding: 0.15rem 0.55rem !important; min-heigh
 .onglets-repere { font-size: 0.82rem; font-style: italic; color: #55534e; margin: 0.1rem 0 0.4rem; }
 .periodes { display: flex; flex-direction: column; gap: 10px; font-size: 0.92rem; line-height: 1.45; }
 .periodes b { color: #141413; }
+.note-graphique { font-size: 0.875rem; line-height: 1.5; color: #0d366b; margin: 0.2rem 0 0.6rem; }
+.note-graphique.forte { font-weight: 700; }
 </style>
 """
 

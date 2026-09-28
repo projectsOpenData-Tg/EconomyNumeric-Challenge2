@@ -22,9 +22,25 @@ INDICATEURS = {
     "couverture_proxy_pct": dict(lib=t("lib.couverture_theorique").capitalize() + " (%)", palette="Blues", table="couverture",
                                  limite=bi("Proxy : rayon de 20 km autour des antennes, toutes technologies confondues.",
                                           "Proxy: 20 km radius around antennas, all technologies combined.")),
+    "km_fibre_enterree": dict(lib=bi("Fibre enterrée recensée (km)", "Recorded buried fibre (km)"), palette="Blues", table="fibre",
+                              limite=bi("Longueur de câble recensée (carte de 2021/2022), sans date de pose ni distinction entre transport et accès : ni un "
+                                        "raccordement à domicile, ni un nombre d’abonnés. 0 = aucune fibre recensée. Fibre enterrée et aérienne ne "
+                                        "s’additionnent pas.",
+                                        "Recorded cable length (2021/2022 map), no laying date, backbone and access combined: neither a home "
+                                        "connection nor a number of subscribers. 0 = no recorded fibre. Buried and aerial fibre are not added "
+                                        "together.")),
+    "km_fibre_aerienne": dict(lib=bi("Fibre aérienne recensée (km)", "Recorded aerial fibre (km)"), palette="Blues", table="fibre",
+                              limite=bi("Longueur de câble recensée (carte de 2021/2022), sans date de pose ni distinction entre transport et accès : ni un "
+                                        "raccordement à domicile, ni un nombre d’abonnés. 0 = aucune fibre recensée. Fibre enterrée et aérienne ne "
+                                        "s’additionnent pas.",
+                                        "Recorded cable length (2021/2022 map), no laying date, backbone and access combined: neither a home "
+                                        "connection nor a number of subscribers. 0 = no recorded fibre. Buried and aerial fibre are not added "
+                                        "together.")),
     "statut_O4_05": dict(lib=bi("Statut d'accès financier", "Financial access status"), table="o4", categorique=True, couleurs=STATUT_O4_05,
-                        limite=bi("Règle en cascade ; la variante P9 est sur la page Population et offre.",
-                                 "Cascading rule; the P9 variant is on the Population and services page.")),
+                        limite=bi("Règle en cascade : la première condition remplie l’emporte. Une variante, où la desserte diversifiée "
+                                  f"l’emporte sur le mobile money dominant, est sur la page « {t('page.population')} ».",
+                                  "Cascading rule: the first condition met prevails. A variant, where diversified service takes precedence "
+                                  f"over mobile money dominant, is on the “{t('page.population')}” page.")),
     "priorite": dict(lib=bi("Classe de priorité", "Priority class"), table="priorite", categorique=True,
                      couleurs={"haute": PRIORITE["haute"], "moyenne": PRIORITE["moyenne"], "faible": PRIORITE["faible"],
                               "non classée": PRIORITE["non classée"]},
@@ -42,6 +58,8 @@ niveau = "communes" if maille == "Commune" else "prefectures"
 
 if info["table"] == "priorite":
     territoires = prefectures()
+elif info["table"] == "fibre":  # carte 11 du 06 ; préfectures : O2-07
+    territoires = lire("06_spatial", "s6_fibre_communes") if maille == "Commune" else lire("07_indicateurs", "o2_07_fibre_prefectures")
 elif info["table"] == "couverture":
     cv = lire("07_indicateurs", "o2_06_couverture")
     territoires = cv[cv.maille == ("commune" if maille == "Commune" else "préfecture")]

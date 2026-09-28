@@ -1,10 +1,10 @@
-"""Page 2 — Internet : usage et marché : « L’usage progresse-t-il, et à quel prix ? » (plan visuel, section 7, page 2).
+"""Page 2 — Usage d’Internet : « L’usage progresse-t-il, et à quel prix ? » (plan visuel, section 7, page 2).
 
-Six sous-onglets (demande du 27/09/2026, `workspace/conding-progress.md`) : une « Vue synthèse » de l’objectif 1
-(retracer l’usage d’Internet, repérer les périodes d’accélération ou de stagnation), quatre onglets qui en détaillent
-les analyses (évolution de l’usage, accès et freins par région, le Togo dans l’UEMOA, technologies), et un dernier onglet
-pour le marché des télécommunications (objectif 2). Seul l’onglet ouvert s’exécute. La Vue synthèse résume sans
-dupliquer : un visuel détaillé dans un autre onglet n’y est qu’annoncé.
+Quatre sous-onglets (demande du 27/09/2026, `workspace/conding-progress.md`) : une « Vue synthèse » de l’objectif 1
+(retracer l’usage d’Internet, repérer les périodes d’accélération ou de stagnation), puis trois onglets qui en détaillent
+les analyses (évolution de l’usage, accès et freins par région, le Togo dans l’UEMOA). Seul l’onglet ouvert s’exécute.
+La Vue synthèse résume sans dupliquer : un visuel détaillé dans un autre onglet n’y est qu’annoncé. Le marché des
+télécommunications et les technologies (objectif 2) ont leur page depuis le 28/09/2026 (`marche.py`).
 
 Chiffres nationaux, sauf ceux de l’onglet régional, dont les cartes cerclent les régions du filtre.
 """
@@ -14,15 +14,16 @@ import pandas as pd
 import plotly.graph_objects as go
 import streamlit as st
 
-from composants import (ariane, carte_kpi, carte_regions, constat, entete, export_csv, limite, onglets, pied, rangee_kpi,
-                        synthese)
+from composants import (BLEU_FONCE, ariane, carte_kpi, carte_regions, colorer_regions, constat, entete, export_csv, habiller, limite, note,
+                        onglets, pct, pied, rangee_kpi, synthese, titre_bloc, tracer)
 from donnees import lire, nombre, rang
 from i18n import bi, frein, langue, region, t
-from theme import CATEGORIELLE, ENCRE, OCRE, PRIORITE
+from theme import CATEGORIELLE, CATEGORIELLE_8, ENCRE, OCRE, PRIORITE, TEXTE_CATEGORIELLE
 
 f_regions = st.session_state.f_regions
 SEUIL_USAGE = 40        # seuil de l’usage d’Internet (O1-01, hypothèse du sujet)
 SEUIL_STAGNATION = 2    # croissance annuelle sous laquelle une année est une stagnation (O1-02)
+ROUGE_CLAIR = "#e34948"  # rouge de la palette du tableau de bord : libellé du repère « un abonnement par utilisateur »
 
 # ----------------------------------------------------------------- Tables (lectures en cache, aucun recalcul d’indicateur)
 d1 = lire("05_eda", "s4_usage_internet_d1").set_index("annee")          # UIT, depuis les premiers utilisateurs (1996)
@@ -38,11 +39,7 @@ freins = lire("07_indicateurs", "o1_06_freins")
 smart = lire("07_indicateurs", "o1_06_smartphone_national").set_index("indicateur").estimation_pct
 bench = lire("05_eda", "s4_benchmark_usage_internet")
 techno = lire("07_indicateurs", "o1_04_technologies").set_index("annee")
-hhi = lire("07_indicateurs", "o2_01_parts_hhi")
-inv = lire("07_indicateurs", "o2_04_investissement")
 c1go = lire("07_indicateurs", "o2_05b_cout_1go").set_index("annee")
-fibre = lire("07_indicateurs", "o2_07_fibre_prefectures")
-sites = lire("07_indicateurs", "o2_08_sites_radio")
 r6 = lire("10_recommandations", "r6_cout_data").iloc[0]
 
 # ----------------------------------------------------------------- Chiffres partagés entre onglets
@@ -55,7 +52,26 @@ annees_ralent = [int(a) for a in usage.index if usage.loc[a, "classe"] == "ralen
 annees_stagn = [int(a) for a in usage.index if usage.loc[a, "croissance_pct"] < SEUIL_STAGNATION]
 debut_ralent_uit = min(a for a in annees_ralent if a > max(annees_accel))
 abo_ralent = [int(a) for a in abo.index if str(abo.loc[a, "classe_finale"]).startswith("ralentissement")]
+
+
+def _classe(x) -> str:
+    """Classe sans sa précision entre parenthèses (« accélération (une seule valeur publiée) » → « accélération »)."""
+    return str(x).split(" (")[0] if pd.notna(x) else ""
+
+
+# Sensibilité des classes (05, constat C2 ; 07, O1-02) : une année « dépend de la convention » si sa classe change avec la
+# période de référence 2015-2024 (usage, abonnements) ou quand les ruptures sont comptées (abonnements). Lu dans les tables.
+usage_dep = [int(a) for a in usage.index if pd.notna(usage.loc[a, "classe_variante_2015"])
+             and usage.loc[a, "classe_variante_2015"] != usage.loc[a, "classe"]]
+abo_dep = [int(a) for a in abo.index if _classe(abo.loc[a, "classe_finale"]) != "non classé"
+           and any(pd.notna(abo.loc[a, c]) and _classe(abo.loc[a, c]) != _classe(abo.loc[a, "classe_finale"])
+                   for c in ("classe_finale_variante_2015", "classe_finale_ruptures_comptees"))]
+variante_dep = sorted({usage.loc[a, "classe_variante_2015"] for a in usage_dep})
 debut_ralent_abo = min(abo_ralent)
+ralent_sur_uit = min(a for a in annees_ralent if a not in usage_dep)
+ralent_sur_abo = min(a for a in abo_ralent if a not in abo_dep)
+au_dessus_ass = pen.ecart_ass_points.dropna() > 0
+depuis_ass = int(au_dessus_ass[~au_dessus_ass].index.max() + 1) if (~au_dessus_ass).any() else int(au_dessus_ass.index.min())
 afro = periodes[periodes.source == "Afrobaromètre"].sort_values("debut")
 afro_dern = afro.iloc[-1]
 
@@ -78,39 +94,13 @@ PAYS = {"BEN": ("Bénin", "Benin"), "BFA": ("Burkina Faso", "Burkina Faso"), "CI
         "GNB": ("Guinée-Bissau", "Guinea-Bissau"), "MLI": ("Mali", "Mali"), "NER": ("Niger", "Niger"),
         "SEN": ("Sénégal", "Senegal"), "TGO": ("Togo", "Togo")}
 pays = lambda iso: bi(*PAYS[iso])
+COULEUR_PAYS = dict(zip(["SEN", "CIV", "TGO", "MLI", "BEN", "GNB", "BFA", "NER"],
+                        [CATEGORIELLE_8[i] for i in (1, 2, 0, 3, 4, 5, 6, 7)]))  # le Togo garde le bleu du tableau de bord
 devant = bench[(bench.annee == a_b) & bench.iso3.isin(PAYS) & (bench.valeur > tgo.loc[a_b, "valeur"])].sort_values("valeur", ascending=False)
 devant_noms = bi(" et ", " and ").join(pays(i) for i in devant.iso3)
 
 a_t = int(techno.index.max())
-a_t0 = int(techno[techno.serie_retenue_pour_la_bascule].index.min())
 c1go_now = c1go.iloc[-1]
-
-
-def titre_bloc(titre: str, sous_titre: str | None = None, marge: bool = False):
-    style = ' style="margin-top:1rem;"' if marge else ""
-    sous = f'<div class="bloc-sous-titre">{html.escape(sous_titre)}</div>' if sous_titre else ""
-    st.markdown(f'<div class="bloc-titre"{style}>{html.escape(titre)}</div>{sous}', unsafe_allow_html=True)
-
-
-def habiller(fig: go.Figure, hauteur: int, suffixe_y: str = "", legende_y: float = 1.12, **kw) -> go.Figure:
-    """Mise en forme commune des graphiques de la page ; `kw` complète ou remplace les réglages par défaut (axes compris)."""
-    reglages = dict(height=hauteur, margin=dict(l=10, r=10, t=10, b=10), paper_bgcolor="#ffffff", plot_bgcolor="#ffffff",
-                    font=dict(family="IBM Plex Sans, system-ui, sans-serif", color=ENCRE, size=11),
-                    legend=dict(orientation="h", y=legende_y, x=0), yaxis=dict(ticksuffix=suffixe_y, gridcolor="#efece4"),
-                    xaxis=dict(gridcolor="#efece4"), hoverlabel=dict(bgcolor="#ffffff", font_size=12),
-                    separators=", " if langue() == "fr" else ".,")
-    reglages.update(kw)
-    fig.update_layout(**reglages)
-    return fig
-
-
-def tracer(fig: go.Figure, cle: str):
-    st.plotly_chart(fig, key=cle, config={"displayModeBar": False})
-
-
-def pct(x, d=1) -> str:
-    """Pourcentage selon la langue : « 39,5 % » en français, « 39.5% » en anglais."""
-    return f"{nombre(x, d)}\u00a0%" if langue() == "fr" else f"{nombre(x, d)}%"
 
 
 # ----------------------------------------------------------------- En-tête (commun aux onglets)
@@ -124,9 +114,8 @@ st.markdown(f'<div class="filtres-actifs">{html.escape(bi("Chiffres nationaux : 
             unsafe_allow_html=True)
 
 LIBELLES = [bi("Vue synthèse", "Overview"), bi("Évolution de l’usage", "Usage trends"),
-            bi("Accès et freins par région", "Access and barriers by region"), bi("Le Togo dans l’UEMOA", "Togo within WAEMU"),
-            bi("Technologies", "Technologies"), bi("Marché des télécoms", "Telecom market")]
-o_synth, o_evol, o_regions, o_uemoa, o_techno, o_marche = onglets("internet_onglets", LIBELLES)
+            bi("Accès et freins par région", "Access and barriers by region"), bi("Le Togo dans l’UEMOA", "Togo within WAEMU")]
+o_synth, o_evol, o_regions, o_uemoa = onglets("internet_onglets", LIBELLES)
 
 # =================================================================== 1. Vue synthèse
 if o_synth.open is not False:
@@ -134,8 +123,8 @@ if o_synth.open is not False:
         rangee_kpi(bi("L’usage d’Internet en quatre chiffres", "Internet use in four figures"), [
             carte_kpi(bi(f"Usage d’Internet ({a_u})", f"Internet use ({a_u})"), pct(u_now),
                       bi("de la population utilise Internet", "of the population uses the Internet"),
-                      bi(f"Afrique subsaharienne : {pct(ass_now)} ; seuil : {SEUIL_USAGE} %",
-                         f"Sub-Saharan Africa: {pct(ass_now)}; threshold: {SEUIL_USAGE}%"),
+                      bi(f"Afrique subsaharienne : {pct(ass_now)}, dépassée depuis {depuis_ass} ; seuil : {SEUIL_USAGE} %",
+                         f"Sub-Saharan Africa: {pct(ass_now)}, exceeded since {depuis_ass}; threshold: {SEUIL_USAGE}%"),
                       bi("Estimation internationale (UIT) ; les enquêtes auprès des ménages en confirment la tendance, pas le niveau.",
                          "International estimate (ITU); household surveys confirm the trend, not the level."),
                       bi("Seuil franchi", "Threshold reached") if u_now >= SEUIL_USAGE else bi("Sous le seuil", "Below threshold"),
@@ -165,9 +154,11 @@ if o_synth.open is not False:
             with st.container(border=True):
                 titre_bloc(bi(f"L’usage d’Internet depuis les premiers utilisateurs (1996-{a_u})", f"Internet use since the first users (1996-{a_u})"),
                            bi("Estimation de l’UIT, avec le repère de l’Afrique subsaharienne (publié depuis 2005) et le seuil de 40 %. "
-                              "Les points marquent les années d’accélération et de ralentissement.",
+                              "Les points marquent les années d’accélération et de ralentissement ; un cercle vide, une classe qui "
+                              "dépend de la période de référence.",
                               "ITU estimate, with the Sub-Saharan Africa reference (published since 2005) and the 40% threshold. "
-                              "Dots mark the years of acceleration and slowdown."))
+                              "Dots mark the years of acceleration and slowdown; a hollow circle, a class that depends on the "
+                              "reference period."))
                 fig = go.Figure()
                 fig.add_scatter(x=d1.index, y=d1.pct_population, mode="lines", name="Togo", line=dict(color=PRIORITE["haute"], width=3),
                                 hovertemplate="%{x} : %{y:.1f} %<extra>Togo</extra>")
@@ -176,8 +167,14 @@ if o_synth.open is not False:
                                 line=dict(color="#8a8780", width=2, dash="dot"))
                 for annees, coul, nom in ((annees_accel, PRIORITE["moyenne"], bi("année d’accélération", "year of acceleration")),
                                           (annees_ralent, OCRE, bi("année de ralentissement", "year of slowdown"))):
-                    fig.add_scatter(x=annees, y=[d1.loc[a, "pct_population"] for a in annees], mode="markers", name=nom,
+                    sures, dep = [a for a in annees if a not in usage_dep], [a for a in annees if a in usage_dep]
+                    fig.add_scatter(x=sures, y=[d1.loc[a, "pct_population"] for a in sures], mode="markers", name=nom, legendgroup=nom,
                                     marker=dict(color=coul, size=11, line=dict(color="#ffffff", width=2)))
+                    fig.add_scatter(x=dep, y=[d1.loc[a, "pct_population"] for a in dep], mode="markers", name=nom, legendgroup=nom,
+                                    showlegend=False, marker=dict(color="#ffffff", size=11, line=dict(color=coul, width=2.5)))
+                fig.add_scatter(x=[None], y=[None], mode="markers", name=bi("cercle vide : dépend de la période de référence",
+                                                                           "hollow circle: depends on the reference period"),
+                                marker=dict(color="#ffffff", size=11, line=dict(color="#55534e", width=2)))
                 fig.add_hline(y=SEUIL_USAGE, line=dict(color="#8a1c1b", width=1, dash="dash"),
                               annotation_text=bi("Seuil de 40 %", "40% threshold"), annotation_position="top left")
                 a0 = int(d1.index.min())
@@ -186,7 +183,7 @@ if o_synth.open is not False:
                                            f"{a0}: first users ({nombre(d1.loc[a0, 'pct_population'], 2)}%)"),
                                    font=dict(size=10, color="#55534e"), xanchor="left")
                 fig.add_annotation(x=a_u, y=u_now, text=f"<b>{pct(u_now)}</b>", showarrow=False, xanchor="left", xshift=8, font=dict(size=12))
-                habiller(fig, 400, " %", xaxis=dict(gridcolor="#efece4", range=[1995, a_u + 3], dtick=5))
+                habiller(fig, 420, " %", legende_y=-0.1, xaxis=dict(gridcolor="#efece4", range=[1995, a_u + 3], dtick=5))
                 tracer(fig, "courbe_usage_1996")
                 export_csv(d1.reset_index().merge(pen[["afrique_subsaharienne_pct"]].reset_index(), on="annee", how="left"),
                            "usage_internet_1996.csv", "export_usage_1996")
@@ -199,16 +196,32 @@ if o_synth.open is not False:
                        f"+{nombre(d1.loc[2020, 'croissance_pct'], 1)}% in 2020."))
             with st.container(border=True):
                 titre_bloc(bi("Accélération ou stagnation ?", "Acceleration or stagnation?"),
-                           bi("Classes de la croissance annuelle, 2010-2024.", "Classes of annual growth, 2010-2024."))
+                           bi("Classes de la croissance annuelle, période de référence 2010-2024. En gras, les classes sûres.",
+                              "Classes of annual growth, reference period 2010-2024. In bold, the firm classes."))
                 virg, dp = ", ", bi(" : ", ": ")
                 aucune = bi("aucune année", "no year")
                 stagn_txt = virg.join(map(str, annees_stagn)) if annees_stagn else aucune
+                selon = html.escape(bi("selon la période de référence", "depending on the reference period"))
+
+                def annees_html(annees: list[int]) -> str:
+                    sures = virg.join(f"<b>{a}</b>" for a in annees if a not in usage_dep)
+                    dep = virg.join(str(a) for a in annees if a in usage_dep)
+                    pv = bi(" ; ", "; ")
+                    return sures + (f'{pv}<span style="color:#55534e">{dep} ({selon})</span>' if dep else "")
+
+                en_anglais = {"rythme habituel": "usual pace", "accélération": "acceleration", "ralentissement": "slowdown"}
+                lib_variante = bi(" et ".join(f"« {v} »" for v in variante_dep), " and ".join(f"“{en_anglais.get(v, v)}”" for v in variante_dep))
+                note = bi(f"Avec 2015-2024 comme période de référence, {virg.join(map(str, usage_dep))} passent en {lib_variante} : "
+                          f"seules {' et '.join(str(a) for a in annees_accel + annees_ralent if a not in usage_dep)} gardent leur classe.",
+                          f"With 2015-2024 as the reference period, {virg.join(map(str, usage_dep))} move to {lib_variante}: "
+                          f"only {' and '.join(str(a) for a in annees_accel + annees_ralent if a not in usage_dep)} keep their class.")
                 st.markdown(
                     f'<div class="periodes">'
-                    f'<div><b>{html.escape(bi("Accélération", "Acceleration"))}</b>{dp}{virg.join(map(str, annees_accel))}</div>'
-                    f'<div><b>{html.escape(bi("Ralentissement", "Slowdown"))}</b>{dp}{virg.join(map(str, annees_ralent))}</div>'
+                    f'<div><b>{html.escape(bi("Accélération", "Acceleration"))}</b>{dp}{annees_html(annees_accel)}</div>'
+                    f'<div><b>{html.escape(bi("Ralentissement", "Slowdown"))}</b>{dp}{annees_html(annees_ralent)}</div>'
                     f'<div><b>{html.escape(bi("Stagnation", "Stagnation"))}</b>{dp}{html.escape(stagn_txt)} '
                     f'{html.escape(bi(f"(croissance jamais sous {SEUIL_STAGNATION} % par an)", f"(growth never below {SEUIL_STAGNATION}% a year)"))}</div>'
+                    f'<div style="font-size:0.84rem;color:#55534e;border-top:1px solid #efece4;padding-top:8px">{html.escape(note)}</div>'
                     f'</div>', unsafe_allow_html=True)
         detail = bi("détail : onglet", "details: tab")
         og, fg = bi("« ", "“"), bi(" »", "”")  # guillemets selon la langue
@@ -226,12 +239,17 @@ if o_synth.open is not False:
             bi(f"{rang(rang_now)} de l’UEMOA depuis {depuis_b}, derrière {devant_noms}.",
                f"{rang(rang_now)} in WAEMU since {depuis_b}, behind {devant_noms}.") + f" <i>({detail} {og}{LIBELLES[3]}{fg})</i>",
             bi(f"La 4G fait {pct(techno.loc[a_t, '4G'])} des abonnements data mobile en {a_t}.",
-               f"4G accounts for {pct(techno.loc[a_t, '4G'])} of mobile data subscriptions in {a_t}.") + f" <i>({detail} {og}{LIBELLES[4]}{fg})</i>",
+               f"4G accounts for {pct(techno.loc[a_t, '4G'])} of mobile data subscriptions in {a_t}.")
+            + f" <i>({bi('détail : page', 'details:')} {og}{t('page.marche')}{fg}{bi(', onglet', ' page,')} {og}{bi('Technologies et fibre', 'Technologies and fibre')}{fg}{bi('', ' tab')})</i>",
         ])
         limite(bi("Série d’usage estimée par l’UIT (sauf 2017), pas mesurée directement. Les classes de croissance portent sur 2010-2024 : "
-                  "avant 2005, les taux portent sur des niveaux inférieurs à 2 % et ne se lisent pas.",
+                  "avant 2005, les taux portent sur des niveaux inférieurs à 2 % et ne se lisent pas. Le classement de la page "
+                  f"{og}{t('page.priorites')}{fg} ne porte pas sur l’usage d’Internet : aucune mesure d’usage n’existe à la préfecture ; "
+                  f"pour l’usage, les priorités se lisent par région (onglet {og}{LIBELLES[2]}{fg}).",
                   "Usage series estimated by the ITU (except 2017), not directly measured. Growth classes cover 2010-2024: before 2005, "
-                  "rates apply to levels below 2% and are not interpreted."))
+                  "rates apply to levels below 2% and are not interpreted. The ranking on the "
+                  f"{og}{t('page.priorites')}{fg} page is not about Internet use: no measure of use exists at prefecture level; for use, "
+                  f"priorities are read by region ({og}{LIBELLES[2]}{fg} tab)."))
 
 # =================================================================== 2. Évolution de l’usage
 if o_evol.open is not False:
@@ -241,7 +259,11 @@ if o_evol.open is not False:
                    f"(+{nombre(afro_dern.croissance_annualisee_pct, 1)} % par an).",
                    f"All sources see the slowdown, but not at the same time: the ITU from {debut_ralent_uit}, data subscriptions from "
                    f"{debut_ralent_abo}, the Afrobarometer between {int(afro_dern.debut)} and {int(afro_dern.fin)} "
-                   f"(+{nombre(afro_dern.croissance_annualisee_pct, 1)}% a year)."))
+                   f"(+{nombre(afro_dern.croissance_annualisee_pct, 1)}% a year).")
+                + bi(f" Il est sûr en {ralent_sur_uit} pour l’usage et en {ralent_sur_abo} pour les abonnements ; la classe des années "
+                     "suivantes dépend de la convention retenue (en pointillés).",
+                     f" It is firm in {ralent_sur_uit} for use and in {ralent_sur_abo} for subscriptions; the class of later years "
+                     "depends on the convention used (dotted)."))
         couleur_classe = {"accélération": PRIORITE["haute"], "rythme habituel": "#86b6ef", "ralentissement": OCRE}
         lib_classe = {"accélération": bi("accélération", "acceleration"), "rythme habituel": bi("rythme habituel", "usual pace"),
                       "ralentissement": bi("ralentissement", "slowdown"), "rupture": bi("non classé : rupture de série", "not classified: series break")}
@@ -253,18 +275,24 @@ if o_evol.open is not False:
                               "Gain in percentage points each year (ITU), classified; 5 events annotated."))
                 u10 = usage.loc[2011:]
                 fig = go.Figure()
+                # motif posé par-dessus la couleur de la barre (par défaut, Plotly remplace la couleur par le motif)
+                pointilles = dict(fgcolor="#ffffff", size=5, solidity=0.45, fillmode="overlay")
                 for cl, coul in couleur_classe.items():
                     sub = u10[u10.classe == cl]
-                    fig.add_bar(x=sub.index, y=sub.variation_points, name=lib_classe[cl], marker_color=coul)
+                    fig.add_bar(x=sub.index, y=sub.variation_points, name=lib_classe[cl], marker_color=coul,
+                                marker_pattern=dict(shape=["." if a in usage_dep else "" for a in sub.index], **pointilles))
+                # entrée de légende : une barre de hauteur nulle (une barre sans donnée n’aurait pas d’icône)
+                fig.add_bar(x=[u10.index.min()], y=[0], name=bi("pointillés : selon la période de référence", "dotted: depends on the reference period"),
+                            marker_color="#8a8780", marker_pattern=dict(shape=".", **pointilles), hoverinfo="skip")
                 # Événements retenus, lus comme des coïncidences dans le temps, pas comme des causes (limite de l’onglet)
                 evenements = [(2016, bi("3G de Moov", "Moov 3G")), (2018, bi("4G à Lomé", "4G in Lomé")),
                               (2020, bi("Covid-19 ; 5G Togocom", "Covid-19; Togocom 5G")), (2022, bi("Câble Equiano", "Equiano cable")),
                               (2023, bi("Forfaits Moov -71 %", "Moov plans -71%"))]
                 haut = u10.variation_points.max()
                 for an, lib in evenements:  # au-dessus de la plus haute barre, pour ne jamais la chevaucher
-                    fig.add_annotation(x=an, y=haut * 1.08, text=lib, showarrow=False, textangle=-90, font=dict(size=9, color="#55534e"),
+                    fig.add_annotation(x=an, y=haut * 1.08, text=lib, showarrow=False, textangle=-90, font=dict(size=11, color=BLEU_FONCE),
                                        yanchor="bottom")
-                habiller(fig, 360, " pts", legende_y=1.12, bargap=0.3, yaxis=dict(ticksuffix=" pts", gridcolor="#efece4", range=[0, haut * 2.0]),
+                habiller(fig, 360, " pts", legende_y=1.12, bargap=0.3, barmode="relative", yaxis=dict(ticksuffix=" pts", gridcolor="#efece4", range=[0, haut * 2.0]),
                          xaxis=dict(gridcolor="#efece4", dtick=2))
                 tracer(fig, "croissance_usage")
                 export_csv(u10.reset_index()[["annee", "pct_population", "variation_points", "classe"]], "usage_internet.csv", "export_usage")
@@ -299,16 +327,25 @@ if o_evol.open is not False:
         with g3:
             with st.container(border=True):
                 titre_bloc(bi("Abonnements data mobile : croissance annuelle", "Mobile data subscriptions: annual growth"),
-                           bi("Valeur du 4e trimestre (ARCEP), classée sur 2010-2024. Les années de rupture de série ne sont pas classées.",
-                              "Fourth-quarter value (ARCEP), classified over 2010-2024. Series-break years are not classified."))
+                           bi("Valeur du 4e trimestre (ARCEP), classée sur 2010-2024. Les années de rupture de série ne sont pas classées ; "
+                              "en pointillés, une classe qui change avec la période 2015-2024 ou quand les ruptures sont comptées.",
+                              "Fourth-quarter value (ARCEP), classified over 2010-2024. Series-break years are not classified; dotted, a "
+                              "class that changes with the 2015-2024 period or when breaks are counted."))
                 ab = abo.copy()
                 ab["cl"] = ab.classe_finale.astype(str).str.split(" \\(").str[0].replace({"non classé": "rupture"})
                 fig = go.Figure()
                 for cl, coul in list(couleur_classe.items()) + [("rupture", "#d9d6cd")]:
                     sub = ab[ab.cl == cl]
+                    motif = ["/" if cl == "rupture" else "." if a in abo_dep else "" for a in sub.index]
                     fig.add_bar(x=sub.index, y=sub.croissance_T4_pct, name=lib_classe[cl], marker_color=coul,
-                                marker_pattern_shape="/" if cl == "rupture" else "", marker_line_color="#8a8780" if cl == "rupture" else coul)
-                habiller(fig, 330, " %", legende_y=1.16, bargap=0.3, xaxis=dict(gridcolor="#efece4", dtick=2))
+                                marker_pattern=dict(shape=motif, fgcolor="#8a8780" if cl == "rupture" else "#ffffff", size=5,
+                                                    solidity=0.45, fillmode="overlay"),
+                                marker_line_color="#8a8780" if cl == "rupture" else coul)
+                fig.add_bar(x=[ab.index.min()], y=[0], name=bi("pointillés : selon la convention", "dotted: depends on the convention"),
+                            marker_color="#8a8780", marker_pattern=dict(shape=".", fgcolor="#ffffff", size=5, solidity=0.45, fillmode="overlay"),
+                            hoverinfo="skip")
+                # une seule barre par année : « relative » lui donne toute la largeur (en « group », chaque trace réserve sa place)
+                habiller(fig, 330, " %", legende_y=1.16, bargap=0.3, barmode="relative", xaxis=dict(gridcolor="#efece4", dtick=2))
                 tracer(fig, "croissance_abonnements")
                 export_csv(abo.reset_index()[["annee", "abonnes_T4", "croissance_T4_pct", "classe_finale", "rupture"]],
                            "abonnements_data.csv", "export_abonnements")
@@ -324,21 +361,27 @@ if o_evol.open is not False:
                                 line=dict(color=PRIORITE["haute"], width=2.5), marker=dict(size=6), showlegend=False,
                                 hovertemplate="%{x} : %{y:.2f}<extra></extra>")
                 fig.add_hline(y=1, line=dict(color="#8a8780", width=1, dash="dash"),
-                              annotation_text=bi("un abonnement par utilisateur", "one subscription per user"), annotation_position="bottom right")
+                              annotation_text=bi("un abonnement par utilisateur", "one subscription per user"), annotation_position="bottom right",
+                              annotation_font=dict(size=11, color=ROUGE_CLAIR))
                 for a in (a_max, int(r.index.max())):
-                    fig.add_annotation(x=a, y=r.loc[a], text=f"<b>{nombre(r.loc[a], 2)}</b> ({a})", showarrow=False, yshift=14, font=dict(size=11))
+                    fig.add_annotation(x=a, y=r.loc[a], text=f"<b>{nombre(r.loc[a], 2)}</b> ({a})", showarrow=False, yshift=14,
+                                       font=dict(size=11, color=BLEU_FONCE))
                 habiller(fig, 330)
                 tracer(fig, "abonnements_par_utilisateur")
-                st.caption(bi(f"L’écart se creuse jusqu’en {a_max} (multi-SIM), puis se resserre : les utilisateurs augmentent plus vite que les abonnements.",
-                              f"The gap widens until {a_max} (multi-SIM), then narrows: users grow faster than subscriptions."))
+                note(bi(f"L’écart se creuse jusqu’en {a_max} (multi-SIM), puis se resserre : les utilisateurs augmentent plus vite que les abonnements.",
+                        f"The gap widens until {a_max} (multi-SIM), then narrows: users grow faster than subscriptions."), forte=True)
                 export_csv(ecart_abo.reset_index(), "abonnements_par_utilisateur.csv", "export_ecart_abo")
         limite(bi("Série d’usage estimée (UIT). Chaque enquête a sa définition et sa tranche d’âge : elles ne se comparent pas entre elles. "
                   "Les événements annotés sont des coïncidences dans le temps, pas des causes démontrées. Les ruptures de série de 2020 et 2021 "
-                  "(reclassement de la 3G de Togocel, révision de l’ARCEP) ne sont pas classées. Les utilisateurs sont reconstitués (part des "
+                  "(reclassement de la 3G de Togocel, révision de l’ARCEP) ne sont pas classées. Les classes en pointillés changent si l’on "
+                  "prend 2015-2024 comme période de référence (ou, pour les abonnements, si l’on compte les ruptures) : seules les autres "
+                  "sont sûres. Les utilisateurs sont reconstitués (part des "
                   "utilisateurs × population) : le ratio par utilisateur est un ordre de grandeur.",
                   "Usage series estimated (ITU). Each survey has its own definition and age range: they are not compared with each other. "
                   "The annotated events are coincidences in time, not demonstrated causes. The 2020 and 2021 series breaks (Togocel 3G "
-                  "reclassification, ARCEP revision) are not classified. Users are reconstructed (share of users × population): the "
+                  "reclassification, ARCEP revision) are not classified. Dotted classes change if 2015-2024 is taken as the reference "
+                  "period (or, for subscriptions, if breaks are counted): only the others are firm. Users are reconstructed (share of "
+                  "users × population): the "
                   "per-user ratio is an order of magnitude."))
 
 # =================================================================== 3. Accès et freins par région
@@ -392,6 +435,27 @@ if o_regions.open is not False:
                                bi("70 à 80 %", "70 to 80%"), bi("80 % et plus", "80% and over")], selection=f_regions, hauteur=500)
                 export_csv(alpha[alpha.indicateur == "alphabetisation"], "alphabetisation_regions.csv", "export_alphabetisation")
 
+        # Accès et couverture ne vont pas ensemble (06, section 6 et constat S6) : lu dans la table des freins
+        fz = freins.set_index("unite_regionale")
+        hors_gl = fz.drop(index="Grand Lomé")
+        r_acces_min = hors_gl.acces_internet_2021_22_pct.idxmin()
+        r_couv_min = hors_gl.couverture_proxy_pct.idxmin()
+        rang_acces_couv_min = int(hors_gl.acces_internet_2021_22_pct.rank(ascending=False)[r_couv_min])
+        qualif = bi("l’un des meilleurs accès" if rang_acces_couv_min <= 2 else "un accès moyen",
+                    "one of the best access rates" if rang_acces_couv_min <= 2 else "an average access rate")
+        constat(bi(f"Accès et couverture ne vont pas ensemble. {region(r_acces_min)} : couverture théorique de "
+                   f"<strong>{pct(fz.loc[r_acces_min, 'couverture_proxy_pct'])}</strong>, mais l’accès le plus faible "
+                   f"(<strong>{pct(fz.loc[r_acces_min, 'acces_internet_2021_22_pct'])}</strong>) : le réseau n’y est pas le premier frein. "
+                   f"{region(r_couv_min)} : la couverture la plus faible ({pct(fz.loc[r_couv_min, 'couverture_proxy_pct'])}), mais "
+                   f"{qualif} hors du Grand Lomé ({pct(fz.loc[r_couv_min, 'acces_internet_2021_22_pct'])}). "
+                   "Six régions : c’est un constat, pas une corrélation.",
+                   f"Access and coverage do not go together. {region(r_acces_min)}: theoretical coverage of "
+                   f"<strong>{pct(fz.loc[r_acces_min, 'couverture_proxy_pct'])}</strong>, but the lowest access "
+                   f"(<strong>{pct(fz.loc[r_acces_min, 'acces_internet_2021_22_pct'])}</strong>): the network is not the main barrier there. "
+                   f"{region(r_couv_min)}: the lowest coverage ({pct(fz.loc[r_couv_min, 'couverture_proxy_pct'])}), but "
+                   f"{qualif} outside Greater Lomé ({pct(fz.loc[r_couv_min, 'acces_internet_2021_22_pct'])}). "
+                   "Six regions: an observation, not a correlation."))
+
         with st.container(border=True):
             titre_bloc(bi("Les freins à l’usage, région par région", "Barriers to use, region by region"),
                        bi("Un frein n’est recherché que là où l’usage est faible (sous 40 %) et la couverture théorique supérieure à 85 % ; il est "
@@ -412,15 +476,15 @@ if o_regions.open is not False:
             tab = pd.DataFrame({c_reg: fr_.unite_regionale.map(region), c_frein: fr_.lecture_02.map(frein), c_acc: fr_.acces_internet_2021_22_pct,
                                 c_couv: fr_.couverture_proxy_pct, c_alp: fr_.alphabetisation_15plus_pct, c_comp: competences})
             barre = lambda lib: st.column_config.ProgressColumn(lib, min_value=0, max_value=100, format="%.1f")
-            st.dataframe(tab.sort_values(c_acc), hide_index=True, use_container_width=True,
+            st.dataframe(colorer_regions(tab.sort_values(c_acc), c_reg), hide_index=True, use_container_width=True,
                          column_config={c_reg: st.column_config.TextColumn(c_reg, width="medium"), c_acc: barre(c_acc),
                                         c_couv: barre(c_couv), c_alp: barre(c_alp)})
-            st.caption(bi(f"Le coût pèse partout : 1 Go coûte {pct(freins.cout_1go_pct_revenu_national.iloc[0])} du revenu mensuel (chiffre national). "
-                          f"{pct(smart['smartphone_telephone_principal'])} des adultes ont un smartphone comme téléphone principal ; "
-                          f"{pct(smart['sans_smartphone_cause_cout'])} citent le coût comme raison de ne pas en avoir (Findex 2024).",
-                          f"Cost weighs everywhere: 1 GB costs {pct(freins.cout_1go_pct_revenu_national.iloc[0])} of monthly income (national figure). "
-                          f"{pct(smart['smartphone_telephone_principal'])} of adults use a smartphone as their main phone; "
-                          f"{pct(smart['sans_smartphone_cause_cout'])} cite cost as the reason for not having one (Findex 2024)."))
+            note(bi(f"Le coût pèse partout : 1 Go coûte {pct(freins.cout_1go_pct_revenu_national.iloc[0])} du revenu mensuel (chiffre national). "
+                    f"{pct(smart['smartphone_telephone_principal'])} des adultes ont un smartphone comme téléphone principal ; "
+                    f"{pct(smart['sans_smartphone_cause_cout'])} citent le coût comme raison de ne pas en avoir (Findex 2024).",
+                    f"Cost weighs everywhere: 1 GB costs {pct(freins.cout_1go_pct_revenu_national.iloc[0])} of monthly income (national figure). "
+                    f"{pct(smart['smartphone_telephone_principal'])} of adults use a smartphone as their main phone; "
+                    f"{pct(smart['sans_smartphone_cause_cout'])} cite cost as the reason for not having one (Findex 2024)."), forte=True)
             export_csv(tab, "freins_regions.csv", "export_freins")
         limite(bi("Six régions seulement : aucune enquête ne descend à la préfecture ni à la commune. L’accès déclaré n’est pas l’usage. "
                   "Le frein est présumé par une règle, pas démontré ; l’alphabétisation n’est qu’un indice des compétences ; les compétences "
@@ -440,27 +504,38 @@ if o_uemoa.open is not False:
         with gauche:
             with st.container(border=True):
                 titre_bloc(bi(f"Usage d’Internet dans les 8 pays de l’UEMOA, 2000-{a_b}", f"Internet use in the 8 WAEMU countries, 2000-{a_b}"),
-                           bi("Le Togo en trait épais ; les autres pays en gris (nom au survol), sauf celui que vous choisissez.",
-                              "Togo in a thick line; other countries in grey (name on hover), except the one you choose."))
+                           bi(f"Une couleur par pays, le Togo en trait épais ; légende triée par la valeur de {a_b}. "
+                              "Choisir un pays estompe les autres.",
+                              f"One colour per country, Togo in a thick line; legend sorted by the {a_b} value. "
+                              "Choosing a country fades the others."))
                 autres = [i for i in PAYS if i != "TGO"]
                 noms_pays = {pays(i): i for i in autres}
-                choix_lib = st.selectbox(bi("Pays à comparer", "Country to compare"), [bi("aucun", "none")] + list(noms_pays),
+                choix_lib = st.selectbox(bi("Pays à mettre en évidence", "Country to highlight"), [bi("aucun", "none")] + list(noms_pays),
                                          key=f"uemoa_pays_{langue()}")
                 choix = noms_pays.get(choix_lib, "—")
+                v_b = bench[bench.annee == a_b].set_index("iso3").valeur
+                ordre_legende = {iso: k for k, iso in enumerate(v_b.sort_values(ascending=False).index)}
+                sep = bi(" : ", ": ")
                 fig = go.Figure()
                 for iso in autres:
-                    s = bench[bench.iso3 == iso]
-                    mis_en_avant = iso == choix
-                    fig.add_scatter(x=s.annee, y=s.valeur, mode="lines", name=pays(iso) if mis_en_avant else bi("autres pays de l’UEMOA", "other WAEMU countries"),
-                                    legendgroup="autres" if not mis_en_avant else iso, showlegend=mis_en_avant or iso == [a for a in autres if a != choix][0],
-                                    line=dict(color=CATEGORIELLE[1] if mis_en_avant else "#cfccc4", width=2.5 if mis_en_avant else 1.5),
+                    s_ = bench[bench.iso3 == iso]
+                    estompe = choix in PAYS and iso != choix
+                    fig.add_scatter(x=s_.annee, y=s_.valeur, mode="lines", name=f"{pays(iso)}{sep}{pct(v_b[iso])}",
+                                    legendrank=ordre_legende[iso], opacity=0.25 if estompe else 1,
+                                    line=dict(color=COULEUR_PAYS[iso], width=3 if iso == choix else 2),
                                     hovertemplate=f"{pays(iso)} " + "%{x} : %{y:.1f} %<extra></extra>")
                 ssf = bench[bench.iso3 == "SSF"]
-                fig.add_scatter(x=ssf.annee, y=ssf.valeur, mode="lines", name=bi("Afrique subsaharienne", "Sub-Saharan Africa"),
-                                line=dict(color=ENCRE, width=1.5, dash="dash"))
-                fig.add_scatter(x=tgo.index, y=tgo.valeur, mode="lines", name="Togo", line=dict(color=CATEGORIELLE[0], width=4),
+                fig.add_scatter(x=ssf.annee, y=ssf.valeur, mode="lines", name=bi("Afrique subsaharienne", "Sub-Saharan Africa") + f"{sep}{pct(v_b['SSF'])}",
+                                legendrank=ordre_legende["SSF"], line=dict(color=ENCRE, width=1.5, dash="dash"))
+                fig.add_scatter(x=tgo.index, y=tgo.valeur, mode="lines", name=f"<b>Togo{sep}{pct(v_b['TGO'])}</b>",
+                                legendrank=ordre_legende["TGO"], line=dict(color=COULEUR_PAYS["TGO"], width=4),
                                 hovertemplate="Togo %{x} : %{y:.1f} %<extra></extra>")
-                habiller(fig, 420, " %", xaxis=dict(gridcolor="#efece4", dtick=5))
+                fig.add_annotation(x=a_b, y=tgo.loc[a_b, "valeur"], text="<b>Togo</b>", showarrow=False, xanchor="left", xshift=6,
+                                   font=dict(size=12, color=TEXTE_CATEGORIELLE[COULEUR_PAYS["TGO"]]))
+                # légende dans le graphique, en haut à gauche : les courbes y restent sous 10 % jusqu’en 2010 (comme la figure 11 du 05)
+                habiller(fig, 440, " %", xaxis=dict(gridcolor="#efece4", dtick=5, range=[1999.5, a_b + 2.8]),
+                         legend=dict(orientation="v", x=0.01, y=0.99, xanchor="left", yanchor="top", bgcolor="rgba(255,255,255,0.85)",
+                                     title=dict(text=bi(f"En {a_b}", f"In {a_b}")), font=dict(size=11)))
                 tracer(fig, "uemoa_courbes")
                 export_csv(bench, "usage_internet_uemoa.csv", "export_uemoa")
         with droite:
@@ -469,7 +544,15 @@ if o_uemoa.open is not False:
                 fig = go.Figure()
                 fig.add_scatter(x=tgo.index, y=tgo.rang_uemoa_sur_8, mode="lines", line=dict(color=CATEGORIELLE[0], width=3, shape="hv"),
                                 showlegend=False, hovertemplate="%{x} : %{y}<extra></extra>")
-                habiller(fig, 220, yaxis=dict(autorange="reversed", dtick=1, range=[8.5, 0.5], gridcolor="#efece4"))
+                # rang écrit sur les phases importantes : l’année de départ, puis chaque palier tenu au moins 2 ans ; au milieu du
+                # palier tel qu’il est tracé (en escalier, un palier court jusqu’à l’année suivante, sauf le dernier)
+                rg = tgo.rang_uemoa_sur_8.astype(int)
+                paliers = [(int(g.index.min()), int(g.index.max()), int(g.iloc[0])) for _, g in rg.groupby(rg.ne(rg.shift()).cumsum())]
+                for de, a, r in [p for k, p in enumerate(paliers) if k == 0 or p[1] > p[0]]:
+                    fin = a + 1 if a < a_b else a
+                    fig.add_annotation(x=(de + fin) / 2, y=r, text=f"<b>{rang(r)}</b>", showarrow=False, yshift=13,
+                                       font=dict(size=11, color=BLEU_FONCE))
+                habiller(fig, 240, yaxis=dict(autorange="reversed", dtick=1, range=[8.5, 0.2], gridcolor="#efece4"))
                 tracer(fig, "uemoa_rang")
             with st.container(border=True):
                 titre_bloc(bi(f"Classement {a_b}", f"{a_b} ranking"))
@@ -481,121 +564,5 @@ if o_uemoa.open is not False:
                   "des mesures. Le repère de l’Afrique subsaharienne ne commence qu’en 2005.",
                   "On both sides, most values are ITU estimates: a rank compares estimates with each other, not measurements. The "
                   "Sub-Saharan Africa reference only starts in 2005."))
-
-# =================================================================== 5. Technologies
-if o_techno.open is not False:
-    with o_techno:
-        rangee_kpi(bi(f"Abonnements data mobile ({a_t})", f"Mobile data subscriptions ({a_t})"), [
-            carte_kpi(bi("Haut débit", "Broadband"), pct(techno.loc[a_t, "part_haut_debit_pct"]),
-                      bi("des abonnements data mobile sont en 3G ou 4G", "of mobile data subscriptions are 3G or 4G"),
-                      bi("seuil du passage au haut débit : 80 %", "broadband switch threshold: 80%"),
-                      bi("Un abonnement n’est pas une personne : un usager peut avoir plusieurs cartes SIM.",
-                         "A subscription is not a person: a user may have several SIM cards."),
-                      bi("Seuil franchi", "Threshold reached") if techno.loc[a_t, "part_haut_debit_pct"] >= 80 else bi("Sous le seuil", "Below threshold"),
-                      "ok" if techno.loc[a_t, "part_haut_debit_pct"] >= 80 else "alerte"),
-            carte_kpi("4G", pct(techno.loc[a_t, "4G"]), bi("des abonnements data mobile", "of mobile data subscriptions"),
-                      bi(f"{pct(techno.loc[a_t0, '4G'])} en {a_t0}", f"{pct(techno.loc[a_t0, '4G'])} in {a_t0}"), "", None, "neutre"),
-            carte_kpi("2G", pct(techno.loc[a_t, "2G"]), bi("des abonnements data mobile", "of mobile data subscriptions"),
-                      bi(f"{pct(techno.loc[a_t0, '2G'])} en {a_t0}", f"{pct(techno.loc[a_t0, '2G'])} in {a_t0}"), "", None, "neutre"),
-            carte_kpi(bi("Fibre jusqu’au domicile", "Fibre to the home"), pct(techno.loc[a_t, "part_ftth_internet_pct"]),
-                      bi("des abonnements Internet", "of Internet subscriptions"),
-                      bi(f"{nombre(techno.loc[a_t, 'abonnes_ftth_T4'])} abonnés en {a_t}", f"{nombre(techno.loc[a_t, 'abonnes_ftth_T4'])} subscribers in {a_t}"),
-                      "", None, "neutre"),
-        ])
-        st.write("")
-        gauche, droite = st.columns([1.6, 1], gap="large")
-        with gauche:
-            with st.container(border=True):
-                titre_bloc(bi(f"Abonnements data mobile par technologie, {a_t0}-{a_t}", f"Mobile data subscriptions by technology, {a_t0}-{a_t}"),
-                           bi("Part de chaque technologie (valeur du 4e trimestre, ARCEP).", "Share of each technology (fourth-quarter value, ARCEP)."))
-                tt = techno.loc[a_t0:]
-                fig = go.Figure()
-                for col, nom, coul in (("2G", "2G", CATEGORIELLE[4]),
-                                       ("3G+4G (Moov, non ventilé)", bi("3G et 4G de Moov, non ventilées", "Moov 3G and 4G, not broken down"), CATEGORIELLE[3]),
-                                       ("3G", "3G", CATEGORIELLE[1]), ("4G", "4G", CATEGORIELLE[0])):
-                    fig.add_bar(x=tt.index, y=tt[col], name=nom, marker_color=coul, marker_line_color="#ffffff", marker_line_width=1.5,
-                                text=[pct(v, 0) if col == "4G" and v >= 10 else "" for v in tt[col]], textposition="inside",
-                                textfont=dict(color="#ffffff", size=11), hovertemplate=f"{nom} " + "%{x} : %{y:.1f} %<extra></extra>")
-                fig.add_vline(x=2019.5, line=dict(color="#55534e", width=1))
-                fig.add_annotation(x=2019.5, y=100, text=bi("rupture de série (1er trimestre 2020)", "series break (Q1 2020)"), showarrow=False,
-                                   xanchor="left", yanchor="bottom", xshift=4, font=dict(size=10, color="#55534e"))
-                habiller(fig, 380, " %", legende_y=1.14, barmode="stack", bargap=0.3, xaxis=dict(gridcolor="#efece4", dtick=1),
-                         yaxis=dict(ticksuffix=" %", gridcolor="#efece4", range=[0, 106]))
-                tracer(fig, "mix_technologique")
-                export_csv(tt.reset_index()[["annee", "2G", "3G", "4G", "3G+4G (Moov, non ventilé)", "part_haut_debit_pct"]],
-                           "technologies_data.csv", "export_technologies")
-        with droite:
-            constat(bi(f"La 4G devient majoritaire en {a_t} ({pct(techno.loc[a_t, '4G'])} des abonnements data) ; la 2G recule de "
-                       f"{pct(techno.loc[a_t0, '2G'])} à {pct(techno.loc[a_t, '2G'])}.",
-                       f"4G becomes the majority in {a_t} ({pct(techno.loc[a_t, '4G'])} of data subscriptions); 2G falls from "
-                       f"{pct(techno.loc[a_t0, '2G'])} to {pct(techno.loc[a_t, '2G'])}."))
-            limite(bi("Un abonnement n’est pas une personne. Rupture de série au 1er trimestre 2020 (reclassement de la 3G de Togocel) ; "
-                      "avant 2020, la 3G et la 4G de Moov ne sont pas ventilées. La fibre compte des abonnés à domicile, pas des km de câble.",
-                      "A subscription is not a person. Series break in Q1 2020 (Togocel 3G reclassification); before 2020, Moov’s 3G "
-                      "and 4G are not broken down. Fibre counts home subscribers, not km of cable."))
-
-# =================================================================== 6. Marché des télécoms (objectif 2)
-if o_marche.open is not False:
-    with o_marche:
-        dernier = hhi[hhi.segment.str.contains("data", case=False)].sort_values("annee").iloc[-1]
-        inv_now = inv.iloc[-1]
-        sans_fibre = fibre[fibre.raccorde_02 == "non raccordé"]
-        s_der = sites.sort_values("annee").iloc[-1]
-        rangee_kpi(bi("Marché des télécommunications", "Telecommunications market"), [
-            carte_kpi(bi(f"Parts de marché ({int(dernier.annee)})", f"Market shares ({int(dernier.annee)})"), pct(dernier.part_togocom_pct),
-                      bi("des abonnés data chez Togocom (YAS)", "of data subscribers with Togocom (YAS)"),
-                      bi(f"Moov : {pct(dernier.part_moov_pct)} ; indice de concentration : {nombre(dernier.hhi, 0)}",
-                         f"Moov: {pct(dernier.part_moov_pct)}; concentration index: {nombre(dernier.hhi, 0)}"),
-                      "", bi("Très concentré", "Highly concentrated"), "alerte"),
-            carte_kpi(bi(f"Investissement ({int(inv_now.annee)})", f"Investment ({int(inv_now.annee)})"),
-                      pct(inv_now.taux_investissement_pct), bi("du chiffre d’affaires des opérateurs", "of operators' revenue"),
-                      bi("seuil d’alerte : 15 % ; série cyclique", "alert threshold: 15%; cyclical series"),
-                      bi("Mesure en valeur (FCFA) ; les sites radio la complètent en volume.", "Measured in value (FCFA); radio sites complement it in volume."),
-                      inv_now.classe_02.replace("cycle d’extension", bi("Cycle d’extension", "Extension cycle")).replace(
-                          "régime normal", bi("Régime normal", "Normal regime")), "ok" if inv_now.taux_investissement_pct >= 15 else "alerte"),
-            carte_kpi(bi(f"Sites radio ({int(s_der.annee)})", f"Radio sites ({int(s_der.annee)})"), f"+{int(s_der.ajouts_nets_total)}",
-                      bi("sites ajoutés en un an (ajouts nets)", "sites added in one year (net additions)"),
-                      bi("repère de veille : 50 par an", "watch reference: 50 a year"),
-                      bi("Un site compte une fois, quelle que soit sa technologie.", "A site counts once, whatever its technology."),
-                      bi("Sous le repère", "Below reference") if s_der.ajouts_nets_total < 50 else bi("Au-dessus du repère", "Above reference"),
-                      "alerte" if s_der.ajouts_nets_total < 50 else "ok"),
-        ])
-        st.write("")
-        gauche, droite = st.columns([1.25, 1], gap="large")
-        with gauche:
-            with st.container(border=True):
-                titre_bloc(bi("Sites radio (déploiement physique)", "Radio sites (physical deployment)"),
-                           bi("Ajouts nets par an, par opérateur ; repère de veille à 50.", "Net additions per year, by operator; watch reference at 50."))
-                s4 = sites[sites.annee >= 2022]
-                fig = go.Figure()
-                fig.add_bar(x=s4.annee, y=s4.ajouts_nets_moov, name="Moov Africa", marker_color=CATEGORIELLE[0])
-                fig.add_bar(x=s4.annee, y=s4.ajouts_nets_yas, name="YAS", marker_color=CATEGORIELLE[1])
-                fig.add_hline(y=50, line=dict(color="#8a1c1b", width=1, dash="dash"),
-                              annotation_text=bi("Repère de veille : 50", "Watch reference: 50"), annotation_position="top left")
-                habiller(fig, 260, legende_y=1.18, barmode="stack", xaxis=dict(gridcolor="#efece4", dtick=1))
-                tracer(fig, "sites_radio")
-                a22 = int(sites.loc[sites.annee == 2022, "ajouts_nets_total"].iloc[0])
-                st.caption(bi(f"Les ajouts nets tombent de {a22} à {int(s_der.ajouts_nets_total)} en trois ans ; {int(s_der.annee)} est la "
-                              "première année sous le repère de veille.",
-                              f"Net additions fall from {a22} to {int(s_der.ajouts_nets_total)} in three years; {int(s_der.annee)} is the "
-                              "first year below the watch reference."))
-                export_csv(sites, "sites_radio.csv", "export_sites_radio")
-        with droite:
-            constat(bi(f"Deux opérateurs se partagent le marché ; Togocom (YAS) a {pct(dernier.part_togocom_pct)} des abonnés data. "
-                       f"Le déploiement de sites radio ralentit : +{a22} en 2022, +{int(s_der.ajouts_nets_total)} en {int(s_der.annee)}.",
-                       f"Two operators share the market; Togocom (YAS) has {pct(dernier.part_togocom_pct)} of data subscribers. "
-                       f"Radio-site deployment is slowing: +{a22} in 2022, +{int(s_der.ajouts_nets_total)} in {int(s_der.annee)}."))
-            with st.container(border=True):
-                titre_bloc(bi("Fibre : préfectures non raccordées", "Fibre: unconnected prefectures"),
-                           bi(f"{len(sans_fibre)} préfectures {t('lib.sans_fibre')}.", f"{len(sans_fibre)} prefectures with {t('lib.sans_fibre')}."))
-                tab = sans_fibre[["nom", "unite_regionale", "pop_totale"]].rename(columns={
-                    "nom": bi("préfecture", "prefecture"), "unite_regionale": bi("région", "region"), "pop_totale": bi("habitants", "population")})
-                tab[bi("région", "region")] = tab[bi("région", "region")].map(region)
-                st.dataframe(tab, hide_index=True, use_container_width=True)
-                export_csv(sans_fibre[["nom", "unite_regionale", "pop_totale"]], "fibre_non_raccordees.csv", "export_fibre")
-        limite(bi("Le marché est mesuré au niveau national seulement. Un site radio compte une fois, quelle que soit sa technologie. "
-                  "L’investissement est une mesure en valeur, cyclique d’une année à l’autre.",
-                  "The market is measured nationally only. A radio site counts once, whatever its technology. Investment is measured "
-                  "in value, and cycles from year to year."))
 
 pied()

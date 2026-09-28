@@ -267,10 +267,10 @@ synthese(nombre(p1.pop_totale.sum()),
 
 # Les réserves sont déjà sous chaque chiffre : le bandeau du bas dit seulement ce que la page ne montre pas
 limite(bi("Les usages : Internet et mobile money ne sont mesurés que pour le pays et les régions, pas commune par commune. "
-         "L’état actuel des points de service : ils ont été recensés en 2021/2022. Le détail est sur les pages « Internet : usage et "
-         "marché », « Offre financière » et « Sources et méthode ».",
+         "L’état actuel des points de service : ils ont été recensés en 2021/2022. Le détail est sur les pages "
+         f"« {t('page.internet')} », « {t('page.offre')} » et « {t('page.methodologie')} ».",
          "Usage: Internet and mobile money are only measured for the country and the regions, not commune by commune. "
-         "The current state of service points: they were surveyed in 2021/2022. Details are on the \"Internet: use and market\", "
-         "\"Financial services\" and \"Sources and method\" pages."),
+         "The current state of service points: they were surveyed in 2021/2022. Details are on the "
+         f"“{t('page.internet')}”, “{t('page.offre')}” and “{t('page.methodologie')}” pages."),
        titre=t("bloc.ne_montre_pas"), discret=True)
 pied()

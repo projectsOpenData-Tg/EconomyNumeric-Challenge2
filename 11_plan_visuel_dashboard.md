@@ -15,7 +15,7 @@
 1. Ce qui est noté, et ce qu'on en tire
 2. Ce que font les deux projets primés
 3. Règles d'affichage
-4. Architecture : 10 pages
+4. Architecture : 11 pages
 5. Gabarit commun à toutes les pages
 6. Filtres et seuils manipulables
 7. Les pages, une par une
@@ -137,14 +137,15 @@ Les informations sont reformulées en langage décisionnel :
 
 ---
 
-## 4. Architecture : 10 pages
+## 4. Architecture : 11 pages
 
 Le plan concilie trois demandes : les **trois niveaux** validés pour le tableau de bord (chiffres de tête, une page par objectif, le détail), les **7 vues** de la procédure (vue nationale, comparaison territoriale, analyse détaillée, carte, priorités, recommandations, méthodologie) et la page Recommandations de la version initiale.
 
 | #  | Page                        | Groupe du menu | Ce qu'elle montre                                                                                                                                                                                   | Niveau               | Vue de la procédure                            |
 | -- | --------------------------- | -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- | ----------------------------------------------- |
 | 1  | Synthèse nationale         | Principal      | les 8 chiffres de tête, chacun avec sa réserve ; trois phrases de lecture                                                                                                                         | 1                    | vue nationale                                   |
-| 2  | Internet : usage et marché | Analyses       | usage d'Internet et repère Afrique subsaharienne ; croissance et ruptures (5 à 7 événements) ; accès et freins par région ; duopole, chiffre d'affaires, investissement, prix de 1 Go ; fibre | 2 (objectifs 1 et 2) | analyse détaillée                             |
+| 2  | Usage d'Internet (jusqu'au 28/09/2026 : « Internet : usage et marché ») | Analyses       | usage d'Internet et repère Afrique subsaharienne ; croissance et ruptures (5 à 7 événements) ; accès et freins par région ; le Togo dans l'UEMOA | 2 (objectif 1) | analyse détaillée                             |
+| 2 bis | Marché des télécoms (ajoutée le 28/09/2026) | Analyses | parts de marché et concentration ; chiffre d'affaires et investissement ; sites radio ; technologies (2G, 3G, 4G) et fibre ; prix de la data ; couverture théorique et réception déclarée | 2 (objectif 2) | analyse détaillée |
 | 3  | Offre financière           | Analyses       | points formels par type (banques, IMF, assurances, DAB à part) ; points mobile money ; opérateurs                                                                                                 | 2 (objectif 3)       | analyse détaillée                             |
 | 4  | Population et offre         | Analyses       | habitants par point ; statut d'accès (règle et variante) ; matrice statut × couverture ; communes qui divergent de leur préfecture                                                              | 2 (objectif 4)       | analyse détaillée                             |
 | 5  | Carte                       | Analyses       | explorateur : un indicateur, une maille (commune, préfecture, région)                                                                                                                             | 2                    | carte                                           |
@@ -159,7 +160,7 @@ Le plan concilie trois demandes : les **trois niveaux** validés pour le tableau
 | Question | Pages |
 | -------- | ----- |
 | 1. Quelle est la situation ? | 1 (Synthèse nationale) |
-| 2. Où sont les problèmes ? | 2, 3, 4, 5 (Internet : usage et marché ; Offre financière ; Population et offre ; Carte) |
+| 2. Où sont les problèmes ? | 2, 2 bis, 3, 4, 5 (Usage d'Internet ; Marché des télécoms ; Offre financière ; Population et offre ; Carte) |
 | 3. Pourquoi ces territoires ? | 6, 7 (Priorités ; Diagnostic) |
 | 4. Quelle action engager ? | 8, 9 (Recommandations ; Estimations et projections) |
 
@@ -272,7 +273,9 @@ Titre retenu le 27/09/2026 : l'ancien titre (« Où en est le Togo ? ») ne disa
 | Bandeau du bas : « l'Internet est mesuré à la région, pas à la commune » | l'usage d'Internet est aussi mesuré pour le pays (série de l'UIT) ; l'usage du mobile money est lui aussi régional                                                                                                                                                   | « Internet et mobile money ne sont mesurés que pour le pays et les régions »                                                                             |
 | 22 communes « n'ont ni banque, ni IMF, ni assurance »                        | exact ; ces communes n'ont pas non plus de DAB                                                                                                                                                                                                                          | ajout de « aucun DAB non plus » dans le contexte                                                                                                           |
 
-### Page 2 — Internet : usage et marché : « L'usage progresse-t-il, et à quel prix ? »
+### Page 2 — Usage d'Internet : « L'usage progresse-t-il, et à quel prix ? »
+
+*Depuis le 28/09/2026, la page ne porte plus que l'objectif 1 : le marché et les technologies (objectif 2) ont leur page, la 2 bis. Les chiffres clés, visuels et sites radio décrits ci-dessous pour le marché s'y trouvent désormais.*
 
 - **Chiffres clés** : usage 39,48 % ; accès déclaré dans les Savanes 14,3 % contre 66,7 % dans le Grand Lomé ; 1 Go = 5,30 % du revenu ; investissement 16,3 % du chiffre d'affaires.
 - **Visuels** : courbe de l'usage avec repère Afrique subsaharienne et seuil de 40 % ; croissance annuelle en barres (accélération, ralentissement, rupture), 5 à 7 événements annotés ; carte de l'accès déclaré par région ; tableau des freins par région ; parts de marché et concentration ; chiffre d'affaires et investissement (deux graphiques, jamais deux axes) ; **sites radio** ; fibre par préfecture (8 sans fibre recensée).
@@ -292,11 +295,29 @@ Titre retenu le 27/09/2026 : l'ancien titre (« Où en est le Togo ? ») ne disa
   | Vue synthèse | 4 chiffres clés (usage, écart d'accès entre le Grand Lomé et les Savanes, rang dans l'UEMOA, prix de 1 Go) ; courbe de l'usage **depuis 1996**, avec le repère Afrique subsaharienne et les années d'accélération et de ralentissement ; « accélération ou stagnation ? » ; synthèse chiffrée qui renvoie à chaque onglet | 05, figure 4 ; 07, O1-02 |
   | Évolution de l'usage | croissance annuelle classée et 5 événements ; usage selon les enquêtes auprès des ménages ; croissance des abonnements data ; abonnements par utilisateur | 05, figure 4 ; 07, figure 2 et O1-03 |
   | Accès et freins par région | cartes de l'accès déclaré (2018/19, 2021/22) ; carte de l'alphabétisation ; tableau des freins | 06, cartes 9 et 12 ; 07, O1-06 |
-  | Le Togo dans l'UEMOA | courbes des 8 pays, un pays de comparaison au choix ; rang du Togo ; classement | 05, figure 11 |
-  | Technologies | mix 2G, 3G, 4G des abonnements data | 05, figure 5 ; 07, O1-04 |
-  | Marché des télécoms | parts et concentration, investissement, sites radio, fibre (objectif 2) | 07 |
+  | Le Togo dans l'UEMOA | courbes des 8 pays, une couleur par pays, légende triée avec la valeur de 2024 (28/09/2026), un pays à mettre en évidence au choix ; rang du Togo, écrit sur chaque phase ; classement | 05, figure 11 |
+  | ~~Technologies~~ | déplacé le 28/09/2026 sur la page 2 bis, onglet « Technologies et fibre » | 05, figure 5 ; 07, O1-04 |
+  | ~~Marché des télécoms~~ | devenu la page 2 bis le 28/09/2026 | 07 |
 
   La Vue synthèse résume sans dupliquer : un visuel détaillé dans un autre onglet n'y est qu'annoncé. La courbe de l'usage commençait en 2010 dans la première version : un choix de construction, pour la caler sur la période de référence des classes de croissance, jamais écrit dans ce plan ; elle part désormais des premiers utilisateurs (1996), comme la figure 4 du 05.
+
+### Page 2 bis — Marché des télécoms : « Qui tient le marché, et investit-il encore ? »
+
+Ajoutée le 28/09/2026 (relevé de l'objectif 2 dans `workspace/conding-progress.md`, décisions V6 à V9) : l'onglet « Marché des télécoms » de la page 2 n'avait que 3 chiffres clés et 2 visuels, alors que le 05 et le 07 tracent l'évolution des parts de marché, du chiffre d'affaires et de l'investissement. Le menu passe à 11 pages (retour sur la décision V5 du 27/09/2026).
+
+- **Chiffres clés** : Togocom 64,4 % des abonnés data (indice de concentration 5 418) ; chiffre d'affaires 264,9 Md FCFA en 2025, stagnation (+1,0 %) ; investissement 16,3 % du chiffre d'affaires ; fibre jusqu'au domicile 1,74 abonnement pour 100 habitants.
+- **Synthèse chiffrée** : 16,3 % du chiffre d'affaires investi en 2025, contre 36,9 % en 2018, à 1,3 point du seuil de sous-investissement.
+- **Organisation en sous-onglets** :
+
+  | Onglet | Contenu | Source |
+  | ------ | ------- | ------ |
+  | Vue synthèse | 4 chiffres clés ; constat ; synthèse chiffrée qui renvoie à chaque onglet | 05 ; 07 |
+  | Parts de marché | part de Togocom selon trois mesures (abonnés data, chiffre d'affaires mobile, téléphonie), 2020 marqué comme rupture ; indice de concentration par segment ; positionnement (part du chiffre d'affaires moins part des abonnés) | 05, figure 6 ; 07, O2-01 et O2-02 |
+  | Chiffre d'affaires et investissement | chiffre d'affaires classé face à l'inflation (ARCEP en barres, INSEED en ligne, jamais raccordés) ; taux d'investissement classé, seuils de 15 et 25 % ; sites radio, stock dans le titre ; revenu moyen par abonnement | 05, figure 7 ; 07, O2-03, O2-04, O2-05a, O2-08 |
+  | Technologies et fibre | 4 chiffres clés ; mix 2G, 3G, 4G ; Internet fixe et fibre par trimestre ; carte des communes sans fibre recensée ; préfectures sans fibre recensée | 05, figures 5 et 13 ; 06, carte 11 ; 07, O1-04 et O2-07 |
+  | Prix et couverture | prix de la data par panier, seuil de 2 % ; couverture théorique face à la réception déclarée, par région ; qualité de service non mesurée par territoire | 05, section 4.3 ; 07, O2-05b, O2-06, O2-09 |
+
+- **Limite** : marché mesuré au niveau national seulement ; segments jamais mélangés ; deux sources du chiffre d'affaires jamais raccordées ; couverture théorique, qualité de service non mesurée par territoire.
 
 ### Page 3 — Offre financière : « Où sont les établissements financiers ? »
 
@@ -320,7 +341,7 @@ Titre retenu le 27/09/2026 : l'ancien titre (« Où en est le Togo ? ») ne disa
 
 ### Page 5 — Carte : « Que voit-on, commune par commune ? »
 
-- **Commandes** : indicateur (habitants par point formel, par point mobile money, couverture, statut d'accès, classe de priorité, fibre, opérateurs) ; maille ; seuil de couverture.
+- **Commandes** : indicateur (habitants par point formel, par point mobile money, couverture, statut d'accès, classe de priorité, fibre, opérateurs) ; maille ; seuil de couverture. La fibre est construite depuis le 28/09/2026 : fibre enterrée et fibre aérienne recensées (km), deux indicateurs jamais additionnés, comme la carte 11 du 06.
 - **Visuel** : une carte pleine largeur ; infobulle avec les valeurs du territoire et le lien vers sa fiche.
 - **Limite** : celle de l'indicateur choisi, affichée sous la carte.
 
@@ -705,14 +726,15 @@ Bandeau « Limite de cette page » :
 
 ## 11. Mise en œuvre technique
 
-**État au 27/09/2026** : les 10 pages sont construites, bilingues (français, anglais) et testées (chiffres clés comparés aux tables ; filtres par région, maille, priorité et milieu ; interactions propres à chaque page). Barre du haut et pied de page en place (section 3.3) ; sélecteur de langue fonctionnel. Lancement : `streamlit run dashboard/app.py`.
+**État au 27/09/2026** (11 pages depuis le 28/09/2026) : les 10 pages sont construites, bilingues (français, anglais) et testées (chiffres clés comparés aux tables ; filtres par région, maille, priorité et milieu ; interactions propres à chaque page). Barre du haut et pied de page en place (section 3.3) ; sélecteur de langue fonctionnel. Lancement : `streamlit run dashboard/app.py`.
 
 - **Page 1 (Synthèse nationale)** : nouveau titre, cartes lues comme des phrases (étiquette sur la ligne du titre, cartes d'une rangée à hauteur égale), bandeau discret « Ce que cette page ne montre pas ».
-- **Page 2 (Internet)** : 6 sous-onglets depuis le 27/09/2026 (fiche de la page 2, section 7) ; seul l'onglet ouvert s'exécute ; l'onglet choisi est gardé au changement de langue.
+- **Page 2 bis (Marché des télécoms, 28/09/2026)** : `dashboard/views/marche.py`, 5 sous-onglets (fiche de la page 2 bis, section 7) ; l'onglet des technologies et le marché quittent la page 2. Corrections faites au passage : « sans fibre recensée » au lieu de « non raccordées » ; stock de sites radio dans le titre du graphique ; mention « qualité de service non mesurée par territoire » ; séparateur de milliers dans le tableau des préfectures sans fibre. Page 5 (Carte) : indicateurs de la fibre enterrée et aérienne.
+- **Page 2 (Usage d'Internet)** : 6 sous-onglets depuis le 27/09/2026, 4 depuis le 28/09/2026 (Technologies et Marché partis sur la page 2 bis) (fiche de la page 2, section 7) ; seul l'onglet ouvert s'exécute ; l'onglet choisi est gardé au changement de langue. Ajouts du 28/09/2026 (contrôle croisé avec le 05, le 06 et le 08) : les classes de croissance qui dépendent de la période de référence sont marquées (cercle vide, pointillés), seules 2016 et 2021 étant sûres ; constat « accès et couverture ne vont pas ensemble » ; dépassement de l'Afrique subsaharienne depuis 2020.
 - **Page 3 (Offre financière)** : carte par type de point avec sélecteur (DAB marqué « type à part »), carte mobile money, carte de la catégorie dominante d'opérateur par commune, offre et usage du mobile money par région (ajouté le 27/09/2026), tableau par préfecture.
 - **Page 4 (Population et offre)** : seuil d'habitants par point formel déplaçable (bascule d'affichage, pas un recalcul de la table de référence), bascule de la variante P9, matrice statut × couverture, communes divergentes.
 - **Page 5 (Carte)** : explorateur à un indicateur et une maille, avec la bonne table source par indicateur (score, o4, ou couverture).
-- **Page 6 (Priorités)** : poids du score déplaçables (seule exception au « pas de recalcul », même formule que le 08), tests de robustesse, comparateur de deux préfectures.
+- **Page 6 (Priorités)** : poids du score déplaçables (seule exception au « pas de recalcul », même formule que le 08), tests de robustesse, comparateur de deux préfectures. Ajout du 28/09/2026 : bandeau « Ce classement ne porte pas sur l'usage d'Internet » (08, sections 1 et 8.1), sous les chiffres clés.
 - **Page 7 (Diagnostic)** : fiche des 10 préfectures prioritaires, carte des 25 communes signalées, usage d'Internet par région. Corrigé le 27/09/2026 : le frein présumé s'affichait tel qu'écrit dans la table (en français dans les deux langues, avec « la règle du 02 ») ; il passe par un libellé en clair, le même que sur la page 2.
 - **Page 8 (Recommandations)** : 12 cartes filtrables par thème, nature et horizon ; vue d'ensemble sans addition de populations qui se recoupent ; ordre d'action, acteurs, ce qui n'est pas recommandé.
 - **Page 9 (Estimations et projections)** : scénarios d'usage, trajectoires de référence, cibles à 1/3/5 ans ; correction apportée en le construisant : la population à faire entrer dans la couverture (R4b) ne compte que les 6 préfectures déjà prioritaires, pas Sotouboua (hors R4b, décision P24 du 10).
@@ -721,7 +743,7 @@ Bandeau « Limite de cette page » :
 - **Outil** : Streamlit (installé : 1.61), graphiques Plotly, cartes Plotly ou Folium sur les contours du projet.
 - **Organisation** : `dashboard/app.py` (point d'entrée, thème, menu `st.navigation` en groupes) ; les pages dans `dashboard/views/`, **jamais `pages/`** : ce dossier fait basculer Streamlit sur sa navigation héritée (piège vérifié au défi 1) ; `dashboard/donnees.py` lit les tables de `data/analysis/` avec cache, sans les recalculer.
 - **Seule exception au « pas de recalcul »** : le score de priorité sous des poids choisis par le lecteur, avec la fonction du document de priorisation, et la bascule des seuils de classe (application d'un seuil à une valeur déjà calculée).
-- **Composants partagés** : carte de chiffre clé, bandeau « Constat », bandeau « Synthèse chiffrée », bandeau « Limite », carte de recommandation, bouton d'export CSV ; depuis le 27/09/2026, barre de sous-onglets (`onglets()`, réutilisable sur les autres pages) et carte des 6 régions en classes fixes (`carte_regions()`).
+- **Composants partagés** : carte de chiffre clé, bandeau « Constat », bandeau « Synthèse chiffrée », bandeau « Limite », carte de recommandation, bouton d'export CSV ; depuis le 27/09/2026, barre de sous-onglets (`onglets()`, réutilisable sur les autres pages) et carte des 6 régions en classes fixes (`carte_regions()`) ; depuis le 28/09/2026, les aides des graphiques des pages d'analyse (`titre_bloc()`, `habiller()`, `tracer()`, `note()`, `pct()`, `BLEU_FONCE`), sorties de la page 2 pour servir aussi la page 2 bis.
 - **Deux langues** (section 3.3), sur le modèle du défi 1 :
   - un module de dictionnaire (`dashboard/i18n.py`) : une clé par texte, deux valeurs (français, anglais) ;
   - une table de correspondance pour les libellés venus des tables (classes, statuts, régions) ;
