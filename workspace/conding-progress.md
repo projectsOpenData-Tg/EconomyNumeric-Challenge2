@@ -185,3 +185,16 @@ Branche de validation : `feature/jaune-clair-sidebar-tableaux` (créée depuis `
 - Bouton d'ouverture/fermeture de la barre latérale en jaune clair (`#fce588`), visible en permanence et plus seulement au survol.
 - Bordures et quadrillage des tableaux en jaune clair. *Retiré à l'itération 2 : la demande concernait l'onglet actif de la barre latérale.*
 - Fichiers : `dashboard/theme.py`, `.streamlit/config.toml`.
+
+---
+
+## Journal de la branche `feature/cartes-synthese-hover`
+
+Branche créée le 2026-09-28 depuis `dev`. Horodatage en UTC.
+
+## 2026-09-28 18:07 UTC — Effet de survol sur les cartes de synthèse
+
+- Les cartes de synthèse affichées en haut de chaque page (chiffres clés : ex. « Internet (2024) » sur la Synthèse nationale) réagissent au survol de la souris : la carte se soulève légèrement, sa bordure passe en jaune clair (`#fce588`) avec un halo, et un reflet lumineux la traverse de gauche à droite (effet « brillant »).
+- S'applique à toutes les pages qui affichent ces cartes : Synthèse, Internet, Offre, Population, Priorités, Diagnostic, Projections.
+- Désactivé pour les utilisateurs qui ont demandé moins d'animations dans leur système (`prefers-reduced-motion`).
+- Fichier : `dashboard/theme.py` (`.kpi`, `.kpi::after`, `.kpi:hover`).

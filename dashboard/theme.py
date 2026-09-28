@@ -40,7 +40,14 @@ h1, h2, h3 { font-family: 'Fraunces', Georgia, serif !important; font-weight: 60
 .filtres-actifs { font-size: 0.85rem; color: #3a3935; background: #ffffff; border: 1px solid #e2dfd6; border-radius: 10px; padding: 8px 12px; margin-bottom: 0.6rem; }
 .groupe { font-size: 0.82rem; font-weight: 600; color: #55534e; margin: 0.6rem 0 0.4rem; }
 .kpi-grille { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px; margin-bottom: 6px; }
-.kpi { background: #ffffff; border: 1px solid #e2dfd6; border-radius: 14px; padding: 16px 18px; display: flex; flex-direction: column; gap: 6px; box-sizing: border-box; }
+.kpi { background: #ffffff; border: 1px solid #e2dfd6; border-radius: 14px; padding: 16px 18px; display: flex; flex-direction: column; gap: 6px; box-sizing: border-box;
+       position: relative; overflow: hidden; transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease; }
+/* Survol des cartes de synthèse : la carte se soulève, s'entoure d'un halo jaune clair et un reflet la traverse */
+.kpi::after { content: ""; position: absolute; top: 0; left: -80%; width: 50%; height: 100%; pointer-events: none;
+              background: linear-gradient(115deg, transparent, rgba(252, 229, 136, 0.45), transparent); transform: skewX(-20deg); }
+.kpi:hover { transform: translateY(-3px); border-color: #fce588; box-shadow: 0 0 0 3px rgba(252, 229, 136, 0.35), 0 10px 24px rgba(13, 54, 107, 0.12); }
+.kpi:hover::after { left: 130%; transition: left 0.8s ease; }
+@media (prefers-reduced-motion: reduce) { .kpi, .kpi:hover { transform: none; transition: none; } .kpi::after { display: none; } }
 .kpi-tete { display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; min-height: 2.5rem; }
 .kpi-libelle { font-size: 0.82rem; color: #55534e; }
 .kpi-valeur { font-family: 'Fraunces', Georgia, serif; font-size: 2.2rem; font-weight: 600; line-height: 1.1; color: #141413; }
