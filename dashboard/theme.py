@@ -49,7 +49,7 @@ h1, h2, h3 { font-family: 'Fraunces', Georgia, serif !important; font-weight: 60
 .kpi:hover::after { left: 130%; transition: left 0.8s ease; }
 @media (prefers-reduced-motion: reduce) { .kpi, .kpi:hover { transform: none; transition: none; } .kpi::after { display: none; } }
 .kpi-tete { display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; min-height: 2.5rem; }
-.kpi-libelle { font-size: 0.82rem; color: #55534e; }
+.kpi-libelle { font-size: 0.76rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.02em; line-height: 1.35; color: #0d366b; }
 .kpi-valeur { font-family: 'Fraunces', Georgia, serif; font-size: 2.2rem; font-weight: 600; line-height: 1.1; color: #141413; }
 .kpi-unite { font-family: 'IBM Plex Sans', system-ui, sans-serif; font-size: 1.05rem; font-weight: 600; margin-left: 6px; }
 .kpi-phrase { font-size: 0.95rem; font-weight: 600; line-height: 1.4; color: #141413; }

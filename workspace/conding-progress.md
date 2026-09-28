@@ -198,3 +198,10 @@ Branche créée le 2026-09-28 depuis `dev`. Horodatage en UTC.
 - S'applique à toutes les pages qui affichent ces cartes : Synthèse, Internet, Offre, Population, Priorités, Diagnostic, Projections.
 - Désactivé pour les utilisateurs qui ont demandé moins d'animations dans leur système (`prefers-reduced-motion`).
 - Fichier : `dashboard/theme.py` (`.kpi`, `.kpi::after`, `.kpi:hover`).
+
+## 2026-09-28 18:09 UTC — Titres des cartes de synthèse en gras, couleur et majuscules
+
+- Le titre de chaque carte de synthèse (ex. « Internet (2024) » sur la Synthèse nationale, affiché désormais « INTERNET (2024) ») passe en **gras**, en **majuscules** et en **bleu foncé du thème** (`#0d366b`, la couleur des surtitres de page), au lieu du gris normal.
+- Taille légèrement réduite (0,76 rem) et interlettrage serré pour que les titres longs (« MARCHÉ DES TÉLÉCOMS (2025) ») tiennent sur deux lignes à côté de l'étiquette, sans décaler les chiffres d'une carte à l'autre.
+- S'applique à toutes les pages qui affichent ces cartes.
+- Fichier : `dashboard/theme.py` (`.kpi-libelle`).
