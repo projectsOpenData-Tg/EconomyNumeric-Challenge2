@@ -115,8 +115,8 @@ h1, h2, h3 { font-family: 'Fraunces', Georgia, serif !important; font-weight: 60
    des trois colonnes (pas un ajustement au pixel près) : le sous-titre et la carte du logo Togo AI Lab (56px) ne
    doivent jamais toucher le bord de la barre, même si une police de repli change légèrement la hauteur du texte. */
 [data-testid="stVerticalBlockBorderWrapper"]:has(div.st-key-topbar) { margin-bottom: 0.8rem; }
-div.st-key-topbar { background: #ffffff; min-height: 92px; padding: 16px 0; box-shadow: 0 1px 8px rgba(13, 54, 107, 0.08);
-  margin-bottom: 0.6rem; box-sizing: border-box; }
+div.st-key-topbar { background: #ffffff; min-height: 92px; padding: 16px 22px; box-shadow: 0 1px 8px rgba(13, 54, 107, 0.08);
+  margin-bottom: 0.6rem; box-sizing: border-box; border: 1px solid #e2dfd6; border-radius: 18px; }
 div.st-key-topbar [data-testid="stHorizontalBlock"] { align-items: center; }
 div.st-key-topbar_droite { display: flex; align-items: center; justify-content: flex-end; gap: 8px; }
 div.st-key-topbar_droite button { padding: 0.15rem 0.55rem !important; min-height: 1.6rem !important; }

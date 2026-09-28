@@ -205,3 +205,9 @@ Branche créée le 2026-09-28 depuis `dev`. Horodatage en UTC.
 - Taille légèrement réduite (0,76 rem) et interlettrage serré pour que les titres longs (« MARCHÉ DES TÉLÉCOMS (2025) ») tiennent sur deux lignes à côté de l'étiquette, sans décaler les chiffres d'une carte à l'autre.
 - S'applique à toutes les pages qui affichent ces cartes.
 - Fichier : `dashboard/theme.py` (`.kpi-libelle`).
+
+## 2026-09-28 18:44 UTC — Barre du haut arrondie
+
+- La barre du haut (armoiries, ministère, nom du projet, langue, logo Togo AI Lab) passe d'un rectangle à une **carte arrondie** : coins arrondis de 18 px, bordure fine `#e2dfd6`, ombre légère conservée.
+- Marges intérieures gauche et droite de 22 px, pour que les armoiries et le logo Togo AI Lab ne touchent pas les coins arrondis.
+- Fichier : `dashboard/theme.py` (`div.st-key-topbar`).
