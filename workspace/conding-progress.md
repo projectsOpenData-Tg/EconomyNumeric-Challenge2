@@ -221,3 +221,18 @@ Branche créée le 2026-09-28 depuis `dev`. Horodatage en UTC.
   - **horizon** (1 an, 3 ans, 5 ans) : vert clair (`#e2f4ec` / `#11613f`).
 - Le style ne touche que les cartes : elles ont une clé propre (`carte_reco_<id>`), distincte de celle des filtres Thème, Nature et Horizon (`reco_…`).
 - Fichiers : `dashboard/views/recommandations.py`, `dashboard/theme.py` (`st-key-carte_reco_`, `.etiquette.reco-priorite`, `.reco-nature`, `.reco-horizon`).
+
+## 2026-09-28 19:08 UTC — Page Recommandations : couleur et emoji par thème, espace en bas des cartes, survol
+
+- **Une couleur par thème** : le libellé du thème en tête de chaque carte prend la couleur de son thème, avec une pastille arrondie de la même teinte en clair, comme sur l'image de référence :
+  - 🏦 Points formels : bleu (`#1c5cab`) ;
+  - 📱 Mobile money : orange (`#b4451a`) ;
+  - 📡 Couverture réseau : vert (`#11613f`) ;
+  - 🌐 Fibre : violet (`#4a3aa7`) ;
+  - 💰 Prix et frais : magenta (`#a3246b`) ;
+  - 🎓 Compétences et équipement : ocre (`#6b4700`) ;
+  - 📈 Investissement (veille) : bleu canard (`#0e6475`).
+- **Emoji du thème** dans la pastille, placée devant le libellé du thème.
+- **Espace en bas des cartes** : les étiquettes priorité, nature et horizon ne collent plus au bord inférieur de la carte (marge de 10 px au-dessus, 8 px en dessous).
+- **Effet de survol sans couleur** : au passage de la souris, la carte se soulève de 4 px et son ombre s'agrandit ; ni la bordure ni le fond ne changent de couleur. Désactivé si l'utilisateur a demandé moins d'animations.
+- Fichiers : `dashboard/views/recommandations.py` (`EMOJI_THEME`, en-tête `.reco-theme`), `dashboard/theme.py` (`.reco-theme`, `.reco-pastille`, `.theme-*`, `.reco-meta`, survol `st-key-carte_reco_`).

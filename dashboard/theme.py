@@ -63,7 +63,20 @@ h1, h2, h3 { font-family: 'Fraunces', Georgia, serif !important; font-weight: 60
 .etiquette.national { background: #efece4; color: #55534e; font-weight: 500; }
 /* Page Recommandations : cartes sur fond blanc, coins arrondis, ombre légère ; une couleur par type d'étiquette */
 div[class*="st-key-carte_reco_"] { background: #ffffff; border: 1px solid #e2dfd6 !important; border-radius: 18px !important; padding: 18px 20px !important;
-  box-shadow: 0 1px 6px rgba(13, 54, 107, 0.06); }
+  box-shadow: 0 1px 6px rgba(13, 54, 107, 0.06); transition: transform 0.25s ease, box-shadow 0.25s ease; }
+div[class*="st-key-carte_reco_"]:hover { transform: translateY(-4px); box-shadow: 0 12px 28px rgba(13, 54, 107, 0.14); }
+@media (prefers-reduced-motion: reduce) { div[class*="st-key-carte_reco_"], div[class*="st-key-carte_reco_"]:hover { transform: none; transition: none; } }
+.reco-meta { margin-top: 10px; padding-bottom: 8px; }
+.reco-theme { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; }
+.reco-pastille { width: 34px; height: 34px; border-radius: 10px; display: inline-flex; align-items: center; justify-content: center; font-size: 1.1rem; flex-shrink: 0; }
+.reco-theme-lib { font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; }
+.theme-formels .reco-pastille { background: #e3eefb; } .theme-formels .reco-theme-lib { color: #1c5cab; }
+.theme-mm .reco-pastille { background: #fde8dd; } .theme-mm .reco-theme-lib { color: #b4451a; }
+.theme-couverture .reco-pastille { background: #e2f4ec; } .theme-couverture .reco-theme-lib { color: #11613f; }
+.theme-fibre .reco-pastille { background: #ece9fb; } .theme-fibre .reco-theme-lib { color: #4a3aa7; }
+.theme-prix .reco-pastille { background: #fbe4f0; } .theme-prix .reco-theme-lib { color: #a3246b; }
+.theme-competences .reco-pastille { background: #fdf0d2; } .theme-competences .reco-theme-lib { color: #6b4700; }
+.theme-investissement .reco-pastille { background: #dff3f6; } .theme-investissement .reco-theme-lib { color: #0e6475; }
 .etiquette.reco-priorite { background: #fdf0d2; color: #6b4700; }
 .etiquette.reco-nature { background: #ece9fb; color: #4a3aa7; }
 .etiquette.reco-horizon { background: #e2f4ec; color: #11613f; }
