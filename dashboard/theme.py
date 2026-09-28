@@ -149,6 +149,11 @@ div.st-key-topbar_droite button { padding: 0.15rem 0.55rem !important; min-heigh
 [data-testid="stSidebarNavLink"] { border: 1.5px solid transparent; border-radius: 8px; }
 [data-testid="stSidebarNavLink"][aria-current="page"] { border-color: #fce588 !important; }
 
+/* Filtres de la barre latérale : titres de section (Région, Maille, Priorité, Milieu) en majuscules jaune clair, distincts des choix */
+[data-testid="stSidebar"] [data-testid="stWidgetLabel"] p { text-transform: uppercase; letter-spacing: 0.07em; font-size: 0.74rem !important;
+  font-weight: 700; color: #fce588 !important; }
+[data-testid="stSidebar"] [data-testid="stWidgetLabel"] { margin-top: 0.5rem; }
+
 /* Graphiques et cartes sur fond blanc, pour les distinguer du fond de la page */
 [data-testid="stPlotlyChart"] { background: #ffffff; border-radius: 10px; }
 /* Sous-onglets d'une page, en pastilles sur une barre blanche (demande du 27/09/2026, sur le modèle de l'image jointe ;

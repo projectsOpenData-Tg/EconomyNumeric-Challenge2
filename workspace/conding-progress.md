@@ -236,3 +236,9 @@ Branche créée le 2026-09-28 depuis `dev`. Horodatage en UTC.
 - **Espace en bas des cartes** : les étiquettes priorité, nature et horizon ne collent plus au bord inférieur de la carte (marge de 10 px au-dessus, 8 px en dessous).
 - **Effet de survol sans couleur** : au passage de la souris, la carte se soulève de 4 px et son ombre s'agrandit ; ni la bordure ni le fond ne changent de couleur. Désactivé si l'utilisateur a demandé moins d'animations.
 - Fichiers : `dashboard/views/recommandations.py` (`EMOJI_THEME`, en-tête `.reco-theme`), `dashboard/theme.py` (`.reco-theme`, `.reco-pastille`, `.theme-*`, `.reco-meta`, survol `st-key-carte_reco_`).
+
+## 2026-09-28 19:09 UTC — Barre latérale : titres des filtres distincts de leurs choix
+
+- Dans la section Filtres de la barre latérale, les titres de chaque filtre (**RÉGION**, **MAILLE DE LA CARTE**, **PRIORITÉ**, **MILIEU**) passent en **majuscules**, en gras et en **jaune clair** (`#fce588`, la couleur d'accent de la barre latérale), avec un léger interlettrage. Les choix (Grand Lomé, Commune, Priorité haute…) restent en blanc : on distingue d'un coup d'œil le titre d'une section de son contenu.
+- Un peu d'espace ajouté au-dessus de chaque titre pour séparer les sections.
+- Fichier : `dashboard/theme.py` (`[data-testid="stSidebar"] [data-testid="stWidgetLabel"]`).
