@@ -21,6 +21,9 @@ LIB_THEME = {"formels": bi("Points formels", "Formal points"), "mm": bi("Mobile 
             "couverture": bi("Couverture réseau", "Network coverage"), "fibre": bi("Fibre", "Fibre"),
             "prix": bi("Prix et frais", "Price and fees"), "competences": bi("Compétences et équipement", "Skills and equipment"),
             "investissement": bi("Investissement (veille)", "Investment (watch)")}
+# Une couleur et un emoji par thème, repris dans l'en-tête de chaque carte (pastille + libellé)
+EMOJI_THEME = {"formels": "🏦", "mm": "📱", "couverture": "📡", "fibre": "🌐", "prix": "💰", "competences": "🎓",
+               "investissement": "📈"}
 TITRE = {
     "R1": bi("Un premier guichet formel dans chacune des 22 communes où le mobile money est seul",
             "A first formal service point in each of the 22 communes where mobile money is the only option"),
@@ -82,15 +85,17 @@ st.write("")
 cols = st.columns(3)
 for i, (idx, row) in enumerate(sf.iterrows()):
     with cols[i % 3]:
-        with st.container(border=True):
-            st.markdown(f'<div class="action-titre" style="font-size:0.7rem;color:#0d366b;text-transform:uppercase;letter-spacing:0.05em">{html.escape(row.theme_lib)}</div>'
+        with st.container(border=True, key=f"carte_reco_{idx}"):
+            th = THEME[idx]
+            st.markdown(f'<div class="reco-theme theme-{th}"><span class="reco-pastille">{EMOJI_THEME[th]}</span>'
+                        f'<span class="reco-theme-lib">{html.escape(row.theme_lib)}</span></div>'
                         f'<div class="action-titre" style="min-height:3.4rem">{html.escape(TITRE[idx])}</div>'
                         f'<div class="kpi-phrase" style="margin:6px 0">{html.escape(str(row.cible))}</div>'
                         f'<div class="kpi-contexte">{html.escape(str(row.territoires))} · {nombre(int(row.population))} {bi("habitants concernés", "people concerned")}</div>'
-                        f'<div class="action-meta" style="margin-top:8px">'
-                        f'<span class="etiquette {"critique" if idx=="R1" else "ok"}">{html.escape(PRIO_BADGE[idx])}</span>'
-                        f'<span class="etiquette neutre">{html.escape(row.nature)}</span>'
-                        f'<span class="etiquette neutre">{html.escape(row.horizon)}</span></div>', unsafe_allow_html=True)
+                        f'<div class="action-meta reco-meta">'
+                        f'<span class="etiquette {"critique" if idx=="R1" else "reco-priorite"}">{html.escape(PRIO_BADGE[idx])}</span>'
+                        f'<span class="etiquette reco-nature">{html.escape(row.nature)}</span>'
+                        f'<span class="etiquette reco-horizon">{html.escape(row.horizon)}</span></div>', unsafe_allow_html=True)
 
 export_csv(sf.reset_index()[["id", "territoires", "population", "nature", "horizon", "cible"]], "recommandations.csv", "export_recos")
 
