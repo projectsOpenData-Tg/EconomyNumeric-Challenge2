@@ -1,0 +1,10 @@
+# Dépendances des scripts de préparation (04_data_Preparation.md)
+# + pdftotext (poppler-utils) pour le tableau de bord de la BCEAO (p08)
+pandas>=2.2
+geopandas>=1.0
+shapely>=2.0
+pyproj>=3.6
+pyogrio>=0.7
+PyMuPDF>=1.24
+openpyxl>=3.1
+pyreadstat>=1.2

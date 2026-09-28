@@ -1,0 +1,279 @@
+name: CI / CD
+
+# Même chaîne qu'au défi 1. `dev` et les PR vers `main` ne font que valider. Seul un push sur
+# `main` déclenche le déploiement — une seule application Heroku, en production.
+on:
+  push:
+    branches: [dev, main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+# Un push qui en remplace un autre annule la validation devenue caduque, mais jamais un
+# déploiement en cours : interrompre `heroku container:release` laisserait l'application
+# dans un état indéterminé.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}
+
+permissions:
+  contents: read
+
+env:
+  PYTHON_VERSION: "3.11"
+  IMAGE_LOCALE: togo-econum-defi2:ci
+
+jobs:
+  lint:
+    name: Lint et cohérence des dépendances
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Installer ruff
+        run: pip install ruff==0.16.3
+
+      - name: ruff check
+        run: ruff check .
+
+      # Le déploiement installe requirements-runtime.txt, un sous-ensemble de
+      # requirements.txt. Ce contrôle interdit qu'une version diverge entre les deux et que
+      # la production tourne sur autre chose que les versions avec lesquelles les tables
+      # du tableau de bord ont été produites.
+      - name: Cohérence requirements-runtime.txt / requirements.txt
+        run: python scripts/check_requirements_sync.py
+
+  test:
+    name: Tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: pip
+          cache-dependency-path: requirements-runtime.txt
+
+      # Les mêmes dépendances que l'image déployée, et rien de plus : les tests valident ce
+      # qui partira en production, pas un environnement de développement plus riche.
+      - name: Installer les dépendances du runtime
+        run: |
+          pip install -r requirements-runtime.txt
+          pip install pytest==8.4.2
+
+      # Les 11 pages et tous leurs sous-onglets, en français et en anglais ; aucun sigle,
+      # nom de source ni code interne hors de la page Sources et méthode ; chaque table lue
+      # par le tableau de bord existe dans data/analysis/. Le seul contrôle qui détecte
+      # qu'une page ou un onglet ne s'affiche plus.
+      - name: pytest
+        run: pytest -v
+
+  docker-build:
+    name: Build de l'image et smoke test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: docker/setup-buildx-action@v3
+
+      # `load: true` rend l'image disponible au démon local pour le smoke test qui suit.
+      # Le cache est partagé avec le job `deploy`, qui reconstruit donc presque à vide.
+      - name: Construire l'image
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          load: true
+          tags: ${{ env.IMAGE_LOCALE }}
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+
+      # Le point que ni ruff ni pytest ne couvrent : l'image démarre-t-elle vraiment, en
+      # écoutant sur le $PORT qu'Heroku lui impose ? Un chemin de COPY erroné dans le
+      # Dockerfile, ou un chemin oublié dans la liste blanche de .dockerignore, ne se voit
+      # qu'ici.
+      - name: Démarrer le conteneur
+        run: docker run -d --name togo-econum -e PORT=8080 -p 8080:8080 "$IMAGE_LOCALE"
+
+      - name: Attendre l'endpoint de santé
+        run: |
+          for tentative in $(seq 1 30); do
+            if curl -fsS http://localhost:8080/_stcore/health >/dev/null 2>&1; then
+              echo "Application prête après ${tentative} tentative(s)."
+              exit 0
+            fi
+            sleep 2
+          done
+          echo "::error::L'application n'a pas répondu sur /_stcore/health en 60 s."
+          docker logs togo-econum
+          exit 1
+
+      # Le health check de Streamlit répond avant le rendu. On vérifie que la page
+      # elle-même est servie, pas seulement que le processus est vivant.
+      - name: Vérifier que la page est servie
+        run: curl -fsS http://localhost:8080/ | grep -qi streamlit
+
+      # Les onze routes de la navigation. Un `st.Page` dont le module a été déplacé ne se
+      # voit ni au lint ni aux tests, mais rend une 404 en production.
+      - name: Vérifier les routes du tableau de bord
+        run: |
+          for route in "" internet marche offre population carte priorites diagnostic \
+                       recommandations projections methodologie; do
+            code=$(curl -s -o /dev/null -w '%{http_code}' "http://localhost:8080/${route}")
+            if [ "$code" != "200" ]; then
+              echo "::error::/${route} répond ${code} au lieu de 200."
+              docker logs togo-econum
+              exit 1
+            fi
+            echo "  /${route} → ${code}"
+          done
+
+      # Les données lues par le tableau de bord doivent être dans l'image. Une COPY oubliée
+      # se traduirait par une page en erreur, que le health check ne distingue pas d'une
+      # page normale.
+      - name: Vérifier que les données sont embarquées
+        run: |
+          for dossier in 05_eda 06_spatial 07_indicateurs 08_priorisation 09_diagnostic 10_recommandations; do
+            n=$(docker exec togo-econum sh -c "ls /app/data/analysis/${dossier}/*.csv | wc -l")
+            if [ "$n" -lt 1 ]; then
+              echo "::error::/app/data/analysis/${dossier} ne contient aucune table dans l'image."
+              exit 1
+            fi
+            echo "  data/analysis/${dossier} → ${n} table(s)"
+          done
+          docker exec togo-econum sh -c "ls /app/data/processed/geo/communes.geojson /app/07_indicators.md"
+          # Et rien de ce qui ne doit pas y être : ni données brutes, ni secrets.
+          if docker exec togo-econum sh -c "ls /app/data/raw /app/.env /app/workspace" >/dev/null 2>&1; then
+            echo "::error::L'image contient des données brutes, un .env ou le dossier workspace."
+            exit 1
+          fi
+
+      - name: Journaux du conteneur
+        if: always()
+        run: docker logs togo-econum || true
+
+      - name: Arrêter le conteneur
+        if: always()
+        run: docker rm -f togo-econum || true
+
+  deploy:
+    name: Déploiement Heroku
+    needs: [lint, test, docker-build]
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    runs-on: ubuntu-latest
+    # Déclarer l'environnement permet d'exiger plus tard une approbation manuelle avant la
+    # production, sans toucher à ce fichier.
+    environment:
+      name: production
+      url: ${{ steps.release.outputs.url }}
+    env:
+      HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
+      HEROKU_APP_NAME: ${{ vars.HEROKU_APP_NAME }}
+    steps:
+      - uses: actions/checkout@v5
+
+      # Échouer tôt et lisiblement : sans ces deux valeurs, l'erreur remonterait sous la
+      # forme d'un refus d'authentification du registre, bien plus difficile à relier à sa
+      # cause.
+      - name: Vérifier la configuration
+        run: |
+          manquant=0
+          if [ -z "$HEROKU_API_KEY" ]; then
+            echo "::error::Le secret HEROKU_API_KEY n'est pas défini (Settings → Secrets and variables → Actions → Secrets)."
+            manquant=1
+          fi
+          if [ -z "$HEROKU_APP_NAME" ]; then
+            echo "::error::La variable HEROKU_APP_NAME n'est pas définie (Settings → Secrets and variables → Actions → Variables)."
+            manquant=1
+          fi
+          exit $manquant
+
+      - name: Installer la CLI Heroku
+        run: curl -fsSL https://cli-assets.heroku.com/install.sh | sh
+
+      # Convention du Container Registry : le nom d'utilisateur est littéralement `_`, le
+      # mot de passe est le jeton d'API.
+      - name: Authentification au registre Heroku
+        run: echo "$HEROKU_API_KEY" | docker login --username=_ --password-stdin registry.heroku.com
+
+      - uses: docker/setup-buildx-action@v3
+
+      # Le registre Heroku n'accepte que les manifestes Docker v2 schema 2. Buildx pousse par
+      # défaut des types de média OCI, que le registre refuse (« unsupported »). D'où deux
+      # temps : buildx construit vers le démon local (`load`), en gardant le cache GitHub
+      # Actions ; puis un `docker push` ordinaire écrit dans le registre en schema 2.
+      #
+      # `linux/amd64` explicite : les dynos Heroku sont en amd64.
+      - name: Construire l'image
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          load: true
+          platforms: linux/amd64
+          provenance: false
+          sbom: false
+          tags: registry.heroku.com/${{ env.HEROKU_APP_NAME }}/web
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+
+      - name: Pousser vers le registre Heroku
+        run: docker push "registry.heroku.com/${HEROKU_APP_NAME}/web"
+
+      - name: Publier la nouvelle version
+        id: release
+        run: |
+          heroku container:release web --app "$HEROKU_APP_NAME"
+          url=$(heroku apps:info --app "$HEROKU_APP_NAME" --json | python3 -c 'import json,sys; print(json.load(sys.stdin)["app"]["web_url"])')
+          echo "url=${url}" >> "$GITHUB_OUTPUT"
+          echo "Déployé sur ${url}"
+
+      # Un release accepté ne garantit pas un dyno qui démarre : un crash au démarrage ne se
+      # voit que sur la première requête. Sans cette étape, le workflow serait vert alors que
+      # le site renvoie une page d'erreur Heroku.
+      - name: Vérifier la production
+        run: |
+          url="${{ steps.release.outputs.url }}"
+          for tentative in $(seq 1 20); do
+            if curl -fsS --max-time 15 "${url}_stcore/health" >/dev/null 2>&1; then
+              echo "Production en ligne après ${tentative} tentative(s) : ${url}"
+              exit 0
+            fi
+            sleep 15
+          done
+          echo "::error::${url} ne répond pas 5 minutes après le release."
+          heroku logs --app "$HEROKU_APP_NAME" --num 100
+          exit 1
+
+      # L'alerte de visite vit dans le dyno (`dashboard/notify.py`), pas dans ce workflow : un
+      # runner ne voit pas les connexions au site. On ne peut donc que constater si les deux
+      # config vars sont posées, et le dire, plutôt que de laisser croire que les
+      # notifications marchent alors que le bot n'est pas configuré.
+      - name: État de l'alerte de visite Telegram
+        id: telegram
+        continue-on-error: true
+        run: |
+          jeton=$(heroku config:get TELEGRAM_BOT_TOKEN --app "$HEROKU_APP_NAME" || true)
+          salon=$(heroku config:get TELEGRAM_CHAT_ID  --app "$HEROKU_APP_NAME" || true)
+          if [ -n "$jeton" ] && [ -n "$salon" ]; then
+            echo "etat=active" >> "$GITHUB_OUTPUT"
+            echo "Alerte de visite active : une notification par nouvelle session."
+          else
+            echo "etat=inactive" >> "$GITHUB_OUTPUT"
+            echo "::warning::Alerte de visite inactive — posez les deux variables sur le dyno :"
+            echo "::warning::heroku config:set TELEGRAM_BOT_TOKEN=... TELEGRAM_CHAT_ID=... --app $HEROKU_APP_NAME"
+          fi
+
+      - name: Récapitulatif
+        run: |
+          {
+            echo "### Déploiement réussi"
+            echo ""
+            echo "- **Application** : \`$HEROKU_APP_NAME\`"
+            echo "- **URL** : ${{ steps.release.outputs.url }}"
+            echo "- **Commit** : \`${GITHUB_SHA:0:7}\`"
+            echo "- **Alerte de visite Telegram** : ${{ steps.telegram.outputs.etat || 'inconnue' }}"
+          } >> "$GITHUB_STEP_SUMMARY"
