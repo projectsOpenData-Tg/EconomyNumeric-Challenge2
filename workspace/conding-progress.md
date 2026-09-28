@@ -466,3 +466,20 @@ Branche créée le 2026-09-28 depuis `dev`. Horodatage en UTC.
 - Dans la section Filtres de la barre latérale, les titres de chaque filtre (**RÉGION**, **MAILLE DE LA CARTE**, **PRIORITÉ**, **MILIEU**) passent en **majuscules**, en gras et en **jaune clair** (`#fce588`, la couleur d'accent de la barre latérale), avec un léger interlettrage. Les choix (Grand Lomé, Commune, Priorité haute…) restent en blanc : on distingue d'un coup d'œil le titre d'une section de son contenu.
 - Un peu d'espace ajouté au-dessus de chaque titre pour séparer les sections.
 - Fichier : `dashboard/theme.py` (`[data-testid="stSidebar"] [data-testid="stWidgetLabel"]`).
+
+---
+
+## Journal de la branche `feature/cartes-synthese-contexte`
+
+Branche créée le 2026-09-28 depuis `dev`. Horodatage en UTC.
+
+## 2026-09-28 22:37 UTC — Cartes de synthèse : contexte dans un mini-encadré de couleur
+
+- Dans toutes les cartes de synthèse en haut des pages, le texte de contexte sous le chiffre (ex. « 759 599 habitants, toutes rurales ; aucun DAB non plus : le mobile money y est seul ») est placé dans un **mini-encadré** : fond clair, bordure fine, coins arrondis, largeur ajustée au texte, comme sur l'image de référence.
+- La couleur de l'encadré reprend celle de l'**étiquette en haut à droite** de la carte :
+  - étiquette rouge (ex. « Priorité absolue ») → encadré rouge clair ;
+  - étiquette jaune (ex. « Sous le seuil », « Très concentré ») → encadré jaune clair ;
+  - étiquette bleue (ex. « Seuil franchi ») → encadré bleu clair ;
+  - étiquette grise ou pas d'étiquette → **vert clair par défaut** (`#e8f6ee`, texte `#11613f`).
+- Le texte de contexte des cartes de la page Recommandations garde son style actuel : l'encadré ne s'applique qu'aux cartes de synthèse.
+- Fichiers : `dashboard/composants.py` (`carte_kpi`), `dashboard/theme.py` (`.kpi .kpi-contexte`, `.kpi-contexte.defaut/.ok/.alerte/.critique`).

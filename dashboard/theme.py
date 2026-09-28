@@ -63,6 +63,13 @@ h1, h2, h3 { font-family: 'Fraunces', Georgia, serif !important; font-weight: 60
 .kpi-unite { font-family: 'IBM Plex Sans', system-ui, sans-serif; font-size: 1.05rem; font-weight: 600; margin-left: 6px; }
 .kpi-phrase { font-size: 0.95rem; font-weight: 600; line-height: 1.4; color: #141413; }
 .kpi-contexte { font-size: 0.84rem; line-height: 1.45; color: #3a3935; }
+.kpi .kpi-contexte { font-size: 0.82rem; width: fit-content; max-width: 100%; box-sizing: border-box;
+  padding: 4px 10px; border: 1px solid; border-radius: 10px; }
+/* Mini-encadré du contexte : même teinte que l'étiquette de la carte, vert clair si la carte n'en a pas */
+.kpi-contexte.defaut { background: #e8f6ee; border-color: #bfe5cf; color: #11613f; }
+.kpi-contexte.ok { background: #e3eefb; border-color: #bcd4f3; color: #0d366b; }
+.kpi-contexte.alerte { background: #fdf0d2; border-color: #f0d48f; color: #6b4700; }
+.kpi-contexte.critique { background: #fbe3e2; border-color: #f1bdbb; color: #8a1c1b; }
 .kpi-reserve { font-size: 0.78rem; line-height: 1.4; color: #55534e; border-top: 1px solid #efece4; padding-top: 7px; margin-top: auto; }
 .etiquette { font-size: 0.74rem; font-weight: 600; padding: 3px 8px; border-radius: 999px; white-space: nowrap; }
 .etiquette.alerte { background: #fdf0d2; color: #6b4700; }

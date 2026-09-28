@@ -73,7 +73,9 @@ def carte_kpi(libelle: str, valeur: str, phrase: str, contexte: str, reserve: st
 
     tag = f'<span class="etiquette {ton}">{html.escape(etiquette)}</span>' if etiquette else ""
     u = f'<span class="kpi-unite">{html.escape(unite)}</span>' if unite else ""
-    ctx = f'<div class="kpi-contexte">{insecable(contexte)}</div>' if contexte else ""
+    # Le contexte est encadré dans la couleur de l'étiquette du coin supérieur droit ; vert clair par défaut
+    teinte = ton if etiquette and ton in ("alerte", "ok", "critique") else "defaut"
+    ctx = f'<div class="kpi-contexte {teinte}">{insecable(contexte)}</div>' if contexte else ""
     res = f'<div class="kpi-reserve">{insecable(html.escape(reserve))}</div>' if reserve else ""
     return (f'<div class="kpi"><div class="kpi-tete"><div class="kpi-libelle">{html.escape(libelle)}</div>{tag}</div>'
             f'<div class="kpi-valeur">{insecable(html.escape(valeur))}{u}</div>'
