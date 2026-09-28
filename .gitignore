@@ -225,3 +225,6 @@ workspace/
 # Micro-données de la Banque mondiale (EHCVM, Findex) : redistribution interdite par les conditions d'utilisation
 data/raw/_extradatas/obj1/W2_ehcvm/
 data/raw/_extradatas/obj1/W3_findex2025/microdonnees/
+
+# Archive de soumission, reconstruite par scripts/make_submission.sh
+Togo-Defi2-EconomieNumerique.zip

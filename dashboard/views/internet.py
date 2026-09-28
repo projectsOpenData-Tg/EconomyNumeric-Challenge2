@@ -125,19 +125,20 @@ if o_synth.open is not False:
                       bi("de la population utilise Internet", "of the population uses the Internet"),
                       bi(f"Afrique subsaharienne : {pct(ass_now)}, dépassée depuis {depuis_ass} ; seuil : {SEUIL_USAGE} %",
                          f"Sub-Saharan Africa: {pct(ass_now)}, exceeded since {depuis_ass}; threshold: {SEUIL_USAGE}%"),
-                      bi("Estimation internationale (UIT) ; les enquêtes auprès des ménages en confirment la tendance, pas le niveau.",
-                         "International estimate (ITU); household surveys confirm the trend, not the level."),
+                      bi("Estimation internationale ; les enquêtes auprès des ménages en confirment la tendance, pas le niveau.",
+                         "International estimate; household surveys confirm the trend, not the level."),
                       bi("Seuil franchi", "Threshold reached") if u_now >= SEUIL_USAGE else bi("Sous le seuil", "Below threshold"),
                       "ok" if u_now >= SEUIL_USAGE else "alerte"),
             carte_kpi(bi("Accès déclaré, écart régional", "Self-reported access, regional gap"), nombre(ecart_2, 1),
                       bi(f"d’écart entre le Grand Lomé ({pct(gl_2)}) et les Savanes ({pct(sav_2)})",
                          f"gap between Greater Lomé ({pct(gl_2)}) and Savanes ({pct(sav_2)})"),
                       bi(f"{nombre(ecart_1, 1)} points en 2018/19 : l’écart se creuse", f"{nombre(ecart_1, 1)} points in 2018/19: the gap is widening"),
-                      t("lib.acces_declare") + bi(" (enquête EHCVM, 15 ans et plus) : pas la même mesure que l’usage.",
-                                                 " (EHCVM survey, aged 15 and over): not the same measure as use."),
+                      t("lib.acces_declare") + bi(" (enquête nationale auprès des ménages, 15 ans et plus) : pas la même mesure que l’usage.",
+                                                 " (national household survey, aged 15 and over): not the same measure as use."),
                       bi("Écart qui se creuse", "Widening gap"), "critique", unite=bi("points", "points")),
-            carte_kpi(bi(f"Rang dans l’UEMOA ({a_b})", f"Rank within WAEMU ({a_b})"), rang(rang_now),
-                      bi("sur les 8 pays de l’UEMOA", "out of the 8 WAEMU countries"),
+            carte_kpi(bi(f"Rang régional ({a_b})", f"Regional rank ({a_b})"), rang(rang_now),
+                      bi("sur les 8 pays de l’Union économique et monétaire ouest-africaine (UEMOA)",
+                         "out of the 8 countries of the West African Economic and Monetary Union (WAEMU)"),
                       bi(f"{rang(rang_debut)} en {a_debut_b}, {rangs_bas} de {rang_bas_de} à {rang_bas_a}",
                          f"{rang(rang_debut)} in {a_debut_b}, {rangs_bas} from {rang_bas_de} to {rang_bas_a}"),
                       bi("Des estimations comparées entre elles, pas des mesures.", "Estimates compared with each other, not measurements."),
@@ -153,10 +154,10 @@ if o_synth.open is not False:
         with gauche:
             with st.container(border=True):
                 titre_bloc(bi(f"L’usage d’Internet depuis les premiers utilisateurs (1996-{a_u})", f"Internet use since the first users (1996-{a_u})"),
-                           bi("Estimation de l’UIT, avec le repère de l’Afrique subsaharienne (publié depuis 2005) et le seuil de 40 %. "
+                           bi("Estimation internationale, avec le repère de l’Afrique subsaharienne (publié depuis 2005) et le seuil de 40 %. "
                               "Les points marquent les années d’accélération et de ralentissement ; un cercle vide, une classe qui "
                               "dépend de la période de référence.",
-                              "ITU estimate, with the Sub-Saharan Africa reference (published since 2005) and the 40% threshold. "
+                              "International estimate, with the Sub-Saharan Africa reference (published since 2005) and the 40% threshold. "
                               "Dots mark the years of acceleration and slowdown; a hollow circle, a class that depends on the "
                               "reference period."))
                 fig = go.Figure()
@@ -225,12 +226,12 @@ if o_synth.open is not False:
                     f'</div>', unsafe_allow_html=True)
         detail = bi("détail : onglet", "details: tab")
         og, fg = bi("« ", "“"), bi(" »", "”")  # guillemets selon la langue
-        synthese(f"× {nombre(multiple_2017, 1)}", bi(f"usage d’Internet de 2017 à {a_u} (UIT)", f"Internet use from 2017 to {a_u} (ITU)"), [
-            bi(f"Toutes les sources voient le ralentissement, mais pas au même moment : l’UIT dès {debut_ralent_uit}, les abonnements "
-               f"data dès {debut_ralent_abo}, l’enquête Afrobaromètre entre {int(afro_dern.debut)} et {int(afro_dern.fin)} "
+        synthese(f"× {nombre(multiple_2017, 1)}", bi(f"usage d’Internet de 2017 à {a_u}", f"Internet use from 2017 to {a_u}"), [
+            bi(f"Toutes les sources voient le ralentissement, mais pas au même moment : l’estimation internationale dès {debut_ralent_uit}, les abonnements "
+               f"data dès {debut_ralent_abo}, l’enquête d’opinion auprès des adultes entre {int(afro_dern.debut)} et {int(afro_dern.fin)} "
                f"(+{nombre(afro_dern.croissance_annualisee_pct, 1)} % par an).",
-               f"All sources see the slowdown, but not at the same time: the ITU from {debut_ralent_uit}, data subscriptions from "
-               f"{debut_ralent_abo}, the Afrobarometer survey between {int(afro_dern.debut)} and {int(afro_dern.fin)} "
+               f"All sources see the slowdown, but not at the same time: the international estimate from {debut_ralent_uit}, data subscriptions from "
+               f"{debut_ralent_abo}, the adult opinion survey between {int(afro_dern.debut)} and {int(afro_dern.fin)} "
                f"(+{nombre(afro_dern.croissance_annualisee_pct, 1)}% a year).") + f" <i>({detail} {og}{LIBELLES[1]}{fg})</i>",
             bi(f"L’accès déclaré progresse dans toutes les régions, mais l’écart entre le Grand Lomé et les Savanes passe de "
                f"{nombre(ecart_1, 1)} à {nombre(ecart_2, 1)} points.",
@@ -242,11 +243,11 @@ if o_synth.open is not False:
                f"4G accounts for {pct(techno.loc[a_t, '4G'])} of mobile data subscriptions in {a_t}.")
             + f" <i>({bi('détail : page', 'details:')} {og}{t('page.marche')}{fg}{bi(', onglet', ' page,')} {og}{bi('Technologies et fibre', 'Technologies and fibre')}{fg}{bi('', ' tab')})</i>",
         ])
-        limite(bi("Série d’usage estimée par l’UIT (sauf 2017), pas mesurée directement. Les classes de croissance portent sur 2010-2024 : "
+        limite(bi("Série d’usage estimée par une source institutionnelle externe (sauf 2017), pas mesurée directement. Les classes de croissance portent sur 2010-2024 : "
                   "avant 2005, les taux portent sur des niveaux inférieurs à 2 % et ne se lisent pas. Le classement de la page "
                   f"{og}{t('page.priorites')}{fg} ne porte pas sur l’usage d’Internet : aucune mesure d’usage n’existe à la préfecture ; "
                   f"pour l’usage, les priorités se lisent par région (onglet {og}{LIBELLES[2]}{fg}).",
-                  "Usage series estimated by the ITU (except 2017), not directly measured. Growth classes cover 2010-2024: before 2005, "
+                  "Usage series estimated by an external institutional source (except 2017), not directly measured. Growth classes cover 2010-2024: before 2005, "
                   "rates apply to levels below 2% and are not interpreted. The ranking on the "
                   f"{og}{t('page.priorites')}{fg} page is not about Internet use: no measure of use exists at prefecture level; for use, "
                   f"priorities are read by region ({og}{LIBELLES[2]}{fg} tab)."))
@@ -254,11 +255,11 @@ if o_synth.open is not False:
 # =================================================================== 2. Évolution de l’usage
 if o_evol.open is not False:
     with o_evol:
-        constat(bi(f"Toutes les sources voient le ralentissement, mais pas au même moment : l’UIT dès {debut_ralent_uit}, les abonnements "
-                   f"data dès {debut_ralent_abo}, l’Afrobaromètre entre {int(afro_dern.debut)} et {int(afro_dern.fin)} "
+        constat(bi(f"Toutes les sources voient le ralentissement, mais pas au même moment : l’estimation internationale dès {debut_ralent_uit}, les abonnements "
+                   f"data dès {debut_ralent_abo}, l’enquête d’opinion auprès des adultes entre {int(afro_dern.debut)} et {int(afro_dern.fin)} "
                    f"(+{nombre(afro_dern.croissance_annualisee_pct, 1)} % par an).",
-                   f"All sources see the slowdown, but not at the same time: the ITU from {debut_ralent_uit}, data subscriptions from "
-                   f"{debut_ralent_abo}, the Afrobarometer between {int(afro_dern.debut)} and {int(afro_dern.fin)} "
+                   f"All sources see the slowdown, but not at the same time: the international estimate from {debut_ralent_uit}, data subscriptions from "
+                   f"{debut_ralent_abo}, the adult opinion survey between {int(afro_dern.debut)} and {int(afro_dern.fin)} "
                    f"(+{nombre(afro_dern.croissance_annualisee_pct, 1)}% a year).")
                 + bi(f" Il est sûr en {ralent_sur_uit} pour l’usage et en {ralent_sur_abo} pour les abonnements ; la classe des années "
                      "suivantes dépend de la convention retenue (en pointillés).",
@@ -271,8 +272,8 @@ if o_evol.open is not False:
         with g1:
             with st.container(border=True):
                 titre_bloc(bi("Croissance annuelle de l’usage", "Annual growth of use"),
-                           bi("Gain en points de pourcentage chaque année (UIT), classé ; 5 événements annotés.",
-                              "Gain in percentage points each year (ITU), classified; 5 events annotated."))
+                           bi("Gain en points de pourcentage chaque année, classé ; 5 événements annotés.",
+                              "Gain in percentage points each year, classified; 5 events annotated."))
                 u10 = usage.loc[2011:]
                 fig = go.Figure()
                 # motif posé par-dessus la couleur de la barre (par défaut, Plotly remplace la couleur par le motif)
@@ -303,9 +304,9 @@ if o_evol.open is not False:
                               "les enquêtes ne se comparent pas entre elles.",
                               "One series per survey, with the 95% confidence interval. Different definitions and ages: "
                               "surveys are not compared with each other."))
-                series = [("usage_internet_toute_frequence", t("lib.usage_toute_freq") + bi(" (Afrobaromètre, 18 ans et plus)", " (Afrobarometer, 18 and over)"), CATEGORIELLE[0]),
-                          ("acces_internet_declare", t("lib.acces_declare") + bi(" (EHCVM, 15 ans et plus)", " (EHCVM, 15 and over)"), CATEGORIELLE[1]),
-                          ("usage_internet_3_mois", bi("Usage sur 3 mois (Findex, 15 ans et plus)", "Use in the last 3 months (Findex, 15 and over)"), CATEGORIELLE[2])]
+                series = [("usage_internet_toute_frequence", t("lib.usage_toute_freq") + bi(" (18 ans et plus)", " (18 and over)"), CATEGORIELLE[0]),
+                          ("acces_internet_declare", t("lib.acces_declare") + bi(" (15 ans et plus)", " (15 and over)"), CATEGORIELLE[1]),
+                          ("usage_internet_3_mois", bi("Usage sur 3 mois (15 ans et plus)", "Use in the last 3 months (15 and over)"), CATEGORIELLE[2])]
                 fig = go.Figure()
                 for ind, nom, coul in series:
                     s = enq[enq.indicateur == ind].copy()
@@ -318,18 +319,18 @@ if o_evol.open is not False:
                 habiller(fig, 330, " %", legende_y=-0.14, xaxis=dict(gridcolor="#efece4", dtick=2))
                 tracer(fig, "enquetes_usage")
                 mics = enq[enq.indicateur == "internet_utilise_3_derniers_mois"].set_index("population_reference").estimation_pct
-                st.caption(bi(f"Écart entre femmes et hommes (enquête MICS6, 2017, 15-49 ans, usage sur 3 mois) : "
+                st.caption(bi(f"Écart entre femmes et hommes (enquête auprès des ménages, 2017, 15-49 ans, usage sur 3 mois) : "
                               f"{pct(mics['Femmes 15-49 ans'])} contre {pct(mics['Hommes 15-49 ans'])}.",
-                              f"Gap between women and men (MICS6 survey, 2017, aged 15-49, use in the last 3 months): "
+                              f"Gap between women and men (household survey, 2017, aged 15-49, use in the last 3 months): "
                               f"{pct(mics['Femmes 15-49 ans'])} against {pct(mics['Hommes 15-49 ans'])}."))
                 export_csv(enq, "usage_enquetes.csv", "export_enquetes")
         g3, g4 = st.columns(2, gap="large")
         with g3:
             with st.container(border=True):
                 titre_bloc(bi("Abonnements data mobile : croissance annuelle", "Mobile data subscriptions: annual growth"),
-                           bi("Valeur du 4e trimestre (ARCEP), classée sur 2010-2024. Les années de rupture de série ne sont pas classées ; "
+                           bi("Valeur du 4e trimestre, classée sur 2010-2024. Les années de rupture de série ne sont pas classées ; "
                               "en pointillés, une classe qui change avec la période 2015-2024 ou quand les ruptures sont comptées.",
-                              "Fourth-quarter value (ARCEP), classified over 2010-2024. Series-break years are not classified; dotted, a "
+                              "Fourth-quarter value, classified over 2010-2024. Series-break years are not classified; dotted, a "
                               "class that changes with the 2015-2024 period or when breaks are counted."))
                 ab = abo.copy()
                 ab["cl"] = ab.classe_finale.astype(str).str.split(" \\(").str[0].replace({"non classé": "rupture"})
@@ -371,15 +372,15 @@ if o_evol.open is not False:
                 note(bi(f"L’écart se creuse jusqu’en {a_max} (multi-SIM), puis se resserre : les utilisateurs augmentent plus vite que les abonnements.",
                         f"The gap widens until {a_max} (multi-SIM), then narrows: users grow faster than subscriptions."), forte=True)
                 export_csv(ecart_abo.reset_index(), "abonnements_par_utilisateur.csv", "export_ecart_abo")
-        limite(bi("Série d’usage estimée (UIT). Chaque enquête a sa définition et sa tranche d’âge : elles ne se comparent pas entre elles. "
+        limite(bi("Série d’usage estimée par une source institutionnelle externe. Chaque enquête a sa définition et sa tranche d’âge : elles ne se comparent pas entre elles. "
                   "Les événements annotés sont des coïncidences dans le temps, pas des causes démontrées. Les ruptures de série de 2020 et 2021 "
-                  "(reclassement de la 3G de Togocel, révision de l’ARCEP) ne sont pas classées. Les classes en pointillés changent si l’on "
+                  "(reclassement de la 3G de Togocel, révision des séries publiées) ne sont pas classées. Les classes en pointillés changent si l’on "
                   "prend 2015-2024 comme période de référence (ou, pour les abonnements, si l’on compte les ruptures) : seules les autres "
                   "sont sûres. Les utilisateurs sont reconstitués (part des "
                   "utilisateurs × population) : le ratio par utilisateur est un ordre de grandeur.",
-                  "Usage series estimated (ITU). Each survey has its own definition and age range: they are not compared with each other. "
+                  "Usage series estimated by an external institutional source. Each survey has its own definition and age range: they are not compared with each other. "
                   "The annotated events are coincidences in time, not demonstrated causes. The 2020 and 2021 series breaks (Togocel 3G "
-                  "reclassification, ARCEP revision) are not classified. Dotted classes change if 2015-2024 is taken as the reference "
+                  "reclassification, revision of published series) are not classified. Dotted classes change if 2015-2024 is taken as the reference "
                   "period (or, for subscriptions, if breaks are counted): only the others are firm. Users are reconstructed (share of "
                   "users × population): the "
                   "per-user ratio is an order of magnitude."))
@@ -398,9 +399,9 @@ if o_regions.open is not False:
         cartes_g, cartes_d = st.columns([2, 1], gap="large")
         with cartes_g:
             with st.container(border=True):
-                titre_bloc(t("lib.acces_declare"), bi("Individus de 15 ans et plus (enquête EHCVM). Entre parenthèses : la marge d’erreur à 95 % ; "
+                titre_bloc(t("lib.acces_declare"), bi("Individus de 15 ans et plus (enquête nationale auprès des ménages). Entre parenthèses : la marge d’erreur à 95 % ; "
                                                      "en dessous, le gain depuis 2018/19.",
-                                                     "Individuals aged 15 and over (EHCVM survey). In brackets: the 95% margin of error; "
+                                                     "Individuals aged 15 and over (national household survey). In brackets: the 95% margin of error; "
                                                      "below, the gain since 2018/19."))
                 classes_acces = [bi("moins de 15 %", "under 15%"), bi("15 à 25 %", "15 to 25%"), bi("25 à 35 %", "25 to 35%"),
                                  bi("35 à 50 %", "35 to 50%"), bi("50 % et plus", "50% and over")]
@@ -414,7 +415,7 @@ if o_regions.open is not False:
                     a["survol"] = [f"<b>{region(n)}</b><br>{pct(v)} ({ic} : {nombre(lo, 1)} – {nombre(hi, 1)})"
                                    for n, v, lo, hi in zip(a.nom, a.valeur, a[f"ic95_bas_{suffixe}"], a[f"ic95_haut_{suffixe}"])]
                     with col:
-                        st.markdown(f'<div class="groupe" style="text-align:center;">{html.escape(bi("Enquête EHCVM", "EHCVM survey"))} {vague}</div>',
+                        st.markdown(f'<div class="groupe" style="text-align:center;">{html.escape(bi("Enquête auprès des ménages", "Household survey"))} {vague}</div>',
                                     unsafe_allow_html=True)
                         carte_regions(a, f"carte_acces_{suffixe}", "valeur", [15, 25, 35, 50], classes_acces, selection=f_regions, hauteur=500)
                 export_csv(acces.reset_index(), "acces_internet_regions.csv", "export_acces_regions")
@@ -422,8 +423,8 @@ if o_regions.open is not False:
             with st.container(border=True):
                 al = alpha[(alpha.indicateur == "alphabetisation") & (alpha.vague == alpha[alpha.indicateur == "alphabetisation"].vague.max())].copy()
                 titre_bloc(bi("Alphabétisation, indice des compétences", "Literacy, a proxy for skills"),
-                           bi(f"15 ans et plus, {al.vague.iloc[0]} (EHCVM) ; national : {pct(al.national_pct.iloc[0])}. Gain depuis 2018/19.",
-                              f"Aged 15 and over, {al.vague.iloc[0]} (EHCVM); national: {pct(al.national_pct.iloc[0])}. Gain since 2018/19."))
+                           bi(f"15 ans et plus, {al.vague.iloc[0]} ; national : {pct(al.national_pct.iloc[0])}. Gain depuis 2018/19.",
+                              f"Aged 15 and over, {al.vague.iloc[0]}; national: {pct(al.national_pct.iloc[0])}. Gain since 2018/19."))
                 st.markdown('<div class="groupe">&nbsp;</div>', unsafe_allow_html=True)
                 al["valeur"] = al.estimation_pct
                 marge = (al.ic95_haut - al.ic95_bas) / 2
@@ -481,10 +482,10 @@ if o_regions.open is not False:
                                         c_couv: barre(c_couv), c_alp: barre(c_alp)})
             note(bi(f"Le coût pèse partout : 1 Go coûte {pct(freins.cout_1go_pct_revenu_national.iloc[0])} du revenu mensuel (chiffre national). "
                     f"{pct(smart['smartphone_telephone_principal'])} des adultes ont un smartphone comme téléphone principal ; "
-                    f"{pct(smart['sans_smartphone_cause_cout'])} citent le coût comme raison de ne pas en avoir (Findex 2024).",
+                    f"{pct(smart['sans_smartphone_cause_cout'])} citent le coût comme raison de ne pas en avoir (enquête internationale de 2024).",
                     f"Cost weighs everywhere: 1 GB costs {pct(freins.cout_1go_pct_revenu_national.iloc[0])} of monthly income (national figure). "
                     f"{pct(smart['smartphone_telephone_principal'])} of adults use a smartphone as their main phone; "
-                    f"{pct(smart['sans_smartphone_cause_cout'])} cite cost as the reason for not having one (Findex 2024)."), forte=True)
+                    f"{pct(smart['sans_smartphone_cause_cout'])} cite cost as the reason for not having one (2024 international survey)."), forte=True)
             export_csv(tab, "freins_regions.csv", "export_freins")
         limite(bi("Six régions seulement : aucune enquête ne descend à la préfecture ni à la commune. L’accès déclaré n’est pas l’usage. "
                   "Le frein est présumé par une règle, pas démontré ; l’alphabétisation n’est qu’un indice des compétences ; les compétences "
@@ -560,9 +561,9 @@ if o_uemoa.open is not False:
                 st.dataframe(pd.DataFrame({bi("rang", "rank"): range(1, len(cl) + 1), bi("pays", "country"): cl.iso3.map(pays),
                                            bi("usage", "use"): [pct(v) for v in cl.valeur]}),
                              hide_index=True, use_container_width=True)
-        limite(bi("Des deux côtés, la plupart des valeurs sont des estimations de l’UIT : un rang compare des estimations entre elles, pas "
+        limite(bi("Des deux côtés, la plupart des valeurs sont des estimations internationales : un rang compare des estimations entre elles, pas "
                   "des mesures. Le repère de l’Afrique subsaharienne ne commence qu’en 2005.",
-                  "On both sides, most values are ITU estimates: a rank compares estimates with each other, not measurements. The "
+                  "On both sides, most values are international estimates: a rank compares estimates with each other, not measurements. The "
                   "Sub-Saharan Africa reference only starts in 2005."))
 
 pied()

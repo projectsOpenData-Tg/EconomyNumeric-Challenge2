@@ -385,7 +385,6 @@ def choro_fixe(ax, g, col, bins, couleurs, labels, titre, encart=True, legende_t
     ax.set_title(titre, fontsize=9)
     if encart:
         e = ax.inset_axes([0.52, 0.0, 0.48, 0.2])
-        kk = k[g.code.isin(GL.code)]
         for i, c in enumerate(couleurs):
             g[g.code.isin(GL.code) & (k == i)].plot(ax=e, color=c, edgecolor=SURFACE, linewidth=0.4)
         e.set_axis_off()

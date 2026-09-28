@@ -146,21 +146,20 @@ if o_synth.open is not False:
         rangee_kpi(bi("Le marché des télécoms en quatre chiffres", "The telecom market in four figures"), [
             carte_kpi(bi(f"Parts de marché ({a_m})", f"Market shares ({a_m})"), pct(data_n),
                       bi("des abonnés data chez Togocom (YAS)", "of data subscribers with Togocom (YAS)"),
-                      bi(f"{pct(camob_n)} du chiffre d’affaires mobile ; indice de concentration : {nombre(seg.loc[a_m, 'hhi'], 0)}",
-                         f"{pct(camob_n)} of mobile revenue; concentration index: {nombre(seg.loc[a_m, 'hhi'], 0)}"),
+                      bi(f"{pct(camob_n)} du chiffre d’affaires mobile ; indice de concentration : {nombre(seg.loc[a_m, 'hhi'], 0)} sur 10 000",
+                         f"{pct(camob_n)} of mobile revenue; concentration index: {nombre(seg.loc[a_m, 'hhi'], 0)} out of 10,000"),
                       bi("Deux opérateurs : l’indice dépasse 5 000 chaque année, sur chaque segment." if hhi_toujours_haut
                          else "Deux opérateurs : un indice au-dessus de 5 000 signale un duopole très concentré.",
                          "Two operators: the index is above 5,000 every year, on every segment." if hhi_toujours_haut
                          else "Two operators: an index above 5,000 signals a highly concentrated duopoly."),
                       bi("Très concentré", "Highly concentrated"), "alerte"),
             carte_kpi(bi(f"Chiffre d’affaires ({a_ca})", f"Revenue ({a_ca})"), nombre(ca_n, 1),
-                      bi("chiffre d’affaires du secteur (ARCEP)", "sector revenue (ARCEP)"),
+                      bi("milliards de FCFA de chiffre d’affaires pour le secteur", "billion FCFA of revenue for the sector"),
                       bi(f"{signe(croiss_ca_n)} % en {a_ca} ; +{nombre(hausse_ca, 0)} % depuis {a_ca0}",
                          f"{signe(croiss_ca_n)}% in {a_ca}; +{nombre(hausse_ca, 0)}% since {a_ca0}"),
-                      bi("Inflation inconnue après 2023 ; l’opérateur GVA manque au chiffre fixe de 2021 à début 2023.",
-                         "Inflation unknown after 2023; operator GVA is missing from fixed revenue from 2021 to early 2023."),
-                      lib_classe_ca_n.capitalize(), "alerte" if classe_ca(arcep.loc[a_ca, "classe_02"]).startswith(("stagnation", "recul")) else "ok",
-                      unite=bi("Md FCFA", "bn FCFA")),
+                      bi("Inflation inconnue après 2023 ; un opérateur de fibre (GVA) manque au chiffre du fixe de 2021 à début 2023.",
+                         "Inflation unknown after 2023; a fibre operator (GVA) is missing from fixed revenue from 2021 to early 2023."),
+                      lib_classe_ca_n.capitalize(), "alerte" if classe_ca(arcep.loc[a_ca, "classe_02"]).startswith(("stagnation", "recul")) else "ok"),
             carte_kpi(bi(f"Investissement ({a_i})", f"Investment ({a_i})"), pct(inv_n.taux_investissement_pct),
                       bi("du chiffre d’affaires investi par les opérateurs", "of revenue invested by operators"),
                       bi(f"seuil de sous-investissement : {SEUIL_SOUS_INVESTISSEMENT} % ; {pct(inv.loc[a_i0, 'taux_investissement_pct'])} en {a_i0}",
@@ -197,9 +196,9 @@ if o_synth.open is not False:
                f"d’affaires mobile ({a_m0}-{a_m}).",
                f"Togocom rises from {pct(data_0)} to {pct(data_n)} of data subscribers and from {pct(camob_0)} to {pct(camob_n)} of "
                f"mobile revenue ({a_m0}-{a_m}).") + renvoi(1),
-            bi(f"Le chiffre d’affaires du secteur atteint {nombre(ca_n, 1)} Md FCFA en {a_ca} (+{nombre(hausse_ca, 0)} % depuis {a_ca0}), "
+            bi(f"Le chiffre d’affaires du secteur atteint {nombre(ca_n, 1)} milliards de FCFA en {a_ca} (+{nombre(hausse_ca, 0)} % depuis {a_ca0}), "
                f"mais il stagne en {a_ca} ({signe(croiss_ca_n)} %).",
-               f"Sector revenue reaches {nombre(ca_n, 1)} bn FCFA in {a_ca} (+{nombre(hausse_ca, 0)}% since {a_ca0}), but it "
+               f"Sector revenue reaches {nombre(ca_n, 1)} billion FCFA in {a_ca} (+{nombre(hausse_ca, 0)}% since {a_ca0}), but it "
                f"stagnates in {a_ca} ({signe(croiss_ca_n)}%).") + renvoi(2),
             bi(f"La 4G fait {pct(techno.loc[a_t, '4G'])} des abonnements data mobile en {a_t} ; la fibre, "
                f"{pct(fx_n.part_ftth_internet_fixe_pct)} de l’Internet fixe mais {pct(fx_n.part_ftth_data_mobile_pct)} des abonnements "
@@ -213,11 +212,11 @@ if o_synth.open is not False:
                f"theory, reports {'the best' if r_couv_min == r_rec_max else 'good'} reception.") + renvoi(4),
         ])
         limite(bi("Le marché n’est mesuré qu’au niveau national : parts, chiffre d’affaires, investissement et prix ne se déclinent "
-                  "pas par territoire. Les segments du marché ne se mélangent pas, et les deux sources du chiffre d’affaires (INSEED, "
-                  "ARCEP) ne sont jamais raccordées. La couverture affichée est théorique : la qualité de service n’est pas mesurée par "
+                  "pas par territoire. Les segments du marché ne se mélangent pas, et les deux séries du chiffre d’affaires (annuelle "
+                  "jusqu’en 2022, trimestrielle depuis 2018) ne sont jamais raccordées. La couverture affichée est théorique : la qualité de service n’est pas mesurée par "
                   "territoire.",
                   "The market is only measured nationally: shares, revenue, investment and prices are not broken down by territory. "
-                  "Market segments are never mixed, and the two revenue sources (INSEED, ARCEP) are never joined. The coverage shown "
+                  "Market segments are never mixed, and the two revenue series (annual up to 2022, quarterly since 2018) are never joined. The coverage shown "
                   "is theoretical: quality of service is not measured by territory."))
 
 # =================================================================== 2. Parts de marché
@@ -237,9 +236,9 @@ if o_parts.open is not False:
                               "data est une rupture de série (reclassement de la 3G de Togocel), pas un mouvement du marché.",
                               "One line per measure, never added together; the rest goes to Moov Africa. In 2020, the data-subscriber "
                               "share is a series break (Togocel 3G reclassification), not a market move."))
-                mesures = [("data_mobile_ARCEP", bi("abonnés data mobile (ARCEP)", "mobile data subscribers (ARCEP)"), CATEGORIELLE[0]),
-                           ("ca_mobile_ARCEP", bi("chiffre d’affaires mobile (ARCEP)", "mobile revenue (ARCEP)"), CATEGORIELLE[1]),
-                           ("telephonie_D3", bi("abonnés à la téléphonie mobile (INSEED)", "mobile telephony subscribers (INSEED)"), CATEGORIELLE[2])]
+                mesures = [("data_mobile_ARCEP", bi("abonnés data mobile", "mobile data subscribers"), CATEGORIELLE[0]),
+                           ("ca_mobile_ARCEP", bi("chiffre d’affaires mobile", "mobile revenue"), CATEGORIELLE[1]),
+                           ("telephonie_D3", bi("abonnés à la téléphonie mobile", "mobile telephony subscribers"), CATEGORIELLE[2])]
                 sep = bi(" : ", ": ")
                 fig = go.Figure()
                 for col, nom, coul in mesures:
@@ -291,22 +290,22 @@ if o_parts.open is not False:
                         f"The index rises on data subscribers ({nombre(sd.hhi.iloc[0], 0)} → {nombre(sd.hhi.iloc[-1], 0)}) and on revenue "
                         f"({nombre(sc.hhi.iloc[0], 0)} → {nombre(sc.hhi.iloc[-1], 0)}): concentration is increasing, driven by Togocom."))
                 export_csv(hhi, "concentration_marche.csv", "export_hhi")
-        limite(bi("Les segments ne se mélangent jamais : abonnés data et chiffre d’affaires mobile (ARCEP, depuis 2018), abonnés à la "
-                  "téléphonie (INSEED, série arrêtée en 2019). 2020 est une rupture de série sur les abonnés data. Le chiffre d’affaires "
+        limite(bi("Les segments ne se mélangent jamais : abonnés data et chiffre d’affaires mobile (depuis 2018), abonnés à la "
+                  "téléphonie (série arrêtée en 2019). 2020 est une rupture de série sur les abonnés data. Le chiffre d’affaires "
                   "mobile couvre tous les services, les abonnés data une partie seulement : l’écart entre les deux parts situe "
                   "l’opérateur, il ne mesure pas ses prix.",
-                  "Segments are never mixed: data subscribers and mobile revenue (ARCEP, since 2018), telephony subscribers (INSEED, "
+                  "Segments are never mixed: data subscribers and mobile revenue (since 2018), telephony subscribers ("
                   "series stopped in 2019). 2020 is a series break for data subscribers. Mobile revenue covers all services, data "
                   "subscribers only part of them: the gap between the two shares positions the operator, it does not measure its prices."))
 
 # =================================================================== 3. Chiffre d’affaires et investissement
 if o_ca.open is not False:
     with o_ca:
-        constat(bi(f"Le chiffre d’affaires du secteur passe de {nombre(ca_0, 1)} à <strong>{nombre(ca_n, 1)} Md FCFA</strong> de {a_ca0} "
+        constat(bi(f"Le chiffre d’affaires du secteur passe de {nombre(ca_0, 1)} à <strong>{nombre(ca_n, 1)} milliards de FCFA</strong> de {a_ca0} "
                    f"à {a_ca} (+{nombre(hausse_ca, 0)} %), mais il stagne en {a_ca} ({signe(croiss_ca_n)} %). L’investissement suit des "
                    f"cycles : {pct(inv.loc[a_i0, 'taux_investissement_pct'])} du chiffre d’affaires en {a_i0}, "
                    f"<strong>{pct(inv_n.taux_investissement_pct)}</strong> en {a_i}, près du seuil de {SEUIL_SOUS_INVESTISSEMENT} %.",
-                   f"Sector revenue rises from {nombre(ca_0, 1)} to <strong>{nombre(ca_n, 1)} bn FCFA</strong> from {a_ca0} to {a_ca} "
+                   f"Sector revenue rises from {nombre(ca_0, 1)} to <strong>{nombre(ca_n, 1)} billion FCFA</strong> from {a_ca0} to {a_ca} "
                    f"(+{nombre(hausse_ca, 0)}%), but it stagnates in {a_ca} ({signe(croiss_ca_n)}%). Investment follows cycles: "
                    f"{pct(inv.loc[a_i0, 'taux_investissement_pct'])} of revenue in {a_i0}, <strong>{pct(inv_n.taux_investissement_pct)}</strong> "
                    f"in {a_i}, close to the {SEUIL_SOUS_INVESTISSEMENT}% threshold."))
@@ -314,10 +313,10 @@ if o_ca.open is not False:
         with g1:
             with st.container(border=True):
                 titre_bloc(bi(f"Chiffre d’affaires du secteur, {int(inseed.index.min())}-{a_ca}", f"Sector revenue, {int(inseed.index.min())}-{a_ca}"),
-                           bi("Milliards de FCFA ; chaque année est classée face à l’inflation. Deux sources, jamais raccordées : "
-                              "l’ARCEP en barres (depuis 2018), l’INSEED en ligne (2010-2022).",
-                              "Billions of FCFA; each year is classified against inflation. Two sources, never joined: ARCEP as bars "
-                              "(since 2018), INSEED as a line (2010-2022)."))
+                           bi("Milliards de FCFA ; chaque année est classée face à l’inflation. Deux séries publiées, jamais "
+                              "raccordées : en barres, la série trimestrielle (depuis 2018) ; en ligne, la série annuelle (2010-2022).",
+                              "Billions of FCFA; each year is classified against inflation. Two published series, never joined: as bars, "
+                              "the quarterly series (since 2018); as a line, the annual series (2010-2022)."))
                 ar = arcep.copy()
                 ar["cl"] = ar.classe_02.map(classe_ca)
                 ins = inseed.copy()
@@ -328,13 +327,13 @@ if o_ca.open is not False:
                     x, y = (list(sub.index), list(sub.ca_md_fcfa)) if len(sub) else ([int(ins.index.min())], [0])  # barre nulle : entrée de légende
                     fig.add_bar(x=x, y=y, name=lib, marker_color=coul, legendrank=list(CLASSE_CA).index(cl),
                                 customdata=[[f"{nombre(v, 1)}" if pd.notna(v) else "—"] for v in (sub.croissance_pct if len(sub) else [None])],
-                                hovertemplate="ARCEP %{x} : %{y:.1f} Md FCFA (%{customdata[0]} %)<extra>" + lib + "</extra>",
+                                hovertemplate=bi("série trimestrielle", "quarterly series") + " %{x} : %{y:.1f} " + bi("milliards de FCFA", "billion FCFA") + " (%{customdata[0]} %)<extra>" + lib + "</extra>",
                                 hoverinfo=None if len(sub) else "skip")
-                fig.add_scatter(x=ins.index, y=ins.ca_md_fcfa, mode="lines+markers", name=bi("INSEED (ligne)", "INSEED (line)"),
+                fig.add_scatter(x=ins.index, y=ins.ca_md_fcfa, mode="lines+markers", name=bi("série annuelle (ligne)", "annual series (line)"),
                                 line=dict(color="#55534e", width=1.5), legendrank=99,
                                 marker=dict(size=9, color=[CLASSE_CA[c][1] for c in ins.cl], line=dict(color="#55534e", width=1)),
                                 customdata=[[CLASSE_CA[c][0]] for c in ins.cl],
-                                hovertemplate="INSEED %{x} : %{y:.1f} Md FCFA<extra>%{customdata[0]}</extra>")
+                                hovertemplate=bi("série annuelle", "annual series") + " %{x} : %{y:.1f} " + bi("milliards de FCFA", "billion FCFA") + "<extra>%{customdata[0]}</extra>")
                 fig.add_annotation(x=a_ca, y=ca_n, text=f"<b>{nombre(ca_n, 1)}</b>", showarrow=False, yshift=12, font=dict(size=11, color=BLEU_FONCE))
                 habiller(fig, 380, legende_y=-0.14, barmode="relative", bargap=0.3, xaxis=dict(gridcolor="#efece4", dtick=2),
                          yaxis=dict(gridcolor="#efece4", range=[0, ca_n * 1.15]))
@@ -354,7 +353,7 @@ if o_ca.open is not False:
                     fig.add_bar(x=x, y=y, name=lib, marker_color=coul, text=[pct(v) for v in y] if len(sub) else None,
                                 textposition="outside", textfont=dict(size=11, color=BLEU_FONCE),
                                 customdata=list(sub.investissement_md_fcfa) if len(sub) else None,
-                                hovertemplate="%{x} : %{y:.1f} % (%{customdata:.1f} Md FCFA)<extra>" + lib + "</extra>",
+                                hovertemplate="%{x} : %{y:.1f} % (%{customdata:.1f} " + bi("milliards de FCFA", "billion FCFA") + ")<extra>" + lib + "</extra>",
                                 hoverinfo=None if len(sub) else "skip")
                 fig.add_hline(y=SEUIL_SOUS_INVESTISSEMENT, line=dict(color=ROUGE, width=1, dash="dash"))
                 fig.add_hline(y=SEUIL_EXTENSION, line=dict(color="#8a8780", width=1, dash="dot"))
@@ -407,7 +406,7 @@ if o_ca.open is not False:
             a_r, a_r0 = int(arpu.index.max()), int(arpu.index.min())
             a_rmax = int(arpu.arpu_fcfa_mois.idxmax())
             rangee_kpi(bi("Revenu par abonnement", "Revenue per subscription"), [
-                carte_kpi(bi(f"ARPU mobile ({a_r})", f"Mobile ARPU ({a_r})"), nombre(arpu.loc[a_r, "arpu_fcfa_mois"]),
+                carte_kpi(bi(f"Revenu moyen mobile ({a_r})", f"Average mobile revenue ({a_r})"), nombre(arpu.loc[a_r, "arpu_fcfa_mois"]),
                           bi("FCFA par mois et par abonnement mobile, tous services", "FCFA per month per mobile subscription, all services"),
                           bi(f"{nombre(arpu.loc[a_r0, 'arpu_fcfa_mois'])} en {a_r0} ; {nombre(arpu.loc[a_rmax, 'arpu_fcfa_mois'])} en {a_rmax}, le plus haut",
                              f"{nombre(arpu.loc[a_r0, 'arpu_fcfa_mois'])} in {a_r0}; {nombre(arpu.loc[a_rmax, 'arpu_fcfa_mois'])} in {a_rmax}, the highest"),
@@ -415,11 +414,11 @@ if o_ca.open is not False:
                              f"Average subscribers over 4 quarters; {nombre(arpu.loc[a_r, 'arpu_fcfa_mois_sensibilite_T4'])} FCFA with fourth-quarter ones."),
                           None, "neutre"),
             ])
-        limite(bi("Chiffre d’affaires : du 1er trimestre 2021 au 1er trimestre 2023, l’ARCEP publie le chiffre fixe sans l’opérateur GVA ; une "
+        limite(bi("Chiffre d’affaires : du 1er trimestre 2021 au 1er trimestre 2023, le chiffre du fixe est publié sans l’opérateur GVA ; une "
                   "partie des hausses de 2023 et 2024 tient à son retour. L’inflation n’est connue que jusqu’en 2023 : 2024 n’est pas classé. "
                   "Net ou brut de taxes : non documenté. L’investissement est une mesure en valeur, cyclique ; les sites radio la complètent "
                   "en volume. Tout est national.",
-                  "Revenue: from Q1 2021 to Q1 2023, ARCEP publishes fixed revenue without operator GVA; part of the 2023 and 2024 "
+                  "Revenue: from Q1 2021 to Q1 2023, fixed revenue is published without operator GVA; part of the 2023 and 2024 "
                   "increases comes from its return. Inflation is only known up to 2023: 2024 is not classified. Net or gross of taxes: "
                   "not documented. Investment is measured in value and is cyclical; radio sites complement it in volume. Everything is "
                   "national."))
@@ -449,7 +448,7 @@ if o_techno.open is not False:
         with gauche:
             with st.container(border=True):
                 titre_bloc(bi(f"Abonnements data mobile par technologie, {a_t0}-{a_t}", f"Mobile data subscriptions by technology, {a_t0}-{a_t}"),
-                           bi("Part de chaque technologie (valeur du 4e trimestre, ARCEP).", "Share of each technology (fourth-quarter value, ARCEP)."))
+                           bi("Part de chaque technologie (valeur du 4e trimestre).", "Share of each technology (fourth-quarter value)."))
                 tt = techno.loc[a_t0:]
                 fig = go.Figure()
                 for col, nom, coul in (("2G", "2G", CATEGORIELLE[4]),
@@ -482,9 +481,9 @@ if o_techno.open is not False:
             with st.container(border=True):
                 titre_bloc(bi(f"Internet fixe et fibre jusqu’au domicile, {fixe.periode.iloc[0][:4]}-{fx_n.periode[:4]}",
                               f"Fixed Internet and fibre to the home, {fixe.periode.iloc[0][:4]}-{fx_n.periode[:4]}"),
-                           bi("Abonnés, par trimestre (ARCEP). GVA : son Internet fixe avant 2024, tout en fibre depuis que l’ARCEP publie sa "
-                              "fibre à part ; la fibre de Togo Telecom n’est pas publiée à part de fin 2021 à fin 2023 (bande grise).",
-                              "Subscribers, by quarter (ARCEP). GVA: its fixed Internet before 2024, all fibre since ARCEP publishes its fibre "
+                           bi("Abonnés, par trimestre. GVA : son Internet fixe avant 2024, tout en fibre depuis que sa fibre est "
+                              "publiée à part ; la fibre de Togo Telecom n’est pas publiée à part de fin 2021 à fin 2023 (bande grise).",
+                              "Subscribers, by quarter. GVA: its fixed Internet before 2024, all fibre since its fibre is published "
                               "separately; Togo Telecom’s fibre is not published separately from late 2021 to late 2023 (grey band)."))
                 fixe["trim"] = fixe.periode.map(trimestre)
                 avant = fixe[fixe.ftth_gva.isna() | (fixe.date == fixe.loc[fixe.ftth_gva.notna(), "date"].min())]
@@ -529,9 +528,9 @@ if o_techno.open is not False:
                 toutes_rurales = bool((cm.loc[sans.code, "milieu"] == "Rural").all())
                 titre_bloc(bi("Communes sans fibre recensée", "Communes with no recorded fibre"),
                            bi(f"{len(sans)} communes sur {len(fc)}{', toutes rurales' if toutes_rurales else ''} "
-                              f"({nombre(sans.pop_totale.sum())} habitants) ; {sans_formel} n’ont pas non plus de point formel.",
+                              f"({nombre(sans.pop_totale.sum())} habitants) ; {sans_formel} n’ont pas non plus d’agence financière.",
                               f"{len(sans)} communes out of {len(fc)}{', all rural' if toutes_rurales else ''} "
-                              f"({nombre(sans.pop_totale.sum())} people); {sans_formel} have no formal point either."))
+                              f"({nombre(sans.pop_totale.sum())} people); {sans_formel} have no financial branch either."))
                 lib_sans, lib_avec = bi("aucune fibre recensée", "no recorded fibre"), bi("fibre recensée", "recorded fibre")
                 c_ent, c_aer = bi("fibre enterrée (km)", "buried fibre (km)"), bi("fibre aérienne (km)", "aerial fibre (km)")
                 fc["fibre"] = fc.aucune_fibre_recensee.map({True: lib_sans, False: lib_avec})
@@ -552,10 +551,10 @@ if o_techno.open is not False:
                 export_csv(sans_p[["nom", "unite_regionale", "pop_totale"]], "prefectures_sans_fibre.csv", "export_fibre")
         limite(bi("Un abonnement n’est pas une personne. Rupture de série au 1er trimestre 2020 (reclassement de la 3G de Togocel) ; avant "
                   "2020, la 3G et la 4G de Moov ne sont pas ventilées. La fibre se lit de deux façons, jamais additionnées : des abonnés à "
-                  "domicile (ARCEP), et une longueur de câble recensée (carte de 2021/2022, sans date de pose, transport et accès confondus). "
+                  "domicile, et une longueur de câble recensée (carte de 2021/2022, sans date de pose, transport et accès confondus). "
                   "Une commune traversée par un câble n’est pas pour autant raccordée à domicile.",
                   "A subscription is not a person. Series break in Q1 2020 (Togocel 3G reclassification); before 2020, Moov’s 3G and 4G "
-                  "are not broken down. Fibre is read in two ways, never added together: home subscribers (ARCEP), and a recorded cable "
+                  "are not broken down. Fibre is read in two ways, never added together: home subscribers, and a recorded cable "
                   "length (2021/2022 map, no laying date, backbone and access combined). A commune crossed by a cable is not necessarily "
                   "connected at home."))
 
@@ -587,10 +586,10 @@ if o_prix.open is not False:
                 pa = paniers.loc[2018:]
                 titre_bloc(bi(f"Prix de la data mobile, en % du revenu mensuel, {int(pa.index.min())}-{int(pa.index.max())}",
                               f"Mobile data price, as a % of monthly income, {int(pa.index.min())}-{int(pa.index.max())}"),
-                           bi("Un panier de l’UIT par courbe, chacun lu séparément : leurs définitions changent, ils ne se raccordent pas. "
+                           bi("Un panier de prix international par courbe, chacun lu séparément : leurs définitions changent, ils ne se raccordent pas. "
                               "Le panier de 2013-2017 (1 Go postpayé sur ordinateur) n’est pas un forfait mobile : il est dans l’export, pas sur "
                               "le graphique.",
-                              "One ITU basket per line, each read separately: their definitions change, they are not joined. The 2013-2017 "
+                              "One international price basket per line, each read separately: their definitions change, they are not joined. The 2013-2017 "
                               "basket (1 GB postpaid on a computer) is not a mobile plan: it is in the export, not on the chart."))
                 pan = [("1,5 Go, data seule (2018-2020)", bi("1,5 Go", "1.5 GB"), "#8a8780", 2),
                        ("2 Go, data seule (2021-2024 ; publié jusqu'en 2025)", bi("2 Go", "2 GB"), CATEGORIELLE[1], 2),
@@ -618,10 +617,10 @@ if o_prix.open is not False:
             with st.container(border=True):
                 titre_bloc(bi("Couverture théorique et réception déclarée, par région", "Theoretical coverage and reported reception, by region"),
                            bi("Couverture : part de la population à moins de 20 km d’une tour (proxy, 2021/2022). Réception : part de la "
-                              "population des localités enquêtées où le premier réseau est bien capté (EHCVM 2021/22). Aucune des deux ne "
+                              "population des localités enquêtées où le premier réseau est bien capté (enquête auprès des ménages, 2021/22). Aucune des deux ne "
                               "mesure le signal.",
                               "Coverage: share of the population within 20 km of a tower (proxy, 2021/2022). Reception: share of the "
-                              "population of surveyed localities where the first network is well received (EHCVM 2021/22). Neither measures "
+                              "population of surveyed localities where the first network is well received (household survey, 2021/22). Neither measures "
                               "the signal."))
                 ordre = couv.couverture_ponderee_pop_pct.sort_values().index.tolist()
                 noms = [region(r) for r in ordre]

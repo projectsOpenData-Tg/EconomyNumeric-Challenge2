@@ -392,7 +392,7 @@ Les données du marché des télécommunications (objectif 2) sont presque toute
 - **Couverture** : proxy de niveau C ; inconnue pour 3 préfectures et 9 communes ; douteuse pour 3 communes. Les phrases qui la citent sont « à confirmer ».
 - **Contexte régional** : 6 régions seulement ; rien ne dit que la préfecture ressemble à sa région.
 - **Accès n'est pas usage** : la section 5 utilise l'accès déclaré (EHCVM, « a accès »). Le tableau de bord affichera deux libellés distincts : « Accès déclaré à Internet » (EHCVM) et « Usage d'Internet, toute fréquence » (Afrobaromètre), comme le 04 l'a signalé (V7).
-- **Opérateurs** : jusqu'à 23 % des points sans opérateur renseigné dans la région de Kara.
+- **Opérateurs** : 11,8 % des points sans opérateur renseigné dans la région de Kara, jusqu'à la moitié dans certaines communes (Bassar 1 : 49,8 %). *Corrigé le 28/09/2026 : cette ligne disait « jusqu'à 23 % », le chiffre de la seule préfecture de Kéran (40,4 % dans celle de Bassar).*
 - **Marché** : national, sauf la fibre et les agences Togocom (3i, niveau C) ; aucune donnée de sites, d'investissement ni de parts de marché par territoire.
 
 **Points à valider** :

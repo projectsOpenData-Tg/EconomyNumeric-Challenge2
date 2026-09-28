@@ -13,7 +13,7 @@ import streamlit as st
 from composants import (ariane, carte_kpi, carte_priorites, constat, entete, export_csv, limite, pied, rangee_kpi,
                         synthese)
 from donnees import chiffres_nationaux, communes, contours, filtrer_communes, filtrer_prefectures, fr, lire, nombre, prefectures
-from i18n import bi, langue, region, t
+from i18n import bi, langue, region, t, valeur
 
 FR = langue() == "fr"
 
@@ -69,7 +69,7 @@ entete(t("page.synthese"),
        f"{lieu}<strong>{len(p1)} {bi('préfecture', 'prefecture')}{s(len(p1))} {bi('en priorité haute', 'in high priority')}</strong> "
        f"({habitants(p1.pop_totale.sum())}), "
        f"{bi('et', 'and')} <strong>{len(sans_guichet)} {bi('commune', 'commune')}{s(len(sans_guichet))} "
-       f"{bi('sans aucun guichet', 'with no formal service point at all')}</strong>, "
+       f"{bi('sans aucune agence financière', 'with no financial branch at all')}</strong>, "
        f"{bi('où le mobile money est seul.', 'where mobile money is the only option.')}")
 if actif:
     morceaux = [", ".join(region(r) for r in f["regions"]),
@@ -88,8 +88,8 @@ rangee_kpi(bi("Internet et marché des télécommunications (national)", "Intern
               bi("de la population utilise Internet", "of the population uses the Internet"),
               bi(f"seuil de 40 % ; Afrique subsaharienne : {nombre(n_usage_ass, 1)} %",
                  f"threshold: 40%; Sub-Saharan Africa: {nombre(n_usage_ass, 1)}%"),
-              bi("Estimation internationale (UIT). Les enquêtes auprès des ménages en confirment la tendance, pas le niveau.",
-                 "International estimate (ITU). Household surveys confirm the trend, not the level."),
+              bi("Estimation internationale. Les enquêtes auprès des ménages en confirment la tendance, pas le niveau.",
+                 "International estimate. Household surveys confirm the trend, not the level."),
               bi("Sous le seuil", "Below threshold") if sous_seuil else bi("Seuil franchi", "Threshold reached"),
               "alerte" if sous_seuil else "ok"),
     carte_kpi(bi(f"Haut débit mobile ({n_haut_debit_annee})", f"Mobile broadband ({n_haut_debit_annee})"),
@@ -128,27 +128,27 @@ rangee_kpi(groupe2, [
               bi("des comptes mobile money sont actifs", "of mobile money accounts are active"),
               bi("la moitié des comptes ouverts dort ; chiffre national" if n_comptes_actifs < 50 else "chiffre national",
                  "half of opened accounts are dormant; national figure" if n_comptes_actifs < 50 else "national figure"),
-              bi("Compte actif : au moins une transaction en 90 jours (définition de la BCEAO).",
-                 "Active account: at least one transaction in 90 days (BCEAO definition)."),
+              bi("Compte actif : au moins une opération en 90 jours (définition de la banque centrale).",
+                 "Active account: at least one operation in 90 days (central bank definition)."),
               bi("Usage faible", "Low activity") if n_comptes_actifs < 50 else None, "alerte"),
-    carte_kpi(bi("Guichets (2021/2022)", "Service points (2021/2022)"), fr(len(sans_guichet)),
-              accord(len(sans_guichet), bi("n’a ni banque, ni IMF, ni assurance", "has no bank, MFI or insurer"),
-                     bi("n’ont ni banque, ni IMF, ni assurance", "have no bank, MFI or insurer")),
+    carte_kpi(bi("Agences financières (2021/2022)", "Financial branches (2021/2022)"), fr(len(sans_guichet)),
+              accord(len(sans_guichet), bi("n’a ni banque, ni microfinance, ni assurance", "has no bank, microfinance or insurer"),
+                     bi("n’ont ni banque, ni microfinance, ni assurance", "have no bank, microfinance or insurer")),
               f"{habitants(sans_guichet.pop_totale.sum())}{rurales(sans_guichet)} ; "
-              + (bi("aucun DAB non plus : ", "no ATM either: ") if sans_guichet.n_dab.sum() == 0 else "")
+              + (bi("aucun distributeur de billets non plus : ", "no cash machine either: ") if sans_guichet.n_dab.sum() == 0 else "")
               + bi("le mobile money y est seul", "mobile money is the only option there"),
-              bi("Point formel : banque, institution de microfinance (IMF) ou assurance, recensés en 2021/2022.",
-                 "Formal point: bank, microfinance institution (MFI) or insurer, surveyed in 2021/2022."),
+              bi("Agence financière : agence de banque, de microfinance ou d’assurance, recensée en 2021/2022.",
+                 "Financial branch: bank, microfinance or insurance branch, surveyed in 2021/2022."),
               t("priorite.absolue") if len(sans_guichet) else None, "critique",
               accord(len(sans_guichet), bi("commune", "commune"), bi("communes", "communes"))),
-    carte_kpi(bi("Mobile money et guichets", "Mobile money and service points"), fr(len(suppl)),
-              bi("où le mobile money remplace presque tous les guichets", "where mobile money replaces almost all service points"),
-              bi(f"{nombre(part_suppl, 1)} % de la population{de_la_sel} ; plus de 20 points de service pour un guichet ; "
-                 "en plus des communes sans guichet",
-                 f"{nombre(part_suppl, 1)}% of the population{de_la_sel}; over 20 service points per formal point; "
-                 "in addition to communes with no service point"),
+    carte_kpi(bi("Mobile money et agences", "Mobile money and branches"), fr(len(suppl)),
+              bi("où le mobile money remplace presque les agences", "where mobile money almost replaces branches"),
+              bi(f"{nombre(part_suppl, 1)} % de la population{de_la_sel} ; plus de 20 points mobile money par agence ; "
+                 "en plus des communes sans agence",
+                 f"{nombre(part_suppl, 1)}% of the population{de_la_sel}; over 20 mobile money points per branch; "
+                 "in addition to communes with no branch"),
               bi("On compte des points de service, pas des agents.", "These are service points, not agents."),
-              bi("Guichet rare", "Scarce service point") if len(suppl) else None, "alerte",
+              bi("Agence rare", "Scarce branches") if len(suppl) else None, "alerte",
               accord(len(suppl), bi("commune", "commune"), bi("communes", "communes"))),
     carte_kpi(bi("Réseau et mobile money", "Network and mobile money"), fr(len(crit)),
               accord(len(crit), bi("cumule mobile money seul ou dominant et couverture réseau faible",
@@ -171,7 +171,7 @@ gauche, droite = st.columns([1.12, 1], gap="large")
 with gauche:
     with st.container(border=True):
         st.markdown(f'<div class="bloc-titre">{html.escape(bi("Où sont les territoires prioritaires ?", "Where are the priority territories?"))}</div>'
-                    f'<div class="bloc-sous-titre">{html.escape(bi("Classe de priorité (accès aux guichets, maillage mobile money, couverture théorique) ; en ocre, les communes où le mobile money est seul.", "Priority class (access to service points, mobile money network, theoretical coverage); in ochre, communes where mobile money is the only option."))}</div>',
+                    f'<div class="bloc-sous-titre">{html.escape(bi("Classe de priorité (accès aux agences financières, maillage mobile money, couverture théorique) ; en ocre, les communes où le mobile money est seul.", "Priority class (access to financial branches, mobile money network, theoretical coverage); in ochre, communes where mobile money is the only option."))}</div>',
                     unsafe_allow_html=True)
         mmu = Cf[Cf.priorite_absolue]
         if st.session_state.f_maille == "Commune":
@@ -181,7 +181,7 @@ with gauche:
             carte_priorites(contours("prefectures"), P, "carte_synthese_p", set(Pf.code), mmu, contours("communes"))
         tableau = Pf[["nom", "unite_regionale", "priorite", "pop_totale", "communes_sans_point_formel"]].rename(columns={
             "nom": bi("préfecture", "prefecture"), "unite_regionale": bi("région", "region"), "priorite": bi("priorité", "priority"),
-            "pop_totale": bi("habitants", "population"), "communes_sans_point_formel": bi("communes sans guichet", "communes with no service point")})
+            "pop_totale": bi("habitants", "population"), "communes_sans_point_formel": bi("communes sans agence", "communes with no branch")})
         export_csv(tableau, "priorites_prefectures.csv", "export_synthese_carte")
 
 with droite:
@@ -212,9 +212,9 @@ with droite:
                 f"It has multiplied {nombre(n_usage / n_usage_2016, 1)}× since 2016 (from {nombre(n_usage_2016, 1)}% to {nombre(n_usage, 1)}%), "
                 f"but gained {rythme} in {n_usage_annee - 1} and {n_usage_annee}.")
             + '</div></li>'
-            f'<li><span class="num">2</span><div><strong>{html.escape(bi("Hors des villes, le guichet est loin.", "Outside towns, the service point is far away."))}</strong> '
-            + bi(f"Dans les préfectures en priorité haute, {fr(n_dist_p1)} % des points mobile money sont à plus de 10 km d’un guichet (médiane), contre {fr(n_dist_autres)} % ailleurs.",
-                f"In high-priority prefectures, {fr(n_dist_p1)}% of mobile money points are more than 10 km from a service point (median), against {fr(n_dist_autres)}% elsewhere.")
+            f'<li><span class="num">2</span><div><strong>{html.escape(bi("Hors des villes, l’agence est loin.", "Outside towns, the branch is far away."))}</strong> '
+            + bi(f"Dans les préfectures en priorité haute, {fr(n_dist_p1)} % des points mobile money sont à plus de 10 km d’une agence financière (médiane), contre {fr(n_dist_autres)} % ailleurs.",
+                f"In high-priority prefectures, {fr(n_dist_p1)}% of mobile money points are more than 10 km from a financial branch (median), against {fr(n_dist_autres)}% elsewhere.")
             + '</div></li>'
             f'<li><span class="num">3</span><div><strong>{html.escape(bi("Le prix freine l’usage.", "Price holds back use."))}</strong> '
             + bi(f"1 Go coûte {nombre(n_cout_1go, 2)} % du revenu mensuel. Au rythme récent, le seuil de 2 % ne serait atteint que vers {n_cout_2pct_annee}.",
@@ -223,18 +223,19 @@ with droite:
 
     with st.container(border=True):
         sr = lire("10_recommandations", "synthese_recommandations").set_index("id")
-        actions = [("R1", bi(f"Ouvrir un premier guichet formel dans chacune des {len(C[C.priorite_absolue])} communes où le mobile money est seul",
-                             f"Open a first formal service point in each of the {len(C[C.priorite_absolue])} communes where mobile money is the only option"),
+        n_r4a, n_r2 = len(lire("10_recommandations", "r4_communes_a_mesurer")), len(lire("10_recommandations", "r2_prefectures_points_formels"))
+        actions = [("R1", bi(f"Ouvrir une première agence financière dans chacune des {len(C[C.priorite_absolue])} communes où le mobile money est seul",
+                             f"Open a first financial branch in each of the {len(C[C.priorite_absolue])} communes where mobile money is the only option"),
                     t("priorite.absolue"), "critique"),
-                   ("R4a", bi(f"Mesurer la couverture réelle dans {sr.loc['R4a', 'territoires']} où elle est inconnue ou douteuse",
-                             f"Measure actual coverage in {sr.loc['R4a', 'territoires']} where it is unknown or doubtful"),
+                   ("R4a", bi(f"Mesurer la couverture réelle dans {n_r4a} communes où elle est inconnue ou douteuse",
+                             f"Measure actual coverage in {n_r4a} communes where it is unknown or doubtful"),
                     bi("Préalable au réseau", "Network prerequisite"), "ok"),
-                   ("R2", bi(f"Ajouter guichets et points mobile money dans les {sr.loc['R2', 'territoires']} prioritaires",
-                            f"Add service points and mobile money points in the {sr.loc['R2', 'territoires']} priority ones"),
+                   ("R2", bi(f"Ajouter agences et points mobile money dans les {n_r2} préfectures prioritaires",
+                            f"Add branches and mobile money points in the {n_r2} priority prefectures"),
                     t("priorite.haute"), "ok")]
         blocs = "".join(
             f'<div class="action"><div class="action-titre">{html.escape(titre)}</div><div class="action-meta">'
-            f'<span class="etiquette {ton}">{badge}</span><span class="etiquette neutre">{sr.loc[i, "horizon"]}</span>'
+            f'<span class="etiquette {ton}">{badge}</span><span class="etiquette neutre">{valeur(sr.loc[i, "horizon"])}</span>'
             f'<span>{habitants(sr.loc[i, "population"])}</span></div></div>' for i, titre, badge, ton in actions)
         st.markdown(f'<div class="bloc-titre">{html.escape(bi("Quelle action engager d’abord ?", "What action to take first?"))}</div>{blocs}',
                     unsafe_allow_html=True)
@@ -253,7 +254,7 @@ if len(p1):
     puces.append(f"<strong>{html.escape(bi('Hors du Maritime.', 'Outside the Maritime region.') if hors_maritime else bi('Où ?', 'Where?'))}</strong> "
                  + bi(f"Les préfectures en priorité haute sont dans : {html.escape(par_region)}.",
                      f"The high-priority prefectures are in: {html.escape(par_region)}."))
-puces.append(f"<strong>{html.escape(bi('Le mobile money est partout, le guichet non.', 'Mobile money is everywhere, the service point is not.'))}</strong> "
+puces.append(f"<strong>{html.escape(bi('Le mobile money est partout, l’agence non.', 'Mobile money is everywhere, the branch is not.'))}</strong> "
              + bi(f"{len(sans_guichet)} communes n’ont que lui : {habitants(sans_guichet.pop_totale.sum())}{rurales(sans_guichet)}.",
                  f"{len(sans_guichet)} communes only have it: {habitants(sans_guichet.pop_totale.sum())}{rurales(sans_guichet)}."))
 if len(nc):

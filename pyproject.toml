@@ -1,0 +1,24 @@
+# Outillage qualité — ajouté avec le déploiement continu. Ne décrit pas un paquet
+# installable : le projet reste une application Streamlit lancée depuis la racine du dépôt
+# (`streamlit run dashboard/app.py`).
+
+[tool.ruff]
+target-version = "py311"
+line-length = 140
+extend-exclude = ["tmp", "data", "workspace", "__pycache__"]
+
+[tool.ruff.lint]
+# Périmètre volontairement étroit, comme au défi 1 : E9 (erreurs de syntaxe et d'exécution)
+# et F (pyflakes : noms indéfinis, imports et variables morts). Ce sont les règles qui
+# signalent des bugs, pas des préférences de style.
+select = ["E9", "F"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+# `dashboard/` sur sys.path : les tests importent `donnees`, `i18n` et `composants` là où ils
+# vivent, comme le fait `app.py` lui-même.
+pythonpath = [".", "dashboard"]
+addopts = "-ra --strict-markers"
+markers = [
+    "lent: démarre l'application complète (plusieurs secondes par page)",
+]

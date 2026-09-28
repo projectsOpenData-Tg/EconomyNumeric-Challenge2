@@ -6,6 +6,7 @@ d’identité du projet. Bilingue (section 3.3) : les libellés fixes de ces blo
 (`i18n.t`), le texte propre à chaque page est déjà bilingue quand il arrive ici.
 """
 import html
+import re
 from pathlib import Path
 
 import pandas as pd
@@ -68,8 +69,8 @@ def carte_kpi(libelle: str, valeur: str, phrase: str, contexte: str, reserve: st
     """Chiffre clé : la valeur se lit avec sa phrase (« 39,5 % » + « de la population utilise Internet ») ; l’étiquette
     est sur la ligne du titre pour ne pas les séparer ; le contexte donne le seuil ou la comparaison ; la réserve, en bas,
     dit ce que le chiffre ne mesure pas (aucune si elle est vide)."""
-    def insecable(txt: str) -> str:  # « 2 % » ne se coupe pas en fin de ligne
-        return txt.replace(" %", "&nbsp;%")
+    def insecable(txt: str) -> str:  # « 2 % » et « 10 000 » ne se coupent pas en fin de ligne
+        return re.sub(r"(\d) (?=\d{3}\b)", "\\1&nbsp;", txt.replace(" %", "&nbsp;%"))
 
     tag = f'<span class="etiquette {ton}">{html.escape(etiquette)}</span>' if etiquette else ""
     u = f'<span class="kpi-unite">{html.escape(unite)}</span>' if unite else ""
@@ -305,14 +306,28 @@ def couleur_region(nom: str) -> str:
     return COULEUR_REGION.get(nom) or {region(k): v for k, v in COULEUR_REGION.items()}.get(nom, ENCRE)
 
 
-def colorer_regions(df: pd.DataFrame, colonne: str):
+def colorer_regions(df: pd.DataFrame, colonne: str | None):
     """Tableau dont la colonne des régions est écrite en couleur, une couleur par région (demande du 28/09/2026). Rend un
     `Styler` à passer à `st.dataframe`. Un `Styler` impose son propre format d’affichage (6 décimales par défaut) : chaque
-    colonne décimale garde donc le nombre de décimales dont ses valeurs ont besoin (au plus 2), au format de la langue."""
-    sty = df.style.map(lambda v: f"color: {couleur_region(v)}; font-weight: 600", subset=[colonne])
+    colonne décimale garde donc le nombre de décimales dont ses valeurs ont besoin (au plus 2), au format de la langue.
+    Sans colonne de région (`colonne=None`), seuls les nombres sont mis en forme : voir `formater()`."""
+    sty = df.style
+    if colonne:
+        sty = sty.map(lambda v: f"color: {couleur_region(v)}; font-weight: 600", subset=[colonne])
     for c in df.columns:
-        if pd.api.types.is_float_dtype(df[c]):
+        if pd.api.types.is_integer_dtype(df[c]):  # effectifs : séparateur de milliers de la langue (« 6 519 », « 6,519 »)
+            v = df[c].dropna()
+            if len(v) and v.between(1900, 2100).all():  # des années : jamais de séparateur (« 2030 », pas « 2 030 »)
+                continue
+            sty = sty.format(lambda x: nombre(x, 0), subset=[c])
+        elif pd.api.types.is_float_dtype(df[c]):
             v = df[c].dropna()
             d = next((k for k in (0, 1) if ((v * 10 ** k).round(6) % 1 == 0).all()), 2)
             sty = sty.format(lambda x, d=d: "" if pd.isna(x) else nombre(x, d), subset=[c])
     return sty
+
+
+
+def formater(df: pd.DataFrame):
+    """Tableau sans colonne de région : nombres au format de la langue (séparateur de milliers, virgule décimale en français)."""
+    return colorer_regions(df, None)

@@ -9,7 +9,7 @@ import json
 
 import pandas as pd
 
-from commun import EXTRA, INTERIM, PROCESSED, RAW, Etape, ecrire_csv, norm
+from commun import EXTRA, INTERIM, PROCESSED, RAW, Etape, ecrire_csv
 
 ET = Etape(6, "series")
 L: list[dict] = []

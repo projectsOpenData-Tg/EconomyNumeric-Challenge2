@@ -1,0 +1,26 @@
+# Ce que le démon Docker reçoit pour construire l'image.
+#
+# ⚠️ **Liste blanche, pas liste noire.** Tout est exclu, puis seuls les chemins que le
+# Dockerfile copie sont réintégrés. Le dépôt contient 491 Mo de données brutes (`data/raw/`),
+# des micro-données d'enquête qui ne se redistribuent pas, un `.env` avec des identifiants :
+# une liste d'exclusions laisserait passer tout nouveau fichier ajouté à la racine.
+#
+# Vérification : `docker build` annonce la taille du contexte sur sa première ligne
+# (quelques mégaoctets).
+#
+# L'ordre compte : une règle plus bas l'emporte sur une règle plus haut.
+
+*
+
+!requirements-runtime.txt
+!.streamlit/
+!dashboard/
+!data/analysis/
+!data/processed/geo/
+!07_indicators.md
+
+# À l'intérieur des chemins réintégrés : ce que le tableau de bord ne lit pas.
+**/__pycache__/
+**/*.py[cod]
+data/analysis/**/figures/
+data/analysis/06_spatial/cartes/

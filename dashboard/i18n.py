@@ -96,7 +96,7 @@ _T: dict[str, dict[str, str]] = {
     "lib.sans_fibre": {"fr": "sans fibre recensée", "en": "no recorded fibre"},
     "lib.non_raccordee": {"fr": "non raccordée", "en": "not connected"},
     "lib.points_service": {"fr": "points de service", "en": "service points"},
-    "lib.type_a_part": {"fr": "Type à part : hors des points formels", "en": "Separate type: outside formal points"},
+    "lib.type_a_part": {"fr": "Type à part : pas une agence", "en": "Separate type: not a branch"},
 
     # ------------------------------------------------------------------------- Milieux
     "milieu.Grand Lomé": {"fr": "Grand Lomé", "en": "Greater Lomé"},
@@ -153,3 +153,60 @@ def region(nom: str) -> str:
     ne sont pas traduits, ils restent tels quels dans les deux langues."""
     cle = f"region.{nom}"
     return _T[cle][langue()] if cle in _T else nom
+
+
+# Valeurs écrites en français dans les tables (classes du 02, statuts, couverture, priorités, confiance, nature, horizon) :
+# un libellé en clair dans chaque langue (demande du 28/09/2026, corrections C9 et C13 : en anglais, ces valeurs restaient en
+# français). Le libellé français peut différer de la table quand celle-ci porte un code ou un sigle (« (A13) », « 0 point formel »).
+_VALEURS: dict[str, tuple[str, str]] = {
+    # Habitants par agence financière (O4-01)
+    "bien desservi": ("bien desservi", "well served"), "tendu": ("tendu", "stretched"), "sous-desservi": ("sous-desservi", "under-served"),
+    "non défini et critique (0 point)": ("aucune agence", "no branch"),
+    # Points mobile money par agence financière (O4-03)
+    "réseaux comparables": ("réseaux comparables", "comparable networks"),
+    "mobile money prépondérant": ("mobile money prépondérant", "mobile money predominant"),
+    "suppléance quasi totale": ("le mobile money supplée presque tout", "mobile money almost fully substitutes"),
+    "mobile money uniquement (0 point formel)": ("mobile money seul", "mobile money only"),
+    # Habitants par point mobile money (O4-04)
+    "maillage dense": ("maillage dense", "dense network"), "acceptable": ("acceptable", "acceptable"),
+    "maillage insuffisant": ("maillage insuffisant", "insufficient network"),
+    # Statut d’accès financier (O4-05)
+    "desserte diversifiée": ("desserte diversifiée", "diversified service"), "desserte faible": ("desserte faible", "weak service"),
+    "mobile money dominant": ("mobile money dominant", "mobile money dominant"),
+    "mobile money uniquement": ("mobile money seul", "mobile money only"),
+    # Couverture théorique (O2-06), classes du 02
+    "territoire couvert (proxy)": ("couverte (plus de 85 %)", "covered (over 85%)"),
+    "couverture partielle (proxy)": ("partielle (50 à 85 %)", "partial (50 to 85%)"),
+    "zone blanche prioritaire (proxy)": ("zone blanche (moins de 50 %)", "white zone (under 50%)"),
+    "non déterminable (A13)": ("inconnue", "unknown"), "non déterminable": ("inconnue", "unknown"),
+    # Classes de priorité, confiance, robustesse (08)
+    "priorité 1": ("priorité haute", "high priority"), "priorité 2": ("priorité moyenne", "medium priority"),
+    "priorité 3": ("priorité faible", "low priority"), "non déterminable (couverture)": ("non classée", "not ranked"),
+    "élevée": ("élevée", "high"), "moyenne": ("moyenne", "medium"), "faible": ("faible", "low"),
+    "robuste": ("robuste", "robust"), "instable": ("instable", "unstable"),
+    # Nature et horizon des recommandations (10)
+    "immédiate": ("immédiate", "immediate"), "conditionnelle": ("conditionnelle", "conditional"), "veille": ("veille", "watch"),
+    "1 an": ("1 an", "1 year"), "3 ans": ("3 ans", "3 years"), "5 ans": ("5 ans", "5 years"),
+    "chaque année": ("chaque année", "every year"), "1 à 3 ans": ("1 à 3 ans", "1 to 3 years"),
+    # Diagnostic (09) : signaux des communes, dimensions du score, leviers, lecture des facteurs
+    "sans point formel et cellule critique": ("sans agence, réseau faible", "no branch, weak network"),
+    "sans point formel": ("sans agence", "no branch"),
+    "cellule critique": ("agence présente, réseau faible", "branch present, weak network"),
+    "accès formel": ("agences financières", "financial branches"), "maillage mobile money": ("mobile money", "mobile money"),
+    "couverture (proxy)": ("couverture (estimation)", "coverage (estimate)"),
+    "infrastructure financière : points formels": ("ouvrir des agences financières", "open financial branches"),
+    "infrastructure financière : points formels de proximité": ("ouvrir des agences de proximité", "open nearby branches"),
+    "réseau d'agents mobile money": ("étendre le réseau d’agents mobile money", "extend the mobile money agent network"),
+    "infrastructure réseau": ("étendre le réseau télécom, après mesure", "extend the telecom network, after measurement"),
+    "mesurer la couverture réelle": ("mesurer la couverture réelle", "measure actual coverage"),
+    "compétences numériques": ("compétences numériques", "digital skills"), "tarification": ("prix de la data", "data price"),
+    "se répète": ("se répète", "recurs"), "partagé": ("partagé", "shared"), "non commun": ("non commun", "not common"),
+    # Scénarios d’usage d’Internet (10)
+    "usage généralisé": ("usage généralisé", "widespread use"), "rattrapage": ("rattrapage", "catching up"),
+}
+
+
+def valeur(v) -> str:
+    """Libellé en clair d’une valeur de table, dans la langue courante ; la valeur telle quelle si elle est inconnue."""
+    paire = _VALEURS.get(str(v))
+    return (paire[0] if langue() == "fr" else paire[1]) if paire else v

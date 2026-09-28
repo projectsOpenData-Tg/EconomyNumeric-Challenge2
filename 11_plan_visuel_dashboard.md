@@ -329,8 +329,9 @@ Ajoutée le 28/09/2026 (relevé de l'objectif 2 dans `workspace/conding-progress
   - le sous-titre rappelle que les 22 communes où le mobile money est seul n'ont pas de DAB non plus (chiffre 6 de la Synthèse) ;
   - une seule carte avec son sélecteur, plutôt qu'une carte des DAB séparée.
 - **Constat** : « L'écart oppose les villes aux campagnes, bien plus que Lomé aux autres villes. »
-- **Limite** : recensement 2021/2022 ; des lieux, pas des agents ; opérateur non renseigné jusqu'à 23 % des points dans la région de Kara.
+- **Limite** : recensement 2021/2022 ; des lieux, pas des agents ; opérateur non renseigné pour 11,8 % des points de la région de Kara, jusqu'à la moitié dans certaines communes (Bassar 1 : 49,8 %) ; « jusqu'à 23 % » avant le 28/09/2026, le chiffre de la seule préfecture de Kéran.
 - **Ajout du 27/09/2026** : « Offre et usage du mobile money, par région » : carte de l'usage du mobile banking (06, carte 12, moitié droite) et tableau offre face à usage (05, figure 9).
+- **Refaite le 28/09/2026** (relevé de l'objectif 3, `workspace/conding-progress.md`, V10 à V13) : 4 sous-onglets, « Vue synthèse », « Établissements financiers », « Réseau mobile money », « Usage et coût du mobile money », qui suivent les trois vues du 07 (offre, usage, coût). Ajouts : parts par région (05, figure 1) ; écart entre villes et campagnes (O3-02) ; présence par type en classes du 02 (O3-01), à la maille de la barre latérale ; emplacement des distributeurs (05) ; opérateurs par région (05, figure 12) ; mobile money dans le temps (05, figure 8 ; O3-04) ; frais d'un retrait (O3-06). Les cartes et tableaux par territoire suivent les filtres. Vocabulaire : « agence financière » pour le point formel, « distributeur de billets » pour le DAB, aucun nom de source sur la page.
 
 ### Page 4 — Population et offre : « Combien d'habitants par point, et où le mobile money est-il seul ? »
 
@@ -338,10 +339,11 @@ Ajoutée le 28/09/2026 (relevé de l'objectif 2 dans `workspace/conding-progress
 - **Visuels** : cartes des habitants par point formel et par point mobile money (seuils déplaçables) ; carte du statut d'accès (règle de référence, variante à la demande) ; matrice statut × couverture ; liste des communes qui ne sont pas dans la classe de leur préfecture (77 sur 117).
 - **Constat** : « Deux communes sur trois ne sont pas dans la classe de leur préfecture : la préfecture cache les communes. »
 - **Limite** : population résidente, pas fréquentation (Grand Lomé) ; couverture théorique.
+- **Refaite le 29/09/2026** (relevé des objectifs 4 et 5, V14 à V19, étape 1) : 4 sous-onglets, « Vue synthèse », « Habitants par point de service », « Agents par agence et mobile money seul », « Statut et couverture ». Ajouts : carte des agents mobile money par agence (O4-03) ; carte des habitants par point mobile money (O4-04) ; les 22 communes où le mobile money est seul, avec la distance à l'agence la plus proche ; la distance par région ; le Togo face à l'UEMOA (O4-02) avec « 21 préfectures sur 39 en dessous » ; les 8 communes à double fragilité nommées ; les communes divergentes par mesure. Filtres et maille de la barre latérale appliqués.
 
 ### Page 5 — Carte : « Que voit-on, commune par commune ? »
 
-- **Commandes** : indicateur (habitants par point formel, par point mobile money, couverture, statut d'accès, classe de priorité, fibre, opérateurs) ; maille ; seuil de couverture. La fibre est construite depuis le 28/09/2026 : fibre enterrée et fibre aérienne recensées (km), deux indicateurs jamais additionnés, comme la carte 11 du 06.
+- **Commandes** : indicateur (habitants par point formel, par point mobile money, couverture, statut d'accès, classe de priorité, fibre, opérateurs) ; maille ; seuil de couverture. La fibre est construite depuis le 28/09/2026 : fibre enterrée et fibre aérienne recensées (km), deux indicateurs jamais additionnés, comme la carte 11 du 06. Les opérateurs aussi, depuis le 28/09/2026, avec la part des agences face à la part de la population (quotient de localisation, carte 4 du 06, mêmes classes).
 - **Visuel** : une carte pleine largeur ; infobulle avec les valeurs du territoire et le lien vers sa fiche.
 - **Limite** : celle de l'indicateur choisi, affichée sous la carte.
 
@@ -351,6 +353,7 @@ Ajoutée le 28/09/2026 (relevé de l'objectif 2 dans `workspace/conding-progress
 - **Visuels** : classement décomposé (trois dimensions séparées, la couverture marquée comme estimation) ; classe sous chaque test de robustesse ; carte des priorités avec et sans couverture ; **curseurs de poids** ; comparateur de deux préfectures.
 - **Constat** : « Les 7 préfectures en priorité haute le restent sous tous les poids testés. »
 - **Limite** : un rang est relatif ; la préfecture cache des communes (8 communes sans point formel dans des préfectures en priorité faible).
+- **Refaite le 29/09/2026** (étape 2) : 4 sous-onglets, « Vue synthèse » (carte avec et sans la couverture, les 5 préfectures qui en dépendent), « Classement » (les 39 préfectures, score décomposé, confiance, population ; ce qui place les 7 priorités hautes en tête), « Poids et robustesse » (les deux lectures de la robustesse côte à côte), « Comparateur ». Aucun code de dimension affiché.
 
 ### Page 7 — Diagnostic : « Pourquoi ces territoires ? »
 
@@ -358,14 +361,17 @@ Ajoutée le 28/09/2026 (relevé de l'objectif 2 dans `workspace/conding-progress
 - **Visuels** : fiche de la préfecture (phrase de diagnostic, nature du déficit, offre, communes, réseau et opérateurs, contexte régional) ; carte d'identité des 10 préfectures (tableau coloré) ; carte des 25 communes signalées ; tableau de l'usage d'Internet par région.
 - **Constat** : « Le trait commun est la distance au guichet : 39 % des points mobile money à plus de 10 km d'un guichet, contre 6 % ailleurs. »
 - **Limite** : associations, pas causes ; distances à vol d'oiseau.
+- **Refaite le 29/09/2026** (étape 2) : 3 sous-onglets, « Vue d'ensemble » (carte d'identité des 10 préfectures, ce qui se répète, nature du manque et leviers), « Fiche de préfecture » (la phrase de diagnostic en tête), « Communes signalées » (les deux situations : isolement ou agence dans la commune voisine).
 
 ### Page 8 — Recommandations : « Quelle action engager ? »
 
 Voir la section 8.
+- **Refaite le 29/09/2026** (étape 2) : 4 sous-onglets, « Les 12 actions », « Par thème » (section 8.3), « Par territoire » (section 8.4), « Ordre d'action et acteurs ». La vue « par type d'action » (section 8.5) n'est pas construite : elle répète l'ordre d'action.
 
 ### Page 9 — Estimations et projections : « Où va le Togo si l'on agit, et si rien ne change ? »
 
 Voir la section 9.
+- **Complétée le 29/09/2026** (étape 2) : le suivi des cibles (base, cible, horizon, critère de réussite) remplace la liste des cibles ; la couverture nationale « 88,4 % », qui ne venait d'aucune table, est remplacée par « 86 communes sur 117 couvertes à plus de 85 % ».
 
 ### Page 10 — Méthodologie
 
@@ -731,7 +737,9 @@ Bandeau « Limite de cette page » :
 - **Page 1 (Synthèse nationale)** : nouveau titre, cartes lues comme des phrases (étiquette sur la ligne du titre, cartes d'une rangée à hauteur égale), bandeau discret « Ce que cette page ne montre pas ».
 - **Page 2 bis (Marché des télécoms, 28/09/2026)** : `dashboard/views/marche.py`, 5 sous-onglets (fiche de la page 2 bis, section 7) ; l'onglet des technologies et le marché quittent la page 2. Corrections faites au passage : « sans fibre recensée » au lieu de « non raccordées » ; stock de sites radio dans le titre du graphique ; mention « qualité de service non mesurée par territoire » ; séparateur de milliers dans le tableau des préfectures sans fibre. Page 5 (Carte) : indicateurs de la fibre enterrée et aérienne.
 - **Page 2 (Usage d'Internet)** : 6 sous-onglets depuis le 27/09/2026, 4 depuis le 28/09/2026 (Technologies et Marché partis sur la page 2 bis) (fiche de la page 2, section 7) ; seul l'onglet ouvert s'exécute ; l'onglet choisi est gardé au changement de langue. Ajouts du 28/09/2026 (contrôle croisé avec le 05, le 06 et le 08) : les classes de croissance qui dépendent de la période de référence sont marquées (cercle vide, pointillés), seules 2016 et 2021 étant sûres ; constat « accès et couverture ne vont pas ensemble » ; dépassement de l'Afrique subsaharienne depuis 2020.
-- **Page 3 (Offre financière)** : carte par type de point avec sélecteur (DAB marqué « type à part »), carte mobile money, carte de la catégorie dominante d'opérateur par commune, offre et usage du mobile money par région (ajouté le 27/09/2026), tableau par préfecture.
+- **Page 3 (Offre financière)** : carte par type de point avec sélecteur (DAB marqué « type à part »), carte mobile money, carte de la catégorie dominante d'opérateur par commune, offre et usage du mobile money par région (ajouté le 27/09/2026), tableau par préfecture. Refaite le 28/09/2026 en 4 sous-onglets (fiche de la page 3, section 7) ; les filtres et la maille de la barre latérale s'appliquent enfin à ses cartes et tableaux (la table filtrée était calculée sans être utilisée). Page 5 : indicateurs des opérateurs et du quotient de localisation.
+- **Sigles et sources, pages 2, 2 bis, 3 et 4 (28/09/2026)** : cartes de chiffres clés en langage clair (agence financière, distributeur de billets, revenu moyen mobile, milliards de FCFA) ; aucun nom de source sur ces pages, désignées de façon générique ; la page 10 présente les données du défi et le rôle de chaque source externe (manque comblé, croisements, objectifs).
+- **Objectifs 4 et 5, et les autres pages (29/09/2026)** : pages 4, 6, 7 et 8 en sous-onglets (fiches de la section 7) ; page 9, suivi des cibles ; page 5, trois indicateurs de l'objectif 4 ; sigles et noms de sources retirés de toutes les pages sauf la page 10 ; une fonction `valeur()` (`dashboard/i18n.py`) traduit les valeurs des tables ; une fonction `formater()` (`dashboard/composants.py`) met les nombres des tableaux au format de la langue.
 - **Page 4 (Population et offre)** : seuil d'habitants par point formel déplaçable (bascule d'affichage, pas un recalcul de la table de référence), bascule de la variante P9, matrice statut × couverture, communes divergentes.
 - **Page 5 (Carte)** : explorateur à un indicateur et une maille, avec la bonne table source par indicateur (score, o4, ou couverture).
 - **Page 6 (Priorités)** : poids du score déplaçables (seule exception au « pas de recalcul », même formule que le 08), tests de robustesse, comparateur de deux préfectures. Ajout du 28/09/2026 : bandeau « Ce classement ne porte pas sur l'usage d'Internet » (08, sections 1 et 8.1), sous les chiffres clés.

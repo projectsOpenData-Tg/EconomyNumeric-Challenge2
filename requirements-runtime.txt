@@ -1,0 +1,25 @@
+# Dépendances du tableau de bord seul — c'est ce fichier que l'image Docker installe.
+#
+# `requirements.txt` décrit tout le projet : la préparation des données, les analyses et
+# leurs figures, l'outillage de CI. L'image déployée n'exécute rien de cela : elle sert
+# `dashboard/app.py`, qui lit les tables déjà produites dans `data/analysis/` et les
+# contours de `data/processed/geo/`, sans rejouer aucune étape.
+#
+# geopandas reste nécessaire : `dashboard/donnees.py` lit et simplifie les contours
+# GeoJSON avec lui (et shapely), par pyogrio ; pyproj est une dépendance de geopandas.
+#
+# Les versions sont recopiées à l'identique de requirements.txt. La divergence entre les
+# deux fichiers est le risque de ce découpage : `scripts/check_requirements_sync.py` la
+# détecte et fait échouer la CI. Lancez-le après toute modification de l'un ou l'autre.
+#
+#   pip install -r requirements-runtime.txt
+#   python scripts/check_requirements_sync.py
+
+streamlit==1.61.1
+pandas==3.0.5
+numpy==2.4.6
+plotly==6.9.0
+geopandas==1.1.4
+shapely==2.1.2
+pyogrio==0.13.0
+pyproj==3.7.2

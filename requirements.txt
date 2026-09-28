@@ -1,0 +1,43 @@
+# Dépendances de tout le projet : préparation des données (`prep/`), analyses et figures
+# (`analyse/`), tableau de bord (`dashboard/`) et outillage de CI. Versions épinglées : ce
+# sont celles avec lesquelles les tables de `data/processed/` et `data/analysis/` ont été
+# produites et le tableau de bord vérifié (Python 3.11).
+#
+# Le déploiement n'installe que `requirements-runtime.txt`, le sous-ensemble dont le
+# tableau de bord a besoin. `scripts/check_requirements_sync.py` vérifie que les deux
+# fichiers donnent la même version à chaque paquet commun.
+#
+# Outil système en plus, pour la préparation seulement : `pdftotext` (poppler-utils), qui
+# lit le tableau de bord de la BCEAO (prep/p08_references.py).
+#
+#   pip install -r requirements.txt
+
+# Tableau de bord
+streamlit==1.61.1
+pandas==3.0.5
+numpy==2.4.6
+plotly==6.9.0
+
+# Géographie (contours, jointures spatiales, distances) : tableau de bord et analyses
+geopandas==1.1.4
+shapely==2.1.2
+pyogrio==0.13.0
+pyproj==3.7.2
+
+# Préparation des données (prep/)
+PyMuPDF==1.27.2.3
+openpyxl==3.1.5
+pyreadstat==1.3.6
+
+# Analyses et figures (analyse/)
+matplotlib==3.9.2
+scipy==1.17.1
+
+# Rapport PowerPoint (scripts/build_presentation.py), avec matplotlib et geopandas ci-dessus.
+# Outil système en plus : `rsvg-convert` (librsvg), qui rasterise les armoiries.
+python-pptx==1.0.2
+pillow==12.0.0
+
+# Outillage de CI
+pytest==8.4.2
+ruff==0.16.3
