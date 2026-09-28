@@ -33,13 +33,31 @@ rangee_kpi(bi("Priorité, national", "Priority, national"), [
     carte_kpi(t("priorite.haute"), str(len(p1)), bi("préfectures", "prefectures"), nombre(int(p1.pop_totale.sum())) + bi(" habitants", " people"),
               "", None, "neutre"),
     carte_kpi(t("priorite.non_classee"), str(len(non_classees)), ", ".join(non_classees.nom),
-              bi("couverture non déterminable (A13)", "coverage undeterminable (A13)"), "", bi("À combler", "Gap"), "neutre"),
+              bi("couverture inconnue : la carte de couverture y donne 0 % alors que des points mobile money y fonctionnent",
+                 "coverage unknown: the coverage map shows 0% there although mobile money points operate"), "", bi("À combler", "Gap"), "neutre"),
     carte_kpi(bi("Dépendent de la couverture", "Depend on coverage"), str(len(dependantes)), bi("préfectures changent de classe sans elle", "prefectures change class without it"),
               "", bi("La couverture est un proxy.", "Coverage is a proxy."), None, "alerte"),
     carte_kpi(bi("Robustesse", "Robustness"), f"{int((S.robustesse=='robuste').sum())}/{len(S)}",
               bi("préfectures robustes à tous les tests", "prefectures robust to every test"),
-              "", bi("6 tests de sensibilité (section 6).", "6 sensitivity tests."), None, "ok"),
+              "", bi("6 tests de sensibilité (tableau « Tests de robustesse »).", "6 sensitivity tests (“Robustness tests” table)."), None, "ok"),
 ])
+
+# Ce que le score ne couvre pas : l’usage d’Internet (08, sections 1 et 8.1). Affiché en tête, pour qu’aucun lecteur ne lise
+# ce classement comme une priorité pour l’usage d’Internet.
+p1_hors_d3 = int((p1["classe_test_poids D3 doublé"] != "priorité 1").sum())
+test_d3 = (bi(f"Doubler le poids de la couverture ne fait sortir aucune des {len(p1)} préfectures de la priorité haute.",
+              f"Doubling the weight of coverage takes none of the {len(p1)} prefectures out of high priority.") if p1_hors_d3 == 0 else
+           bi(f"Doubler le poids de la couverture fait sortir {p1_hors_d3} des {len(p1)} préfectures de la priorité haute.",
+              f"Doubling the weight of coverage takes {p1_hors_d3} of the {len(p1)} prefectures out of high priority."))
+onglet_regions = bi("« Accès et freins par région »", "“Access and barriers by region”")
+page_internet = bi(f"« {t('page.internet')} »", f"“{t('page.internet')}”")
+limite(bi("Le score classe les préfectures sur l’accès financier (points formels, mobile money) et sur la couverture réseau. Aucune "
+          "mesure de l’usage d’Internet n’existe à la préfecture : à poids égaux, les deux dimensions financières pèsent les deux tiers "
+          f"du score. {test_d3} Pour l’usage d’Internet, les priorités se lisent par région : page {page_internet}, onglet {onglet_regions}.",
+          "The score ranks prefectures on financial access (formal points, mobile money) and on network coverage. No measure of "
+          "Internet use exists at prefecture level: with equal weights, the two financial dimensions make up two thirds of the score. "
+          f"{test_d3} For Internet use, priorities are read by region: {page_internet} page, {onglet_regions} tab."),
+       titre=bi("Ce classement ne porte pas sur l’usage d’Internet", "This ranking is not about Internet use"))
 
 st.write("")
 gauche, droite = st.columns([1.2, 1], gap="large")
@@ -47,7 +65,7 @@ gauche, droite = st.columns([1.2, 1], gap="large")
 with gauche:
     with st.container(border=True):
         st.markdown(f'<div class="bloc-titre">{html.escape(bi("Score décomposé et poids", "Decomposed score and weights"))}</div>'
-                    f'<div class="bloc-sous-titre">{html.escape(bi("Poids égaux par défaut (référence du 08) ; le score recalculé utilise la même formule (moyenne pondérée des rangs percentiles).", "Equal weights by default (08 reference); the recalculated score uses the same formula (weighted average of percentile ranks)."))}</div>',
+                    f'<div class="bloc-sous-titre">{html.escape(bi("Poids égaux par défaut (référence) ; le score recalculé utilise la même formule (moyenne pondérée des rangs percentiles).", "Equal weights by default (reference); the recalculated score uses the same formula (weighted average of percentile ranks)."))}</div>',
                     unsafe_allow_html=True)
         c1, c2, c3 = st.columns(3)
         w1 = c1.slider(bi("D1 — accès formel", "D1 — formal access"), 0.0, 1.0, 1 / 3, 0.05, key="poids_d1")

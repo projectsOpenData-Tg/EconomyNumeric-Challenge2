@@ -1,6 +1,6 @@
 """Tableau de bord — accès numérique et inclusion financière au Togo.
 
-Restitue les résultats du projet (documents 05 à 10) selon le plan visuel (document 11) : 10 pages en 4 groupes,
+Restitue les résultats du projet (documents 05 à 10) selon le plan visuel (document 11) : 11 pages en 4 groupes,
 filtres globaux dans la barre latérale, gabarit commun à toutes les pages, barre du haut et pied de page identiques
 sur chaque page, bilingue (français, anglais).
 
@@ -40,6 +40,7 @@ PAGES = {
     t("menu.principal"): [st.Page("views/synthese.py", title=t("page.synthese"), icon=":material/home:", default=True)],
     t("menu.analyses"): [
         st.Page("views/internet.py", title=t("page.internet"), icon=":material/wifi:", url_path="internet"),
+        st.Page("views/marche.py", title=t("page.marche"), icon=":material/cell_tower:", url_path="marche"),
         st.Page("views/offre.py", title=t("page.offre"), icon=":material/account_balance:", url_path="offre"),
         st.Page("views/population.py", title=t("page.population"), icon=":material/groups:", url_path="population"),
         st.Page("views/carte.py", title=t("page.carte"), icon=":material/map:", url_path="carte"),
