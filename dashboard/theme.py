@@ -49,9 +49,16 @@ h1, h2, h3 { font-family: 'Fraunces', Georgia, serif !important; font-weight: 60
 .filtres-actifs { font-size: 0.85rem; color: #3a3935; background: #ffffff; border: 1px solid #e2dfd6; border-radius: 10px; padding: 8px 12px; margin-bottom: 0.6rem; }
 .groupe { font-size: 0.82rem; font-weight: 600; color: #55534e; margin: 0.6rem 0 0.4rem; }
 .kpi-grille { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px; margin-bottom: 6px; }
-.kpi { background: #ffffff; border: 1px solid #e2dfd6; border-radius: 14px; padding: 16px 18px; display: flex; flex-direction: column; gap: 6px; box-sizing: border-box; }
+.kpi { background: #ffffff; border: 1px solid #e2dfd6; border-radius: 14px; padding: 16px 18px; display: flex; flex-direction: column; gap: 6px; box-sizing: border-box;
+       position: relative; overflow: hidden; transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease; }
+/* Survol des cartes de synthèse : la carte se soulève, s'entoure d'un halo jaune clair et un reflet la traverse */
+.kpi::after { content: ""; position: absolute; top: 0; left: -80%; width: 50%; height: 100%; pointer-events: none;
+              background: linear-gradient(115deg, transparent, rgba(252, 229, 136, 0.45), transparent); transform: skewX(-20deg); }
+.kpi:hover { transform: translateY(-3px); border-color: #fce588; box-shadow: 0 0 0 3px rgba(252, 229, 136, 0.35), 0 10px 24px rgba(13, 54, 107, 0.12); }
+.kpi:hover::after { left: 130%; transition: left 0.8s ease; }
+@media (prefers-reduced-motion: reduce) { .kpi, .kpi:hover { transform: none; transition: none; } .kpi::after { display: none; } }
 .kpi-tete { display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; min-height: 2.5rem; }
-.kpi-libelle { font-size: 0.82rem; color: #55534e; }
+.kpi-libelle { font-size: 0.76rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.02em; line-height: 1.35; color: #0d366b; }
 .kpi-valeur { font-family: 'Fraunces', Georgia, serif; font-size: 2.2rem; font-weight: 600; line-height: 1.1; color: #141413; }
 .kpi-unite { font-family: 'IBM Plex Sans', system-ui, sans-serif; font-size: 1.05rem; font-weight: 600; margin-left: 6px; }
 .kpi-phrase { font-size: 0.95rem; font-weight: 600; line-height: 1.4; color: #141413; }
@@ -63,6 +70,25 @@ h1, h2, h3 { font-family: 'Fraunces', Georgia, serif !important; font-weight: 60
 .etiquette.critique { background: #fbe3e2; color: #8a1c1b; }
 .etiquette.neutre { background: #efece4; color: #3a3935; }
 .etiquette.national { background: #efece4; color: #55534e; font-weight: 500; }
+/* Page Recommandations : cartes sur fond blanc, coins arrondis, ombre légère ; une couleur par type d'étiquette */
+div[class*="st-key-carte_reco_"] { background: #ffffff; border: 1px solid #e2dfd6 !important; border-radius: 18px !important; padding: 18px 20px !important;
+  box-shadow: 0 1px 6px rgba(13, 54, 107, 0.06); transition: transform 0.25s ease, box-shadow 0.25s ease; }
+div[class*="st-key-carte_reco_"]:hover { transform: translateY(-4px); box-shadow: 0 12px 28px rgba(13, 54, 107, 0.14); }
+@media (prefers-reduced-motion: reduce) { div[class*="st-key-carte_reco_"], div[class*="st-key-carte_reco_"]:hover { transform: none; transition: none; } }
+.reco-meta { margin-top: 10px; padding-bottom: 8px; }
+.reco-theme { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; }
+.reco-pastille { width: 34px; height: 34px; border-radius: 10px; display: inline-flex; align-items: center; justify-content: center; font-size: 1.1rem; flex-shrink: 0; }
+.reco-theme-lib { font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; }
+.theme-formels .reco-pastille { background: #e3eefb; } .theme-formels .reco-theme-lib { color: #1c5cab; }
+.theme-mm .reco-pastille { background: #fde8dd; } .theme-mm .reco-theme-lib { color: #b4451a; }
+.theme-couverture .reco-pastille { background: #e2f4ec; } .theme-couverture .reco-theme-lib { color: #11613f; }
+.theme-fibre .reco-pastille { background: #ece9fb; } .theme-fibre .reco-theme-lib { color: #4a3aa7; }
+.theme-prix .reco-pastille { background: #fbe4f0; } .theme-prix .reco-theme-lib { color: #a3246b; }
+.theme-competences .reco-pastille { background: #fdf0d2; } .theme-competences .reco-theme-lib { color: #6b4700; }
+.theme-investissement .reco-pastille { background: #dff3f6; } .theme-investissement .reco-theme-lib { color: #0e6475; }
+.etiquette.reco-priorite { background: #fdf0d2; color: #6b4700; }
+.etiquette.reco-nature { background: #ece9fb; color: #4a3aa7; }
+.etiquette.reco-horizon { background: #e2f4ec; color: #11613f; }
 .bloc-titre { font-family: 'Fraunces', Georgia, serif; font-size: 1.3rem; font-weight: 600; color: #141413; margin-bottom: 0.2rem; }
 .bloc-sous-titre { font-size: 0.86rem; color: #55534e; line-height: 1.45; margin-bottom: 0.4rem; }
 .constat { background: #e8f0fb; border: 1px solid #c7d8f0; border-radius: 14px; padding: 16px 18px; margin-bottom: 14px; }
@@ -117,8 +143,8 @@ h1, h2, h3 { font-family: 'Fraunces', Georgia, serif !important; font-weight: 60
    des trois colonnes (pas un ajustement au pixel près) : le sous-titre et la carte du logo Togo AI Lab (56px) ne
    doivent jamais toucher le bord de la barre, même si une police de repli change légèrement la hauteur du texte. */
 [data-testid="stVerticalBlockBorderWrapper"]:has(div.st-key-topbar) { margin-bottom: 0.8rem; }
-div.st-key-topbar { background: #ffffff; min-height: 92px; padding: 16px 0; box-shadow: 0 1px 8px rgba(13, 54, 107, 0.08);
-  margin-bottom: 0.6rem; box-sizing: border-box; }
+div.st-key-topbar { background: #ffffff; min-height: 92px; padding: 16px 22px; box-shadow: 0 1px 8px rgba(13, 54, 107, 0.08);
+  margin-bottom: 0.6rem; box-sizing: border-box; border: 1px solid #e2dfd6; border-radius: 18px; }
 div.st-key-topbar [data-testid="stHorizontalBlock"] { align-items: center; }
 div.st-key-topbar_droite { display: flex; align-items: center; justify-content: flex-end; gap: 8px; }
 div.st-key-topbar_droite button { padding: 0.15rem 0.55rem !important; min-height: 1.6rem !important; }
@@ -131,6 +157,11 @@ div.st-key-topbar_droite button { padding: 0.15rem 0.55rem !important; min-heigh
 /* Onglet actif de la barre latérale (page ouverte) : bordure arrondie jaune clair */
 [data-testid="stSidebarNavLink"] { border: 1.5px solid transparent; border-radius: 8px; }
 [data-testid="stSidebarNavLink"][aria-current="page"] { border-color: #fce588 !important; }
+
+/* Filtres de la barre latérale : titres de section (Région, Maille, Priorité, Milieu) en majuscules jaune clair, distincts des choix */
+[data-testid="stSidebar"] [data-testid="stWidgetLabel"] p { text-transform: uppercase; letter-spacing: 0.07em; font-size: 0.74rem !important;
+  font-weight: 700; color: #fce588 !important; }
+[data-testid="stSidebar"] [data-testid="stWidgetLabel"] { margin-top: 0.5rem; }
 
 /* Graphiques et cartes sur fond blanc, pour les distinguer du fond de la page */
 [data-testid="stPlotlyChart"] { background: #ffffff; border-radius: 10px; }

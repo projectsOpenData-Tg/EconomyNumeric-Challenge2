@@ -409,3 +409,60 @@ Branche de validation : `feature/jaune-clair-sidebar-tableaux` (créée depuis `
 - Bouton d'ouverture/fermeture de la barre latérale en jaune clair (`#fce588`), visible en permanence et plus seulement au survol.
 - Bordures et quadrillage des tableaux en jaune clair. *Retiré à l'itération 2 : la demande concernait l'onglet actif de la barre latérale.*
 - Fichiers : `dashboard/theme.py`, `.streamlit/config.toml`.
+
+---
+
+## Journal de la branche `feature/cartes-synthese-hover`
+
+Branche créée le 2026-09-28 depuis `dev`. Horodatage en UTC.
+
+## 2026-09-28 18:07 UTC — Effet de survol sur les cartes de synthèse
+
+- Les cartes de synthèse affichées en haut de chaque page (chiffres clés : ex. « Internet (2024) » sur la Synthèse nationale) réagissent au survol de la souris : la carte se soulève légèrement, sa bordure passe en jaune clair (`#fce588`) avec un halo, et un reflet lumineux la traverse de gauche à droite (effet « brillant »).
+- S'applique à toutes les pages qui affichent ces cartes : Synthèse, Internet, Offre, Population, Priorités, Diagnostic, Projections.
+- Désactivé pour les utilisateurs qui ont demandé moins d'animations dans leur système (`prefers-reduced-motion`).
+- Fichier : `dashboard/theme.py` (`.kpi`, `.kpi::after`, `.kpi:hover`).
+
+## 2026-09-28 18:09 UTC — Titres des cartes de synthèse en gras, couleur et majuscules
+
+- Le titre de chaque carte de synthèse (ex. « Internet (2024) » sur la Synthèse nationale, affiché désormais « INTERNET (2024) ») passe en **gras**, en **majuscules** et en **bleu foncé du thème** (`#0d366b`, la couleur des surtitres de page), au lieu du gris normal.
+- Taille légèrement réduite (0,76 rem) et interlettrage serré pour que les titres longs (« MARCHÉ DES TÉLÉCOMS (2025) ») tiennent sur deux lignes à côté de l'étiquette, sans décaler les chiffres d'une carte à l'autre.
+- S'applique à toutes les pages qui affichent ces cartes.
+- Fichier : `dashboard/theme.py` (`.kpi-libelle`).
+
+## 2026-09-28 18:44 UTC — Barre du haut arrondie
+
+- La barre du haut (armoiries, ministère, nom du projet, langue, logo Togo AI Lab) passe d'un rectangle à une **carte arrondie** : coins arrondis de 18 px, bordure fine `#e2dfd6`, ombre légère conservée.
+- Marges intérieures gauche et droite de 22 px, pour que les armoiries et le logo Togo AI Lab ne touchent pas les coins arrondis.
+- Fichier : `dashboard/theme.py` (`div.st-key-topbar`).
+
+## 2026-09-28 18:45 UTC — Page Recommandations : cartes sur fond blanc, étiquettes en couleur
+
+- Chaque carte de recommandation passe sur **fond blanc**, avec des coins arrondis (18 px), une bordure fine et une ombre légère, comme sur l'image de référence. Elles se détachent du fond beige de la page.
+- Les trois mini-étiquettes en bas de chaque carte ont chacune **leur couleur** au lieu du gris commun :
+  - **priorité** : jaune clair, texte brun (`#fdf0d2` / `#6b4700`), comme « Moyenne » sur l'image ; la priorité absolue (R1) reste en rouge ;
+  - **nature** (immédiate, conditionnelle, veille) : violet clair (`#ece9fb` / `#4a3aa7`) ;
+  - **horizon** (1 an, 3 ans, 5 ans) : vert clair (`#e2f4ec` / `#11613f`).
+- Le style ne touche que les cartes : elles ont une clé propre (`carte_reco_<id>`), distincte de celle des filtres Thème, Nature et Horizon (`reco_…`).
+- Fichiers : `dashboard/views/recommandations.py`, `dashboard/theme.py` (`st-key-carte_reco_`, `.etiquette.reco-priorite`, `.reco-nature`, `.reco-horizon`).
+
+## 2026-09-28 19:08 UTC — Page Recommandations : couleur et emoji par thème, espace en bas des cartes, survol
+
+- **Une couleur par thème** : le libellé du thème en tête de chaque carte prend la couleur de son thème, avec une pastille arrondie de la même teinte en clair, comme sur l'image de référence :
+  - 🏦 Points formels : bleu (`#1c5cab`) ;
+  - 📱 Mobile money : orange (`#b4451a`) ;
+  - 📡 Couverture réseau : vert (`#11613f`) ;
+  - 🌐 Fibre : violet (`#4a3aa7`) ;
+  - 💰 Prix et frais : magenta (`#a3246b`) ;
+  - 🎓 Compétences et équipement : ocre (`#6b4700`) ;
+  - 📈 Investissement (veille) : bleu canard (`#0e6475`).
+- **Emoji du thème** dans la pastille, placée devant le libellé du thème.
+- **Espace en bas des cartes** : les étiquettes priorité, nature et horizon ne collent plus au bord inférieur de la carte (marge de 10 px au-dessus, 8 px en dessous).
+- **Effet de survol sans couleur** : au passage de la souris, la carte se soulève de 4 px et son ombre s'agrandit ; ni la bordure ni le fond ne changent de couleur. Désactivé si l'utilisateur a demandé moins d'animations.
+- Fichiers : `dashboard/views/recommandations.py` (`EMOJI_THEME`, en-tête `.reco-theme`), `dashboard/theme.py` (`.reco-theme`, `.reco-pastille`, `.theme-*`, `.reco-meta`, survol `st-key-carte_reco_`).
+
+## 2026-09-28 19:09 UTC — Barre latérale : titres des filtres distincts de leurs choix
+
+- Dans la section Filtres de la barre latérale, les titres de chaque filtre (**RÉGION**, **MAILLE DE LA CARTE**, **PRIORITÉ**, **MILIEU**) passent en **majuscules**, en gras et en **jaune clair** (`#fce588`, la couleur d'accent de la barre latérale), avec un léger interlettrage. Les choix (Grand Lomé, Commune, Priorité haute…) restent en blanc : on distingue d'un coup d'œil le titre d'une section de son contenu.
+- Un peu d'espace ajouté au-dessus de chaque titre pour séparer les sections.
+- Fichier : `dashboard/theme.py` (`[data-testid="stSidebar"] [data-testid="stWidgetLabel"]`).
