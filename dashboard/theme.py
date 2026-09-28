@@ -61,6 +61,12 @@ h1, h2, h3 { font-family: 'Fraunces', Georgia, serif !important; font-weight: 60
 .etiquette.critique { background: #fbe3e2; color: #8a1c1b; }
 .etiquette.neutre { background: #efece4; color: #3a3935; }
 .etiquette.national { background: #efece4; color: #55534e; font-weight: 500; }
+/* Page Recommandations : cartes sur fond blanc, coins arrondis, ombre légère ; une couleur par type d'étiquette */
+div[class*="st-key-carte_reco_"] { background: #ffffff; border: 1px solid #e2dfd6 !important; border-radius: 18px !important; padding: 18px 20px !important;
+  box-shadow: 0 1px 6px rgba(13, 54, 107, 0.06); }
+.etiquette.reco-priorite { background: #fdf0d2; color: #6b4700; }
+.etiquette.reco-nature { background: #ece9fb; color: #4a3aa7; }
+.etiquette.reco-horizon { background: #e2f4ec; color: #11613f; }
 .bloc-titre { font-family: 'Fraunces', Georgia, serif; font-size: 1.3rem; font-weight: 600; color: #141413; margin-bottom: 0.2rem; }
 .bloc-sous-titre { font-size: 0.86rem; color: #55534e; line-height: 1.45; margin-bottom: 0.4rem; }
 .constat { background: #e8f0fb; border: 1px solid #c7d8f0; border-radius: 14px; padding: 16px 18px; margin-bottom: 14px; }

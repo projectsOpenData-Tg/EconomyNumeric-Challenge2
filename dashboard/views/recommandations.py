@@ -82,15 +82,15 @@ st.write("")
 cols = st.columns(3)
 for i, (idx, row) in enumerate(sf.iterrows()):
     with cols[i % 3]:
-        with st.container(border=True):
+        with st.container(border=True, key=f"carte_reco_{idx}"):
             st.markdown(f'<div class="action-titre" style="font-size:0.7rem;color:#0d366b;text-transform:uppercase;letter-spacing:0.05em">{html.escape(row.theme_lib)}</div>'
                         f'<div class="action-titre" style="min-height:3.4rem">{html.escape(TITRE[idx])}</div>'
                         f'<div class="kpi-phrase" style="margin:6px 0">{html.escape(str(row.cible))}</div>'
                         f'<div class="kpi-contexte">{html.escape(str(row.territoires))} · {nombre(int(row.population))} {bi("habitants concernés", "people concerned")}</div>'
                         f'<div class="action-meta" style="margin-top:8px">'
-                        f'<span class="etiquette {"critique" if idx=="R1" else "ok"}">{html.escape(PRIO_BADGE[idx])}</span>'
-                        f'<span class="etiquette neutre">{html.escape(row.nature)}</span>'
-                        f'<span class="etiquette neutre">{html.escape(row.horizon)}</span></div>', unsafe_allow_html=True)
+                        f'<span class="etiquette {"critique" if idx=="R1" else "reco-priorite"}">{html.escape(PRIO_BADGE[idx])}</span>'
+                        f'<span class="etiquette reco-nature">{html.escape(row.nature)}</span>'
+                        f'<span class="etiquette reco-horizon">{html.escape(row.horizon)}</span></div>', unsafe_allow_html=True)
 
 export_csv(sf.reset_index()[["id", "territoires", "population", "nature", "horizon", "cible"]], "recommandations.csv", "export_recos")
 

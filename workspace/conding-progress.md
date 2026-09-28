@@ -211,3 +211,13 @@ Branche créée le 2026-09-28 depuis `dev`. Horodatage en UTC.
 - La barre du haut (armoiries, ministère, nom du projet, langue, logo Togo AI Lab) passe d'un rectangle à une **carte arrondie** : coins arrondis de 18 px, bordure fine `#e2dfd6`, ombre légère conservée.
 - Marges intérieures gauche et droite de 22 px, pour que les armoiries et le logo Togo AI Lab ne touchent pas les coins arrondis.
 - Fichier : `dashboard/theme.py` (`div.st-key-topbar`).
+
+## 2026-09-28 18:45 UTC — Page Recommandations : cartes sur fond blanc, étiquettes en couleur
+
+- Chaque carte de recommandation passe sur **fond blanc**, avec des coins arrondis (18 px), une bordure fine et une ombre légère, comme sur l'image de référence. Elles se détachent du fond beige de la page.
+- Les trois mini-étiquettes en bas de chaque carte ont chacune **leur couleur** au lieu du gris commun :
+  - **priorité** : jaune clair, texte brun (`#fdf0d2` / `#6b4700`), comme « Moyenne » sur l'image ; la priorité absolue (R1) reste en rouge ;
+  - **nature** (immédiate, conditionnelle, veille) : violet clair (`#ece9fb` / `#4a3aa7`) ;
+  - **horizon** (1 an, 3 ans, 5 ans) : vert clair (`#e2f4ec` / `#11613f`).
+- Le style ne touche que les cartes : elles ont une clé propre (`carte_reco_<id>`), distincte de celle des filtres Thème, Nature et Horizon (`reco_…`).
+- Fichiers : `dashboard/views/recommandations.py`, `dashboard/theme.py` (`st-key-carte_reco_`, `.etiquette.reco-priorite`, `.reco-nature`, `.reco-horizon`).
