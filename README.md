@@ -8,6 +8,16 @@ Le livrable principal est un **tableau de bord Streamlit bilingue (français, an
 déjà calculées : il restitue les analyses, il ne recalcule rien (seule exception : les poids du score de priorité, que le
 lecteur peut déplacer, avec la même formule que le document de priorisation).
 
+
+Project accessible:
+
+
+```properties
+URL='https://togo-econum-finance-defi2-5d98fee2ba7c.herokuapp.com'
+
+URL2='https://togo-numeric-finance-defi2.streamlit.app/'
+```
+
 ## Lancer le tableau de bord
 
 ```bash
@@ -24,38 +34,38 @@ docker run -p 8501:8501 togo-econum-defi2      # puis http://localhost:8501
 
 ## Les 11 pages
 
-| Groupe | Page | Question |
-| --- | --- | --- |
-| Principal | Synthèse nationale | Le numérique et l'inclusion financière au Togo : où en est-on ? |
-| Analyses | Usage d'Internet (objectif 1) | L'usage progresse-t-il, et à quel prix ? |
-| | Marché des télécoms (objectif 2) | Qui tient le marché, et investit-il encore ? |
-| | Offre financière (objectif 3) | Où sont les établissements financiers ? |
-| | Population et offre (objectif 4) | Combien d'habitants par point, et où le mobile money est-il seul ? |
-| | Carte | Que voit-on, commune par commune ? |
-| Pilotage | Priorités (objectif 5) | Par quels territoires commencer ? |
-| | Diagnostic | Pourquoi ces territoires ? |
-| | Recommandations | Quelle action engager ? |
-| | Estimations et projections | Où va le Togo si l'on agit, et si rien ne change ? |
-| Méthodologie | Sources et méthode | Les données du défi, le rôle des sources externes, les 27 indicateurs, les conventions |
+| Groupe        | Page                                | Question                                                                                  |
+| ------------- | ----------------------------------- | ----------------------------------------------------------------------------------------- |
+| Principal     | Synthèse nationale                 | Le numérique et l'inclusion financière au Togo : où en est-on ?                        |
+| Analyses      | Usage d'Internet (objectif 1)       | L'usage progresse-t-il, et à quel prix ?                                                 |
+|               | Marché des télécoms (objectif 2) | Qui tient le marché, et investit-il encore ?                                             |
+|               | Offre financière (objectif 3)      | Où sont les établissements financiers ?                                                 |
+|               | Population et offre (objectif 4)    | Combien d'habitants par point, et où le mobile money est-il seul ?                       |
+|               | Carte                               | Que voit-on, commune par commune ?                                                        |
+| Pilotage      | Priorités (objectif 5)             | Par quels territoires commencer ?                                                         |
+|               | Diagnostic                          | Pourquoi ces territoires ?                                                                |
+|               | Recommandations                     | Quelle action engager ?                                                                   |
+|               | Estimations et projections          | Où va le Togo si l'on agit, et si rien ne change ?                                       |
+| Méthodologie | Sources et méthode                 | Les données du défi, le rôle des sources externes, les 27 indicateurs, les conventions |
 
 Chaque page d'analyse est découpée en sous-onglets (une vue synthèse, puis une vue par analyse), porte son constat et sa
 limite, et suit les filtres de la barre latérale (région, maille commune ou préfecture, priorité, milieu).
 
 ## La démarche, document par document
 
-| Document | Étape |
-| --- | --- |
-| `01_problem_definition.md` | le problème, les 5 objectifs, l'ordre de traitement |
-| `02_decision_matrix.*` | la matrice de décision : indicateurs, règles de classe et seuils, fixés avant tout calcul |
-| `03_data_understanding.md` | les 6 jeux de données du défi, leurs manques, les sources complémentaires |
-| `04_data_Preparation.md` | la préparation : référentiel territorial, population, points de service, séries |
-| `05_data_analysis.md` | l'exploration : offre, population, séries nationales, disparités, contradictions |
-| `06_data_spatial_analysis.md` | l'analyse spatiale : cartes, voisinage, distances |
-| `07_indicators.md` | les 27 indicateurs des objectifs 1 à 4, avec leurs classes et leurs limites |
-| `08_prioritization.md` | le score de priorité des 39 préfectures, sa robustesse |
-| `09_diagnostic.md` | le diagnostic des 10 préfectures prioritaires et des 25 communes signalées |
-| `10_recommendations.md` | 12 recommandations chiffrées, leur ordre, leurs acteurs, le suivi des cibles |
-| `Togo-Economie-Numerique-Defi2.pptx` | la présentation des résultats, pour le décideur |
+| Document                               | Étape                                                                                       |
+| -------------------------------------- | -------------------------------------------------------------------------------------------- |
+| `01_problem_definition.md`           | le problème, les 5 objectifs, l'ordre de traitement                                         |
+| `02_decision_matrix.*`               | la matrice de décision : indicateurs, règles de classe et seuils, fixés avant tout calcul |
+| `03_data_understanding.md`           | les 6 jeux de données du défi, leurs manques, les sources complémentaires                 |
+| `04_data_Preparation.md`             | la préparation : référentiel territorial, population, points de service, séries          |
+| `05_data_analysis.md`                | l'exploration : offre, population, séries nationales, disparités, contradictions           |
+| `06_data_spatial_analysis.md`        | l'analyse spatiale : cartes, voisinage, distances                                            |
+| `07_indicators.md`                   | les 27 indicateurs des objectifs 1 à 4, avec leurs classes et leurs limites                 |
+| `08_prioritization.md`               | le score de priorité des 39 préfectures, sa robustesse                                     |
+| `09_diagnostic.md`                   | le diagnostic des 10 préfectures prioritaires et des 25 communes signalées                 |
+| `10_recommendations.md`              | 12 recommandations chiffrées, leur ordre, leurs acteurs, le suivi des cibles                |
+| `Togo-Economie-Numerique-Defi2.pptx` | la présentation des résultats, pour le décideur                                           |
 
 ## Organisation du dépôt
 
