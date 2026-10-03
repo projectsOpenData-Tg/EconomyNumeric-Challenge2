@@ -181,6 +181,8 @@ Contenu principal : `padding-top 0.6rem`, `padding-bottom 2rem`, `padding-left/r
   padding-right: 1.5rem !important; max-width: 100% !important; }
 ```
 
+⚠️ `padding-top: 0.6rem` ne tient que si l'en-tête de Streamlit est transparent. Selon l'hébergement, il ne l'est pas toujours : voir section 4, « Contrainte : l'en-tête de Streamlit selon l'hébergement ».
+
 ---
 
 ## 3. Disposition générale de l'écran
@@ -215,6 +217,7 @@ Contenu principal : `padding-top 0.6rem`, `padding-bottom 2rem`, `padding-left/r
 - La barre du haut et le pied de page **ne sont pas collants** : la barre du haut est le premier élément du contenu, le pied le dernier, et les deux défilent avec la page. Ils sont identiques sur les 11 pages.
 - La barre du haut est rendue une fois dans `app.py`, avant `navigation.run()`. Le pied est appelé (`pied()`) à la fin de chaque page.
 - La barre latérale garde la largeur par défaut de Streamlit, redimensionnable à la souris.
+- Au-dessus de la barre du haut se trouve l'en-tête de Streamlit (`stHeader`), qui n'apparaît pas sur le schéma. Il reste invisible en local et sur Heroku tant que la barre latérale est ouverte. Il devient une bande opaque d'environ 60 px sur Streamlit Community Cloud, ou quand la barre latérale est fermée (section 4).
 
 ---
 
@@ -262,6 +265,46 @@ div.st-key-topbar_droite button { padding: 0.15rem 0.55rem !important; min-heigh
 | Droite | colonnes internes `[1, 1, 2]` : bouton FR, bouton EN, carte du logo | bouton de la langue active en `type="primary"` (plein, bleu foncé), l'autre en `secondary`. Clic : `st.session_state["lang"] = "fr"/"en"` puis `st.rerun()` |
 
 **Fichier à fournir** : `static/logo_togo_ai_lab.png`. Tant qu'il manque, la carte affiche le texte de repli « TOGO / AI LAB » en rouge.
+
+### Contrainte : l'en-tête de Streamlit selon l'hébergement
+
+**Constat du 03/10/2026.** Sur Streamlit Community Cloud, le haut de la barre du haut est caché : on ne voit plus que le bas du titre et des boutons FR/EN. Le même code s'affiche entièrement sur Heroku.
+
+**Mécanisme** (lu dans le code de Streamlit 1.61.1) :
+- Streamlit place son propre en-tête au-dessus du contenu : `<header class="stAppHeader" data-testid="stHeader">`, en position absolue en haut de la page, haut d'environ 3,75rem (60 px), et placé au-dessus du contenu.
+- **S'il n'a rien à afficher**, il est vide, transparent, et laisse passer les clics (`pointer-events: none`).
+- **Dès qu'il affiche quelque chose**, il prend la couleur du fond de la page (`#f4f2ec`), devient opaque, et contient alors un bloc `[data-testid="stToolbar"]`.
+- Il a quelque chose à afficher dans quatre cas :
+  - la barre latérale est fermée : il porte le bouton de réouverture `stExpandSidebarButton` ;
+  - un logo est affiché alors que la barre latérale est fermée ;
+  - le menu est placé en haut de page (`position="top"`) ;
+  - la barre d'outils contient des boutons, notamment ceux que l'hébergeur ajoute (`stToolbarActions`).
+
+**Conséquence selon le lieu de déploiement**, avec `padding-top: 0.6rem` :
+
+| Hébergement | Barre latérale | En-tête de Streamlit | Barre du haut |
+| --- | --- | --- | --- |
+| Local, Docker, Heroku | ouverte | transparent, vide | entièrement visible |
+| Local, Docker, Heroku | fermée | opaque (bouton de réouverture) | **haut caché** |
+| Streamlit Community Cloud | ouverte ou fermée | opaque : la plateforme y ajoute ses boutons « Fork » et GitHub | **haut caché** |
+
+**Ce qui ne marche pas :**
+- `toolbarMode = "minimal"` (`.streamlit/config.toml`) masque le menu de Streamlit, mais pas les boutons ajoutés par l'hébergeur. D'après les réponses du forum Streamlit, aucun réglage ne retire « Fork » et GitHub quand l'application vient d'un dépôt public. Seul un dépôt privé les retire, et Streamlit Cloud n'accepte alors qu'une seule application privée gratuite.
+- **Masquer tout l'en-tête** (`[data-testid="stHeader"] { display: none; }`) : à proscrire. Il contient le bouton qui rouvre la barre latérale : une fois la barre fermée, le lecteur ne pourrait plus la rouvrir, ni accéder au menu et aux filtres.
+- **Mettre `padding-top: 4.4rem` partout** : cela laisse une bande vide de 60 px en haut de page en local et sur Heroku.
+- **Masquer seulement « Fork » et GitHub** (`[data-testid="stToolbarActions"] { display: none; }`) : l'en-tête reste opaque, simplement vide, et couvre toujours la barre du haut.
+
+**Règle à appliquer.** Elle est **absente de `dashboard/theme.py` au 03/10/2026** et doit être ajoutée à la réécriture. Le principe : réserver la hauteur de l'en-tête **seulement quand il est visible**. L'en-tête ne contient un bloc `stToolbar` que dans ce cas, et `:has()` permet de le détecter :
+
+```css
+/* L'en-tête de Streamlit devient opaque dès qu'il affiche un bouton (Fork et GitHub sur Streamlit Cloud,
+   bouton de réouverture de la barre latérale) : le contenu descend alors de sa hauteur. */
+body:has([data-testid="stHeader"] [data-testid="stToolbar"]) [data-testid="stMainBlockContainer"] { padding-top: 4.4rem; }
+```
+
+4.4rem correspond à la hauteur de l'en-tête (3,75rem), plus l'espace habituel (0,6rem). `:has()` est déjà utilisé par le thème, et il est pris en charge par les navigateurs actuels (Chrome 105+, Safari 15.4+, Firefox 121+).
+
+**Facultatif** : `[data-testid="stToolbarActions"] { display: none; }` masque en plus « Fork » et GitHub sur Streamlit Cloud. Streamlit ne prend pas cette astuce en charge, et une mise à jour peut la casser. Il faut la revérifier après chaque montée de version.
 
 ---
 
@@ -900,6 +943,8 @@ Notation : `[a, b]` = rapport de largeur des colonnes (`st.columns([a, b], gap="
 | Plotly `fitbounds` | le Togo apparaît minuscule | cadrage lon/lat explicite |
 | `AppTest` | ne rejoue pas le point d'entrée au changement de page ; échoue sur un `selectbox` à `format_func` rejoué | tests par page ; libellés directs dans les listes |
 | Images dans le HTML | chemin `app/static/<fichier>` | `enableStaticServing = true` |
+| En-tête de Streamlit (`stHeader`) | transparent en local et sur Heroku avec la barre latérale ouverte ; opaque, sur environ 60 px, sur Streamlit Cloud (boutons Fork et GitHub) ou avec la barre latérale fermée : le haut de la barre du haut est caché | ne pas masquer l'en-tête ; réserver sa hauteur seulement quand il contient `stToolbar` (section 4, « Contrainte : l'en-tête de Streamlit selon l'hébergement ») |
+| `toolbarMode = "minimal"` | ne retire pas les boutons ajoutés par l'hébergeur | dépôt privé, ou CSS sur `stToolbarActions` (non pris en charge par Streamlit) |
 
 ---
 
@@ -908,6 +953,8 @@ Notation : `[a, b]` = rapport de largeur des colonnes (`st.columns([a, b], gap="
 - [ ] Les 11 pages et tous leurs onglets s'ouvrent sans erreur, en français et en anglais (référence : [tests/test_pages.py](../tests/test_pages.py)).
 - [ ] Aucun sigle, code interne ni nom de source hors de la page Sources et méthode.
 - [ ] La barre du haut et le pied de page sont identiques sur chaque page ; le bouton de langue actif est plein.
+- [ ] La barre du haut est entièrement visible et ses boutons FR/EN sont cliquables, sur **chaque hébergement visé** (local ou Docker, Heroku, Streamlit Community Cloud), **barre latérale ouverte puis fermée**.
+- [ ] Une fois fermée, la barre latérale se rouvre par le bouton de l'en-tête.
 - [ ] Le lien actif du menu est cerclé de jaune clair ; les titres des filtres sont en majuscules jaunes.
 - [ ] Dans une rangée de chiffres clés, toutes les cartes ont la même hauteur et les valeurs sont alignées ; la rangée passe à la ligne sur un écran étroit.
 - [ ] Chaque carte de chiffre clé suit l'ordre libellé → valeur → phrase → contexte → réserve.
