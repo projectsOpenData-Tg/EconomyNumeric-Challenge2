@@ -1,0 +1,19 @@
+# Dépendances du tableau de bord pour Streamlit Community Cloud — copie conforme de
+# requirements-runtime.txt.
+#
+# Community Cloud cherche d'abord un requirements.txt dans le dossier du point d'entrée
+# (dashboard/app.py), puis à la racine. Sans ce fichier, il installe le requirements.txt de
+# la racine, c'est-à-dire tout le projet (préparation, analyses, rapport, CI). Avec lui, il
+# n'installe que les paquets que le tableau de bord importe.
+#
+# Mêmes paquets et mêmes versions que requirements-runtime.txt : modifiez les deux ensemble.
+# `scripts/check_requirements_sync.py` fait échouer la CI s'ils divergent.
+
+streamlit==1.61.1
+pandas==3.0.5
+numpy==2.4.6
+plotly==6.9.0
+geopandas==1.1.4
+shapely==2.1.2
+pyogrio==0.13.0
+pyproj==3.7.2

@@ -7,7 +7,7 @@ valent deux occasions de se tromper : monter pandas d'un côté seulement, et la
 ne tourne plus sur les versions avec lesquelles les scripts `prep/` et `analyse/` ont
 produit les tables que le tableau de bord lit.
 
-Ce script est la contrepartie du découpage. Il impose deux règles :
+Ce script est la contrepartie du découpage. Il impose trois règles :
 
   1. tout paquet de requirements-runtime.txt figure aussi dans requirements.txt ;
   2. les deux fichiers lui donnent exactement le même spécificateur de version.
@@ -15,6 +15,10 @@ Ce script est la contrepartie du découpage. Il impose deux règles :
 L'inverse n'est pas vérifié : requirements.txt contient légitimement des paquets absents du
 runtime — PyMuPDF, openpyxl et pyreadstat ne servent qu'à la préparation (`prep/`),
 matplotlib et scipy qu'aux figures et aux analyses (`analyse/`), pytest et ruff qu'à la CI.
+
+  3. dashboard/requirements.txt est une copie conforme du runtime (mêmes paquets, mêmes
+     pins, dans les deux sens) : c'est le fichier qu'installe Streamlit Community Cloud,
+     qui cherche d'abord un requirements.txt dans le dossier de `dashboard/app.py`.
 
     python scripts/check_requirements_sync.py     # 0 si tout concorde, 1 sinon
 """
@@ -24,6 +28,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 PROJET = ROOT / "requirements.txt"
 RUNTIME = ROOT / "requirements-runtime.txt"
+CLOUD = ROOT / "dashboard" / "requirements.txt"
 
 # Bornes des noms de paquets dans une ligne d'exigence. `==` en tête : c'est la forme
 # utilisée par le dépôt, et la seule qui garantisse la reproductibilité revendiquée.
@@ -60,7 +65,7 @@ def normaliser(nom):
 
 
 def main():
-    for chemin in (PROJET, RUNTIME):
+    for chemin in (PROJET, RUNTIME, CLOUD):
         if not chemin.exists():
             print(f"ERREUR : {chemin.relative_to(ROOT)} est introuvable.")
             return 1
@@ -92,20 +97,33 @@ def main():
                 f"Alignez les deux sur la version avec laquelle le projet a été vérifié."
             )
 
+    # Règle 3 : dashboard/requirements.txt (Streamlit Community Cloud) = runtime, dans les deux sens
+    cloud = lire(CLOUD)
+    for nom in sorted(set(runtime) | set(cloud)):
+        if nom not in cloud:
+            problemes.append(f"dashboard/requirements.txt — « {nom} » manque (présent dans requirements-runtime.txt).")
+        elif nom not in runtime:
+            problemes.append(f"dashboard/requirements.txt:{cloud[nom][1]} — « {nom} » est absent de requirements-runtime.txt.")
+        elif cloud[nom][0] != runtime[nom][0]:
+            problemes.append(
+                f"dashboard/requirements.txt:{cloud[nom][1]} — « {nom} » diverge : {cloud[nom][0]} ici, "
+                f"{runtime[nom][0]} en requirements-runtime.txt:{runtime[nom][1]}."
+            )
+
     if problemes:
         print(f"Désynchronisation des dépendances — {len(problemes)} problème(s) :\n")
         for probleme in problemes:
             print(f"  • {probleme}")
         print(
-            "\nLes deux fichiers doivent rester alignés : la production tourne sur "
-            "requirements-runtime.txt, mais les chiffres du dépôt ont été produits avec "
-            "requirements.txt."
+            "\nLes fichiers doivent rester alignés : la production tourne sur "
+            "requirements-runtime.txt (Docker) et dashboard/requirements.txt (Streamlit Community "
+            "Cloud), mais les chiffres du dépôt ont été produits avec requirements.txt."
         )
         return 1
 
     print(
         f"Dépendances synchronisées : les {len(runtime)} paquets du runtime portent le même "
-        f"pin qu'en requirements.txt."
+        f"pin qu'en requirements.txt, et dashboard/requirements.txt en est une copie conforme."
     )
     return 0
 
